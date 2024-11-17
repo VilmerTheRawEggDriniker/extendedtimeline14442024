@@ -1,0 +1,38 @@
+
+state={
+	id=778
+	name="STATE_778" # Upper Volta
+	manpower = 3000000
+	
+	state_category = pastoral
+	history={
+		owner = ZZZ
+				1900.1.1 = {
+        owner = SEN
+        }
+		1939.1.1 = {
+        owner = SEN
+		}
+		1900.1.1 = {
+		add_core_of = VOL
+                }
+		1970.1.1 = {
+                owner = VOL
+		add_core_of = VOL
+                }
+		1900.1.1 = {
+		victory_points = {
+			10836 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2001 7950 7983 8071 10836 12851
+	}
+
+	local_supplies=1.0 
+}

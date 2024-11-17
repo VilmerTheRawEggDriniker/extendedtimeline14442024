@@ -1,0 +1,32 @@
+state={
+	id=854
+	name="STATE_854"
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = FRA
+		add_core_of = DJI
+		add_core_of = AFA
+                }
+		1899.1.1 = {
+		victory_points = {
+			4985 1 
+		}
+                }
+		1978.1.1 = {
+			owner = DJI
+			controller = DJI
+            remove_core_of = YUG
+		}
+		buildings = {
+			infrastructure = 0
+                        }
+	}
+	provinces={
+		4985 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

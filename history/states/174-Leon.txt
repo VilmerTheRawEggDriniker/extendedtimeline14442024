@@ -1,0 +1,49 @@
+
+state={
+	id=174
+	name="STATE_174"
+	resources={
+		tungsten=20.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			726 1 
+		}
+		victory_points = {
+			3874 1 
+		}
+				        1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+					FRA = {
+				set_province_controller = 918
+				set_province_controller = 920
+				set_province_controller = 6746
+				set_province_controller = 726
+				set_province_controller = 14486
+				set_province_controller = 3918
+				set_province_controller = 3920
+				set_province_controller = 14499
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		726 794 874 918 920 3725 3727 3874 3918 3920 6746 6867 6907 9699 9770 11843 13219 13221 13232 14477 14478 14486 14490 14499 14503 14505 
+	}
+	manpower=2108655
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=12.000
+}

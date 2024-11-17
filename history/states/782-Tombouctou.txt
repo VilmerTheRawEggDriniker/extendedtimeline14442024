@@ -1,0 +1,36 @@
+
+state={
+	id=782
+	name="STATE_782"
+
+	history={
+		owner = ZZZ
+				1900.1.1 = {
+        owner = SEN
+        }
+		1939.1.1 = {
+        owner = SEN
+		}
+		1900.1.1 = {
+		add_core_of = MLI
+                }
+		1970.1.1 = {
+                owner = MLI
+		add_core_of = MLI
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1115 2044 2068 5101 10725 10788 10868 
+	}
+	manpower=79243
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+      impassable = yes
+	local_supplies=0.000
+}

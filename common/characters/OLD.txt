@@ -1,0 +1,31 @@
+characters={
+	OLD_peteri={
+		name=OLD_CHARACTER_PETERI
+		portraits={
+			civilian={
+				large="GFX_portrait_old_peteri_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Oldenburg}
+			desc = OLD_PETERI_DESC
+			expire="1797.1.1"
+		}
+}
+	OLD_augustusi={
+		name=OLD_CHARACTER_AUGUSTUSI
+		portraits={
+			civilian={
+				large="GFX_portrait_old_augustusi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Oldenburg}
+			desc = OLD_AUGUSTUSI_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

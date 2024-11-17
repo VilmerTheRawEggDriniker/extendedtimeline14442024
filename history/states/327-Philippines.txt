@@ -1,0 +1,59 @@
+state=
+{
+	id=327
+	name="STATE_327" # Luzon
+	manpower = 3548684
+	
+	state_category = town
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+		}
+		1599.1.1 = {
+		victory_points = {
+			10265 20 
+		}
+		victory_points = {
+			1221 1 
+		}
+		}
+				1789.1.1 = {
+        add_core_of = PHI
+        owner = MEX
+        }
+		1836.1.1 = {
+        add_core_of = PHI
+        owner = SPR
+        }
+		1598.1.1 = {
+		buildings = {
+			infrastructure = 1 #was: 5
+			10265 = {
+				naval_base = 5
+			}
+		}
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 6
+			10265 = {
+				naval_base = 5
+			}
+		}
+		}
+		1900.1.1 = {
+            add_core_of = PHI
+            owner = PHI
+		}
+		buildings = {
+			infrastructure = 0
+	}
+	}
+	provinces={1221 1288 7275 7323 7351 10165 10236 10265 12236}
+	local_supplies=0.0 
+}

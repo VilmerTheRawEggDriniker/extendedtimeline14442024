@@ -1,0 +1,54 @@
+
+state={
+	id=657
+	name="STATE_657"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		add_core_of = QIN
+                owner = QIN
+                }
+	    1860.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+		remove_core_of=QIN
+        }
+		1936.1.1 = {
+		add_core_of = FER
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+
+	}
+
+	provinces={
+		675 4246 4805 7672 7801 10722 12192 12261 12263 12678 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

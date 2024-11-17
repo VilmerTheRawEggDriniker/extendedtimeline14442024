@@ -1,0 +1,467 @@
+ideas = {
+	country = {
+		fifteenth_century = {
+			picture = century
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = -0.99
+industrial_capacity_factory = -0.99
+
+
+			}
+		}
+				sixteenth_century = {
+			picture = century
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = -0.89
+industrial_capacity_factory = -0.89
+
+			}
+		}
+				seventeenth_century = {
+			picture = century
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = -0.79
+industrial_capacity_factory = -0.79
+
+			}
+		}
+				eighteenth_century = {
+			picture = century
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = -0.69
+industrial_capacity_factory = -0.69
+  guarantee_cost =100
+guarantee_tension = 100
+			}
+		}
+				nineteenth_century = {
+			picture = century
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = -0.59
+                        industrial_capacity_factory = -0.59
+guarantee_cost =1000
+guarantee_tension = 1000
+			}
+		}
+				twentieth_century = {
+			picture = century
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = -0.49
+industrial_capacity_factory = -0.49
+
+			}
+		}
+				twentyfirst_century = {
+			picture = century
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = -0.39
+industrial_capacity_factory = -0.39
+
+			}
+		}
+			russians_in_paris = {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			army_core_defence_factor = 0.01
+			attrition = -0.01
+			}
+		}
+
+			houston = {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			targeted_modifier = {
+			tag = MEX
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+
+			}
+		}
+					losangeles = {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			targeted_modifier = {
+			tag = MEX
+			attack_bonus_against = 0.2
+			defense_bonus_against = 0.2
+			}
+		}
+					sanfrancisco = {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			targeted_modifier = {
+			tag = MEX
+			attack_bonus_against = 0.3
+			defense_bonus_against = 0.3
+			}
+		}
+					miami = {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			targeted_modifier = {
+			tag = MEX
+			attack_bonus_against = 0.4
+			defense_bonus_against = 0.4
+
+			}
+		}
+		sov_stalingrad= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			tag = GER
+			attack_bonus_against = 0.50
+			defense_bonus_against = 0.50
+			weekly_manpower = -45000
+			conscription = 0.1
+
+			}
+		}
+				ger_stalingrad= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			tag = SOV
+			attack_bonus_against = -0.05
+			defense_bonus_against = -0.05
+			weekly_manpower = -30000
+
+			}
+		}
+						ita_stalingrad= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			tag = SOV
+			attack_bonus_against = -0.05
+			defense_bonus_against = -0.05
+			weekly_manpower = -2000
+
+			}
+		}
+						rom_stalingrad= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			tag = SOV
+			attack_bonus_against = -0.05
+			defense_bonus_against = -0.05
+			weekly_manpower = -2000
+
+			}
+		}
+						hun_stalingrad= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			tag = SOV
+			attack_bonus_against = -0.05
+			defense_bonus_against = -0.05
+			weekly_manpower = -2000
+
+			}
+		}
+						cro_stalingrad= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			tag = SOV
+			attack_bonus_against = -0.05
+			defense_bonus_against = -0.05
+			weekly_manpower = -2000
+
+			}
+		}
+							hun_balance_of_power= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			industrial_capacity_factory = -0.1
+			industrial_capacity_dockyard = -0.1
+			justify_war_goal_time = 0.1
+			army_speed_factor = -0.1
+			}
+		}
+								delusional_expansionism= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			army_attack_factor = 0.1
+		    army_defence_factor = 0.1
+			}
+		}
+										tissue_necrosis= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			army_attack_factor = -1
+		    army_defence_factor = -1
+			conscription = -10
+			industrial_capacity_factory = -1
+			production_speed_buildings_factor = -1
+			training_time_factor = 1
+			consumer_goods_expected_value = 1
+			generate_wargoal_tension = 10
+			join_faction_tension = 10
+			send_volunteers_tension = 1
+			guarantee_tension = 1
+			drift_defence_factor = 1
+			enemy_justify_war_goal_time = 100
+                        political_power_gain = -1000
+			
+			}
+		}
+			russian_jewry= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			stability_weekly = -0.001
+			}
+		}
+			alleged_backwardness= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			army_attack_factor = -0.1
+		    army_defence_factor = -0.05
+			production_speed_buildings_factor = -0.1
+			}
+		}
+			small_civ_boost= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+		    industrial_capacity_factory = -0.01
+			production_speed_buildings_factor = 0.01
+			}
+		}
+	}
+}
+	
+

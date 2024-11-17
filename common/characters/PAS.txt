@@ -1,0 +1,17 @@
+characters={
+	PAS_joseph_franz_auersperg={
+		name=PAS_CHARACTER_JOSEPH_FRANZ_AUERSPERG
+		portraits={
+			civilian={
+				large="GFX_portrait_pas_joseph_franz_auersperg_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+                        traits={Auersperg}
+			desc = PAS_JOSEPH_FRANZ_AUERSPERG_DESC
+			expire = "1795.8.21"
+		}
+	}
+}
+

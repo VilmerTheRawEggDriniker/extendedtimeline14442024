@@ -1,0 +1,48 @@
+
+state={
+	id=412
+	name="STATE_412"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		owner = TIM
+		add_core_of = TIM
+		1500.1.1 = {
+		add_core_of = PER
+		remove_core_of = TIM
+		owner = PER
+		}
+		victory_points = {
+			8117 3 
+		}
+		victory_points = {
+			7982 3 
+		}
+		victory_points = {
+			12832 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			7982 = {
+				naval_base = 4
+
+			}
+			12832 = {
+				naval_base = 2
+
+			}
+
+		}
+	}
+
+	provinces={
+		1889 4959 4966 5089 7982 8117 10797 10881 12832 12863 
+	}
+	manpower=918619
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

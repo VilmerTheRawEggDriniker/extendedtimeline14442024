@@ -1,0 +1,57 @@
+
+state={
+	id=28
+	name="STATE_28"
+	resources={
+		steel=100.000
+	}
+
+	history={
+		owner = STS
+		add_core_of = STS
+		1689.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = STS
+
+		}
+		victory_points = {
+			9503 10 
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		1871.1.1 = {
+			owner = GER
+			add_core_of = GER
+			controller = GER
+
+		}
+		1919.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = GER
+			controller = FRA
+
+		}
+		1900.1.1 = {
+		buildings = {
+			9503 = {
+				bunker = 10
+
+			}
+
+		}
+		}
+
+	}
+
+	provinces={
+		9503 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=14.000
+}

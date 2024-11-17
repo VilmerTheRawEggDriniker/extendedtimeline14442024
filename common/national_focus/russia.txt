@@ -1,0 +1,7449 @@
+﻿focus_tree = {
+	id = russian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ISI
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+continuous_focus_position = { x = 1200 y = 3000 }
+	
+	default = no
+	focus = {
+		id = russianempire_1789_1815_first_50_focus_1
+		icon = GFX_
+
+		x = 2
+		y = 1
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		OTO={add_stability=-0.1 add_manpower = -20000}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_2
+		icon = GFX_
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 4
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_3
+		icon = GFX_
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 6
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_state_claim = 192
+		add_state_claim = 1204
+		add_state_claim = 834
+		add_state_claim = 1228
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_4
+		icon = GFX_
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 8
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_5
+		icon = GFX_
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 10
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_6
+		icon = GFX_
+
+		x = 2
+		y = 2
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_7
+		icon = GFX_
+
+		x = 4
+		y = 2
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+								add_victory_points = {
+			  province = 11683
+			  value = 10
+			}
+							197 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+											197 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_8
+		icon = GFX_
+
+		x = 6
+		y = 2
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+													195 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_9
+		icon = GFX_
+
+		x = 8
+		y = 2
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+												    219 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_10
+		icon = GFX_
+
+		x = 10
+		y = 2
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_war_support=0.1
+		if={
+		limit={
+		or={
+		has_war_with = WAL
+		has_war_with = MOL
+		}
+		}
+		RUS={country_event = russianempire_1789_1812.18}
+		}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_11
+		icon = GFX_
+
+		x = 2
+		y = 3
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_12
+		icon = GFX_
+		x = 4
+		y = 3
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_political_power=-150
+															137 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+															218 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_13
+		icon = GFX_
+
+		x = 6
+		y = 3
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_14
+		icon = GFX_goal_yugoslavia
+
+		x = 8
+		y = 3
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_war_support = -0.05
+		SWE={add_war_support = -0.2}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_15
+		icon = GFX_
+
+		x = 10
+		y = 3
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_16
+		icon = GFX_
+
+		x = 2
+		y = 4
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_17
+		icon = GFX_
+
+		x = 4
+		y = 4
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_18
+		icon = GFX_
+
+		x = 6
+		y = 4
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_19
+		icon = GFX_
+
+		x = 8
+		y = 4
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_20
+		icon = GFX_
+
+		x = 10
+		y = 4
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_21
+		icon = GFX_
+
+		x = 2
+		y = 5
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_22
+		icon = GFX_
+
+		x = 4
+		y = 5
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	}
+		}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_23
+		icon = GFX_
+
+		x = 6
+		y = 5
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_24
+		icon = GFX_
+
+		x = 8
+		y = 5
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_25
+		icon = GFX_
+
+		x = 10
+		y = 5
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_state_claim = 473
+		add_state_claim = 1022
+		add_state_claim = 385
+		add_state_claim = 386
+		add_state_claim = 912
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_26
+		icon = GFX_
+
+		x = 2
+		y = 6
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_27
+		icon = GFX_
+
+		x = 4
+		y = 6
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_28
+		icon = GFX_
+
+		x = 6
+		y = 6
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_29
+		icon = GFX_
+
+		x = 8
+		y = 6
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_30
+		icon = GFX_
+
+		x = 10
+		y = 6
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_31
+		icon = GFX_
+
+		x = 2
+		y = 7
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_32
+		icon = GFX_
+
+		x = 4
+		y = 7
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_33
+		icon = GFX_
+
+		x = 6
+		y = 7
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_34
+		icon = GFX_goal_jews_enslaving_ukraine
+
+		x = 8
+		y = 7
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+				ENG = {
+		add_opinion_modifier = { target = RUS modifier=RUS_pale_of_settlement}
+		}
+		add_political_power = -250
+		remove_ideas={russian_jewry}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_35
+		icon = GFX_goal_jews_enslaving_ukraine
+
+		x = 10
+		y = 7
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_36
+		icon = GFX_
+
+		x = 2
+		y = 8
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+			RUS={
+    add_state_core = 192
+	add_state_core = 1204
+	add_state_core = 1228
+	add_state_core = 834
+	}
+	hidden_effect={
+				ZAP={
+    remove_state_core = 192
+	remove_state_core = 1204
+	remove_state_core = 1228
+	remove_state_core = 834
+	}
+					RUS={
+    remove_state_claim = 192
+	remove_state_claim = 1204
+	remove_state_claim = 1228
+	remove_state_claim = 834
+	}
+	}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_37
+		icon = GFX_
+
+		x = 4
+		y = 8
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+										add_victory_points = {
+			  province = 588
+			  value = 2
+			}
+										1201 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+											1201 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+        
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_38
+		icon = GFX_
+
+		x = 6
+		y = 8
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_39
+		icon = GFX_
+
+		x = 8
+		y = 8
+		will_lead_to_war_with = AUS
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_40
+		icon = GFX_goal_polandwarrussia
+
+		x = 10
+		y = 8
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+			    declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_41
+		icon = GFX_
+
+		x = 2
+		y = 9
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_42
+		icon = GFX_
+
+		x = 4
+		y = 9
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_43
+		icon = GFX_
+
+		x = 6
+		y = 9
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_44
+		icon = GFX_
+
+		x = 8
+		y = 9
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+													add_victory_points = {
+			  province = 7884
+			  value = 1
+			}
+								random_list = {
+        20 = {	
+										463 = {
+					if = {
+					limit = {
+						or={
+						 is_controlled_by = ROOT 
+                         is_controlled_by = ALA
+						}
+					}
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+		 80 = {	
+		 }
+				}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_45
+		icon = GFX_
+
+		x = 10
+		y = 9
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+											add_victory_points = {
+			  province = 741
+			  value = 5
+			}
+										834 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+											834 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_46
+		icon = GFX_
+
+		x = 2
+		y = 10
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_47
+		icon = GFX_
+
+		x = 4
+		y = 10
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_48
+		icon = GFX_goal_polandwarrussia
+
+		x = 6
+		y = 10
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+has_country_flag=treaty_secondpartion_flag
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		       		RUS={
+		transfer_state = 1225
+		transfer_state = 194
+		transfer_state = 204
+		transfer_state = 206
+		transfer_state = 201
+		transfer_state = 966
+		transfer_state = 1220
+		transfer_state = 199
+		transfer_state = 203
+		transfer_state = 198
+		transfer_state = 1203
+		transfer_state = 1226
+		transfer_state = 1229
+		transfer_state = 915
+		}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_49
+		icon = GFX_goal_jews_enslaving_ukraine
+
+		x = 8
+		y = 10
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_political_power=-150
+	    every_state={
+		limit={
+		or={
+		is_core_of=ZAP
+		state=194
+		state=204
+		state=206
+		state=1225
+		}
+		}
+		add_core_of=RUS
+		}
+		}
+	}
+		focus = {
+		id = russianempire_1789_1815_first_50_focus_50
+		icon = GFX_
+
+		x = 10
+		y = 10
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1793_1836_focus_1
+		icon = GFX_
+        mutually_exclusive = { focus = russianempire_1793_1836_focus_2 }
+		x = 2
+		y = 11
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_46
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_47
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_48
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_49
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_50
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1793_1836_focus_2
+		icon = GFX_
+        mutually_exclusive = { focus = russianempire_1793_1836_focus_1 }
+		x = 10
+		y = 11
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_46
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_47
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_48
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_49
+		}
+		prerequisite = {
+		focus =	russianempire_1789_1815_first_50_focus_50
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1793_1836_focus_3
+		icon = GFX_
+
+		x = 2
+		y = 12
+		allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+or={
+has_completed_focus = russianempire_1793_1836_focus_1
+has_completed_focus = russianempire_1793_1836_focus_2
+}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = russianempire_1793_1836_focus_4
+		icon = GFX_
+
+		x = 4
+		y = 12
+		allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+or={
+has_completed_focus = russianempire_1793_1836_focus_1
+has_completed_focus = russianempire_1793_1836_focus_2
+}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+				add_war_support = 0.1
+	    GRE={
+		add_state_core = 47
+		add_state_core = 731
+		add_state_core = 939
+		add_state_core = 184
+		add_state_core = 923
+		add_state_core = 185
+		add_state_core = 971
+		add_state_core = 982
+		add_state_core = 186
+		add_state_core = 964
+		add_state_core = 182
+		add_state_core = 947
+		add_state_core = 187
+		add_state_core = 164
+		add_state_core = 924
+		add_state_core = 183
+		add_state_core = 1149
+		}
+		hidden_effect={
+			    GOA={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		VNT={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		CND={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		KNI={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		CYP={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+					    ATH={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+					    EPI={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+					    BYZ={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+					    NAX={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		}
+		}
+	}
+		focus = {
+		id = russianempire_1793_1836_focus_5
+		icon = GFX_
+
+		x = 6
+		y = 12
+		allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+or={
+has_completed_focus = russianempire_1793_1836_focus_1
+has_completed_focus = russianempire_1793_1836_focus_2
+}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+			focus = {
+		id = russianempire_1793_1836_focus_6
+		icon = GFX_
+
+		x = 8
+		y = 12
+				allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+or={
+has_completed_focus = russianempire_1793_1836_focus_1
+has_completed_focus = russianempire_1793_1836_focus_2
+}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+			focus = {
+		id = russianempire_1793_1836_focus_7
+		icon = GFX_
+
+		x = 10
+		y = 12
+				allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+or={
+has_completed_focus = russianempire_1793_1836_focus_1
+has_completed_focus = russianempire_1793_1836_focus_2
+}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+				focus = {
+		id = russianempire_1793_1836_focus_8
+		icon = GFX_
+
+		x = 2
+		y = 13
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_7
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+				focus = {
+		id = russianempire_1793_1836_focus_9
+		icon = GFX_
+
+		x = 4
+		y = 13
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_7
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+				focus = {
+		id = russianempire_1793_1836_focus_10
+		icon = GFX_
+
+		x = 6
+		y = 13
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_7
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+				focus = {
+		id = russianempire_1793_1836_focus_11
+		icon = GFX_
+
+		x = 8
+		y = 13
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_7
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+				focus = {
+		id = russianempire_1793_1836_focus_12
+		icon = GFX_
+
+		x = 10
+		y = 13
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_7
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+					focus = {
+		id = russianempire_1793_1836_focus_13
+		icon = GFX_
+
+		x = 2
+		y = 14
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_10
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_12
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+						focus = {
+		id = russianempire_1793_1836_focus_14
+		icon = GFX_goal_polandwarrussia
+
+		x = 4
+		y = 14
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_10
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_12
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = russianempire_1789_1812.20}
+		AUS={country_event = russianempire_1789_1812.20}
+	declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = MSV
+		type = puppet_wargoal_focus
+	}
+		}
+	}
+						focus = {
+		id = russianempire_1793_1836_focus_15
+		icon = GFX_
+
+		x = 6
+		y = 14
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_10
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_12
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+						focus = {
+		id = russianempire_1793_1836_focus_16
+		icon = GFX_
+
+		x = 8
+		y = 14
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_10
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_12
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+						focus = {
+		id = russianempire_1793_1836_focus_17
+		icon = GFX_
+
+		x = 10
+		y = 14
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_10
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_12
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+							focus = {
+		id = russianempire_1793_1836_focus_18
+		icon = GFX_
+
+		x = 2
+		y = 15
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_17
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+								focus = {
+		id = russianempire_1793_1836_focus_19
+		icon = GFX_
+
+		x = 4
+		y = 15
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_17
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+									add_victory_points = {
+			  province = 11670
+			  value = 20
+			}
+										192 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+											192 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+								focus = {
+		id = russianempire_1793_1836_focus_20
+		icon = GFX_
+
+		x = 6
+		y = 15
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_17
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+								focus = {
+		id = russianempire_1793_1836_focus_21
+		icon = GFX_
+
+		x = 8
+		y = 15
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_17
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+								focus = {
+		id = russianempire_1793_1836_focus_22
+		icon = GFX_
+
+		x = 10
+		y = 15
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_17
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+								focus = {
+		id = russianempire_1793_1836_focus_23
+		icon = GFX_
+
+		x = 2
+		y = 16
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_20
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_22
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+									focus = {
+		id = russianempire_1793_1836_focus_24
+		icon = GFX_
+
+		x = 4
+		y = 16
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_20
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_22
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+									focus = {
+		id = russianempire_1793_1836_focus_25
+		icon = GFX_
+
+		x = 6
+		y = 16
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_20
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_22
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+									focus = {
+		id = russianempire_1793_1836_focus_26
+		icon = GFX_
+
+		x = 8
+		y = 16
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_20
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_22
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+									focus = {
+		id = russianempire_1793_1836_focus_27
+		icon = GFX_
+
+		x = 10
+		y = 16
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_20
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_22
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+										focus = {
+		id = russianempire_1793_1836_focus_28
+		icon = GFX_
+
+		x = 2
+		y = 17
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_27
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+											focus = {
+		id = russianempire_1793_1836_focus_29
+		icon = GFX_
+
+		x = 4
+		y = 17
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_27
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+											focus = {
+		id = russianempire_1793_1836_focus_30
+		icon = GFX_
+
+		x = 6
+		y = 17
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_27
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+											focus = {
+		id = russianempire_1793_1836_focus_31
+		icon = GFX_
+
+		x = 8
+		y = 17
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_27
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+											focus = {
+		id = russianempire_1793_1836_focus_32
+		icon = GFX_
+
+		x = 10
+		y = 17
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_27
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+												focus = {
+		id = russianempire_1793_1836_focus_33
+		icon = GFX_goal_polandwarrussia
+
+		x = 2
+		y = 18
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_30
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_32
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag=treaty_thirdpartion_flag
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+				RUS={country_event = russianempire_1789_1812.11}
+        		RUS={
+		transfer_state = 93
+		transfer_state = 965
+		transfer_state = 94
+		transfer_state = 95
+		transfer_state = 96
+		transfer_state = 784
+		transfer_state = 1119
+		transfer_state = 815
+		transfer_state = 189
+		transfer_state = 11
+		}
+		}
+	}
+													focus = {
+		id = russianempire_1793_1836_focus_34
+		icon = GFX_goal_baltics
+
+		x = 4
+		y = 18
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_30
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_32
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		owns_state = 190
+		owns_state = 809
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+	RUS={
+    add_state_core = 190
+	add_state_core = 809
+	}
+		}
+	}
+													focus = {
+		id = russianempire_1793_1836_focus_35
+		icon = GFX_
+
+		x = 6
+		y = 18
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_30
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_32
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_political_power=-150
+			    every_state={
+		limit={
+		or={
+		state=965
+		state=93
+		state=94
+		state=95
+		state=96
+		state=784
+		state=11
+		state=189
+		state=815
+		state=1119
+		}
+		}
+		add_core_of=RUS
+		}
+		}
+	}
+													focus = {
+		id = russianempire_1793_1836_focus_36
+		icon = GFX_
+
+		x = 8
+		y = 18
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_30
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_32
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+													focus = {
+		id = russianempire_1793_1836_focus_37
+		icon = GFX_
+
+		x = 10
+		y = 18
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_30
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_31
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_32
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+														focus = {
+		id = russianempire_1793_1836_focus_38
+		icon = GFX_
+
+		x = 2
+		y = 19
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_35
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_37
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+															focus = {
+		id = russianempire_1793_1836_focus_39
+		icon = GFX_
+
+		x = 4
+		y = 19
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_35
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_37
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+															focus = {
+		id = russianempire_1793_1836_focus_40
+		icon = GFX_
+
+		x = 6
+		y = 19
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_35
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_37
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+															focus = {
+		id = russianempire_1793_1836_focus_41
+		icon = GFX_
+
+		x = 8
+		y = 19
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_35
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_37
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+															focus = {
+		id = russianempire_1793_1836_focus_42
+		icon = GFX_
+
+		x = 10
+		y = 19
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_33
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_34
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_35
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_36
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_37
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																focus = {
+		id = russianempire_1793_1836_focus_43
+		icon = GFX_
+
+		x = 2
+		y = 20
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_40
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_42
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																	focus = {
+		id = russianempire_1793_1836_focus_44
+		icon = GFX_
+
+		x = 4
+		y = 20
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_40
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_42
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																	focus = {
+		id = russianempire_1793_1836_focus_45
+		icon = GFX_
+
+		x = 6
+		y = 20
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_40
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_42
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																	focus = {
+		id = russianempire_1793_1836_focus_46
+		icon = GFX_
+
+		x = 8
+		y = 20
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_40
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_42
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																	focus = {
+		id = russianempire_1793_1836_focus_47
+		icon = GFX_
+
+		x = 10
+		y = 20
+				prerequisite = {
+		focus =	russianempire_1793_1836_focus_38
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_39
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_40
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_41
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_42
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																		focus = {
+		id = russianempire_1793_1836_focus_48
+		icon = GFX_
+
+		x = 2
+		y = 21
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_45
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_46
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_47
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																			focus = {
+		id = russianempire_1793_1836_focus_49
+		icon = GFX_
+
+		x = 4
+		y = 21
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_45
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_46
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_47
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																			focus = {
+		id = russianempire_1793_1836_focus_50
+		icon = GFX_
+
+		x = 6
+		y = 21
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_45
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_46
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_47
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																			focus = {
+		id = russianempire_1793_1836_focus_51
+		icon = GFX_
+
+		x = 8
+		y = 21
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_45
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_46
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_47
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																			focus = {
+		id = russianempire_1793_1836_focus_52
+		icon = GFX_
+
+		x = 10
+		y = 21
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_43
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_44
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_45
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_46
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_47
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																			focus = {
+		id = russianempire_1793_1836_focus_53
+		icon = GFX_
+
+		x = 2
+		y = 22
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_48
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_49
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_50
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_51
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_52
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																				focus = {
+		id = russianempire_1793_1836_focus_54
+		icon = GFX_
+
+		x = 4
+		y = 22
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_48
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_49
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_50
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_51
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_52
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																				focus = {
+		id = russianempire_1793_1836_focus_55
+		icon = GFX_
+
+		x = 6
+		y = 22
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_48
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_49
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_50
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_51
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_52
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																				focus = {
+		id = russianempire_1793_1836_focus_56
+		icon = GFX_
+
+		x = 8
+		y = 22
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_48
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_49
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_50
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_51
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_52
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_war_support=0.1
+		ENG={add_opinion_modifier = { target = RUS modifier = RUS_jacobites }}
+		add_political_power=-100
+													195 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+																				focus = {
+		id = russianempire_1793_1836_focus_57
+		icon = GFX_
+
+		x = 10
+		y = 22
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_48
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_49
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_50
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_51
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_52
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																					focus = {
+		id = russianempire_1793_1836_focus_58
+		icon = GFX_
+
+		x = 2
+		y = 23
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_53
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_54
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_55
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_56
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_57
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																						focus = {
+		id = russianempire_1793_1836_focus_59
+		icon = GFX_
+
+		x = 4
+		y = 23
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_53
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_54
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_55
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_56
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_57
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																						focus = {
+		id = russianempire_1793_1836_focus_60
+		icon = GFX_
+
+		x = 6
+		y = 23
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_53
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_54
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_55
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_56
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_57
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																						focus = {
+		id = russianempire_1793_1836_focus_61
+		icon = GFX_
+
+		x = 8
+		y = 23
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_53
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_54
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_55
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_56
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_57
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																						focus = {
+		id = russianempire_1793_1836_focus_62
+		icon = GFX_
+
+		x = 10
+		y = 23
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_53
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_54
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_55
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_56
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_57
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																							focus = {
+		id = russianempire_1793_1836_focus_63
+		icon = GFX_
+
+		x = 2
+		y = 24
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_58
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_59
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_60
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_61
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_62
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																								focus = {
+		id = russianempire_1793_1836_focus_64
+		icon = GFX_
+
+		x = 4
+		y = 24
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_58
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_59
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_60
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_61
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_62
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																								focus = {
+		id = russianempire_1793_1836_focus_65
+		icon = GFX_
+
+		x = 6
+		y = 24
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_58
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_59
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_60
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_61
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_62
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																								focus = {
+		id = russianempire_1793_1836_focus_66
+		icon = GFX_
+
+		x = 8
+		y = 24
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_58
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_59
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_60
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_61
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_62
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																								focus = {
+		id = russianempire_1793_1836_focus_67
+		icon = GFX_
+
+		x = 10
+		y = 24
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_58
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_59
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_60
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_61
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_62
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																									focus = {
+		id = russianempire_1793_1836_focus_68
+		icon = GFX_
+
+		x = 2
+		y = 25
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_63
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_64
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_65
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_66
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_67
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																										focus = {
+		id = russianempire_1793_1836_focus_69
+		icon = GFX_
+
+		x = 4
+		y = 25
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_63
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_64
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_65
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_66
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_67
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																										focus = {
+		id = russianempire_1793_1836_focus_70
+		icon = GFX_
+
+		x = 6
+		y = 25
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_63
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_64
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_65
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_66
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_67
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																										focus = {
+		id = russianempire_1793_1836_focus_71
+		icon = GFX_
+
+		x = 8
+		y = 25
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_63
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_64
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_65
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_66
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_67
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																										focus = {
+		id = russianempire_1793_1836_focus_72
+		icon = GFX_
+
+		x = 10
+		y = 25
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_63
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_64
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_65
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_66
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_67
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																											focus = {
+		id = russianempire_1793_1836_focus_73
+		icon = GFX_
+
+		x = 2
+		y = 26
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_68
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_69
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_70
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_71
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_72
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																												focus = {
+		id = russianempire_1793_1836_focus_74
+		icon = GFX_
+
+		x = 4
+		y = 26
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_68
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_69
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_70
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_71
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_72
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																												focus = {
+		id = russianempire_1793_1836_focus_75
+		icon = GFX_
+
+		x = 6
+		y = 26
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_68
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_69
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_70
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_71
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_72
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																												focus = {
+		id = russianempire_1793_1836_focus_76
+		icon = GFX_
+
+		x = 8
+		y = 26
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_68
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_69
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_70
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_71
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_72
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																												focus = {
+		id = russianempire_1793_1836_focus_77
+		icon = GFX_
+
+		x = 10
+		y = 26
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_68
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_69
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_70
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_71
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_72
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																													focus = {
+		id = russianempire_1793_1836_focus_78
+		icon = GFX_
+
+		x = 2
+		y = 27
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_73
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_74
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_75
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_76
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_77
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																														focus = {
+		id = russianempire_1793_1836_focus_79
+		icon = GFX_
+
+		x = 4
+		y = 27
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_73
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_74
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_75
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_76
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_77
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																														focus = {
+		id = russianempire_1793_1836_focus_80
+		icon = GFX_
+
+		x = 6
+		y = 27
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_73
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_74
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_75
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_76
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_77
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																														focus = {
+		id = russianempire_1793_1836_focus_81
+		icon = GFX_
+
+		x = 8
+		y = 27
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_73
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_74
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_75
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_76
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_77
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																														focus = {
+		id = russianempire_1793_1836_focus_82
+		icon = GFX_
+
+		x = 10
+		y = 27
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_73
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_74
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_75
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_76
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_77
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																															focus = {
+		id = russianempire_1793_1836_focus_83
+		icon = GFX_
+
+		x = 2
+		y = 28
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_78
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_79
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_80
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_81
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_82
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																focus = {
+		id = russianempire_1793_1836_focus_84
+		icon = GFX_
+
+		x = 4
+		y = 28
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_78
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_79
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_80
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_81
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_82
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																focus = {
+		id = russianempire_1793_1836_focus_85
+		icon = GFX_
+
+		x = 6
+		y = 28
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_78
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_79
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_80
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_81
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_82
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																focus = {
+		id = russianempire_1793_1836_focus_86
+		icon = GFX_
+
+		x = 8
+		y = 28
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_78
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_79
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_80
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_81
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_82
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																focus = {
+		id = russianempire_1793_1836_focus_87
+		icon = GFX_
+
+		x = 10
+		y = 28
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_78
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_79
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_80
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_81
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_82
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																	focus = {
+		id = russianempire_1793_1836_focus_88
+		icon = GFX_
+
+		x = 2
+		y = 29
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_83
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_84
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_85
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_86
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_87
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																		focus = {
+		id = russianempire_1793_1836_focus_89
+		icon = GFX_
+
+		x = 4
+		y = 29
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_83
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_84
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_85
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_86
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_87
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																		focus = {
+		id = russianempire_1793_1836_focus_90
+		icon = GFX_
+
+		x = 6
+		y = 29
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_83
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_84
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_85
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_86
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_87
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																		focus = {
+		id = russianempire_1793_1836_focus_91
+		icon = GFX_
+
+		x = 8
+		y = 29
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_83
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_84
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_85
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_86
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_87
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																		focus = {
+		id = russianempire_1793_1836_focus_92
+		icon = GFX_
+
+		x = 10
+		y = 29
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_83
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_84
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_85
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_86
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_87
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																		focus = {
+		id = russianempire_1793_1836_focus_93
+		icon = GFX_
+
+		x = 2
+		y = 30
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_88
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_89
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_90
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_91
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_92
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																			focus = {
+		id = russianempire_1793_1836_focus_94
+		icon = GFX_
+
+		x = 4
+		y = 30
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_88
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_89
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_90
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_91
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_92
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																			focus = {
+		id = russianempire_1793_1836_focus_95
+		icon = GFX_
+
+		x = 6
+		y = 30
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_88
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_89
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_90
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_91
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_92
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																			focus = {
+		id = russianempire_1793_1836_focus_96
+		icon = GFX_
+
+		x = 8
+		y = 30
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_88
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_89
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_90
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_91
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_92
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+				GEO = {
+		country_event = russianempire_1789_1812.1
+		}
+		}
+	}
+																																			focus = {
+		id = russianempire_1793_1836_focus_97
+		icon = GFX_
+
+		x = 10
+		y = 30
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_88
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_89
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_90
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_91
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_92
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																				focus = {
+		id = russianempire_1793_1836_focus_98
+		icon = GFX_
+
+		x = 2
+		y = 31
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_93
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_94
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_95
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_96
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_97
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																					focus = {
+		id = russianempire_1793_1836_focus_99
+		icon = GFX_
+
+		x = 4
+		y = 31
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_93
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_94
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_95
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_96
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_97
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																					focus = {
+		id = russianempire_1793_1836_focus_100
+		icon = GFX_
+
+		x = 6
+		y = 31
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_93
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_94
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_95
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_96
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_97
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																					focus = {
+		id = russianempire_1793_1836_focus_101
+		icon = GFX_
+
+		x = 8
+		y = 31
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_93
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_94
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_95
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_96
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_97
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																					focus = {
+		id = russianempire_1793_1836_focus_102
+		icon = GFX_
+
+		x = 10
+		y = 31
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_93
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_94
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_95
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_96
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_97
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																					focus = {
+		id = russianempire_1793_1836_focus_103
+		icon = GFX_
+
+		x = 2
+		y = 32
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_98
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_99
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_100
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_101
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_102
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																						focus = {
+		id = russianempire_1793_1836_focus_104
+		icon = GFX_
+
+		x = 4
+		y = 32
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_98
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_99
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_100
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_101
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_102
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+add_state_core = 231
+add_state_core = 1002
+add_state_core = 1271
+add_state_core = 1275
+add_state_core = 1277
+		}
+	}
+																																						focus = {
+		id = russianempire_1793_1836_focus_105
+		icon = GFX_
+
+		x = 6
+		y = 32
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_98
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_99
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_100
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_101
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_102
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																						focus = {
+		id = russianempire_1793_1836_focus_106
+		icon = GFX_
+
+		x = 8
+		y = 32
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_98
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_99
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_100
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_101
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_102
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																						focus = {
+		id = russianempire_1793_1836_focus_107
+		icon = GFX_
+
+		x = 10
+		y = 32
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_98
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_99
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_100
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_101
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_102
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																						focus = {
+		id = russianempire_1793_1836_focus_108
+		icon = GFX_
+
+		x = 2
+		y = 33
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_103
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_104
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_105
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_106
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_107
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																							focus = {
+		id = russianempire_1793_1836_focus_109
+		icon = GFX_
+
+		x = 4
+		y = 33
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_103
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_104
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_105
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_106
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_107
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																							focus = {
+		id = russianempire_1793_1836_focus_110
+		icon = GFX_
+
+		x = 6
+		y = 33
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_103
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_104
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_105
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_106
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_107
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																							focus = {
+		id = russianempire_1793_1836_focus_111
+		icon = GFX_
+
+		x = 8
+		y = 33
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_103
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_104
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_105
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_106
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_107
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+																																							focus = {
+		id = russianempire_1793_1836_focus_112
+		icon = GFX_
+
+		x = 10
+		y = 33
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_103
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_104
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_105
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_106
+		}
+		prerequisite = {
+		focus =	russianempire_1793_1836_focus_107
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+}

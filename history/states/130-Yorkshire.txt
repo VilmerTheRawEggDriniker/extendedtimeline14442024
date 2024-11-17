@@ -1,0 +1,65 @@
+
+state={
+	id=130
+	name="STATE_130"
+	resources={
+		steel=71.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			9379 20 
+		}
+		victory_points = {
+			11471 20 
+		}
+		victory_points = {
+			9269 5 
+		}
+		victory_points = {
+			11297 10 
+		}
+		victory_points = {
+			9315 20 
+		}
+		victory_points = {
+			14201 5 
+		}
+		victory_points = {
+			11317 2 
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 3
+				air_base = 10
+							11297 = {
+				naval_base = 5
+
+			}
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+						11297 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		6268 9269 9315 9332 9379 9397 11297 11317 11382 11471 14201 14202 14204 14209 14210 14211 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=148
+	name="STATE_148"
+	resources={
+		steel=7.000
+		chromium=2.000
+	}
+
+	history={
+		owner = SWE
+		add_core_of = FIN
+		1809.1.1 = {
+                owner = FIN
+                }
+		buildings = {
+			infrastructure = 1
+
+		}
+		1920.1.1 = {
+		owner = FIN
+		controller = FIN
+		add_core_of = FIN
+            remove_core_of = RUS
+		}
+
+	}
+
+	provinces={
+		30 103 124 162 167 203 2992 3055 3069 3097 3107 3156 3158 3193 6061 6076 6087 6128 6137 6142 6179 9112 9189 9223 11030 11115 11125 11130 11164 11167 11204 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=3.000
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=365
+	name="STATE_365"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1848.1.1 = {
+			victory_points = {
+				12384 20 
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 3
+				air_base = 2
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		12384
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

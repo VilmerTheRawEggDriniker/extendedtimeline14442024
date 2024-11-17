@@ -1,0 +1,31 @@
+characters={
+	LCT_aloysi={
+		name=LCT_CHARACTER_ALOYSI
+		portraits={
+			civilian={
+				large="GFX_portrait_lct_aloysi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Liechtenstein}
+			desc = LCT_ALOYSI_DESC
+			expire="1797.1.1"
+		}
+}
+	LCT_johannijoseph={
+		name=LCT_CHARACTER_JOHANNIJOSEPH
+		portraits={
+			civilian={
+				large="GFX_portrait_lct_johannijoseph_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Liechtenstein}
+			desc = LCT_JOHANNIJOSEPH_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

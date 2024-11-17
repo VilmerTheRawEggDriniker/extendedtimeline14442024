@@ -1,0 +1,31 @@
+﻿division_template = {
+	name = "Pennsylvanian Whiskey Rebellion Division"
+
+	division_names_group = PEN_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+units = {
+	#PEN Army
+	division = {
+		name = "Pennsylvanian Whiskey Rebellion Division"
+		location = 11800
+		division_template = "Pennsylvanian Whiskey Rebellion Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "PEN"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

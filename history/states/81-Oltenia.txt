@@ -1,0 +1,34 @@
+
+state={
+	id=81
+	name="STATE_81"
+
+	history={
+		victory_points = {
+			6652 3 
+		}
+		owner = WAL
+		1878.1.1 = {
+			owner = ROM
+			controller = ROM
+                add_core_of = ROM
+                remove_core_of = WAL
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = WAL
+
+	}
+
+	provinces={
+		637 3630 3645 6652 6667 11588 11605 11657 13540 13542 13543 13550 13555 13561 13563 13565 
+	}
+	manpower=1580700
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

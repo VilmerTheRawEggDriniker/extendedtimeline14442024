@@ -1,0 +1,45 @@
+characters={
+	TTS_ferdinandi={
+		name=TTS_CHARACTER_FERDINANDI
+		portraits={
+			civilian={
+				large="GFX_portrait_tts_ferdinandi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bourbon}
+			desc = TTS_FERDINANDI_DESC
+			expire="1797.1.1"
+		}
+}
+	TTS_francisi={
+		name=TTS_CHARACTER_FRANCISI
+		portraits={
+			civilian={
+				large="GFX_portrait_tts_francisi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bourbon}
+			desc = TTS_FRANCISI_DESC
+			expire="1797.1.1"
+		}
+}
+	TTS_ferdinandii={
+		name=TTS_CHARACTER_FERDINANDII
+		portraits={
+			civilian={
+				large="GFX_portrait_tts_ferdinandii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bourbon}
+			desc = TTS_FERDINANDII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

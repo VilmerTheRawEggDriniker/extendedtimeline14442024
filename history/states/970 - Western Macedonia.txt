@@ -1,0 +1,48 @@
+state={
+	id=970
+	name="STATE_970"
+	history={
+		owner = LUX
+		1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BRB
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		remove_core_of = LUX
+		}
+		1800.1.1 = {
+	    add_core_of = FRA
+		owner = FRA
+		remove_core_of = LIE
+		remove_core_of = BRB
+		remove_core_of = FLA
+		remove_core_of = LUX
+		remove_core_of = BEL
+		}
+		1831.1.1 = {
+                add_core_of = BEL
+                remove_core_of = FRA
+                owner = BEL
+                }
+		victory_points = {
+			13468 2 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LUX
+
+	}
+
+	provinces={
+		9418 11407 13468 13479 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 11600
+	state_category = pastoral
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		owner = ENG
+		add_core_of = QAT
+                }
+		1900.1.1 = {
+		victory_points = {
+			8051 1
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 0
+			8051 = {
+				naval_base = 2
+			}
+
+		}
+                }
+		1973.1.1 = {
+			owner = QAT
+			controller = QAT
+            remove_core_of = YUG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		8051
+	}
+
+	local_supplies=0.0 
+}

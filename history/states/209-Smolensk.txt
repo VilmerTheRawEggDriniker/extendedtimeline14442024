@@ -1,0 +1,61 @@
+
+state={
+	id=209
+	name="STATE_209"
+
+	history={
+		owner = PSK
+		add_core_of = PSK
+		1500.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = RYA
+		}
+		victory_points = {
+			11202 3 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 4
+
+			}
+
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		415 3310 6324 9254 9408 11202 11392 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

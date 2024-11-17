@@ -1,0 +1,26 @@
+state={
+	id=1254
+	name="STATE_1254"
+			history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 1
+			}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		822 847 3824 3847 6885 9804 11758 11769 11785 12405 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

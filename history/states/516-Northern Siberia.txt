@@ -1,0 +1,46 @@
+
+state={
+	id=516
+	name="STATE_516"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1936.1.1 = {
+			add_core_of = TAY
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		4812 13064 
+	}
+	manpower=21974
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+      impassable = yes
+	local_supplies=0.000
+}

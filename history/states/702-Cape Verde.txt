@@ -1,0 +1,37 @@
+state={
+	id=702
+	name="STATE_702"
+	manpower = 150600
+	
+	state_category = small_island
+
+	history={
+		owner = ZZZ
+		1462.1.1 = {
+		buildings = {
+			infrastructure = 1
+			13014 ={
+				naval_base = 1
+			}
+		}
+		}
+		1500.1.1 = {
+                owner = POR
+                }
+		1900.1.1 = {
+		add_core_of = GNB
+                }
+		1974.1.1 = {
+                owner = GNB
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		13014 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=713
+	name="STATE_713"
+	manpower=96
+	state_category = tiny_island
+
+	history={
+		set_demilitarized_zone = yes
+		owner = ZZZ
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		2165 
+	}
+
+	local_supplies=0.0 
+}

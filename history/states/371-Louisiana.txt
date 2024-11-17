@@ -1,0 +1,73 @@
+
+state={
+	id=371
+	name="STATE_371"
+	resources={
+		oil=44.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			7552 20 
+		}
+                }
+		1700.1.1 = {
+                owner = FRA
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 1
+			7552 = {
+				naval_base = 5
+
+			}
+
+		}
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = LOU
+        }
+		1803.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = LOU
+        }
+		1803.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7552 = {
+				naval_base = 5
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 5
+			7552 = {
+				naval_base = 5
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1559 1643 4507 4522 4535 7552 7555 7599 12313 12398 12401 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

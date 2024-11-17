@@ -1,0 +1,89 @@
+
+state={
+	id=378
+	name="STATE_378"
+	resources={
+		oil=180.000
+		aluminium=8.000
+	}
+
+	history={
+                owner = ZZZ
+		1789.1.1 = {
+		victory_points = {
+			9671 20 
+		}
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1900.1.1 = {
+		victory_points = {
+			3678 5 
+		}
+		victory_points = {
+			9713 10 
+		}
+		victory_points = {
+			3677 5 
+		}
+		victory_points = {
+			6699 5 
+		}
+		victory_points = {
+			11658 1 
+		}
+		victory_points = {
+			6681 1 
+		}
+                }
+		1822.1.1 = {
+                owner = MEX
+                add_core_of = MEX
+                }
+		1850.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                }
+		1850.1.1 = {
+                }
+		1850.1.1 = {
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			9671 = {
+				naval_base = 4
+
+			}
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 10
+			9671 = {
+				naval_base = 4
+
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		677 768 1432 3677 3678 6681 6694 6699 9671 9713 11658 
+	}
+	manpower=2200000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

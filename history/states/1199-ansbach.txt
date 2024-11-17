@@ -1,0 +1,70 @@
+
+state={
+	id=1199
+	name="STATE_1199"
+
+	history={
+		owner = ANS
+		add_core_of = ANS
+		1950.1.1 = {
+			owner = WGR
+			add_core_of = WGR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		1800.1.1 = {
+			add_core_of = PRE
+			owner = PRE
+			remove_core_of = BAY
+			remove_core_of = ANS
+			remove_core_of = BYR
+
+		}
+		1812.1.1 = {
+			add_core_of = BAY
+			owner = BAY
+			remove_core_of = PRE
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			owner = BAY
+
+		}
+		1920.1.1 = {
+			owner = GER
+			remove_core_of = BAY
+
+		}
+		victory_points = {
+			14669 2 
+		}
+		victory_points = {
+			14677 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		14669 14677 14681 
+	}
+	manpower=490000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

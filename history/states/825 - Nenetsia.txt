@@ -1,0 +1,57 @@
+
+state={
+	id=825
+	name="STATE_825"
+	resources={
+		oil=7.000
+	}
+
+	history={
+		victory_points = {
+			105 1 
+		}
+		owner = ZZZ
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
+				1500.1.1 = {
+							buildings = {
+			infrastructure = 0
+			12530 = {
+				naval_base = 1
+
+			}
+
+		}
+				}
+		buildings = {
+			infrastructure = 0
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		105 198 3147 6040 6192 9205 10207 11119 12530 13076 
+	}
+	manpower=12200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

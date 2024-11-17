@@ -1,0 +1,36 @@
+
+state={
+	id=643
+	name="STATE_643"
+	manpower=493
+	state_category = small_island
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = ENG
+		add_core_of = FIJ
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			13056 = {
+				naval_base = 1
+			}
+			13054 = {
+				naval_base = 1
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		13054 13055 13056 13057 
+	}
+
+	local_supplies=0.0 
+}

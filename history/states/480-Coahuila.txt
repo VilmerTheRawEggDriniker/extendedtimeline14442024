@@ -1,0 +1,58 @@
+
+state={
+	id=480
+	name="STATE_480"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+
+		}
+		1822.1.1 = {
+			add_core_of = MEX
+			owner = MEX
+
+		}
+				1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1590.1.1 = {
+			victory_points = {
+				12835 10 
+			}
+			victory_points = {
+				10769 5 
+			}
+			victory_points = {
+				4956 10 
+			}
+
+		}
+		1823.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1952 2060 2083 2104 4946 4956 7921 7973 8003 10738 10746 10769 10800 10853 10871 12721 12804 12811 12835 
+	}
+	manpower=2376251
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

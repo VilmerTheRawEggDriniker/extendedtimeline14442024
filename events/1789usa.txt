@@ -1,0 +1,913 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = unitedstates_event
+
+# Act 1935
+country_event = {
+	id = unitedstates_event.1
+	title = ""
+	desc = unitedstates_event.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+				
+		date > 1790.3.29 has_start_date < 1800.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.1
+
+	}
+}
+country_event = {
+	id = unitedstates_event.2
+	title = ""
+	desc = unitedstates_event.2.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1791.4.23 has_start_date < 1800.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.2
+
+	}
+}
+country_event = {
+	id = unitedstates_event.3
+	title = ""
+	desc = unitedstates_event.3.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1795.11.2 has_start_date < 1800.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.3
+
+	}
+}
+country_event = {
+	id = unitedstates_event.4
+	title = ""
+	desc = unitedstates_event.4.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+       
+				
+		 date > 1800.1.7 has_start_date < 1812.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.4
+
+	}
+}
+country_event = {
+	id = unitedstates_event.5
+	title = ""
+	desc = unitedstates_event.5.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1804.11.23 has_start_date < 1812.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.5
+
+	}
+}
+country_event = {
+	id = unitedstates_event.6
+	title = ""
+	desc = unitedstates_event.6.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1808.12.29 has_start_date < 1812.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.6
+
+	}
+}
+country_event = {
+	id = unitedstates_event.7
+	title = ""
+	desc = unitedstates_event.7.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1809.2.12 has_start_date < 1812.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.7
+
+	}
+}
+country_event = {
+	id = unitedstates_event.8
+	title = ""
+	desc = unitedstates_event.8.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1822.4.27 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.8
+
+	}
+}
+country_event = {
+	id = unitedstates_event.9
+	title = ""
+	desc = unitedstates_event.9.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1822.10.4 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.9
+
+	}
+}
+country_event = {
+	id = unitedstates_event.10
+	title = ""
+	desc = unitedstates_event.10.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1829.10.5 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.10
+
+	}
+}
+country_event = {
+	id = unitedstates_event.11
+	title = ""
+	desc = unitedstates_event.11.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1831.11.19 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.11
+
+	}
+}
+country_event = {
+	id = unitedstates_event.12
+	title = ""
+	desc = unitedstates_event.12.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1833.8.20 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.12
+
+	}
+}
+country_event = {
+	id = unitedstates_event.13
+	title = "The 1788 elections of the United States of America"
+	desc = unitedstates_event.13.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1789.1.7 has_start_date < 1789.2.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Theres only really 1 choice"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.13
+set_country_flag = USA_election_one_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.14
+	title = "The 1792 elections of the United States of America"
+	desc = unitedstates_event.14.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1792.11.1 has_start_date < 1793.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Theres only really 1 choice"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.14
+set_country_flag = USA_election_two_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.15
+	title = "The 1796 elections of the United States of America"
+	desc = unitedstates_event.15.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1796.11.4 has_start_date < 1797.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support John Adams's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.15
+	set_country_flag = USA_election_three_flag
+    }
+	option = { # 
+		name = "Support Thomas Jefferson's Candidacy"
+		ai_chance = { factor = 0 }
+	news_event = unitedstates_news.15
+	set_country_flag = USA_election_three_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.16
+	title = "The 1800 elections of the United States of America"
+	desc = unitedstates_event.16.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1800.10.31 has_start_date < 1801.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support Thomas Jefferson's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.16
+	set_country_flag = USA_election_four_flag
+    }
+	option = { # 
+		name = "Support John Adams's Candidacy"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.16
+	set_country_flag = USA_election_four_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.17
+	title = "The 1804 elections of the United States of America"
+	desc = unitedstates_event.17.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1804.11.2 has_start_date < 1805.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support Thomas Jefferson's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.17
+	set_country_flag = USA_election_five_flag
+    }
+	option = { # 
+		name = "Charles C. Pinckney is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.17
+	set_country_flag = USA_election_five_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.18
+	title = "The 1808 elections of the United States of America"
+	desc = unitedstates_event.18.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1808.11.4 has_start_date < 1809.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support James Madison's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.18
+	set_country_flag = USA_election_six_flag
+    }
+	option = { # 
+		name = "Charles C. Pinckney is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.18
+	set_country_flag = USA_election_six_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.19
+	title = "The 1812 elections of the United States of America"
+	desc = unitedstates_event.19.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1812.10.30 has_start_date < 1813.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support James Madison's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.19
+	set_country_flag = USA_election_seven_flag
+    }
+	option = { # 
+		name = "DeWitt Clinton is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.19
+	set_country_flag = USA_election_seven_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.20
+	title = "The 1816 elections of the United States of America"
+	desc = unitedstates_event.20.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1816.11.1 has_start_date < 1817.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support James Monroe's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.20
+	set_country_flag = USA_election_eight_flag
+    }
+	option = { # 
+		name = "Rufus King is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.20
+	set_country_flag = USA_election_eight_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.21
+	title = "The 1820 elections of the United States of America"
+	desc = unitedstates_event.21.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1820.11.1 has_start_date < 1821.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "James Monroe is the only serious choice"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.21
+	set_country_flag = USA_election_nine_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.22
+	title = "The 1824 elections of the United States of America"
+	desc = unitedstates_event.22.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1824.10.26 has_start_date < 1825.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support John Quincy Adams's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.22
+	set_country_flag = USA_election_ten_flag
+    }
+	option = { # 
+		name = "Support Andrew Jackson's Candidacy"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.22
+	set_country_flag = USA_election_ten_flag
+    }
+	option = { # 
+		name = "William H. Crawford is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.22
+	set_country_flag = USA_election_ten_flag
+    }
+	option = { # 
+		name = "Henry Clay is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.22
+	set_country_flag = USA_election_ten_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.23
+	title = "The 1828 elections of the United States of America"
+	desc = unitedstates_event.23.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1828.10.31 has_start_date < 1829.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support Andrew Jackson's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.23
+	set_country_flag = USA_election_eleven_flag
+    }
+	option = { # 
+		name = "Support John Quincy Adams's Candidacy"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.23
+	set_country_flag = USA_election_eleven_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.24
+	title = "The 1832 elections of the United States of America"
+	desc = unitedstates_event.24.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1832.11.2 has_start_date < 1833.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Support Andrew Jackson's Candidacy"
+		ai_chance = { factor = 100 } 
+	news_event = unitedstates_news.24
+	set_country_flag = USA_election_twelve_flag
+    }
+	option = { # 
+		name = "Henry Clay is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.24
+	set_country_flag = USA_election_twelve_flag
+    }
+	option = { # 
+		name = "John Floyd is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.24
+	set_country_flag = USA_election_twelve_flag
+    }
+	option = { # 
+		name = "William Wirt is the Man for the Job (Unfinished)"
+		ai_chance = { factor = 0 } 
+	news_event = unitedstates_news.24
+	set_country_flag = USA_election_twelve_flag
+    }
+}
+country_event = {
+	id = unitedstates_event.25
+	title = "Join the United States of America"
+	desc = unitedstates_event.25.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Become a State"
+		ai_chance = { factor = 100 } 
+	USA={
+	add_state_core = 471
+	annex_country = { target = VRM transfer_troops = yes }
+	}
+    }
+	option = { # 
+		name = "Dont become a State"
+		ai_chance = { factor = 0 } 
+    }
+}
+
+country_event = {
+	id = unitedstates_event.28
+	title = "The Texan Revolution"
+	desc = unitedstates_event.28.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1835.10.2 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Fire up the Texan Revolution"
+		ai_chance = { factor = 100 } 
+	MEX={
+	remove_state_core = 375
+	}
+	TEX={
+	add_state_core = 375
+	transfer_state=375
+	}
+    }
+}
+country_event = {
+	id = unitedstates_event.29
+	title = "The 1788 elections of the United States of America"
+	desc = unitedstates_event.29.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA	
+has_country_flag = USA_election_one_flag	
+date > 1789.3.4 has_start_date < 1790.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Theres only really 1 choice"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	if={
+	limit={
+	NOT={has_country_leader = { character = USA_georgewashington}
+	}
+	}
+	promote_character=USA_georgewashington
+	}
+    }
+}
+country_event = {
+	id = unitedstates_event.30
+	title = "The 1792 elections of the United States of America"
+	desc = unitedstates_event.30.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_two_flag	
+date > 1793.3.4 has_start_date < 1794.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Theres only really 1 choice"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	if={
+	limit={
+	NOT={has_country_leader = { character = USA_georgewashington}
+	}
+	}
+	promote_character=USA_georgewashington
+	}
+    }
+}
+country_event = {
+	id = unitedstates_event.31
+	title = "The 1796 elections of the United States of America"
+	desc = unitedstates_event.31.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_three_flag	
+date > 1797.3.4 has_start_date < 1798.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = " John Adams's Candidacy"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_federalist_party }
+	promote_character=USA_johnadams
+    }
+}
+country_event = {
+	id = unitedstates_event.32
+	title = "The 1800 elections of the United States of America"
+	desc = unitedstates_event.32.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_four_flag	
+date > 1801.3.4 has_start_date < 1802.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Thomas Jefferson's Candidacy"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_thomasjefferson
+    }
+}
+country_event = {
+	id = unitedstates_event.33
+	title = "The 1804 elections of the United States of America"
+	desc = unitedstates_event.33.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_five_flag	
+date > 1805.3.4 has_start_date < 1806.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Thomas Jefferson's Candidacy"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_thomasjefferson
+    }
+}
+country_event = {
+	id = unitedstates_event.34
+	title = "The 1808 elections of the United States of America"
+	desc = unitedstates_event.34.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_six_flag	
+date > 1809.3.4 has_start_date < 1810.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "James Madison's Candidacy"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_jamesmadison
+    }
+}
+country_event = {
+	id = unitedstates_event.35
+	title = "The 1812 elections of the United States of America"
+	desc = unitedstates_event.35.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_seven_flag	
+date > 1813.3.4 has_start_date < 1814.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "James Madison's Candidacy"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_jamesmadison
+    }
+}
+country_event = {
+	id = unitedstates_event.36
+	title = "The 1816 elections of the United States of America"
+	desc = unitedstates_event.36.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_eight_flag	
+date > 1817.3.4 has_start_date < 1818.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "James Monroe's Candidacy"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_jamesmonroe
+    }
+}
+country_event = {
+	id = unitedstates_event.37
+	title = "The 1820 elections of the United States of America"
+	desc = unitedstates_event.37.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_nine_flag	
+date > 1821.3.4 has_start_date < 1822.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "James Monroe is the only serious choice"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_jamesmonroe
+    }
+}
+country_event = {
+	id = unitedstates_event.38
+	title = "The 1824 elections of the United States of America"
+	desc = unitedstates_event.38.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_ten_flag	
+date > 1825.3.4 has_start_date < 1826.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "John Quincy Adams's Candidacy"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_johnquincyadams
+    }
+}
+country_event = {
+	id = unitedstates_event.39
+	title = "The 1828 elections of the United States of America"
+	desc = unitedstates_event.39.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_eleven_flag	
+date > 1829.3.4 has_start_date < 1830.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Andrew Jackson's Candidacy"
+				ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_andrewjackson
+    }
+}
+country_event = {
+	id = unitedstates_event.40
+	title = "The 1832 elections of the United States of America"
+	desc = unitedstates_event.40.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+has_country_flag = USA_election_twelve_flag	
+date > 1833.3.4 has_start_date < 1834.1.1 }
+fire_only_once = yes
+	option = { # 
+	
+		name = "Andrew Jackson's Candidacy"
+		ai_chance = { factor = 100 } 
+		add_political_power=50
+	set_party_name = { ideology = democratic name = USA_democraticrepublican_party}
+	promote_character=USA_andrewjackson
+    }
+}
+country_event = {
+	id = unitedstates_event.41
+	title = "The 1791 Whiskey Rebellion"
+	desc = unitedstates_event.41.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1791.1.1 has_start_date < 1792.1.1 }
+fire_only_once = yes
+	option = { #
+		add_political_power=-150
+add_war_support=-0.05
+add_manpower=-600
+every_state = {
+limit = {
+state=1252
+}
+PEN={add_state_core=1252}
+transfer_state_to = PEN
+}
+		name = "We are a bit busy to stop the rebellion albeit we will stop it sooner or later"
+		ai_chance = { factor = 100 } 
+    }
+}
+country_event = {
+	id = unitedstates_event.42
+	title = "Rhode Island ratifies the United States Constitution"
+	desc = unitedstates_event.42.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1790.5.29 has_start_date < 1791.1.1 }
+fire_only_once = yes
+	option = { #
+		add_political_power=25
+		name = "They had to do it"
+		ai_chance = { factor = 100 } 
+    }
+}
+country_event = {
+	id = unitedstates_event.43
+	title = "George Washington's Farewell Address"
+	desc = unitedstates_event.43.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { #
+		add_political_power=150
+		name = "George Washington's Farewell Address"
+		ai_chance = { factor = 100 } 
+    }
+}
+country_event = {
+	id = unitedstates_event.44
+	title = "the Treaty of Madrid"
+	desc = unitedstates_event.44.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { #
+		USA={add_political_power=-150}
+		add_political_power=150
+				UNO={
+transfer_state = 1096
+transfer_state = 1097
+add_state_core = 1096
+add_state_core = 1097
+		}
+		name = "We can solve this border dispute over West Florida"
+		ai_chance = { factor = 100 } 
+    }
+	option = { #
+		USA={add_political_power=150}
+		add_political_power=-150
+		add_war_support=-0.2
+		add_stability=-0.05
+		hidden_effect={
+		MEX={country_event = unitedstates_event.45}
+		}
+		name = "All of Florida should be a Spanish Colony"
+		ai_chance = { factor = 100 } 
+    }
+}
+country_event = {
+	id = unitedstates_event.45
+	title = "the Treaty of Madrid"
+	desc = unitedstates_event.45.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { #
+		USA={add_political_power=-150}
+				UNO={
+transfer_state = 1096
+transfer_state = 1097
+add_state_core = 1096
+add_state_core = 1097
+		}
+		name = "We can solve this border dispute over West Florida"
+		ai_chance = { factor = 20 } 
+    }
+	option = { #
+		USA={add_political_power=-150}
+		SPR={add_political_power=150}
+		name = "All of Florida should be a Spanish Colony"
+		ai_chance = { factor = 80 } 
+    }
+}
+country_event = {
+	id = unitedstates_event.46
+	title = "The Yellow Fever"
+	desc = unitedstates_event.46.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=USA		
+date > 1793.3.29 has_start_date < 1794.1.1 }
+fire_only_once = yes
+	option = { #
+		add_manpower=-5000
+	    add_ideas = yellowfever
+		name = "We dont want to deal with this"
+		ai_chance = { factor = 100 } 
+    }
+}

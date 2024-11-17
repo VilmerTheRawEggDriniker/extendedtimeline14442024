@@ -1,0 +1,87 @@
+
+state={
+	id=813
+	name="STATE_813"
+
+	history={
+		owner = DRP
+		add_core_of = DRP
+		1600.1.1 = {
+			add_core_of = LIV
+		remove_core_of = DRP
+		remove_core_of = OSE
+		remove_core_of = KRL
+		remove_core_of = RGA
+		}
+		1900.1.1 = {
+			add_core_of = EST
+
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = LIV
+
+		}
+		1600.1.1 = {
+			owner = POL
+
+		}
+		1689.1.1 = {
+			owner = SWE
+
+		}
+		1789.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+				victory_points = {
+			592 1 
+		}
+		victory_points = {
+			9221 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1919.1.1 = {
+			owner = EST
+			controller = SOV
+			add_core_of = EST
+			remove_core_of = RUS
+
+		}
+		1920.1.1 = {
+			owner = EST
+			controller = EST
+			add_core_of = EST
+			remove_core_of = RUS
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = EST
+			controller = EST
+			add_core_of = EST
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		592 6099 9221 9485 14445 14447 14448 14451 14456 14461 
+	}
+	manpower=199470
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

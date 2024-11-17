@@ -1,0 +1,77 @@
+state={
+	id=146
+	name="STATE_146"
+
+	state_category = rural
+
+	history={
+		owner = NOV
+		add_core_of = NOV
+				1500.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+                remove_core_of = NOV
+                }
+				1610.1.1 = {
+                owner = SWE
+                add_core_of = FIN
+                remove_core_of = RUS
+                }
+		1789.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+                remove_core_of = FIN
+                }
+		1809.1.1 = {
+                owner = FIN
+                add_core_of = FIN
+                remove_core_of = RUS
+                }
+		1900.1.1 = {
+                }
+		1920.1.1 = {
+		owner = FIN
+		controller = FIN
+		add_core_of = FIN
+            remove_core_of = RUS
+		}
+		1945.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = FIN
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+		buildings = {
+			infrastructure = 2 #was: 5
+			#Mannerheim Line
+			9100 = {
+				bunker = 1
+			}
+			9105 = {
+				bunker = 3
+			}
+			9206 = {
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			9206 3 
+		}
+		
+
+	}
+
+	provinces={
+		2332 3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,72 @@
+
+state={
+	id=210
+	name="STATE_210"
+
+	history={
+		owner = TAT
+		add_core_of = TAT
+		1789.1.1 = {
+add_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+1900.1.1 = {
+remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = TAT
+		add_core_of = TAT
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+		}
+				1789.1.1 = {
+			owner = BSK
+		add_core_of = BSK
+		remove_core_of = ZAP
+		remove_core_of = RUS
+		remove_core_of = POL
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = KIE
+		remove_core_of = POL
+		}
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+	}
+
+	provinces={
+		292 355 403 3214 3328 3348 6308 6352 6368 9385 9401 9514 10301 11339 11389 11496 
+	}
+	manpower=761291
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

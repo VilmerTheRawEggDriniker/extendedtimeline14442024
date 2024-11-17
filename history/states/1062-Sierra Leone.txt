@@ -1,0 +1,38 @@
+
+
+state={
+	id=1062
+	name="STATE_1062"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = SEN
+		add_core_of = GNA
+                }
+		1970.1.1 = {
+                owner = SIE
+		add_core_of = SIE
+                }
+		1910.1.1 = {
+			owner = ENG
+			controller = ENG
+		      add_core_of = SIE
+                  remove_core_of = GNA
+           }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		13950 13953 
+	}
+	manpower=768500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
+
+

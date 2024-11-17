@@ -1,0 +1,30 @@
+
+state={
+	id=1082
+	name="STATE_1082"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = KEN
+                }
+						1961.1.1 = {
+        owner = KEN
+		add_core_of = KEN
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		5196 10860 14144 
+	}
+	manpower=592000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

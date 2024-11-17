@@ -1,0 +1,54 @@
+
+state={
+	id=577
+	name="STATE_577"
+	resources={
+		oil=13.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1936.1.1 = {
+			add_core_of = OVO
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1700.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		1726 1768 1784 1856 4730 4771 4817 7685 7837 10533 10663 10692 12542 12574 12639 12672 
+	}
+	manpower=29299
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+      impassable = yes
+	local_supplies=0.000
+}

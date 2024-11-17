@@ -1,0 +1,40 @@
+state={
+	id=1071
+	name="STATE_1071"
+	history={
+		owner = ZZZ
+		1899.1.1 = {
+		victory_points = {
+			10734 1
+		}
+                }
+		1900.1.1 = {
+			owner = ETH
+			controller = ETH
+                add_core_of = ETH
+		add_core_of = SID
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		1936.6.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+		1945.1.1 = {
+		      owner = ETH
+			controller = ETH
+
+		}
+
+	}
+
+	provinces={
+		10734
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,71 @@
+state={
+	id=694
+	name="STATE_694"
+	manpower = 444290
+
+	state_category = rural
+
+	history={
+                owner = ZZZ
+		1700.1.1 = {
+                owner = FRA
+                }
+		1699.1.1 = {
+                owner = FRA
+                }
+		1698.1.1 = {
+                owner = FRA
+                }
+		1808.1.1 = {
+                owner = ENG
+                }
+		1818.1.1 = {
+                owner = FRA
+                }
+		1900.1.1 = {
+		add_core_of = GDL
+        }
+				1789.1.1 = {
+        add_core_of = GDL
+        }
+						1965.1.1 = {
+                owner = GDL
+                }
+		1764.1.1 = {
+		victory_points = {
+			9377 1
+		}
+        }
+		1699.1.1 = {
+		buildings = {
+			infrastructure = 1
+			177 = {
+				naval_base = 3
+			}
+			9377 = {
+				naval_base = 1
+			}
+		}
+        }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			177 = {
+				naval_base = 3
+			}
+			9377 = {
+				naval_base = 1
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		177 9377 13084 
+	}
+
+	local_supplies=3.0 
+}

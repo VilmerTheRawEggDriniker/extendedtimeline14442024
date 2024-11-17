@@ -1,0 +1,17 @@
+characters={
+	AUG_clemenswenceslaus={
+		name=AUG_CHARACTER_CLEMENSWENCESLAUS
+		portraits={
+			civilian={
+				large="GFX_portrait_aug_clemenswenceslaus_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wettin}
+			desc = AUG_CLEMENSWENCESLAUS_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

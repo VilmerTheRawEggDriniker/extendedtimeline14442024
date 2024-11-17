@@ -1,0 +1,82 @@
+
+state={
+	id=884
+	name="STATE_884"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = STY
+		add_core_of = STY
+		add_core_of = CTH
+		1500.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = STY
+			remove_core_of = TYR
+			remove_core_of = CEL
+			remove_core_of = TRT
+			remove_core_of = CTH
+
+		}
+		1804.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = VNT
+			remove_core_of = RAG
+
+		}
+		1812.1.1 = {
+			owner = FRA
+
+		}
+		1816.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			add_core_of = AUH
+			remove_core_of = AUS
+
+		}
+		victory_points = {
+			11612 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		668 3674 6673 11612 13847 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

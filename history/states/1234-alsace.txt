@@ -1,0 +1,75 @@
+state={
+	id=1234
+	name="STATE_1234"
+	history={
+		owner = MUL
+		add_core_of = MUL
+		1689.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = MUL
+
+		}
+		victory_points = {
+			678 5 
+		}
+		victory_points = {
+			549 1 
+		}
+		victory_points = {
+			6529 1 
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				anti_air_building = 5
+				air_base = 5
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		1871.1.1 = {
+			owner = GER
+			add_core_of = GER
+			controller = GER
+
+		}
+		1919.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = GER
+			controller = FRA
+
+		}
+		1900.1.1 = {
+		buildings = {
+			3629 = {
+				bunker = 10
+
+			}
+			549 = {
+				bunker = 10
+
+			}
+			678 = {
+				bunker = 10
+
+			}
+		}
+		}
+
+	}
+	provinces={
+		549 678 1346 3629 6529 14287 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

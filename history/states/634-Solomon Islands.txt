@@ -1,0 +1,44 @@
+
+state={
+	id=634
+	name="STATE_634"
+
+	history={
+		owner = ZZZ
+		1899.1.1 = {
+					buildings = {
+			1269 = {
+				naval_base = 2
+
+			}
+		}
+		}
+		1898.1.1 = {
+		victory_points = {
+			1269 3 
+		}
+		}
+		1900.1.1 = {
+			owner = ENG
+			controller = ENG
+            add_core_of = PNG
+            add_core_of = SOL
+		}
+		1975.1.1 = {
+			owner = PNG
+			controller = PNG
+            remove_core_of = ENG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1042 1085 1269 1370 4252 4292 7437 10291 10319 12265 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

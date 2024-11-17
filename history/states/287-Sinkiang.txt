@@ -1,0 +1,62 @@
+
+state={
+	id=287
+	name="STATE_287"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+        owner = QIN
+		remove_core_of = MNG
+		add_core_of = CHI
+        }
+		1910.1.1 = {
+			owner = CHI
+			controller = CHI
+			remove_core_of = AUH
+
+		}
+		1919.1.1 = {
+
+		}
+		1920.1.1 = {
+			owner = SIK
+			controller = SIK
+			add_core_of = SIK
+			remove_core_of = AUH
+
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+			remove_core_of = AUH
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+			remove_core_of = AUH
+			add_core_of = PRC
+			remove_core_of = SIK
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		12864 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=4.000
+}

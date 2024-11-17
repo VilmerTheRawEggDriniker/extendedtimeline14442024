@@ -1,0 +1,22 @@
+state={
+	id=1143
+	name="STATE_1143"
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		owner = OMA
+		add_core_of = OMA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2018 5049 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

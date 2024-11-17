@@ -1,0 +1,77 @@
+state={
+	id=1179
+	name="STATE_1179"
+
+	history={
+		owner = EFR
+                add_core_of = EFR
+		1500.1.1 = {
+        owner = EFR
+        add_core_of = EFR
+		remove_core_of = FRI
+        }
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+				1600.1.1 = {
+                add_core_of = HOL
+                owner = HOL
+				remove_core_of = EFR
+                }
+				1744.1.1 = {
+                add_core_of = PRE
+                owner = PRE
+				remove_core_of = HOL
+                }
+				1812.1.1 = {
+                add_core_of = HOL
+                owner = FRA
+				remove_core_of = PRE
+                }
+				1816.1.1 = {
+                add_core_of = HAN
+                owner = HAN
+				remove_core_of = PRE
+				remove_core_of = HOL
+                }
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		victory_points = {
+			11360 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		11360 13518 13520 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

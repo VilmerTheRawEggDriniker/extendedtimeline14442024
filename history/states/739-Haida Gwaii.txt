@@ -1,0 +1,53 @@
+
+state={
+	id=739
+	name="STATE_739"
+
+	history={
+            owner = ZZZ
+		1700.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+				1789.1.1 = {
+                owner = ROD
+		add_core_of = ROD
+		remove_core_of = USA
+                }
+				1800.1.1 = {
+                owner = USA
+		add_core_of = USA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			9832 1 
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		9832 13304 
+	}
+	manpower=687497
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

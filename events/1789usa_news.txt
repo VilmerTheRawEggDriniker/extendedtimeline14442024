@@ -1,0 +1,440 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = unitedstates_news
+
+		news_event = {
+	id = unitedstates_news.1
+	title = "Birth of John Tyler"
+	desc = unitedstates_news.1.d
+	picture = GFX_news_event_usa_president_1
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 10th President of the United States imo."
+}
+		}
+				news_event = {
+	id = unitedstates_news.2
+	title = "Birth of James Buchanan"
+	desc = unitedstates_news.2.d
+	picture = GFX_news_event_usa_president_2
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 15th President of the United States imo."
+}
+		}
+
+				news_event = {
+	id = unitedstates_news.3
+	title = "Birth of James K. Polk"
+	desc = unitedstates_news.3.d
+	picture = GFX_news_event_usa_president_3
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 11th President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.4
+	title = "Birth of Millard Fillmore"
+	desc = unitedstates_news.4.d
+	picture = GFX_news_event_usa_president_4
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 13th President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.5
+	title = "Birth of Franklin Pierce"
+	desc = unitedstates_news.5.d
+	picture = GFX_news_event_usa_president_5
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 14th President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.6
+	title = "Birth of Andrew Johnson"
+	desc = unitedstates_news.6.d
+	picture = GFX_news_event_usa_president_6
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 17th President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.7
+	title = "Birth of Abraham Lincoln"
+	desc = unitedstates_news.7.d
+	picture = GFX_news_event_usa_president_7
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 16th President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.8
+	title = "Birth of Ulysses S. Grant"
+	desc = unitedstates_news.8.d
+	picture = GFX_news_event_usa_president_8
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 18th President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.9
+	title = "Birth of Rutherford B. Hayes"
+	desc = unitedstates_news.9.d
+	picture = GFX_news_event_usa_president_9
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 19th President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.10
+	title = "Birth of Chester A. Arthur"
+	desc = unitedstates_news.10.d
+	picture = GFX_news_event_usa_president_10
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 21st President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.11
+	title = "Birth of James A. Garfield"
+	desc = unitedstates_news.11.d
+	picture = GFX_news_event_usa_president_11
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 20th President of the United States imo."
+}
+		}
+						news_event = {
+	id = unitedstates_news.12
+	title = "Birth of Benjamin Harrison"
+	desc = unitedstates_news.12.d
+	picture = GFX_news_event_usa_president_12
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "We need to Find Whuka."
+}
+	option = {
+                name = "Hes the 23rd President of the United States imo."
+}
+		}
+
+						news_event = {
+	id = unitedstates_news.13
+	title = "The 1788 elections of the United States of America"
+	desc = unitedstates_news.13.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+						news_event = {
+	id = unitedstates_news.14
+	title = "The 1792 elections of the United States of America"
+	desc = unitedstates_news.14.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.15
+	title = "The 1796 elections of the United States of America"
+	desc = unitedstates_news.15.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.16
+	title = "The 1800 elections of the United States of America"
+	desc = unitedstates_news.16.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.17
+	title = "The 1804 elections of the United States of America"
+	desc = unitedstates_news.17.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.18
+	title = "The 1808 elections of the United States of America"
+	desc = unitedstates_news.18.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.19
+	title = "The 1812 elections of the United States of America"
+	desc = unitedstates_news.19.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.20
+	title = "The 1816 elections of the United States of America"
+	desc = unitedstates_news.20.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.21
+	title = "The 1820 elections of the United States of America"
+	desc = unitedstates_news.21.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.22
+	title = "The 1824 elections of the United States of America"
+	desc = unitedstates_news.22.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.23
+	title = "The 1828 elections of the United States of America"
+	desc = unitedstates_news.23.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}
+								news_event = {
+	id = unitedstates_news.24
+	title = "The 1832 elections of the United States of America"
+	desc = unitedstates_news.24.d
+	picture = GFX_
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+                name = "Hurrah for Democracy"
+}
+	option = {
+                name = "Elections are a Facade"
+}
+		}

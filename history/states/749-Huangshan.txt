@@ -1,0 +1,66 @@
+
+state={
+	id=749
+	name="STATE_749"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+            owner = CHI
+		}
+		1933.1.1 = {
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC 
+            add_core_of = PRC
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			12019 1 
+		}
+		1938.10.25 = {
+			controller = JAP
+			CHI = {
+				set_province_controller = 1125
+				set_province_controller = 7104
+				set_province_controller = 12019
+
+			}
+		}
+		1933.1.1 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 1
+
+			}
+                }
+			buildings = {
+				infrastructure = 3
+
+			}
+
+		
+
+	}
+
+	provinces={
+		1099 1125 1171 4105 4173 7104 10044 11937 12019 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

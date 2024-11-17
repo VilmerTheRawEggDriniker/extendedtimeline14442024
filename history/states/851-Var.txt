@@ -1,0 +1,78 @@
+state={
+	id=851
+	name="STATE_851"
+
+	history={
+		owner = LUX
+                add_core_of = LUX
+		1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BRB
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		remove_core_of = LUX
+		}
+		1800.1.1 = {
+	    add_core_of = FRA
+		owner = FRA
+		remove_core_of = LIE
+		remove_core_of = BRB
+		remove_core_of = FLA
+		remove_core_of = LUX
+		remove_core_of = BEL
+		}
+		1816.1.1 = {
+			owner = PRE
+		add_core_of = PRE
+		remove_core_of = FRA
+		}
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+						1919.1.1 = {
+		owner = FRA
+		}
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		victory_points = {
+			3488 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1920.1.1 = {
+			owner = BEL
+                  add_core_of = BEL
+                  remove_core_of = GER
+			controller = BEL
+		}
+	}
+
+	provinces={
+		3488
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
+
+
+
+

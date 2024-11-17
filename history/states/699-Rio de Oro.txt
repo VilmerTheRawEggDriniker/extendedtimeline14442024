@@ -1,0 +1,57 @@
+
+state={
+	id=699
+	name="STATE_699"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = WES
+		add_core_of = MOR
+		owner = SPR
+		}
+		1899.1.1 = {
+		buildings = {
+			infrastructure = 0
+			8038 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1898.1.1 = {
+		victory_points = {
+			8038 1 
+		}
+		victory_points = {
+			10875 1 
+		}
+                }
+		1914.1.1 = {
+			owner = SPR
+			controller = SPR
+
+		}
+		1970.1.1 = {
+			owner = MOR
+			controller = MOR
+			remove_core_of = SPR
+
+		}
+		buildings = {
+			infrastructure = 0
+
+
+		}
+	}
+
+	provinces={
+		4920 5012 7979 8038 10875 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

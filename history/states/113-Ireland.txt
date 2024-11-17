@@ -1,0 +1,53 @@
+
+state={
+	id=113
+	name="STATE_113"
+	resources={
+		aluminium=0.000
+		steel=2.000
+	}
+	history={
+		owner = IRE
+		1700.1.1 = {
+		owner = NIR
+		}
+	    1801.1.1 = {
+			owner = ENG
+			controller = ENG
+
+		}
+		1920.1.1 = {
+			owner = IRE
+			controller = IRE
+
+		}
+		victory_points = {
+			11293 20 
+		}
+				victory_points = {
+			285 1 
+		}
+		victory_points = {
+			303 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			11293 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = IRE
+
+	}
+
+	provinces={
+		285 303 369 3342 3359 7377 11293 11303 
+	}
+	manpower=1457600
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

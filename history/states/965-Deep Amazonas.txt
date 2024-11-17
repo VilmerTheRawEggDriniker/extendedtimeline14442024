@@ -1,0 +1,73 @@
+
+state={
+	id=965
+	name="STATE_965"
+
+	history={
+		victory_points = {
+			6557 3 
+		}
+		owner = LIT
+		add_core_of = LIT
+		1600.1.1 = {
+			owner = POL
+			add_core_of = POL
+
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = POL
+			controller = POL
+			add_core_of = SOV
+			add_core_of = UKR
+                        remove_core_of = POL
+			remove_core_of = RUS
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+                        add_core_of = UKR
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		572 1697 1837 4488 4743 4785 4831 4842 6435 6557 7707 7805 7863 10187 10561 10631 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

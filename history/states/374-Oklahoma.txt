@@ -1,0 +1,61 @@
+
+state={
+	id=374
+	name="STATE_374"
+	resources={
+		oil=60.000
+		aluminium=20.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			1806 1 
+		}
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = LOU
+        }
+		1803.1.1 = {
+        owner = MRI
+        add_core_of = MRI
+		remove_core_of = LOU
+        }
+				1813.1.1 = {
+        owner = UNO
+        add_core_of = UNO
+		remove_core_of = MRI
+        }
+				1837.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = UNO
+        }
+		1803.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1618 1806 2043 4919 5103 6803 7762 7904 7945 8025 9822 10702 10798 11743 11802 
+	}
+	manpower=2296039
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

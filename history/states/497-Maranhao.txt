@@ -1,0 +1,47 @@
+
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		rubber=23.000
+	}
+
+	history={
+                owner = ZZZ
+		1600.1.1 = {
+                owner = POR
+                }
+		1822.1.1 = {
+                add_core_of = BRA
+                owner = BRA
+                }
+						1789.1.1 = {
+        add_core_of = BRA
+        owner = BRA
+        }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2150 2228 5153 5204 5220 10984 12913 12933 12947 
+	}
+	manpower=2950100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,73 @@
+
+state={
+	id=182
+	name="STATE_182"
+
+	history={
+		owner = CRE
+		add_core_of = CRE
+		1700.1.1 = {
+		owner = OTO
+		}
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = CRE
+		}
+		1900.1.1 = {
+		owner = CRE
+        add_core_of = CRE
+		}
+		1914.1.1 = {
+		owner = GRE
+        add_core_of = GRE
+		remove_core_of=CRE
+		}
+		victory_points = {
+			9940 5 
+		}
+		victory_points = {
+			12058 3 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			12058 = {
+				naval_base = 1
+
+			}
+			9940 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 2
+			12058 = {
+				naval_base = 1
+
+			}
+			9940 = {
+				naval_base = 3
+
+			}
+
+		}
+		1900.1.1 = {
+			owner = GRE
+			controller = GRE
+            add_core_of = GRE
+		}
+
+	}
+
+	provinces={
+		1164 4170 9940 12058 13675 
+	}
+	manpower=387900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

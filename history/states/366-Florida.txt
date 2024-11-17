@@ -1,0 +1,114 @@
+
+state={
+	id=366
+	name="STATE_366"
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1600.1.1 = {
+		buildings = {
+			infrastructure = 0
+			1572 = {
+				naval_base = 2
+
+			}
+			1843 = {
+				naval_base = 5
+
+			}
+			7388 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = FLO
+        }
+		1836.1.1 = {
+        owner = FLO
+		add_core_of = FLO
+        }
+		1837.1.1 = {
+        owner = USA
+		add_core_of = USA
+		remove_core_of = FLO
+        }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			1572 = {
+				naval_base = 2
+
+			}
+			1843 = {
+				naval_base = 5
+
+			}
+			7388 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1836.1.1 = {
+ 		victory_points = {
+			1843 10 
+		}
+		victory_points = {
+			7388 5 
+		}
+		victory_points = {
+			9834 2 
+		}
+		victory_points = {
+			1572 2 
+		}
+		victory_points = {
+			12752 2 
+		}
+		victory_points = {
+			10407 2 
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 8
+			1572 = {
+				naval_base = 2
+
+			}
+			1843 = {
+				naval_base = 5
+
+			}
+			7388 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		866 1556 1572 1584 1843 1913 7388 9834 10407 10489 12353 12381 12439 12752 13633 13634 13635 13636 13637 13638 13639 13640 13641 13642 13643 13644 13645 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=10.000
+}

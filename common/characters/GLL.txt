@@ -1,0 +1,58 @@
+characters={
+	GLL_josephiigll={
+		name=GLL_CHARACTER_JOSEPHIIGLL
+		portraits={
+			civilian={
+				large="GFX_portrait_gll_josephiigll_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = GLL_JOSEPHIIGLL_DESC
+			expire="1797.1.1"
+		}
+}
+	GLL_leopoldiigll={
+		name=GLL_CHARACTER_LEOPOLDIIGLL
+		portraits={
+			civilian={
+				large="GFX_portrait_gll_leopoldiigll_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = GLL_LEOPOLDIIGLL_DESC
+			expire="1797.1.1"
+		}
+}
+	GLL_francisiigll={
+		name=GLL_CHARACTER_FRANCISIIGLL
+		portraits={
+			civilian={
+				large="GFX_portrait_gll_francisiigll_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = GLL_FRANCISIIGLL_DESC
+			expire="1797.1.1"
+		}
+}
+	GLL_ferdinandigll={
+		name=GLL_CHARACTER_FERDINANDIGLL
+		portraits={
+			civilian={
+				large="GFX_portrait_gll_ferdinandigll_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = GLL_FERDINANDIGLL_DESC
+			expire="1797.1.1"
+		}
+}
+}

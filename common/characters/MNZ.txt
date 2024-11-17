@@ -1,0 +1,16 @@
+characters={
+	MNZ_karl={
+		name=MNZ_CHARACTER_KARL
+		portraits={
+			civilian={
+				large="GFX_portrait_mnz_karl_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = MNZ_KARL_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

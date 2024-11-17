@@ -1,0 +1,45 @@
+
+state={
+	id=446
+	name="STATE_446"
+
+	history={
+		owner = EGY
+		1946.1.1 = {
+			owner = EGY
+			controller = EGY
+			remove_core_of = SPR
+
+		}
+				1600.1.1 = {
+		owner = OTO
+		}
+		1804.1.1 = {
+		owner = EGY
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 3
+			air_base = 5
+
+		}
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			7011 50 
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		7011 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

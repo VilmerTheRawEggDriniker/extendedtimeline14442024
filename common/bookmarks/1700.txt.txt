@@ -1,0 +1,91 @@
+bookmarks = {
+	bookmark = {
+		name = "The Great Northern Wars"
+		desc = "1700_DESC"
+		date = 1700.1.1.12
+		picture = "GFX_the_great_northern_wars_1700"
+		default_country = "SWE"
+	
+		SWE = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		DEN = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		RUS = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		POL = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+	        BDB = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		ENG = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		FRA = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"BAY"={
+			minor = yes
+			history = "OTHER_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

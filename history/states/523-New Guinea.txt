@@ -1,0 +1,62 @@
+
+state={
+	id=523
+	name="STATE_523"
+
+	history={
+		owner = ZZZ
+		1898.1.1 = {
+					buildings = {
+			12237 = {
+				naval_base = 2
+
+			}
+			12154 = {
+				naval_base = 1
+
+			}
+			12240 = {
+				naval_base = 1
+
+			}
+	    }
+		}
+		1899.1.1 = {
+		victory_points = {
+			12237 1 
+		}
+		}
+		1900.1.1 = {
+			owner = GER
+			controller = GER
+            add_core_of = PNG
+		}
+		1919.1.1 = {
+			owner = AST
+			controller = AST
+            remove_core_of = ENG
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 0
+			air_base = 3
+		}
+		}
+		1975.1.1 = {
+			owner = PNG
+			controller = PNG
+            remove_core_of = ENG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1389 4393 7365 7529 7614 10423 12154 12193 12237 12240 10251
+	}
+	manpower=657000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

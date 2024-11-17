@@ -1,0 +1,31 @@
+characters={
+	IME_solomonii={
+		name=IME_CHARACTER_SOLOMONII
+		portraits={
+			civilian={
+				large="GFX_portrait_ime_solomonii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bagriatoni}
+			desc = IME_SOLOMONII_DESC
+			expire="1797.1.1"
+		}
+}
+	IME_davidii={
+		name=IME_CHARACTER_DAVIDII
+		portraits={
+			civilian={
+				large="GFX_portrait_ime_davidii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bagriatoni}
+			desc = IME_DAVIDII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

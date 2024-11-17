@@ -1,0 +1,56 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		steel=20.000
+		oil=5.000
+		aluminium=8.000
+	}
+
+	history={
+                owner = ZZZ
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1882.1.1 = {
+		victory_points = {
+			853 3 
+		}
+                }
+		1822.1.1 = {
+                owner = MEX
+                add_core_of = MEX
+                }
+		1850.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                }
+		1850.1.1 = {
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		850 853 3834 4796 6897 7920 8115 10783 11814 12765 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=8.000
+}

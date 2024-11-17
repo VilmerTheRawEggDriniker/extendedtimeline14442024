@@ -1,0 +1,59 @@
+
+state={
+	id=946
+	name="STATE_946"
+
+	history={
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = TRA
+                add_core_of = TRA
+                remove_core_of = HUN
+		}
+		1700.1.1 = {
+			owner = HUN
+                add_core_of = HUN
+                remove_core_of = TRA
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        add_core_of = AUH
+                        add_core_of = ROM
+                        remove_core_of = HUN  
+                        remove_core_of = AUS       
+		}
+		buildings = {
+			infrastructure = 1
+	        }
+		victory_points = {
+			3696 2 
+		}
+		victory_points = {
+			746 2 
+		}
+		1919.1.1 = {
+			owner = ROM
+			controller = ROM
+			remove_core_of = AUH
+
+		}
+		1945.1.1 = {
+			remove_core_of = TRA
+			remove_claim_by = HUN
+
+		}
+        }
+
+	provinces={
+		713 746 3696 3709 9687 9704 14274 14275 14283 14286 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

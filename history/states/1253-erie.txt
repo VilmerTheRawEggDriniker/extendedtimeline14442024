@@ -1,0 +1,42 @@
+state={
+	id=1253
+	name="STATE_1253"
+		history={
+		owner = ZZZ
+		1800.1.1 = {
+			victory_points = {
+				3687 2 
+			}
+
+		}
+		1789.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 1
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		3687 9662 12636 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

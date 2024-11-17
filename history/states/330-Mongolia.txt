@@ -1,0 +1,55 @@
+
+state={
+	id=330
+	name="STATE_330"
+	resources={
+		steel=2.000
+		chromium=3.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MON
+        }
+		1900.1.1 = {
+        owner = QIN
+		remove_core_of = MNG
+        }
+		1700.1.1 = {
+		victory_points = {
+			4801 10
+		}
+		victory_points = {
+			7799 1 
+		}
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1913.1.1 = {
+			owner = MON
+			controller = MON
+            remove_core_of = QIN
+		}
+
+	}
+
+	provinces={
+		1725 1728 1798 1859 4697 4732 4801 4862 7799 7881 10554 10623 12605 12675 
+	}
+	manpower=435550
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

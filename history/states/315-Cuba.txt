@@ -1,0 +1,86 @@
+state= {
+	id=315
+	name="STATE_315"
+	manpower = 3607919
+	resources={
+		steel=3 # was: 4
+		chromium=90 # was: 160
+	}
+	
+	state_category = town
+
+	history= {
+		owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1506.1.1 = {
+		victory_points = {
+			7622 5 
+		}
+                }
+		1789.1.1 = {
+        add_core_of = CUB
+        owner = MEX
+        }
+		1836.1.1 = {
+        add_core_of = CUB
+        owner = SPR
+        }
+		1505.1.1 = {
+		buildings = {
+			infrastructure = 1
+			7622 = {
+				naval_base = 3
+			}
+			1550 = {
+				naval_base = 1
+			}
+		}
+                }
+		1800.1.1 = {
+		victory_points = {
+			7590 1
+		}
+                }
+		1900.1.1 = {
+                owner = CUB
+                add_core_of = CUB
+                }
+		1899.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			7622 = {
+				naval_base = 3
+			}
+			1550 = {
+				naval_base = 1
+			}
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			7622 = {
+				naval_base = 3
+			}
+			1550 = {
+				naval_base = 1
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		1550 4476 4600 7451 7546 7590 7622 10374 10498 12347
+	}
+
+	local_supplies=0.0 
+}

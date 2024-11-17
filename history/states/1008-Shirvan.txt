@@ -1,0 +1,53 @@
+
+state={
+	id=1008
+	name="STATE_1008"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		1772.1.1 = {
+			owner = GLL
+                add_core_of = GLL
+
+		}
+																1945.1.1 = {
+		owner = RPO
+		}
+		1946.1.1 = {
+		owner = POL
+		}
+		1804.1.1 = {
+			owner = AUS
+			controller = AUS
+
+		}
+		1919.1.1 = {
+			owner = POL
+			controller = POL
+			remove_core_of = RUS
+                        remove_core_of = GLL
+
+		}
+		1900.1.1 = {
+			owner = AUH
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			3410 1 
+		}
+
+	}
+
+	provinces={
+		417 466 3410 6499 14675 14676 14683 14684 14685 14689 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

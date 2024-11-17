@@ -1,0 +1,50 @@
+
+state={
+	id=427
+	name="STATE_427"
+	resources={
+		chromium=6.000
+	}
+
+	history={
+		owner = MUG
+		add_core_of = MUG
+		1725.1.1 = {
+        remove_core_of = MUG
+		add_core_of = HYD
+		owner = HYD
+		}
+		1800.1.1 = {
+	    add_core_of = RAJ
+		owner = RAJ
+		victory_points = {
+			8087 1 
+		}
+				buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1275 1317 4280 4472 5019 5104 8087 10259 10324 10511 11950 12114 
+	}
+	manpower=8000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=7.000
+}

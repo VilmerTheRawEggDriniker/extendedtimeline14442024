@@ -1,0 +1,36 @@
+
+state={
+	id=487
+	name="STATE_487"
+
+	history={
+		owner = ZZZ
+		buildings = {
+			infrastructure = 0
+
+		}
+		1789.1.1 = {
+        add_core_of = BOL
+        owner = ARG
+        }
+		1812.1.1 = {
+        add_core_of = BOL
+        owner = BOL
+        }
+		1826.1.1 = {
+			owner = BOL
+			controller = BOL
+            add_core_of = BOL
+            remove_core_of = SPR
+		}
+
+	}
+
+	provinces={
+		2160 5188 8211 8240 10924 10982 10996 12902 12916 12917 12973 12979 
+	}
+	manpower=334500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,74 @@
+
+state={
+	id=82
+	name="STATE_82"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		victory_points = {
+			9606 5
+		}
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = OTO
+		}
+		1716.1.1 = {
+			owner = HUN
+                add_core_of = HUN
+                remove_core_of = TRA
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        add_core_of = AUH
+                        add_core_of = ROM
+                        remove_core_of = HUN   
+                        remove_core_of = AUS      
+		}
+		1919.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+                }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1919.1.1 = {
+			owner = BNT
+			controller = BNT
+                        add_core_of = BNT
+			remove_core_of = AUH
+
+		}
+		1920.1.1 = {
+			owner = ROM
+			controller = ROM
+                        remove_core_of = BNT
+			remove_core_of = AUH
+
+		}
+		1945.1.1 = {
+			remove_core_of = TRA
+
+		}
+
+	}
+
+	provinces={
+		646 662 3649 9606 11592 11608 14223 14224 14225 14226 14227 14230 14231 14234 
+	}
+	manpower=950000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=11.000
+}

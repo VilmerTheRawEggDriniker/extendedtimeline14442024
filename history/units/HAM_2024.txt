@@ -1,0 +1,73 @@
+division_template = {
+	name = "Gaza Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Central Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Khan Younis Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "North Brigade"
+		location = 4088
+		division_template = "Gaza Brigade"
+		bonus = 1
+	}
+	division = {
+		name = "Gaza Brigade"
+		location = 4088
+		division_template = "Gaza Brigade"
+		bonus = 1
+	}
+	division = {
+		name = "Central Brigade"
+		location = 4088
+		division_template = "Central Brigade"
+		bonus = 1
+	}
+	division = {
+		name = "Rafah Brigade"
+		location = 4088
+		division_template = "Central Brigade"
+		bonus = 1
+	}
+	#division = { # Reportedly defeated by Times of Israel as of 18 February 2024
+	#	name = "Khan Younis Brigade"
+	#	location = 4088
+	#	division_template = "Khan Younis Brigade"
+	#	bonus = 1
+	#}
+
+}

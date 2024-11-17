@@ -1,0 +1,45 @@
+
+state={
+	id=541
+	name="STATE_541"
+
+	history={
+		owner = ZZZ
+		1890.1.1 = {
+		victory_points = {
+			4879 1 
+		}
+                }
+		1900.1.1 = {
+                add_core_of = NMB
+                owner = GER
+                }
+				1919.1.1 = {
+                add_core_of = NMB
+                owner = ENG
+                }
+		1920.1.1 = {
+			owner = SAF
+			controller = SAF
+			add_core_of = SAF
+
+		}
+				1990.1.1 = {
+        owner = NMB
+		add_core_of = NMB
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		2207 2229 4879 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921 13217 14126 14128 14129 14131 14132 
+	}
+	manpower=460000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=513
+	name="STATE_513"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		1836.1.1 = {
+                owner = FRA
+                }
+		1962.1.1 = {
+                owner = ALG
+                add_core_of = ALG
+                }
+		victory_points = {
+			7132 5 
+		}
+		buildings = {
+			infrastructure = 1
+			7132 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1013 4116 4150 7132 9964 11923 
+	}
+	manpower=811486
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

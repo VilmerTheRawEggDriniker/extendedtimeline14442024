@@ -1,0 +1,68 @@
+
+state={
+	id=883
+	name="STATE_883"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = STY
+		add_core_of = STY
+		1500.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = STY
+			remove_core_of = TYR
+			remove_core_of = CEL
+			remove_core_of = TRT
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			add_core_of = AUH
+			remove_core_of = AUS
+
+		}
+		victory_points = {
+			9648 10 
+		}
+		victory_points = {
+			3673 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		653 3673 6687 6691 9646 9648 9650 9679 11634 14256 14273 14588 14598 14606 14610 
+	}
+	manpower=1331322
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

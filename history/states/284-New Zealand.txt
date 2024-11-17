@@ -1,0 +1,54 @@
+
+state={
+	id=284
+	name="STATE_284" # North Island
+	manpower = 1000000
+	
+	state_category = town
+	
+	history={
+		owner = ZZZ
+		1840.1.1 = {
+			owner = NZL
+			controller = NZL
+                add_core_of = NZL
+		}
+		1849.1.1 = {
+		victory_points = {
+			1814 10
+		}
+		victory_points = {
+			4543 5 
+		}
+		}
+		1848.1.1 = {
+			buildings = {
+			4543 = {
+				naval_base = 3
+			}
+			1814 = {
+				naval_base = 2
+			}
+		}  
+		}
+		1900.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
+		}
+		1923.1.1 = {
+			buildings = {
+			air_base = 3
+			}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1565 1713 1746 1786 1801 1814 4543 4615 4718 4748 4804 7692 7742 7783 7826 7887 10334 10373 10609 10710 12362 12604 12617 12664 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+characters = {
+  ABK_kelesh_ahmed_bey_sharvashidze = {
+    name = ABK_CHARACTER_kelesh_ahmed_bey_sharvashidze
+    portraits = {
+      civilian = {
+        large = "GFX_portrait_ABK_kelesh_ahmed_bey_sharvashidze"
+      }
+    }
+	country_leader={
+		ideology=despotism
+		expire="1808.1.1"
+	}
+  }
+	ABK_kirilli_bechvaya = {
+		name = "Kirill Bechvaya" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Kirill_Bechvaya
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

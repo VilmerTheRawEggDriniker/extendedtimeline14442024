@@ -1,0 +1,28 @@
+
+state={
+	id=806
+	name="STATE_806"
+
+	history={
+		owner = ENG
+		1455.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		743 
+	}
+	manpower=113411
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

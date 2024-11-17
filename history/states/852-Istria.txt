@@ -1,0 +1,35 @@
+
+state={
+	id=852
+	name="STATE_852"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		victory_points = {
+			10976 1 
+		}
+                }
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = KEN
+                add_core_of = SOM
+                }
+						1961.1.1 = {
+        owner = KEN
+		add_core_of = KEN
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		8133 10761 10976 12927 14149 14153 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

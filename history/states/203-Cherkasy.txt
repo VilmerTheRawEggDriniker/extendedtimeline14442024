@@ -1,0 +1,67 @@
+
+state={
+	id=203
+	name="STATE_203"
+
+	history={
+		victory_points = {
+			488 10 
+		}
+		owner = KIE
+		add_core_of = KIE
+		1600.1.1 = {
+			owner = POL
+			add_core_of = ZAP
+			remove_core_of = KIE
+
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+			remove_core_of = ZAP
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		458 488 2853 2900 4878 6211 6451 9224 11122 11261 11409 11424 11454 13065 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

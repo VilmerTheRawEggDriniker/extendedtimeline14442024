@@ -1,0 +1,31 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = ottomanempire_1789_event
+
+# French Revolution
+country_event = {
+	id = ottomanempire_1789_event.1
+	title = "Death of Muhammad ibn Abd al-Wahhab"
+	desc = ottomanempire_1789_event.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+date > 1792.1.1 date < 1792.2.2
+original_tag=OTO
+}
+fire_only_once = yes
+	option = { # 
+		name = "He was a Muslim"
+		ai_chance = { factor = 100 } 
+		news_event = ottomanempire_1789_news.1
+		add_stability=-0.01
+	}
+	option = { # 
+		name = "He was a Kafir"
+		ai_chance = { factor = 100 } 
+		news_event = ottomanempire_1789_news.1
+		add_stability=-0.01
+	}
+}

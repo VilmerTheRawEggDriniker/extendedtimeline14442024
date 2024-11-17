@@ -1,0 +1,100 @@
+
+state={
+	id=69
+	name="STATE_69"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = BOH
+		add_core_of = BOH
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1919.1.1 = {
+			owner = CZE
+			controller = CZE
+                        add_core_of = CZE
+			remove_core_of = AUH
+                        remove_core_of = BOH
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			add_core_of = AUH
+			remove_core_of = AUS
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 4
+				anti_air_building = 1
+
+			}
+
+		}
+		victory_points = {
+			3585 3 
+		}
+		victory_points = {
+			11401 3 
+		}
+		victory_points = {
+			14719 1 
+		}
+		victory_points = {
+			6470 3
+		}
+		victory_points = {
+			14710 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+
+		}
+		1930.1.1 = {
+			buildings = {
+				3418 = {
+					bunker = 2
+
+				}
+				3585 = {
+					bunker = 3
+
+				}
+				6470 = {
+					bunker = 2
+
+				}
+
+			}
+
+		}
+		1938.9.30 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1946.1.1 = {
+			owner = CZE
+			controller = CZE
+			add_core_of = CZE
+			remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		469 543 3418 3585 6470 7857 9555 11401 11414 11525 14694 14697 14705 14708 14710 14717 14719 14722 
+	}
+	manpower=2830000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

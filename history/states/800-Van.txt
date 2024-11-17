@@ -1,0 +1,80 @@
+
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		owner = QAR
+		add_core_of = QAR
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			remove_core_of = ARM
+
+		}
+		1936.1.1 = {
+			remove_core_of = OTO
+
+		}
+		victory_points = {
+			6935 5 
+		}
+		victory_points = {
+			12376 1 
+		}
+		victory_points = {
+			11853 3 
+		}
+		victory_points = {
+			3979 3 
+		}
+		victory_points = {
+			9868 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		if = {
+			limit = {
+				has_dlc = "Battle for the Bosporus"
+
+			}
+			add_core_of = KUR
+
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_dlc = "Battle for the Bosporus"
+
+				}
+
+			}
+			add_core_of = KUR
+
+		}
+
+	}
+
+	provinces={
+		652 3979 6935 6976 7470 9858 9868 9886 9954 10399 11739 11853 11880 12318 12376 13121 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

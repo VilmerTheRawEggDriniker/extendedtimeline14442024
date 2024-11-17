@@ -1,0 +1,16 @@
+characters={
+	MSV_tadeusz={
+		name=MSV_CHARACTER_TADEUSZ
+		portraits={
+			civilian={
+				large="GFX_portrait_msv_tadeusz_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = MSV_TADEUSZ_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,50 @@
+
+state={
+	id=777
+	name="STATE_777"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = TOG
+                owner = GER
+                }
+		1919.1.1 = {
+        owner = SEN
+        }
+		1939.1.1 = {
+        owner = SEN
+		}
+		1899.1.1 = {
+		victory_points = {
+			1951 1 
+		}
+                }
+		1898.1.1 = {
+		buildings = {
+			infrastructure = 1
+			1951 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+				1961.1.1 = {
+                owner = TOG
+		add_core_of = TOG
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1951 12843 13212 13955 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

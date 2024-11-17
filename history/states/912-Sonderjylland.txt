@@ -1,0 +1,38 @@
+
+state={
+	id=912
+	name="STATE_912"
+
+	history={
+		owner = ZZZ
+				1789.1.1 = {
+                owner = MEX
+                add_core_of = CAS
+                }
+		1836.1.1 = {
+                owner = CAS
+                add_core_of = CAS
+                }
+		1848.1.1 = {
+                owner = USA
+                add_core_of = USA
+                }
+		1900.1.1 = {
+                owner = USA
+                remove_core_of = CAS
+                add_core_of = USA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		505 528 3471 4274 10151 11495 11733 12281 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

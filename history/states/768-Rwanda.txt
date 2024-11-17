@@ -1,0 +1,47 @@
+state={
+	id=768
+	name="STATE_768" # Rwanda
+	
+	state_category = pastoral
+
+	history={
+		owner = ZZZ
+		1899.1.1 = {
+		victory_points = {
+			9962 1
+		}
+                }
+		1900.1.1 = {
+		add_core_of = TZN
+                owner = GER
+                }
+		1919.1.1 = {
+			owner = COG
+			controller = COG
+                 add_core_of = RWA
+            remove_core_of = TZN
+		}
+		1939.1.1 = {
+			owner = COG
+			controller = COG
+            remove_core_of = SPR
+		}
+		1963.1.1 = {
+			owner = RWA
+			controller = RWA
+            remove_core_of = TZN
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		9962
+	}
+	manpower=1716564
+	buildings_max_level_factor=1.000
+
+	local_supplies=1.0 
+}

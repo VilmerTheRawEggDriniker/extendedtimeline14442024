@@ -1,0 +1,49 @@
+state=
+{
+	id=318
+	name="STATE_318"
+	manpower = 2380000
+	
+	state_category = town
+	
+	resources={
+		chromium=2 # was: 3
+	}
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+						1700.1.1 = {
+                owner = FRA
+                }
+		1600.1.1 = {
+		victory_points = {
+			4641 5 
+		}
+                }
+		1600.1.1 = {
+		buildings = {
+			infrastructure = 0
+			4641 = {
+				naval_base = 3
+			}
+		}
+                }
+		1789.1.1 = {
+        add_core_of = HAI
+        }
+		1800.1.1 = {
+                owner = HAI
+                add_core_of = HAI
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		1594 1635 4641
+	}
+
+	local_supplies=0.0 
+}

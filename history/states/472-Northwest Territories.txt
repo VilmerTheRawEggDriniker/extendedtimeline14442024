@@ -1,0 +1,64 @@
+
+state={
+	id=472
+	name="STATE_472"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1789.1.1 = {
+			owner = USA
+			add_core_of = UNO
+			remove_core_of = USA
+
+		}
+		1836.1.1 = {
+			owner = USA
+			add_core_of = USA
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = NCR
+
+		}
+		1700.1.1 = {
+			buildings = {
+				infrastructure = 2
+
+			}
+
+		}
+		1700.1.1 = {
+			victory_points = {
+				12459 1 
+			}
+			victory_points = {
+				3732 1 
+			}
+
+		}
+		1790.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		3732 6719 7462 10318 12202 12459 
+	}
+	manpower=697423
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,78 @@
+state={
+	id=1100
+	name="STATE_1100"
+
+	history={
+            owner = ZZZ
+		1700.1.1 = {
+                owner = USA
+				add_core_of=USA
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+			6984 = {
+				naval_base = 2
+
+			}
+			11892 = {
+				naval_base = 1
+
+			}
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			6984 20 
+		}
+		victory_points = {
+			11892 3
+		}
+                }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+			6984 = {
+				naval_base = 2
+
+			}
+			11892 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 6
+			6984 = {
+				naval_base = 2
+
+			}
+			11892 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		6823 6892 6929 6984 9758 11892 
+
+	}
+	manpower=1631526
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,76 @@
+
+state={
+	id=804
+	name="STATE_804"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = HRZ
+		add_core_of = HRZ
+								1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = BOS
+			remove_core_of = HRZ
+
+		}
+		1900.1.1 = {
+			owner = BOS
+			controller = BOS
+			add_core_of = BOS
+			remove_core_of = SER
+
+		}
+		1910.1.1 = {
+			owner = AUH
+			controller = AUH
+			add_core_of = BOS
+			remove_core_of = SER
+
+		}
+		victory_points = {
+			9894 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1936.1.1 = {
+			add_core_of = HRZ
+
+		}
+		1945.1.1 = {
+			remove_core_of = HRZ
+
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+
+		}
+		1993.1.1 = {
+			owner = BOS
+			controller = BOS
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		6942 9894 11872 13317 13826 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

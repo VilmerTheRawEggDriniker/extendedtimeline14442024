@@ -1,0 +1,45 @@
+
+state={
+	id=656
+	name="STATE_656"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		owner = ENG
+		add_core_of = KUW
+                }
+		1900.1.1 = {
+		victory_points = {
+			8085 1 
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 1
+			8085 = {
+				naval_base = 4
+
+			}
+
+		}
+                }
+		1973.1.1 = {
+			owner = KUW
+			controller = KUW
+            remove_core_of = YUG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1955 8085 
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

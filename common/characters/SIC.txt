@@ -1,0 +1,17 @@
+characters={
+	SIC_ferdinandi={
+		name=SIC_CHARACTER_FERDINANDI
+		portraits={
+			civilian={
+				large="GFX_portrait_sic_ferdinandi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bourbon}
+			desc = SIC_FERDINANDI_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

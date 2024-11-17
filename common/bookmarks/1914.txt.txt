@@ -1,0 +1,87 @@
+bookmarks = {
+	bookmark = {
+		name = "The Great War"
+		desc = "1914_DESC"
+		date = 1914.7.28.12
+		picture = "GFX_worldwarone_1914"
+		default_country = "FRA"
+	
+		FRA = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		ENG = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		SPR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		POR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		AUH = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		GER = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		RUS = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		SWE = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		# minors from DLC ####
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

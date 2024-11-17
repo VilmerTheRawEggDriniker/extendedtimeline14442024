@@ -1,0 +1,59 @@
+
+state={
+	id=958
+	name="STATE_958"
+
+	history={
+		owner = CRO
+		add_core_of = CRO
+								1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+                add_core_of = BOS
+                remove_core_of = CRO
+		}
+		1900.1.1 = {
+			owner = BOS
+			controller = BOS
+                add_core_of = BOS
+                remove_core_of = SER
+		}
+		1910.1.1 = {
+			owner = AUH
+			controller = AUH
+                add_core_of = BOS
+                remove_core_of = SER
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+
+		}
+		1993.1.1 = {
+			owner = BOS
+			controller = BOS
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		6614 9586 13838 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

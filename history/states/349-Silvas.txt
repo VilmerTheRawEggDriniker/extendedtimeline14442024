@@ -1,0 +1,50 @@
+
+state={
+	id=349
+	name="STATE_349"
+
+	history={
+		owner = DUL
+		victory_points = {
+			7620 10 
+		}
+		victory_points = {
+			6813 3 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		add_core_of = DUL
+		1522.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		921 3890 3921 6813 6888 6977 7620 9761 9912 
+	}
+	manpower=592821
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

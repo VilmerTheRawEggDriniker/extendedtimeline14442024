@@ -1,0 +1,36 @@
+state={
+	id=1011
+	name="STATE_1011"
+
+	history={
+		owner = ZZZ
+		1879.1.1 = {
+			owner = SAF
+			controller = SAF
+		add_core_of = SAF
+		add_core_of = NMB
+
+		}
+				1990.1.1 = {
+        owner = NMB
+		add_core_of = NMB
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+		1879.1.1 = {
+		victory_points = {
+			13917 1 
+		}
+		}
+	}
+
+	provinces={
+		13917
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

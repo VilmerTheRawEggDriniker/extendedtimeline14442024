@@ -1,0 +1,49 @@
+
+state={
+	id=48
+	name="STATE_48"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = OTO
+		1880.1.1 = {
+			owner = BUL
+			controller = BUL
+		}
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+
+		}
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			air_base = 3
+
+		}
+		}
+		victory_points = {
+			949 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		949 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

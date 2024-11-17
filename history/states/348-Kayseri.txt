@@ -1,0 +1,46 @@
+
+state={
+	id=348
+	name="STATE_348"
+	resources={
+		chromium=32.000
+	}
+
+	history={
+		owner = RAM
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = RAM
+		1608.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		6956 9830 
+	}
+	manpower=1440233
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=6.000
+}

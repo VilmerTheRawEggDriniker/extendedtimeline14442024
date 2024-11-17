@@ -1,0 +1,50 @@
+
+state={
+	id=1170
+	name="STATE_1170"
+
+	history={
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = OTO
+		}
+		1700.1.1 = {
+			owner = HUN
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        add_core_of = AUH
+remove_core_of = AUS
+		}
+		buildings = {
+			infrastructure = 2
+		industrial_complex = 1
+		arms_factory = 1
+
+		}
+		victory_points = {
+			3713 1 
+		}
+		1919.1.1 = {
+			owner = HUN
+			controller = HUN
+			add_core_of = HUN
+			remove_core_of = AUH
+
+		}
+
+	}
+
+	provinces={
+		716 3713 3731 6751 11520 14291 14292 14293 14300 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

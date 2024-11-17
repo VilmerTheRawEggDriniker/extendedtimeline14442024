@@ -1,0 +1,70 @@
+
+state={
+	id=364
+	name="STATE_364"
+	manpower = 1340316	
+	
+	state_category = town
+
+	history={
+            owner = ZZZ
+		1700.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2 #was: 5
+			7202 = {
+				naval_base = 2
+
+			}
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			7202 1 
+		}
+		victory_points = {
+			7527 1 
+		}
+                }
+		1700.1.1 = {
+                }
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			7202 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			7202 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 
+	}
+
+	local_supplies=0.0 
+}

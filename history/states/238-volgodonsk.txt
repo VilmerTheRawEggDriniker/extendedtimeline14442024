@@ -1,0 +1,72 @@
+
+state={
+	id=238
+	name="STATE_238"
+
+	history={
+		owner = CIR
+		add_core_of = CIR
+		1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1900.1.1 = {
+			remove_core_of = CIR
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				719 = {
+					naval_base = 3
+					coastal_bunker = 1
+
+				}
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		1919.1.1 = {
+		owner = KUB
+		add_core_of=KUB
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		1840.1.1 = {
+		victory_points = {
+			719 3 
+		}
+		}
+
+	}
+
+	provinces={
+		717 719 3698 3760 6738 9674 9694 11668 11681 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

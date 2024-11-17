@@ -1,0 +1,41 @@
+state={
+	id=1270
+	name="STATE_1270"
+		history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+					1748.1.1 = {
+			victory_points = {
+				11975 5 
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				11975 = {
+					naval_base = 1
+
+				}
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		638 1480 7118 7612 9949 10394 10437 10465 10492 11975 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

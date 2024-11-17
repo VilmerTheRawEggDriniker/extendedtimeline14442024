@@ -1,0 +1,91 @@
+bookmarks = {
+	bookmark = {
+		name = "Russian Civil War"
+		desc = "1919_DESC"
+		date = 1919.1.1.12
+		picture = "GFX_the_russian_civil_war_1919"
+		default_country = "RUS"
+	
+		RUS = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		SOV = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		POL = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		UKR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		EST = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		LAT = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		LIT = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"BLR"={
+			minor = yes
+			history = "OTHER_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		} 
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

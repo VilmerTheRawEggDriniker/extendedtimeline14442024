@@ -1,0 +1,58 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		rubber=342.000
+		steel=20.000
+		tungsten=189.000
+		aluminium=15.000
+	}
+
+	history={
+		owner = ZZZ
+		1880.1.1 = {
+                add_core_of = MAL
+                owner = MAL
+                }
+		1879.1.1 = {
+		victory_points = {
+			10297 10 
+		}
+                }
+				1936.1.1 = {
+							buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 6
+			10297 = {
+				naval_base = 5
+
+			}
+
+		}
+                }
+		1878.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10297 = {
+				naval_base = 5
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1364 1376 4310 4367 4384 4412 4424 7427 10297 10313 12113 12215 12255 12271 
+	}
+	manpower=1093200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

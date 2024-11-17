@@ -1,0 +1,68 @@
+
+state={
+	id=801
+	name="STATE_801"
+
+	history={
+		owner = OTO
+		1880.1.1 = {
+			owner = BUL
+			controller = BUL
+		}
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 6
+			9783 = {
+				naval_base = 3
+
+			}
+		}
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 6
+			9783 = {
+				naval_base = 3
+
+			}
+
+		}
+		}
+		victory_points = {
+			9612 3 
+		}
+		victory_points = {
+			3796 3 
+		}
+		victory_points = {
+			9771 1 
+		}
+		victory_points = {
+			9783 10
+		}
+		victory_points = {
+			9769 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			9783 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		649 793 935 965 3796 3819 3908 3971 9610 9612 9769 9771 9783 13534 13535 13746 13747 13768 13771 13772 13773 13776 13778 13779 13780 13782 13783 13784 13785 13820 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=3.000
+}

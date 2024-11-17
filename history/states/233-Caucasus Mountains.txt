@@ -1,0 +1,64 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		chromium=18.000
+	}
+
+	history={
+		owner = CIR
+		add_core_of = CIR
+		1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1900.1.1 = {
+			remove_core_of = CIR
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+						1919.1.1 = {
+		owner = KUB
+		add_core_of=KUB
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		1840.1.1 = {
+		victory_points = {
+			9663 1 
+		}
+		}
+
+	}
+
+	provinces={
+		9663 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

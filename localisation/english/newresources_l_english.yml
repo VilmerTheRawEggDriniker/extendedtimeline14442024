@@ -1,0 +1,9 @@
+﻿l_english:
+ PRODUCTION_MATERIALS_WOOD:0 "Wood"
+ WOOD_desc:0 "Wood"
+ PRODUCTION_MATERIALS_GOLD:0 "Gold"
+ GOLD_desc:0 "Gold" 
+ GOLD_MANA_TOOLTIP:0 "§HGold" #ЗОЛОТО
+ GOLD_MANA_TOOLTIP_DELAYED:0 "§WBasic - 10\n§R  Export - [resource_exported@gold|Y]"  #Золото - это валюта, деньги. Оно нужно для оплаты производства, на содержание зданий.
+ PRODUCTION_MATERIALS_COAL:0 "Coal"
+ COAL_desc:0 "Coal"

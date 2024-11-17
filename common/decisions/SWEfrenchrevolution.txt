@@ -1,0 +1,29 @@
+sweden_napoleonic_wars_category = {
+	freedom_of_the_press_act_revision = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1792.1.1 date < 1793.1.1 
+			original_tag=SWE
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1800.1.1 
+			original_tag=SWE
+			NOT = { has_global_flag = sweden_freedom_of_the_press_act_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = sweden_freedom_of_the_press_act_flag}
+		}
+	}
+}

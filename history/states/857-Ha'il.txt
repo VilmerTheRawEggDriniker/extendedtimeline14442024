@@ -1,0 +1,63 @@
+state={
+	id=857
+	name="STATE_857"
+
+	history={
+		victory_points = {
+			6626 10
+		}
+                owner = TRS
+                add_core_of = TRS
+        1500.1.1 = {
+                owner = AUS
+                add_core_of = AUS
+                remove_core_of = TRS
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
+		1900.1.1 = {
+		owner = AUH
+                add_core_of = AUH
+                remove_core_of = AUS
+                }
+		1900.1.1 = {
+                add_core_of = SLV
+                }
+						1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = ITA
+		}
+		1919.1.1 = {
+			owner = ITA
+			controller = ITA
+            add_core_of = ITA
+            remove_core_of = SLV
+            remove_core_of = AUH
+		}
+		buildings = {
+			infrastructure = 2
+			6626 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6626 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

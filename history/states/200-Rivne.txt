@@ -1,0 +1,71 @@
+
+state={
+	id=200
+	name="STATE_200"
+
+	history={
+		owner = CRI
+		add_core_of = CRI
+		1700.1.1 = {
+			remove_core_of = CRI
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1770.1.1 = {
+			victory_points = {
+				11405 10 
+			}
+
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+		1919.1.1 = {
+			owner = MAK
+			add_core_of = MAK
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				air_base = 3
+
+			}
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = MAK
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		429 3399 3767 4636 11405 12163 12329 13792 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

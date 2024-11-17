@@ -1,0 +1,55 @@
+
+state={
+	id=79
+	name="STATE_79"
+
+	history={
+		owner = MOL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			9716 10
+		}
+		victory_points = {
+			6706 3 
+		}
+		victory_points = {
+			6747 3 
+		}
+		victory_points = {
+			13613 3 
+		}
+		add_core_of = MOL
+		1862.1.1 = {
+			add_core_of = ROM
+			owner = ROM
+			remove_core_of = MOL
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				air_base = 2
+
+			}
+
+		}
+		1945.1.1 = {
+			remove_core_of = MOL
+
+		}
+
+	}
+
+	provinces={
+		723 744 3728 3741 6584 6706 6729 6747 9701 9716 11534 11655 11672 13576 13579 13583 13584 13585 13588 13590 13594 13597 13602 13606 13613 
+	}
+	manpower=2400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=7.000
+}

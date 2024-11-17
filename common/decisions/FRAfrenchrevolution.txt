@@ -1,0 +1,867 @@
+FRA_frenchrevolution = {
+	FRA_liberteegalitefraternite = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_16
+			has_completed_focus = france_1789_1815_first_50_focus_17
+			has_completed_focus = france_1789_1815_first_50_focus_18
+			has_government = democratic
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_16
+			has_completed_focus = france_1789_1815_first_50_focus_17
+			has_completed_focus = france_1789_1815_first_50_focus_18
+			has_government = democratic
+			original_tag=FRA
+			NOT = { has_global_flag = italian_gambit_lef_flag }
+		}
+
+		complete_effect = {
+		add_ideas={liberteegalitefraternite}
+		remove_ideas={liberte egalite fraternite}
+		hidden_effect={set_global_flag = italian_gambit_lef_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_naturalborderpuppetrhine = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        controls_state = 1182 
+        controls_state = 880  
+        controls_state = 1237
+        controls_state = 873 
+        controls_state = 1239
+        controls_state = 690 
+        controls_state = 42 
+        controls_state = 843  
+        controls_state = 51 
+        controls_state = 466  
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_puppet_rhine_flag }
+                date > 1789.1.1 date < 1800.1.1 
+		}
+
+		complete_effect = {
+		white_peace = CLG
+		white_peace = JUL
+		white_peace = AAC
+		white_peace = TRR
+		white_peace = ZWE
+		white_peace = PFZ
+		white_peace = MNZ
+		white_peace = SAA
+        FRA={
+	    set_autonomy = {
+        target = CLG
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = JUL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = AAC
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = TRR
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = ZWE
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = PFZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = MNZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = SAA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+		}
+		hidden_effect={set_global_flag = fra_puppet_rhine_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_naturalborderpuppetbelgium = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        controls_state = 8
+        controls_state = 851 
+        controls_state = 970
+        controls_state = 6
+        controls_state = 1171
+        controls_state = 973
+        controls_state = 978
+        controls_state = 34  
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_puppet_belgium_flag }
+                date > 1789.1.1 date < 1800.1.1 
+		}
+
+		complete_effect = {
+		white_peace = BEL
+        FRA={
+	    set_autonomy = {
+        target = BEL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+		}
+		hidden_effect={set_global_flag = fra_puppet_belgium_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_naturalborderpuppetliege = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        controls_state = 979
+        controls_state = 980 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_puppet_liege_flag }
+                date > 1789.1.1 date < 1800.1.1 
+		}
+
+		complete_effect = {
+		white_peace = LIE
+        FRA={
+	    set_autonomy = {
+        target = LIE
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+		}
+		hidden_effect={set_global_flag = fra_puppet_liege_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_corerhine = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 1239
+        owns_state = 873
+        owns_state = 880
+        owns_state = 1182
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_rhine_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+1239 = { add_core_of = ROOT }
+873 = { add_core_of = ROOT }
+880 = { add_core_of = ROOT }
+1182 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_rhine_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_corebelgium = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 8
+        owns_state = 851 
+        owns_state = 970
+        owns_state = 6
+        owns_state = 1171
+        owns_state = 973
+        owns_state = 978
+        owns_state = 34  
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_belgium_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+8 = { add_core_of = ROOT }
+851 = { add_core_of = ROOT }
+970 = { add_core_of = ROOT }
+6 = { add_core_of = ROOT }
+1171 = { add_core_of = ROOT }
+973 = { add_core_of = ROOT }
+978 = { add_core_of = ROOT }
+34 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_belgium_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_coreliege = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 979
+        owns_state = 980 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_liege_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+979 = { add_core_of = ROOT }
+980 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_liege_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_corelimburg = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 984
+        owns_state = 985
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_limburg_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+984 = { add_core_of = ROOT }
+985 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_limburg_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_corebasel = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+					any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 864
+	}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_basel_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+transfer_state=864
+864 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_basel_flag}
+		}
+	}
+}
+FRA_frenchrevolution = {
+	FRA_changeflag = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+                date > 1794.2.15 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1800.1.1 
+			has_government = democratic
+			NOT = { has_global_flag = italian_gambit_bluewhitered_flag }
+		}
+
+		complete_effect = {
+                set_cosmetic_tag = FRA_republic_three
+		hidden_effect={set_global_flag = italian_gambit_bluewhitered_flag}
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_sardinia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1792.9.12 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_sardinia_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_sardinia_flag AUS = {
+                        add_to_faction = SPM}}
+		declare_war_on = {
+		target = SPM
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_milan = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.3.25 date < 1800.1.1 
+                NOT={has_war_with = MIL}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_milan_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_milan_flag AUS = {
+                        add_to_faction = MIL}}
+		declare_war_on = {
+		target = MIL
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_venice = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.5.12 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_venice_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_venice_flag AUS = {
+                        add_to_faction = VNT}}
+		declare_war_on = {
+		target = VNT
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_naples = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.6.1 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_naples_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_naples_flag AUS = {
+                        add_to_faction = NAP}}
+		declare_war_on = {
+		target = NAP
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_pope = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1798.2.15 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_pope_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_pope_flag AUS = {
+                        add_to_faction = PAP}}
+		declare_war_on = {
+		target = PAP
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_prmmodmas = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.10.9 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_pope_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_pope_flag AUS = {
+                        add_to_faction = PRM add_to_faction = MOD add_to_faction = MAS}}
+		declare_war_on = {
+		target = PRM
+		type = puppet_wargoal_focus
+	    }
+		declare_war_on = {
+		target = MOD
+		type = puppet_wargoal_focus
+	    }
+		declare_war_on = {
+		target = MAS
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_genoa = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1797.6.14 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_genoa_flag }
+		}
+
+		complete_effect = {
+	set_autonomy = {
+		target = GEN
+		autonomous_state = autonomy_dominion
+	}
+		hidden_effect={set_global_flag = italian_gambit_genoa_flag}
+	}
+}
+}
+FRA_italiangambit = {
+	FRA_invade_lucca = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1799.5.1 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_lucca_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_lucca_flag AUS = {
+                        add_to_faction = LUC}}
+		declare_war_on = {
+		target = LUC
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_seperate_peace_tuscany = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1799.5.1 date < 1800.1.1 
+                has_war_with = TOS
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_tuscany_peace_flag }
+		}
+
+		complete_effect = {
+		AUS={
+			            set_autonomy = {
+        target = TOS
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+    }
+		}
+		every_country = {
+  limit = {
+    has_war_with = TOS
+  }
+  white_peace = TOS
+}
+		hidden_effect={set_global_flag = italian_gambit_tuscany_peace_flag}
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_tuscany = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1799.5.1 date < 1800.1.1 
+                NOT={has_war_with = TOS}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_tuscany_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_tuscany_flag AUS = {
+                        add_to_faction = TOS}}
+		declare_war_on = {
+		target = TOS
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_sicily = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1801.1.23 date < 1812.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_sicily_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_sicily_flag AUS = {
+                        add_to_faction = SIC}}
+		declare_war_on = {
+		target = SIC
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_malta = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1798.6.10 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_malta_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_malta_flag AUS = {
+                        add_to_faction = KNI}}
+		declare_war_on = {
+		target = KNI
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}

@@ -1,0 +1,74 @@
+
+state={
+	id=291
+	name="STATE_291"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = QAR
+		add_core_of = QAR
+		1500.1.1 = {
+			owner = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		1832.1.1 = {
+			owner = OTO
+		add_core_of = OTO
+		}
+		victory_points = {
+			2097 20 
+		}
+		victory_points = {
+			7994 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = IRQ
+		1919.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = OTO
+
+		}
+		1933.1.1 = {
+			owner = IRQ
+			controller = IRQ
+			remove_core_of = OTO
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				arms_factory = 1
+				industrial_complex = 1
+				air_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		78 2004 2097 7977 7994 12046 12726 12855 13726 13728 13730 13732 13733 13735 13738 13739 13745 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=6.000
+}

@@ -1,0 +1,73 @@
+
+state={
+	id=659
+	name="STATE_659"
+
+	history={
+		owner = ZZZ
+		1837.1.1 = {
+			owner = RAJ
+			controller = RAJ
+            remove_core_of = YUG
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			5074 = {
+				naval_base = 3
+
+			}
+			8000 = {
+				naval_base = 1
+
+			}
+
+		}
+		}
+		1837.1.1 = {
+		buildings = {
+			infrastructure = 1
+			5074 = {
+				naval_base = 3
+
+			}
+			8000 = {
+				naval_base = 1
+
+			}
+
+		}
+		}
+		1837.1.1 = {
+		victory_points = {
+			5074 2
+		}
+		}
+		1900.1.1 = {
+		add_core_of = YEM
+                }
+		buildings = {
+			infrastructure = 0
+		}
+		1937.1.1 = {
+			owner = ENG
+			controller = ENG
+            remove_core_of = YUG
+		}
+		1968.1.1 = {
+			owner = YEM
+			controller = YEM
+            remove_core_of = YUG
+		}
+
+	}
+
+	provinces={
+		2029 4976 5074 8000 12768 12821 12894 13079 13710 13712 13713 
+	}
+	manpower=891505
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

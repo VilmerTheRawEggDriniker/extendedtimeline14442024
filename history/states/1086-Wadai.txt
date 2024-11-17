@@ -1,0 +1,40 @@
+state={
+	id=1086
+	name="STATE_1086"
+	history={
+                owner = ZZZ
+		1899.1.1 = {
+		victory_points = {
+			1473 1 
+		}
+                }
+		1900.1.1 = {
+		owner = WAD
+	        add_core_of = WAD
+                }
+		1914.1.1 = {
+        owner = RCG
+		add_core_of = CHA
+        }
+		1939.1.1 = {
+        owner = RCG
+		}
+				1970.1.1 = {
+                owner = CHA
+		add_core_of = CHA
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+			1473 1883 3181 4978 7919
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

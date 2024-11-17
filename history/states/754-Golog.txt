@@ -1,0 +1,75 @@
+
+state={
+	id=754
+	name="STATE_754"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = QIN
+		}
+1919.1.1 = {
+        }
+		1920.1.1 = {
+			owner = XSM
+			controller = XSM
+            add_core_of = XSM
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            remove_core_of = XSM
+		add_core_of = PRC
+		}
+		buildings = {
+			infrastructure = 0
+		}
+				1936.1.1 = {
+				buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1882 4313 4888 7270 8018 10787 10817 10903 11448 12815 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

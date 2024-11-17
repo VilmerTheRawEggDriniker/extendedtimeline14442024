@@ -1,0 +1,82 @@
+
+state={
+	id=14
+	name="STATE_14"
+
+	history={
+		owner = BRI
+		add_core_of = BRI
+		1532.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = BRI
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				dockyard = 6
+				air_base = 7
+				3552 = {
+					naval_base = 10
+					coastal_bunker = 1
+
+				}
+				6536 = {
+					naval_base = 4
+					coastal_bunker = 1
+
+				}
+				9510 = {
+					naval_base = 1
+
+				}
+
+			}
+
+		}
+		victory_points = {
+			3552 20 
+		}
+		victory_points = {
+			6536 5 
+		}
+		victory_points = {
+			9525 2 
+		}
+		victory_points = {
+			9495 5 
+		}
+		victory_points = {
+			11465 20 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 6
+			3552 = {
+				naval_base = 10
+				coastal_bunker = 1
+
+			}
+			6536 = {
+				naval_base = 4
+				coastal_bunker = 1
+
+			}
+			9510 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		527 542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 13337 13338 13340 13341 13342 13343 13345 13346 13348 13349 13350 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

@@ -1,0 +1,70 @@
+
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		victory_points = {
+			9833 30 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9833 = {
+				naval_base = 8
+
+			}
+
+		}
+		owner = BYZ
+		add_core_of = BYZ
+		1453.1.1 = {
+		add_core_of = OTO
+		owner = OTO
+		remove_core_of = BYZ
+		}
+		1925.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+			9833 = {
+				naval_base = 8
+
+			}
+
+		}
+                }
+		1926.1.1 = {
+			if = {
+				limit = {
+					has_dlc = "Battle for the Bosporus"
+
+				}
+				set_demilitarized_zone = yes
+
+			}
+
+		}
+		1936.11.9 = {
+			set_demilitarized_zone = no
+
+		}
+
+	}
+
+	provinces={
+		9833 13525 13528 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

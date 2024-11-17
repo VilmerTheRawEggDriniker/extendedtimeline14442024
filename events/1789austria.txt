@@ -1,0 +1,281 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = aus_1789_event
+
+# French Revolution
+country_event = {
+	id = aus_1789_event.1
+	title = "Form the Austrian Empire"
+	desc = aus_1789_event.1.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Formation of the Austrian Empire"
+		ai_chance = { factor = 100 } 
+		set_cosmetic_tag = AUS_empire
+		news_event = aus_1789_news.1
+
+	}
+}
+country_event = {
+	id = aus_1789_event.2
+	title = "Austrian Annexation of Bohemia"
+	desc = aus_1789_event.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+every_state = { #vichy north africa
+                    limit = {
+                        is_core_of = BOH
+                    }
+                    add_core_of = AUS
+                }
+AUS={annex_country = { target = BOH transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = aus_1789_event.3
+	title = "Austrian Annexation of Galicia-Lodomeria"
+	desc = aus_1789_event.3.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+AUS={annex_country = { target = GLL transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = aus_1789_event.4
+	title = "Austrian Annexation of Bukovina"
+	desc = aus_1789_event.4.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+AUS={annex_country = { target = BKV transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = aus_1789_event.5
+	title = "Austrian Annexation of Hungary"
+	desc = aus_1789_event.5.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+every_state = { #vichy north africa
+                    limit = {
+                        is_core_of = HUN
+                    }
+                    add_core_of = AUS
+                }
+AUS={annex_country = { target = HUN transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = aus_1789_event.6
+	title = "Austrian Annexation of Venice"
+	desc = aus_1789_event.6.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+AUS={annex_country = { target = VNT transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+
+country_event = {
+	id = aus_1789_event.7
+	title = "Death of Joseph II"
+	desc = aus_1789_event.7.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+    date > 1790.2.20 date < 1791.1.1 
+original_tag=AUS
+}
+fire_only_once = yes
+	option = { # 
+		name = "Mourn the King"
+		ai_chance = { factor = 100 } 
+	add_political_power=-50
+	add_stability=-0.05
+	add_manpower=-1
+	AUS={promote_character=AUS_leopoldiiaus}
+	AUS={retire_character=AUS_josephiiaus}
+	TOS={promote_character=TOS_ferdinandiii}
+    hidden_effect={
+	GLL={promote_character=GLL_leopoldiigll}
+	BKV={promote_character=BKV_leopoldiibkv}
+	BOH={promote_character=BOH_leopoldiiboh}
+	HUN={promote_character=HUN_leopoldiihun}
+	MIL={promote_character=MIL_leopoldiimil}
+	MTU={promote_character=MTU_leopoldiimtu}
+	LBV={promote_character=LBV_leopoldiilbv}
+	GLL={retire_character=GLL_josephiigll}
+	BKV={retire_character=BKV_josephiibkv}
+	BOH={retire_character=BOH_josephiiboh}
+	HUN={retire_character=HUN_josephiihun}
+	MIL={retire_character=MIL_josephiimil}
+	MTU={retire_character=MTU_josephiimtu}
+	LBV={retire_character=LBV_josephiilbv}
+    }
+	}
+}
+
+country_event = {
+	id = aus_1789_event.8
+	title = "Death of Leopold II"
+	desc = aus_1789_event.8.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+    date > 1792.3.1 date < 1794.1.1 
+original_tag=AUS
+}
+fire_only_once = yes
+	option = { # 
+		name = "Mourn the King"
+		ai_chance = { factor = 100 } 
+	add_political_power=-50
+	add_stability=-0.05
+	add_manpower=-1
+	AUS={promote_character=AUS_francisiiaus}
+	AUS={retire_character=AUS_leopoldiiaus}
+    hidden_effect={
+	GLL={promote_character=GLL_francisiigll}
+	BKV={promote_character=BKV_francisiibkv}
+	BOH={promote_character=BOH_francisiiboh}
+	HUN={promote_character=HUN_francisiihun}
+	MIL={promote_character=MIL_francisiimil}
+	MTU={promote_character=MTU_francisiimtu}
+	LBV={promote_character=LBV_francisiilbv}
+	GLL={retire_character=GLL_leopoldiigll}
+	BKV={retire_character=BKV_leopoldiibkv}
+	BOH={retire_character=BOH_leopoldiiboh}
+	HUN={retire_character=HUN_leopoldiihun}
+	MIL={retire_character=MIL_leopoldiimil}
+	MTU={retire_character=MTU_leopoldiimtu}
+	LBV={retire_character=LBV_leopoldiilbv}
+    }
+	}
+}
+
+country_event = {
+	id = aus_1789_event.9
+	title = "Death of Francis II"
+	desc = aus_1789_event.9.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+    date > 1835.3.2 date < 1836.1.1 
+original_tag=AUS
+}
+fire_only_once = yes
+	option = { # 
+		name = "Mourn the King"
+		ai_chance = { factor = 100 } 
+	add_political_power=-50
+	add_stability=-0.05
+	add_manpower=-1
+	AUS={promote_character=AUS_ferdinandiaus}
+	AUS={retire_character=AUS_francisiiaus}
+    hidden_effect={
+	GLL={promote_character=GLL_ferdinandigll}
+	BKV={promote_character=BKV_ferdinandibkv}
+	BOH={promote_character=BOH_ferdinandiboh}
+	HUN={promote_character=HUN_ferdinandihun}
+	MIL={promote_character=MIL_ferdinandimil}
+	MTU={promote_character=MTU_ferdinandimtu}
+	LBV={promote_character=LBV_ferdinandilbv}
+	GLL={retire_character=GLL_francisiigll}
+	BKV={retire_character=BKV_francisiibkv}
+	BOH={retire_character=BOH_francisiiboh}
+	HUN={retire_character=HUN_francisiihun}
+	MIL={retire_character=MIL_francisiimil}
+	MTU={retire_character=MTU_francisiimtu}
+	LBV={retire_character=LBV_francisiilbv}
+    }
+	}
+}
+
+country_event = {
+	id = aus_1789_event.10
+	title = "Tyrolean Rebellion"
+	desc = aus_1789_event.10.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+date > 1809.4.1 date < 1812.6.1 
+original_tag=AUS
+	any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	NOT={original_tag=AUS}
+	}
+	controls_state = 153
+	}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Tyrolean Rebellion"
+		ai_chance = { factor = 100 } 
+	TYR={
+	transfer_state=153
+	transfer_state=1190
+	transfer_state=881
+	transfer_state=39
+	add_state_core=153
+	add_state_core=1190
+	add_state_core=881
+	add_state_core=39
+	}
+	every_state={
+	limit={
+    state=855
+	NOT={855={is_owned_by=TRT}}
+	}
+	TYR={
+	transfer_state=855
+	add_state_core=855
+	}
+	}
+	TYR={set_country_flag=tyrol_war_fra_bav}
+	}
+}

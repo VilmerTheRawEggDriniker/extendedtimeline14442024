@@ -1,0 +1,63 @@
+characters={
+	HES_philipp_of_hesse = {
+
+		name = HES_philipp_of_hesse
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HES_philip_of_hesse
+			}
+		}
+
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+
+	}
+	HES_louisix={
+		name=HES_CHARACTER_LOUISIX
+		portraits={
+			civilian={
+				large="GFX_portrait_hes_louisix_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hesse}
+			desc = HES_LOUISIX_DESC
+			expire="1797.1.1"
+		}
+}
+	HES_louisi={
+		name=HES_CHARACTER_LOUISI
+		portraits={
+			civilian={
+				large="GFX_portrait_hes_louisi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hesse}
+			desc = HES_LOUISI_DESC
+			expire="1797.1.1"
+		}
+}
+	HES_louisii={
+		name=HES_CHARACTER_LOUISII
+		portraits={
+			civilian={
+				large="GFX_portrait_hes_louisii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hesse}
+			desc = HES_LOUISII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,173 @@
+﻿division_template = {
+	name = "East Prussian Division"
+
+	division_names_group = PRE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 6464
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 11467
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 9570
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 6282
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 11372
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 6375
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 6332
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 13455
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 13455
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 13455
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 13454
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 13454
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 13454
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 3288
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 3288
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#East Prussian Army
+	division = {
+		name = "East Prussian Division"
+		location = 3288
+		division_template = "East Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "PRE"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

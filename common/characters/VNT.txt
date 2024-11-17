@@ -1,0 +1,98 @@
+characters={
+	VNT_paolorenier={
+		name=VNT_CHARACTER_PAOLORENIER
+		portraits={
+			civilian={
+				large="GFX_portrait_vnt_paolorenier_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = VNT_PAOLORENIER_DESC
+			expire="1797.1.1"
+		}
+}
+	VNT_lodovicomanin={
+		name=VNT_CHARACTER_LODOVICOMANIN
+		portraits={
+			civilian={
+				large="GFX_portrait_vnt_lodovicomanin_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = VNT_JOSEPHIIVNT_DESC
+			expire="1797.1.1"
+		}
+}
+	VNT_josephiivnt={
+		name=VNT_CHARACTER_JOSEPHIIVNT
+		portraits={
+			civilian={
+				large="GFX_portrait_vnt_josephiivnt_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = VNT_JOSEPHIIVNT_DESC
+			expire="1797.1.1"
+		}
+}
+	VNT_leopoldiivnt={
+		name=VNT_CHARACTER_LEOPOLDIIVNT
+		portraits={
+			civilian={
+				large="GFX_portrait_vnt_leopoldiivnt_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = VNT_LEOPOLDIIVNT_DESC
+			expire="1797.1.1"
+		}
+}
+	VNT_francisiivnt={
+		name=VNT_CHARACTER_FRANCISIIVNT
+		portraits={
+			civilian={
+				large="GFX_portrait_vnt_francisiivnt_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = VNT_FRANCISIIVNT_DESC
+			expire="1797.1.1"
+		}
+}
+	VNT_ferdinandivnt={
+		name=VNT_CHARACTER_FERDINANDIVNT
+		portraits={
+			civilian={
+				large="GFX_portrait_vnt_ferdinandivnt_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = VNT_FERDINANDIVNT_DESC
+			expire="1797.1.1"
+		}
+}
+	VNT_paolo_renier={
+		name=VNT_CHARACTER_PAOLO_RENIER
+		portraits={
+			civilian={
+				large="GFX_portrait_vnt_paolo_renier_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = VNT_PAOLO_RENIER_DESC
+			expire="1789.2.13"
+		}
+}
+}

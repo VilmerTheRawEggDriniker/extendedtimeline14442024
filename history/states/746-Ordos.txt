@@ -1,0 +1,73 @@
+
+state={
+	id=746
+	name="STATE_746"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+		remove_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+			owner = CHI
+			controller = CHI
+			remove_core_of = QIN
+
+		}
+        1919.1.1 = {
+        }
+		1920.1.1 = {
+			owner = MON
+			controller = MON
+			remove_core_of = QIN
+
+		}
+		1933.1.1 = {
+			owner = SHX
+			controller = SHX
+			add_core_of = XSM
+
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+			remove_core_of = XSM
+		add_core_of = PRC
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+		1939.1.1 = {
+			owner = XSM
+			controller = MEN
+
+		}
+
+	}
+
+	provinces={
+		1959 2087 3427 4960 4986 7048 7158 7631 10424 10451 10854 12403 12706 
+	}
+	manpower=1683700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

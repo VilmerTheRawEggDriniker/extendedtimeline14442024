@@ -1,0 +1,53 @@
+
+state={
+	id=481
+	name="STATE_481"
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+
+		}
+		1822.1.1 = {
+			add_core_of = MEX
+			owner = MEX
+
+		}
+				1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1590.1.1 = {
+			victory_points = {
+				7921 10 
+			}
+
+		}
+		1823.1.1 = {
+			buildings = {
+				infrastructure = 2
+				dockyard = 1
+				8057 = {
+					naval_base = 3
+
+				}
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1945 8057 10895 
+	}
+	manpower=395618
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=6.000
+}

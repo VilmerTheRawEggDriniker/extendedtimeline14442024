@@ -1,0 +1,53 @@
+state={
+	id=1275
+	name="STATE_1275"
+		history={
+		owner = GEO
+		add_core_of = GEO
+		1600.1.1 = {
+			remove_core_of = GEO
+		owner = KAK
+		}
+				1600.1.1 = {
+		add_core_of = PER
+		}
+		1919.1.1 = {
+			add_core_of = AZR
+			owner = AZR
+			remove_core_of = RUS
+			remove_core_of = PER
+		}
+		1789.1.1 = {
+			owner = GEO
+		}
+		1801.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+		}
+		victory_points = {
+		14067 1 
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+		}
+		1993.1.1 = {
+			owner = AZR
+			controller = AZR
+			add_core_of = AZR
+			remove_core_of = SOV
+		}
+	}
+	provinces={
+		4605 6763 14058 14067 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

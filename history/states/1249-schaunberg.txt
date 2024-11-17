@@ -1,0 +1,54 @@
+state={
+	id=1249
+	name="STATE_1249"
+		history={
+		owner = SHB
+		add_core_of = SHB
+		1572.1.1 = {
+			add_core_of = AUS
+			owner = AUS
+			remove_core_of = BYL
+			remove_core_of = BYM
+			remove_core_of = SHB
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			add_core_of = AUH
+			remove_core_of = AUS
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
+	}
+	provinces={
+		3703 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

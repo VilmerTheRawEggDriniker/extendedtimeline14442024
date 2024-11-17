@@ -1,0 +1,45 @@
+
+state={
+	id=17
+	name="STATE_17"
+	resources={
+		steel=28.000
+	}
+
+	history={
+		owner = CMT
+		add_core_of = CMT
+		1689.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = CMT
+
+		}
+		victory_points = {
+			9642 5 
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 1
+				air_base = 5
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		698 3646 3666 6698 9642 14584 14585 14600 14620 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

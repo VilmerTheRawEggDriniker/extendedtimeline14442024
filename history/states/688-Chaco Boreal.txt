@@ -1,0 +1,44 @@
+state={
+	id=688
+	name="STATE_688"
+	manpower = 45900
+	
+	state_category = pastoral
+	
+	resources={
+		tungsten=3 # was: 4
+		steel=2 # was: 2
+	}
+
+	history={
+		owner = ZZZ
+		buildings = {
+			infrastructure = 0
+		}
+		1789.1.1 = {
+        add_core_of = BOL
+        owner = ARG
+        }
+				1812.1.1 = {
+        add_core_of = BOL
+        owner = BOL
+        }
+		1826.1.1 = {
+			owner = BOL
+			controller = BOL
+            add_core_of = BOL
+            remove_core_of = SPR
+		}
+		1936.1.1 = {
+			owner = PAR
+			controller = PAR
+            remove_core_of = BOL
+            }
+	}
+	
+	provinces={
+		2195 2209 5165 8203 10973 
+	}
+
+	local_supplies=0.0 
+}

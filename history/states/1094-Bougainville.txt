@@ -1,0 +1,52 @@
+state={
+	id=1094
+	name="STATE_1094"
+
+	history={
+		owner = ZZZ
+		1899.1.1 = {
+					buildings = {
+			4226 = {
+				naval_base = 1
+
+			}
+			10234 = {
+				naval_base = 1
+
+			}
+		}
+		}
+		1898.1.1 = {
+		victory_points = {
+			4226 1 
+		}
+		}
+		1900.1.1 = {
+			owner = GER
+			controller = GER
+            add_core_of = PNG
+		}
+		1919.1.1 = {
+			owner = AST
+			controller = AST
+            remove_core_of = ENG
+		}
+		1975.1.1 = {
+			owner = PNG
+			controller = PNG
+            remove_core_of = ENG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1358 4226 4378 10234 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

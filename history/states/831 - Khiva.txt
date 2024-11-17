@@ -1,0 +1,52 @@
+
+state={
+	id=831
+	name="STATE_831"
+
+	history={
+		victory_points = {
+			12324 1 
+		}
+		owner = TIM
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KHI
+		1936.1.1 = {
+                add_core_of = UZB
+                add_core_of = KKP
+                remove_core_of = KHI
+                }
+		1600.1.1 = {
+			owner = KHI
+			controller = KHI
+			add_core_of = KHI
+			remove_core_of = RUS
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UZB
+			controller = UZB
+			add_core_of = UZB
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		10435 12324 
+	}
+	manpower=258430
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

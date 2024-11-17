@@ -1,0 +1,461 @@
+﻿division_template = {
+	name = "Russian Division"
+
+	division_names_group = RUS_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 10133
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 12287
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 1233
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 12157
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 1334
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 7328
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 10133
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 12287
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 1233
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 12157
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 1334
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 7328
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 10133
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 12287
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 1233
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 12157
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 1334
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 7328
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 10253
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 7370
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 7341
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 4294
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 10224
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 4215
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11727
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9722
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9705
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11693
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11727
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9722
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9705
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11693
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11727
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9722
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9705
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11693
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11727
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9722
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9705
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11693
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11727
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9722
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9705
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11693
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11727
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9722
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 9705
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Russian Army
+	division = {
+		name = "Russian Division"
+		location = 11693
+		division_template = "Russian Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "RUS"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

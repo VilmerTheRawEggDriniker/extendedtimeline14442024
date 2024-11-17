@@ -1,0 +1,57 @@
+
+state={
+	id=154
+	name="STATE_154"
+
+	history={
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = OTO
+		}
+		1700.1.1 = {
+			owner = HUN
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        add_core_of = AUH
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			air_base = 2
+
+		}
+                }
+		victory_points = {
+			11659 1 
+		}
+		1919.1.1 = {
+			owner = HUN
+			controller = HUN
+			add_core_of = HUN
+			remove_core_of = AUH
+
+		}
+
+	}
+
+	provinces={
+		699 730 3730 6716 6735 9706 11644 11659 14259 14268 14272 14277 14284 14285 14296 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=12.000
+}

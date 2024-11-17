@@ -1,0 +1,81 @@
+characters={
+	PAP_piusvi={
+		name=PAP_CHARACTER_PIUSVI
+		portraits={
+			civilian={
+				large="GFX_portrait_pap_piusvi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = PAP_PIUSVI_DESC
+			expire="1797.1.1"
+		}
+}
+	PAP_piusvii={
+		name=PAP_CHARACTER_PIUSVII
+		portraits={
+			civilian={
+				large="GFX_portrait_pap_piusvii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = PAP_PIUSVII_DESC
+			expire="1797.1.1"
+		}
+}
+	PAP_leoxii={
+		name=PAP_CHARACTER_LEOXII
+		portraits={
+			civilian={
+				large="GFX_portrait_pap_leoxii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = PAP_LEOXII_DESC
+			expire="1797.1.1"
+		}
+}
+	PAP_piusviii={
+		name=PAP_CHARACTER_PIUSVIII
+		portraits={
+			civilian={
+				large="GFX_portrait_pap_piusviii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = PAP_PIUSVIII_DESC
+			expire="1797.1.1"
+		}
+}
+	PAP_gregoryxvi={
+		name=PAP_CHARACTER_GREGORYXVI
+		portraits={
+			civilian={
+				large="GFX_portrait_pap_gregoryxvi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = PAP_GREGORYXVI_DESC
+			expire="1797.1.1"
+		}
+}
+	PAP_piusix={
+		name=PAP_CHARACTER_PIUSIX
+		portraits={
+			civilian={
+				large="GFX_portrait_pap_piusix_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = PAP_PIUSIX_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

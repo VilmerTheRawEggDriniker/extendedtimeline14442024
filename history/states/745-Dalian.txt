@@ -1,0 +1,75 @@
+
+state={
+	id=745
+	name="STATE_745"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+		remove_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1900.1.1 = {
+			owner = RUS
+
+		}
+		1905.1.1 = {
+			owner = JAP
+        remove_core_of = QIN
+		}
+		1912.1.1 = {
+			remove_core_of = QIN
+
+		}
+		1919.1.1 = {
+
+		}
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC
+			add_core_of = PRC
+
+		}
+		victory_points = {
+			1150 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1150 = {
+				naval_base = 5
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 1
+				industrial_complex = 1
+				1150 = {
+					naval_base = 5
+					coastal_bunker = 1
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1150 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

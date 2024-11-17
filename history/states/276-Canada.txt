@@ -1,0 +1,83 @@
+
+state={
+	id=276
+	name="STATE_276"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = FRA
+			controller = FRA
+
+		}
+		 1789.1.1 = {
+			owner = QUE
+		add_core_of=QUE
+		}
+				 1791.1.1 = {
+			owner = ONT
+		add_core_of=ONT
+		remove_core_of=QUE
+		}
+		1900.1.1 = {
+		remove_core_of=NOC
+		remove_core_of=NOS
+		remove_core_of=ITO
+		remove_core_of=ONT
+		remove_core_of=QUE
+		remove_core_of=PEI
+		remove_core_of=NBR
+		remove_core_of=FOU
+		}
+		1750.1.1 = {
+			victory_points = {
+				3775 20 
+			}
+
+		}
+		1850.1.1 = {
+			victory_points = {
+				3778 30 
+			}
+
+		}
+		1867.1.1 = {
+			owner = CAN
+			controller = CAN
+			add_core_of = CAN
+
+		}
+		1900.1.1 = {
+			buildings = {
+				infrastructure = 2
+				arms_factory = 2
+				industrial_complex = 4
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				arms_factory = 2
+				industrial_complex = 4
+				air_base = 5
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		602 605 722 749 761 763 774 777 779 1299 1769 1782 3605 3608 3635 3640 3661 3736 3763 3775 3778 4270 4775 4784 4869 4875 6510 6607 6610 6625 6630 6662 6676 6797 7366 7794 7899 9467 9480 9580 9583 9585 9634 9667 9711 9740 9743 10621 10718 11567 11569 11571 11585 11602 11695 11725 11728 12278 12582 12701 13094 13161 
+	}
+	manpower=3400000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=4.000
+}

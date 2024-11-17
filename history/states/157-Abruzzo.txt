@@ -1,0 +1,53 @@
+
+state={
+	id=157
+	name="STATE_157"
+
+	history={
+		owner = NAP
+        add_core_of = NAP
+		1817.1.1 = {
+		remove_core_of = NAP
+		remove_core_of = SIC
+		add_core_of = TTS
+		owner = TTS
+		}
+		1871.1.1 = {
+                owner = ITA
+                add_core_of = ITA
+		}
+				1945.1.1 = {
+		controller = ENG
+		}
+		1946.1.1 = {
+		controller = ITA
+		}
+		1919.1.1 = {
+                remove_core_of = SPM
+                remove_core_of = PAP
+                remove_core_of = TOS
+                remove_core_of = TTS
+                remove_core_of = LBV
+		}
+		victory_points = {
+			13707 1 
+		}
+		buildings = {
+			infrastructure = 3
+			13707 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		963 3910 6831 9838 11790 11882 13706 13707 13708 
+	}
+	manpower=1150000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

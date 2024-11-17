@@ -1,0 +1,33 @@
+
+state={
+	id=292
+	name="STATE_292"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = SAU
+                add_core_of = SAU
+                }
+		1900.1.1 = {
+		victory_points = {
+			12727 5 
+		}
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		2057 2090 4968 5024 5027 5058 5093 5099 7970 7995 8004 8060 8101 10748 10815 10850 10892 10901 10923 12727 12749 12813 12870 13718 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

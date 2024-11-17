@@ -1,0 +1,59 @@
+
+state={
+	id=186
+	name="STATE_186"
+
+	history={
+		victory_points = {
+			7211 5 
+		}
+		victory_points = {
+			7096 1 
+		}
+		victory_points = {
+			11965 1 
+		}
+		owner = MEA
+		1600.1.1 = {
+		owner = OTO
+		}
+		1700.1.1 = {
+		owner = VNT
+		add_core_of = VNT
+		remove_core_of = MEA
+		}
+		1715.1.1 = {
+		owner = OTO
+		}
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = VNT
+		}
+		1836.1.1 = {
+		owner = GRE
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			11965 = {
+				naval_base = 1
+
+			}
+			7211 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = MEA
+
+	}
+
+	provinces={
+		1173 4078 4178 4193 7096 7211 11965 13677 13678 13679 13680 13681 13683 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

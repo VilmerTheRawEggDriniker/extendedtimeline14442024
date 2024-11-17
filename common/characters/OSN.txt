@@ -1,0 +1,16 @@
+characters={
+	OSN_frederick={
+		name=OSN_CHARACTER_FREDERICK
+		portraits={
+			civilian={
+				large="GFX_portrait_osn_frederick_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={hanover}
+			desc = OSN_FREDERICK_DESC
+			expire="1797.1.1"
+		}
+}
+}

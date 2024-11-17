@@ -1,0 +1,63 @@
+
+state={
+	id=1131
+	name="STATE_1131"
+
+	history={
+		owner = QAR
+		add_core_of = QAR
+		1500.1.1 = {
+			owner = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		1832.1.1 = {
+			owner = OTO
+		add_core_of = OTO
+		}
+		victory_points = {
+			2089 5 
+		}
+		victory_points = {
+			8001 3 
+		}
+		buildings = {
+			infrastructure = 1
+			2089 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = IRQ
+		1919.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = OTO
+
+		}
+		1933.1.1 = {
+			owner = IRQ
+			controller = IRQ
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		2089 4951 8001 10744 12879 13719 13720 13721 13734 13737 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

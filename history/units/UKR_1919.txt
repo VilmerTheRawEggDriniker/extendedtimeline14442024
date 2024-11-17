@@ -1,0 +1,146 @@
+﻿division_template = {
+	name = "Ukrainian Division"
+
+	division_names_group = UKR_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 3755
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 11715
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 9573
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 9419
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 11437
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 9433
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 12430
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 488
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 11454
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 10714
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 525
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 6232
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ukrainian Army
+	division = {
+		name = "Ukrainian Division"
+		location = 11453
+		division_template = "Ukrainian Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "UKR"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

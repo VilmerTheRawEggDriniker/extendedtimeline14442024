@@ -1,0 +1,60 @@
+
+state={
+	id=1166
+	name="STATE_1166"
+
+	history={
+		owner = HSE
+                add_core_of = HSE
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+				1600.1.1 = {
+                add_core_of = HES
+                owner = HES
+				remove_core_of=HSE 
+				remove_core_of=MNZ
+                }
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		victory_points = {
+			6549 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		3524 6549 13491 
+	}
+	manpower=188500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

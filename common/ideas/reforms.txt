@@ -1,0 +1,30 @@
+ideas = {
+
+	country = {
+	
+		compulsory_education = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				conscription_factor = -0.01
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		feudal_reforms = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.02
+			}
+		}
+	
+	}
+
+}

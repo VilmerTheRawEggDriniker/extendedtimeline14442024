@@ -1,0 +1,66 @@
+
+state={
+	id=272
+	name="STATE_272"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+        owner = SEN
+        }
+		1939.1.1 = {
+        owner = SEN
+		}
+		1900.1.1 = {
+		add_core_of = SEN
+                }
+		1970.1.1 = {
+                owner = SEN
+		add_core_of = SEN
+                }
+		1900.1.1 = {
+		victory_points = {
+			4948 5 
+		}
+		victory_points = {
+			13961 2 
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			4948 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			4948 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		2100 4948 7972 8015 12710 12834 13957 13961 
+	}
+	manpower=1638000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+}

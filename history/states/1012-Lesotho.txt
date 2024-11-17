@@ -1,0 +1,31 @@
+state={
+	id=1012
+	name="STATE_1012"
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = LES
+                owner = ENG
+                }
+		1900.1.1 = {
+		victory_points = {
+			4556 1 
+		}
+		}
+				1966.1.1 = {
+        owner = LES
+		add_core_of = LES
+        }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		4556 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

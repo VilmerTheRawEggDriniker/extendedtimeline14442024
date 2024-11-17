@@ -1,0 +1,68 @@
+
+state={
+	id=764
+	name="STATE_764"
+
+	history={
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = OTO
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1716.1.1 = {
+			owner = HUN
+                add_core_of = HUN
+                remove_core_of = TRA
+		}
+		1900.1.1 = {
+			owner = AUH
+                        add_core_of = AUH
+                        add_core_of = SER
+remove_core_of = AUS
+                        remove_core_of = HUN         
+		}
+		victory_points = {
+			3614 1 
+		}
+		victory_points = {
+			13663 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		1919.1.1 = {
+			owner = BNT
+			controller = BNT
+                        add_core_of = BNT
+						add_core_of = YUG
+			remove_core_of = AUH
+
+		}
+		1920.1.1 = {
+			owner = YUG
+			controller = YUG
+            remove_core_of = BNT
+            add_core_of = YUG
+            remove_core_of = AUH
+		}
+		2007.1.1 = {
+			owner = SER
+			controller = SER
+            remove_core_of = YUG
+		}
+
+	}
+
+	provinces={
+		614 3614 6643 11787 13658 13663 13671 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=2.000
+}

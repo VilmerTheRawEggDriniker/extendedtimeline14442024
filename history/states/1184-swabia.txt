@@ -1,0 +1,56 @@
+state={
+	id=1184
+	name="STATE_1184"
+	history={
+		owner = AUG
+                add_core_of = AUG
+					1803.1.1 = {
+                add_core_of = BAY
+                owner = BAY
+                remove_core_of = AUG
+                }
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+		owner = BAY
+		}
+		1920.1.1 = {
+		owner = GER
+		remove_core_of = BAY
+		}
+	   victory_points = {
+			14644 10 
+		}
+		victory_points = {
+			708 1
+		}
+		victory_points = {
+			14627 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		708 9666 11638 14623 14627 14644 14655 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

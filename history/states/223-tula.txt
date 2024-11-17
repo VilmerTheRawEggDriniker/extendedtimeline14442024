@@ -1,0 +1,60 @@
+
+state={
+	id=223
+	name="STATE_223"
+
+	history={
+		owner = ODO
+		add_core_of = ODO
+		1550.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = ODO
+		}
+		victory_points = {
+			6262 3 
+		}
+										1936.1.1 = {
+				buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+			synthetic_refinery = 1
+
+		}
+}
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+	}
+
+	provinces={
+		212 261 3250 3292 3376 6262 6315 6333 6396 9366 11242 11347 
+	}
+	manpower=1635549
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

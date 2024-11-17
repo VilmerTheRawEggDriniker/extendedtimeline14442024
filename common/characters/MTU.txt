@@ -1,0 +1,58 @@
+characters={
+	MTU_josephiimtu={
+		name=MTU_CHARACTER_JOSEPHIIMTU
+		portraits={
+			civilian={
+				large="GFX_portrait_mtu_josephiimtu_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MTU_JOSEPHIIMTU_DESC
+			expire="1797.1.1"
+		}
+}
+	MTU_leopoldiimtu={
+		name=MTU_CHARACTER_LEOPOLDIIMTU
+		portraits={
+			civilian={
+				large="GFX_portrait_mtu_leopoldiimtu_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MTU_LEOPOLDIIMTU_DESC
+			expire="1797.1.1"
+		}
+}
+	MTU_francisiimtu={
+		name=MTU_CHARACTER_FRANCISIIMTU
+		portraits={
+			civilian={
+				large="GFX_portrait_mtu_francisiimtu_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MTU_FRANCISIIMTU_DESC
+			expire="1797.1.1"
+		}
+}
+	MTU_ferdinandimtu={
+		name=MTU_CHARACTER_FERDINANDIMTU
+		portraits={
+			civilian={
+				large="GFX_portrait_mtu_ferdinandimtu_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MTU_FERDINANDIMTU_DESC
+			expire="1797.1.1"
+		}
+}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=994
+	name="STATE_994"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = AST
+			controller = AST
+            add_core_of = AST
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		12992 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

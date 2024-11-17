@@ -1,0 +1,30 @@
+characters={
+	SAL_hieronymusvoncolloredo={
+		name=SAL_CHARACTER_HIERONYMUSVONCOLLOREDO
+		portraits={
+			civilian={
+				large="GFX_portrait_sal_hieronymusvoncolloredo_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = SAL_HIERONYMUSVONCOLLOREDO_DESC
+			expire="1797.1.1"
+		}
+}
+	SAL_ferdinandiii={
+		name=SAL_CHARACTER_FERDINANDIII
+		portraits={
+			civilian={
+				large="GFX_portrait_sal_ferdinandiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = SAL_FERDINANDIII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

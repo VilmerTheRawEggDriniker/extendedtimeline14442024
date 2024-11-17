@@ -1,0 +1,251 @@
+﻿capital = 798
+1689.1.1 = {
+recruit_character=OTO_suleimanii
+promote_character=OTO_suleimanii
+}
+1691.1.1 = {
+retire_character=OTO_suleimanii
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+GUR={set_cosmetic_tag = GUR_OTO}
+	set_autonomy = {
+        target = GUR
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+IME={set_cosmetic_tag = IME_OTO}
+	set_autonomy = {
+        target = IME
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+SVA={set_cosmetic_tag = SVA_OTO}
+	set_autonomy = {
+        target = SVA
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+MIG={set_cosmetic_tag = MIG_OTO}
+	set_autonomy = {
+        target = MIG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+
+
+
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1788.1.1 }
+SER={set_cosmetic_tag = SER_OTO}
+	set_autonomy = {
+        target = SER
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1799.1.1 = {
+			if = {
+		limit = { has_start_date < 1801.1.1 }
+SER={set_cosmetic_tag = SER_OTO}
+	set_autonomy = {
+        target = SER
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1444.11.11 = {
+add_ideas = {
+        oto_hidden_ai_idea
+}
+}
+1836.11.11 = {
+remove_ideas = {
+        oto_hidden_ai_idea
+}
+}
+1774.1.1 = {
+recruit_character=OTO_abdulhamidi
+promote_character=OTO_abdulhamidi
+}
+1790.1.1 = {
+recruit_character=OTO_selimiii
+promote_character=OTO_selimiii
+retire_character=OTO_abdulhamidi
+}
+1808.1.1 = {
+recruit_character=OTO_mustafaiv
+promote_character=OTO_mustafaiv
+retire_character=OTO_selimiii
+}
+1809.1.1 = {
+recruit_character=OTO_mahmudii
+promote_character=OTO_mahmudii
+retire_character=OTO_mustafaiv
+}
+1840.1.1 = {
+retire_character=OTO_mahmudii
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1812.1.1 }
+WAL={set_cosmetic_tag = WAL_OTO}
+MOL={set_cosmetic_tag = MOL_OTO}
+	set_autonomy = {
+        target = ALG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = MOL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = WAL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1823.1.1 }
+	set_autonomy = {
+        target = ALB
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1837.1.1 }
+	set_autonomy = {
+        target = TUN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1835.1.1 }
+	set_autonomy = {
+        target = TRP
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1805.1.1 = {
+			if = {
+		limit = { has_start_date < 1882.1.1 }
+	set_autonomy = {
+        target = EGY
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1453.1.1 = {
+		set_capital = {
+  state = 797
+  remember_old_capital = no
+}
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 100
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "OTO_1789"
+}
+}
+
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 25
+	fascism = 10
+	communism = 5
+	neutrality = 60
+}

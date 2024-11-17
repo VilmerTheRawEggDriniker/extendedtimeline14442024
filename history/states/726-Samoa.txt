@@ -1,0 +1,41 @@
+state={
+	id=726
+	name="STATE_726"
+	manpower=123214
+	state_category = small_island
+
+	history={
+		owner = ZZZ
+		1898.1.1 = {
+		buildings = {
+			infrastructure = 2
+			7290 = {
+				naval_base = 1
+			}
+		}
+		}
+		1899.1.1 = {
+		victory_points = {
+			7290 1
+		}
+		}
+		1900.1.1 = {
+			owner = GER
+			controller = GER
+		add_core_of = SAM
+		}
+		1919.1.1 = {
+			owner = NZL
+			controller = NZL
+		add_core_of = SAM
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		7290 13080 
+	}
+
+	local_supplies=0.0 
+}

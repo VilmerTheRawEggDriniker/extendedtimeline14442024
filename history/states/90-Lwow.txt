@@ -1,0 +1,69 @@
+
+state={
+	id=90
+	name="STATE_90"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = POL
+		add_core_of = POL
+		1800.1.1 = {
+			owner = GLL
+			add_core_of = GLL
+
+		}
+		1810.1.1 = {
+			owner = POL
+			remove_core_of = GLL
+
+		}
+																1945.1.1 = {
+		owner = RPO
+		}
+		1946.1.1 = {
+		owner = POL
+		}
+		victory_points = {
+			11430 5 
+		}
+		victory_points = {
+			3458 5 
+		}
+		victory_points = {
+			3586 2 
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				arms_factory = 3
+				industrial_complex = 1
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		1919.1.1 = {
+			owner = POL
+			controller = POL
+			add_core_of = POL
+			remove_core_of = RUS
+
+		}
+
+	}
+
+	provinces={
+		548 3458 3482 3497 3586 6416 6511 11428 11430 11532 13205 13387 13388 13389 13391 13393 13394 13395 13396 13397 13400 13401 13404 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

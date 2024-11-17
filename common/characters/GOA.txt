@@ -1,0 +1,28 @@
+characters={
+	GOA_maria={
+		name=GOA_CHARACTER_MARIA
+		portraits={
+			civilian={
+				large="GFX_portrait_goa_maria_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = GOA_MARIA_DESC
+			expire="1797.1.1"
+		}
+}
+	GOA_michelangelo={
+		name=GOA_CHARACTER_MICHELANGELO
+		portraits={
+			civilian={
+				large="GFX_portrait_goa_michelangelo_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = GOA_MICHELANGELO_DESC
+			expire="1797.1.1"
+		}
+}
+}

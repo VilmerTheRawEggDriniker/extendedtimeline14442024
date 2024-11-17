@@ -1,0 +1,36 @@
+state={
+	id=937
+	name="STATE_937"
+	history={
+		owner = ZZZ
+		1880.1.1 = {
+                add_core_of = MAL
+                owner = MAL
+                }
+		1879.1.1 = {
+		victory_points = {
+			7329 1 
+		}
+                }
+		1878.1.1 = {
+		buildings = {
+			infrastructure = 1
+			7329 = {
+				naval_base = 1
+
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1291 1348 1392 4355 7329 7342 7399 10227 12144 12199
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

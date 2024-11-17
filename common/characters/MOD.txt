@@ -1,0 +1,31 @@
+characters={
+	MOD_ercole={
+		name=MOD_CHARACTER_ERCOLE
+		portraits={
+			civilian={
+				large="GFX_portrait_mod_ercole_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Este}
+			desc = MOD_ERCOLE_DESC
+			expire="1797.1.1"
+		}
+}
+	MOD_francisiv={
+		name=MOD_CHARACTER_FRANCISIV
+		portraits={
+			civilian={
+				large="GFX_portrait_mod_francisiv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Este}
+			desc = MOD_FRANCISIV_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

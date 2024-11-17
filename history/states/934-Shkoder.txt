@@ -1,0 +1,61 @@
+
+state={
+	id=934
+	name="STATE_934"
+
+	history={
+                owner = ZZZ
+		1700.1.1 = {
+                owner = FRA
+                }
+		1789.1.1 = {
+                owner = NWT
+		add_core_of = NWT
+                }
+						1812.1.1 = {
+                owner = ILL
+		add_core_of = ILL
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
+                }
+		1813.1.1 = {
+                owner = MCH
+		add_core_of = MCH
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=ILL
+                }
+				1837.1.1 = {
+                owner = USA
+		add_core_of = USA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=MCH
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 1
+                }
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1719 1734 6767 6827 7896 12550 12588 
+	}
+	manpower=563952
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

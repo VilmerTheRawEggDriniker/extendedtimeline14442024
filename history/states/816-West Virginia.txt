@@ -1,0 +1,44 @@
+state={
+	id=816
+	name="STATE_816"
+	state_category = town
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1789.1.1 = {
+		victory_points = {
+			801 2
+		}
+                }
+		1800.1.1 = {
+		victory_points = {
+			7588 3
+		}
+                }
+		1800.1.1 = {
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			air_base = 3
+		}
+                }
+		buildings = {
+			industrial_complex = 0
+		}
+	}
+	provinces={
+		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888 
+	}
+	manpower=958800
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

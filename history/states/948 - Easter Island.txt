@@ -1,0 +1,62 @@
+
+state={
+	id=948
+	name="STATE_948"
+
+	history={
+		victory_points = {
+			937 1 
+		}
+		owner = SER
+                add_core_of = SER
+		buildings = {
+			infrastructure = 0
+
+		}
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+                add_core_of = BOS
+                remove_core_of = SER
+
+		}
+		1900.1.1 = {
+			owner = BOS
+			controller = BOS
+
+		}
+		1910.1.1 = {
+			owner = OTO
+			controller = OTO
+
+		}
+		1914.1.1 = {
+			owner = MNT
+			controller = MNT
+                add_core_of = MNT
+                remove_core_of = BOS
+
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+
+		}
+		2007.1.1 = {
+			owner = MNT
+			controller = MNT
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		937 13824 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

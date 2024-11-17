@@ -1,0 +1,44 @@
+
+state={
+	id=598
+	name="STATE_598"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+            owner = CHI
+		}
+		1933.1.1 = {
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC 
+            add_core_of = PRC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		1029 1076 1089 4001 4005 4031 4082 4091 4123 4148 7025 7142 7181 9953 10095 11928 12055 12067 13144 
+	}
+	manpower=28000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

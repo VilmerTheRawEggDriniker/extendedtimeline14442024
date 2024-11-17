@@ -1,0 +1,72 @@
+
+state={
+	id=165
+	name="STATE_165"
+
+	history={
+				owner = ARA
+		add_core_of = ARA
+				1500.1.1 = {
+                owner = SPR
+                add_core_of = SPR
+                remove_core_of = NAV
+                remove_core_of = ADU
+				remove_core_of = ARA
+						
+		}
+1812.1.1 = {
+owner = FRA
+}
+1816.1.1 = {
+owner = SPR
+}
+1900.1.1 = {
+add_core_of = CAT
+}
+		victory_points = {
+			9764 30 
+		}
+		victory_points = {
+			6966 1 
+		}
+		victory_points = {
+			6927 1 
+		}
+		victory_points = {
+			872 1 
+		}
+		victory_points = {
+			3898 1 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+			9764 = {
+				naval_base = 4
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			9764 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 14091 14092 14093 14094 14095 14096 14097 
+	}
+	manpower=2731627
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,58 @@
+characters={
+	BKV_josephiibkv={
+		name=BKV_CHARACTER_JOSEPHIIBKV
+		portraits={
+			civilian={
+				large="GFX_portrait_bkv_josephiibkv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = BKV_JOSEPHIIBKV_DESC
+			expire="1797.1.1"
+		}
+}
+	BKV_leopoldiibkv={
+		name=BKV_CHARACTER_LEOPOLDIIBKV
+		portraits={
+			civilian={
+				large="GFX_portrait_bkv_leopoldiibkv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = BKV_LEOPOLDIIBKV_DESC
+			expire="1797.1.1"
+		}
+}
+	BKV_francisiibkv={
+		name=BKV_CHARACTER_FRANCISIIBKV
+		portraits={
+			civilian={
+				large="GFX_portrait_bkv_francisiibkv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = BKV_FRANCISIIBKV_DESC
+			expire="1797.1.1"
+		}
+}
+	BKV_ferdinandibkv={
+		name=BKV_CHARACTER_FERDINANDIBKV
+		portraits={
+			civilian={
+				large="GFX_portrait_bkv_ferdinandibkv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = BKV_FERDINANDIBKV_DESC
+			expire="1797.1.1"
+		}
+}
+}

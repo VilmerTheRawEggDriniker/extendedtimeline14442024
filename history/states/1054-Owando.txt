@@ -1,0 +1,31 @@
+state={
+	id=1054
+	name="STATE_1054"
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+        owner = RCG
+		add_core_of = RCG
+        }
+		1939.1.1 = {
+        owner = RCG
+		add_core_of = RCG
+		}
+		1970.1.1 = {
+                owner = RCG
+		add_core_of = RCG
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		3109 13930 13932 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

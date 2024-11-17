@@ -1,0 +1,40 @@
+state={
+	id=1048
+	name="STATE_1048"
+
+	history={
+                owner = ZZZ
+		1899.1.1 = {
+		victory_points = {
+			1960 1 
+		}
+                }
+		1900.1.1 = {
+		owner = DRF
+		add_core_of = DRF
+                }
+		1914.1.1 = {
+			owner = ENG
+			controller = ENG
+            add_core_of = SUD
+		}
+		1956.1.1 = {
+			owner = SUD
+			controller = SUD
+            remove_core_of = EGY
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1960 5060 8052 10739 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

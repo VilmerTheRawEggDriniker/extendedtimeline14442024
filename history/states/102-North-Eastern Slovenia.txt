@@ -1,0 +1,75 @@
+
+state={
+	id=102
+	name="STATE_102"
+
+	history={
+		owner = STY
+        add_core_of = STY
+		add_core_of = CRN
+		1500.1.1 = {
+		owner = AUS
+		add_core_of = AUS
+		remove_core_of = STY
+		remove_core_of = CRN
+		remove_core_of = TYR
+		remove_core_of = CEL
+		remove_core_of = TRT
+		}
+				        1804.1.1 = {
+                owner = AUS
+                add_core_of = AUS
+                remove_core_of = VNT
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+						1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
+		1900.1.1 = {
+			owner = AUH
+                add_core_of = AUH
+                add_core_of = SLV
+                remove_core_of = AUS
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			9627 10 
+		}
+		victory_points = {
+			13843 1
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+            add_core_of = YUG
+            remove_core_of = AUH
+		}
+		1992.1.1 = {
+			owner = SLV
+			controller = SLV
+            remove_core_of = YUG
+		}
+
+	}
+
+	provinces={
+		6650 9627 13843 13845 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=5.000
+}

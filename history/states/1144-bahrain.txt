@@ -1,0 +1,33 @@
+state={
+	id=1144
+	name="STATE_1144"
+	manpower = 40000
+	state_category = pastoral
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		owner = ENG
+		add_core_of = BHR
+                }
+		1900.1.1 = {
+		victory_points = {
+			2048 1
+		}
+                }
+		1973.1.1 = {
+			owner = BHR
+			controller = BHR
+            remove_core_of = YUG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2048
+	}
+
+	local_supplies=0.0 
+}

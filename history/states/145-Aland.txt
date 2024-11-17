@@ -1,0 +1,36 @@
+state=
+{
+	id=145
+	name="STATE_145"
+	manpower = 27400
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = SWE
+		add_core_of = SWE
+		1809.1.1 = {
+                owner = FIN
+		add_core_of = FIN
+                }
+		buildings = {
+			infrastructure = 3 #was: 5
+			9228 = {
+				naval_base = 1
+			}
+		}
+		1920.1.1 = {
+		owner = FIN
+		controller = FIN
+		add_core_of = FIN
+            remove_core_of = RUS
+		}
+	}
+	
+	provinces=	{
+		9228
+	}
+
+	local_supplies=0.0 
+}

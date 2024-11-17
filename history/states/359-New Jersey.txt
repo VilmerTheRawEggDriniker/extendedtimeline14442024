@@ -1,0 +1,55 @@
+
+state={
+	id=359
+	name="STATE_359"
+
+	history={
+            owner = ZZZ
+		1700.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			6882 20
+		}
+                }
+		1700.1.1 = {
+                }
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			air_base = 4
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1411 1671 3693 3863 6882 9801 9864 11740 11782 11900 12508 12571 
+	}
+	manpower=4041332
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=15.000
+}

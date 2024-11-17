@@ -1,0 +1,70 @@
+
+state={
+	id=1248
+	name="STATE_1248"
+		history={
+		owner = POL
+		add_core_of = POL
+		1950.1.1 = {
+			remove_claim_by = GER
+		}
+		1789.1.1 = {
+			owner = PRE
+		}
+		1812.1.1 = {
+			owner = POL
+			add_core_of = POL
+		}
+		1815.1.1 = {
+			owner = POS
+			add_core_of = POS
+		}
+												1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = POL
+		}
+		1849.1.1 = {
+			owner = PRE
+			remove_core_of = POS
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+		}
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+		}
+		victory_points = {
+			279 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		1920.1.1 = {
+			owner = POL
+			add_core_of = POL
+			remove_core_of = GER
+			controller = POL
+		}
+	}
+	provinces={
+		243 279 11232 13427 13434 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

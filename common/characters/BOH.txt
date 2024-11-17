@@ -1,0 +1,58 @@
+characters={
+	BOH_josephiiboh={
+		name=BOH_CHARACTER_JOSEPHIIBOH
+		portraits={
+			civilian={
+				large="GFX_portrait_boh_josephiiboh_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = BOH_JOSEPHIIBOH_DESC
+			expire="1797.1.1"
+		}
+}
+	BOH_leopoldiiboh={
+		name=BOH_CHARACTER_LEOPOLDIIBOH
+		portraits={
+			civilian={
+				large="GFX_portrait_boh_leopoldiiboh_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = BOH_LEOPOLDIIBOH_DESC
+			expire="1797.1.1"
+		}
+}
+	BOH_francisiiboh={
+		name=BOH_CHARACTER_FRANCISIIBOH
+		portraits={
+			civilian={
+				large="GFX_portrait_boh_francisiiboh_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = BOH_FRANCISIIBOH_DESC
+			expire="1797.1.1"
+		}
+}
+	BOH_ferdinandiboh={
+		name=BOH_CHARACTER_FERDINANDIBOH
+		portraits={
+			civilian={
+				large="GFX_portrait_boh_ferdinandiboh_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = BOH_FERDINANDIBOH_DESC
+			expire="1797.1.1"
+		}
+}
+}

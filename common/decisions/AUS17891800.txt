@@ -1,0 +1,87 @@
+AUS_hungarian_concerns = {
+
+	AUS_hold_the_hungarian_diet = {
+
+		icon = generic_civil_support
+
+		available = {
+			
+		}
+
+		days_mission_timeout = 1095
+		days_remove = 0
+
+		selectable_mission = yes
+
+		activation = {
+		}
+
+		visible = {
+			has_country_flag = hungarian_diet_schedule
+		}
+
+		allowed = {
+			original_tag = AUS
+		}
+
+		fixed_random_seed = no
+
+		fire_only_once = no
+
+		cost = 500
+
+		is_good = yes
+		
+		complete_effect = {
+			country_event = aus_1789_event.11
+		}
+
+		timeout_effect = {
+			HUN = {
+				add_stability = -0.05
+			}
+			country_event = aus_1789_event.14
+		}
+	}
+
+	AUS_end_josephinism_in_hungary = {
+
+		icon = generic_civil_support
+
+		available = {
+			
+		}
+
+		days_mission_timeout = 180
+		days_remove = 0
+
+		activation = {
+			has_completed_focus = austria_1789_1815_first_100_focus_14
+		}
+
+		visible = {
+			has_country_flag = reforms_promised_to_hungary
+		}
+
+		allowed = {
+			original_tag = AUS
+		}
+
+		fixed_random_seed = no
+
+		fire_only_once = no
+
+		is_good = yes
+		
+		complete_effect = {
+			HUN = {
+				add_stability = 0.05
+			}
+			clr_country_flag = reforms_promised_to_hungary
+		}
+
+		timeout_effect = {
+			country_event = aus_1789_event.15
+		}
+	}
+}

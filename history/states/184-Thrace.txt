@@ -1,0 +1,42 @@
+
+state={
+	id=184
+	name="STATE_184"
+	resources={
+		chromium=11.000
+	}
+
+	history={
+		victory_points = {
+			11905 1 
+		}
+		owner = OTO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BYZ
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = BYZ
+		}
+		1914.1.1 = {
+			owner = BUL
+			controller = BUL
+            add_core_of = BUL
+		}
+		1920.1.1 = {
+			owner = GRE
+			controller = GRE
+            remove_core_of = BUL
+		}
+
+	}
+
+	provinces={
+		11774 11905 13750 13751 13753 13759 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=8.000
+}

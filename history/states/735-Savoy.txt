@@ -1,0 +1,69 @@
+
+state={
+	id=735
+	name="STATE_735"
+
+	history={
+		owner = SAV
+		add_core_of = SAV
+		1720.1.1 = {
+			owner = SPM
+			add_core_of = SPM
+			remove_core_of = SAV
+
+		}
+		1800.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = SPM
+
+		}
+		1815.1.1 = {
+			owner = SPM
+			add_core_of = SPM
+			remove_core_of = FRA
+
+		}
+		1871.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of=SPM
+
+		}
+		1919.1.1 = {
+			remove_core_of = SPM
+			remove_core_of = PAP
+			remove_core_of = TOS
+			remove_core_of = TTS
+			remove_core_of = LBV
+
+		}
+		1919.1.1 = {
+
+		}
+		1946.1.1 = {
+			remove_claim_by = ITA
+
+		}
+		victory_points = {
+			9909 20 
+		}
+		buildings = {
+			infrastructure = 2
+			9909 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3959 9909 11891 
+	}
+	manpower=213714
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

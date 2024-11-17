@@ -1,0 +1,94 @@
+
+state={
+	id=834
+	name="STATE_834"
+
+	history={
+		owner = WDF
+		add_core_of = WDF
+		1600.1.1 = {
+			owner = OTO
+			remove_core_of = WDF
+			remove_core_of = POD
+			remove_core_of = SMG
+			remove_core_of = SMO
+			remove_core_of = KIE
+			remove_core_of = CHE
+			add_core_of = ZAP
+
+		}
+		1793.1.1 = {
+			add_core_of = RUS
+			remove_core_of = ZAP
+
+		}
+		1789.1.1 = {
+			owner = OTO
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+		1800.1.1 = {
+		victory_points = {
+			741 5 
+		}
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			remove_core_of = UKR
+			remove_core_of = ROM
+			add_core_of = MOL
+
+		}
+		1993.1.1 = {
+			owner = MSS
+			controller = MSS
+			add_core_of = MOL
+			remove_core_of = SOV
+			add_core_of = MSS
+
+		}
+
+	}
+
+	provinces={
+		741 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

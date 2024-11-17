@@ -1,0 +1,48 @@
+
+state={
+	id=406
+	name="STATE_406"
+
+	history={
+		owner = TIM
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = BUK
+		1936.1.1 = {
+                add_core_of = TMS
+                remove_core_of = BUK
+                }
+		1600.1.1 = {
+			owner = BUK
+			controller = BUK
+			add_core_of = BUK
+			remove_core_of = RUS
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = TMS
+			controller = TMS
+			add_core_of = TMS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		756 9605 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

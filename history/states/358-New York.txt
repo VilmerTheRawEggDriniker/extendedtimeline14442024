@@ -1,0 +1,83 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=13.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1700.1.1 = {
+			buildings = {
+				infrastructure = 2
+				3878 = {
+					naval_base = 6
+
+				}
+
+			}
+
+		}
+		1700.1.1 = {
+			victory_points = {
+				3878 50 
+			}
+		}
+		1700.1.1 = {
+
+		}
+		1789.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				industrial_complex = 4
+				dockyard = 3
+				3878 = {
+					naval_base = 6
+
+				}
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				industrial_complex = 4
+				dockyard = 3
+				air_base = 10
+				3878 = {
+					naval_base = 6
+
+				}
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		3878
+	}
+	manpower=7781747
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

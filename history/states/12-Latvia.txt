@@ -1,0 +1,82 @@
+
+state={
+	id=12
+	name="STATE_12"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = LIV
+		add_core_of = LIV
+		1900.1.1 = {
+		add_core_of = LAT
+		}
+				1800.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+				remove_core_of = LIV
+                }
+		1600.1.1 = {
+                owner = POL
+                }
+		1689.1.1 = {
+                owner = SWE
+                }
+		1789.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+
+		}
+                }
+		victory_points = {
+			10493 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1919.1.1 = {
+			owner = LAT
+			controller = SOV
+			add_core_of = LAT
+			remove_core_of = RUS
+
+		}
+		1920.1.1 = {
+			owner = LAT
+			controller = LAT
+			add_core_of = LAT
+			remove_core_of = RUS
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = LAT
+			controller = LAT
+			add_core_of = LAT
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		3298 3388 9317 9501 10323 10493 11222 11302 14421 14425 14429 14431 14432 14434 14435 14437 14438 14441 14442 14443 14444 14446 14449 
+	}
+	manpower=741000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

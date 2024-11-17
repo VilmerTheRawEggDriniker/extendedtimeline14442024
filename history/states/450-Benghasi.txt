@@ -1,0 +1,69 @@
+
+state={
+	id=450
+	name="STATE_450"
+
+	history={
+		owner = CYR
+		1600.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		victory_points = {
+			11954 3 
+		}
+				1900.1.1 = {
+		add_core_of = LBA
+		}
+								1945.1.1 = {
+                owner = ENG
+                }
+		1936.1.1 = {
+				buildings = {
+			infrastructure = 2
+			air_base = 1
+			11954 = {
+				naval_base = 1
+
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 2
+			11954 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = CYR
+		1914.1.1 = {
+		remove_core_of=OTO
+			owner = ITA
+			controller = ITA
+
+		}
+		1946.1.1 = {
+        owner = LBA
+		add_core_of = LBA
+        }
+
+	}
+
+	provinces={
+		1127 1198 4120 10123 11954 13237 13238 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

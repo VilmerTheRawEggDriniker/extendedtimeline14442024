@@ -1,0 +1,50 @@
+
+state={
+	id=752
+	name="STATE_752"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+			owner = CHI
+			controller = CHI
+			remove_core_of = QIN
+
+		}
+		1919.1.1 = {
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+			add_core_of = PRC
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1700.1.1 = {
+		victory_points = {
+			4999 1 
+		}
+		}
+
+	}
+
+	provinces={
+		1918 1999 4937 4999 7988 8104 8126 10726 12724 12837 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+}

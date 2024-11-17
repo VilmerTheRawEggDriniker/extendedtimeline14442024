@@ -1,0 +1,40 @@
+
+state={
+	id=781
+	name="STATE_781"
+
+	history={
+		owner = ZZZ
+				1900.1.1 = {
+        owner = SEN
+        }
+		1939.1.1 = {
+        owner = SEN
+		}
+		1900.1.1 = {
+		add_core_of = NGR
+                }
+		1970.1.1 = {
+                owner = NGR
+		add_core_of = NGR
+                }
+		1900.1.1 = {
+		victory_points = {
+			2056 1 
+		}
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1975 2056 12707 
+	}
+	manpower=343817
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+}

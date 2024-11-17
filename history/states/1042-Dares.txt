@@ -1,0 +1,49 @@
+state={
+	id=1042
+	name="STATE_1042"
+	history={
+		owner = ZZZ
+		1899.1.1 = {
+		victory_points = {
+			8183 1 
+		}
+		victory_points = {
+			2196 1 
+		}
+                }
+		1900.1.1 = {
+		add_core_of = TZN
+                owner = GER
+                }
+		1898.1.1 = {
+		buildings = {
+			infrastructure = 2
+			2196 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		1919.1.1 = {
+			owner = ENG
+			controller = ENG
+		}
+						1961.1.1 = {
+        owner = TZN
+		add_core_of = TZN
+        }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		2196 8182 8183 12944 
+	}
+	manpower=1900000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

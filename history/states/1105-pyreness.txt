@@ -1,0 +1,38 @@
+
+state={
+	id=1105
+	name="STATE_1105"
+
+	history={
+						owner = ARA
+		add_core_of = ARA
+				1500.1.1 = {
+                owner = SPR
+                add_core_of = SPR
+                remove_core_of = NAV
+                remove_core_of = ADU
+				remove_core_of = ARA
+		}
+		1659.1.1 = {
+		owner = FRA
+		add_core_of = FRA
+		remove_core_of = SPR
+		}
+		victory_points = {
+			9853 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		6915 9853 14497 
+	}
+	manpower=167937
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

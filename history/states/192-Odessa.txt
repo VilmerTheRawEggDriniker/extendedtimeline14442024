@@ -1,0 +1,107 @@
+
+state={
+	id=192
+	name="STATE_192"
+
+	history={
+		owner = WDF
+		add_core_of = WDF
+		1600.1.1 = {
+			owner = OTO
+			remove_core_of = WDF
+			remove_core_of = POD
+			remove_core_of = SMG
+			remove_core_of = SMO
+			remove_core_of = KIE
+			remove_core_of = CHE
+			add_core_of = ZAP
+
+		}
+		1793.1.1 = {
+			add_core_of = RUS
+			remove_core_of = ZAP
+
+		}
+		1789.1.1 = {
+			owner = OTO
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+		1800.1.1 = {
+			victory_points = {
+				11670 20 
+			}
+
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			11670 = {
+				naval_base = 3
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				dockyard = 1
+				air_base = 6
+				11670 = {
+					naval_base = 3
+					coastal_bunker = 1
+
+				}
+
+			}
+
+		}
+		1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		754 3575 9714 11670 13587 13596 13600 13601 13604 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=6.000
+}

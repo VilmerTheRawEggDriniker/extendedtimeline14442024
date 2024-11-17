@@ -1,0 +1,47 @@
+﻿division_template = {
+	name = "Georgian Division"
+
+	division_names_group = GEO_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Georgian Army
+	division = {
+		name = "Georgian Division"
+		location = 1599
+		division_template = "Georgian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Georgian Army
+	division = {
+		name = "Georgian Division"
+		location = 1599
+		division_template = "Georgian Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "GEO"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

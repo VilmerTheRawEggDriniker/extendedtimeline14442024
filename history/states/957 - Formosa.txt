@@ -1,0 +1,57 @@
+state={
+	id=957
+	name="STATE_957"
+	history={
+		owner = BOS
+		add_core_of = BOS
+								1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+                add_core_of = BOS
+                remove_core_of = HRZ
+		}
+		1900.1.1 = {
+			owner = BOS
+			controller = BOS
+                add_core_of = BOS
+                remove_core_of = SER
+		}
+		1910.1.1 = {
+			owner = AUH
+			controller = AUH
+                add_core_of = BOS
+                remove_core_of = SER
+		}
+		victory_points = {
+			13839 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+            add_core_of = YUG
+		}
+		1993.1.1 = {
+			owner = BOS
+			controller = BOS
+            remove_core_of = YUG
+		}
+
+	}
+
+	provinces={
+		13839
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

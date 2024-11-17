@@ -1,0 +1,42 @@
+
+state={
+	id=134
+	name="STATE_134"
+
+	history={
+		owner = IRE
+				1700.1.1 = {
+		owner = NIR
+		}
+	    1801.1.1 = {
+			owner = ENG
+			controller = ENG
+
+		}
+		1920.1.1 = {
+			owner = IRE
+			controller = IRE
+
+		}
+		victory_points = {
+			9303 3 
+		}
+		victory_points = {
+			11371 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = IRE
+
+	}
+
+	provinces={
+		337 3396 9255 9303 9321 9369 11238 11287 11371 
+	}
+	manpower=508500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=13.000
+}

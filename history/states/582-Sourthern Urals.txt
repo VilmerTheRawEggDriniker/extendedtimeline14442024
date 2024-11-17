@@ -1,0 +1,76 @@
+
+state={
+	id=582
+	name="STATE_582"
+	resources={
+		steel=40.000
+		oil=6.000
+	}
+
+	history={
+		owner = TAT
+		add_core_of = TAT
+		1789.1.1 = {
+add_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+1900.1.1 = {
+remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+						1789.1.1 = {
+			owner = BSK
+		add_core_of = BSK
+		remove_core_of = ZAP
+		remove_core_of = RUS
+		remove_core_of = POL
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = KIE
+		remove_core_of = POL
+		}
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			add_core_of = BSK
+			remove_core_of = TAT
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		victory_points = {
+			10329 1 
+		}
+
+	}
+
+	provinces={
+		4261 4265 4311 4383 7300 7373 10185 10329 11223 12200 
+	}
+	manpower=1044991
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

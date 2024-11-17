@@ -1,0 +1,52 @@
+
+state={
+	id=119
+	name="STATE_119"
+
+	history={
+		owner = IRE
+				1700.1.1 = {
+		owner = NIR
+		}
+	    1801.1.1 = {
+			owner = ENG
+			controller = ENG
+			add_core_of=ENG
+					add_core_of = NIR
+
+		}
+			    1700.1.1 = {
+			add_core_of=ENG
+					add_core_of = NIR
+
+		}
+		victory_points = {
+			3379 20 
+		}
+		victory_points = {
+			385 1 # Londonderry
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 2
+			3379 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = IRE
+	}
+
+	provinces={
+		276 385 3217 3242 3329 3379 11257 
+	}
+	manpower=1198537
+	buildings_max_level_factor=1
+	state_category="town"
+	
+	resources={
+		aluminium=2
+	}
+
+	local_supplies=0.0 
+}

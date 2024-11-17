@@ -1,0 +1,74 @@
+
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		steel=28.000
+		aluminium=9.000
+	}
+
+	history={
+		owner = ZZZ
+		1801.1.1 = {
+			victory_points = {
+				11760 2 
+			}
+
+		}
+		1789.1.1 = {
+			owner = NWT
+			add_core_of = NWT
+
+		}
+		1812.1.1 = {
+			owner = USA
+			add_core_of = USA
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = NCR
+
+		}
+		1788.1.1 = {
+			victory_points = {
+				4601 20 
+			}
+
+		}
+		1837.1.1 = {
+			victory_points = {
+				689 10 
+			}
+
+		}
+		1812.1.1 = {
+			victory_points = {
+				6855 10 
+			}
+
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				industrial_complex = 3
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		659 689 831 971 3685 3872 4601 6855 9760 9775 11760 11776 11791 11890 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=11.000
+}

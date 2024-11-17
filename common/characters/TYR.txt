@@ -1,0 +1,17 @@
+characters={
+	TYR_andreashofer={
+		name=TYR_CHARACTER_ANDREASHOFER
+		portraits={
+			civilian={
+				large="GFX_portrait_tyr_andreashofer_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={freedom_fighter_counter_revolution}
+			desc = TYR_ANDREASHOFER_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

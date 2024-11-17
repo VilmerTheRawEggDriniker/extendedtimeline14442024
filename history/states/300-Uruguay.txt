@@ -1,0 +1,82 @@
+
+state={
+	id=300
+	name="STATE_300"
+	manpower = 1734000
+	
+	state_category = town
+	
+	resources={
+		oil=1 # was: 2
+		steel=1 # was: 2
+	}
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+            }
+		1789.1.1 = {
+        add_core_of = ARG
+		add_core_of = URG
+        owner = ARG
+        }
+		1727.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			10362 = {
+				naval_base = 6
+				bunker = 1
+				coastal_bunker = 1
+			}
+		}
+            }
+		1726.1.1 = {
+		victory_points = {
+			10362 5
+		}
+            }
+		1812.1.1 = {
+			owner = ARG
+			controller = ARG
+		add_core_of = ARG
+            }
+		1826.1.1 = {
+			owner = BRA
+			controller = BRA
+            add_core_of = BRA
+			remove_core_of = ARG
+            remove_core_of = SPR
+		}
+		1834.1.1 = {
+			owner = URG
+			controller = URG
+            add_core_of = URG
+			remove_core_of = ARG
+            remove_core_of = BRA
+		}
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}
+            }
+		1914.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			air_base = 1
+		}
+            }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1613 1626 1641 1654 4457 10347 10362 10502 12336 12440 12468 12481 12496 
+	}
+
+	local_supplies=0.0 
+}

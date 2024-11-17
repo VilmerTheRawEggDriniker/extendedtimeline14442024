@@ -1,0 +1,60 @@
+
+state={
+	id=618
+	name="STATE_618" # Dzungaria
+	manpower = 670800
+
+	state_category =pastoral
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+        owner = QIN
+		remove_core_of = MNG
+		add_core_of = CHI
+        }
+		1910.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = AUH
+		}
+        1919.1.1 = {
+        }
+		1920.1.1 = {
+			owner = SIK
+			controller = SIK
+            remove_core_of = AUH
+		add_core_of = SIK
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = AUH
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            remove_core_of = AUH
+		add_core_of = PRC
+                remove_core_of = SIK
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		1789.1.1 = {
+		victory_points = {
+			4823 2
+		}
+		}
+	}
+
+	provinces={
+		1708 1783 1844 4714 4788 4823 4849 7693 7737 7866 10674 10691 12590 12737 
+	}
+
+	local_supplies=0.0 
+}

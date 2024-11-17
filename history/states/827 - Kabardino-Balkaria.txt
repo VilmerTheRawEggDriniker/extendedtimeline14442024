@@ -1,0 +1,58 @@
+
+state={
+	id=827
+	name="STATE_827"
+	resources={
+		chromium=17.000
+	}
+
+	history={
+		owner = KBK
+		add_core_of = KBK
+		1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+				1919.1.1 = {
+		owner = DAG
+		add_core_of=DAG
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		victory_points = {
+			685 1 
+		}
+
+	}
+
+	provinces={
+		685 9647 9649 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=767
+	name="STATE_767"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+			owner = LBA
+			controller = LBA
+		add_core_of = LBA
+		add_core_of = SUD
+                add_core_of = DRF
+		}
+		1920.1.1 = {
+			owner = ENG
+			controller = ENG
+		remove_core_of = LBA
+
+		}
+		1956.1.1 = {
+			owner = SUD
+			controller = SUD
+            remove_core_of = EGY
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		8103 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

@@ -1,0 +1,59 @@
+
+state={
+	id=222
+	name="STATE_222"
+	manpower = 1218607
+	
+	state_category = town
+	
+	resources={
+		steel=40 # was: 76
+		chromium=8 # was: 12
+	}
+
+	history={
+		owner = CHE
+		add_core_of = CHE
+		1600.1.1 = {
+		owner = RUS
+        add_core_of = RUS
+	    remove_core_of = CHE
+		}
+		victory_points = {
+			9355 10
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 4
+		}
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+	}
+
+	provinces={
+		302 328 384 6355 9328 9355 9384 9411 11214 11283 11310 11337 11368 
+	}
+
+	local_supplies=0.0 
+}

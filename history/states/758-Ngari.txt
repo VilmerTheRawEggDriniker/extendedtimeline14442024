@@ -1,0 +1,33 @@
+state={
+	id=758
+	name="STATE_758"
+	provinces={
+		1961 5094 8029 10802 12784 12801 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+        owner = QIN
+		add_core_of = TIB
+        }
+		buildings = {
+			infrastructure = 0
+		}
+		1913.1.1 = {
+			owner = TIB
+			controller = TIB
+            remove_core_of = QIN
+		}
+        1919.1.1 = {
+        }
+		1952.1.1 = {
+			owner = PRC
+			controller = PRC
+		}
+	}
+
+	local_supplies=0.0 
+}

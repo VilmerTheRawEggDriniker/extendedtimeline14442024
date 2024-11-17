@@ -1,0 +1,87 @@
+bookmarks = {
+	bookmark = {
+		name = "Victorian Age"
+		desc = "1836_DESC"
+		date = 1836.1.1.12
+		picture = "GFX_victoria_1836"
+		default_country = "FRA"
+	
+		FRA = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		ENG = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		SPR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		POR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		AUS = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		PRE = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		RUS = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		SWE = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		# minors from DLC ####
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

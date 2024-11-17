@@ -1,0 +1,64 @@
+
+state={
+	id=1206
+	name="STATE_1206"
+
+	history={
+		owner = CRI
+		add_core_of = CRI
+				1700.1.1 = {
+		remove_core_of = CRI
+		owner = RUS
+		add_core_of = RUS
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+
+		}
+		victory_points = {
+			6420 5 
+		}
+		1900.1.1 = {
+		add_core_of = UKR
+		}
+						1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+		2014.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		3479 3491 4578 4581 4638 6420 6776 7486 7706 10148 10275 10353 10601 12177 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

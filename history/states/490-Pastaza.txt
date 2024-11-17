@@ -1,0 +1,64 @@
+
+state={
+	id=490
+	name="STATE_490"
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+
+		}
+		1789.1.1 = {
+        add_core_of = ECU
+        owner = COL
+        }
+		1812.1.1 = {
+        add_core_of = ECU
+        owner = VEN
+        }
+		1836.1.1 = {
+			add_core_of = ECU
+			owner = ECU
+			add_core_of = PRU
+			add_claim_by = PRU
+
+		}
+		1900.1.1 = {
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				air_base = 1
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1942.1.1 = {
+			owner = PRU
+			controller = PRU
+			remove_core_of = ECU
+
+		}
+
+	}
+
+	provinces={
+		8149 10942 
+	}
+	manpower=70020
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=6.000
+}

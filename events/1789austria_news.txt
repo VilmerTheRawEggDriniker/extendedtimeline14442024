@@ -1,0 +1,24 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = aus_1789_news
+
+		news_event = {
+	id = aus_1789_news.1
+	title = "The Formation of the Austrian Empire"
+	desc = aus_1789_news.1.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		option = {
+		name = "Ok"
+			}
+		}

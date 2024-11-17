@@ -1,0 +1,81 @@
+state={
+	id=1210
+	name="STATE_1210"
+	history={
+		owner = GOA
+		add_core_of = CRI
+		1600.1.1 = {
+		add_core_of = CRI
+		owner = OTO
+		remove_core_of = GOA
+		}
+				1783.1.1 = {
+		remove_core_of = CRI
+		owner = RUS
+		add_core_of = RUS
+		}
+		victory_points = {
+			9680 1 
+		}
+		victory_points = {
+			6704 1 
+		}
+		victory_points = {
+			9677 1 
+		}
+		buildings = {
+			infrastructure = 2
+			9680 = {
+				naval_base = 1
+				coastal_bunker = 1
+
+			}
+
+		}
+		1919.1.1 = {
+		owner = CRI
+		add_core_of=CRI
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1783.1.1 = {
+		remove_core_of = CRI
+		}
+		1954.1.1 = {
+		add_core_of = UKR
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+		2014.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+	provinces={
+		6704 9677 9680 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,47 @@
+
+state={
+	id=482
+	name="STATE_482"
+	manpower = 520751
+	
+	state_category = pastoral
+
+	history={
+                owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1822.1.1 = {
+                add_core_of = MEX
+                owner = MEX
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1823.1.1 = {
+		buildings = {
+			infrastructure = 1 #was: 5
+			industrial_complex = 1
+		}
+                }
+		1590.1.1 = {
+		victory_points = {
+			8097 10
+		}
+		victory_points = {
+			10830 10
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
+	}
+	
+
+	local_supplies=0.0 
+}

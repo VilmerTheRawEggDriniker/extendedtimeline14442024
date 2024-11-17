@@ -1,0 +1,49 @@
+
+state={
+	id=682
+	name="STATE_682"
+	history={
+            owner = ZZZ
+		1700.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 1
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			9786 2
+		}
+                }
+		1900.1.1 = {
+                }
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 2
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		9786 
+	}
+	manpower=238380	
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

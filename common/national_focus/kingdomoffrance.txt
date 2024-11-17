@@ -1,0 +1,2238 @@
+﻿focus_tree = {
+	id = kingdomoffrance_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VND
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+continuous_focus_position = { x = 1200 y = 3000 }
+	
+	default = no
+	focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_1
+		icon = GFX_
+
+		x = 2
+		y = 1
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		hidden_effect={VND={add_manpower = 50000 load_oob = "VND_1793"}}
+							932 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 11600
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 9631
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 13456
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 11613
+							instant_build = yes
+						}
+				}
+			}
+								960 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 13336
+							instant_build = yes
+						}
+				}
+			}
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_2
+		icon = GFX_
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 4
+		y = 1
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_1
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+				declare_war_on = {
+		target = FRA
+		type = annex_everything
+				}
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_3
+		icon = GFX_
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 6
+		y = 1
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_2
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		country_event = fra_1789_event.9
+                hidden_effect={
+                PRS={add_manpower = 50000 load_oob = "PRS_1793"}
+		PRS={
+		add_state_core = 19
+		add_state_core = 20
+                add_state_core = 21
+		}
+		PRS={
+		transfer_state = 19
+		transfer_state = 20
+                transfer_state = 21
+		}
+PRS={
+				declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+}
+                }
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_4
+		icon = GFX_
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 8
+		y = 1
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_3
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_country_leader_trait = imprisoned_monarch
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_5
+		icon = GFX_
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 10
+		y = 1
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_4
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_6
+		icon = GFX_
+
+		x = 2
+		y = 2
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_7
+		icon = GFX_
+
+		x = 4
+		y = 2
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_8
+		icon = GFX_
+
+		x = 6
+		y = 2
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_9
+		icon = GFX_
+
+		x = 8
+		y = 2
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_10
+		icon = GFX_
+
+		x = 10
+		y = 2
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_1
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_2
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_3
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_4
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_5
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_11
+		icon = GFX_
+
+		x = 2
+		y = 3
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_12
+		icon = GFX_
+		x = 4
+		y = 3
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_13
+		icon = GFX_
+
+		x = 6
+		y = 3
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_14
+		icon = GFX_
+
+		x = 8
+		y = 3
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_15
+		icon = GFX_
+
+		x = 10
+		y = 3
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_6
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_7
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_8
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_9
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_16
+		icon = GFX_
+
+		x = 2
+		y = 4
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_17
+		icon = GFX_
+
+		x = 4
+		y = 4
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_18
+		icon = GFX_
+
+		x = 6
+		y = 4
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_19
+		icon = GFX_
+
+		x = 8
+		y = 4
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_20
+		icon = GFX_
+
+		x = 10
+		y = 4
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_11
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_12
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_13
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_14
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_15
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_21
+		icon = GFX_
+
+		x = 2
+		y = 5
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_22
+		icon = GFX_
+
+		x = 4
+		y = 5
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	        }
+		}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_23
+		icon = GFX_
+
+		x = 6
+		y = 5
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_24
+		icon = GFX_
+
+		x = 8
+		y = 5
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_25
+		icon = GFX_
+
+		x = 10
+		y = 5
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_16
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_17
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_18
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_19
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_20
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_26
+		icon = GFX_
+
+		x = 2
+		y = 6
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_27
+		icon = GFX_
+
+		x = 4
+		y = 6
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_28
+		icon = GFX_
+
+		x = 6
+		y = 6
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_29
+		icon = GFX_
+
+		x = 8
+		y = 6
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_30
+		icon = GFX_
+
+		x = 10
+		y = 6
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_21
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_22
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_23
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_24
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_31
+		icon = GFX_
+
+		x = 2
+		y = 7
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_32
+		icon = GFX_
+
+		x = 4
+		y = 7
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_33
+		icon = GFX_
+
+		x = 6
+		y = 7
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_34
+		icon = GFX_
+
+		x = 8
+		y = 7
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_35
+		icon = GFX_
+
+		x = 10
+		y = 7
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_26
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_27
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_28
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_29
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_36
+		icon = GFX_
+
+		x = 2
+		y = 8
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_37
+		icon = GFX_
+
+		x = 4
+		y = 8
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_38
+		icon = GFX_
+
+		x = 6
+		y = 8
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_39
+		icon = GFX_
+
+		x = 8
+		y = 8
+		will_lead_to_war_with = AUS
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_40
+		icon = GFX_
+
+		x = 10
+		y = 8
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_31
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_32
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_33
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_34
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_41
+		icon = GFX_
+
+		x = 2
+		y = 9
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_42
+		icon = GFX_
+
+		x = 4
+		y = 9
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_43
+		icon = GFX_
+
+		x = 6
+		y = 9
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_44
+		icon = GFX_
+
+		x = 8
+		y = 9
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_45
+		icon = GFX_
+
+		x = 10
+		y = 9
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_36
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_37
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_38
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_39
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_40
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_46
+		icon = GFX_
+
+		x = 2
+		y = 10
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_47
+		icon = GFX_
+
+		x = 4
+		y = 10
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_48
+		icon = GFX_
+
+		x = 6
+		y = 10
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_49
+		icon = GFX_
+
+		x = 8
+		y = 10
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = kingdomoffrance_1789_1815_first_50_focus_50
+		icon = GFX_
+
+		x = 10
+		y = 10
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_41
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_42
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_43
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_44
+		}
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+}

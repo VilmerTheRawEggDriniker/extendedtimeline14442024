@@ -1,0 +1,42 @@
+state={
+	id=1045
+	name="STATE_1045"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		      owner = ITA
+			controller = ITA
+		add_core_of = SOM
+		}
+				1945.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = ENG
+
+		}
+		1961.1.1 = {
+			owner = SOM
+			controller = SOM
+            remove_core_of = EGY
+		}
+		victory_points = {
+			1966 1 
+		}
+				2000.1.1 = {
+		add_core_of = PUN
+		owner = PUN
+        }
+		buildings = {
+			infrastructure = 0
+                  }
+	}
+
+	provinces={
+		1966 4909 10818 10891
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

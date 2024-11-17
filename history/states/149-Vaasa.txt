@@ -1,0 +1,44 @@
+
+state={
+	id=149
+	name="STATE_149"
+
+	history={
+		owner = SWE
+		add_core_of = FIN
+		1809.1.1 = {
+                owner = FIN
+                }
+		victory_points = {
+			3122 3 
+		}
+		victory_points = {
+			3083 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			3122 = {
+				naval_base = 1
+
+			}
+
+		}
+		1920.1.1 = {
+			owner = FIN
+			controller = FIN
+			add_core_of = FIN
+			remove_core_of = RUS
+
+		}
+
+	}
+
+	provinces={
+		32 63 66 82 120 158 169 195 3009 3083 3117 3122 3172 6013 6066 6081 6198 6212 9038 9094 9156 9194 11041 11065 11066 11081 11121 11126 11132 11172 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

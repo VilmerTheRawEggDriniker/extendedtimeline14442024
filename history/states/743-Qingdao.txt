@@ -1,0 +1,62 @@
+state=
+{
+	id=743
+	name="STATE_743"
+	manpower = 385000
+	state_category = large_city
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1900.1.1 = {
+                owner = GER
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 1
+			10000 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			10000 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			10000 10
+		}
+		1919.1.1 = {
+            owner = CHI
+		}
+		1933.1.1 = {
+		}
+		1938.10.25 = {
+			controller = JAP
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            add_core_of = PRC
+		}
+	}
+	provinces={
+		10000
+	}
+
+	local_supplies=0.0 
+}

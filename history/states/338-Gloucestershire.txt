@@ -1,0 +1,57 @@
+
+state={
+	id=338
+	name="STATE_338"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			3369 5 
+		}
+		victory_points = {
+			540 10 
+		}
+		1936.1.1 = {
+ 		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+			3369 = {
+				naval_base = 2
+
+			}
+			540 = {
+				naval_base = 8
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			3369 = {
+				naval_base = 2
+
+			}
+			540 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		540 3369 6221 6351 6378 9484 9562 14157 14158 14159 14161 14162 14163 14164 14166 14170 
+	}
+	manpower=2450000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,89 @@
+
+state={
+	id=71
+	name="STATE_71"
+
+	history={
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = HUN
+		}
+		1700.1.1 = {
+			owner = HUN
+                remove_core_of = TRA
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = AUH
+						add_core_of = SLO
+		}
+		victory_points = {
+			3581 3 
+		}
+		victory_points = {
+			9551 5 
+		}
+		victory_points = {
+			9539 1 
+		}
+		victory_points = {
+			11539 1 
+		}
+		victory_points = {
+			541 1
+		}
+		victory_points = {
+			3484 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		1919.1.1 = {
+			owner = CZE
+			controller = CZE
+			add_core_of = CZE
+			remove_core_of = AUH
+			remove_core_of = SLO
+
+		}
+		1939.3.14 = {
+			owner = SLO
+			controller = SLO
+			add_core_of = SLO
+
+		}
+		1946.1.1 = {
+			owner = CZE
+			controller = CZE
+			add_core_of = CZE
+			remove_core_of = HUN
+
+		}
+		1993.1.1 = {
+			owner = SLO
+			controller = SLO
+			remove_core_of = CZE
+			remove_core_of = HUN
+
+		}
+
+	}
+
+	provinces={
+		541 555 581 3484 3537 3550 3581 6586 6604 9539 9551 11522 11539 11554 14302 14303 14304 14310 14312 14314 14315 14316 14317 14319 14320 14321 14322 
+	}
+	manpower=2197800
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

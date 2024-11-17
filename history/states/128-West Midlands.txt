@@ -1,0 +1,44 @@
+
+state={
+	id=128
+	name="STATE_128"
+
+	history={
+		owner = ENG
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 8
+				arms_factory = 4
+				air_base = 6
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 8
+			arms_factory = 4
+
+		}
+		victory_points = {
+			9297 35 
+		}
+				victory_points = {
+			6270 3 
+		}
+		victory_points = {
+			7239 2 
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		3241 3301 6270 6301 7239 9297 11345 14179 14181 14183 14185 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

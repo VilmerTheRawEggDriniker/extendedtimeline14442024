@@ -1,0 +1,53 @@
+
+state={
+	id=629
+	name="STATE_629"
+	manpower = 368336
+	state_category = town
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = USA
+		add_core_of = HAW
+                }
+		1900.1.1 = {
+		victory_points = {
+			4180 15
+	        }
+		victory_points = {
+			12021 3
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			4180 = {
+				naval_base = 10
+			}
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+			4180 = {
+				naval_base = 10
+			}
+		}
+                }
+		1960.1.1 = {
+                owner = USA
+                add_core_of = USA
+				remove_core_of = HAW
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		4180 7112 7195 10048 12021 
+	}
+
+	local_supplies=0.0 
+}

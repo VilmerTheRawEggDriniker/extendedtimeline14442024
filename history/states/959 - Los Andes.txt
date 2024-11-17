@@ -1,0 +1,78 @@
+
+state={
+	id=959
+	name="STATE_959"
+
+	history={
+		victory_points = {
+			13320 2 
+		}
+                owner = VNT
+                add_core_of = VNT
+        1804.1.1 = {
+                owner = AUS
+                add_core_of = AUS
+                remove_core_of = VNT
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
+								1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1900.1.1 = {
+                owner = AUH
+		add_core_of = CRO
+                remove_core_of = AUS
+                }
+		buildings = {
+			infrastructure = 3
+			13320 = {
+				naval_base = 1
+
+			}
+
+		}
+		1919.1.1 = {
+			owner = ITA
+			controller = ITA
+			add_core_of = ITA
+            remove_core_of = CRO
+            remove_core_of = SLV
+			remove_core_of = AUH
+
+		}
+		1950.1.1 = {
+			owner = YUG
+			controller = YUG
+			remove_core_of = ITA
+			remove_core_of = LBV
+                 add_core_of = CRO
+                 add_core_of = YUG
+
+		}
+		1992.1.1 = {
+			owner = CRO
+			controller = CRO
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		13320 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

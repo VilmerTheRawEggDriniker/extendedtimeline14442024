@@ -1,0 +1,109 @@
+
+state={
+	id=115
+	name="STATE_115"
+
+	history={
+		owner = SIC
+        add_core_of = SIC
+		1817.1.1 = {
+		remove_core_of = NAP
+		remove_core_of = SIC
+		add_core_of = TTS
+		owner = TTS
+		}
+		1871.1.1 = {
+                owner = ITA
+                add_core_of = ITA
+		}
+				1945.1.1 = {
+		controller = ENG
+		}
+		1946.1.1 = {
+		controller = ITA
+		}
+		1919.1.1 = {
+                remove_core_of = SPM
+                remove_core_of = PAP
+                remove_core_of = TOS
+                remove_core_of = TTS
+                remove_core_of = LBV
+		}
+		victory_points = {
+			10074 20 
+		}
+		victory_points = {
+			4159 10 
+		}
+		victory_points = {
+			14101 10 
+		}
+		victory_points = {
+			4014 5
+		}
+		victory_points = {
+			14099 3
+		}
+		victory_points = {
+			7059 2 
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 3
+					air_base = 10
+			industrial_complex = 1
+			dockyard = 1
+			10074 = {
+				naval_base = 2
+
+			}
+			7059 = {
+				naval_base = 5
+
+			}
+			4159 = {
+				naval_base = 8
+
+			}
+			4014 = {
+				naval_base = 3
+
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			10074 = {
+				naval_base = 2
+
+			}
+			7059 = {
+				naval_base = 5
+
+			}
+			4159 = {
+				naval_base = 8
+
+			}
+			4014 = {
+				naval_base = 3
+
+			}
+
+		}
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 14099 14100 14101 14102 14103 14104 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
+
+
+
+

@@ -1,0 +1,17 @@
+﻿
+
+focus_tree = {
+	id = uninhabited_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ZZZ
+		}
+	}
+	
+	default = no
+
+}

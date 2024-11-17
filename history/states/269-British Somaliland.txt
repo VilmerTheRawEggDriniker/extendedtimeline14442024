@@ -1,0 +1,58 @@
+
+state={
+	id=269
+	name="STATE_269"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = SOM
+                owner = ENG
+                }
+		1899.1.1 = {
+		victory_points = {
+			10833 1 
+		}
+		victory_points = {
+			5068 1 
+		}
+                }
+						1946.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = ENG
+
+		}
+								1961.1.1 = {
+			owner = SOM
+			controller = SOM
+
+		}
+		1898.1.1 = {
+		buildings = {
+			infrastructure = 1
+			10833 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+						2000.1.1 = {
+		add_core_of = SML
+		owner = SML
+        }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1905 5068 8094 10777 10833 10921 12759 
+	}
+	manpower=244700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

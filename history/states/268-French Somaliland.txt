@@ -1,0 +1,57 @@
+
+state={
+	id=268
+	name="STATE_268"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = DJI
+		add_core_of = SOM
+                owner = FRA
+                }
+		1899.1.1 = {
+		victory_points = {
+			8124 1 
+		}
+                }
+		1898.1.1 = {
+		buildings = {
+			infrastructure = 1
+			8124 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			8124 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		1978.1.1 = {
+			owner = DJI
+			controller = DJI
+            remove_core_of = YUG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		8124 
+	}
+	manpower=55232
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

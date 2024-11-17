@@ -1,0 +1,87 @@
+characters={
+	BRG_charlestheodore={
+		name=BRG_CHARACTER_CHARLESTHEODORE
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_charlestheodore_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = BRG_CHARLESTHEODORE_DESC
+			expire="1797.1.1"
+		}
+}
+	BRG_maximilianijoseph={
+		name=BRG_CHARACTER_MAXIMILIANIJOSEPH
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_maximilianijoseph_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = BRG_MAXIMILIANIJOSEPH_DESC
+			expire="1797.1.1"
+		}
+}
+	BRG_ludwigi={
+		name=BRG_CHARACTER_LUDWIGI
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_ludwigi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = BRG_LUDWIGI_DESC
+			expire="1797.1.1"
+		}
+}
+	BRG_joachimmurat={
+		name=BRG_CHARACTER_JOACHIMMURAT
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_joachimmurat_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Murat}
+			desc = BRG_JOACHIMMURAT_DESC
+			expire="1797.1.1"
+		}
+}
+	BRG_napoleon={
+		name=BRG_CHARACTER_NAPOLEON
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_napoleon_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = BRG_NAPOLEON_DESC
+			expire="1797.1.1"
+		}
+}
+	BRG_louisii={
+		name=BRG_CHARACTER_LOUISII
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_louisii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = BRG_LOUISII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

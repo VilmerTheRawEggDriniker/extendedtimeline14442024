@@ -1,0 +1,88 @@
+state=
+{
+	id=319
+	name="STATE_319"
+	manpower = 1256000
+	
+	state_category = town
+	
+	resources={
+		chromium=1 # was: 1
+	}
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1800.1.1 = {
+                owner = FRA
+                }
+		1810.1.1 = {
+                owner = MEX
+                }
+				1789.1.1 = {
+        add_core_of = DOM
+        owner = MEX
+        }
+		1836.1.1 = {
+        add_core_of = DOM
+        owner = HAI
+        }
+		1845.1.1 = {
+        add_core_of = DOM
+        owner = DOM
+        }
+		1600.1.1 = {
+		victory_points = {
+			7660 5 
+		}
+		victory_points = {
+			4598 1 
+		}
+                }
+		1600.1.1 = {
+		buildings = {
+			infrastructure = 1
+			7660 = {
+				naval_base = 2
+			}
+
+		}
+                }
+		1844.1.1 = {
+                owner = DOM
+                add_core_of = DOM
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			7660 = {
+				naval_base = 2
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			7660 = {
+				naval_base = 2
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		4598 7632 7660 10484
+	}
+
+	local_supplies=0.0 
+}

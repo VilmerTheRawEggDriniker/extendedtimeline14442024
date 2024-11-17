@@ -1,0 +1,64 @@
+
+state={
+	id=185
+	name="STATE_185"
+	resources={
+		chromium=14.000
+		steel=14.000
+	}
+
+	history={
+		victory_points = {
+			3914 3 
+		}
+		owner = OTO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9805 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BYZ
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = BYZ
+		}
+						1789.1.1 = {
+                owner = ALB
+                }
+				1823.1.1 = {
+                owner = OTO
+                }
+		1914.1.1 = {
+			owner = GRE
+			controller = GRE
+			add_core_of = GRE
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				air_base = 3
+				9805 = {
+					naval_base = 1
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		841 966 3844 3914 3980 9805 9916 13800 13802 13803 13804 13805 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

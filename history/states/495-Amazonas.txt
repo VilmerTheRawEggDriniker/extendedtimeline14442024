@@ -1,0 +1,48 @@
+
+state={
+	id=495
+	name="STATE_495"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = ZZZ
+		1778.1.1 = {
+                owner = POR
+                }
+						1789.1.1 = {
+        add_core_of = BRA
+        owner = BRA
+        }
+		1779.1.1 = {
+		buildings = {
+			infrastructure = 0
+			12853 = {
+				naval_base = 2
+
+			}
+		}
+                }
+		1780.1.1 = {
+		victory_points = {
+			12853 1 
+		}
+                }
+            	1822.1.1 = {
+		add_core_of = BRA
+                owner = BRA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1979 2035 2198 2214 4980 5008 5083 5214 5216 5232 8172 8185 8254 10874 10934 10956 10960 12853 12919 12965 12999 13083 
+	}
+	manpower=979900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

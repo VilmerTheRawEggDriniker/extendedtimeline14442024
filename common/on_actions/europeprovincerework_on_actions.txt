@@ -1,0 +1,35 @@
+on_actions = {
+	on_startup = {
+		effect = {
+				ITA = {
+					add_timed_idea = {
+						idea = ita_hidden_ai_idea
+						days = 1622
+					}
+				}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = {
+						flag = year_without_a_summer
+						date < 1817.1.1
+					}
+				}
+				random_state = {
+					limit = {
+						is_on_continent = europe
+						industrial_complex > 0
+					}
+					damage_building = {
+						type = industrial_complex
+						damage = 1
+					}
+				}
+			}
+		}
+	}
+}

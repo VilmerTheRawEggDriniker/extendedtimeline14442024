@@ -1,0 +1,16 @@
+characters={
+	KON_karl={
+		name=KON_CHARACTER_KARL
+		portraits={
+			civilian={
+				large="GFX_portrait_kon_karl_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = KON_KARL_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

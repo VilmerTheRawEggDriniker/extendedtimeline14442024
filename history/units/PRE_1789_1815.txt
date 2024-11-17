@@ -1,0 +1,245 @@
+﻿division_template = {
+	name = "Prussian Division"
+
+	division_names_group = PRE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6521
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6521
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6521
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6521
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6521
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6521
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3499
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3499
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3499
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3499
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3499
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3499
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3522
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3522
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3522
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3522
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3522
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 3522
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6582
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6582
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6582
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6582
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6582
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Prussian Army
+	division = {
+		name = "Prussian Division"
+		location = 6582
+		division_template = "Prussian Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "PRE"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

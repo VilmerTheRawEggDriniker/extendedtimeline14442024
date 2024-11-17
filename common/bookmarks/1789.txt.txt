@@ -1,0 +1,120 @@
+bookmarks = {
+	bookmark = {
+		name = "The French Revolution"
+		desc = "1789_DESC"
+		date = 1789.1.1.12
+		picture = "GFX_french_revolution_1789"
+		default_country = "FRA"
+	
+		FRA = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        feudalism
+                        aristocracy
+                        imperialunits
+			}
+			focuses = {
+                        france_1793_1799_focus_1
+                        france_1789_1815_first_50_focus_32
+                        france_1793_1799_focus_82
+			}
+		}
+		ENG = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		SPR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        spainjew
+			}
+			focuses = {
+
+			}
+		}
+		POR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		AUS = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        aus_extinction_of_the_house_of_habsburg
+    		        aus_vulnerable_position
+			}
+			focuses = {
+                        austria_1789_1815_first_100_focus_21
+                        austria_1789_1815_first_100_focus_24
+                        austria_1789_1815_first_100_focus_85
+			}
+		}
+		PRE = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		RUS = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        russian_jewry 
+                        alleged_backwardness
+			}
+			focuses = {
+                        russianempire_1789_1815_first_50_focus_49
+                        russianempire_1789_1815_first_50_focus_2
+                        russianempire_1789_1815_first_50_focus_25
+			}
+		}
+		SWE = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        treaty_of_abo
+                        swedish_stagnancy
+                        opportunistic_war
+			}
+			focuses = {
+                        sweden_1789_1815_first_100_focus_2
+                        sweden_1789_1815_first_100_focus_12
+                        sweden_1789_1815_first_100_focus_49
+			}
+		}
+		USA = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        americanpatriotism
+                        extremepoverty
+                        spiritoftheamericanrevolution
+			}
+			focuses = {
+                        america_1789_1815_first_100_focus_41
+                        america_1789_1815_first_100_focus_80
+                        america_1789_1815_first_100_focus_92
+			}
+		}
+		# minors from DLC ####
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

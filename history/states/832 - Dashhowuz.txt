@@ -1,0 +1,52 @@
+
+state={
+	id=832
+	name="STATE_832"
+
+	history={
+		owner = TIM
+		victory_points = {
+			10485 1 
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = KHI
+		1936.1.1 = {
+                add_core_of = TMS
+                remove_core_of = KHI
+                }
+
+		1600.1.1 = {
+			owner = KHI
+			controller = KHI
+			add_core_of = KHI
+			remove_core_of = RUS
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = TMS
+			controller = TMS
+			add_core_of = TMS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		10485 
+	}
+	manpower=44523
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
+}

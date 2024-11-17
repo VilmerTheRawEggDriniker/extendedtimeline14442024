@@ -1,0 +1,324 @@
+RUS_frenchrevolution = {
+	HRE_hungary_russia_protectorate_war_peace = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+		HUN={is_subject_of=RUS}
+		or={
+		has_country_leader = { character = RUS_pauli }
+		has_country_leader = { character = RUS_alexanderi }
+		has_country_leader = { character = RUS_konstantinpavlovich }
+		has_country_leader = { character = RUS_nicholasi }
+		}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			NOT = { has_global_flag = hungary_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		set_autonomy = {
+        target = HUN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	    }
+		HUN={
+		promote_character=HUN_mikhail
+		set_cosmetic_tag = HUN_RUS
+        set_party_name = { ideology = neutrality long_name = HUN_ROS_neutrality_party_long name = HUN_ROS_neutrality_party }
+		}
+		hidden_effect={set_global_flag = hungary_russia_protectorate_peace_flag}
+		}
+	}
+}
+RUS_frenchrevolution = {
+	OLD_germany_empire_russia_protectorate_war_peace = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+		OLD={is_subject_of=RUS}
+		SHL={is_subject_of=RUS}
+		HLS={is_subject_of=RUS}
+		SXL={is_subject_of=RUS}
+		or={
+		has_country_leader = { character = RUS_pauli }
+		has_country_leader = { character = RUS_alexanderi }
+		has_country_leader = { character = RUS_konstantinpavlovich }
+		has_country_leader = { character = RUS_nicholasi }
+		}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			NOT = { has_global_flag = oldenburg_germany_empire_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		OLD={
+		set_cosmetic_tag = OLD_germany
+		}
+		OLD={
+		annex_country = { target = SHL transfer_troops = yes }
+		annex_country = { target = HLS transfer_troops = yes }
+		annex_country = { target = SXL transfer_troops = yes }
+		}
+		every_state={
+		limit={
+		or={
+		is_core_of=SXL
+		is_core_of=HLS
+		is_core_of=SHL
+		}
+		}
+		add_core_of=OLD
+		}
+		every_state={
+		limit={
+		or={
+		is_owned_by=SWE
+		is_owned_by=DEN
+		is_owned_by=HLS
+		is_owned_by=SHL
+		is_owned_by=SXL
+		is_owned_by=OLD
+		}
+		or={
+state=1235
+state=1240
+state=62
+		}
+		}
+		transfer_state_to=OLD
+		add_core_of=OLD
+		}
+		hidden_effect={set_global_flag = oldenburg_germany_empire_russia_protectorate_peace_flag}
+		}
+	}
+}
+
+
+
+pauli_reform_RUS_frenchrevolution = {
+	pauli_reform_RUS_frenchrevolution_bratslav = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_leader = { character = RUS_pauli }
+			country_exists=POD
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_flag=rus_pauli_reform_flag
+			NOT = { has_global_flag = bratslav_oldenburg_germany_empire_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		RUS={country_event = russianempire_1789_1812.28}
+		hidden_effect={set_global_flag = bratslav_oldenburg_germany_empire_russia_protectorate_peace_flag}
+		}
+	}
+}
+pauli_reform_RUS_frenchrevolution = {
+	pauli_reform_RUS_frenchrevolution_kiev = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_leader = { character = RUS_pauli }
+			country_exists=KIE
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_flag=rus_pauli_reform_flag
+			NOT = { has_global_flag = kiev_oldenburg_germany_empire_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		RUS={country_event = russianempire_1789_1812.29}
+		hidden_effect={set_global_flag = kiev_oldenburg_germany_empire_russia_protectorate_peace_flag}
+		}
+	}
+}
+pauli_reform_RUS_frenchrevolution = {
+	pauli_reform_RUS_frenchrevolution_caucasian = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_leader = { character = RUS_pauli }
+			country_exists=DON
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_flag=rus_pauli_reform_flag
+			NOT = { has_global_flag = don_oldenburg_germany_empire_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		RUS={country_event = russianempire_1789_1812.30}
+		hidden_effect={set_global_flag = don_oldenburg_germany_empire_russia_protectorate_peace_flag}
+		}
+	}
+}
+
+pauli_reform_RUS_frenchrevolution = {
+	pauli_reform_RUS_frenchrevolution_ufa = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_leader = { character = RUS_pauli }
+			country_exists=BSK
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_flag=rus_pauli_reform_flag
+			NOT = { has_global_flag = ufa_oldenburg_germany_empire_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		RUS={country_event = russianempire_1789_1812.31}
+		hidden_effect={set_global_flag = ufa_oldenburg_germany_empire_russia_protectorate_peace_flag}
+		}
+	}
+}
+pauli_reform_RUS_frenchrevolution = {
+	pauli_reform_RUS_frenchrevolution_iran = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_leader = { character = RUS_pauli }
+			has_war_with=PER
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_flag=rus_pauli_reform_flag
+			NOT = { has_global_flag = per_oldenburg_germany_empire_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		RUS={country_event = russianempire_1789_1812.32}
+		hidden_effect={set_global_flag = per_oldenburg_germany_empire_russia_protectorate_peace_flag}
+		}
+	}
+}
+pauli_reform_RUS_frenchrevolution = {
+	pauli_reform_RUS_frenchrevolution_critic = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_leader = { character = RUS_pauli }
+			has_war_with=PER
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			has_country_flag=rus_pauli_reform_flag
+			NOT = { has_global_flag = critic_oldenburg_germany_empire_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		RUS={country_event = russianempire_1789_1812.33}
+		hidden_effect={set_global_flag = critic_oldenburg_germany_empire_russia_protectorate_peace_flag}
+		}
+	}
+}

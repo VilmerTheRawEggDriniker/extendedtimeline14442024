@@ -1,0 +1,43 @@
+
+state={
+	id=298
+	name="STATE_298"
+	resources={
+		rubber=6.000
+	}
+
+	history={
+		owner = ZZZ
+		1822.1.1 = {
+			owner = LIB
+			controller = LIB
+                add_core_of = LIB
+		}
+		1821.1.1 = {
+		victory_points = {
+			7959 3 
+		}
+		}
+		1820.1.1 = {
+		buildings = {
+			infrastructure = 0
+			7959 = {
+				naval_base = 2
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		7959 
+	}
+	manpower=395000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

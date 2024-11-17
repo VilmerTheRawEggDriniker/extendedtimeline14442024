@@ -1,0 +1,34 @@
+
+state={
+	id=1122
+	name="STATE_1122"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		victory_points = {
+			3854 1 
+		}
+                }
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = UGA
+                }
+														1961.1.1 = {
+                owner = UGA
+		add_core_of = UGA
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		3854 7088 13177 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

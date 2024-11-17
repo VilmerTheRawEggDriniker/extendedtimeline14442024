@@ -1,0 +1,39 @@
+
+state={
+	id=771
+	name="STATE_771"
+	resources={
+		chromium=35.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = ZAM
+                owner = ENG
+                }
+		1900.1.1 = {
+		victory_points = {
+			5199 1 
+		}
+                }
+						1961.1.1 = {
+        owner = ZAM
+		add_core_of = ZAM
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1846 5199 5221 10594 10930 12504 13173 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

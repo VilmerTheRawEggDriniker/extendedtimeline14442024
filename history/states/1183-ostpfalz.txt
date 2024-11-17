@@ -1,0 +1,55 @@
+
+state={
+	id=1183
+	name="STATE_1183"
+
+	history={
+		owner = PFZ
+		add_core_of = PFZ
+		1700.1.1 = {
+			owner = BAY
+			add_core_of = BAY
+			remove_core_of = PFZ
+
+		}
+		1950.1.1 = {
+			owner = WGR
+			add_core_of = WGR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+		owner = BAY
+		}
+		1920.1.1 = {
+		owner = GER
+		remove_core_of = BAY
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		561 571 586 3571 11497 14665 14673 14678 14682 14693 
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

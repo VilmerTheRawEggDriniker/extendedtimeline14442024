@@ -1,0 +1,68 @@
+
+state={
+	id=565
+	name="STATE_565"
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = KAL
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+				1919.1.1 = {
+		owner = DAG
+		add_core_of=DAG
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+						1789.1.1 = {
+			owner = DON
+		add_core_of = DON
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = DON
+		remove_core_of = POL
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		6718 6733 11661 11690 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

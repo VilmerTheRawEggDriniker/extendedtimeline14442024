@@ -1,0 +1,79 @@
+
+state={
+	id=1096
+	name="STATE_1096"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+                owner = SPR
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 0
+			7480 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = FLO
+        }
+		1803.1.1 = {
+        owner = MSP
+		add_core_of = MSP
+		remove_core_of = FLO
+        }
+		1836.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = MSP
+        }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7480 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+					1836.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			7480 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1820.1.1 = {
+		victory_points = {
+			492 1 
+		}
+                }
+		1702.1.1 = {
+		victory_points = {
+			7480 1 
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		492 860 4756 7480 10520 11942 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

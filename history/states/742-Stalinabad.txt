@@ -1,0 +1,51 @@
+
+state={
+	id=742
+	name="STATE_742"
+
+	history={
+		owner = TIM
+		victory_points = {
+			1384 1 
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = BUK
+		1936.1.1 = {
+                add_core_of = TAJ
+                remove_core_of = BUK
+                }
+		1600.1.1 = {
+			owner = BUK
+			controller = BUK
+			add_core_of = BUK
+			remove_core_of = RUS
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = TAJ
+			controller = TAJ
+			add_core_of = TAJ
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		1384 7224 12218 12250 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

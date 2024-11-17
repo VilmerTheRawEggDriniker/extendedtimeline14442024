@@ -1,0 +1,37 @@
+state={
+	id=709
+	name="STATE_709"
+	manpower = 126703
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = MAD
+                owner = ENG
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			2188 = {
+				naval_base = 1
+			}
+		}
+                }
+										1961.1.1 = {
+        owner = MAD
+		add_core_of = MAD
+        }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	provinces={
+		2188 
+	}
+
+	local_supplies=0.0 
+}

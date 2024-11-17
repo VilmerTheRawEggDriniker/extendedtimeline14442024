@@ -1,0 +1,75 @@
+
+state={
+	id=189
+	name="STATE_189"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = SMG
+                add_core_of = SMG
+		1600.1.1 = {
+			owner = POL
+                add_core_of = LIT
+				add_core_of = POL
+	    remove_core_of = SMG
+		}
+		1800.1.1 = {
+			owner = RUS
+                add_core_of = RUS
+                remove_core_of = POL
+				remove_core_of = LIT
+		}
+		1900.1.1 = {
+                add_core_of = LIT
+		}
+		victory_points = {
+			9483 3 
+		}
+		victory_points = {
+			6314 1 
+		}
+		victory_points = {
+			6229 1 
+		}
+		buildings = {
+			infrastructure = 3
+			6314 = {
+				naval_base = 1
+
+			}
+
+		}
+		1919.1.1 = {
+			owner = LIT
+			controller = LIT
+			add_core_of = LIT
+			remove_core_of = RUS
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = LIT
+			controller = LIT
+			add_core_of = LIT
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		3337 3354 6229 6314 6360 6376 9483 9499 9731 14306 14387 14390 14393 14395 14398 14402 14404 14407 14410 14411 
+	}
+	manpower=697100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

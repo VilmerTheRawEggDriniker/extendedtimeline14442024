@@ -1,0 +1,42 @@
+state=
+{
+	id=631
+	name="STATE_631"
+	manpower=2159	
+	state_category = tiny_island
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = USA
+		add_core_of = HAW
+                }
+		1900.1.1 = {
+		victory_points = {
+			13052 1
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			13052 = {
+				naval_base = 1
+			}
+		}
+                }
+		1960.1.1 = {
+                owner = USA
+                add_core_of = USA
+				remove_core_of = HAW
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	provinces={
+		13052 	
+	}
+
+	local_supplies=0.0 
+}

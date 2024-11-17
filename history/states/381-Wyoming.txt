@@ -1,0 +1,45 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+		victory_points = {
+			4723 2 
+		}
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = LOU
+        }
+		1803.1.1 = {
+        owner = MRI
+        add_core_of = MRI
+		remove_core_of = LOU
+        }
+				1813.1.1 = {
+        owner = UNO
+        add_core_of = UNO
+		remove_core_of = MRI
+        }
+				1837.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = UNO
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		1815 4610 4723 4794 4820 7814 10640 10711 12651 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

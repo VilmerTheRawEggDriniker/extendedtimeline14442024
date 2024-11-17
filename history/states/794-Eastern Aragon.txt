@@ -1,0 +1,50 @@
+
+state={
+	id=794
+	name="STATE_794"
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+				1500.1.1 = {
+                owner = SPR
+                add_core_of = SPR
+                remove_core_of = NAV
+                remove_core_of = ADU
+				remove_core_of = ARA
+		}
+		victory_points = {
+			3954 1 
+		}
+				        1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+					FRA = {
+				set_province_controller = 790
+				set_province_controller = 11793
+				set_province_controller = 13225
+				set_province_controller = 11819
+				set_province_controller = 11821
+				set_province_controller = 14488
+				set_province_controller = 14495
+				set_province_controller = 899
+				set_province_controller = 915
+				set_province_controller = 9842
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		790 798 871 899 915 3909 3954 6878 9842 11793 11819 11821 13222 13223 13225 14087 14088 14090 14483 14488 14495 
+	}
+	manpower=521477
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,39 @@
+state={
+	id=1038
+	name="STATE_1038"
+	history={
+		1899.1.1 = {
+		victory_points = {
+			1891 2 
+		}
+		victory_points = {
+			4972 1 
+		}
+                }
+               owner = ZZZ
+		1900.1.1 = {
+		owner = SOK
+		add_core_of = SOK
+                }
+		1903.1.1 = {
+			owner = ENG
+			controller = ENG
+            add_core_of = NGA
+		}
+												1961.1.1 = {
+                owner = NGA
+		add_core_of = NGA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1891 1969 4938 4972  
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

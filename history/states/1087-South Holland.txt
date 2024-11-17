@@ -1,0 +1,59 @@
+
+state={
+	id=1087
+	name="STATE_1087"
+
+	history={
+		owner = HLL
+		add_core_of = HLL
+		1600.1.1 = {
+			add_core_of = HOL
+			owner = HOL
+			remove_core_of = HLL
+			remove_core_of = FLA
+			remove_core_of = BRB
+			remove_core_of = FRI
+			remove_core_of = GEL
+			remove_core_of = UTR
+
+		}
+		1812.1.1 = {
+			owner = FRA
+
+		}
+		1816.1.1 = {
+			owner = HOL
+
+		}
+		1945.1.1 = {
+		owner = RHO
+		}
+		1946.1.1 = {
+		owner = HOL
+		}
+		victory_points = {
+			3211 25 
+		}
+		victory_points = {
+			9498 20 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 3
+			9498 = {
+				naval_base = 10
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3211 9498 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,69 @@
+state={
+	id=940
+	name="STATE_940"
+
+	history={
+		owner = STY
+        add_core_of = STY
+		add_core_of = CRN
+		1500.1.1 = {
+		owner = AUS
+		add_core_of = AUS
+		remove_core_of = STY
+		remove_core_of = CRN
+		remove_core_of = TYR
+		remove_core_of = CEL
+		remove_core_of = TRT
+		}
+				        1804.1.1 = {
+                owner = AUS
+                add_core_of = AUS
+                remove_core_of = VNT
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+				1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
+		1900.1.1 = {
+			owner = AUH
+                add_core_of = AUH
+                add_core_of = SLV
+                remove_core_of = AUS
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+			remove_core_of = AUH
+
+		}
+		1992.1.1 = {
+			owner = SLV
+			controller = SLV
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		3631 13846
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

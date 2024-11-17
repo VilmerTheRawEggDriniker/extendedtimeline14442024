@@ -1,0 +1,29 @@
+state={
+	id=902
+	name="STATE_902"
+	history={
+		owner = SWE
+		victory_points = {
+			156 3 
+		}
+		victory_points = {
+			11197 1
+		}
+		victory_points = {
+			6093 1
+		}
+		buildings = {
+			infrastructure = 2
+	      }
+		add_core_of = SWE
+
+	}
+
+	provinces={
+		77 114 156 3005 3070 6093 6147 9173 9182 9193 11197 13099 
+	}
+	manpower=280000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

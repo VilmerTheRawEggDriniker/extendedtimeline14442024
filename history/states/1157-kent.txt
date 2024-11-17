@@ -1,0 +1,60 @@
+
+state={
+	id=1157
+	name="STATE_1157"
+
+	history={
+		owner = BYI
+		add_core_of = BYI
+		1600.1.1 = {
+			owner = BAY
+			add_core_of = BAY
+			remove_core_of = BYI
+
+		}
+		1950.1.1 = {
+			owner = WGR
+			add_core_of = WGR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+		owner = BAY
+		}
+		1920.1.1 = {
+		owner = GER
+		remove_core_of = BAY
+		}
+		victory_points = {
+			6540 1 
+		}
+		victory_points = {
+			14648 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		3705 6540 14648 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,81 @@
+
+state={
+	id=21
+	name="STATE_21"
+	resources={
+		aluminium=60.000
+	}
+
+	history={
+		owner = PRV
+		add_core_of = PRV
+		1500.1.1 = {
+		add_core_of = FRA
+		owner = FRA
+		remove_core_of = PRV
+		}
+		victory_points = {
+			911 3 
+		}
+		victory_points = {
+			3928 1 
+		}
+		victory_points = {
+			11834 20 
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 3
+			arms_factory = 1
+			fuel_silo = 1
+			air_base = 10
+			911 = {
+				naval_base = 10
+				coastal_bunker = 1
+
+			}
+			11834 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 3
+			arms_factory = 1
+			911 = {
+				naval_base = 10
+				coastal_bunker = 1
+
+			}
+			11834 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		1939.1.1 = {
+			buildings = {
+				dockyard = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		911 956 3928 11834 11849 11875 14512 14517 14518 14519 
+	}
+	manpower=2931414
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

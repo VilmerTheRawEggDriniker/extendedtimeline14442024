@@ -1,0 +1,64 @@
+
+state={
+	id=302
+	name="STATE_302"
+	resources={
+		tungsten=60.000
+		steel=2.000
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+            }
+					1789.1.1 = {
+        add_core_of = BOL
+        owner = ARG
+        }
+				1812.1.1 = {
+        add_core_of = BOL
+        owner = BOL
+        }
+		1599.1.1 = {
+		victory_points = {
+			5230 5 
+		}
+            }
+		1826.1.1 = {
+			owner = BOL
+			controller = BOL
+            add_core_of = BOL
+            remove_core_of = SPR
+		}
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+            }
+		1957.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 2
+
+		}
+            }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2174 5179 5229 5230 8157 8225 10938 10952 10987 12930 13134 13174 13195 
+	}
+	manpower=2044500
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

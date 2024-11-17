@@ -1,0 +1,55 @@
+
+state={
+	id=461
+	name="STATE_461"
+	resources={
+		chromium=12.000
+	}
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		victory_points = {
+			7069 20 
+		}
+		victory_points = {
+			4108 1 
+		}
+		victory_points = {
+			11987 1 
+		}
+		victory_points = {
+			10070 5 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+			7069 = {
+				naval_base = 4
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			7069 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		989 1079 1102 1111 1152 1194 1207 4084 4097 4108 4139 4154 5046 7069 7100 7116 7173 7203 8046 10013 10023 10070 10107 11943 11987 12042 13963 13964 13965 13966 13967 13968 13969 13970 13971 13972 13973 13974 13975 13976 13977 13978 13979 13980 13981 13982 13983 13984 13985 13986 13987 
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

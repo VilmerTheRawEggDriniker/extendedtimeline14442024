@@ -1,0 +1,16 @@
+characters={
+	REG_karl={
+		name=REG_CHARACTER_KARL
+		portraits={
+			civilian={
+				large="GFX_portrait_reg_karl_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = REG_KARL_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

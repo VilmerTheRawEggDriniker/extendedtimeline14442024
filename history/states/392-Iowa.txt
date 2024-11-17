@@ -1,0 +1,65 @@
+
+state={
+	id=392
+	name="STATE_392"
+	manpower = 2470938
+	
+	state_category = city
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			1770 3 
+		}
+                }
+		1700.1.1 = {
+                owner = FRA
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = LOU
+        }
+		1803.1.1 = {
+        owner = MRI
+        add_core_of = MRI
+		remove_core_of = LOU
+        }
+				1813.1.1 = {
+        owner = UNO
+        add_core_of = UNO
+		remove_core_of = MRI
+        }
+				1835.1.1 = {
+        owner = MCH
+        add_core_of = MCH
+		remove_core_of = UNO
+        }
+				1837.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = MCH
+        }
+		1803.1.1 = {
+		buildings = {
+			infrastructure = 1 #was: 6
+			industrial_complex = 2
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 4
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1586 1678 1770 1831 4691 7306 7458 7539 9892 9910 10478 10666 11788 11971 12418 12646 
+	}
+
+	local_supplies=6.0 
+}

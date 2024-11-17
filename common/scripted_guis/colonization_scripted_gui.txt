@@ -1,0 +1,110 @@
+scripted_gui = {
+	player = {
+	
+		context_type = selected_state_context
+		
+		window_name = "player_container"
+		
+		visible = {
+			NOT={FRA={has_country_flag=colonization_disabled_napoleonic}}
+			ROOT  ={
+				NOT ={
+					tag = ZZZ
+				}
+			}
+			AND = {
+				is_fully_controlled_by = ZZZ
+			FROM = {
+				OR={
+					any_country = {
+						AND = {
+							is_subject_of = ROOT
+							any_owned_state = {
+								any_neighbor_state = {
+									state = PREV.PREV.PREV
+
+								}
+							}
+						}
+					}
+					any_neighbor_state = { is_owned_by = ROOT }
+					AND={
+						is_coastal = yes
+						ROOT = {
+							any_owned_state = {is_coastal = yes}
+						}
+					}
+				}
+			}
+			}
+			
+		}
+		
+		effects = {
+			colonize11_click = {
+				FROM = {
+					add_to_array = {
+						array = ROOT.colonization_states
+						value = THIS.id
+					}
+				}
+				FROM= {
+					set_state_flag = colonization_enabled_flag
+				}
+				ROOT = {
+					add_political_power = -80
+					add_manpower = -500
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -250
+					}
+				}
+			}
+			recall_click = {
+				ROOT = {
+					add_political_power = 65
+					add_manpower = 400
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 200
+					}
+				}
+				FROM = {
+					clr_state_flag = colonization_enabled_flag
+				}
+				FROM = {
+					remove_from_array = {
+						array = ROOT.colonization_states
+						value = THIS.id
+					}
+				}	
+			}
+		}
+		triggers = {
+			colonize11_visible = {
+				FROM = {
+					NOT = {
+						has_state_flag = colonization_enabled_flag
+					}
+				}
+			}
+			colonize11_click_enabled = {
+				check_variable = { ROOT.political_power > 80 }
+				check_variable = { ROOT.num_equipment@infantry_equipment > 80 }
+			}
+			recall_visible = {
+				FROM  = {
+					has_state_flag = colonization_enabled_flag
+				}
+			}
+		}
+		properties = {
+           colonization_progress_bar = {
+               frame = colonization_number
+           }
+       }
+
+	}
+}
+		
+

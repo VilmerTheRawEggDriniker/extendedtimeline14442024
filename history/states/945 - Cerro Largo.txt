@@ -1,0 +1,47 @@
+
+state={
+	id=945
+	name="STATE_945"
+	history={
+		owner = ZZZ
+		1880.1.1 = {
+			add_core_of = BNI
+			owner = MAL
+
+		}
+				2000.1.1 = {
+		add_core_of = BNI
+		owner = BNI
+        }
+		1879.1.1 = {
+			victory_points = {
+				7371 1 
+			}
+
+		}
+		1878.1.1 = {
+			buildings = {
+				infrastructure = 2
+				7371 = {
+					naval_base = 2
+
+				}
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		7371 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

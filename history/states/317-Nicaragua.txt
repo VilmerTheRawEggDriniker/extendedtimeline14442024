@@ -1,0 +1,78 @@
+
+state={
+	id=317
+	name="STATE_317"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1600.1.1 = {
+		victory_points = {
+			12738 3 
+		}
+                }
+								1789.1.1 = {
+        owner = MEX
+		add_core_of = NIC
+		add_core_of = CAF
+        }
+		1600.1.1 = {
+		buildings = {
+			infrastructure = 1
+			12738 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1823.1.1 = {
+                owner = CAF
+                add_core_of = CAF
+                }
+		1848.1.1 = {
+                owner = NIC
+                add_core_of = NIC
+                remove_core_of = CAF
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12738 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			12738 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1988 2031 2075 8017 10728 12738 13093 13139 13178 
+	}
+	manpower=683000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,84 @@
+state={
+	id=956
+	name="STATE_956"
+
+	history={
+		owner = CRO
+		add_core_of = CRO
+		1600.1.1 = {
+		owner = HUN
+                add_core_of = HUN
+                remove_core_of = CRO
+                }
+		1700.1.1 = {
+			owner = HUN
+                remove_core_of = TRA
+		}
+		1789.1.1 = {
+		add_core_of = CRO
+        remove_core_of = HUN
+		}
+        1804.1.1 = {
+                owner = AUS
+                add_core_of = AUS
+                remove_core_of = VNT
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+						1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = CRO
+                        add_core_of = AUH
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11564 3 
+		}
+		1919.1.1 = {
+			owner = ITA
+			controller = ITA
+            add_core_of = ITA
+            remove_core_of = AUH
+            remove_core_of = CRO
+            remove_core_of = SLV
+		}
+		1950.1.1 = {
+			owner = YUG
+			controller = YUG
+                 add_core_of = CRO
+                 add_core_of = YUG
+            remove_core_of = ITA
+		remove_core_of = LBV
+		}
+		1992.1.1 = {
+			owner = CRO
+			controller = CRO
+            remove_core_of = YUG
+		}
+
+	}
+
+	provinces={
+		11564 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

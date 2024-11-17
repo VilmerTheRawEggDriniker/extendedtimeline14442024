@@ -1,0 +1,137 @@
+﻿division_template = {
+	name = "Danish Division"
+
+	division_names_group = DEN_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 3325
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 3325
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 3325
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Danish Army
+	division = {
+		name = "Danish Division"
+		location = 6287
+		division_template = "Danish Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "DEN"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	FKF_karl={
+		name=FKF_CHARACTER_KARL
+		portraits={
+			civilian={
+				large="GFX_portrait_fkf_karl_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = FKF_KARL_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,44 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+            }
+		1789.1.1 = {
+        add_core_of = ARG
+        owner = ARG
+        }
+		1810.1.1 = {
+            remove_core_of = SPR
+                owner = ARG
+		add_core_of = ARG
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 1
+			arms_factory = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1449 8187 8238 10515 10943 11007 12453 12964 
+	}
+	manpower=3497169
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,49 @@
+
+state={
+	id=971
+	name="STATE_971"
+
+	history={
+		owner = EPI
+		add_core_of = EPI
+				1600.1.1 = {
+		owner = OTO
+		}
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = EPI
+		}
+						1789.1.1 = {
+                owner = ALB
+                }
+				1823.1.1 = {
+                owner = OTO
+                }
+		1836.1.1 = {
+		owner = GRE
+		}
+		victory_points = {
+			7127 3 
+		}
+		victory_points = {
+			3988 1 
+		}
+		victory_points = {
+			1205 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		976 1109 1205 3988 7127 12001 13682 13684 13686 13687 13688 13796 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

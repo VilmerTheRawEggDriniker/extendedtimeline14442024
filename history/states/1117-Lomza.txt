@@ -1,0 +1,51 @@
+
+state={
+	id=1117
+	name="STATE_1117"
+
+	history={
+		owner = MSV
+		add_core_of = MSV
+			    1500.1.1 = {
+			owner = POL
+		add_core_of=POL
+		remove_core_of=MSV
+		remove_core_of=PCK
+		}
+		1800.1.1 = {
+			owner = PRE
+		}
+												1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = POL
+		}
+		1810.1.1 = {
+			owner = POL
+		}
+		victory_points = {
+			11274 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1919.1.1 = {
+			owner = POL
+			controller = POL
+			add_core_of = POL
+			remove_core_of = RUS
+
+		}
+
+	}
+
+	provinces={
+		11274 11329 14345 14346 14350 14357 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

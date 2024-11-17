@@ -1,0 +1,90 @@
+
+state={
+	id=812
+	name="STATE_812"
+
+	history={
+		owner = LIV
+		add_core_of = LIV
+		1900.1.1 = {
+			add_core_of = EST
+
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = LIV
+
+		}
+		1600.1.1 = {
+			owner = SWE
+
+		}
+		1789.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		victory_points = {
+			3152 10 
+		}
+				victory_points = {
+			4640 1 
+		}
+		victory_points = {
+			11127 1 
+		}
+		buildings = {
+			infrastructure = 3
+			3152 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+			4640 = {
+				naval_base = 1
+
+			}
+
+		}
+				1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				arms_factory = 1
+
+
+			}
+
+		}
+		1919.1.1 = {
+			owner = EST
+			controller = EST
+			add_core_of = EST
+			remove_core_of = RUS
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = EST
+			controller = EST
+			add_core_of = EST
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		83 496 567 3074 3152 4640 9079 11057 11127 11426 11443 14458 14462 14463 14464 14466 14467 14468 14470 14471 14472 
+	}
+	manpower=375220
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

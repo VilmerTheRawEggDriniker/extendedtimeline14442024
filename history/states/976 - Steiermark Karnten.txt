@@ -1,0 +1,55 @@
+
+state={
+	id=976
+	name="STATE_976"
+
+	history={
+		owner = UTR
+		add_core_of = UTR
+		1600.1.1 = {
+			add_core_of = HOL
+			owner = HOL
+			remove_core_of = HLL
+			remove_core_of = FLA
+			remove_core_of = BRB
+			remove_core_of = FRI
+			remove_core_of = GEL
+			remove_core_of = UTR
+
+		}
+		1812.1.1 = {
+			owner = FRA
+
+		}
+		1816.1.1 = {
+			owner = HOL
+
+		}
+				1945.1.1 = {
+		owner = RHO
+		}
+		1946.1.1 = {
+		owner = HOL
+		}
+		victory_points = {
+			9309 2 
+		}
+		victory_points = {
+			13515 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		8622 9309 9403 13506 13515 13516 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

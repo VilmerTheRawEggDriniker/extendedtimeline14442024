@@ -1,0 +1,28 @@
+state=
+{
+	id=649
+	name="STATE_649"
+	state_category = tiny_island
+	manpower=11532
+	history={
+		owner = ZZZ
+		1836.1.1 = {
+                add_core_of = ECU
+                owner = ECU
+                }
+		1832.1.1 = {
+		buildings = {
+			infrastructure = 1
+			5023 = {
+				naval_base = 1
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces= { 5023 }
+
+	local_supplies=0.0 
+}

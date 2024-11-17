@@ -1,0 +1,67 @@
+
+state={
+	id=821
+	name="STATE_821"
+	resources={
+		oil=9.000
+	}
+
+	history={
+		owner = CIN
+		add_core_of = CIN
+		1836.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+                }
+		buildings = {
+			infrastructure = 1
+
+		}
+		1818.1.1 = {
+		victory_points = {
+			3672 5 
+		}
+		}
+				1919.1.1 = {
+		owner = DAG
+		add_core_of=DAG
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = CIN
+			controller = CIN
+			add_core_of = CIN
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		2001.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		666 683 3667 3672 6702 11632 14074 14075 14076 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

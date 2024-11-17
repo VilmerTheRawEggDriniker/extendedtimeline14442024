@@ -1,0 +1,35 @@
+characters={
+	MEK_christian_louis = {
+
+		name = MEK_christian_louis
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEK_christian_louis
+			}
+		}
+
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+
+	}
+	MEK_frederickfrancisi={
+		name=MEK_CHARACTER_FREDERICKFRANCISI
+		portraits={
+			civilian={
+				large="GFX_portrait_mek_frederickfrancisi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Mecklenburg-Schwerin}
+			desc = MEK_FREDERICKFRANCISI_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

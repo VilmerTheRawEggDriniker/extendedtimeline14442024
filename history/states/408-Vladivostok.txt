@@ -1,0 +1,67 @@
+
+state={
+	id=408
+	name="STATE_408"
+	resources={
+		chromium=20.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			957 20 
+		}
+                }
+		1700.1.1 = {
+		add_core_of = QIN
+                owner = QIN
+                }
+	    1860.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+		remove_core_of=QIN
+        }
+		1936.1.1 = {
+		add_core_of = FER
+                add_core_of = VLA
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			air_base = 5
+			957 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+
+	}
+
+	provinces={
+		664 681 837 957 3695 3723 3739 3753 3787 3811 3977 6684 6686 6715 6774 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11745 11750 11765 11777 11879 11904 
+	}
+	manpower=841465
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

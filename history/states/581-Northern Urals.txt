@@ -1,0 +1,51 @@
+
+state={
+	id=581
+	name="STATE_581"
+	resources={
+		chromium=40.000
+		aluminium=27.000
+	}
+
+	history={
+		owner = ZZZ
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1936.1.1 = {
+		add_core_of = KOM
+                }
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+
+	}
+
+	provinces={
+		7824 10551 10677 12502 
+	}
+	manpower=48831
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

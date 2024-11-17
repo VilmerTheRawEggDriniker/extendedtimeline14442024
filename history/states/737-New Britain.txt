@@ -1,0 +1,62 @@
+state={
+	id=737
+	name="STATE_737"
+
+	history={
+		owner = ZZZ
+		1898.1.1 = {
+					buildings = {
+			7251 = {
+				naval_base = 5
+
+			}
+			4352 = {
+				naval_base = 1
+
+			}
+			7339 = {
+				naval_base = 1
+
+			}
+		}
+		}
+		1899.1.1 = {
+		victory_points = {
+			7251 5 
+		}
+		}
+		1900.1.1 = {
+			owner = GER
+			controller = GER
+            add_core_of = PNG
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 0
+			air_base = 1			
+		}
+		}
+		1919.1.1 = {
+			owner = AST
+			controller = AST
+            remove_core_of = ENG
+		}
+		1975.1.1 = {
+			owner = PNG
+			controller = PNG
+            remove_core_of = ENG
+		}
+		buildings = {
+			infrastructure = 0			
+		}	
+}
+
+	provinces={
+		1286 1301 1329 1361 4304 4332 4352 4421 7251 7324 7339 7352 7412 10166 10206 12222 
+	}
+	manpower=345640
+	buildings_max_level_factor=1
+	state_category="pastoral"
+
+	local_supplies=0.0 
+}

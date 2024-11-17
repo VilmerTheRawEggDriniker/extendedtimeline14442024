@@ -1,0 +1,114 @@
+﻿capital = 46
+1789.1.1 = {
+recruit_character=WAL_nicholas
+promote_character=WAL_nicholas
+recruit_character=WAL_michael
+recruit_character=WAL_alexander
+recruit_character=WAL_ypsilantis
+recruit_character=WAL_constantinehangerli
+recruit_character=WAL_alexandros
+recruit_character=WAL_constantine
+recruit_character=WAL_john
+recruit_character=WAL_grigore
+recruit_character=WAL_tudor
+recruit_character=WAL_scarlat
+recruit_character=WAL_ghica
+recruit_character=WAL_alexandru
+}
+1800.1.1 = {
+promote_character=WAL_alexander
+}
+1812.1.1 = {
+promote_character=WAL_john
+}
+1836.1.1 = {
+promote_character=WAL_alexandru
+}
+1900.1.1 = {
+retire_character=WAL_nicholas
+retire_character=WAL_michael
+retire_character=WAL_alexander
+retire_character=WAL_ypsilantis
+retire_character=WAL_constantinehangerli
+retire_character=WAL_alexandros
+retire_character=WAL_constantine
+retire_character=WAL_john
+retire_character=WAL_grigore
+retire_character=WAL_tudor
+retire_character=WAL_scarlat
+retire_character=WAL_ghica
+retire_character=WAL_alexandru
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "WAL_1789"
+}
+}
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+
+

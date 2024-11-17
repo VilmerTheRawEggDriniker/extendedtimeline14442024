@@ -1,0 +1,48 @@
+state={
+	id=917
+	name="STATE_917"
+	history={
+		owner = NAP
+        add_core_of = NAP
+		1817.1.1 = {
+		remove_core_of = NAP
+		remove_core_of = SIC
+		add_core_of = TTS
+		owner = TTS
+		}
+				1945.1.1 = {
+		controller = ENG
+		}
+		1946.1.1 = {
+		controller = ITA
+		}
+		1871.1.1 = {
+                owner = ITA
+                add_core_of = ITA
+		}
+		1919.1.1 = {
+                remove_core_of = SPM
+                remove_core_of = PAP
+                remove_core_of = TOS
+                remove_core_of = TTS
+                remove_core_of = LBV
+		}
+		victory_points = {
+			13697 3 
+		}
+		victory_points = {
+			9856 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		3958 3968 6972 9856 13692 13697 
+	}
+	manpower=543000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

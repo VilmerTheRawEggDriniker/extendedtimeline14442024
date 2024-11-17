@@ -1,0 +1,17 @@
+characters={
+	WTF_jeromebonaparte={
+		name=WTF_CHARACTER_JEROMEBONAPARTE
+		portraits={
+			civilian={
+				large="GFX_portrait_wtf_jeromebonaparte_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = WTF_JEROMEBONAPARTE_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

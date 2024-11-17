@@ -1,0 +1,36 @@
+state={
+	id=1050
+	name="STATE_1050"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		      owner = ITA
+			controller = ITA
+ 		add_core_of = ERI
+		add_core_of = AFA
+		}
+		1945.1.1 = {
+		      owner = ETH
+			controller = ETH
+
+		}
+		1991.1.1 = {
+		      owner = ERI
+			controller = ERI
+
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		8043
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

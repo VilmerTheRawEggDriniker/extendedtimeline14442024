@@ -1,0 +1,59 @@
+characters={
+	BAD_charlesfrederick={
+		name=BAD_CHARACTER_CHARLESFREDERICK
+		portraits={
+			civilian={
+				large="GFX_portrait_bad_charlesfrederick_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Zahringen}
+			desc = BAD_CHARLESFREDERICK_DESC
+			expire="1797.1.1"
+		}
+}
+	BAD_charles={
+		name=BAD_CHARACTER_CHARLES
+		portraits={
+			civilian={
+				large="GFX_portrait_bad_charles_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Zahringen}
+			desc = BAD_CHARLES_DESC
+			expire="1797.1.1"
+		}
+}
+	BAD_louisi={
+		name=BAD_CHARACTER_LOUISI
+		portraits={
+			civilian={
+				large="GFX_portrait_bad_louisi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Zahringen}
+			desc = BAD_LOUISI_DESC
+			expire="1797.1.1"
+		}
+}
+	BAD_leopold={
+		name=BAD_CHARACTER_LEOPOLD
+		portraits={
+			civilian={
+				large="GFX_portrait_bad_leopold_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Zahringen}
+			desc = BAD_LEOPOLD_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,68 @@
+
+state={
+	id=303
+	name="STATE_303"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = ZZZ
+		1599.1.1 = {
+		victory_points = {
+			12997 5 
+		}
+		}
+		1598.1.1 = {
+		buildings = {
+			infrastructure = 1
+			12997 = {
+				naval_base = 5
+
+			}
+
+		}
+		}
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+		}
+				1789.1.1 = {
+        add_core_of = PRU
+        owner = PRU
+        }
+		1822.1.1 = {
+			owner = PRU
+			controller = PRU
+            add_core_of = PRU
+            remove_core_of = SPR
+		}
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 3
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2156 2162 2225 5162 5190 8199 12953 12969 12983 12997 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

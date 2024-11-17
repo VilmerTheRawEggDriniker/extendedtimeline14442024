@@ -1,0 +1,58 @@
+
+state={
+	id=277
+	name="STATE_277"
+	manpower = 3424403
+	
+	state_category = pastoral
+
+	resources={
+		steel=6 #was 2 before Mexican steel production was centralized to allow oil concessions
+	}
+	
+	history={
+                owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1822.1.1 = {
+                add_core_of = MEX
+                owner = MEX
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1590.1.1 = {
+		victory_points = {
+			1965 25
+		}
+		victory_points = {
+			2008 10
+		}
+                }
+		1823.1.1 = {
+		buildings = {
+			infrastructure = 2 #was: 5
+			industrial_complex = 1
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 3
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1965 2008 2011 7913 12755 
+	}
+	
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,69 @@
+
+state={
+	id=242
+	name="STATE_242"
+
+	history={
+		owner = SMO
+		add_core_of = SMO
+		1600.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = SMO
+		remove_core_of = POL
+		}
+		victory_points = {
+			306 20 
+		}
+		victory_points = {
+			11336 1 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 7
+
+		}
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		223 236 306 335 3210 3247 3278 3279 3297 3313 3362 6243 6273 6387 9253 9272 9318 9351 9382 9399 11254 11290 11336 11353 11384 
+	}
+	manpower=1594322
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

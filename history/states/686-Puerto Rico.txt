@@ -1,0 +1,70 @@
+state={
+	id=686
+	name="STATE_686"
+	manpower = 1543913
+	
+	state_category = rural
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1600.1.1 = {
+		victory_points = {
+			1440 1 
+		}
+                }
+		1900.1.1 = {
+		add_core_of = PUE
+		owner = USA
+                }
+		1600.1.1 = {
+		buildings = {
+			infrastructure = 1
+			1440 = {
+				naval_base = 3
+
+			}
+		}
+                }
+						1789.1.1 = {
+        add_core_of = PUE
+        owner = MEX
+        }
+		1836.1.1 = {
+        add_core_of = PUE
+        owner = SPR
+        }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1440 = {
+				naval_base = 3
+
+			}
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+			1440 = {
+				naval_base = 3
+
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1440 4155 
+	}
+
+	local_supplies=0.0 
+}

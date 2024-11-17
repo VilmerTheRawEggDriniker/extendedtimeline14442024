@@ -1,0 +1,49 @@
+
+state={
+	id=521
+	name="STATE_521"
+	resources={
+		tungsten=24.000
+	}
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = AST
+			controller = AST
+            add_core_of = AST
+		}
+		1899.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			7564 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+		}
+		}
+		1825.1.1 = {
+		victory_points = {
+			7564 20 
+		}
+		}
+		1922.1.1 = {
+		buildings = {
+			infrastructure = 2
+  		        air_base = 1
+			}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+}
+	provinces={
+		1570 2116 2221 4530 4546 5227 7535 7564 7592 10430 10445 10941 11006 12451 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

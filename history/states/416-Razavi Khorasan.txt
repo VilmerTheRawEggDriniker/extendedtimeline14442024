@@ -1,0 +1,40 @@
+
+state={
+	id=416
+	name="STATE_416"
+
+	history={
+		owner = TIM
+		add_core_of = TIM
+				1789.1.1 = {
+add_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+1900.1.1 = {
+remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+		1500.1.1 = {
+		add_core_of = PER
+		remove_core_of = TIM
+		owner = PER
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			5029 1 
+		}		
+            victory_points = {
+			7990 1 
+		}
+	}
+
+	provinces={
+		1521 1888 1957 2000 5029 5073 7573 7990 8009 10351 10759 10806 10873 10890 12739 12852 
+	}
+	manpower=1059739
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=5.000
+}

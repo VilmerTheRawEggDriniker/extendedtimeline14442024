@@ -1,0 +1,41 @@
+
+state={
+	id=549
+	name="STATE_549"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		victory_points = {
+			2096 1 
+		}
+                }
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = SUD
+                }
+		1956.1.1 = {
+			owner = SUD
+			controller = SUD
+			remove_core_of = EGY
+
+		}
+		2013.1.1 = {
+		add_core_of = SSU
+		owner = SSU
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1953 2096 4033 7996 10764 10857 10859 10877 10908 12744 12800 12887 13940 13941 13943 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

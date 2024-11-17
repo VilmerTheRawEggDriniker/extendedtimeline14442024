@@ -1,0 +1,101 @@
+
+state={
+	id=763
+	name="STATE_763"
+
+	history={
+		owner = TEU
+        add_core_of = TEU
+		1950.1.1 = {
+		owner = SOV
+		add_core_of = SOV
+		remove_core_of = GER
+		remove_claim_by=GER
+		}
+		2000.1.1 = {
+		owner = RUS
+		add_core_of = RUS
+		remove_core_of = SOV
+		remove_claim_by=GER
+		}
+		1500.1.1 = {
+		add_core_of = DPU
+		owner = DPU
+		remove_core_of = TEU
+		}
+		1701.1.1 = {
+		add_core_of = PRE
+		owner = PRE
+		remove_core_of = DPU
+		}
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6332 = {
+				bunker = 1
+
+			}
+			anti_air_building = 2
+			6332 = {
+				naval_base = 5
+
+			}
+			air_base = 6
+
+		}
+                }
+		victory_points = {
+			6332 10 
+		}
+		victory_points = {
+			14214 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6332 = {
+				bunker = 1
+
+			}
+			6332 = {
+				naval_base = 5
+
+			}
+
+		}
+		1939.1.1 = {
+			buildings = {
+				anti_air_building = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		281 348 395 3384 6332 11265 14205 14206 14207 14208 14213 14214 14215 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

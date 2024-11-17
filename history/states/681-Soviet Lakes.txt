@@ -1,0 +1,65 @@
+
+state={
+	id=681
+	name="STATE_681"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+                owner = HOL
+                }
+		1700.1.1 = {
+		victory_points = {
+			12589 20 
+		}
+                }
+		1800.1.1 = {
+		add_core_of = SAF
+                owner = SAF
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			12589 = {
+				naval_base = 4
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+			12589 = {
+				naval_base = 4
+
+			}
+
+		}
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 1
+			12589 = {
+				naval_base = 4
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		4822 10415 12547 12589 12692 
+	}
+	manpower=1537178
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

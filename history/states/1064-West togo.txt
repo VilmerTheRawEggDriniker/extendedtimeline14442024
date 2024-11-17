@@ -1,0 +1,35 @@
+state={
+	id=1064
+	name="STATE_1064"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                add_core_of = TOG
+                owner = GER
+                }
+		1919.1.1 = {
+			owner = ENG
+			controller = ENG
+                	add_core_of = GHA
+					remove_core_of = TOG
+
+		}
+				1960.1.1 = {
+                owner = GHA
+		add_core_of = GHA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		13948 13952 
+	}
+	manpower=163600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,41 @@
+state={
+	id=1256
+	name="STATE_1256"
+		history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1700.1.1 = {
+			buildings = {
+				infrastructure = 2
+			}
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+			}
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+			}
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		706 859 3894 7853 9774 10644 11660 13301 13302 13311 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

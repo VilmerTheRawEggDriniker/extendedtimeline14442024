@@ -1,0 +1,30 @@
+state={
+	id=1121
+	name="STATE_1121"
+
+	history={
+		owner = ZZZ
+
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = KEN
+                add_core_of = ORO
+                }
+						1961.1.1 = {
+        owner = KEN
+		add_core_of = KEN
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		2066 5079 6020 13135 14145 14150 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,39 @@
+state=
+{
+	id=638
+	name="STATE_638"
+	state_category = small_island
+	manpower=75153
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = USA
+		add_core_of = GUM
+                }
+		1900.1.1 = {
+		victory_points = {
+			12140 1
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 5
+			12140 = {
+				naval_base = 1
+			}
+		}
+                }
+		1965.1.1 = {
+                owner = USA
+                add_core_of = USA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		12140
+	}
+
+	local_supplies=0.0 
+}

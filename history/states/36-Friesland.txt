@@ -1,0 +1,56 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = FRI
+		add_core_of = FRI
+		1600.1.1 = {
+		add_core_of = HOL
+		owner = HOL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BRB
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1812.1.1 = {
+		owner=FRA
+		}
+		1816.1.1 = {
+		owner = HOL
+		}
+		victory_points = {
+			13519 3 
+		}
+		victory_points = {
+			6336 1 
+		}
+				1945.1.1 = {
+		owner = RHO
+		}
+		1946.1.1 = {
+		owner = HOL
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			6336 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6336 9335 11318 13517 13519 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=14.000
+}

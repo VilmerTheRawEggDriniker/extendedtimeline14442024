@@ -1,0 +1,38 @@
+
+state={
+	id=31
+	name="STATE_31"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			6766 20 
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				arms_factory = 1
+				industrial_complex = 1
+				air_base = 2
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		625 752 755 929 943 3598 3740 3749 3751 3915 3948 6759 6766 6775 6792 6931 6962 9717 9723 9734 9751 9882 9884 11697 11699 11702 11709 11718 11720 11869 12169 13623 13624 13625 13626 13628 13629 14506 14510 14511 14516 14523 14524 14527 14528 14531 14532 14539 14546 14556 14567 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

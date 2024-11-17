@@ -1,0 +1,53 @@
+
+state={
+	id=540
+	name="STATE_540"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+                owner = POR
+                }
+		1698.1.1 = {
+		victory_points = {
+			8248 1 
+		}
+                }
+		1699.1.1 = {
+		buildings = {
+			infrastructure = 1
+			8248 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1900.1.1 = {
+                add_core_of = ANG
+                }
+		1913.1.1 = {
+		victory_points = {
+			10966 1 
+		}
+                }
+		1975.1.1 = {
+                add_core_of = ANG
+                owner = ANG
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2126  5158 8248 10966 12981 13923 14133 14134 14136 14137 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

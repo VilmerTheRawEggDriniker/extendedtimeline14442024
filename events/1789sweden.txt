@@ -1,0 +1,164 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = sweden_1789_1812
+
+# Act 1935
+country_event = {
+	id = sweden_1789_1812.1
+	title = "Declaration of War on Sweden"
+	desc = sweden_1789_1812.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = ALG
+    date > 1791.1.1 date < 1792.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Declare War"
+		ai_chance = { factor = 100 } 
+		ALG={add_political_power=-150}
+		SWE={add_political_power=-150}
+		ALG={
+		declare_war_on = {
+		target = SWE
+		type = puppet_wargoal_focus
+		}
+	    }
+	SWE={set_country_flag=SWE_ALG_WAR_has_happened}
+	}
+	}
+country_event = {
+	id = sweden_1789_1812.2
+	title = "Legal Status of Johan Henrik Hästesko"
+	desc = sweden_1789_1812.2.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = SWE
+    date > 1789.1.7 date < 1789.2.1
+}
+fire_only_once = yes
+	option = { # 
+    name = "Arrest Him"
+	ai_chance = { factor = 100 } 
+	add_stability=0.01
+	}
+	}
+country_event = {
+	id = sweden_1789_1812.9
+	title = "Proclaim Vasa Ancestry"
+	desc = sweden_1789_1812.9.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = SWE
+    date > 1792.3.29 date < 1792.4.1
+}
+fire_only_once = yes
+	option = { # 
+    name = "Proclaim Vasa Ancestry"
+	ai_chance = { factor = 100 } 
+	news_event = sweden_1789_1812_news.9
+	}
+	}
+country_event = {
+	id = sweden_1789_1812.10
+	title = "The House of Holstein-Gottorp"
+	desc = sweden_1789_1812.10.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = SWE
+    date > 1792.3.29 date < 1792.4.1
+}
+fire_only_once = yes
+	option = { # 
+    name = "We should strive to improve our stance with Denmark-Norway and Russia"
+	ai_chance = { factor = 100 } 
+	news_event = sweden_1789_1812_news.10
+	}
+	}
+country_event = {
+	id = sweden_1789_1812.11
+	title = "House of Vasa Fanaticism"
+	desc = sweden_1789_1812.11.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = SWE
+    date > 1792.3.29 date < 1792.4.1
+}
+fire_only_once = yes
+	option = { # 
+    name = "Why not Claim the Legacy of both the House of Oldenburg and Vasa?"
+	ai_chance = { factor = 100 } 
+	news_event = sweden_1789_1812_news.11
+	set_party_name = { ideology = neutrality long_name = SWE_HOV_neutrality_party_long name = SWE_HOV_neutrality_party }
+	}
+	}
+country_event = {
+	id = sweden_1789_1812.12
+	title = "Assassination of Gustav III"
+	desc = sweden_1789_1812.12.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = SWE
+    date > 1792.3.29 date < 1792.4.1
+}
+fire_only_once = yes
+	option = { # 
+    name = "His Son Shall become King"
+	ai_chance = { factor = 100 } 
+	news_event = sweden_1789_1812_news.12
+	set_country_flag=gustav_iii_has_died
+	promote_character=SWE_gustavivadolf
+	retire_character=SWE_gustaviii
+	add_manpower=-1
+	add_trait = {
+     character = SWE_gustavivadolf
+     ideology = despotism
+     trait = underage_monarch
+} 
+    add_war_support=-0.05
+	add_stability=-0.05
+	add_popularity = { ideology = democratic popularity = 0.05}
+	}
+	}
+country_event = {
+	id = sweden_1789_1812.13
+	title = "Fate of the Treaty of Åbo"
+	desc = sweden_1789_1812.13.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+    name = "Revoke it in all but name"
+	ai_chance = { factor = 100 } 
+	SWE={remove_ideas=treaty_of_abo}
+	}
+	option = { # 
+    name = "Fully Revoke it "
+	ai_chance = { factor = 0 } 
+	SWE={remove_ideas=treaty_of_abo}
+	SWE={add_political_power=-50}
+	SWE={set_country_flag=swe_has_revoked_the_treaty_of_abo}
+	}
+	}
+country_event = {
+	id = sweden_1789_1812.14
+	title = "Proclaim the Return of the Kalmar Union"
+	desc = sweden_1789_1812.14.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+    name = "Proclaim the Kalmar Union"
+	ai_chance = { factor = 100 } 
+	news_event = sweden_1789_1812_news.14
+	SWE={set_cosmetic_tag=SCA_kalmar_union}
+	}
+	}

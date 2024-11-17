@@ -1,0 +1,57 @@
+
+state={
+	id=622
+	name="STATE_622"
+	resources={
+		steel=3.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1910.1.1 = {
+			owner = CHI
+			remove_core_of = QIN
+
+		}
+		1933.1.1 = {
+			owner = PRC
+			add_core_of = PRC
+
+		}
+		victory_points = {
+			8049 3 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			8049 = {
+				bunker = 3
+
+			}
+			7208 = {
+				bunker = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1458 7208 7314 7659 8049 10880 12356 
+	}
+	manpower=6006200
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

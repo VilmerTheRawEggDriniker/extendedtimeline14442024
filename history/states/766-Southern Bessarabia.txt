@@ -1,0 +1,81 @@
+
+state={
+	id=766
+	name="STATE_766"
+
+	history={
+		victory_points = {
+			6727 2 
+		}
+		add_core_of = MOL
+		owner = MOL
+		1600.1.1 = {
+			owner = OTO
+
+		}
+		1812.1.1 = {
+			owner = MOL
+			controller = MOL
+		}
+		1813.1.1 = {
+			add_core_of = RUS
+			owner = RUS
+
+		}
+		1862.1.1 = {
+			add_core_of = ROM
+			remove_core_of = MOL
+
+		}
+		1813.1.1 = {
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			6727 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 2
+			6727 = {
+				naval_base = 3
+
+			}
+
+		}
+		1919.1.1 = {
+			owner = ROM
+			controller = ROM
+			remove_core_of = RUS
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			remove_core_of = MOL
+			remove_core_of = ROM
+			add_core_of = UKR
+			add_core_of = SOV
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		3704 6727 6743 13574 13577 13581 13582 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

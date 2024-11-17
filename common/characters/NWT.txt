@@ -1,0 +1,16 @@
+characters={
+	NWT_arthur={
+		name=NWT_CHARACTER_ARTHUR
+		portraits={
+			civilian={
+				large="GFX_portrait_nwt_arthur_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			desc = NWT_ARTHUR_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,79 @@
+
+state={
+	id=7
+	name="STATE_7"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = HLL
+		add_core_of = HLL
+		1600.1.1 = {
+			add_core_of = HOL
+			owner = HOL
+			remove_core_of = HLL
+			remove_core_of = FLA
+			remove_core_of = BRB
+			remove_core_of = FRI
+			remove_core_of = GEL
+			remove_core_of = UTR
+
+		}
+		1812.1.1 = {
+			owner = FRA
+
+		}
+		1816.1.1 = {
+			owner = HOL
+
+		}
+				1945.1.1 = {
+		owner = RHO
+		}
+		1946.1.1 = {
+		owner = HOL
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				air_base = 5
+				3314 = {
+					naval_base = 5
+
+				}
+
+			}
+
+		}
+		victory_points = {
+			391 40 
+		}
+		victory_points = {
+			68 5 
+		}
+		victory_points = {
+			3314 2 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			3314 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		68 391 3314 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

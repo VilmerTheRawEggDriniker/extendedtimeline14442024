@@ -1,0 +1,196 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = viennacongress_event
+
+# French Revolution
+country_event = {
+	id = viennacongress_event.1
+	title = "The Treaty of Fontainebleau"
+	desc = viennacongress_event.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=FRA	
+date > 1812.1.1 has_start_date < 1815.1.1
+FRA={owns_state=16}
+or={
+FRA = {surrender_progress > 0.5 }
+NOT={FRA={controls_state=16}}
+}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Sign the Treaty"
+		ai_chance = { factor = 100 } 
+		news_event = viennacongress_news.1
+		every_country = {
+  limit = {
+  has_war_with = FRA
+  }
+  white_peace = FRA
+}
+		every_country = {
+  limit = {
+  is_in_faction_with = FRA
+  }
+  leave_faction=yes
+    }
+		every_subject_country = {
+  limit = {
+  is_subject_of=FRA
+  }
+FRA={
+set_autonomy = { target = PREV autonomy_state = autonomy_free }
+}
+}
+every_state = { #vichy north africa
+                    limit = {
+                        is_owned_by = FRA
+					NOT={state=1}
+                    }
+                    VND = {transfer_state = PREV}
+                }
+				1={set_demilitarized_zone = yes}
+FRA={set_country_flag = fontainebleau_flag}
+FRA={set_cosmetic_tag = FRA_ELB}
+FRA={delete_unit = {}}
+	}
+}
+
+country_event = {
+	id = viennacongress_event.2
+	title = "The Congress of Vienna"
+	desc = viennacongress_event.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We are so back"
+		ai_chance = { factor = 100 } 
+    add_political_power=150
+		news_event = viennacongress_news.2
+	}
+}
+
+country_event = {
+	id = viennacongress_event.3
+	title = "The Frankfurts Proposals"
+	desc = viennacongress_event.3.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Reject the Frankfurt Proposals"
+		ai_chance = { factor = 100 } 
+    add_political_power=150
+		news_event = viennacongress_news.3
+	}
+		option = { # 
+		name = "Sign the Frankfurt Proposals"
+		ai_chance = { factor = 0 } 
+		FRA={add_manpower=-100000}
+		every_country = {
+  limit = {
+  has_war_with = FRA
+  }
+  white_peace = FRA
+}
+		every_country = {
+  limit = {
+  is_in_faction_with = FRA
+  }
+  leave_faction=yes
+    }
+	FRA={
+		every_subject_country = {
+  limit = {
+  is_subject_of=FRA
+  }
+FRA={
+set_autonomy = { target = PREV autonomy_state = autonomy_free }
+}
+AUS={
+set_autonomy = { target = PREV autonomy_state = autonomy_protectorate}
+}
+}
+	}
+every_state = { #vichy north africa
+                    limit = {
+                        is_owned_by = FRA
+					NOT={is_core_of=FRA}
+                    }
+                    AUS = {transfer_state = PREV}
+                }
+FRA={set_country_flag = frankfurtproposals_flag}
+    add_political_power=150
+		news_event = viennacongress_news.3
+	}
+}
+
+country_event = {
+	id = viennacongress_event.4
+	title = "The Treaty of Paris (1815)"
+	desc = viennacongress_event.4.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Treaty of Paris (1815)"
+		ai_chance = { factor = 100 } 
+    add_political_power=150
+		news_event = viennacongress_news.4
+			every_state = {
+  limit = {
+  PRE={has_war_with=FRA}
+  }
+	PRE={
+	transfer_state = 15
+	transfer_state = 24
+	transfer_state = 30
+	}
+			}
+			every_state = {
+  limit = {
+  RUS={has_war_with=FRA}
+  }
+	RUS={
+	transfer_state = 16
+	transfer_state = 18
+	transfer_state = 988
+	}
+			}
+			every_state = {
+  limit = {
+  ENG={has_war_with=FRA}
+  }
+	ENG={
+	transfer_state = 29
+	transfer_state = 785
+	transfer_state = 969
+	transfer_state = 986
+	transfer_state = 1104
+	transfer_state = 1176
+	}
+			}
+				every_state = {
+  limit = {
+  AUS={has_war_with=FRA}
+  }
+    AUS={
+	transfer_state = 20
+	transfer_state = 21
+	transfer_state = 32
+	transfer_state = 1193
+	transfer_state = 1103
+	transfer_state = 17
+	transfer_state = 27
+	transfer_state = 28
+	transfer_state = 1112
+	transfer_state = 1234
+	}
+				}
+	VND={annex_country = { target = FRA transfer_troops = no }}
+	}
+}

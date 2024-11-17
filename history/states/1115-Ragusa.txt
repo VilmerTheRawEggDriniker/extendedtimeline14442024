@@ -1,0 +1,69 @@
+
+state={
+	id=1115
+	name="STATE_1115"
+
+	history={
+                owner = RAG
+                add_core_of = RAG
+        1804.1.1 = {
+                owner = AUS
+                add_core_of = AUS
+                remove_core_of = VNT
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
+								1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1900.1.1 = {
+                owner = AUH
+		add_core_of = CRO
+                remove_core_of = AUS
+                }
+		victory_points = {
+			6889 3 
+		}
+		buildings = {
+			infrastructure = 2
+			6889 = {
+				naval_base = 1
+
+			}
+
+		}
+		1919.1.1 = {
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+			remove_core_of = AUH
+
+		}
+		1992.1.1 = {
+			owner = CRO
+			controller = CRO
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		6889 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

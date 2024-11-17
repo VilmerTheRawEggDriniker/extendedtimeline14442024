@@ -1,0 +1,38 @@
+
+state={
+	id=266
+	name="STATE_266" # Tehran
+	manpower = 3446250
+	
+	state_category = pastoral
+
+	history={
+		owner = TIM
+		add_core_of = TIM
+		1500.1.1 = {
+		add_core_of = PER
+		remove_core_of = TIM
+		owner = PER
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			air_base = 3
+		}
+                }
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			10837 20 
+		}
+	}
+
+	provinces={
+		4580 7602 10385 10768 10837 
+	}
+
+	local_supplies=0.0 
+}

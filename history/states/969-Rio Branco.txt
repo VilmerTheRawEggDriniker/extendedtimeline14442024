@@ -1,0 +1,50 @@
+state={
+	id=969
+	name="STATE_969"
+	history={
+		owner = FLA
+		add_core_of = FLA
+		1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BUR
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1689.1.1 = {
+		owner=FRA
+		add_core_of = FRA
+		remove_core_of = BEL
+		}
+		victory_points = {
+			575 5 
+		}
+		buildings = {
+			infrastructure = 4
+			575 = {
+				naval_base = 6
+
+			}
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		575 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

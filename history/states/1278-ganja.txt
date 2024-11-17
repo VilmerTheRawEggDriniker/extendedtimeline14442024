@@ -1,0 +1,69 @@
+state={
+	id=1278
+	name="STATE_1278"
+		history={
+		owner = QAR
+		add_core_of = QAR
+		1600.1.1 = {
+			owner = GAN
+			add_core_of = GAN
+			remove_core_of = QAR
+
+		}
+		1700.1.1 = {
+			owner = GAN
+			add_core_of = GAN
+			remove_core_of = SHI
+
+		}
+				1600.1.1 = {
+		add_core_of = PER
+		}
+		1919.1.1 = {
+			add_core_of = AZR
+			owner = AZR
+			remove_core_of = RUS
+			remove_core_of = PER
+
+		}
+				1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+        remove_core_of = NAK
+		remove_core_of = TAL
+		remove_core_of = BAK
+		remove_core_of = GAN
+		remove_core_of = ERV
+		}
+		1813.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		victory_points = {
+			11674 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+		}
+		1993.1.1 = {
+			owner = AZR
+			controller = AZR
+			add_core_of = AZR
+			remove_core_of = SOV
+		}
+	}
+	provinces={
+		1467 1530 1539 1610 11674 11704 14016 14019 14024 14034 14035 14036 14046 14049 14051 14057 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

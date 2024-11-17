@@ -1,0 +1,55 @@
+state={
+	id=647
+	name="STATE_647"
+	state_category = small_island
+	manpower = 12100
+	history={
+		owner = ZZZ
+		1895.1.1 = {
+		victory_points = {
+			4357 1 
+		}
+                }
+		1890.1.1 = {
+		buildings = {
+			infrastructure = 2
+			4357 = {
+				naval_base = 1
+
+			}
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			4357 = {
+				naval_base = 1
+
+			}
+		}
+                }
+		1900.1.1 = {
+                owner = GER
+		add_core_of = FSM
+                }
+		1919.1.1 = {
+			owner = JAP
+			controller = JAP
+            remove_core_of = ENG
+		}
+		1946.1.1 = {
+			owner = USA
+			controller = USA
+            remove_core_of = ENG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		4357 12103
+	}
+
+	local_supplies=0.0 
+}

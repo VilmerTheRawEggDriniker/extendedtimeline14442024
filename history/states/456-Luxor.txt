@@ -1,0 +1,40 @@
+
+state={
+	id=456
+	name="STATE_456"
+
+	history={
+		victory_points = {
+			11999 1 
+		}
+		owner = EGY
+		1600.1.1 = {
+		owner = OTO
+		}
+		1804.1.1 = {
+		owner = EGY
+		}
+		1946.1.1 = {
+			owner = EGY
+			controller = EGY
+            remove_core_of = SPR
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			12071 3 
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		1028 1064 1206 7073 7216 10844 11999 12071 12733 12771 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

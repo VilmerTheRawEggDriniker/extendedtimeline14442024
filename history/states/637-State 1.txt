@@ -1,0 +1,57 @@
+
+state={
+	id=637
+	name="STATE_637"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1789.1.1 = {
+			buildings = {
+				infrastructure = 0
+				12207 = {
+					naval_base = 1
+
+				}
+
+			}
+
+		}
+		1936.1.1 = {
+			add_core_of = FER
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		1823 7878 12207 
+	}
+	manpower=48831
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+      impassable = yes
+	local_supplies=0.000
+}

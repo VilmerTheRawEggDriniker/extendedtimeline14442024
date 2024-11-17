@@ -1,0 +1,46 @@
+state={
+	id=1251
+	name="STATE_1251"
+		history={
+		owner = ZZZ
+				1789.1.1 = {
+			owner = WAB
+			add_core_of = WAB
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = NCR
+
+		}
+		1836.1.1 = {
+			owner = USA
+			add_core_of = USA
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = WAB
+
+		}
+		1836.1.1 = {
+			buildings = {
+				infrastructure = 1
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		1282 1338 1619 4287 10247 12221 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

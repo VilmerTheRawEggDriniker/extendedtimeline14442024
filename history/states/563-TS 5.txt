@@ -1,0 +1,55 @@
+
+state={
+	id=563
+	name="STATE_563"
+	resources={
+		steel=9.000
+		chromium=8.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			4705 1 
+		}
+                }
+		1700.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
+		add_core_of = FER
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+
+	}
+
+	provinces={
+		1666 1672 1761 1826 4675 4677 4705 4719 4762 4832 7725 7751 7786 7854 7860 10559 10565 10574 10643 10681 10683 12507 12556 12622 12641 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

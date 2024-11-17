@@ -1,0 +1,84 @@
+
+state={
+	id=89
+	name="STATE_89"
+
+	history={
+		victory_points = {
+			11550 10 
+		}
+		owner = POL
+		add_core_of = POL
+		1772.1.1 = {
+			owner = GLL
+                add_core_of = GLL
+
+		}
+		1804.1.1 = {
+			owner = AUS
+			controller = AUS
+
+		}
+		1919.1.1 = {
+			owner = WUK
+			controller = WUK
+			add_core_of = WUK
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = POL
+			controller = POL
+			remove_core_of = RUS
+                        remove_core_of = GLL
+                        add_core_of = SOV
+                        add_core_of = UKR
+						remove_core_of = WUK
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			remove_core_of = POL
+			add_core_of = UKR
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				air_base = 3
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+                        add_core_of = UKR
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		491 3496 3743 6431 6460 6483 9425 9454 9468 9558 11427 11550 14638 14645 14646 14659 14666 14672 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

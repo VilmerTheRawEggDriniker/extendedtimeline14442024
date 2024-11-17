@@ -1,0 +1,38 @@
+
+state={
+	id=417
+	name="STATE_417"
+
+	history={
+		owner = TIM
+		add_core_of = TIM
+		1600.1.1 = {
+		add_core_of = PER
+		remove_core_of = TIM
+		owner = PER
+		}
+		1700.1.1 = {
+		add_core_of = PER
+		owner = PER
+		}
+		victory_points = {
+			8040 3 
+		}
+		victory_points = {
+			2065 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1982 2065 5050 8040 8125 10922 
+	}
+	manpower=796396
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

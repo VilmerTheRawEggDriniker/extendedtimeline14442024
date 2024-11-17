@@ -1,0 +1,22 @@
+state={
+	id=1261
+	name="STATE_1261"
+			history={
+		owner = ZZZ
+		1789.1.1 = {
+		owner = USA
+		add_core_of = USA
+		}
+		1800.1.1 = {
+		buildings = {infrastructure=1}
+		}
+		buildings = {infrastructure=0}
+	}
+	provinces={
+		598 3602 6778 6916 9708 9754 11662 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

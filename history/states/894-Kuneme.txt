@@ -1,0 +1,44 @@
+state={
+	id=894
+	name="STATE_894"
+	history={
+                owner = NOR
+                add_core_of = NOR
+								1524.1.1 = {
+		add_core_of = DEN
+		owner = DEN
+		}
+1776.1.1 = {
+894 = {
+	add_dynamic_modifier = { modifier = marstrand_free_port }
+}
+}
+1800.1.1 = {
+894 = {
+	remove_dynamic_modifier = { modifier = marstrand_free_port }
+}
+}
+		1689.1.1 = {
+		owner = SWE
+                add_core_of = SWE
+                remove_core_of = NOR
+				remove_core_of = DEN
+                }
+		1498.1.1 = {
+		victory_points = {
+			6310 2 
+		}
+                }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		171 6310 
+	}
+	manpower=90000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

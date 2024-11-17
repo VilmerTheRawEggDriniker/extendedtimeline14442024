@@ -1,0 +1,65 @@
+
+state={
+	id=968
+	name="STATE_968"
+
+	history={
+		owner = CRI
+		add_core_of = CRI
+				1783.1.1 = {
+		remove_core_of = CRI
+		owner = RUS
+		add_core_of = RUS
+		}
+		victory_points = {
+			705 10 
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+		}
+				1919.1.1 = {
+		owner = CRI
+		add_core_of=CRI
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1954.1.1 = {
+		add_core_of = UKR
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+		2014.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		705 3722 6724 9718 11649 
+	}
+	manpower=361607
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

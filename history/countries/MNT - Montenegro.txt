@@ -1,0 +1,141 @@
+﻿capital = 105 # Montenegro
+1784.1.1 = {
+recruit_character=MNT_petaripetrovicnjegos
+promote_character=MNT_petaripetrovicnjegos
+}
+1830.1.1 = {
+recruit_character=MNT_petariipetrovicnjegos
+promote_character=MNT_petariipetrovicnjegos
+retire_character=MNT_petaripetrovicnjegos
+}
+1852.1.1 = {
+retire_character=MNT_petariipetrovicnjegos
+}
+1444.11.11 = {
+set_cosmetic_tag = MNT_zeta # Zeta
+}
+1517.1.1 = {
+set_cosmetic_tag = MNT_princebishopric # Christian
+}
+1853.1.1 = {
+set_cosmetic_tag = MNT_danilo # Danilo
+}
+1861.1.1 = {
+set_cosmetic_tag = MNT_nikola # Nikola
+}
+1911.1.1 = {
+set_cosmetic_tag = MNT_kingdom # Kingdom
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "MNT_1789"
+}
+}
+set_research_slots = 3
+
+# Starting tech
+# clone of Yugoslavia
+set_technology = {
+	infantry_weapons = 1
+}
+1936.1.1 = {
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+
+	}
+}
+if = {
+	limit = {
+		
+		has_dlc = "No Step Back"
+		
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		mtg_transport = 1
+	}
+}
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 33
+	neutrality = 33
+	communism = 34
+}
+2000.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+set_popularities = {
+	democratic = 50
+	fascism = 10
+	communism = 10
+	neutrality = 30
+}
+}
+recruit_character = MNT_kristo_popovic
+recruit_character = MNT_blazo_jovanovic
+recruit_character = MNT_blazo_dukanovic
+
+
+
+

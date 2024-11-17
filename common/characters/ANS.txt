@@ -1,0 +1,17 @@
+characters={
+	ANS_alexander={
+		name=ANS_CHARACTER_ALEXANDER
+		portraits={
+			civilian={
+				large="GFX_portrait_ans_alexander_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hohenzollern}
+			desc = ANS_ALEXANDER_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

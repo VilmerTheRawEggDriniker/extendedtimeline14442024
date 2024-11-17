@@ -1,0 +1,45 @@
+characters={
+	JUL_charlestheodore={
+		name=JUL_CHARACTER_CHARLESTHEODORE
+		portraits={
+			civilian={
+				large="GFX_portrait_jul_charlestheodore_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = JUL_CHARLESTHEODORE_DESC
+			expire="1797.1.1"
+		}
+}
+	JUL_maximilianijoseph={
+		name=JUL_CHARACTER_MAXIMILIANIJOSEPH
+		portraits={
+			civilian={
+				large="GFX_portrait_jul_maximilianijoseph_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = JUL_MAXIMILIANIJOSEPH_DESC
+			expire="1797.1.1"
+		}
+}
+	JUL_ludwigi={
+		name=JUL_CHARACTER_LUDWIGI
+		portraits={
+			civilian={
+				large="GFX_portrait_jul_ludwigi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = JUL_LUDWIGI_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

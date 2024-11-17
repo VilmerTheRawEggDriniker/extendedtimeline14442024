@@ -1,0 +1,1212 @@
+ideas = {
+	country = {
+											CIR_army= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+            army_core_defence_factor = 0.5
+			political_power_gain = -1
+			army_speed_factor = -0.1
+			ai_focus_defense_factor =1
+			}
+		}		
+										liberte= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+            army_core_defence_factor = 0.05
+			political_power_gain = -0.01
+			
+			}
+		}
+												egalite= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+            stability_factor = 0.05
+			political_power_gain = -0.01
+			}
+		}
+												fraternite= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+            war_support_factor = 0.05
+			political_power_gain = -0.01
+		}
+												}
+												liberteegalitefraternite= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+army_core_defence_factor = 0.1
+stability_factor = 0.1
+war_support_factor = 0.1
+			}
+		}
+												louisxviidea= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+stability_factor = 0.05
+			}
+		}
+										fra_napoleon_stability= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			army_defence_factor = 0.05
+			consumer_goods_factor = 0.01
+			political_power_gain=-0.1
+            stability_weekly = 0.01
+			}
+		}
+												luxemburg_stronghold= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				original_tag = BEL
+                                has_government = neutrality
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+surrender_limit = 0.5
+			}
+		}
+														the_counter_revolution= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+army_defence_factor = -0.75
+army_attack_factor = -0.75
+army_core_defence_factor = 1
+army_core_attack_factor = 1
+army_speed_factor = -0.75
+surrender_limit = 1
+		ai_focus_defense_factor = 0.1000
+		ai_join_ally_desire_factor = -5000.0
+		ai_call_ally_desire_factor = -5000.0
+			}
+		}
+																feudalism= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+army_speed_factor = -0.05
+industrial_capacity_factory = -0.01
+			}
+		}
+																		fra_volunteer_army= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+army_defence_factor = 0.15
+army_core_attack_factor = 0.15
+training_time_factor = 0.15
+			}
+		}
+fra_anti_counter_revolution_austria= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+targeted_modifier = {
+    tag = AUS
+    attack_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = PRE
+    attack_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = ENG
+    attack_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = VND
+    attack_bonus_against = 0.1
+}
+		}
+fra_cross_the_alps_one= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+targeted_modifier = {
+    tag = SPM
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = TOS
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = PRM
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = LUC
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = AUS
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+		}
+fra_cross_the_alps_two= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+army_speed_factor = 0.1
+industrial_capacity_factory = -0.05
+}
+}
+rhi_german_nationalism= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+war_support_factor=0.1
+stability_weekly = -0.001
+industrial_capacity_factory = -0.05
+army_core_attack_factor = -0.1
+army_core_defence_factor = -0.1
+}
+		}
+battleofkaransebes= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+war_support_weekly = -0.01
+political_power_cost =1
+army_attack_factor = -0.25
+}
+		}
+fra_tax_door_window= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+stability_factor=-0.05
+political_power_cost =-0.01
+industrial_capacity_factory = 0.075
+}
+		}
+pre_too_big_army= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+production_speed_industrial_complex_factor = -0.15
+production_speed_arms_factory_factor = 0.05
+stability_factor=-0.05
+army_speed_factor = 0.05
+army_core_attack_factor = 0.05
+army_core_defence_factor = 0.05
+}
+		}
+treaty_of_abo= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+political_power_gain = -0.05
+war_support_factor=-0.05
+army_attack_factor = -0.2
+army_core_defence_factor = 0.1
+}
+		}
+swedish_stagnancy= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+political_power_gain = -1
+stability_factor=0.1
+}
+		}
+opportunistic_war= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+stability_factor=0.05
+political_power_gain = 0.01
+}
+		}
+pre_hol_debt_invade= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+war_support_factor=-0.05
+army_speed_factor = 0.1
+consumer_goods_factor = 0.1
+}
+		}
+fra_nancy_affair_debuff= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+recruitable_population_factor=-0.01
+war_support_factor = 0.1
+weekly_manpower = -25
+}
+		}
+fra_antagonize_prussia= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+targeted_modifier = {
+    tag = PRE
+    attack_bonus_against = -0.15
+	defense_bonus_against = -0.15
+}
+		}
+						fra_seize_emigree_property={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+						modifier = {
+army_speed_factor = -0.1
+industrial_capacity_factory = -0.1
+			}
+		}
+																				aus_extinction_of_the_house_of_habsburg={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+						modifier = {
+army_speed_factor = -0.1
+weekly_manpower = -25
+stability_factor=-0.1
+war_support_factor=-0.1
+political_power_gain = -0.01
+			}
+		}
+																						aus_vulnerable_position={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+targeted_modifier = {
+    tag = SAX
+    attack_bonus_against = -0.1
+}
+targeted_modifier = {
+    tag = BAY
+    attack_bonus_against = -0.1
+}
+targeted_modifier = {
+    tag = PRE
+    attack_bonus_against = -0.1
+}
+targeted_modifier = {
+    tag = FRA
+    attack_bonus_against = -0.1
+}
+		}																																										
+fra_cross_the_rhine={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+targeted_modifier = {
+    tag = AUS
+    attack_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = PRE
+    attack_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = HOL
+    attack_bonus_against = 0.25
+}
+		}
+																								sorbian_minority={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						stability_factor = -0.1
+									}
+		}
+committeeofpublicsafety={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						army_core_attack_factor = -0.05
+						army_attack_factor = 0.15
+						neutrality_drift = 0.001
+									}
+		}
+committeeofpublicsafetytwo={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						army_core_attack_factor = -0.1
+						army_attack_factor = 0.25
+						democratic_drift = 0.001
+									}
+		}
+newjusticesystem={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						political_power_gain=0.01
+						production_speed_buildings_factor = -0.025
+						stability_factor=0.05
+									}
+		}
+mezzogiorno={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						industrial_capacity_factory = -0.5
+						production_speed_buildings_factor = -0.25
+						neutrality_drift = 0.01
+									}
+		}
+spainjew={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						recruitable_population_factor=-0.1
+						stability_factor=-0.25
+									}
+		}
+usabudget={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						production_speed_buildings_factor =0.01
+						political_power_gain=-0.25
+						stability_factor=0.05
+									}
+		}
+articlesofconfederation={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						production_speed_buildings_factor =-0.01
+						political_power_gain=0.01
+						subjects_autonomy_gain=-0.01
+						stability_factor=0.05
+						war_support_factor=-0.15
+									}
+		}
+usacutterservice={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						production_speed_buildings_factor =-0.025
+						industrial_capacity_factory = 0.1
+									}
+		}
+cabildo={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						production_speed_buildings_factor =-0.025
+						consumer_goods_factor = 0.1
+									}
+		}
+pennegligibletaxcuts={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						production_speed_buildings_factor =-0.01
+						consumer_goods_factor = 0.01
+									}
+		}
+unitedstatesmarinecorps={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						political_power_gain=-0.025
+						consumer_goods_factor = 0.01
+						production_speed_dockyard_factor = 0.2
+									}
+		}
+mezzogiornotwo={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						industrial_capacity_factory = -0.1
+						production_speed_buildings_factor = -0.05
+						neutrality_drift = 0.002
+									}
+		}
+					reignofterror={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						army_core_attack_factor = -0.05
+						weekly_manpower = 4000
+						neutrality_drift = -0.001
+									}
+		}
+					francfirstyear={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						production_speed_buildings_factor = -0.1
+						neutrality_drift = -0.001
+									}
+		}
+					francsecondyear={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						production_speed_buildings_factor = 0.01
+						neutrality_drift = -0.001
+									}
+		}
+																												fatherlandindanger={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						army_core_attack_factor = -0.05
+						army_attack_factor = -0.05
+						army_core_defence_factor = 0.2
+						democratic_drift = 0.001
+									}
+		}
+																												frenchregionalism={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						army_speed_factor = -0.15
+                        neutrality_drift = 0.01
+						democratic_drift = 0.01
+									}
+		}
+																												spiritoftheamericanrevolution={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+                        war_support_factor = 0.33
+						democratic_drift = 0.1
+						production_speed_buildings_factor = -0.05
+									}
+		}
+								franceyouthconscription={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+recruitable_population_factor=0.01
+stability_factor=-0.01
+									}
+		}
+										ministryofpolice={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+recruitable_population_factor=-0.001
+political_power_gain=-0.25
+production_speed_buildings_factor = 0.2
+stability_factor=-0.025
+									}
+		}
+					extremepoverty={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+production_speed_buildings_factor = -0.2
+									}
+		}
+					wonthegamble={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+									war_support_factor=0.20
+production_speed_buildings_factor = 0.02
+									}
+		}
+					minorcounterrevolution={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+stability_factor=-0.05
+production_speed_buildings_factor = -0.05
+political_power_gain=-0.25
+									}
+		}
+							majorcounterrevolution={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+stability_factor=-0.25
+production_speed_buildings_factor = -0.25
+									}
+		}
+							metricsystem={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+production_speed_buildings_factor = 0.01
+									}
+		}
+							imperialunits={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+production_speed_buildings_factor = -0.01
+									}
+		}
+							failureincorsica={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+targeted_modifier = {
+    tag = AUS
+    attack_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = PRE
+    attack_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = BEL
+    attack_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = ENG
+    attack_bonus_against = -0.05
+}
+targeted_modifier = {
+    tag = PAP
+    attack_bonus_against = -0.05
+}
+targeted_modifier = {
+    tag = NAP
+    attack_bonus_against = -0.05
+}
+		}
+							nationalguard={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+democratic_drift = 0.01
+stability_factor=-0.1
+war_support_factor=0.05
+army_core_attack_factor = 0.1
+
+									}
+		}
+							frenchrevolutionlarge={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+political_power_gain=-0.1
+democratic_drift = 0.02
+stability_factor=-0.25
+war_support_factor=0.25
+army_core_attack_factor = 0.1
+
+									}
+		}
+							frenchrevolutionmedium={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+political_power_gain=0.1
+democratic_drift = 0.01
+stability_factor=-0.125
+war_support_factor=0.125
+army_core_defence_factor = 0.05
+
+									}
+		}
+									frenchrevolutionsmall={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+democratic_drift = 0.01
+stability_factor=-0.05
+war_support_factor=0.05
+army_core_attack_factor = 0.1
+
+									}
+		}
+									yellowfever={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+political_power_gain=-0.25						
+production_speed_buildings_factor = -0.05
+									}
+		}
+americanpatriotism={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+                        war_support_factor = -0.05
+						stability_factor = 0.1
+						democratic_drift = 0.01
+						surrender_limit = 0.25
+						army_core_defence_factor = 0.1
+									}
+		}
+antiirishsentiment={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+                        war_support_factor = 0.1
+						stability_factor = -0.05
+						political_power_gain=0.1
+									}
+		}
+aristocracy={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+                        neutrality_drift = 0.01
+						stability_factor = -0.05
+						production_speed_buildings_factor = -0.05
+									}
+		}
+cripplednavy={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+industrial_capacity_dockyard = -0.75
+industrial_capacity_factory = -0.1
+									}
+		}
+guerrillaspain={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+surrender_limit =1
+army_core_defence_factor = 0.1
+war_support_factor=0.1
+									}
+		}
+	}
+}
+	
+

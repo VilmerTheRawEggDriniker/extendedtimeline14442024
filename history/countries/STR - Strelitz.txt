@@ -1,0 +1,90 @@
+﻿capital = 901
+1752.1.1 = {
+recruit_character=STR_adolphusfrederickiv
+promote_character=STR_adolphusfrederickiv
+}
+1795.1.1 = {
+recruit_character=STR_charlesii
+promote_character=STR_charlesii
+retire_character=STR_adolphusfrederickiv
+}
+1817.1.1 = {
+recruit_character=STR_george
+promote_character=STR_george
+retire_character=STR_charlesii
+}
+1861.1.1 = {
+retire_character=STR_george
+}
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+1700.1.1 = {
+set_cosmetic_tag = STR_duchy # 
+}
+1816.1.1 = {
+set_cosmetic_tag = STR_grandduchy # Netherlands East Indies
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+
+

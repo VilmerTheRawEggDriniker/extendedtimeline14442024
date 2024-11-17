@@ -1,0 +1,31 @@
+characters={
+	SHL_christianvii={
+		name=SHL_CHARACTER_CHRISTIANVII
+		portraits={
+			civilian={
+				large="GFX_portrait_shl_christianvii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Oldenburg}
+			desc = SHL_CHRISTIANVII_DESC
+			expire="1797.1.1"
+		}
+}
+	SHL_frederickvi={
+		name=SHL_CHARACTER_FREDERICKVI
+		portraits={
+			civilian={
+				large="GFX_portrait_shl_frederickvi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Oldenburg}
+			desc = SHL_FREDERICKVI_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

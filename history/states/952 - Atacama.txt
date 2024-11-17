@@ -1,0 +1,57 @@
+
+state={
+	id=952
+	name="STATE_952"
+
+	history={
+		victory_points = {
+			9890 1
+		}
+		owner = SER
+		add_core_of = SER
+		1500.1.1 = {
+			owner = OTO
+
+		}
+		1900.1.1 = {
+			add_core_of = KOS
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1914.1.1 = {
+			owner = SER
+			controller = SER
+
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+
+		}
+		2007.1.1 = {
+			owner = SER
+			controller = SER
+			remove_core_of = YUG
+
+		}
+		2009.1.1 = {
+			owner = KOS
+			controller = KOS
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		9890 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

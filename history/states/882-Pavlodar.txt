@@ -1,0 +1,72 @@
+
+state={
+	id=882
+	name="STATE_882"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = SAL
+		add_core_of = SAL
+		1812.1.1 = {
+			owner = BAY
+			add_core_of = BAY
+
+		}
+		1816.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = BAY
+
+		}
+		1805.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = SAL
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			add_core_of = AUH
+			remove_core_of = AUS
+
+		}
+		victory_points = {
+			688 10 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		688 3675 14595 14602 14615 
+	}
+	manpower=257226
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

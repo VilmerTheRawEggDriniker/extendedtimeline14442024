@@ -1,0 +1,66 @@
+
+state={
+	id=395
+	name="STATE_395"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = NWT
+			add_core_of = NWT
+
+		}
+		1812.1.1 = {
+			owner = ILL
+			add_core_of = ILL
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = NCR
+
+		}
+		1836.1.1 = {
+			owner = USA
+			add_core_of = USA
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = ILL
+
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				industrial_complex = 4
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				industrial_complex = 4
+				air_base = 3
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		720 954 1527 1604 1655 4508 4590 6737 7611 7626 7831 9682 10339 10393 10457 10461 11589 12305 12312 12365 12368 12497 12697 
+	}
+	manpower=3630651
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

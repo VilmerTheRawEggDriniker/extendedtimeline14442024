@@ -1,0 +1,49 @@
+
+state={
+	id=776
+	name="STATE_776"
+
+	history={
+		owner = ZZZ
+				1900.1.1 = {
+        owner = SEN
+        }
+		1939.1.1 = {
+        owner = SEN
+		}
+		1900.1.1 = {
+		add_core_of = DAH
+                }
+		1970.1.1 = {
+                owner = DAH
+		add_core_of = DAH
+                }
+		1900.1.1 = {
+		victory_points = {
+			10919 1 
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			10919 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		10919 12762 12874 13951 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+}

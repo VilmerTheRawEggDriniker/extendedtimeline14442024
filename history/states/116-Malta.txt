@@ -1,0 +1,56 @@
+state=
+{
+	id=116
+	name="STATE_116"
+	manpower = 241621
+	state_category = small_island
+	history= {
+				owner = SIC
+        add_core_of = SIC
+		1530.1.1 = {
+                owner = KNI
+		add_core_of = KNI
+		remove_core_of = SIC
+		
+                }
+		1800.1.1 = {
+		controller = FRA
+        }
+		1801.1.1 = {
+                owner = ENG
+                }
+		1965.1.1 = {
+                owner = MLT
+                }
+		1900.1.1 = {
+		add_core_of = MLT
+		remove_core_of = KNI
+		}
+		1945.1.1 = {
+            remove_claim_by = ITA
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			12003 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+                }
+		victory_points = {
+			12003 5 
+		}
+		buildings = {
+			infrastructure = 1
+			12003 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+	provinces= { 12003 }
+
+	local_supplies=0.0 
+}

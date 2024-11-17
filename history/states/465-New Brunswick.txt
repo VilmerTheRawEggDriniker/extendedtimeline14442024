@@ -1,0 +1,62 @@
+
+state={
+	id=465
+	name="STATE_465"
+	manpower = 400000
+	
+	state_category = pastoral
+
+	history={
+
+		owner = ZZZ
+                1700.1.1 = {
+			owner = FRA
+			controller = FRA
+		}
+				                1789.1.1 = {
+			owner = NBR
+		add_core_of=NBR
+		}
+		1900.1.1 = {
+		remove_core_of=NOC
+		remove_core_of=NOS
+		remove_core_of=ITO
+		remove_core_of=ONT
+		remove_core_of=QUE
+		remove_core_of=PEI
+		remove_core_of=NBR
+		remove_core_of=FOU
+		}
+                1738.1.1 = {
+		buildings = {
+			infrastructure = 1
+			4285 = {
+				naval_base = 2
+			}
+		}
+		}
+		1867.1.1 = {
+			owner = CAN
+			controller = CAN
+                add_core_of = CAN
+		}
+                1900.1.1 = {
+		buildings = {
+			infrastructure = 2 #was: 5
+			industrial_complex = 1
+			4285 = {
+				naval_base = 2
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		634 1424 4285 4342 4362 4432 7379 12289 
+	}
+
+	local_supplies=0.0 
+}

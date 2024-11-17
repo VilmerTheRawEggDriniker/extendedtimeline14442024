@@ -1,0 +1,60 @@
+
+state={
+	id=680
+	name="STATE_680"
+
+	history={
+		owner = AGQ
+		add_core_of = AGQ
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		victory_points = {
+			1549 1 
+		}
+		victory_points = {
+			6883 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1900.1.1={
+		add_core_of = SYR
+	}
+		add_core_of = KUR
+
+		1919.1.1 = {
+			owner = SYR
+			controller = SYR
+            remove_core_of = OTO
+		}
+		1936.1.1 = {
+			owner = SYR
+            }
+		1945.1.1 = {
+			owner = SYR
+			controller = SYR
+            remove_core_of = SPR
+		}
+
+	}
+
+	provinces={
+		901 1549 1578 1606 1634 6883 10882 13743 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=4.000
+}

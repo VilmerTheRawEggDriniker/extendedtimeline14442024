@@ -1,0 +1,29 @@
+characters={
+	BAM_franz={
+		name=BAM_CHARACTER_FRANZ
+		portraits={
+			civilian={
+				large="GFX_portrait_bam_franz_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = BAM_FRANZ_DESC
+			expire="1797.1.1"
+		}
+}
+	BAM_chris={
+		name=BAM_CHARACTER_CHRIS
+		portraits={
+			civilian={
+				large="GFX_portrait_Bam_chris_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = BAM_CHRIS_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

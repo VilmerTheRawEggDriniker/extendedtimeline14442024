@@ -1,0 +1,76 @@
+
+state={
+	id=989
+	name="STATE_989"
+
+	history={
+		owner = BDB
+		add_core_of = BDB
+		1950.1.1 = {
+			owner = DDR
+			add_core_of = DDR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		1700.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = PRE
+			remove_core_of = TEU
+
+		}
+		1701.1.1 = {
+			owner = PRE
+			add_core_of = PRE
+			remove_core_of = TEU
+			remove_core_of = BDB
+			remove_core_of = POM
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+
+		}
+				1936.1.1 = {
+			victory_points = {
+				11505 20 
+			}
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		11505 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

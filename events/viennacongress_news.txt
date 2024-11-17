@@ -1,0 +1,81 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = viennacongress_news
+
+		news_event = {
+	id = viennacongress_news.1
+	title = "The Treaty of Fontainebleau"
+	desc = viennacongress_news.1.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Finally the War is over..."
+			}
+		option = {
+		name = "We still have Territorial Disputes to deal with."
+			}
+		}
+
+		news_event = {
+	id = viennacongress_news.2
+	title = "The Congress of Vienna"
+	desc = viennacongress_news.2.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "We have Saxony to deal with!"
+			}
+		option = {
+		name = "We have Poland to deal with!"
+			}
+		}
+
+				news_event = {
+	id = viennacongress_news.3
+	title = "The Frankfurt Proposals"
+	desc = viennacongress_news.3.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "They are going to come crying asking for this peace when allied troops are in Paris!"
+			}
+		option = {
+		name = "The House of Bourbon Needs to be restored in France we have had enough of the Revolution!"
+			}
+		}
+
+						news_event = {
+	id = viennacongress_news.4
+	title = "Treaty of Paris (1815)"
+	desc = viennacongress_news.4.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "They Tried spreading the Revolution a second time they deserve to be partioned!"
+			}
+		option = {
+		name = "Its only a temporary Occupation calm down..."
+			}
+		}

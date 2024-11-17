@@ -1,0 +1,35 @@
+state={
+	id=770
+	name="STATE_770"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = MLW
+                owner = ENG
+                }
+		1900.1.1 = {
+		victory_points = {
+			12986 1 
+		}
+                }
+						1961.1.1 = {
+        owner = MLW
+		add_core_of = MLW
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		2255 12908 12986 13209 
+	}
+	manpower=1603975
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}

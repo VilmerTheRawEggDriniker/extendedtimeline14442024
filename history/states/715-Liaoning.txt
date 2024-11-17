@@ -1,0 +1,57 @@
+
+state={
+	id=715
+	name="STATE_715"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1912.1.1 = {
+            owner = CHI
+		}
+1919.1.1 = {
+        }
+		1920.1.1 = {
+            owner = MAN
+            add_core_of = MAN
+            remove_core_of = QIN
+		}
+				1912.1.1 = {
+            owner = CHI
+		remove_core_of = QIN
+		}
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC 
+            add_core_of = PRC
+            remove_core_of = MAN
+		}
+		1700.1.1 = {
+					buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		972 1508 1558 1638 3828 3877 3881 3978 4514 6852 6988 7575 7633 9831 9873 10426 10429 10499 11836 11903 12469 12478 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

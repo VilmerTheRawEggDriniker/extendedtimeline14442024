@@ -1,0 +1,51 @@
+state={
+	id=1021
+	name="STATE_1021"
+	history={
+                owner = ZZZ
+		1822.1.1 = {
+                owner = MEX
+                add_core_of = MEX
+                }
+		1850.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1900.1.1 = {
+		victory_points = {
+			4518 1 
+		}
+		victory_points = {
+			10483 1 
+		}
+		victory_points = {
+			11795 1 
+		}
+		victory_points = {
+			9911 1 
+		}
+		victory_points = {
+			7747 1 
+		}
+		victory_points = {
+			11859 1 
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+				823 941 986 1601 1651 1793 3784 3840 4518 4657 4727 6861 6876 6881 7747 7821 7986 9637 9855 9911 10387 10483 10573 11763 11795 11859 11876 12303 12374 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

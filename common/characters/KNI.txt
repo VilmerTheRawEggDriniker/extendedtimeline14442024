@@ -1,0 +1,17 @@
+characters={
+	KNI_paulikni={
+		name=KNI_CHARACTER_PAULIKNI
+		portraits={
+			civilian={
+				large="GFX_portrait_kni_paulikni_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = KNI_PAULIKNI_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

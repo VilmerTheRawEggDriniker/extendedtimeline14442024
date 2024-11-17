@@ -1,0 +1,113 @@
+ 
+state={
+	id=279
+	name="STATE_279"
+	resources={
+		steel=16.000
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+		}
+				1789.1.1 = {
+        add_core_of = CHL
+        owner = PRU
+        }
+		1599.1.1 = {
+		victory_points = {
+			650 10 
+		}
+		}
+		1598.1.1 = {
+		buildings = {
+			infrastructure = 1
+			8222 = {
+				naval_base = 5
+
+			}
+			5121 = {
+				naval_base = 1
+
+			}
+			650 = {
+				bunker = 1
+
+			}
+			5228 = {
+				naval_base = 2
+
+			}
+
+		}
+		}
+		1826.1.1 = {
+			owner = CHL
+			controller = CHL
+            add_core_of = CHL
+            remove_core_of = SPR
+		}
+		1880.1.1 = {
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			8222 = {
+				naval_base = 5
+
+			}
+			5121 = {
+				naval_base = 1
+
+			}
+			650 = {
+				bunker = 1
+
+			}
+			5228 = {
+				naval_base = 2
+
+			}
+
+		}
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 3
+			8222 = {
+				naval_base = 5
+
+			}
+			5121 = {
+				naval_base = 1
+
+			}
+			650 = {
+				bunker = 1
+
+			}
+			5228 = {
+				naval_base = 2
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		650 5121 5169 5171 5191 5192 5228 8194 8222 8229 8251 11000 12914 12920 12954 12984 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

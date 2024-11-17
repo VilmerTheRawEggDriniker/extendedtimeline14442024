@@ -1,0 +1,28 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_colonization"
+		texturefile = "gfx/interface/colonization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colonizebutton"
+		texturefile = "gfx/interface/colonizebutton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colonizesettler"
+		texturefile = "gfx/interface/global_colonial_growth.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_colonization_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/warscore_progressbar.dds"
+		textureFile2 = "gfx/interface/warscore_progressbar_bg.dds"
+		size = { x = 250 y = 15}
+		effectFile = "gfx/FX/progress.lua"
+		steps = 90
+	}
+}

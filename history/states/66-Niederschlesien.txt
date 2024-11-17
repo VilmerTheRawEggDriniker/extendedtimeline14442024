@@ -1,0 +1,80 @@
+
+state={
+	id=66
+	name="STATE_66"
+	resources={
+		steel=50.000
+		aluminium=16.000
+	}
+
+	history={
+		owner = SIL
+                add_core_of = SIL
+								1950.1.1 = {
+		owner = POL
+		add_core_of = POL
+		remove_core_of = GER
+		}
+		1748.1.1 = {
+			owner = PRE
+                add_core_of = PRE
+                remove_core_of = AUS
+                remove_core_of = CZE
+                remove_core_of = BOH
+                remove_core_of = SIL
+		}
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 3
+			air_base = 6
+
+		}
+                }
+		victory_points = {
+			9570 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 3
+
+		}
+		1939.1.1 = {
+			buildings = {
+				air_base = 10
+				arms_factory = 3
+				industrial_complex = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		552 3283 3438 3485 3510 3545 6462 6534 9470 9570 13398 13402 13406 14323 14324 14325 14326 14327 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

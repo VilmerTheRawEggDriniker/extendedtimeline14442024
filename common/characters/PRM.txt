@@ -1,0 +1,31 @@
+characters={
+	PRM_ferdinandi={
+		name=PRM_CHARACTER_FERDINANDI
+		portraits={
+			civilian={
+				large="GFX_portrait_prm_ferdinandi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bourbon-Parma}
+			desc = PRM_FERDINANDI_DESC
+			expire="1797.1.1"
+		}
+}
+	PRM_marie={
+		name=PRM_CHARACTER_MARIE
+		portraits={
+			civilian={
+				large="GFX_portrait_prm_marie_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = PRM_MARIE_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

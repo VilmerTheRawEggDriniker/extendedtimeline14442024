@@ -1,0 +1,56 @@
+
+state={
+	id=975
+	name="STATE_975"
+
+	history={
+		owner = GEL
+		add_core_of = GEL
+		1600.1.1 = {
+			add_core_of = HOL
+			owner = HOL
+			remove_core_of = HLL
+			remove_core_of = FLA
+			remove_core_of = BRB
+			remove_core_of = FRI
+			remove_core_of = GEL
+			remove_core_of = UTR
+
+		}
+		1812.1.1 = {
+			owner = FRA
+
+		}
+		1816.1.1 = {
+			owner = HOL
+
+		}
+				1945.1.1 = {
+		owner = RHO
+		}
+		1946.1.1 = {
+		owner = HOL
+		}
+		victory_points = {
+			9363 3 
+		}
+		victory_points = {
+			11456 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		6286 9363 11456 13510 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

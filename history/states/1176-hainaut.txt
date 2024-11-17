@@ -1,0 +1,43 @@
+
+state={
+	id=1176
+	name="STATE_1176"
+
+	history={
+		owner = BUR
+		add_core_of = BUR
+		1600.1.1 = {
+			add_core_of = BEL
+			owner = BEL
+			remove_core_of = HLL
+			remove_core_of = FLA
+			remove_core_of = BUR
+			remove_core_of = FRI
+			remove_core_of = GEL
+			remove_core_of = UTR
+
+		}
+		1689.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = BEL
+
+		}
+		victory_points = {
+			3536 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		3536 11606 
+	}
+	manpower=322167
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

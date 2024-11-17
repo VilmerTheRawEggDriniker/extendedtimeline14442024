@@ -1,0 +1,77 @@
+
+state={
+	id=245
+	name="STATE_245"
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = KAL
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+						1919.1.1 = {
+		owner = DON
+		add_core_of=DON
+		}
+						1789.1.1 = {
+			owner = DON
+		add_core_of = DON
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = DON
+		remove_core_of = POL
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		victory_points = {
+			11476 1 
+		}
+		victory_points = {
+			775 1 
+		}
+		victory_points = {
+			6490 1 
+		}
+
+	}
+
+	provinces={
+		426 449 484 498 500 509 533 775 3417 3443 3464 3478 3489 3505 3519 3540 3587 3777 3779 6417 6468 6490 6503 6527 6544 6566 9415 9459 9474 9488 9516 9540 9565 9581 11400 11416 11447 11459 11476 11501 11527 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

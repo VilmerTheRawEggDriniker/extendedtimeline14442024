@@ -1,0 +1,26 @@
+
+state={
+	id=991
+	name="STATE_991"
+
+	history={
+		owner = ZZZ
+		1836.1.1 = {
+			owner = AST
+			controller = AST
+            add_core_of = AST
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		2201 4645 5125 5207 8152 8209 8247 10950 10971 11016 12323 12993 
+	}
+	manpower=70400
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

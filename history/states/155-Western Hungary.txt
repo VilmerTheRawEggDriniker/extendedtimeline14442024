@@ -1,0 +1,60 @@
+
+state={
+	id=155
+	name="STATE_155"
+	resources={
+		oil=3.000
+	}
+
+	history={
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = OTO
+		}
+		1700.1.1 = {
+			owner = HUN
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        add_core_of = AUH
+		}
+		victory_points = {
+			11610 5 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			air_base = 3
+
+		}
+                }
+		1919.1.1 = {
+			owner = HUN
+			controller = HUN
+			add_core_of = HUN
+			remove_core_of = AUH
+
+		}
+
+	}
+
+	provinces={
+		682 3680 6685 9624 9643 11610 14232 14233 14246 14248 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=77
+	name="STATE_77"
+
+	history={
+		victory_points = {
+			11597 1 
+		}
+		owner = OTO
+		1880.1.1 = {
+			owner = BUL
+			controller = BUL
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BUL
+		1910.1.1 = {
+			owner = ROM
+			controller = ROM
+            add_core_of = ROM
+            remove_core_of = BUL
+		}
+		1945.1.1 = {
+			owner = BUL
+			controller = BUL
+            remove_core_of = ROM
+		}
+
+	}
+
+	provinces={
+		9614 11597 13536 13537 13539 
+	}
+	manpower=378000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+}

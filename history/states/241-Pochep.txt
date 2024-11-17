@@ -1,0 +1,68 @@
+
+state={
+	id=241
+	name="STATE_241"
+
+	history={
+		owner = CHE
+		add_core_of = CHE
+		1600.1.1 = {
+		owner = POL
+        add_core_of = POL
+		add_core_of = LIT
+	    remove_core_of = CHE
+		}
+		1776.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                remove_core_of = POL
+                remove_core_of = LIT
+                }
+		1900.1.1 = {
+                add_core_of = BLR
+                }
+		victory_points = {
+			9288 10 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+
+		}
+                }
+		buildings = {
+			infrastructure = 3
+		}
+				1919.1.1 = {
+			owner = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = UKR
+
+		}
+		1993.1.1 = {
+			owner = BLR
+			controller = BLR
+			add_core_of = BLR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		9288 9342 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

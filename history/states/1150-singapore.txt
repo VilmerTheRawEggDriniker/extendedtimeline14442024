@@ -1,0 +1,41 @@
+state={
+	id=1150
+	name="STATE_1150"
+	history={
+		owner = ZZZ
+		1880.1.1 = {
+                add_core_of = SIN
+                owner = MAL
+                }
+						1966.1.1 = {
+		add_core_of = SIN
+		owner = SIN
+        }
+		1879.1.1 = {
+		victory_points = {
+			12299 20 
+		}
+                }
+		1878.1.1 = {
+		buildings = {
+			infrastructure = 2
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		12299 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

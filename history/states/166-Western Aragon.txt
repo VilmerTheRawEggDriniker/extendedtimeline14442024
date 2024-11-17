@@ -1,0 +1,63 @@
+
+state={
+	id=166
+	name="STATE_166"
+	resources={
+		steel=15.000
+	}
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+				1500.1.1 = {
+                owner = SPR
+                add_core_of = SPR
+                remove_core_of = NAV
+                remove_core_of = ADU
+				remove_core_of = ARA
+		}
+		victory_points = {
+			3816 10 
+		}
+		victory_points = {
+			9840 1 
+		}
+		victory_points = {
+			7213 1 
+		}
+		        1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+					FRA = {
+				set_province_controller = 3816
+				set_province_controller = 6901
+				set_province_controller = 9840
+				set_province_controller = 9813
+				set_province_controller = 11838
+			}
+		}
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		813 948 3816 6901 7213 9812 9813 9840 11737 11838 
+	}
+	manpower=530127
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=13.000
+}

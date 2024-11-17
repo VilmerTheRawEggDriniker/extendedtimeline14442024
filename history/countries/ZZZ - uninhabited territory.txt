@@ -1,0 +1,66 @@
+﻿capital = 713
+country_lock_all_division_template = yes
+set_rule = { can_join_factions = no }
+set_research_slots = 0
+
+# Starting tech
+
+set_convoys = 0
+
+add_ideas = {
+    disarmed_nation
+	tissue_necrosis
+}
+
+create_country_leader = {
+	name = "uncivilized"
+	desc = ""
+	picture = "uncivilized.dds"
+	expire = "2100.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "uncivilized"
+	desc = ""
+	picture = "uncivilized.dds"
+	expire = "2100.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "uncivilized"
+	desc = ""
+	picture = "uncivilized.dds"
+	expire = "2100.1.1"
+	ideology = stalinism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "uncivilized"
+	desc = ""
+	picture = "uncivilized.dds"
+	expire = "2100.1.1"
+	ideology = falangism
+	traits = {
+	}
+}
+
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}

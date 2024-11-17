@@ -1,0 +1,37 @@
+
+state={
+	id=420
+	name="STATE_420"
+	manpower = 1314948
+	
+	state_category = pastoral
+
+	history={
+		owner = QAR
+		add_core_of = QAR
+		1600.1.1 = {
+		add_core_of = PER
+		remove_core_of = QAR
+		owner = OTO
+		}
+		1689.1.1 = {
+		add_core_of = PER
+		owner = PER
+		}
+		victory_points = {
+			7969 5
+		}
+		victory_points = {
+			4901 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		4553 4609 4637 4901 7969 10454 10523 
+	}
+
+	local_supplies=3.0 
+}

@@ -1,0 +1,24 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = ottomanempire_1789_news
+
+		news_event = {
+	id = ottomanempire_1789_news.1
+	title = "Death of Muhammad ibn Abd al-Wahhab"
+	desc = ottomanempire_1789_news.1.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Alright then"
+			}
+	option = {
+		name = "That's just your opinion"
+			}
+		}

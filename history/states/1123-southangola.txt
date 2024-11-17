@@ -1,0 +1,28 @@
+state={
+	id=1123
+	name="STATE_1123"
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = POR
+                }
+		1900.1.1 = {
+                add_core_of = ANG
+                }
+		1975.1.1 = {
+                add_core_of = ANG
+                owner = ANG
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		4735 8138 8202 12391 12958 12985 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

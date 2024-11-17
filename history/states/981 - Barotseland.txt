@@ -1,0 +1,61 @@
+
+state={
+	id=981
+	name="STATE_981"
+
+	history={
+		owner = SAV
+		add_core_of = SAV
+		1720.1.1 = {
+			owner = SPM
+			add_core_of = SPM
+			remove_core_of = SAV
+
+		}
+		1871.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = SPM
+
+		}
+		1800.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = SPM
+
+		}
+		1815.1.1 = {
+			owner = SPM
+			add_core_of = SPM
+			remove_core_of = FRA
+
+		}
+		1919.1.1 = {
+			remove_core_of = SPM
+			remove_core_of = PAP
+			remove_core_of = TOS
+			remove_core_of = TTS
+			remove_core_of = LBV
+
+		}
+		victory_points = {
+			778 1 
+		}
+		victory_points = {
+			11573 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		764 778 6609 9603 9745 11573 14538 14552 
+	}
+	manpower=499076
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

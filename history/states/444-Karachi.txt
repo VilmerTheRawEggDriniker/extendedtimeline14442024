@@ -1,0 +1,45 @@
+
+state={
+	id=444
+	name="STATE_444" # Baluchistan
+	manpower = 400000
+	
+	state_category = pastoral
+
+	history={
+		1900.1.1 = {
+		victory_points = {
+			8066 1
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		owner = MUG
+		add_core_of = MUG
+		1789.1.1 = {
+        remove_core_of = MUG
+		add_core_of = AFG
+		owner = AFG
+		}
+		1900.1.1 = {
+        remove_core_of = AFG
+		}
+		1900.1.1 = {
+		add_core_of = PAK
+		owner = RAJ
+		}
+		1948.1.1 = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+            remove_core_of = RAJ
+		}
+	}
+
+	provinces={
+		1179 5043 5075 7917 8013 8066 12761 12774 
+	}
+
+	local_supplies=0.0 
+}

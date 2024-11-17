@@ -1,0 +1,45 @@
+
+state={
+	id=421
+	name="STATE_421"
+
+	history={
+		owner = QAR
+		add_core_of = QAR
+		1600.1.1 = {
+		add_core_of = PER
+		add_core_of = KUR
+		remove_core_of = QAR
+		owner = OTO
+		}
+		1689.1.1 = {
+		add_core_of = PER
+		owner = PER
+		}
+		victory_points = {
+			4943 5 
+		}
+		victory_points = {
+			5098 3 
+		}
+		victory_points = {
+			7604 1 
+		}
+		victory_points = {
+			1822 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		829 1636 1822 4943 5098 7604 9816 10774 12773 
+	}
+	manpower=780278
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

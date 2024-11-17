@@ -1,0 +1,47 @@
+
+state={
+	id=1007
+	name="STATE_1007"
+
+	history={
+		owner = VAL
+		add_core_of = VAL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		1800.1.1 = {
+			owner = SWI
+			add_core_of = SWI
+			remove_core_of = VAL
+			remove_core_of = NEU
+
+		}
+		1812.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = SWI
+			remove_core_of = NEU
+
+		}
+		1816.1.1 = {
+			owner = SWI
+			add_core_of = SWI
+			remove_core_of = FRA
+
+		}
+		victory_points = {
+			9587 1 
+		}
+
+	}
+
+	provinces={
+		3612 6635 9587 14564 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

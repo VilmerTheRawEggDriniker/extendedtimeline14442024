@@ -1,0 +1,94 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = fra_1789_news
+
+		news_event = {
+	id = fra_1789_news.1
+	title = "The French Revolution"
+	desc = fra_1789_news.1.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		option = {
+		name = "Ok"
+			}
+		}
+		news_event = {
+	id = fra_1789_news.2
+	title = "The Liège Revolution"
+	desc = fra_1789_news.2.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		option = {
+		name = "Ok"
+			}
+		}
+		news_event = {
+	id = fra_1789_news.3
+	title = "The Brabantian Revolution"
+	desc = fra_1789_news.3.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		option = {
+		name = "Ok"
+			}
+		}
+				news_event = {
+	id = fra_1789_news.4
+	title = "The Storming of the Bastille"
+	desc = fra_1789_news.4.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	option = {
+		name = "They freed 7 criminals this is not good"
+			}
+		option = {
+		name = "This is liberation abolish the prison system!"
+			}
+		}
+						news_event = {
+	id = fra_1789_news.5
+	title = "The Storming of the Bastille"
+	desc = fra_1789_news.5.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	option = {
+		name = "ok"
+			}
+		option = {
+		name = "ok"
+			}
+		}

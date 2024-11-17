@@ -1,0 +1,39 @@
+state={
+	id=1125
+	name="STATE_1125"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+                owner = POR
+                }
+		1699.1.1 = {
+		buildings = {
+			infrastructure = 1
+			2123 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1900.1.1 = {
+                add_core_of = MZB
+                }
+		1975.1.1 = {
+                add_core_of = MZB
+                owner = MZB
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2123 2202 5164 12971 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

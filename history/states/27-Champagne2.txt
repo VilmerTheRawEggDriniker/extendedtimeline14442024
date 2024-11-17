@@ -1,0 +1,50 @@
+
+state={
+	id=27
+	name="STATE_27"
+	resources={
+		aluminium=11.000
+	}
+
+	history={
+		owner = BUR
+		add_core_of = BUR
+		1600.1.1 = {
+		owner = FRA
+		add_core_of = FRA
+		remove_core_of = BUR
+		}
+		victory_points = {
+			3652 5 
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		648 667 680 817 3506 3652 3669 3681 9609 9625 9644 11628 14573 14578 14580 14596 14599 14603 14612 14613 14619 14629 14640 
+	}
+	manpower=1370000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

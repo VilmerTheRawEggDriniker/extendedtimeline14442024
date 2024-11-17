@@ -1,0 +1,45 @@
+
+state={
+	id=796
+	name="STATE_796"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = POR
+                }
+		1900.1.1 = {
+                add_core_of = ANG
+                }
+		1883.1.1 = {
+		victory_points = {
+			2115 1 
+		}
+                }
+		1893.1.1 = {
+		buildings = {
+			infrastructure = 1
+			2115 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1975.1.1 = {
+                add_core_of = ANG
+                owner = ANG
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2115 8219 14139 14142 
+	}
+	manpower=725000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

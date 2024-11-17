@@ -1,0 +1,52 @@
+
+state={
+	id=783
+	name="STATE_783"
+
+	history={
+		victory_points = {
+			12857 1 
+		}
+		victory_points = {
+			8111 1 
+		}
+		owner = MOR
+		add_core_of = MOR
+		1859.1.1 = {
+		owner = SPR
+                }
+		1899.1.1 = {
+		buildings = {
+			infrastructure = 0
+			12857 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1970.1.1 = {
+			owner = MOR
+			controller = MOR
+			remove_core_of = SPR
+
+		}
+		buildings = {
+			infrastructure = 0
+			12857 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		8111 12857 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

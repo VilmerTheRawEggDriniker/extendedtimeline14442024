@@ -1,0 +1,72 @@
+
+state={
+	id=553
+	name="STATE_553"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		1600.1.1 = {
+			owner = OTO
+			add_core_of = LEB
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		victory_points = {
+			792 5 
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 5
+			792 = {
+				naval_base = 3
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			792 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = LEB
+				1842.1.1 = {
+			owner = OTO
+			add_core_of = OTO
+
+		}
+		1919.1.1 = {
+			owner = LEB
+			remove_core_of = OTO
+
+		}
+		1943.1.1 = {
+			owner = LEB
+			controller = LEB
+            remove_core_of = OTO
+		}
+
+	}
+
+	provinces={
+		792 1108 11919 13252 13253 
+	}
+	manpower=1104000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

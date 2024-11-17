@@ -1,0 +1,70 @@
+
+state={
+	id=214
+	name="STATE_214"
+
+	history={
+		owner = NOV
+		add_core_of = NOV
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
+		victory_points = {
+			3338 5 
+		}
+		1936.1.1 = {
+				buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 3
+						3338 = {
+				naval_base = 3
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			3338 = {
+				naval_base = 3
+
+			}
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3 18 26 72 87 89 108 127 138 140 180 183 186 312 3031 3064 3065 3075 3078 3080 3081 3086 3092 3130 3166 3168 3338 6034 6051 6075 6088 6090 6102 6105 6109 6159 6166 6193 6199 7330 9041 9045 9055 9099 9101 9130 9187 9213 9248 11038 11042 11047 11061 11071 11074 11089 11094 11137 11171 11178 11212 
+	}
+	manpower=429184
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

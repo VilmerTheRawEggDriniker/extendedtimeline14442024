@@ -1,0 +1,40 @@
+
+state={
+	id=669
+	name="STATE_669"
+
+	history={
+		owner = ZZZ
+		1898.1.1 = {
+		victory_points = {
+			12371 1 
+		}
+	    }
+		1899.1.1 = {
+			buildings = {
+			infrastructure = 0
+			12371 = {
+				naval_base = 2
+
+			}
+			}
+
+		}
+		1900.1.1 = {
+			owner = INS
+			controller = INS
+            add_core_of = INS
+            add_core_of = PNG
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		1546 1602 1617 1629 4468 4509 4524 4552 4593 7269 7487 7512 7542 7585 7627 10369 10396 10505 12315 12371 12386 12457 
+	}
+	manpower=304300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+	}

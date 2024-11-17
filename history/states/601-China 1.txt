@@ -1,0 +1,52 @@
+state={
+	id=601
+	name="STATE_601"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+        owner = QIN
+		add_core_of = TIB
+        }
+		1913.1.1 = {
+			owner = TIB
+			controller = TIB
+            remove_core_of = QIN
+		}
+        1919.1.1 = {
+        }
+		1952.1.1 = {
+			owner = PRC
+			controller = PRC
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1789.1.1 = {
+		victory_points = {
+			10856 1
+		}
+		}
+		1939.1.1 = {
+			buildings = {
+				infrastructure = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4407 5018 5080 5102 8041 8059 10741 10856 
+	}
+	manpower=368200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=1.0 
+}

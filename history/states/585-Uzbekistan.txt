@@ -1,0 +1,49 @@
+
+state={
+	id=585
+	name="STATE_585"
+
+	history={
+		owner = UZB
+		add_core_of = UZB
+		1900.1.1 = {
+                owner = RUS
+                }
+		buildings = {
+			infrastructure = 2
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UZB
+			controller = UZB
+			add_core_of = UZB
+			remove_core_of = SOV
+
+		}
+		victory_points = {
+			1554 1 
+		}
+		victory_points = {
+			10488 1 
+		}
+		victory_points = {
+			10671 10 
+		}
+
+	}
+
+	provinces={
+		1216 1532 1554 4629 7501 7507 7682 7775 10420 10488 10671 11687 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

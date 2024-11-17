@@ -1,0 +1,67 @@
+
+state={
+	id=750
+	name="STATE_750"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+			owner = CHI
+
+		}
+		1933.1.1 = {
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            add_core_of = PRC
+
+		}
+		1933.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+
+		}
+                }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			4619 10 
+		}
+		1939.1.1 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 3
+				arms_factory = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1036 4619 4631 5030 10757 12086 12414 
+	}
+	manpower=6000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,68 @@
+
+state={
+	id=901
+	name="STATE_901"
+
+	history={
+		owner = STR
+                add_core_of = STR
+		1700.1.1 = {
+		owner = MEK
+		add_core_of = MEK
+		remove_core_of = STR
+		remove_core_of = WGR
+		}
+		1701.1.1 = {
+		owner = STR
+		add_core_of = STR
+		remove_core_of = MEK
+		remove_core_of = WGR
+		}
+						1950.1.1 = {
+		owner = DDR
+		add_core_of = DDR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = STR
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		victory_points = {
+			14360 1
+		}
+		victory_points = {
+			3258 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces={
+		3258 14360 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

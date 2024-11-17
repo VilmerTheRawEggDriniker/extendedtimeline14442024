@@ -1,0 +1,50 @@
+state=
+{
+	id=311
+	name="STATE_311"
+	manpower = 51000
+	
+	state_category = pastoral
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1700.1.1 = {
+                owner = ENG
+                }
+						1789.1.1 = {
+        add_core_of = BLZ
+        }
+				1965.1.1 = {
+                owner = BLZ
+                }
+		1700.1.1 = {
+		victory_points = {
+			2077 1 
+		}
+                }
+		1600.1.1 = {
+		buildings = {
+			infrastructure = 0
+			2077 = {
+				naval_base = 1
+			}
+		}
+                }
+		1848.1.1 = {
+		add_core_of = GUA
+                }
+		1900.1.1 = {
+		add_core_of = BLZ
+                remove_core_of = GUA
+		add_claim_by = GUA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces= { 2077 }
+
+	local_supplies=0.0 
+}

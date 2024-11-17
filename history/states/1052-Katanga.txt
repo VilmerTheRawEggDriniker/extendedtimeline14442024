@@ -1,0 +1,32 @@
+state={
+	id=1052
+	name="STATE_1052"
+	history={
+		owner = ZZZ
+		1899.1.1 = {
+		victory_points = {
+			191 1 
+		}
+                }
+		1900.1.1 = {
+                add_core_of = COG
+                owner = COG
+                }
+		1939.1.1 = {
+			owner = COG
+			controller = COG
+            remove_core_of = SPR
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		191 1516 1817 1929 1968 4515 12795 12907 13922 13926  
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

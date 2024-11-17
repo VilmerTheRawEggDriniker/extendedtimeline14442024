@@ -1,0 +1,1261 @@
+﻿l_english: 
+CAN_CHARACTER_SHAWNDRISCOLL:0 "Shawn Driscoll"
+CAN_SHAWNDRISCOLL_DESC:0 ""
+
+CSA_CHARACTER_BOSINN:0 "Bo Sinn"
+CSA_CHARACTER_DREAMY:0 "Dreamybull"
+CSA_CHARACTER_LOVE:0 "Loveandlighttv"
+CSA_CHARACTER_EROTIC:0 "Brandon Curington"
+
+ENG_CHARACTER_PITT:0 "William Pitt"
+ENG_CHARACTER_ADDINGTON:0 "The Viscount Sidmouth"
+ENG_CHARACTER_GRENVILLE:0 "The Lord Grenville"
+ENG_CHARACTER_PORTLAND:0 "The Duke of Portland"
+ENG_CHARACTER_PERCEVAL:0 "Spencer Perceval"
+ENG_CHARACTER_LIVERPOOL:0 "The Earl of Liverpool"
+ENG_CHARACTER_CANNING:0 "George Canning"
+ENG_CHARACTER_RIPON:0 "The Earl of Ripon"
+ENG_CHARACTER_WELLINGTON:0 "The Duke of Wellington"
+ENG_CHARACTER_GREY:0 "The Earl Grey"
+ENG_CHARACTER_MELBOURNE:0 "The Viscount Melbourne"
+ENG_CHARACTER_PEEL:0 "Robert Peel"
+
+FRA_CHARACTER_GUIZOT:0 "François Guizot"
+FRA_CHARACTER_BARRAS:0 "Paul François Jean Nicolas"
+FRA_CHARACTER_MARIE:0 "Louis Marie de La Révellière-Lépeaux"
+FRA_CHARACTER_REWBELL:0 "Jean-François Rewbell"
+FRA_CHARACTER_EMMANUEL:0 "Emmanuel Joseph Sieyès"
+FRA_CHARACTER_LAFAYETTE:0 "Gilbert du Motier, Marquis de Lafayette"
+FRA_CHARACTER_HERBOIS:0 "Jean-Marie Collot d'Herbois"
+FRA_CHARACTER_RUHL:0 "Philippe Rühl"
+
+FRA_CHARACTER_JACQUESNECKER:0 "Jacques Necker"
+FRA_CHARACTER_TALLEYRAND:0 "Charles Maurice de Talleyrand-Périgord"
+FRA_CHARACTER_JOSEPH:0 "Joseph de Villèle"
+FRA_CHARACTER_JULES:0 "Jules de Polignac"
+FRA_CHARACTER_REAL:0 "Pierre-François Réal"
+FRA_CHARACTER_STUART:0 "Édouard de Fitz-James, 6th Duke of Fitz-James"
+AUS_CHARACTER_METTERNICH:0 "Klemens von Metternich"
+SWE_CHARACTER_GUSTAFADOLFREUTERHOLM:0 "Gustaf Adolf Reuterholm"
+RUS_CHARACTER_KUTUZOV:0 "Mikhail Kutuzov"
+RUS_CHARACTER_SUVOROV:0 "Alexander Suvorov"
+RUS_CHARACTER_BAGRATION:0 "Pyotr Ivanovich Bagration"
+RUS_CHARACTER_OROURKE:0 "Joseph Cornelius O'Rourke"
+RUS_CHARACTER_BARCLAY:0 "Michael Andreas Barclay de Tolly"
+RUS_CHARACTER_GRIGORY_POTEMKIN:0 "Grigory Potemkin"
+HUN_CHARACTER_MIKHAIL:0 "Mikhail Pavlovich"
+
+FRA_CHARACTER_NAPOLEONGENERAL:0 "Napoleon Bonaparte"
+FRA_CHARACTER_JOACHIMMURATGENERAL:0 "Joachim Murat"
+FRA_CHARACTER_CHARLESXIVJOHNGENERAL:0 "Charles John"
+FRA_CHARACTER_LAFAYETTEGENERAL:0 "Gilbert du Motier"
+
+FRA_CHARACTER_MICHELGENERAL:0 "Michel Ney"
+FRA_CHARACTER_JEANGENERAL:0 "Jean-Baptiste Kléber"
+FRA_CHARACTER_VICTORGENERAL:0 "Jean Victor Marie Moreau"
+FRA_CHARACTER_THOMASGENERAL:0 "Thomas-Alexandre Dumas"
+
+FRA_CHARACTER_SOULTGENERAL:0 "Jean-de-Dieu Soult"
+FRA_CHARACTER_LANNESGENERAL:0 "Jean Lannes"
+FRA_CHARACTER_LOUISGENERAL:0 "Louis-René"
+FRA_CHARACTER_ANDREGENERAL:0 "André Masséna"
+
+
+
+ENG_CHARACTER_HENRYGENERAL:0 "Henry Seymour Conway"
+ENG_CHARACTER_PRINCEHENRYGENERAL:0 "Prince William Henry"
+ENG_CHARACTER_HOWARDGENERAL:0 "George Howard"
+ENG_CHARACTER_FREDERICKGENERAL:0 "Prince Frederick"
+
+ENG_CHARACTER_ARGYLLGENERAL:0 "The Duke of Argyll"
+ENG_CHARACTER_AMHERSTGENERAL:0 "The Lord Amherst"
+ENG_CHARACTER_WALDENGENERAL:0 "The Lord Howard de Walden"
+ENG_CHARACTER_HODGSONGENERAL:0 "Studholme Hodgson"
+
+ENG_CHARACTER_TOWNSHENDGENERAL:0 "The Marquess Townshend"
+ENG_CHARACTER_CAVENDISHGENERAL:0 "Lord Frederick Cavendish"
+ENG_CHARACTER_RICHMONDGENERAL:0 "The Duke of Richmond"
+ENG_CHARACTER_EDWARDGENERAL:0 "Prince Edward"
+
+ENG_CHARACTER_WELLINGTONGENERAL:0 "The Duke of Wellington"
+ENG_CHARACTER_ERNESTGENERAL:0 "Ernest Augustus"
+ENG_CHARACTER_ADOLPHUSGENERAL:0 "Prince Adolphus"
+ENG_CHARACTER_WILLIAMGENERAL:0 "Prince William Frederick"
+
+ENG_CHARACTER_LEOPOLDGENERAL:0 "Leopold"
+ENG_CHARACTER_DROGHEDAGENERAL:0 "The Marquess of Drogheda"
+ENG_CHARACTER_HARCOURTGENERAL:0 "The Earl Harcourt"
+ENG_CHARACTER_CLARKEGENERAL:0 "Sir Alured Clarke"
+
+ENG_CHARACTER_HULSEGENERAL:0 "Sir Samuel Hulse"
+
+DEN_CHARACTER_ERNSTGENERAL:0 "Ernst Peymann"
+DEN_CHARACTER_BRODERGENERAL:0 "Broder Knud Brodersen Wigelsen"
+DEN_CHARACTER_WILLIAMGENERAL:0 "Duke William Frederick Philip of Württemberg"
+DEN_CHARACTER_PETERGENERAL:0 "Peter Frederik Wulff"
+DEN_CHARACTER_STEENGENERAL:0 "Steen Andersen Bille"
+DEN_CHARACTER_JOACHIMGENERAL:0 "Joachim Castenschiold"
+DEN_CHARACTER_CHARLESGENERAL:0 "Prince Charles of Hesse-Kassel"
+DEN_CHARACTER_EWALDGENERAL:0 "Johann Ewald"
+DEN_CHARACTER_JORGENGENERAL:0 "Jørgen Conrad de Falsen"
+DEN_CHARACTER_OLFERTGENERAL:0 "Olfert Fischer"
+DEN_CHARACTER_LORENTZGENERAL:0 "Lorentz Fisker"
+DEN_CHARACTER_FREDERIKGENERAL:0 "Prince Frederik of Hesse"
+DEN_CHARACTER_FREDERICKGENERAL:0 "Prince Frederick of Hesse-Kassel"
+DEN_CHARACTER_JESSENGENERAL:0 "Carl Wilhelm Jessen"
+
+
+POR_CHARACTER_PEDROGENERAL:0 "Pedro de Almeida Portugal"
+POR_CHARACTER_LIMAGENERAL:0 "The Viscount of Geraz do Lima"
+POR_CHARACTER_JOSEGENERAL:0 "José Joaquim Champalimaud"
+POR_CHARACTER_EBENGENERAL:0 "Baron Eben"
+POR_CHARACTER_MIGUELGENERAL:0 "Miguel Pereira Forjaz, 10th Count of Feira"
+POR_CHARACTER_BERNARDIMGENERAL:0 "Bernardim Freire de Andrade"
+POR_CHARACTER_GOMESGENERAL:0 "Gomes Freire de Andrade"
+POR_CHARACTER_CARLOSGENERAL:0 "Viscount of Laguna"
+POR_CHARACTER_LEITEGENERAL:0 "Francisco Leite"
+POR_CHARACTER_MANUELGENERAL:0 "Manuel Pinto de Morais Bacelar"
+POR_CHARACTER_PAULAGENERAL:0 "Francisco de Paula Vieira da Silva de Tovar"
+POR_CHARACTER_SILVEIRAGENERAL:0 "Francisco da Silveira Pinto da Fonseca Teixeira"
+POR_CHARACTER_NICHOLASGENERAL:0 "Nicholas Trant"
+
+SWE_CHARACTER_JOHANGENERAL:0 "Carl Johan Adlercreutz"
+SWE_CHARACTER_MAURITZGENERAL:0 "Count Gustaf Mauritz Armfelt"
+SWE_CHARACTER_MAGNUSGENERAL:0 "Magnus Björnstjerna"
+SWE_CHARACTER_RUDOLFGENERAL:0 "Rudolf Cederström"
+SWE_CHARACTER_CHARLESXIVJOHNGENERAL:0 "Jean Bernadotte"
+SWE_CHARACTER_DOBELNGENERAL:0 "Georg Carl von Döbeln"
+SWE_CHARACTER_HANSGENERAL:0 "Hans Henric von Essen"
+SWE_CHARACTER_WILHELMGENERAL:0 "Malte of Putbus"
+SWE_CHARACTER_CARLGENERAL:0 "Carl Carlsson Mörner"
+SWE_CHARACTER_AUGUSTGENERAL:0 "Johan August Sandels"
+SWE_CHARACTER_ANDERSGENERAL:0 "Anders Fredrik Skjöldebrand"
+SWE_CHARACTER_CURTGENERAL:0 "Curt von Stedingk"
+SWE_CHARACTER_CHARLESGENERAL:0 "Charles de Suremain"
+SWE_CHARACTER_TOLLGENERAL:0 "Johan Christopher Toll"
+SWE_CHARACTER_GUSTAFGENERAL:0 "Gustaf Wachtmeister"
+
+TYR_CHARACTER_ANDREASHOFER:0 "Andreas Hofer"
+
+POL_CHARACTER_JOZEFGENERAL:0 "Józef Berkowicz"
+POL_CHARACTER_DEZYDGENERAL:0 "Dezydery Chłapowski"
+POL_CHARACTER_CHLOPGENERAL:0 "Józef Chłopicki"
+POL_CHARACTER_KONSTGENERAL:0 "Konstanty Adam Czartoryski"
+POL_CHARACTER_JANHEGENERAL:0 "Jan Henryk Dąbrowski"
+
+POL_CHARACTER_HENRYGENERAL:0 "Henryk Dembiński"
+POL_CHARACTER_STANIGENERAL:0 "Stanisław Dunin-Wąsowicz"
+POL_CHARACTER_FISZEGENERAL:0 "Stanisław Fiszer"
+POL_CHARACTER_CYPRIGENERAL:0 "Cyprian Godebski"
+POL_CHARACTER_HANSMGENERAL:0 "Hans Moritz Hauke"
+
+POL_CHARACTER_BEREKGENERAL:0 "Berek Joselewicz"
+POL_CHARACTER_ENRYKGENERAL:0 "Henryk Ignacy Kamieński"
+POL_CHARACTER_KNIAZGENERAL:0 "Stanisław Klicki"
+POL_CHARACTER_KAROLGENERAL:0 "Karol Kniaziewicz"
+POL_CHARACTER_JANKOGENERAL:0 "Jan Konopka"
+
+POL_CHARACTER_KOSSAGENERAL:0 "Józef Kossakowski"
+POL_CHARACTER_KOZIEGENERAL:0 "Jan Kozietulski"
+POL_CHARACTER_WINCEGENERAL:0 "Wincenty Krasiński"
+POL_CHARACTER_JANKRGENERAL:0 "Jan Krukowiecki"
+POL_CHARACTER_TOMASGENERAL:0 "Tomasz Łubieński"
+
+
+
+POL_CHARACTER_KAZIMGENERAL:0 "Kazimierz Małachowski"
+POL_CHARACTER_FRANCGENERAL:0 "Franciszek Młokosiewicz"
+POL_CHARACTER_NIEMOGENERAL:0 "Józef Niemojewski"
+POL_CHARACTER_WLADYGENERAL:0 "Władysław Ostrowski"
+POL_CHARACTER_MICHAGENERAL:0 "Ludwik Michał Pac"
+
+POL_CHARACTER_PONIAGENERAL:0 "Józef Poniatowski"
+POL_CHARACTER_FLORIGENERAL:0 "Stanisław Florian Potocki"
+POL_CHARACTER_PRADZGENERAL:0 "Ignacy Prądzyński"
+POL_CHARACTER_HIEROGENERAL:0 "Dominik Hieronim Radziwiłł"
+POL_CHARACTER_GEDEOGENERAL:0 "Michał Gedeon Radziwiłł"
+
+POL_CHARACTER_MACIEGENERAL:0 "Maciej Rybiński"
+POL_CHARACTER_ERAZMGENERAL:0 "Eustachy Erazm Sanguszko"
+POL_CHARACTER_SOKOLGENERAL:0 "Michał Sokolnicki"
+POL_CHARACTER_SOWINGENERAL:0 "Józef Sowiński"
+POL_CHARACTER_FERDYGENERAL:0 "Ferdynand Stokowski"
+
+POL_CHARACTER_ANTONGENERAL:0 "Antoni Paweł Sułkowski"
+POL_CHARACTER_TYSZKGENERAL:0 "Michał Tyszkiewicz"
+POL_CHARACTER_JANNEGENERAL:0 "Jan Nepomucen Umiński"
+POL_CHARACTER_ZAJACGENERAL:0 "Józef Zajączek"
+POL_CHARACTER_JOANNGENERAL:0 "Joanna Żubr"
+
+
+
+
+
+
+TUN_CHARACTER_HAMUDA:0 "Hammuda ibn Ali"
+TUN_HAMUDA_DESC:0 "Abu Mohammed Hammuda ibn Ali Pasha was the fifth leader of the Husainid dynasty and the ruler of Tunisia from 26 May 1782 until his death on 15 September 1814. He was the son of Ali II ibn Hussein. He was succeeded by his brother Uthman ibn Ali."
+
+TUN_CHARACTER_UTHMAN:0 "Uthman ibn Ali"
+TUN_UTHMAN_DESC:0 "Abu al-Nur Uthman Bey ibn Ali was the sixth leader of the Husainid Dynasty and the ruler of Tunisia briefly in 1814."
+
+TUN_CHARACTER_MAHMUD:0 "Mahmud ibn Muhammad"
+TUN_MAHMUD_DESC:0 "Mahmud ibn Muhammad was the seventh leader of the Husainid Dynasty and the ruler of Tunisia from 1814 until his death in 1824. His father was Muhammad I ar-Rashid."
+
+TUN_CHARACTER_HUSAYN:0 "Al-Husayn II ibn Mahmud"
+TUN_HUSAYN_DESC:0 "Al-Husayn II ibn Mahmud was the Bey of Tunis from 1824 until his death in 1835. He was of a Greek descent royal family."
+
+TUN_CHARACTER_MUSTAFA:0 "Mustafa ibn Mahmud"
+TUN_MUSTAFA_DESC:0 "Mustafa I was the ninth leader of the Husainid Dynasty and the ruler of Tunisia from 1835 until his death in 1837."
+
+
+WAL_CHARACTER_NICHOLAS:0 "Nicholas Mavrogenes"
+WAL_NICHOLAS_DESC:0 "Nicholas Mavrogenes anian was a Phanariote Prince of Wallachia (reigned 1786–1789). He was the great-uncle of Manto Mavrogenous, a heroine of the Greek War of Independence."
+
+WAL_CHARACTER_ALEXANDER:0 "Alexander Mourouzis"
+WAL_ALEXANDER_DESC:0 "Alexander Mourouzis was a Grand Dragoman of the Ottoman Empire who served as Prince of Moldavia and Prince of Wallachia. Open to Enlightenment ideas, and noted for his interest in hydrological engineering, Mourouzis was forced to deal with the intrusions of Osman Pazvantoğlu's rebellious troops. In a rare gesture for his period, he renounced the throne in Wallachia, and his second rule in Moldavia was cut short by the intrigues of French diplomat Horace Sébastiani."
+
+WAL_CHARACTER_MICHAEL:0 "Michael Drakos Soutzos"
+WAL_MICHAEL_DESC:0 "Michael Drakos Soutzos was a Prince of Moldavia between 1792 and 1795. A member of the Soutzos family of Phanariotes (descended from the Drakos family), he was the grandfather of Michael Soutzos, himself a ruler of Moldavia between 1819 and 1821."
+
+WAL_CHARACTER_CONSTANTINEHANGERLI:0 "Constantine Hangerli"
+WAL_CONSTANTINEHANGERLI_DESC:0 "Constantine Hangerli was a Prince of Wallachia between 1797 and the time of his death. He was the brother of Alexander Hangerli, who served as Prince of Moldavia in 1807."
+
+WAL_CHARACTER_CONSTANTINE:0 "Constantine Ypsilantis"
+WAL_CONSTANTINE_DESC:0 "Constantine Ypsilantis was the son of Alexander Ypsilantis, a key member of an important Phanariote family, Grand Dragoman of the Porte (1796–1799), hospodar of Moldavia (1799–1802) and Walachia (1802–1806), and a Prince through marriage to the daughter of Alexandru Callimachi."
+
+WAL_CHARACTER_ALEXANDROS:0 "Alexandros Soutzos"
+WAL_ALEXANDROS_DESC:0 "Alexandros Soutzos was a Phanariote Greek who ruled as Prince of Moldavia (July 10, 1801 – October 1, 1802 and Prince of Wallachia (July 2, 1802 – August 30, 1802; August 24, 1806 – October 15, 1806; December 1806; November 17, 1818 – January 19, 1821). Born in Constantinople, he had earlier been Grand Dragoman of the Ottoman Empire."
+
+WAL_CHARACTER_SCARLAT:0 "Scarlat Callimachi"
+WAL_SCARLAT_DESC:0 "Scarlat Callimachi was Grand Dragoman of the Sublime Porte 1801–1806, Prince of Moldavia between August 24, 1806 – October 26, 1806, August 4, 1807 – June 13, 1810, September 17, 1812 – June 1819 and Prince of Wallachia between February 1821 – June 1821."
+
+WAL_CHARACTER_JOHN:0 "John George Caradja"
+WAL_JOHN_DESC:0 "John George Caradja was a Phanariote Greek Prince of Wallachia, who reigned between August 1812 and September 1818. He was the second, and last, member of the Karatzas or Caradja family to ascend to the Wallachian throne, but one of several to have also held office as Great Dragoman of the Ottoman Empire. Caradja, whose life is relatively obscure up to that point, held two terms as Dragoman (1807–1808, 7–27 August 1812). Before 1800, he also embarked on a literary career, participating in the spread of Enlightenment literature throughout the Rum Millet, and becoming noted for his translations from Carlo Goldoni. His progeny included Rallou Karatza-Argyropoulos, who was famous in her own right as a pioneer of modern Greek theater."
+
+WAL_CHARACTER_GRIGORE:0 "Grigore Brâncoveanu"
+WAL_GRIGORE_DESC:0 "Grigore Brâncoveanu was a Caimacam and ruler of Wallachia in 1818."
+
+WAL_CHARACTER_YPSILANTIS:0 "Alexander Ypsilantis"
+WAL_YPSILANTIS_DESC:0 "Alexander Ypsilantis was a Greek Voivode of Wallachia from 1774 to 1782, and again from 1796 to 1797, and also Voivode of Moldavia from 1786 to 1788. He bears the same name as, but should not be confused with, his grandson, the Greek War of Independence hero of the early 19th century. The Ypsilantis were a prominent family of Phanariotes."
+
+WAL_CHARACTER_TUDOR:0 "Tudor Vladimirescu"
+WAL_TUDOR_DESC:0 "Tudor Vladimirescu was a Romanian revolutionary hero, the leader of the Wallachian uprising of 1821 and of the Pandur militia."
+
+WAL_CHARACTER_GHICA:0 "Grigore IV Ghica"
+WAL_GHICA_DESC:0 "Grigore IV Ghica was Prince of Wallachia between 1822 and 1828. A member of the Albanian Ghica family, Grigore IV was the brother of Alexandru II Ghica and the uncle of Dora d'Istria."
+
+WAL_CHARACTER_ALEXANDRU:0 "Alexandru II Ghica"
+WAL_ALEXANDRU_DESC:0 "Alexandru Dimitrie Ghica was Prince of Wallachia from April 1834 to 7 October 1842 and later caimacam from July 1856 to October 1858."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MOL_CHARACTER_EMANUEL:0 "Emanuel Giani Ruset"
+MOL_EMANUEL_DESC:0 "Emanuel or Manolache Giani Ruset was a Prince of Wallachia (May 1770 – October 1771), and Prince of Moldavia (May 11, 1788 – October 1788). He was a Phanariote and member of the Rosetti family."
+
+MOL_CHARACTER_ALEXANDER:0 "Alexander Mourouzis"
+MOL_ALEXANDER_DESC:0 "Alexander Mourouzis was a Grand Dragoman of the Ottoman Empire who served as Prince of Moldavia and Prince of Wallachia. Open to Enlightenment ideas, and noted for his interest in hydrological engineering, Mourouzis was forced to deal with the intrusions of Osman Pazvantoğlu's rebellious troops. In a rare gesture for his period, he renounced the throne in Wallachia, and his second rule in Moldavia was cut short by the intrigues of French diplomat Horace Sébastiani."
+
+MOL_CHARACTER_MICHAEL:0 "Michael Drakos Soutzos"
+MOL_MICHAEL_DESC:0 "Michael Drakos Soutzos was a Prince of Moldavia between 1792 and 1795. A member of the Soutzos family of Phanariotes (descended from the Drakos family), he was the grandfather of Michael Soutzos, himself a ruler of Moldavia between 1819 and 1821."
+
+MOL_CHARACTER_CALLIMACHI:0 "Alexander Callimachi"
+MOL_CALLIMACHI_DESC:0 "Alexander Callimachi was Prince of Moldavia during the period of 6 May 1795 through 18 March 1799."
+
+MOL_CHARACTER_CONSTANTINE:0 "Constantine Ypsilantis"
+MOL_CONSTANTINE_DESC:0 "Constantine Ypsilantis was the son of Alexander Ypsilantis, a key member of an important Phanariote family, Grand Dragoman of the Porte (1796–1799), hospodar of Moldavia (1799–1802) and Walachia (1802–1806), and a Prince through marriage to the daughter of Alexandru Callimachi."
+
+MOL_CHARACTER_ALEXANDROS:0 "Alexandros Soutzos"
+MOL_ALEXANDROS_DESC:0 "Alexandros Soutzos was a Phanariote Greek who ruled as Prince of Moldavia (July 10, 1801 – October 1, 1802 and Prince of Wallachia (July 2, 1802 – August 30, 1802; August 24, 1806 – October 15, 1806; December 1806; November 17, 1818 – January 19, 1821). Born in Constantinople, he had earlier been Grand Dragoman of the Ottoman Empire."
+
+MOL_CHARACTER_SCARLAT:0 "Scarlat Callimachi"
+MOL_SCARLAT_DESC:0 "Scarlat Callimachi was Grand Dragoman of the Sublime Porte 1801–1806, Prince of Moldavia between August 24, 1806 – October 26, 1806, August 4, 1807 – June 13, 1810, September 17, 1812 – June 1819 and Prince of Wallachia between February 1821 – June 1821."
+
+MOL_CHARACTER_HANGERLI:0 "Alexander Hangerli"
+MOL_HANGERLI_DESC:0 "Alexander Hangerli was a Dragoman of the Porte of the Ottoman Empire, and Prince of Moldavia between March 7 and July 24, 1807. He spent the latter part of his life as a refugee in the Russian Empire, where he became noted as a linguist. He was the brother of Constantine Hangerli, who reigned as Prince of Wallachia before being executed in 1799."
+
+MOL_CHARACTER_SOUTZOS:0 "Michael Soutzos"
+MOL_SOUTZOS_DESC:0 "Michael Soutzos was a member of the Soutzos family of Phanariotes, he was the grandson of Michael Drakos Soutzos; he was in turn a Prince of Moldavia, between 12 June 1819 and 29 March 1821. He was initiated into Filiki Eteria, he supported the Greek revolution in Moldavia and Wallachia and after the creation of the Greek state, he served as ambassador of the country abroad."
+
+MOL_CHARACTER_YPSILANTIS:0 "Alexander Ypsilantis"
+MOL_YPSILANTIS_DESC:0 "Alexandros Ypsilantis was a Greek nationalist politician who was member of a prominent Phanariot Greek family, a prince of the Danubian Principalities, a senior officer of the Imperial Russian cavalry during the Napoleonic Wars, and a leader of the Filiki Etaireia, a secret organization that coordinated the beginning of the Greek War of Independence against the Ottoman Empire."
+
+MOL_CHARACTER_STEFAN:0 "Stefan Bogoridi"
+MOL_STEFAN_DESC:0 "Prince Stefan Bogoridi was a high-ranking Ottoman statesman of Bulgarian origin, grandson of Sophronius of Vratsa and father of Alexander Bogoridi and Nicolae Vogoride. Stefan and his brother Athanase were named Bogoridi after Boris I, the first Christian ruler of Bulgaria (who was also known under the name Bogoris). Their parents were Ioan Vogoridi and Ana N."
+
+MOL_CHARACTER_IOAN:0 "Ioan Sturdza"
+MOL_IOAN_DESC:0 "Ioan Sandu Sturdza was a ruler of Moldavia from 21 June 1822 to 5 May 1828."
+
+MOL_CHARACTER_MIHAIL:0 "Mihail Sturdza"
+MOL_MIHAIL_DESC:0 "Mihail Sturdza, was prince ruler of Moldavia from 1834 to 1849. He was cousin of Roxandra Sturdza and Alexandru Sturdza."
+
+OSN_CHARACTER_FREDERICK:0 "Frederick"
+OSN_FREDERICK_DESC:0 "Prince Frederick was the second son of George III, King of the United Kingdom and Hanover, and his consort Charlotte of Mecklenburg-Strelitz. A soldier by profession, from 1764 to 1803 he was Prince-Bishop of Osnabrück in the Holy Roman Empire. From the death of his father in 1820 until his own death in 1827, he was the heir presumptive to his elder brother, George IV, in both the United Kingdom of Great Britain and Ireland and the Kingdom of Hanover."
+
+SAA_CHARACTER_LOUIS:0 "Louis"
+SAA_LOUIS_DESC:0 "Louis was the last ruling prince of Nassau-Saarbrücken. He ruled from 1768 until the French Revolution."
+
+SAA_CHARACTER_HENRYLOUIS:0 "Henry Louis"
+SAA_HENRYLOUIS_DESC:0 "Henry Louis Charles was a titular prince of Nassau-Saarbrücken. He never actually reigned, because the country was occupied by French revolutionary troops from 1793 until after his death."
+
+HOH_CHARACTER_ANTONALOYS:0 "Anton Aloys"
+HOH_ANTONALOYS_DESC:0 "Anton Aloys was Prince of Hohenzollern-Sigmaringen."
+
+HOH_CHARACTER_KARL:0 "Karl"
+HOH_KARL_DESC:0 "Karl was the reigning Prince of Hohenzollern-Sigmaringen from 1831 to 1848."
+
+KON_CHARACTER_KARL:0 "Karl Theodor Anton Maria von Dalberg"
+KON_KARL_DESC:0 "Karl Theodor Anton Maria von Dalberg was a Catholic German bishop and statesman. In various capacities, he served as Prince-Archbishop of Regensburg, Arch-Chancellor of the Holy Roman Empire, Bishop of Constance and Worms, Prince-Primate of the Confederation of the Rhine and Grand Duke of Frankfurt. Dalberg was the last Archbishop-Elector of Mainz."
+
+FKF_CHARACTER_KARL:0 "Karl Theodor Anton Maria von Dalberg"
+FKF_KARL_DESC:0 "Karl Theodor Anton Maria von Dalberg was a Catholic German bishop and statesman. In various capacities, he served as Prince-Archbishop of Regensburg, Arch-Chancellor of the Holy Roman Empire, Bishop of Constance and Worms, Prince-Primate of the Confederation of the Rhine and Grand Duke of Frankfurt. Dalberg was the last Archbishop-Elector of Mainz."
+
+MNZ_CHARACTER_KARL:0 "Karl Theodor Anton Maria von Dalberg"
+MNZ_KARL_DESC:0 "Karl Theodor Anton Maria von Dalberg was a Catholic German bishop and statesman. In various capacities, he served as Prince-Archbishop of Regensburg, Arch-Chancellor of the Holy Roman Empire, Bishop of Constance and Worms, Prince-Primate of the Confederation of the Rhine and Grand Duke of Frankfurt. Dalberg was the last Archbishop-Elector of Mainz."
+
+REG_CHARACTER_KARL:0 "Karl Theodor Anton Maria von Dalberg"
+REG_KARL_DESC:0 "Karl Theodor Anton Maria von Dalberg was a Catholic German bishop and statesman. In various capacities, he served as Prince-Archbishop of Regensburg, Arch-Chancellor of the Holy Roman Empire, Bishop of Constance and Worms, Prince-Primate of the Confederation of the Rhine and Grand Duke of Frankfurt. Dalberg was the last Archbishop-Elector of Mainz."
+
+FRA_CHARACTER_MAX:0 "Maximilien Robespierre"
+FRA_MAX_DESC:0 "Maximilien François Marie Isidore de Robespierre was a French lawyer and statesman, widely recognized as one of the most influential and controversial figures of the French Revolution. Robespierre fervently campaigned for the voting rights of all men and their unimpeded admission to the National Guard. Additionally he advocated for the right to petition, the right to bear arms in self-defence, and the abolition of the Atlantic slave trade. He was a radical Jacobin leader who came to prominence as a member of the Committee of Public Safety, the organ of the First French Republic that was primarily responsible for the Reign of Terror. His legacy has been heavily influenced by his participation in these political persecutions but is notable for his progressive views for the time."
+
+BSL_CHARACTER_FRANZ:0 "Franz Joseph Sigismund von Roggenbach"
+BSL_FRANZ_DESC:0 "Franz Joseph Sigismund von Roggenbach (1726–1794) was the Prince-Bishop of Basel from 1782 to 1794.[1]"
+
+BYR_CHARACTER_ALEXANDER:0 "Alexander, Margrave of Brandenburg-Ansbach"
+BYR_ALEXANDER_DESC:0 "Christian Friedrich Carl Alexander was the last margrave of the two Franconian principalities, Bayreuth and Ansbach, which he sold to the King of Prussia, a fellow member of the House of Hohenzollern."
+
+ANS_CHARACTER_ALEXANDER:0 "Alexander, Margrave of Brandenburg-Ansbach"
+ANS_ALEXANDER_DESC:0 "Christian Friedrich Carl Alexander was the last margrave of the two Franconian principalities, Bayreuth and Ansbach, which he sold to the King of Prussia, a fellow member of the House of Hohenzollern."
+
+MSV_CHARACTER_TADEUSZ:0 "Tadeusz Kościuszko"
+MSV_TADEUSZ_DESC:0 "Andrzej Tadeusz Bonawentura Kościuszko was a Polish military engineer, statesman, and military leader who then became a national hero in Poland, the United States, Lithuania and Belarus. He fought in the Polish–Lithuanian Commonwealth's struggles against Russia and Prussia, and on the U.S. side in the American Revolutionary War. As Supreme Commander of the Polish National Armed Forces, he led the 1794 Kościuszko Uprising."
+
+ALB_CHARACTER_ALIPASHA:0 "Ali Pasha"
+ALB_ALIPASHA_DESC:0 "Ali Pasha was an Albanian ruler who served as Ottoman pasha of the Pashalik of Yanina, a large part of western Rumelia. Under his rule, it acquired a high degree of autonomy and even managed to stay de facto independent. The capital of the Pashalik was Ioannina, which, along with Tepelena, was Ali's headquarters."
+
+NIR_CHARACTER_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK:0 "William II"
+NIR_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK_DESC:0 "William III also widely known as William of Orange, was the sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from the 1670s, and King of England, Ireland, and Scotland from 1689 until his death in 1702. As King of Scotland, he is known as William II. He ruled Britain and Ireland alongside his wife, Queen Mary II, and their joint reign is known as that of William and Mary."
+
+SCO_CHARACTER_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK:0 "William II"
+SCO_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK_DESC:0 "William III also widely known as William of Orange, was the sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from the 1670s, and King of England, Ireland, and Scotland from 1689 until his death in 1702. As King of Scotland, he is known as William II. He ruled Britain and Ireland alongside his wife, Queen Mary II, and their joint reign is known as that of William and Mary."
+
+ENG_CHARACTER_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK:0 "William III"
+ENG_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK_DESC:0 "William III also widely known as William of Orange, was the sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from the 1670s, and King of England, Ireland, and Scotland from 1689 until his death in 1702. As King of Scotland, he is known as William II. He ruled Britain and Ireland alongside his wife, Queen Mary II, and their joint reign is known as that of William and Mary."
+
+HOL_CHARACTER_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK:0 "William III"
+HOL_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK_DESC:0 "William III also widely known as William of Orange, was the sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from the 1670s, and King of England, Ireland, and Scotland from 1689 until his death in 1702. As King of Scotland, he is known as William II. He ruled Britain and Ireland alongside his wife, Queen Mary II, and their joint reign is known as that of William and Mary."
+
+CLG_CHARACTER_MAXIMILIANFRANCIS:0 "Archduke Maximilian Francis"
+CLG_MAXIMILIANFRANCIS_DESC:0 "Archduke Maximilian Francis of Austria was Elector of Cologne and Grand Master of the Teutonic Knights. He was the youngest child of Holy Roman Empress Maria Theresa and Francis I, Holy Roman Emperor. He was the last fully functioning Elector of Cologne and the second employer and patron of the young Ludwig van Beethoven."
+
+CLG_CHARACTER_ANTONVICTOR:0 "Archduke Anton Victor"
+CLG_ANTONVICTOR_DESC:0 "Anton Victor, Viceroy of Lombardy–Venetia was an Archduke of Austria and a Grand Master of the Teutonic Knights. He was also briefly the last Archbishop and Elector of Cologne and Prince-Bishop of Münster before those territories were secularised in 1803."
+
+CLW_CHARACTER_MAXIMILIANFRANCIS:0 "Archduke Maximilian Francis"
+CLW_MAXIMILIANFRANCIS_DESC:0 "Archduke Maximilian Francis of Austria was Elector of Cologne and Grand Master of the Teutonic Knights. He was the youngest child of Holy Roman Empress Maria Theresa and Francis I, Holy Roman Emperor. He was the last fully functioning Elector of Cologne and the second employer and patron of the young Ludwig van Beethoven."
+
+CLW_CHARACTER_ANTONVICTOR:0 "Archduke Anton Victor"
+CLW_ANTONVICTOR_DESC:0 "Anton Victor, Viceroy of Lombardy–Venetia was an Archduke of Austria and a Grand Master of the Teutonic Knights. He was also briefly the last Archbishop and Elector of Cologne and Prince-Bishop of Münster before those territories were secularised in 1803."
+
+MUN_CHARACTER_MAXIMILIANFRANCIS:0 "Archduke Maximilian Francis"
+MUN_MAXIMILIANFRANCIS_DESC:0 "Archduke Maximilian Francis of Austria was Elector of Cologne and Grand Master of the Teutonic Knights. He was the youngest child of Holy Roman Empress Maria Theresa and Francis I, Holy Roman Emperor. He was the last fully functioning Elector of Cologne and the second employer and patron of the young Ludwig van Beethoven."
+
+MUN_CHARACTER_ANTONVICTOR:0 "Archduke Anton Victor"
+MUN_ANTONVICTOR_DESC:0 "Anton Victor, Viceroy of Lombardy–Venetia was an Archduke of Austria and a Grand Master of the Teutonic Knights. He was also briefly the last Archbishop and Elector of Cologne and Prince-Bishop of Münster before those territories were secularised in 1803."
+
+TRR_CHARACTER_CLEMENSWENCESLAUS:0 "Clemens Wenceslaus"
+TRR_CLEMENSWENCESLAUS_DESC:0 "Prince Clemens Wenceslaus of Saxony was a Saxon prince from the House of Wettin and the Archbishop-Elector of Trier from 1768 until 1803, the Prince-Bishop of Freising from 1763 until 1768, the Prince-Bishop of Regensburg from 1763 until 1769, and the Prince-Bishop of Augsburg from 1768 until 1803."
+
+AUG_CHARACTER_CLEMENSWENCESLAUS:0 "Clemens Wenceslaus"
+AUG_CLEMENSWENCESLAUS_DESC:0 "Prince Clemens Wenceslaus of Saxony was a Saxon prince from the House of Wettin and the Archbishop-Elector of Trier from 1768 until 1803, the Prince-Bishop of Freising from 1763 until 1768, the Prince-Bishop of Regensburg from 1763 until 1769, and the Prince-Bishop of Augsburg from 1768 until 1803."
+
+VNT_CHARACTER_PAOLORENIER:0 "Paolo Renier"
+VNT_PAOLORENIER_DESC:0 "Paolo Renier was a Venetian statesman, the 119th and penultimate Doge of Venice. He was a noted orator, and served as ambassador to the Ottoman Empire and to Austria. His election as Doge was unpopular, and he was the subject of numerous menacing letters at the time. Renier was succeeded as Doge by Ludovico Manin, who would be the last Doge of Venice. He married Giustina Donà (d. 1751) in 1733, and Margherita Delmaz (d. 1817) in 1751."
+
+VNT_CHARACTER_LODOVICOMANIN:0 "Lodovico Manin"
+VNT_LODOVICOMANIN_DESC:0 "Lodovico Giovanni Manin was a Venetian politician, patrician, and the 120th and last Doge of Venice. He governed the Venetian Republic from 9 March 1789 until its fall in 1797, when he was forced to abdicate by Napoleon Bonaparte."
+
+GOA_CHARACTER_MARIA:0 "Alerame Maria Pallavicini"
+GOA_MARIA_DESC:0 "Alerame Maria Pallavicini was the 181st Doge of his native Republic of Genoa."
+
+GOA_CHARACTER_MICHELANGELO:0 "Michelangelo Cambiaso"
+GOA_MICHELANGELO_DESC:0 "Michelangelo Cambiaso was a Genoese politician, as well as Doge of the Republic of Genoa and French senator under the First French Empire."
+
+WLD_CHARACTER_FRIEDRICHKARLAUGUST:0 "Friedrich Karl August"
+WLD_FRIEDRICHKARLAUGUST_DESC:0 "Friedrich Karl August was Prince of Prince of Waldeck and Pyrmont from 1763 to 1812."
+
+WLD_CHARACTER_GEORGEI:0 "George I"
+WLD_GEORGEI_DESC:0 "George I was Prince of Waldeck and Pyrmont from 1812 to 1813."
+
+WLD_CHARACTER_GEORGEII:0 "George II"
+WLD_GEORGEII_DESC:0 "George II was Prince of Waldeck and Pyrmont from 1813 to 1845."
+
+NAS_CHARACTER_WILLIAM:0 "William"
+NAS_WILLIAM_DESC:0 "Wilhelm was joint sovereign Duke of Nassau, along with his father's cousin Frederick Augustus, reigning from 1816 until 1839. He was also sovereign Prince of Nassau-Weilburg from 1816 until its incorporation into the duchy of Nassau."
+
+NAS_CHARACTER_FREDERICKAUGUSTUS:0 "Frederick Augustus"
+NAS_FREDERICKAUGUSTUS_DESC:0 "Friedrich August, Duke of Nassau, Prince of Nassau-Usingen was the last Prince of Nassau-Usingen and, jointly with his cousin, Friedrich Wilhelm of Nassau-Weilburg, first Duke of Nassau. He died without surviving male issue and was succeeded by his cousin's son, Wilhelm."
+
+NAS_CHARACTER_CHARLESWILLIAM:0 "Charles William"
+NAS_CHARLESWILLIAM_DESC:0 "Charles William was Prince of Nassau-Usingen from 1775 until his death. From 1797 until his death, he was also titular Prince of Nassau-Saarbrücken, however, Nassau-Saarbrücken was occupied by France during that period."
+
+
+
+
+
+
+PRM_CHARACTER_FERDINANDI:0 "Ferdinand I"
+PRM_FERDINANDI_DESC:0 "Ferdinand I was Duke of Parma, Piacenza and Guastalla from his father's death on 18 July 1765 until he ceded the duchy to France by the Treaty of Aranjuez on 20 March 1801. He was a member of the Spanish House of Bourbon."
+
+PRM_CHARACTER_MARIE:0 "Marie Louise"
+PRM_MARIE_DESC:0 "Marie Louise was an Austrian archduchess who reigned as Duchess of Parma from 11 April 1814 until her death in 1847. She was Napoleon's second wife and as such Empress of the French and Queen of Italy from their marriage on 1 April 1810 until his abdication on 6 April 1814."
+
+MOD_CHARACTER_ERCOLE:0 "Ercole III d'Este"
+MOD_ERCOLE_DESC:0 "He was born in Modena, the son of Duke Francesco III d'Este, Duke of Modena and Charlotte Aglaé d'Orléans, daughter of Philippe d'Orléans, Duke of Orléans and Regent of France. He was the couple's fourth child and had an older sister Maria Teresa and two brothers who died before his birth."
+
+MOD_CHARACTER_FRANCISIV:0 "Francis IV"
+MOD_FRANCISIV_DESC:0 "Francis IV was Duke of Modena, Reggio, and Mirandola (from 1815), Duke of Massa and Prince of Carrara (from 1829), Archduke of Austria-Este, Royal Prince of Hungary and Bohemia, Knight of the Order of the Golden Fleece."
+
+LUC_CHARACTER_FERDINANDI:0 "Ferdinand I"
+LUC_FERDINANDI_DESC:0 "Ferdinand I was Duke of Parma, Piacenza and Guastalla from his father's death on 18 July 1765 until he ceded the duchy to France by the Treaty of Aranjuez on 20 March 1801. He was a member of the Spanish House of Bourbon."
+
+LUC_CHARACTER_MARIE:0 "Marie Louise"
+LUC_MARIE_DESC:0 "Marie Louise was an Austrian archduchess who reigned as Duchess of Parma from 11 April 1814 until her death in 1847. She was Napoleon's second wife and as such Empress of the French and Queen of Italy from their marriage on 1 April 1810 until his abdication on 6 April 1814."
+
+MAS_CHARACTER_ERCOLE:0 "Ercole III d'Este"
+MAS_ERCOLE_DESC:0 "He was born in Modena, the son of Duke Francesco III d'Este, Duke of Modena and Charlotte Aglaé d'Orléans, daughter of Philippe d'Orléans, Duke of Orléans and Regent of France. He was the couple's fourth child and had an older sister Maria Teresa and two brothers who died before his birth."
+
+MAS_CHARACTER_FRANCISIV:0 "Francis IV"
+MAS_FRANCISIV_DESC:0 "Francis IV was Duke of Modena, Reggio, and Mirandola (from 1815), Duke of Massa and Prince of Carrara (from 1829), Archduke of Austria-Este, Royal Prince of Hungary and Bohemia, Knight of the Order of the Golden Fleece."
+
+BEL_CHARACTER_CASIMIR:0 "Albert Casimir"
+BEL_CASIMIR_DESC:0 "Prince Albert Casimir of Saxony, Duke of Teschen was a Saxon prince from the House of Wettin who married into the Habsburg imperial family. He was noted as an art collector and founded the Albertina in Vienna, one of the largest and finest collections of old master prints and drawings in the world."
+
+BEL_CHARACTER_CHARLES:0 "Archduke Charles"
+BEL_CHARLES_DESC:0 "Archduke Charles was an Austrian field-marshal, the third son of Emperor Leopold II and his wife, Maria Luisa of Spain. He was also the younger brother of Francis II, Holy Roman Emperor. He was epileptic, but achieved respect both as a commander and as a reformer of the Austrian army. He was considered one of Napoleon's more formidable opponents and one of the greatest generals of the French Revolutionary and Napoleonic Wars."
+
+BEL_CHARACTER_LEOPOLDI:0 "Leopold I"
+BEL_LEOPOLDI_DESC:0 "Leopold I was the first King of the Belgians, reigning from 21 July 1831 until his death in 1865."
+
+BEL_CHARACTER_AUGUSTE:0 "Auguste"
+BEL_AUGUSTE_DESC:0 ""
+
+BEL_CHARACTER_LOUIS:0 "Louis"
+BEL_LOUIS_DESC:0 ""
+
+HOL_CHARACTER_WILLIAMV:0 "William V"
+HOL_WILLIAMV_DESC:0 "William V was Prince of Orange and the last Stadtholder of the Dutch Republic. He went into exile to London in 1795. He was furthermore ruler of the Principality of Orange-Nassau until his death in 1806. In that capacity he was succeeded by his son William."
+
+HOL_CHARACTER_LOUISBONAPORTE:0 "Louis Bonaparte"
+HOL_LOUISBONAPORTE_DESC:0 "Louis Napoléon Bonaparte was a younger brother of Napoleon I, Emperor of the French. He was a monarch in his own right from 1806 to 1810, ruling over the Kingdom of Holland (a French client state roughly corresponding to the modern-day Netherlands). In that capacity, he was known as Louis I."
+
+HOL_CHARACTER_LOUISII:0 "Louis II"
+HOL_LOUISII_DESC:0 "Napoléon-Louis Bonaparte was King of Holland for less than two weeks in July 1810 as Louis II. He was a son of Louis Bonaparte and Queen Hortense. His father was the younger brother of Napoleon I of France who ruled the Napoleonic Kingdom of Holland from 1806 to 1810. His mother was the daughter of Josephine de Beauharnais, Napoleon's first wife. His younger brother, Louis-Napoléon, became Emperor of the French in 1852 as Napoleon III."
+
+HOL_CHARACTER_WILLIAMI:0 "William I"
+HOL_WILLIAMI_DESC:0 "William I was king of the Netherlands and grand duke of Luxembourg from 1815 until his abdication in 1840."
+
+WTF_CHARACTER_JEROMEBONAPARTE:0 "Jérôme Bonaparte"
+WTF_JEROMEBONAPORTE_DESC:0 "Jérôme-Napoléon Bonaparte was the youngest brother of Napoleon I and reigned as Jerome Napoleon 1, King of Westphalia, between 1807 and 1813."
+
+BRG_CHARACTER_LOUISII:0 "Louis II"
+BRG_LOUISII_DESC:0 "Napoléon-Louis Bonaparte was King of Holland for less than two weeks in July 1810 as Louis II. He was a son of Louis Bonaparte and Queen Hortense. His father was the younger brother of Napoleon I of France who ruled the Napoleonic Kingdom of Holland from 1806 to 1810. His mother was the daughter of Josephine de Beauharnais, Napoleon's first wife. His younger brother, Louis-Napoléon, became Emperor of the French in 1852 as Napoleon III."
+
+BRG_CHARACTER_JOACHIMMURAT:0 "Joachim Murat"
+BRG_JOACHIMMURAT_DESC:0 "Joachim Murat was a French military commander and statesman who served during the French Revolutionary Wars and Napoleonic Wars. Under the French Empire he received the military titles of Marshal of the Empire and Admiral of France. He was the first Prince Murat, Grand Duke of Berg from 1806 to 1808, and King of Naples as Joachim-Napoleon from 1808 to 1815."
+
+BRG_CHARACTER_NAPOLEON:0 "Napoleon"
+BRG_NAPOLEON_DESC:0 "Napoleon Bonaparte later known by his regnal name Napoleon I, was a French emperor and military commander who rose to prominence during the French Revolution and led successful campaigns during the Revolutionary Wars. He was the leader of the French Republic as First Consul from 1799 to 1804, then of the French Empire as Emperor of the French from 1804 until 1814, and briefly again in 1815. His political and cultural legacy endures as a celebrated and controversial leader. He initiated many enduring reforms, but has been criticized for his authoritarian rule. He is considered one of the greatest military commanders in history and his wars and campaigns are still studied at military schools worldwide. However, historians still debate the degree to which he was responsible for the Napoleonic Wars, in which between three and six million people died."
+
+
+
+
+
+
+
+
+
+
+
+OLD_CHARACTER_AUGUSTUSI:0 "Augustus I"
+OLD_AUGUSTUSI_DESC:0 "Augustus I was the reigning Grand Duke of Oldenburg from 1829 to 1853."
+
+OLD_CHARACTER_PETERI:0 "Peter I"
+OLD_PETERI_DESC:0 "Peter I was the Regent of the Duchy of Oldenburg for his incapacitated cousin William I from 1785 to 1823, and then served himself as Duke from 1823 to 1829."
+
+BRU_CHARACTER_FREDERICKWILLIAM:0 "Frederick William"
+BRU_FREDERICKWILLIAM_DESC:0 "Frederick William, Duke of Brunswick-Wolfenbüttel was a German prince and Duke of Brunswick-Lüneburg and Oels. Nicknamed The Black Duke, he was a military officer who led the Black Brunswickers against French domination in Germany. He briefly ruled the state of Brunswick-Wolfenbüttel from 1806 to 1807 and again from 1813 to 1815."
+
+BRU_CHARACTER_CHARLESII:0 "Charles II"
+BRU_CHARLESII_DESC:0 "Charles II, Duke of Brunswick ruled the Duchy of Brunswick from 1815 until 1830. Today he is best remembered for being on the losing side of the Opera Game, defeated by American chess master Paul Morphy in one of the most famous chess games ever played."
+
+BRU_CHARACTER_WILLIAM:0 "William"
+BRU_WILLIAM_DESC:0 "William, Duke of Brunswick was ruling duke of the Duchy of Brunswick from 1830 until his death."
+
+BRU_CHARACTER_CHARLESWILLIAMFERDINAND:0 "Charles William Ferdinand"
+BRU_CHARLESWILLIAMFERDINAND_DESC:0 "Charles William Ferdinand was the prince of Brunswick-Wolfenbüttel and duke of Brunswick-Lüneburg and a military leader. His titles are usually shortened to Duke of Brunswick in English-language sources."
+
+SIC_CHARACTER_FERDINANDI:0 "Ferdinand I"
+SIC_FERDINANDI_DESC:0 "Ferdinand I was King of the Two Sicilies from 1816 until his death. Before that he had been, since 1759, King of Naples as Ferdinand IV and King of Sicily as Ferdinand III. He was deposed twice from the throne of Naples once by the revolutionary Parthenopean Republic for six months in 1799, and again by a French invasion in 1806, before being restored in 1815 at the end of the Napoleonic Wars."
+
+NAP_CHARACTER_FERDINANDI:0 "Ferdinand I"
+NAP_FERDINANDI_DESC:0 "Ferdinand I was King of the Two Sicilies from 1816 until his death. Before that he had been, since 1759, King of Naples as Ferdinand IV and King of Sicily as Ferdinand III. He was deposed twice from the throne of Naples once by the revolutionary Parthenopean Republic for six months in 1799, and again by a French invasion in 1806, before being restored in 1815 at the end of the Napoleonic Wars."
+
+TTS_CHARACTER_FERDINANDI:0 "Ferdinand I"
+TTS_FERDINANDI_DESC:0 "Ferdinand I was King of the Two Sicilies from 1816 until his death. Before that he had been, since 1759, King of Naples as Ferdinand IV and King of Sicily as Ferdinand III. He was deposed twice from the throne of Naples once by the revolutionary Parthenopean Republic for six months in 1799, and again by a French invasion in 1806, before being restored in 1815 at the end of the Napoleonic Wars."
+
+NAP_CHARACTER_JOSEPHBONAPARTE:0 "Joseph Bonaparte"
+NAP_JOSEPHBONAPARTE_DESC:0 "Joseph-Napoléon Bonaparte was a French statesman, lawyer, diplomat and older brother of Napoleon Bonaparte. During the Napoleonic Wars, the latter made him King of Naples (1806 1808), and then King of Spain (1808 1813). After the fall of Napoleon, Joseph styled himself Comte de Survilliers and emigrated to the United States, where he settled near Bordentown, New Jersey, on an estate overlooking the Delaware River not far from Philadelphia."
+
+NAP_CHARACTER_JOACHIMMURAT:0 "Joachim Murat"
+NAP_JOACHIMMURAT_DESC:0 "Joachim Murat was a French military commander and statesman who served during the French Revolutionary Wars and Napoleonic Wars. Under the French Empire he received the military titles of Marshal of the Empire and Admiral of France. He was the first Prince Murat, Grand Duke of Berg from 1806 to 1808, and King of Naples as Joachim-Napoleon from 1808 to 1815."
+
+TTS_CHARACTER_FRANCISI:0 "Francis I"
+TTS_FRANCISI_DESC:0 "Francis I of the Two Sicilies was King of the Two Sicilies from 1825 to 1830 and regent of the Kingdom of Sicily from 1806 to 1814."
+
+TTS_CHARACTER_FERDINANDII:0 "Ferdinand II"
+TTS_FERDINANDII_DESC:0 "Ferdinand II was King of the Two Sicilies from 1830 until his death in 1859."
+
+
+STR_CHARACTER_ADOLPHUSFREDERICKIV:0 "Adolphus Frederick IV"
+STR_ADOLPHUSFREDERICKIV_DESC:0 "Adolphus Frederick IV was Duke of Mecklenburg-Strelitz from 1752 to his death in 1794."
+
+STR_CHARACTER_CHARLESII:0 "Charles II"
+STR_CHARLESII_DESC:0 "Charles II was ruler of the state of Mecklenburg-Strelitz from 1794 until his death. Originally ruling as duke, he was raised to the rank of grand duke in 1815. Prior to succeeding to the throne, he served as Governor of Hanover from 1776 to 1786."
+
+STR_CHARACTER_GEORGE:0 "George"
+STR_GEORGE_DESC:0 "George ruled the state of Mecklenburg-Strelitz as Grand Duke of Mecklenburg from 1816 until his death."
+
+MEK_CHARACTER_FREDERICKFRANCISI:0 "Frederick Francis I"
+MEK_FREDERICKFRANCISI_DESC:0 "Frederick Francis I ruled over the German state of Mecklenburg-Schwerin, first as duke (1785–1815), and then as grand duke (1815–1837)."
+
+SAL_CHARACTER_HIERONYMUSVONCOLLOREDO:0 "Hieronymus von Colloredo"
+SAL_HIERONYMUSVONCOLLOREDO_DESC:0 "Hieronymus Joseph Franz de Paula Graf Colloredo von Wallsee und Melz was Prince-Bishop of Gurk from 1761 to 1772 and Prince-Archbishop of Salzburg from 1772 until 1803, when the prince-archbishopric was secularized. After secularization, Colloredo fled to Vienna and remained the non-resident archbishop of Salzburg, bereft of temporal power, until his death in 1812. He is most famously known as a patron and employer for Mozart."
+
+SAL_CHARACTER_FERDINANDIII:0 "Ferdinand III"
+SAL_FERDINANDIII_DESC:0 "Ferdinand III was Grand Duke of Tuscany from 1790 to 1801 and, after a period of disenfranchisement, again from 1814 to 1824. He was also the Prince-elector and Grand Duke of Salzburg (1803–1805) and Duke and Elector (to 1806, Grand Duke from 1806) of Würzburg (1805–1814)."
+
+WRZ_CHARACTER_FERDINANDIII:0 "Ferdinand III"
+WRZ_FERDINANDIII_DESC:0 "Ferdinand III was Grand Duke of Tuscany from 1790 to 1801 and, after a period of disenfranchisement, again from 1814 to 1824. He was also the Prince-elector and Grand Duke of Salzburg (1803–1805) and Duke and Elector (to 1806, Grand Duke from 1806) of Würzburg (1805–1814)."
+
+WRZ_CHARACTER_CHRIS:0 "Christoph Franz von Buseck"
+WRZ_CHRIS_DESC:0 "Christoph Franz von Buseck was the Roman Catholic bishop of Bamberg and the last Prince-Bishop of Bamberg."
+
+WRZ_CHARACTER_FRANZ:0 "Franz Ludwig von Erthal"
+WRZ_FRANZ_DESC:0 "Franz Ludwig Freiherr von Erthal was the Prince-bishop of Würzburg and Bamberg from 1779 until his death. He was buried at the Würzburg Cathedral."
+
+BAM_CHARACTER_CHRIS:0 "Christoph Franz von Buseck"
+BAM_CHRIS_DESC:0 "Christoph Franz von Buseck was the Roman Catholic bishop of Bamberg and the last Prince-Bishop of Bamberg."
+
+BAM_CHARACTER_FRANZ:0 "Franz Ludwig von Erthal"
+BAM_FRANZ_DESC:0 "Franz Ludwig Freiherr von Erthal was the Prince-bishop of Würzburg and Bamberg from 1779 until his death. He was buried at the Würzburg Cathedral."
+
+TOS_CHARACTER_LOUISI:0 "Louis I"
+TOS_LOUISI_DESC:0 "Louis I was the first of the two kings of Etruria. Louis was the son of Ferdinand, Duke of Parma, and Maria Amalia of Austria. He was born in 1773, when his great-grandfather, King Louis XV of France, was still alive."
+
+TOS_CHARACTER_CHARLESII:0 "Charles Louis"
+TOS_CHARLESII_DESC:0 "Charles Louis was King of Etruria (1803–1807; reigned as Louis II), Duke of Lucca (1824–1847; reigned as Charles Louis), and Duke of Parma (1847–1849; reigned as Charles II)."
+
+COR_CHARACTER_GILBERT:0 "The Earl of Minto"
+COR_GILBERT_DESC:0 "Gilbert Elliot-Murray-Kynynmound, 1st Earl of Minto, was a British diplomat and politician who sat in the House of Commons between 1776 and 1795. He was viceroy of the short-lived Anglo-Corsican Kingdom from 1794 to 1796 and went on to become Governor-General of India between July 1807 and 1813."
+
+
+
+
+
+
+
+
+TOS_CHARACTER_FERDINANDIII:0 "Ferdinand III"
+TOS_FERDINANDIII_DESC:0 "Ferdinand III was Grand Duke of Tuscany from 1790 to 1801 and, after a period of disenfranchisement, again from 1814 to 1824. He was also the Prince-elector and Grand Duke of Salzburg (1803–1805) and Duke and Elector (to 1806, Grand Duke from 1806) of Würzburg (1805–1814)."
+
+TOS_CHARACTER_LEOPOLDI:0 "Leopold I"
+TOS_LEOPOLDI_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and Bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him one of the most shrewd and sensible monarchs ever to wear a crown."
+
+TOS_CHARACTER_LEOPOLDII:0 "Leopold II"
+TOS_LEOPOLDII_DESC:0 "Leopold II was Grand Duke of Tuscany from 1824 to 1859. He married twice; first to Maria Anna of Saxony, and after her death in 1832, to Maria Antonia of the Two-Sicilies. By the latter, he begat his eventual successor, Ferdinand. Leopold was recognised contemporarily as a liberal monarch, authorising the Tuscan Constitution of 1848, and allowing a degree of press freedom."
+
+BAY_CHARACTER_CHARLESTHEODORE:0 "Charles Theodore"
+BAY_CHARLESTHEODORE_DESC:0 "Charles Theodore was a German nobleman of the Sulzbach branch of the House of Wittelsbach. He became Count Palatine of Sulzbach from his father Johann Christian in 1733, at the age of six. With the death of his cousin, Charles III Philip, he became Prince-elector and Count Palatine of the Rhine in 1742, being eighteen. In his fifties, he became Prince-Elector of Bavaria at the death of another cousin, Maximilian III Joseph, in 1777."
+
+BAY_CHARACTER_MAXIMILIANIJOSEPH:0 "Maximilian I Joseph"
+BAY_MAXIMILIANIJOSEPH_DESC:0 "Maximilian I was Duke of Zweibrücken from 1795 to 1799, prince-elector of Bavaria from 1799 to 1806, then King of Bavaria from 1806 to 1825. He was a member of the House of Palatinate-Birkenfeld-Zweibrücken, a branch of the House of Wittelsbach."
+
+JUL_CHARACTER_CHARLESTHEODORE:0 "Charles Theodore"
+JUL_CHARLESTHEODORE_DESC:0 "Charles Theodore was a German nobleman of the Sulzbach branch of the House of Wittelsbach. He became Count Palatine of Sulzbach from his father Johann Christian in 1733, at the age of six. With the death of his cousin, Charles III Philip, he became Prince-elector and Count Palatine of the Rhine in 1742, being eighteen. In his fifties, he became Prince-Elector of Bavaria at the death of another cousin, Maximilian III Joseph, in 1777."
+
+JUL_CHARACTER_MAXIMILIANIJOSEPH:0 "Maximilian I Joseph"
+JUL_MAXIMILIANIJOSEPH_DESC:0 "Maximilian I was Duke of Zweibrücken from 1795 to 1799, prince-elector of Bavaria from 1799 to 1806, then King of Bavaria from 1806 to 1825. He was a member of the House of Palatinate-Birkenfeld-Zweibrücken, a branch of the House of Wittelsbach."
+
+BRG_CHARACTER_CHARLESTHEODORE:0 "Charles Theodore"
+BRG_CHARLESTHEODORE_DESC:0 "Charles Theodore was a German nobleman of the Sulzbach branch of the House of Wittelsbach. He became Count Palatine of Sulzbach from his father Johann Christian in 1733, at the age of six. With the death of his cousin, Charles III Philip, he became Prince-elector and Count Palatine of the Rhine in 1742, being eighteen. In his fifties, he became Prince-Elector of Bavaria at the death of another cousin, Maximilian III Joseph, in 1777."
+
+BRG_CHARACTER_MAXIMILIANIJOSEPH:0 "Maximilian I Joseph"
+BRG_MAXIMILIANIJOSEPH_DESC:0 "Maximilian I was Duke of Zweibrücken from 1795 to 1799, prince-elector of Bavaria from 1799 to 1806, then King of Bavaria from 1806 to 1825. He was a member of the House of Palatinate-Birkenfeld-Zweibrücken, a branch of the House of Wittelsbach."
+
+PFZ_CHARACTER_CHARLESTHEODORE:0 "Charles Theodore"
+PFZ_CHARLESTHEODORE_DESC:0 "Charles Theodore was a German nobleman of the Sulzbach branch of the House of Wittelsbach. He became Count Palatine of Sulzbach from his father Johann Christian in 1733, at the age of six. With the death of his cousin, Charles III Philip, he became Prince-elector and Count Palatine of the Rhine in 1742, being eighteen. In his fifties, he became Prince-Elector of Bavaria at the death of another cousin, Maximilian III Joseph, in 1777."
+
+PFZ_CHARACTER_MAXIMILIANIJOSEPH:0 "Maximilian I Joseph"
+PFZ_MAXIMILIANIJOSEPH_DESC:0 "Maximilian I was Duke of Zweibrücken from 1795 to 1799, prince-elector of Bavaria from 1799 to 1806, then King of Bavaria from 1806 to 1825. He was a member of the House of Palatinate-Birkenfeld-Zweibrücken, a branch of the House of Wittelsbach."
+
+ZWE_CHARACTER_CHARLESIIAUGUST:0 "Charles II August"
+ZWE_CHARLESIIAUGUST_DESC:0 "Charles II August Christian was Duke of Zweibrücken from 1775 to 1795. A member of the Palatine House of Zweibrücken-Birkenfeld, a branch of the House of Wittelsbach, he was the elder brother of the first King of Bavaria, Maximilian I, and of Queen Amalia of Saxony."
+
+ZWE_CHARACTER_MAXIMILIANIJOSEPH:0 "Maximilian I Joseph"
+ZWE_MAXIMILIANIJOSEPH_DESC:0 "Maximilian I was Duke of Zweibrücken from 1795 to 1799, prince-elector of Bavaria from 1799 to 1806, then King of Bavaria from 1806 to 1825. He was a member of the House of Palatinate-Birkenfeld-Zweibrücken, a branch of the House of Wittelsbach."
+
+BAY_CHARACTER_LUDWIGI:0 "Ludwig I"
+BAY_LUDWIGI_DESC:0 "Ludwig I was King of Bavaria from 1825 until the 1848 revolutions in the German states. When he was crown prince, he was involved in the Napoleonic Wars. As king, he encouraged Bavaria's industrialization, initiating the Ludwig Canal between the rivers Main and the Danube. In 1835, the first German railway was constructed in his domain, between the cities of Fürth and Nuremberg, with his Bavaria joining the Zollverein economic union in 1834. After the July Revolution of 1830 in France, Ludwig's previous liberal policy became increasingly repressive; in 1844, Ludwig was confronted during the Beer riots in Bavaria. During the revolutions of 1848 the king faced increasing protests and demonstrations by students and the middle classes. On 20 March 1848, he abdicated in favour of his eldest son, Maximilian."
+
+BRG_CHARACTER_LUDWIGI:0 "Ludwig I"
+BRG_LUDWIGI_DESC:0 "Ludwig I was King of Bavaria from 1825 until the 1848 revolutions in the German states. When he was crown prince, he was involved in the Napoleonic Wars. As king, he encouraged Bavaria's industrialization, initiating the Ludwig Canal between the rivers Main and the Danube. In 1835, the first German railway was constructed in his domain, between the cities of Fürth and Nuremberg, with his Bavaria joining the Zollverein economic union in 1834. After the July Revolution of 1830 in France, Ludwig's previous liberal policy became increasingly repressive; in 1844, Ludwig was confronted during the Beer riots in Bavaria. During the revolutions of 1848 the king faced increasing protests and demonstrations by students and the middle classes. On 20 March 1848, he abdicated in favour of his eldest son, Maximilian."
+
+JUL_CHARACTER_LUDWIGI:0 "Ludwig I"
+JUL_LUDWIGI_DESC:0 "Ludwig I was King of Bavaria from 1825 until the 1848 revolutions in the German states. When he was crown prince, he was involved in the Napoleonic Wars. As king, he encouraged Bavaria's industrialization, initiating the Ludwig Canal between the rivers Main and the Danube. In 1835, the first German railway was constructed in his domain, between the cities of Fürth and Nuremberg, with his Bavaria joining the Zollverein economic union in 1834. After the July Revolution of 1830 in France, Ludwig's previous liberal policy became increasingly repressive; in 1844, Ludwig was confronted during the Beer riots in Bavaria. During the revolutions of 1848 the king faced increasing protests and demonstrations by students and the middle classes. On 20 March 1848, he abdicated in favour of his eldest son, Maximilian."
+
+BAD_CHARACTER_CHARLESFREDERICK:0 "Charles Frederick"
+BAD_CHARLESFREDERICK_DESC:0 "Charles Frederick was Margrave, Elector and later Grand Duke of Baden (initially only Margrave of Baden-Durlach) from 1738 until his death."
+BAD_CHARACTER_CHARLES:0 "Charles"
+BAD_CHARLES_DESC:0 "Charles was Grand Duke of Baden from 11 June 1811 until his death in 1818. He was born in Karlsruhe."
+BAD_CHARACTER_LOUISI:0 "Louis I"
+BAD_LOUISI_DESC:0 "Ludwig I succeeded as Grand Duke of Baden on 8 December 1818. He was the uncle of his predecessor Karl Ludwig Friedrich, and his death marked the end of the Zähringen line of the House of Baden. He was succeeded by his half brother, Leopold."
+BAD_CHARACTER_LEOPOLD:0 "Leopold"
+BAD_LEOPOLD_DESC:0 "Leopold succeeded in 1830 as the Grand Duke of Baden, reigning until his death in 1852."
+
+WUR_CHARACTER_CHARLESEUGENE:0 "Charles Eugene"
+WUR_CHARLESEUGENE_DESC:0 "Charles Eugene was the Duke of Württemberg, and the eldest son, and successor, of Charles Alexander; his mother was Princess Marie Auguste of Thurn and Taxis."
+WUR_CHARACTER_LOUISEUGEN:0 "Louis Eugen"
+WUR_LOUISEUGEN_DESC:0 "Ludwig Eugen, Duke of Württemberg was the reigning Duke of Württemberg from 1793 until his death in 1795."
+WUR_CHARACTER_FREDERICKIIEUGENE:0 "Frederick II Eugene"
+WUR_FREDERICKIIEUGENE_DESC:0 "Friedrich Eugen, was the fourth son of Karl Alexander, Duke of Württemberg, and Princess Maria Augusta of Thurn and Taxis. He was born in Stuttgart. From 1795 until 1797 he was Duke of Württemberg."
+WUR_CHARACTER_FREDERICKI:0 "Frederick I"
+WUR_FREDERICKI_DESC:0 "Frederick I was the ruler of Württemberg from 1797 to his death. He was the last Duke of Württemberg from 1797 to 1803, then the first and only Elector of Württemberg from 1803 to 1806, before raising Württemberg to a kingdom in 1806 with the approval of Napoleon I. He was known for his size, at 2.12 m (6 ft 11 in) and about 200 kg (440 lb)."
+WUR_CHARACTER_WILLIAMI:0 "William I"
+WUR_WILLIAMI_DESC:0 "William I was King of Württemberg from 30 October 1816 until his death."
+
+HES_CHARACTER_LOUISIX:0 "Louis IX"
+HES_LOUISIX_DESC:0 "Louis IX of Hesse-Darmstadt was Landgrave of Hesse-Darmstadt from 1768 to 1790."
+HES_CHARACTER_LOUISI:0 "Louis I"
+HES_LOUISI_DESC:0 "Louis I, Grand Duke of Hesse was Landgrave of Hesse-Darmstadt and later the first Grand Duke of Hesse and by Rhine."
+HES_CHARACTER_LOUISII:0 "Louis II"
+HES_LOUISII_DESC:0 "Louis II was Grand Duke of Hesse and by Rhine from 6 April 1830 until 16 June 1848. He was the son of Louis I, Grand Duke of Hesse, and Princess Louise of Hesse-Darmstadt."
+
+HSE_CHARACTER_WILLIAMI:0 "William I"
+HSE_WILLIAMI_DESC:0 "William I, Elector of Hesse was the eldest surviving son of Frederick II, Landgrave of Hesse-Kassel and Princess Mary of Great Britain, the daughter of George II."
+HSE_CHARACTER_WILLIAMII:0 "William II"
+HSE_WILLIAMII_DESC:0 "William II was the penultimate Elector of Hesse.[1]"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MEX_CHARACTER_MIGUEL:0 "Miguel Barragán"
+MEX_MIGUEL_DESC:0 "Miguel Francisco Barragán Andrade was a Mexican soldier and politician who served as interim president of Mexico in 1836. He had previously served as Governor of Veracruz, and gained national fame for the capture of the Fortress of San Juan de Ulúa in 1824, through which Spanish military presence was finally expelled from Mexico.""
+
+CAF_CHARACTER_FRANCISCO:0 "Francisco Morazán"
+CAF_FRANCISCO_DESC:0 "José Francisco Morazán Quesada was a liberal Central American politician and general who served as president of the Federal Republic of Central America from 1830 to 1839. Before he was president of Central America he was the head of state of Honduras. He rose to prominence at the Battle of La Trinidad on November 11, 1827. Morazán then dominated the political and military scene of Central America until his execution in 1842."
+
+LIE_CHARACTER_CESAR:0 "César-Constantin-François de Hoensbroeck"
+LIE_CESAR_DESC:0 "César-Constantin-François de Hoensbroeck was a German ecclesiastic of the Van Hoensbroeck family, most notable as prince-bishop of Liège from 1784 to 1792, in which post he was nicknamed the red executioner."
+
+LIE_CHARACTER_FRANCOIS:0 "François Antoine Marie Constantin de Méan et de Beaurieux"
+LIE_FRANCOIS_DESC:0 "François Antoine Marie Constantin de Méan et de Beaurieux was Archbishop of Mechelen, Belgium."
+
+LCT_CHARACTER_ALOYSI:0 "Aloys I"
+LCT_ALOYSI_DESC:0 "Aloys I was the Prince of Liechtenstein from 18 August 1781 until his death in 1805. He was born in Vienna, the third son of Franz Josef I, Prince of Liechtenstein."
+
+LCT_CHARACTER_JOHANNIJOSEPH:0 "Johann I Joseph"
+LCT_JOHANNIJOSEPH_DESC:0 "Johann I Joseph was Prince of Liechtenstein between 1805 and 1806 and again from 1814 until 1836. He was the last Liechtenstein prince to rule under the Holy Roman Empire between 1805 and 1806 and as regent of Liechtenstein from 1806 until 1814. He was the fourth son of Franz Joseph I, Prince of Liechtenstein."
+
+OTO_CHARACTER_ABDULHAMIDI:0 "Abdul Hamid I"
+OTO_ABUDLHAMIDI_DESC:0 "Abdulhamid was the 27th sultan of the Ottoman Empire from 1774 to 1789."
+
+OTO_CHARACTER_SELIMIII:0 "Selim III"
+OTO_SELIMIII_DESC:0 "Selim III was the sultan of the Ottoman Empire from 1789 to 1807. Regarded as an enlightened ruler, he was eventually deposed and imprisoned by the Janissaries, who placed his cousin Mustafa on the throne as Mustafa IV. A group of assassins subsequently killed Selim."
+
+OTO_CHARACTER_MUSTAFAIV:0 "Mustafa IV"
+OTO_MUSTAFAIV_DESC:0 "Mustafa IV was the sultan of the Ottoman Empire from 1807 to 1808."
+
+OTO_CHARACTER_MAHMUDII:0 "Mahmud II"
+OTO_MAHMUDII_DESC:0 "Mahmud II was the sultan of the Ottoman Empire from 1808 until his death in 1839. Often described as Peter the Great of Turkey, Mahmud instituted extensive administrative, military, and fiscal reforms which culminated in the Decree of Tanzimat that was carried out by his successors. His disbandment of the conservative Janissary corps removed a major obstacle to his and his successors' reforms in the Empire. Mahmud's reign was also marked by further Ottoman military defeat and loss of territory as a result of nationalist uprisings and European intervention."
+
+PER_CHARACTER_JAFARKHAN:0 "Jafar Khan"
+PER_JAFARKHAN_DESC:0 "Jafar Khan Zand,  was the seventh shah of the Zand dynasty of Iran from 1785 to 1789. He was the son of Sadiq Khan Zand, who was removed from the throne in Shiraz by Ali Murad Khan, who had previously taken Isfahan for himself."
+
+PER_CHARACTER_LOTFALIKHAN:0 "Lotf Ali Khan"
+PER_LOTFALIKHAN_DESC:0 "Lotf Ali Khan was the last Shah of the Zand dynasty. He ruled from 1789 to 1794."
+
+PER_CHARACTER_AGHAMOHAMMADKHANQAJAR:0 "Agha Mohammad Khan Qajar"
+PER_AGHAMOHAMMADKHANQAJAR_DESC:0 "Agha Mohammad Khan Qajar was the founder of the Qajar dynasty of Iran, ruling from 1789 to 1797 as Shah. Originally a chieftain of the Quwanlu branch of the Qajar tribe, Agha Mohammad Khan was enthroned as the king of Iran in 1789, but was not officially crowned until March 1796, having deposed Lotf Ali Khan of the Zand dynasty in 1794. He was assassinated on 17 June 1797, and was succeeded by his nephew, Fath-Ali Shah Qajar."
+
+PER_CHARACTER_FATHALISHAHQAJAR:0 "Fath-Ali Shah Qajar"
+PER_FATHALISHAHQAJAR_DESC:0 "Fath-Ali Shah Qajar was the second Shah of Qajar Iran. He reigned from 17 June 1797 until his death on 24 October 1834. His reign saw the irrevocable ceding of Iran's northern territories in the Caucasus, comprising what is nowadays Georgia, Dagestan, Azerbaijan, and Armenia, to the Russian Empire following the Russo-Persian Wars of 1804–1813 and 1826–1828 and the resulting treaties of Gulistan and Turkmenchay. Historian Joseph M. Upton says that he is famous among Iranians for three things his exceptionally long beard, his wasp-like waist, and his progeny."
+
+PER_CHARACTER_MOHAMMADSHAHQAJAR:0 "Mohammad Shah Qajar"
+PER_MOHAMMADSHAHQAJAR_DESC:0 "Mohammad Shah was the third Qajar shah of Iran from 1834 to 1848, inheriting the throne from his grandfather, Fath-Ali Shah. From a young age, Mohammad Mirza was under the tutelage of Haji Mirza Aqasi, a local dervish from Tabriz whose teachings influenced the young prince to become a Sufi-king later in his life. After his father Abbas Mirza died in 1833, Mohammad Mirza became the crown prince of Iran and was assigned with the governorship of Azarbaijan. After the death of Fath-Ali Shah in 1834, some of his sons including Hossein Ali Mirza and Ali Mirza Zel as-Soltan rose up as claimants to the throne. With the support of English and Russian forces, Mohammad Shah suppressed the rebellious princes and asserted his authority."
+
+SPM_CHARACTER_VICTORAMADEUSIII:0 "Victor Amadeus III"
+SPM_VICTORAMADEUSIII_DESC:0 "Victor Amadeus III was King of Sardinia and ruler of the Savoyard states from 20 February 1773 to his death in 1796. Although he was politically conservative, he carried out numerous administrative reforms until he declared war on Revolutionary France in 1792. He was the father of the last three mainline Kings of Sardinia."
+
+SPM_CHARACTER_CHARLESEMMANUELIV:0 "Charles Emmanuel IV"
+SPM_CHARLESEMMANUELIV_DESC:0 "Charles Emmanuel IV was King of Sardinia and ruler of the Savoyard states from 16 October 1796 until 1802, when he abdicated in favour of his brother Victor Emmanuel I."
+
+SPM_CHARACTER_VICTOREMMANUELI:0 "Victor Emmanuel I"
+SPM_VICTOREMMANUELI_DESC:0 "Victor Emmanuel I was the Duke of Savoy, King of Sardinia and ruler of the Savoyard states from 4 June 1802 until his reign ended in 1821 upon abdication due to a liberal revolution. Shortly thereafter, his brother Charles Felix ascended the throne as the new King of Sardinia. Victor Emmanuel was the son of King Victor Amadeus III of Sardinia and his wife, Maria Antonia Ferdinanda of Spain. In 1789, he married Maria Theresa of Austria-Este, with whom he had seven children, including the future Empress of Austria. He was the King of Sardinia during the Napoleonic Wars, where he regained Piedmont after Napoleon's defeat in 1814."
+
+SPM_CHARACTER_CHARLESFELIX:0 "Charles Felix"
+SPM_CHARLESFELIX_DESC:0 "Charles Felix was the King of Sardinia and ruler of the Savoyard states from 12 March 1821 until his death in 1831. He was the last male-line member of the House of Savoy that started with Victor Amadeus I of Savoy, and caused the line of Victor Amadeus I's younger brother Thomas Francis, Prince of Carignano to seize the throne after Felix's death."
+
+SPM_CHARACTER_CHARLESALBERT:0 "Charles Albert"
+SPM_CHARLESALBERT_DESC:0 "Charles Albert was the King of Sardinia and ruler of the Savoyard state from 27 April 1831 until his abdication in 1849. His name is bound up with the first Italian constitution, the Albertine Statute, and with the First Italian War of Independence (1848–1849)."
+
+IME_CHARACTER_SOLOMONII:0 "Solomon II"
+IME_SOLOMONII_DESC:0 "Solomon II of the Bagrationi dynasty, was the last king of Imereti from 1789 to 1790 and from 1792 until his deposition by the Imperial Russian government in 1810."
+
+IME_CHARACTER_DAVIDII:0 "David II"
+IME_DAVIDII_DESC:0 "David II was king of Imereti from 1784 to 1789 and from 1790 to 1791."
+
+
+GEO_CHARACTER_HERACLIUSII:0 "Heraclius II"
+GEO_HERACLIUSII_DESC:0 "Heraclius II was a Georgian monarch of the Bagrationi dynasty, reigning as the king of Kakheti from 1744 to 1762, and of Kartli and Kakheti from 1762 until 1798."
+
+GEO_CHARACTER_GEORGEXII:0 "George XII"
+GEO_GEORGEXII_DESC:0 "George XII of the House of Bagrationi, was the second and last king of the Kingdom of Kartl-Kakheti in eastern Georgia from 1798 until his death in 1800."
+
+SER_CHARACTER_KARADORDE:0 "Karađorđe"
+SER_KARADORDE_DESC:0 "Đorđe Petrović was a Serbian revolutionary who led the struggle for his country's independence from the Ottoman Empire during the First Serbian Uprising. He held the title of Grand Vožd of Serbia from 15 February 1804 - 21 September 1813."
+
+SER_CHARACTER_MILOSOBRENOVICI:0 "Miloš Obrenović I"
+SER_MILOSOBRENOVICI_DESC:0 "Miloš Obrenović was the Prince of Serbia twice, from 1815 to 1839, and from 1858 to 1860. He was an eminent figure of the First Serbian uprising, the leader of the Second Serbian uprising, and the founder of the House of Obrenović. Under his rule, Serbia became an autonomous principality within the Ottoman Empire. Prince Miloš was an autocrat, consistently refusing to decentralize power, which gave rise to a strong internal opposition. Despite his humble background, he eventually became the most affluent man in Serbia and one of the wealthiest in the Balkan peninsula, possessing estates in Vienna, Serbia and Wallachia. During his rule, Miloš bought a certain number of estates and ships from the Ottomans and was also a prominent trader."
+
+MNT_CHARACTER_PETARIPETROVICNJEGOS:0 "Petar I Petrović-Njegoš" 
+MNT_PETARIPETROVICNJEGOS_DESC:0 "Petar I Petrović-Njegoš was the ruler of the Prince-Bishopric of Montenegro as the Metropolitan of Cetinje, and Exarch of the Serbian Orthodox Church in Montenegro. He was the most popular spiritual and military leader from the Petrović dynasty. During his long rule, Petar strengthened the state by uniting the often quarreling tribes, consolidating his control over Montenegrin lands, introducing the first laws in Montenegro. His rule prepared Montenegro for the subsequent introduction of modern institutions of the state taxes, schools and larger commercial enterprises. He was canonized by the Serbian Orthodox Church as Saint Peter of Cetinje."
+
+MNT_CHARACTER_PETARIIPETROVICNJEGOS:0 "Petar II Petrović-Njegoš"
+MNT_PETARIIPETROVICNJEGOS_DESC:0 "Petar II Petrović-Njegoš was a Prince-Bishop of Montenegro, poet and philosopher whose works are widely considered some of the most important in Montenegrin and Serbian literature."
+
+VRM_CHARACTER_THOMAS:0 "Thomas Chittenden"
+VRM_THOMAS_DESC:0 "Thomas Chittenden was an American politician from Vermont, who was a leader of the territory for nearly two decades. He was the state's first and third governor, serving from 1778 to 1789—when it was a largely unrecognized independent state called the Vermont Republic—and again from 1790 until his death. Vermont was admitted to the Union in 1791 as its 14th state."
+
+NWT_CHARACTER_ARTHUR:0 "Arthur St. Clair"
+NWT_ARTHUR_DESC:0 "Major-General Arthur St. Clair was a Scottish-born American military officer and politician. Born in Thurso, Caithness, he served in the British Army during the French and Indian War before settling in the Province of Pennsylvania. During the American Revolutionary War, he rose to the rank of major general in the Continental Army, but lost his command after a controversial retreat from Fort Ticonderoga."
+
+USA_CHARACTER_GEORGEWASHINGTON:0 "George Washington"
+USA_GEORGEWASHINGTON_DESC:0 "George Washington was an American Founding Father, military officer, and politician who served as the first president of the United States from 1789 to 1797. Appointed by the Second Continental Congress as commander of the Continental Army in 1775, Washington led Patriot forces to victory in the American Revolutionary War and then served as president of the Constitutional Convention in 1787, which drafted the current Constitution of the United States. Washington has thus become commonly known as the "Father of his Country"."
+
+USA_CHARACTER_JOHNADAMS:0 "John Adams"
+USA_JOHNADAMS_DESC:0 "John Adams was an American statesman, attorney, diplomat, writer, and Founding Father who served as the second president of the United States from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Great Britain. During the latter part of the Revolutionary War and in the early years of the new nation, he served the U.S. government as a senior diplomat in Europe. Adams was the first person to hold the office of vice president of the United States, serving from 1789 to 1797. He was a dedicated diarist and regularly corresponded with important contemporaries, including his wife and adviser Abigail Adams and his friend and political rival Thomas Jefferson."
+
+USA_CHARACTER_THOMASJEFFERSON:0 "Thomas Jefferson"
+USA_THOMASJEFFERSON_DESC:0 "Thomas Jefferson was an American statesman, diplomat, lawyer, architect, philosopher, and Founding Father who served as the third president of the United States from 1801 to 1809. He was the primary author of the Declaration of Independence. Following the American Revolutionary War and prior to becoming president in 1801, Jefferson was the nation's first U.S. secretary of state under George Washington and then the nation's second vice president under John Adams. Jefferson was a leading proponent of democracy, republicanism, and individual rights, and produced formative documents and decisions at the state, national, and international levels. His writings and advocacy for human rights, including freedom of thought, speech, and religion, served as substantial inspirations to the American Revolution and subsequent Revolutionary War in which the Thirteen Colonies succeeded in breaking from British America and establishing the United States as a sovereign nation."
+
+USA_CHARACTER_JAMESMADISON:0 "James Madison"
+USA_JAMESMADISON_DESC:0 "James Madison was an American statesman, diplomat, and Founding Father who served as the fourth president of the United States from 1809 to 1817. Madison was popularly acclaimed the "Father of the Constitution" for his pivotal role in drafting and promoting the Constitution of the United States and the Bill of Rights."
+
+USA_CHARACTER_JAMESMONROE:0 "James Monroe"
+USA_JAMESMONROE_DESC:0 "James Monroe was an American statesman, lawyer, diplomat, and Founding Father who served as the fifth president of the United States from 1817 to 1825, a member of the Democratic-Republican Party. He was the last Founding Father to serve as president as well as the last president of the Virginia dynasty. His presidency coincided with the Era of Good Feelings, concluding the First Party System era of American politics. He issued the Monroe Doctrine, a policy of limiting European colonialism in the Americas. Monroe previously served as governor of Virginia, a member of the United States Senate, U.S. ambassador to France and Britain, the seventh secretary of state, and the eighth secretary of war."
+
+USA_CHARACTER_JOHNQUINCYADAMS:0 "John Quincy Adams"
+USA_JOHNQUINCYADAMS_DESC:0 "John Quincy Adams was an American statesman, politician, diplomat, lawyer, and diarist who served as the sixth president of the United States, from 1825 to 1829. He previously served as the eighth United States secretary of state from 1817 to 1825. During his long diplomatic and political career, Adams served as an ambassador and also as a member of the United States Congress representing Massachusetts in both chambers. He was the eldest son of John Adams, who served as the second president of the United States from 1797 to 1801, and First Lady Abigail Adams. Initially a Federalist like his father, he won election to the presidency as a member of the Democratic-Republican Party, and later, in the mid-1830s, became affiliated with the Whig Party."
+
+USA_CHARACTER_ANDREWJACKSON:0 "Andrew Jackson"
+USA_ANDREWJACKSON_DESC:0 "Andrew Jackson was an American lawyer, planter, general, and statesman who served as the seventh president of the United States from 1829 to 1837. Before his presidency, he gained fame as a general in the U.S. Army and served in both houses of the U.S. Congress. Often praised as an advocate for ordinary Americans and for his work in preserving the union of states, Jackson has also been criticized for his racial policies, particularly his treatment of Native Americans."
+
+SPR_CHARACTER_CHARLESIV:0 "Charles IV"
+SPR_CHARLESIV_DESC:0 "Charles IV was King of Spain and ruler of the Spanish Empire from 1788 to 1808."
+
+SPR_CHARACTER_FERDINANDVII:0 "Ferdinand VII"
+SPR_FERDINANDVII_DESC:0 "Ferdinand VII was King of Spain during the early 19th century. He reigned briefly in 1808 and then again from 1813 to his death in 1833. Before 1813 he was known as the Desired and after as the Criminal King."
+
+SPR_CHARACTER_ISABELLAII:0 "Isabella II"
+SPR_ISABELLAII_DESC:0 "Isabella II was Queen of Spain from 1833 until her deposition in 1868. She is the only queen regnant in the history of unified Spain."
+
+PAP_CHARACTER_PIUSVI:0 "Pius VI"
+PAP_PIUSVI_DESC:0 "Pope Pius VI was head of the Catholic Church and ruler of the Papal States from 15 February 1775 to his death in August 1799."
+
+PAP_CHARACTER_PIUSVII:0 "Pius VII"
+PAP_PIUSVII_DESC:0 "Pope Pius VII was head of the Catholic Church from 14 March 1800 to his death in August 1823. He ruled the Papal States from June 1800 to 17 May 1809 and again from 1814 to his death. Chiaramonti was also a monk of the Order of Saint Benedict in addition to being a well-known theologian and bishop."
+
+PAP_CHARACTER_PIUSVIII:0 "Pius VIII"
+PAP_PIUSVIII_DESC:0 "Pope Pius VIII was head of the Catholic Church and ruler of the Papal States from 31 March 1829 to his death in November 1830."
+
+PAP_CHARACTER_PIUSIX:0 "Pius IX"
+PAP_PIUSIX_DESC:0 "Pope Pius IX was head of the Catholic Church from 1846 to 1878. His reign of 32 years is the second longest of any pope in history, behind that of Saint Peter. He was notable for convoking the First Vatican Council in 1868 and for permanently losing control of the Papal States in 1870 to the Kingdom of Italy. Thereafter, he refused to leave Vatican City, declaring himself a "prisoner in the Vatican"."
+
+PAP_CHARACTER_LEOXII:0 "Leo XII"
+PAP_LEOXII_DESC:0 "Pope Leo XII was head of the Catholic Church and ruler of the Papal States from 28 September 1823 to his death in February 1829."
+
+PAP_CHARACTER_GREGORYXVI:0 "Gregory XVI"
+PAP_GREGORYXVI_DESC:0 "Pope Gregory XVI was head of the Catholic Church and ruler of the Papal States from 2 February 1831 to his death in June 1846. He had adopted the name Mauro upon entering the religious order of the Camaldolese."
+
+SWE_CHARACTER_ADLER:0 "Georg Adlersparre"
+
+SWE_CHARACTER_AUGUST:0 "Charles August"
+
+NOR_CHARACTER_AUGUST:0 "Charles August"
+
+SWE_CHARACTER_GUSTAVIII:0 "Gustav III"
+SWE_GUSTAVIII_DESC:0 "Gustav III was King of Sweden from 1771 until his assassination in 1792. He was the eldest son of King Adolf Frederick and Queen Louisa Ulrika of Sweden."
+
+SWE_CHARACTER_GUSTAVIVADOLF:0 "Gustav IV Adolf"
+SWE_GUSTAVIVADOLF_DESC:0 "Gustav IV Adolf was King of Sweden from 1792 until he was deposed in a coup in 1809. He was also the last Swedish monarch to be the ruler of Finland."
+
+SWE_CHARACTER_CHARLESXIII:0 "Charles XIII"
+SWE_CHARLESXIII_DESC:0 "Charles XIII was King of Sweden from 1809 and King of Norway from 1814 to his death. He was the second son (and younger brother to King Gustav III) of King Adolf Frederick of Sweden and Louisa Ulrika of Prussia, sister of Frederick the Great."
+
+SWE_CHARACTER_CHARLESXIVJOHN:0 "Charles XIV John"
+SWE_CHARLESXIVJOHN_DESC:0 "Charles XIV John was King of Sweden and Norway from 1818 until his death in 1844 and the first monarch of the Bernadotte dynasty. During the Napoleonic Wars, he participated in several battles as a Marshal of France."
+
+NOR_CHARACTER_GUSTAVIII:0 "Gustav III"
+NOR_GUSTAVIII_DESC:0 "Gustav III was King of Sweden from 1771 until his assassination in 1792. He was the eldest son of King Adolf Frederick and Queen Louisa Ulrika of Sweden."
+
+NOR_CHARACTER_GUSTAVIVADOLF:0 "Gustav IV Adolf"
+NOR_GUSTAVIVADOLF_DESC:0 "Gustav IV Adolf was King of Sweden from 1792 until he was deposed in a coup in 1809. He was also the last Swedish monarch to be the ruler of Finland."
+
+NOR_CHARACTER_CHARLESXIII:0 "Charles XIII"
+NOR_CHARLESXIII_DESC:0 "Charles XIII was King of Sweden from 1809 and King of Norway from 1814 to his death. He was the second son (and younger brother to King Gustav III) of King Adolf Frederick of Sweden and Louisa Ulrika of Prussia, sister of Frederick the Great."
+
+NOR_CHARACTER_CHARLESXIVJOHN:0 "Charles XIV John"
+NOR_CHARLESXIVJOHN_DESC:0 "Charles XIV John was King of Sweden and Norway from 1818 until his death in 1844 and the first monarch of the Bernadotte dynasty. During the Napoleonic Wars, he participated in several battles as a Marshal of France."
+
+COU_CHARACTER_PETERVONBIRON:0 "Peter von Biron"
+COU_PETERVONBIRON_DESC:0 "Peter von Biron was the last Duke of Courland and Semigallia, from 1769 to 1795."
+
+DEN_CHARACTER_CHRISTIANVII:0 "Christian VII"
+DEN_CHRISTIANVII_DESC:0 "Christian VII was King of Denmark and Norway and Duke of Schleswig and Holstein from 1766 until his death in 1808. His motto was Glory through love of the fatherland."
+
+DEN_CHARACTER_FREDERICKVI:0 "Frederick VI"
+DEN_FREDERICKVI_DESC:0 "Frederick VI was King of Denmark from 13 March 1808 until his death in 1839 and King of Norway from 13 March 1808 to 7 February 1814. He was the last king of Denmark–Norway. From 1784 until his accession, he served as regent during his father's mental illness and was referred to as the Crown Prince Regent. For his motto he chose God and the just cause and since the time of his reign, succeeding Danish monarchs have also chosen mottos in the Danish language rather than the formerly customary Latin."
+
+NOR_CHARACTER_FREDERICKVI:0 "Frederick VI"
+NOR_FREDERICKVI_DESC:0 "Frederick VI was King of Denmark from 13 March 1808 until his death in 1839 and King of Norway from 13 March 1808 to 7 February 1814. He was the last king of Denmark–Norway. From 1784 until his accession, he served as regent during his father's mental illness and was referred to as the Crown Prince Regent. For his motto he chose God and the just cause and since the time of his reign, succeeding Danish monarchs have also chosen mottos in the Danish language rather than the formerly customary Latin."
+
+SWE_CHARACTER_FREDERICKVI:0 "Frederick VI"
+SWE_FREDERICKVI_DESC:0 "Frederick VI was King of Denmark from 13 March 1808 until his death in 1839 and King of Norway from 13 March 1808 to 7 February 1814. He was the last king of Denmark–Norway. From 1784 until his accession, he served as regent during his father's mental illness and was referred to as the Crown Prince Regent. For his motto he chose God and the just cause and since the time of his reign, succeeding Danish monarchs have also chosen mottos in the Danish language rather than the formerly customary Latin."
+
+
+SXL_CHARACTER_CHRISTIANVII:0 "Christian VII"
+SXL_CHRISTIANVII_DESC:0 "Christian VII was King of Denmark and Norway and Duke of Schleswig and Holstein from 1766 until his death in 1808. His motto was Glory through love of the fatherland."
+
+SXL_CHARACTER_FREDERICKVI:0 "Frederick VI"
+SXL_FREDERICKVI_DESC:0 "Frederick VI was King of Denmark from 13 March 1808 until his death in 1839 and King of Norway from 13 March 1808 to 7 February 1814. He was the last king of Denmark–Norway. From 1784 until his accession, he served as regent during his father's mental illness and was referred to as the Crown Prince Regent. For his motto he chose God and the just cause and since the time of his reign, succeeding Danish monarchs have also chosen mottos in the Danish language rather than the formerly customary Latin."
+
+HLS_CHARACTER_CHRISTIANVII:0 "Christian VII"
+HLS_CHRISTIANVII_DESC:0 "Christian VII was King of Denmark and Norway and Duke of Schleswig and Holstein from 1766 until his death in 1808. His motto was Glory through love of the fatherland."
+
+HLS_CHARACTER_FREDERICKVI:0 "Frederick VI"
+HLS_FREDERICKVI_DESC:0 "Frederick VI was King of Denmark from 13 March 1808 until his death in 1839 and King of Norway from 13 March 1808 to 7 February 1814. He was the last king of Denmark–Norway. From 1784 until his accession, he served as regent during his father's mental illness and was referred to as the Crown Prince Regent. For his motto he chose God and the just cause and since the time of his reign, succeeding Danish monarchs have also chosen mottos in the Danish language rather than the formerly customary Latin."
+
+SHL_CHARACTER_CHRISTIANVII:0 "Christian VII"
+SHL_CHRISTIANVII_DESC:0 "Christian VII was King of Denmark and Norway and Duke of Schleswig and Holstein from 1766 until his death in 1808. His motto was Glory through love of the fatherland."
+
+SHL_CHARACTER_FREDERICKVI:0 "Frederick VI"
+SHL_FREDERICKVI_DESC:0 "Frederick VI was King of Denmark from 13 March 1808 until his death in 1839 and King of Norway from 13 March 1808 to 7 February 1814. He was the last king of Denmark–Norway. From 1784 until his accession, he served as regent during his father's mental illness and was referred to as the Crown Prince Regent. For his motto he chose God and the just cause and since the time of his reign, succeeding Danish monarchs have also chosen mottos in the Danish language rather than the formerly customary Latin."
+
+FIN_CHARACTER_GEORGMAGNUSSPRENGTPORTEN:0 "Georg Magnus Sprengtporten"
+FIN_GEORGMAGNUSSPRENGTPORTEN_DESC:0 ""
+
+FIN_CHARACTER_MICHAELANDREASBARCLAYDETOLLY:0 "Michael Andreas Barclay de Tolly"
+FIN_MICHAELANDREASBARCLAYDETOLLY_DESC:0 ""
+
+FIN_CHARACTER_FABIANSTEINHEIL:0 "Fabian Steinheil"
+FIN_FABIANSTEINHEIL_DESC:0 ""
+
+FIN_CHARACTER_ARSENYZAKREVSKY:0 "Arseny Zakrevsky"
+FIN_ARSENYZAKREVSKY_DESC:0 ""
+
+FIN_CHARACTER_ALEXANDERSERGEYEVICHMENSHIKOV:0 "Alexander Sergeyevich Menshikov"
+FIN_ALEXANDERSERGEYEVICHMENSHIKOV_DESC:0 ""
+
+AUS_CHARACTER_JOSEPHIIAUS:0 "Joseph II"
+AUS_JOSEPHIIAUS_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+AUS_CHARACTER_LEOPOLDIIAUS:0 "Leopold II"
+AUS_LEOPOLDIIAUS_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and Bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him one of the most shrewd and sensible monarchs ever to wear a crown."
+
+AUS_CHARACTER_FRANCISIIAUS:0 "Francis II"
+AUS_FRANCISIIAUS_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+AUS_CHARACTER_FERDINANDIAUS:0 "Ferdinand I"
+AUS_FERDINANDIAUS_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+HUN_CHARACTER_JOSEPHIIHUN:0 "Joseph II"
+HUN_JOSEPHIIHUN_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+HUN_CHARACTER_LEOPOLDIIHUN:0 "Leopold II"
+HUN_LEOPOLDIIHUN_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and Bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him "one of the most shrewd and sensible monarchs ever to wear a crown"."
+
+HUN_CHARACTER_FRANCISIIHUN:0 "Francis II"
+HUN_FRANCISIIHUN_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+HUN_CHARACTER_FERDINANDIHUN:0 "Ferdinand I"
+HUN_FERDINANDIHUN_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+BOH_CHARACTER_JOSEPHIIBOH:0 "Joseph II"
+BOH_JOSEPHIIBOH_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+BOH_CHARACTER_LEOPOLDIIBOH:0 "Leopold II"
+BOH_LEOPOLDIIBOH_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and Bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him "one of the most shrewd and sensible monarchs ever to wear a crown"."
+
+BOH_CHARACTER_FRANCISIIBOH:0 "Francis II"
+BOH_FRANCISIIBOH_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+BOH_CHARACTER_FERDINANDIBOH:0 "Ferdinand I"
+BOH_FERDINANDIBOH_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+MIL_CHARACTER_JOSEPHIIMIL:0 "Joseph II"
+MIL_JOSEPHIIMIL_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+MIL_CHARACTER_LEOPOLDIIMIL:0 "Leopold II"
+MIL_LEOPOLDIIMIL_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him "one of the most shrewd and sensible monarchs ever to wear a crown"."
+
+MIL_CHARACTER_FRANCISIIMIL:0 "Francis II"
+MIL_FRANCISIIMIL_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+MIL_CHARACTER_FERDINANDIMIL:0 "Ferdinand I"
+MIL_FERDINANDIMIL_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+MTU_CHARACTER_JOSEPHIIMTU:0 "Joseph II"
+MTU_JOSEPHIIMTU_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+MTU_CHARACTER_LEOPOLDIIMTU:0 "Leopold II"
+MTU_LEOPOLDIIMTU_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him "one of the most shrewd and sensible monarchs ever to wear a crown"."
+
+MTU_CHARACTER_FRANCISIIMTU:0 "Francis II"
+MTU_FRANCISIIMTU_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+MTU_CHARACTER_FERDINANDIMTU:0 "Ferdinand I"
+MTU_FERDINANDIMTU_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+LBV_CHARACTER_JOSEPHIILBV:0 "Joseph II"
+LBV_JOSEPHIILBV_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+LBV_CHARACTER_LEOPOLDIILBV:0 "Leopold II"
+LBV_LEOPOLDIILBV_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him "one of the most shrewd and sensible monarchs ever to wear a crown"."
+
+LBV_CHARACTER_FRANCISIILBV:0 "Francis II"
+LBV_FRANCISIILBV_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+LBV_CHARACTER_FERDINANDILBV:0 "Ferdinand I"
+LBV_FERDINANDILBV_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+VNT_CHARACTER_JOSEPHIIVNT:0 "Joseph II"
+VNT_JOSEPHIIVNT_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+VNT_CHARACTER_LEOPOLDIIVNT:0 "Leopold II"
+VNT_LEOPOLDIIVNT_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and Bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him "one of the most shrewd and sensible monarchs ever to wear a crown"."
+
+VNT_CHARACTER_FRANCISIIVNT:0 "Francis II"
+VNT_FRANCISIIVNT_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+VNT_CHARACTER_FERDINANDIVNT:0 "Ferdinand I"
+VNT_FERDINANDIVNT_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+GLL_CHARACTER_JOSEPHIIGLL:0 "Joseph II"
+GLL_JOSEPHIIGLL_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+GLL_CHARACTER_LEOPOLDIIGLL:0 "Leopold II"
+GLL_LEOPOLDIIGLL_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and Bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him "one of the most shrewd and sensible monarchs ever to wear a crown"."
+
+GLL_CHARACTER_FRANCISIIGLL:0 "Francis II"
+GLL_FRANCISIIGLL_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+GLL_CHARACTER_FERDINANDIGLL:0 "Ferdinand I"
+GLL_FERDINANDIGLL_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+BKV_CHARACTER_JOSEPHIIBKV:0 "Joseph II"
+BKV_JOSEPHIIBKV_DESC:0 "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg-Lorraine monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine."
+
+BKV_CHARACTER_LEOPOLDIIBKV:0 "Leopold II"
+BKV_LEOPOLDIIBKV_DESC:0 "Leopold II was the 44th Holy Roman Emperor, King of Hungary, Croatia and Bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism. He granted the Academy of Georgofili his protection. Unusually for his time, he opposed the death penalty and torture and abolished it in Tuscany on 30 November 1786 during his rule there, making it the first nation in modern history to do so. This act has been commemorated since 2000 by a regional custom known as the Feast of Tuscany, held every 30 November. Despite his brief reign, he is highly regarded. The historian Paul W. Schroeder called him "one of the most shrewd and sensible monarchs ever to wear a crown"."
+
+BKV_CHARACTER_FRANCISIIBKV:0 "Francis II"
+BKV_FRANCISIIBKV_DESC:0 "Francis II and I was the last Holy Roman Emperor as Francis II from 1792 to 1806, and the first Emperor of Austria as Francis I from 1804 to 1835. He was also King of Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815."
+
+BKV_CHARACTER_FERDINANDIBKV:0 "Ferdinand I"
+BKV_FERDINANDIBKV_DESC:0 "Ferdinand I was Emperor of Austria from March 1835 until his abdication in December 1848. He was also King of Hungary, Croatia and Bohemia (as Ferdinand V), King of Lombardy–Venetia and holder of many other lesser titles (see grand title of the Emperor of Austria). Due to his passive but well-intentioned character, he gained the sobriquet The Benign."
+
+IRE_CHARACTER_ELIZABETHI:0 "Elizabeth I"
+IRE_ELIZABETHI_DESC:0 "Elizabeth I was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last monarch of the House of Tudor."
+
+ENG_CHARACTER_ELIZABETHI:0 "Elizabeth I"
+ENG_ELIZABETHI_DESC:0 "Elizabeth I was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last monarch of the House of Tudor."
+
+ENG_CHARACTER_JAMESI:0 "James I"
+ENG_JAMESI_DESC:0 "James VI and I was King of Scotland as James VI from 24 July 1567 and King of England and Ireland as James I from the union of the Scottish and English crowns on 24 March 1603 until his death in 1625. Although he long tried to get both countries to adopt a closer political union, the kingdoms of Scotland and England remained sovereign states, with their own parliaments, judiciaries, and laws, ruled by James in personal union. He was the longest-reigning monarch of the Kingdom of Scotland."
+
+ENG_CHARACTER_CHARLESI:0 "Charles I"
+ENG_CHARLESI_DESC:0 "Charles I was King of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649."
+
+ENG_CHARACTER_CHARLESII:0 "Charles II"
+ENG_CHARLESII_DESC:0 "Charles II was King of Scotland from 1649 until 1651 and King of England, Scotland, and Ireland from the 1660 Restoration of the monarchy until his death in 1685."
+
+ENG_CHARACTER_JAMESII:0 "James II"
+ENG_JAMESII_DESC:0 "James VII and II was King of England and Ireland as James II and King of Scotland as James VII from the death of his elder brother, Charles II, on 6 February 1685. He was deposed in the Glorious Revolution of 1688. He was the last Catholic monarch of England, Scotland, and Ireland. His reign is now remembered primarily for conflicts over religious tolerance, but it also involved struggles over the principles of absolutism and the divine right of kings. His deposition ended a century of political and civil strife in England by confirming the primacy of the English Parliament over the Crown."
+
+IRE_CHARACTER_JAMESI:0 "James I"
+IRE_JAMESI_DESC:0 "James VI and I was King of Scotland as James VI from 24 July 1567 and King of England and Ireland as James I from the union of the Scottish and English crowns on 24 March 1603 until his death in 1625. Although he long tried to get both countries to adopt a closer political union, the kingdoms of Scotland and England remained sovereign states, with their own parliaments, judiciaries, and laws, ruled by James in personal union. He was the longest-reigning monarch of the Kingdom of Scotland."
+
+IRE_CHARACTER_CHARLESI:0 "Charles I"
+IRE_CHARLESI_DESC:0 "Charles I was King of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649."
+
+IRE_CHARACTER_CHARLESII:0 "Charles II"
+IRE_CHARLESII_DESC:0 "Charles II was King of Scotland from 1649 until 1651 and King of England, Scotland, and Ireland from the 1660 Restoration of the monarchy until his death in 1685."
+
+IRE_CHARACTER_JAMESII:0 "James II"
+IRE_JAMESII_DESC:0 "James VII and II was King of England and Ireland as James II and King of Scotland as James VII from the death of his elder brother, Charles II, on 6 February 1685. He was deposed in the Glorious Revolution of 1688. He was the last Catholic monarch of England, Scotland, and Ireland. His reign is now remembered primarily for conflicts over religious tolerance, but it also involved struggles over the principles of absolutism and the divine right of kings. His deposition ended a century of political and civil strife in England by confirming the primacy of the English Parliament over the Crown."
+
+SCO_CHARACTER_JAMESI:0 "James VI"
+SCO_JAMESI_DESC:0 "James VI and I was King of Scotland as James VI from 24 July 1567 and King of England and Ireland as James I from the union of the Scottish and English crowns on 24 March 1603 until his death in 1625. Although he long tried to get both countries to adopt a closer political union, the kingdoms of Scotland and England remained sovereign states, with their own parliaments, judiciaries, and laws, ruled by James in personal union. He was the longest-reigning monarch of the Kingdom of Scotland."
+
+SCO_CHARACTER_CHARLESI:0 "Charles I"
+SCO_CHARLESI_DESC:0 "Charles I was King of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649."
+
+SCO_CHARACTER_CHARLESII:0 "Charles II"
+SCO_CHARLESII_DESC:0 "Charles II was King of Scotland from 1649 until 1651 and King of England, Scotland, and Ireland from the 1660 Restoration of the monarchy until his death in 1685."
+
+SCO_CHARACTER_JAMESII:0 "James VII"
+SCO_JAMESII_DESC:0 "James VII and II was King of England and Ireland as James II and King of Scotland as James VII from the death of his elder brother, Charles II, on 6 February 1685. He was deposed in the Glorious Revolution of 1688. He was the last Catholic monarch of England, Scotland, and Ireland. His reign is now remembered primarily for conflicts over religious tolerance, but it also involved struggles over the principles of absolutism and the divine right of kings. His deposition ended a century of political and civil strife in England by confirming the primacy of the English Parliament over the Crown."
+
+IRE_CHARACTER_HENRYBENEDICT:0 "Henry Benedict"
+
+DNZ_CHARACTER_JEANRAPP:0 "Jean Rapp"
+DNZ_JEANRAPP_DESC:0 "General Count Jean Rapp was a French Army officer during the French Revolutionary Wars and the Napoleonic Wars and twice governor of the Free City of Danzig. He served as Aide-de-camp to French Generals Louis Desaix and later Napoleon Bonaparte, whose life he saved on multiple occasions."
+
+
+
+
+NIR_CHARACTER_GEORGEIIINIR:0 "George III"
+NIR_GEORGEIIINIR_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke English as his first language, and never visited Hanover."
+
+ENG_CHARACTER_GEORGEIIIENG:0 "George III"
+ENG_GEORGEIIIENG_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke English as his first language, and never visited Hanover."
+
+ENG_CHARACTER_GEORGEIVENG_DESC:0 "George IV"
+ENG_GEORGEIVENG_DESC_DESC:0 "George IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 29 January 1820 until his death in 1830. At the time of his accession to the throne, he was acting as prince regent for his father, King George III, having done so since 5 February 1811 during his father's final mental illness."
+
+ENG_CHARACTER_WILLIAMIVENG:0 "William IV"
+ENG_WILLIAMIVENG_DESC:0 "William IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 26 June 1830 until his death in 1837. The third son of George III, William succeeded his elder brother George IV, becoming the last king and penultimate monarch of Britain's House of Hanover."
+
+HAN_CHARACTER_GEORGEIIIHAN:0 "George III"
+HAN_GEORGEIIIHAN_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke HANlish as his first language, and never visited Hanover."
+
+HAN_CHARACTER_GEORGEIVHAN_DESC:0 "George IV"
+HAN_GEORGEIVHAN_DESC_DESC:0 "George IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 29 January 1820 until his death in 1830. At the time of his accession to the throne, he was acting as prince regent for his father, King George III, having done so since 5 February 1811 during his father's final mental illness."
+
+HAN_CHARACTER_WILLIAMIVHAN:0 "William IV"
+HAN_WILLIAMIVHAN_DESC:0 "William IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 26 June 1830 until his death in 1837. The third son of George III, William succeeded his elder brother George IV, becoming the last king and penultimate monarch of Britain's House of Hanover."
+
+PRE_CHARACTER_FREDERICKTHEGREAT:0 "Frederick the Great"
+PRE_FREDRICKTHEGREAT_DESC:0 "Frederick II was the monarch of Prussia from 1740 until 1786. He was the last Hohenzollern monarch titled King in Prussia, declaring himself King of Prussia after annexing Royal Prussia from the Polish–Lithuanian Commonwealth in 1772. His most significant accomplishments include his military successes in the Silesian wars, his reorganisation of the Prussian Army, the First Partition of Poland, and his patronage of the arts and the Enlightenment. Prussia greatly increased its territories and became a major military power in Europe under his rule. He became known as Frederick the Great and was nicknamed Old Fritz."
+
+PRE_CHARACTER_FREDERICKWILLIAMII:0 "Frederick William II"
+PRE_FREDRICKWILLIAMII_DESC:0 "Frederick William II was king of Prussia from 1786 until his death in 1797. He was in personal union with the prince elector of Brandenburg and (via the Orange Nassau inheritance of his grandfather) sovereign prince of the Canton of Neuchâtel. As a defensive reaction to the French Revolution, Frederick William II ended the German Dualism between Prussia and Austria. Domestically, he turned away from the enlightened style of government of his predecessor and introduced a tightened system of censorship and religious control. The king was an important patron of the arts especially in the field of music. As a skilled cellist he enjoyed the dedication of various cellocentric compositions by composers Mozart, Haydn, Boccherini and Beethoven. He was also responsible for some of the most notable architecture in Prussia, including the Brandenburg Gate in Berlin, the Marble Palace and Orangery in the New Garden, Potsdam."
+
+PRE_CHARACTER_FREDERICKWILLIAMIII:0 "Frederick William III"
+PRE_FREDRICKWILLIAMIII_DESC:0 "Frederick William III was King of Prussia from 16 November 1797 until his death in 1840. He was concurrently Elector of Brandenburg in the Holy Roman Empire until 6 August 1806, when the empire was dissolved. Frederick William III ruled Prussia during the times of the Napoleonic Wars. The king reluctantly joined the Sixth Coalition against Napoleon in the German Campaign of 1813. Following Napoleon's defeat, he took part in the Congress of Vienna, which assembled to settle the political questions arising from the new, postNapoleonic order in Europe. His primary interests were internal the reform of Prussia's Protestant churches. He was determined to unify the Protestant churches to homogenize their liturgy, organization, and architecture. The long term goal was to have fully centralized royal control of all the Protestant churches in the Prussian Union of Churches. The king was said to be extremely shy and indecisive. His wife Queen Louise (1776–1810) was his most important political advisor. She led a mighty group that included Baron Heinrich Friedrich Karl vom und zum Stein, Prince Karl August von Hardenberg, Gerhard von Scharnhorst, and Count August von Gneisenau. They set about reforming Prussia's administration, churches, finance, and military. He was the dedicatee of Beethoven's Ninth Symphony in 1824."
+
+POL_CHARACTER_PAWEL:0 "Jan Paweł Łuszczewski"
+POL_CHARACTER_FELIKS:0 "Feliks Łubieński"
+POL_CHARACTER_MARIA:0 "Maria Lanckorońska"
+POL_CHARACTER_KAZIMIERZ:0 "Kazimierz Krasiński"
+POL_CHARACTER_KATARZYNA:0 "Katarzyna Kossakowska"
+POL_CHARACTER_ANNA:0 "Anna Jabłonowska"
+POL_CHARACTER_LUDWIK:0 "Ludwik Szymon Gutakowski"
+POL_CHARACTER_JERZY:0 "Jan Jerzy Grabowski"
+POL_CHARACTER_ELEONORA:0 "Eleonora Czartoryska"
+POL_CHARACTER_ELZBIETA:0 "Elżbieta Branicka"
+POL_CHARACTER_JOZEF:0 "Józef Ankwicz"
+
+
+
+
+POL_CHARACTER_STANISLAWIIAUGUST:0 "Stanislaw II August"
+POL_STANISLAWIIAUGUST_DESC:0 "Stanisław II August was King of Poland and Grand Duke of Lithuania from 1764 to 1795, and the last monarch of the Polish–Lithuanian Commonwealth. Born into wealthy Polish aristocracy, Poniatowski arrived as a diplomat at the Russian imperial court in Saint Petersburg in 1755 at the age of 22 and became intimately involved with the future empress Catherine the Great. With her aid, he was elected King of Poland and Grand Duke of Lithuania by the Sejm in September 1764 following the death of Augustus III. Contrary to expectations, Poniatowski attempted to reform and strengthen the large but ailing Commonwealth. His efforts were met with external opposition from neighbouring Prussia, Russia and Austria, all committed to keeping the Commonwealth weak. From within he was opposed by conservative interests, which saw the reforms as a threat to their traditional liberties and privileges granted centuries earlier."
+
+POL_CHARACTER_FREDERICKAUGUSTUSIPOL:0 "Frederick Augustus I"
+POL_FREDERICKAUGUSTUSIPOL_DESC:0 "Frederick Augustus I was a member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.He was also Duke of Warsaw from 1807 to 1815."
+
+FRA_CHARACTER_LOUISXVI:0 "Louis XVI"
+FRA_LOUISXVI_DESC:0 "Louis XVI was the last king of France before the fall of the monarchy during the French Revolution."
+
+FRA_CHARACTER_NAPOLEON:0 "Napoleon"
+FRA_NAPOLEON_DESC:0 "Napoleon Bonaparte later known by his regnal name Napoleon I, was a French emperor and military commander who rose to prominence during the French Revolution and led successful campaigns during the Revolutionary Wars. He was the leader of the French Republic as First Consul from 1799 to 1804, then of the French Empire as Emperor of the French from 1804 until 1814, and briefly again in 1815. His political and cultural legacy endures as a celebrated and controversial leader. He initiated many enduring reforms, but has been criticized for his authoritarian rule. He is considered one of the greatest military commanders in history and his wars and campaigns are still studied at military schools worldwide. However, historians still debate the degree to which he was responsible for the Napoleonic Wars, in which between three and six million people died."
+
+FRA_CHARACTER_NAPOLEONI:0 "Napoleon I"
+FRA_NAPOLEONI_DESC:0 "Napoleon Bonaparte later known by his regnal name Napoleon I, was a French emperor and military commander who rose to prominence during the French Revolution and led successful campaigns during the Revolutionary Wars. He was the leader of the French Republic as First Consul from 1799 to 1804, then of the French Empire as Emperor of the French from 1804 until 1814, and briefly again in 1815. His political and cultural legacy endures as a celebrated and controversial leader. He initiated many enduring reforms, but has been criticized for his authoritarian rule. He is considered one of the greatest military commanders in history and his wars and campaigns are still studied at military schools worldwide. However, historians still debate the degree to which he was responsible for the Napoleonic Wars, in which between three and six million people died."
+
+ITA_CHARACTER_NAPOLEON:0 "Napoleon"
+ITA_NAPOLEON_DESC:0 "Napoleon Bonaparte later known by his regnal name Napoleon I, was a French emperor and military commander who rose to prominence during the French Revolution and led successful campaigns during the Revolutionary Wars. He was the leader of the French Republic as First Consul from 1799 to 1804, then of the French Empire as Emperor of the French from 1804 until 1814, and briefly again in 1815. His political and cultural legacy endures as a celebrated and controversial leader. He initiated many enduring reforms, but has been criticized for his authoritarian rule. He is considered one of the greatest military commanders in history and his wars and campaigns are still studied at military schools worldwide. However, historians still debate the degree to which he was responsible for the Napoleonic Wars, in which between three and six million people died."
+
+ITA_CHARACTER_NAPOLEONI:0 "Napoleon I"
+ITA_NAPOLEONI_DESC:0 "Napoleon Bonaparte later known by his regnal name Napoleon I, was a French emperor and military commander who rose to prominence during the French Revolution and led successful campaigns during the Revolutionary Wars. He was the leader of the French Republic as First Consul from 1799 to 1804, then of the French Empire as Emperor of the French from 1804 until 1814, and briefly again in 1815. His political and cultural legacy endures as a celebrated and controversial leader. He initiated many enduring reforms, but has been criticized for his authoritarian rule. He is considered one of the greatest military commanders in history and his wars and campaigns are still studied at military schools worldwide. However, historians still debate the degree to which he was responsible for the Napoleonic Wars, in which between three and six million people died."
+
+FRA_CHARACTER_LOUISXVIII:0 "Louis XVIII"
+FRA_LOUISXVIII_DESC:0 "Louis XVIII known as the Desired was King of France from 1814 to 1824, except for a brief interruption during the Hundred Days in 1815. He spent 23 years in exile from 1791 during the French Revolution and the First French Empire (1804–1814), and during the Hundred Days."
+
+FRA_CHARACTER_CHARLESX:0 "Charles X"
+FRA_CHARLESX_DESC:0 "Charles X was King of France from 16 September 1824 until 2 August 1830. An uncle of the uncrowned Louis XVII and younger brother of reigning kings Louis XVI and Louis XVIII, he supported the latter in exile. After the Bourbon Restoration in 1814, Charles (as heirpresumptive) became the leader of the ultraroyalists, a radical monarchist faction within the French court that affirmed absolute monarchy by divine right and opposed the constitutional monarchy concessions towards liberals and the guarantees of civil liberties granted by the Charter of 1814. Charles gained influence within the French court after the assassination of his son Charles Ferdinand, Duke of Berry, in 1820 and succeeded his brother Louis XVIII in 1824."
+
+FRA_CHARACTER_LOUISPHILIPPEI:0 "Louis Philippe I"
+FRA_LOUISPHILIPPEI_DESC:0 "Louis Philippe I nicknamed the Citizen King, was King of the French from 1830 to 1848, and the penultimate monarch of France. As Louis Philippe, Duke of Chartres, he distinguished himself commanding troops during the Revolutionary Wars and was promoted to lieutenant general by the age of nineteen, but he broke with the Republic over its decision to execute King Louis XVI. He fled to Switzerland in 1793 after being connected with a plot to restore France's monarchy. His father Louis Philippe II, Duke of Orléans (Philippe Égalité), fell under suspicion and was executed during the Reign of Terror."
+
+
+
+POR_CHARACTER_MARIAII:0 "Maria II"
+POR_MARIAII_DESC:0 "Dona Maria II "the Educator" or "the Good Mother" was Queen of Portugal from 1826 to 1828, and again from 1834 to 1853."
+
+POR_CHARACTER_MIGUELI:0 "Miguel I"
+POR_MIGUELI_DESC:0 "Dom Miguel I nicknamed "the Absolutist" "the Traditionalist" and "the Usurper" was the King of Portugal between 1828 and 1834. He was the seventh child and third son of King John VI and Queen Carlota Joaquina."
+
+POR_CHARACTER_PEDROI:0 "Pedro I"
+POR_PEDROI_DESC:0 "Dom Pedro I was the founder and first ruler of the Empire of Brazil, where he was known as "the Liberator". As King Dom Pedro IV, he reigned briefly over Portugal, where he also became known as "the Liberator" as well as "the Soldier King". Born in Lisbon, Pedro I was the fourth child of King Dom John VI of Portugal and Queen Carlota Joaquina, and thus a member of the House of Braganza. When the country was invaded by French troops in 1807, he and his family fled to Portugal's largest and wealthiest colony, Brazil."
+
+POR_CHARACTER_JOHNVI:0 "John VI"
+POR_JOHNVI_DESC:0 "Dom John VI nicknamed "the Clement", was King of the United Kingdom of Portugal, Brazil and the Algarves from 1816 to 1825. Although the United Kingdom of Portugal ceased to exist de facto beginning in 1822, he remained its monarch de jure between 1822 and 1825. After the recognition of the independence of Brazil under the Treaty of Rio de Janeiro of 1825, he continued as King of Portugal until his death in 1826. Under the same treaty, he also became titular Emperor of Brazil for life, while his son, Emperor Pedro I, was both de facto and de jure the monarch of the newly independent country."
+
+POR_CHARACTER_MARIAI:0 "Maria I"
+POR_MARIAI_DESC:0 "Dona Maria I was Queen of Portugal from 24 February 1777 until her death in 1816. Known as Maria the Pious in Portugal and Maria the Mad in Brazil, she was the first undisputed queen regnant of Portugal and the first monarch of Brazil."
+
+VND_CHARACTER_LOUISXVII:0 "Louis XVII"
+VND_LOUISXVII_DESC:0 ""
+
+LIT_CHARACTER_FREDERICKAUGUSTUSI:0 "Frederick Augustus I"
+LIT_FREDERICKAUGUSTUSI_DESC:0 "Frederick Augustus I was a member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.He was also Duke of Warsaw from 1807 to 1815."
+
+COU_CHARACTER_FREDERICKAUGUSTUSI:0 "Frederick Augustus I"
+COU_FREDERICKAUGUSTUSI_DESC:0 "Frederick Augustus I was a member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.He was also Duke of Warsaw from 1807 to 1815."
+
+SAX_CHARACTER_FREDERICKAUGUSTUSI:0 "Frederick Augustus I"
+SAX_FREDERICKAUGUSTUSI_DESC:0 "Frederick Augustus I was a member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.He was also Duke of Warsaw from 1807 to 1815."
+
+SAX_CHARACTER_ANTHONY:0 "Anthony"
+SAX_ANTHONY_DESC:0 "Anthony of Saxony was a King of Saxony from the House of Wettin. He became known as Anthony the Kind."
+
+RUS_CHARACTER_CATHERINEII:0 "Catherine II"
+RUS_CATHERINEII_DESC:0 "Catherine II (Catherine the Great) was the reigning empress of Russia from 1762 to 1796"
+
+RUS_CHARACTER_PAULI:0 "Paul I"
+RUS_PAULI_DESC:0 "Paul I was Emperor of Russia from 1796 to 1801"
+
+KNI_CHARACTER_PAULIKNI:0 "Paul I"
+KNI_PAULIKNI_DESC:0 "Paul I was de facto Grand Master of the Knights Hospitaller from 1799 to 1801 and ordered the construction of a number of priories of the Order of Malta. Paul's pro-German sentiments and unpredictable behavior made him unpopular among the Russian nobility, and he was secretly assassinated by his own officers."
+
+RUS_CHARACTER_ALEXANDERI:0 "Alexander I"
+RUS_ALEXANDERI_DESC:0 "Alexander I nicknamed (the Blessed) was Emperor of Russia from 1801 the first king of Congress Poland from 1815 and the grand duke of Finland" 
+
+RUS_CHARACTER_KONSTANTINPAVLOVICH:0 "Konstantin Pavlovich"
+RUS_KONSTANTINPAVLOVICH_DESC:0 ""
+
+BYZ_CHARACTER_KONSTANTINPAVLOVICH:0 "Konstantin Pavlovich"
+BYZ_KONSTANTINPAVLOVICH_DESC:0 ""
+
+RUS_CHARACTER_NICHOLASI:0 "Nicholas I"
+RUS_NICHOLASI_DESC:0 "Nicholas I was Emperor of Russia, King of Congress Poland, and Grand Duke of Finland"
+
+RUS_CHARACTER_ALEXANDERII:0 "Alexander II"
+RUS_ALEXANDERII_DESC:0 "Alexander II was Emperor of Russia, King of Poland and Grand Duke of Finland from 2 March 1855 until his assassination in 1881"
+
+RUS_CHARACTER_ALEXANDERIII:0 "Alexander III"
+RUS_ALEXANDERIII_DESC:0 "Alexander III was Emperor of Russia, King of Congress Poland and Grand Duke of Finland from 13 March 1881 until his death in 1894"
+
+RUS_CHARACTER_NICHOLASII:0 "Nicholas II"
+RUS_NICHOLASII_DESC:0 "Nicholas II was the last reigning Emperor of Russia, King of Poland and Grand Duke of Finland from 1 November 1894 until his abdication on 15 March 1917"
+
+RUS_CHARACTER_PUTIN:0 "Vladimir Putin"
+RUS_PUTIN_DESC:0 "Vladimir Putin"
+
+ABK_CHARACTER_kelesh_ahmed_bey_sharvashidze:0 "Kelesh Ahmed-Bey Sharvashidze"
+
+AFG_CHARACTER_TIMUR_SHAH_DURRANI:0 "Timur Shah Durrani"
+
+PAS_CHARACTER_JOSEPH_FRANZ_AUERSPERG:0 "Joseph Franz Auersperg"
+PAS_JOSEPH_FRANZ_AUERSPERG_DESC:0 "Josef Franz Anton Graf von Auersperg was an Austrian bishop, prince bishop of Passau and cardinal. He was a member of the House of Auersperg."
+
+AUS_CHARACTER_LADISLAUS:0 "Ladislaus"
+
+AUS_CHARACTER_FREDERICK_III:0 "Frederick III"
+
+AUS_CHARACTER_MAXIMILIAN_I:0 "Maximilian I"
+
+AUS_CHARACTER_CHARLES_V:0 "Charles I"
+
+AUS_CHARACTER_FERDINAND_I:0 "Ferdinand I"
+
+AUS_CHARACTER_MAXIMILIAN_II:0 "Maximilian II"
+
+AUS_CHARACTER_RUDOLF_II:0 "Rufolf II"
+
+AUS_CHARACTER_MATTHIAS:0 "Matthias"
+
+AUS_CHARACTER_FERDINAND_II:0 "Ferdinand II"
+
+AUS_CHARACTER_FERDINAND_III:0 "Ferdinand III"
+
+AUS_CHARACTER_LEOPOLD_I:0 "Leopold I"
+
+AUS_CHARACTER_JOSEPH_I:0 "Joseph I"
+
+AUS_CHARACTER_CHARLES_VI:0 "Charles VI"
+
+AUS_CHARACTER_MARIA_THERESA:0 "Maria Theresa"
+
+AUS_CHARACTER_FRANCIS_I:0 "Francis I"
+
+AUS_CHARACTER_FRANZ_JOSEPH_I:0 "Franz Joseph I"
+
+AUS_CHARACTER_CHARLES_I:0 "Charles I"
+
+AUS_CHARACTER_KARL_RENNER:0 "Karl Renner"
+
+AUS_CHARACTER_MICHAEL_MAYR:0 "Michael Mayr"
+
+AUS_CHARACTER_JOHANNES_SCHOBER:0 "Johannes Schober"
+
+AUS_CHARACTER_IGNAZ_SEIPEL:0 "Ignaz Seipel"
+
+AUS_CHARACTER_RUDOLF_RAMEK:0 "Rudolf Ramek"
+
+AUS_CHARACTER_WALTER_BREISKY:0 "Walter Breisky"

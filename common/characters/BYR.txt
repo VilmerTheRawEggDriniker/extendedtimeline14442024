@@ -1,0 +1,17 @@
+characters={
+	BYR_alexander={
+		name=BYR_CHARACTER_ALEXANDER
+		portraits={
+			civilian={
+				large="GFX_portrait_byr_alexander_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hohenzollern}
+			desc = BYR_ALEXANDER_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

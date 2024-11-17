@@ -1,0 +1,61 @@
+
+state={
+	id=1006
+	name="STATE_1006"
+
+	history={
+		owner = SMT
+		add_core_of = SMT
+		add_core_of = GEO
+		1600.1.1 = {
+			owner = OTO
+			remove_core_of = SMT
+
+		}
+		1880.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1789.1.1 = {
+		remove_core_of = GEO
+		add_core_of=IME
+		}
+		1812.1.1 = {
+		add_core_of = GEO
+		remove_core_of =IME
+		}
+		victory_points = {
+			789 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1919.1.1 = {
+			add_core_of = GEO
+			owner = GEO
+			remove_core_of = RUS
+			remove_core_of = PER
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = RUS
+			remove_core_of = GEO
+			remove_core_of = ARM
+
+		}
+
+	}
+
+	provinces={
+		789 7454 14032 14054 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

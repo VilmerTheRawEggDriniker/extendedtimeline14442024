@@ -1,0 +1,40 @@
+state={
+	id=1264
+	name="STATE_1264"
+		history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = NWT
+			add_core_of = NWT
+
+		}
+		1812.1.1 = {
+			owner = USA
+			add_core_of = USA
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = NCR
+
+		}
+		1936.1.1 = {
+			buildings = {
+			infrastructure = 1
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		827 3829 3853 6874 7528 9808 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

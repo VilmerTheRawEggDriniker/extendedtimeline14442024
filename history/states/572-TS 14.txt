@@ -1,0 +1,66 @@
+
+state={
+	id=572
+	name="STATE_572"
+
+	history={
+		owner = ZZZ
+		1723.1.1 = {
+			victory_points = {
+				9292 20 
+			}
+
+		}
+		1700.1.1 = {
+			victory_points = {
+				1292 10 
+			}
+		victory_points = {
+			10224 1 
+		}
+				victory_points = {
+			10256 3 
+		}
+		}
+		1600.1.1 = {
+			add_core_of = RUS
+			owner = RUS
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		1233 1292 1294 1327 1334 1775 4215 4242 4411 7281 7285 7328 7401 9292 10170 10196 10213 10224 10256 10542 12106 12157 12287 12584 
+	}
+	manpower=2074932
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=939
+	name="STATE_939"
+
+	history={
+		owner = OTO
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				air_base = 1
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = BYZ
+		1800.1.1 = {
+			add_core_of = GRE
+			remove_core_of = BYZ
+
+		}
+		1914.1.1 = {
+			owner = GRE
+			controller = GRE
+			add_core_of = GRE
+
+		}
+
+	}
+
+	provinces={
+		936 3526 3936 9837 10163 13701 13806 13808 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

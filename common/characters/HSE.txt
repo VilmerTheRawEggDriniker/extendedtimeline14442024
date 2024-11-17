@@ -1,0 +1,31 @@
+characters={
+	HSE_williami={
+		name=HSE_CHARACTER_WILLIAMI
+		portraits={
+			civilian={
+				large="GFX_portrait_hse_williami_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hesse}
+			desc = HSE_WILLIAMI_DESC
+			expire="1797.1.1"
+		}
+}
+	HSE_williamii={
+		name=HSE_CHARACTER_WILLIAMII
+		portraits={
+			civilian={
+				large="GFX_portrait_hse_williamii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hesse}
+			desc = HSE_WILLIAMII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

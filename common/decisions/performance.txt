@@ -1,0 +1,324 @@
+performance = {
+performance_south_america = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1936.1.1 date < 1936.1.2
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1936.1.1 date < 1936.1.2 
+      is_ai = no
+		}
+
+		complete_effect = {
+	    WLA = {
+		annex_country = { target = BRA transfer_troops = no }
+		annex_country = { target = ARG transfer_troops = no }
+		annex_country = { target = URG transfer_troops = no }
+		annex_country = { target = PAR transfer_troops = no }
+		annex_country = { target = CHL transfer_troops = no }
+		annex_country = { target = BOL transfer_troops = no }
+		annex_country = { target = PRU transfer_troops = no }
+		annex_country = { target = ECU transfer_troops = no }
+		annex_country = { target = COL transfer_troops = no }
+		annex_country = { target = VEN transfer_troops = no }
+		annex_country = { target = PAN transfer_troops = no }
+		annex_country = { target = COS transfer_troops = no }
+		annex_country = { target = NIC transfer_troops = no }
+		annex_country = { target = HON transfer_troops = no }
+		annex_country = { target = GUA transfer_troops = no }
+		annex_country = { target = ELS transfer_troops = no }
+		annex_country = { target = MEX transfer_troops = no }
+		annex_country = { target = HAI transfer_troops = no }
+		annex_country = { target = DOM transfer_troops = no }
+		annex_country = { target = CUB transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_colonies = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1936.1.1 date < 1936.1.2
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1936.1.1 date < 1936.1.2 
+is_ai = no
+		}
+
+		complete_effect = {
+		BEL = {
+		annex_country = { target = COG transfer_troops = no }
+	    } 
+		FRA = {
+		annex_country = { target = SYR transfer_troops = no }
+		annex_country = { target = LEB transfer_troops = no }
+		annex_country = { target = MOR transfer_troops = no }
+		annex_country = { target = TUN transfer_troops = no }
+		annex_country = { target = SEN transfer_troops = no }
+		annex_country = { target = CMR transfer_troops = no }
+		annex_country = { target = RCG transfer_troops = no }
+		annex_country = { target = VIN transfer_troops = no }
+	    } 
+		ENG = {
+		annex_country = { target = EGY transfer_troops = no }
+		annex_country = { target = ISR transfer_troops = no }
+	    } 
+		}
+	}
+}
+
+
+
+performance = {
+performance_canada = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    QUE = {
+		annex_country = { target = NOC transfer_troops = no }
+		annex_country = { target = ITO transfer_troops = no }
+		annex_country = { target = NBR transfer_troops = no }
+		annex_country = { target = NOS transfer_troops = no }
+		annex_country = { target = PEI transfer_troops = no }
+		annex_country = { target = FOU transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_america = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    USA = {
+		annex_country = { target = NWT transfer_troops = no }
+		annex_country = { target = PEN transfer_troops = no }
+		annex_country = { target = SWT transfer_troops = no }
+		annex_country = { target = UNO transfer_troops = no }
+		annex_country = { target = PEN transfer_troops = no }
+		annex_country = { target = IRO transfer_troops = no }
+		annex_country = { target = WAB transfer_troops = no }
+		annex_country = { target = NCR transfer_troops = no }
+		annex_country = { target = ROD transfer_troops = no }
+		annex_country = { target = VRM transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_circassia = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    CIR = {
+		annex_country = { target = DAG transfer_troops = no }
+		annex_country = { target = CIN transfer_troops = no }
+		annex_country = { target = ING transfer_troops = no }
+		annex_country = { target = NOA transfer_troops = no }
+		annex_country = { target = KBK transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_imereti = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    IME = {
+		annex_country = { target = GUR transfer_troops = no }
+		annex_country = { target = MIG transfer_troops = no }
+		annex_country = { target = SVA transfer_troops = no }
+		annex_country = { target = ABK transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_azeri = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    PER = {
+		annex_country = { target = BAK transfer_troops = no }
+		annex_country = { target = TAL transfer_troops = no }
+		annex_country = { target = ERV transfer_troops = no }
+		annex_country = { target = NAK transfer_troops = no }
+		annex_country = { target = GAN transfer_troops = no }
+		annex_country = { target = KRB transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_switzerland = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    SWI = {
+		annex_country = { target = VAL transfer_troops = no }
+		annex_country = { target = GRI transfer_troops = no }
+		annex_country = { target = BSL transfer_troops = no }
+		annex_country = { target = NEU transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_colonization = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+FRA={clr_country_flag =colonization_disabled_napoleonic}
+		}
+	}
+}

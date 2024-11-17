@@ -1,0 +1,87 @@
+
+state={
+	id=73
+	name="STATE_73"
+
+	history={
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = TRA
+                add_core_of = TRA
+                remove_core_of = HUN
+		}
+		1700.1.1 = {
+			owner = HUN
+		add_core_of = HUN
+                remove_core_of = TRA
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = AUH
+						add_core_of = SLO
+		}
+		victory_points = {
+			11536 1 
+		}
+		victory_points = {
+			11691 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		1919.1.1 = {
+			owner = CZE
+			controller = CZE
+			add_core_of = CZE
+			remove_core_of = AUH
+			remove_core_of = SLO
+
+		}
+		1939.3.14 = {
+			owner = HUN
+			controller = HUN
+			remove_claim_by = HUN
+			add_core_of = HUN
+
+		}
+		1944.1.1 = {
+			remove_core_of = TRA
+			remove_claim_by = HUN
+
+		}
+		1946.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+                        add_core_of = UKR  
+			remove_core_of = CZE
+			remove_core_of = HUN
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			remove_core_of = SOV
+			remove_core_of = CZE
+			remove_core_of = HUN
+
+		}
+
+	}
+
+	provinces={
+		3548 6571 9563 11536 11691 14294 14298 14299 14301 14311 
+	}
+	manpower=854300
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,43 @@
+state={
+	id=984
+	name="STATE_984"
+
+	history={
+		owner = FLA
+		add_core_of = FLA
+		1600.1.1 = {
+		add_core_of = HOL
+		owner = HOL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BRB
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1800.1.1 = {
+		owner=FRA
+		add_core_of = FRA
+		remove_core_of = HOL
+		}
+		1816.1.1 = {
+		owner = HOL
+		add_core_of = HOL
+		remove_core_of = FRA
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			480 1 
+		}
+	}
+
+	provinces={
+		480
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

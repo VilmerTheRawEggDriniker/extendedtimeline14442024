@@ -1,0 +1,57 @@
+
+state={
+	id=1005
+	name="STATE_1005"
+
+	history={
+		add_core_of = ARM
+		add_core_of = QAR
+		owner = QAR
+		1600.1.1 = {
+			owner = OTO
+			remove_core_of = QAR
+
+		}
+		1919.1.1 = {
+			remove_core_of = PER
+
+		}
+		1880.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		victory_points = {
+			14050 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1919.1.1 = {
+			add_core_of = ARM
+			owner = ARM
+			remove_core_of = RUS
+			remove_core_of = PER
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = KUR
+			remove_core_of = RUS
+			remove_core_of = GEO
+			remove_core_of = ARM
+
+		}
+
+	}
+
+	provinces={
+		4534 4583 6991 10403 10472 14025 14038 14039 14040 14050 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

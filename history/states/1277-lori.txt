@@ -1,0 +1,70 @@
+
+state={
+	id=1277
+	name="STATE_1277"
+
+	history={
+		add_core_of = ARM
+		add_core_of = GEO
+		owner = GEO
+		1600.1.1 = {
+			remove_core_of = GEO
+			owner = KRT
+
+		}
+		1600.1.1 = {
+			add_core_of = PER
+
+		}
+		1919.1.1 = {
+			remove_core_of = PER
+
+		}
+		1919.1.1 = {
+			add_core_of = ARM
+			owner = ARM
+			remove_core_of = RUS
+			remove_core_of = PER
+
+		}
+		1789.1.1 = {
+			owner = GEO
+
+		}
+		1801.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		victory_points = {
+			14056 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = ARM
+			controller = ARM
+			add_core_of = ARM
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		11708 12380 12450 14056 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

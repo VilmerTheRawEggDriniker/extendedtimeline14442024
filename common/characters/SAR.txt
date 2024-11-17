@@ -1,0 +1,14 @@
+characters={
+	SAR_bashar_al_assad={
+		name="Bashar al-Assad"
+		portraits={
+			civilian={
+				large="GFX_portrait_sar_bashar_al_assad_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+		}
+	}
+}
+

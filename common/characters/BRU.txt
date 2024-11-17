@@ -1,0 +1,59 @@
+characters={
+	BRU_william={
+		name=BRU_CHARACTER_WILLIAM
+		portraits={
+			civilian={
+				large="GFX_portrait_bru_william_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Brunswick-Bevern}
+			desc = BRU_WILLIAM_DESC
+			expire="1797.1.1"
+		}
+}
+	BRU_charlesii={
+		name=BRU_CHARACTER_CHARLESII
+		portraits={
+			civilian={
+				large="GFX_portrait_bru_charlesii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Brunswick-Bevern}
+			desc = BRU_CHARLESII_DESC
+			expire="1797.1.1"
+		}
+}
+	BRU_frederickwilliam={
+		name=BRU_CHARACTER_FREDERICKWILLIAM
+		portraits={
+			civilian={
+				large="GFX_portrait_bru_frederickwilliam_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Brunswick-Bevern}
+			desc = BRU_FREDERICKWILLIAM_DESC
+			expire="1797.1.1"
+		}
+}
+	BRU_charleswilliamferdinand={
+		name=BRU_CHARACTER_CHARLESWILLIAMFERDINAND
+		portraits={
+			civilian={
+				large="GFX_portrait_bru_charleswilliamferdinand_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Brunswick-Bevern}
+			desc = BRU_CHARLESWILLIAMFERDINAND_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

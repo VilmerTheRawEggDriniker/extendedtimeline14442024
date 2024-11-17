@@ -1,0 +1,24 @@
+
+state={
+	id=462
+	name="STATE_462"
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1989 4022 4933 7908 7958 
+	}
+	manpower=63271
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

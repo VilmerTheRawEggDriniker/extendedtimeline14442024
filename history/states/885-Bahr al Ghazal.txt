@@ -1,0 +1,55 @@
+
+state={
+	id=885
+	name="STATE_885"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = AUS
+                add_core_of = AUS
+		1900.1.1 = {
+			owner = AUH
+                add_core_of = AUH
+                remove_core_of = AUS
+		}
+		victory_points = {
+			704 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		704 3718 6552 6690 6739 9527 11651 14295 14608 14618 14628 14634 14637 14651 14656 14657 
+	}
+	manpower=1455373
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

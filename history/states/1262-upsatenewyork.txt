@@ -1,0 +1,39 @@
+state={
+	id=1262
+	name="STATE_1262"
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+			victory_points = {
+				11665 5 
+			}
+
+		}
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 1
+			}
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+			}
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		1393 1436 1763 1788 1799 1804 2407 3606 3769 3800 3806 3897 4343 4385 4877 6717 6779 7782 7891 9664 9673 9693 9721 10258 10381 10527 10548 11440 11648 11650 11665 11722 12166 12534 13075 13158 13308 13312 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,67 @@
+
+state={
+	id=247
+	name="STATE_247"
+	resources={
+		steel=16.000
+	}
+	history={
+		owner = MUS
+		add_core_of = MUS
+		1550.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = RYA
+		}
+		victory_points = {
+			6245 10 
+		}
+		victory_points = {
+			11349 1 
+		}
+								1936.1.1 = {
+				buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+
+		}
+				}
+								1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		85 150 187 226 248 287 333 344 2999 3035 3101 3143 3176 3215 3235 3321 3323 3344 6022 6122 6203 6245 6264 6303 6346 6367 6400 9046 9144 9242 9256 9265 9287 9333 9343 11084 11154 11224 11250 11272 11315 11326 11349 
+	}
+	manpower=2242350
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

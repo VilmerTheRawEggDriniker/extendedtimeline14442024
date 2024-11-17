@@ -1,0 +1,38 @@
+
+state={
+	id=355
+	name="STATE_355"
+
+	history={
+		owner = OTO
+		victory_points = {
+			11881 10 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			11881 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = OTO
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		960 961 975 3965 6894 6965 11881 11894 
+	}
+	manpower=1443581
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

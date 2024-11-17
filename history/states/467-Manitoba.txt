@@ -1,0 +1,60 @@
+
+state={
+	id=467
+	name="STATE_467"
+	resources={
+		steel=8.000
+		aluminium=16.000
+	}
+
+	history={
+		owner = ZZZ
+		                1789.1.1 = {
+			owner = ITO
+		add_core_of=ITO
+		}
+		1900.1.1 = {
+		remove_core_of=NOC
+		remove_core_of=NOS
+		remove_core_of=ITO
+		remove_core_of=ONT
+		remove_core_of=QUE
+		remove_core_of=PEI
+		remove_core_of=NBR
+		remove_core_of=FOU
+		}
+                1700.1.1 = {
+			owner = FRA
+			controller = FRA
+		}
+                1738.1.1 = {
+		victory_points = {
+			4872 5 
+		}
+		}
+		1867.1.1 = {
+			owner = CAN
+			controller = CAN
+                add_core_of = CAN
+		}
+                1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		1848 1873 3721 4426 4790 4872 5119 9615 12145 12688 
+	}
+	manpower=666666
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=9.000
+}

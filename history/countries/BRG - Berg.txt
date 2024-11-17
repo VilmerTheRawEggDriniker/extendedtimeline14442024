@@ -1,0 +1,105 @@
+﻿capital = 878
+1812.1.1 = {
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+1777.1.1 = {
+recruit_character=BRG_charlestheodore
+promote_character=BRG_charlestheodore
+recruit_character=BRG_maximilianijoseph
+recruit_character=BRG_ludwigi
+recruit_character=BRG_joachimmurat
+recruit_character=BRG_napoleon
+recruit_character=BRG_louisii
+}
+1800.1.1 = {
+promote_character=BRG_maximilianijoseph
+retire_character=BRG_charlestheodore
+}
+1812.1.1 = {
+promote_character=BRG_louisii
+}
+1836.1.1 = {
+retire_character=BRG_joachimmurat
+retire_character=BRG_napoleon
+retire_character=BRG_louisii
+retire_character=BRG_maximilianijoseph
+}
+1860.1.1 = {
+promote_character=BRG_ludwigi
+}
+1804.1.1 = {
+set_cosmetic_tag = BRG_grandduchy # Berg Grand Duchy
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+
+

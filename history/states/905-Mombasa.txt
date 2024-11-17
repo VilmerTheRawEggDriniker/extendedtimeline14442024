@@ -1,0 +1,28 @@
+state={
+	id=905
+	name="STATE_905"
+	history={
+		owner = SWE
+		victory_points = {
+			9151 3 
+		}
+		buildings = {
+			infrastructure = 2
+			130 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SWE
+
+	}
+
+	provinces={
+		130 205 6063 9035 9088 9141 9151 11123 11129 11185 
+	}
+	manpower=240000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

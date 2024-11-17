@@ -1,0 +1,31 @@
+characters={
+	MUN_maximilianfrancis={
+		name=MUN_CHARACTER_MAXIMILIANFRANCIS
+		portraits={
+			civilian={
+				large="GFX_portrait_mun_maximilianfrancis_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MUN_MAXIMILIANFRANCIS_DESC
+			expire="1797.1.1"
+		}
+}
+	MUN_antonvictor={
+		name=MUN_CHARACTER_ANTONVICTOR
+		portraits={
+			civilian={
+				large="GFX_portrait_mun_antonvictor_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MUN_ANTONVICTOR_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

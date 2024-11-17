@@ -1,0 +1,30 @@
+
+state={
+	id=1083
+	name="STATE_1083"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = UGA
+                }
+														1961.1.1 = {
+                owner = UGA
+		add_core_of = UGA
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		7133 8223 12929 14147 
+	}
+	manpower=1515625
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

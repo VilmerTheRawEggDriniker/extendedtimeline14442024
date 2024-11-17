@@ -1,0 +1,17 @@
+characters={
+	BYZ_konstantinpavlovich={
+		name=BYZ_CHARACTER_KONSTANTINPAVLOVICH
+		portraits={
+			civilian={
+				large="GFX_portrait_byz_konstantinpavlovich_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = BYZ_KONSTANTINPAVLOVICH_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

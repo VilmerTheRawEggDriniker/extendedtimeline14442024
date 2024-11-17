@@ -1,0 +1,75 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = CYR
+		1500.1.1 = {
+			owner = TRP
+			add_core_of = TRP
+			remove_core_of=CYR
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		1836.1.1 = {
+			owner = OTO
+			add_core_of = TRP
+			remove_core_of=CYR
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+								1945.1.1 = {
+                owner = ENG
+                }
+		victory_points = {
+			4047 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CYR
+		1900.1.1 = {
+		add_core_of = LBA
+		}
+		1911.1.1 = {
+			owner = LBA
+			controller = LBA
+			remove_core_of = OTO
+
+		}
+		1920.1.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+		1946.1.1 = {
+        owner = LBA
+		add_core_of = LBA
+        }
+
+	}
+
+	provinces={
+		4047 4057 10046 10117 12088 
+	}
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

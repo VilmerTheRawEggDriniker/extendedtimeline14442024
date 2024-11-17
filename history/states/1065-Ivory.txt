@@ -1,0 +1,33 @@
+state={
+	id=1065
+	name="STATE_1065"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+        owner = SEN
+        }
+		1939.1.1 = {
+        owner = SEN
+		}
+		1900.1.1 = {
+		add_core_of = IVO
+                }
+		1970.1.1 = {
+                owner = IVO
+		add_core_of = IVO
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		5013 5070 8065 10762 13942 13944 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

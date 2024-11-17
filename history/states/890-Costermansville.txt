@@ -1,0 +1,54 @@
+
+state={
+	id=890
+	name="STATE_890"
+	resources={
+		oil=34.000
+	}
+
+	history={
+		owner = OTO
+		1878.1.1 = {
+			owner = ROM
+			controller = ROM
+                add_core_of = ROM
+                remove_core_of = WAL
+		}
+		1812.1.1 = {
+			owner = WAL
+			controller = WAL
+		}
+		1813.1.1 = {
+			owner = OTO
+			controller = OTO
+		}
+
+		victory_points = {
+			657 5 
+		}
+		victory_points = {
+			687 2 
+		}
+		buildings = {
+			infrastructure = 3
+			657 = {
+				naval_base = 8
+
+			}
+			687 = {
+				naval_base = 1
+
+			}
+			dockyard = 1
+
+		}
+		add_core_of = WAL
+
+	}
+
+	provinces={ 657 687 3076 9635 13545 13556 13562 13564 13570 }
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

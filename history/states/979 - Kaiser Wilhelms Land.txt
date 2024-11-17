@@ -1,0 +1,68 @@
+
+state={
+	id=979
+	name="STATE_979"
+
+	history={
+		add_core_of = LIE
+		owner = LIE
+		1789.1.1 = {
+			buildings = {
+				11519 = {
+					bunker = 2
+
+				}
+
+			}
+
+		}
+		1800.1.1 = {
+			buildings = {
+				11519 = {
+					bunker = 0
+
+				}
+
+			}
+
+		}
+		1800.1.1 = {
+			add_core_of = FRA
+			owner = FRA
+			remove_core_of = LIE
+			remove_core_of = BRB
+			remove_core_of = FLA
+			remove_core_of = LUX
+
+		}
+		1816.1.1 = {
+			owner = HOL
+			add_core_of = HOL
+			remove_core_of = FRA
+
+		}
+		1831.1.1 = {
+			add_core_of = BEL
+			remove_core_of = HOL
+			owner = BEL
+
+		}
+		victory_points = {
+			11519 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		6537 9444 11519 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=4.000
+}

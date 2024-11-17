@@ -1,0 +1,33 @@
+
+state={
+	id=538
+	name="STATE_538"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                add_core_of = COG
+                owner = COG
+                }
+		1939.1.1 = {
+			owner = COG
+			controller = COG
+            remove_core_of = SPR
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		988 7219 7931 8048 10071 10883 10951 12741 12775 12824 
+	}
+	manpower=1693974
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+}

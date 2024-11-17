@@ -1,0 +1,58 @@
+state={
+	id=1257
+	name="STATE_1257"
+		history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1700.1.1 = {
+			buildings = {
+				infrastructure = 1
+			}
+
+		}
+		1700.1.1 = {
+			victory_points = {
+				13303 1 
+			}
+
+		}
+		1700.1.1 = {
+
+		}
+		1789.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 1
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		905 13303 13307 
+	}
+	manpower=249614
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

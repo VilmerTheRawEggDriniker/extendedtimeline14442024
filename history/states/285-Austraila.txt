@@ -1,0 +1,41 @@
+
+state={
+	id=285
+	name="STATE_285"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = AST
+			controller = AST
+            add_core_of = AST
+		}
+		1899.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		}
+		1801.1.1 = {
+		victory_points = {
+			7859 30 
+		}
+		}
+		1922.1.1 = {
+		buildings = {
+		air_base = 5
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		7859
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

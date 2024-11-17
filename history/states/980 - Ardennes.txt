@@ -1,0 +1,51 @@
+
+state={
+	id=980
+	name="STATE_980"
+
+	history={
+		add_core_of = LIE
+		owner = LIE
+		1800.1.1 = {
+			add_core_of = FRA
+			owner = FRA
+			remove_core_of = LIE
+			remove_core_of = BRB
+			remove_core_of = FLA
+			remove_core_of = LUX
+
+		}
+		1816.1.1 = {
+			owner = HOL
+			add_core_of = HOL
+			remove_core_of = FRA
+
+		}
+		1831.1.1 = {
+			add_core_of = BEL
+			remove_core_of = HOL
+			owner = BEL
+
+		}
+		victory_points = {
+			9574 3 
+		}
+		victory_points = {
+			13498 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		9574 13498 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

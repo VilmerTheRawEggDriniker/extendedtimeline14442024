@@ -1,0 +1,33 @@
+state={
+	id=1032
+	name="STATE_1032"
+
+	history={
+                owner = ZZZ
+		1822.1.1 = {
+                owner = MEX
+                add_core_of = MEX
+                }
+		1850.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		7888 12633 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+characters={
+	VRM_thomas={
+		name=VRM_CHARACTER_THOMAS
+		portraits={
+			civilian={
+				large="GFX_portrait_vrm_thomas_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			desc = VRM_THOMAS_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

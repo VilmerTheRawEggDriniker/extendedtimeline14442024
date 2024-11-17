@@ -1,0 +1,54 @@
+
+state={
+	id=478
+	name="STATE_478" # Jalisco
+	manpower = 2470875
+	
+	state_category = pastoral
+	
+	resources={
+		tungsten=8 # was: 10
+	}
+
+	history={
+                owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1822.1.1 = {
+                add_core_of = MEX
+                owner = MEX
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1590.1.1 = {
+		victory_points = {
+			13089 10
+		}
+		victory_points = {
+			10172 5
+		}
+		victory_points = {
+			12746 1
+		}
+                }
+		1823.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2051 5052 10172 12746 12873 13089 
+	}
+	
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,107 @@
+
+state={
+	id=878
+	name="STATE_878"
+	resources={
+		steel=15.000
+	}
+
+	history={
+		owner = BRG
+		add_core_of = BRG
+		1950.1.1 = {
+			owner = WGR
+			add_core_of = WGR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		1812.1.1 = {
+			owner = BRG
+			add_core_of = BRG
+			remove_core_of = DOR
+			remove_core_of = PRE
+
+		}
+		1816.1.1 = {
+			owner = PRE
+			remove_core_of = BRG
+			add_core_of = PRE
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				air_base = 3
+				industrial_complex = 2
+				arms_factory = 1
+
+			}
+
+		}
+		victory_points = {
+			6469 10 
+		}
+		victory_points = {
+			13494 10 
+		}
+		victory_points = {
+			9482 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		1920.1.1 = {
+			set_demilitarized_zone = yes
+
+		}
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+
+			}
+
+		}
+		1936.3.7 = {
+			set_demilitarized_zone = no
+
+		}
+
+	}
+
+	provinces={
+		6469 9482 13494 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

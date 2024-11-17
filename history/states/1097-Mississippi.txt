@@ -1,0 +1,50 @@
+state={
+	id=1097
+	name="STATE_1097"
+
+	history={
+                owner = ZZZ
+		1702.1.1 = {
+ 		victory_points = {
+			4464 1 
+		}
+                }
+		1700.1.1 = {
+                owner = FRA
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = FLO
+        }
+		1803.1.1 = {
+        owner = MSP
+		add_core_of = MSP
+		remove_core_of = FLO
+        }
+		1836.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = MSP
+        }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+			4464 = {
+				naval_base = 4
+
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1615 4464 4650 7668 10449 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

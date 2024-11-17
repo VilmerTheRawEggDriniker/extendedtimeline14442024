@@ -1,0 +1,61 @@
+
+state={
+	id=183
+	name="STATE_183"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = CYP
+		add_core_of = CYP
+		1500.1.1 = {
+			owner = OTO
+		}
+		1800.1.1 = {
+			add_core_of = GRE
+		remove_core_of = CYP
+		}
+		1878.1.1 = {
+		owner = ENG
+		add_core_of = CYP
+		}
+		1961.1.1 = {
+			owner = CYP
+			controller = CYP
+			remove_core_of = YUG
+
+		}
+		victory_points = {
+			7193 5 
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 2
+			air_base = 2
+			7193 = {
+				naval_base = 2
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 2
+			7193 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7193 13673 13674 
+	}
+	manpower=240000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

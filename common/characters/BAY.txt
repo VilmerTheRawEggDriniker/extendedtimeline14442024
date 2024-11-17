@@ -1,0 +1,45 @@
+characters={
+	BAY_charlestheodore={
+		name=BAY_CHARACTER_CHARLESTHEODORE
+		portraits={
+			civilian={
+				large="GFX_portrait_bay_charlestheodore_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = BAY_CHARLESTHEODORE_DESC
+			expire="1797.1.1"
+		}
+}
+	BAY_maximilianijoseph={
+		name=BAY_CHARACTER_MAXIMILIANIJOSEPH
+		portraits={
+			civilian={
+				large="GFX_portrait_bay_maximilianijoseph_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = BAY_MAXIMILIANIJOSEPH_DESC
+			expire="1797.1.1"
+		}
+}
+	BAY_ludwigi={
+		name=BAY_CHARACTER_LUDWIGI
+		portraits={
+			civilian={
+				large="GFX_portrait_bay_ludwigi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = BAY_LUDWIGI_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

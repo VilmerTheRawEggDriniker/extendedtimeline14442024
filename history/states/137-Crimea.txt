@@ -1,0 +1,80 @@
+
+state={
+	id=137
+	name="STATE_137"
+
+	history={
+		owner = THE
+		add_core_of = THE
+		1600.1.1 = {
+		add_core_of = CRI
+		owner = OTO
+		remove_core_of = THE
+		}
+				1783.1.1 = {
+		remove_core_of = CRI
+		owner = RUS
+		add_core_of = RUS
+		}
+		victory_points = {
+			3686 20 
+		}
+		buildings = {
+			infrastructure = 3
+			3686 = {
+				naval_base = 10
+
+			}
+		}
+		1919.1.1 = {
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			3686 = {
+				naval_base = 10
+				coastal_bunker = 3
+
+			}
+		}
+		}
+				1919.1.1 = {
+		owner = CRI
+		add_core_of=CRI
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1954.1.1 = {
+		add_core_of = UKR
+		}
+		1993.1.1 = {
+		owner = UKR
+		controller = UKR
+		add_core_of = UKR
+            remove_core_of = SOV
+		}
+		2014.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+	}
+
+	provinces={
+		3686 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=10.000
+}

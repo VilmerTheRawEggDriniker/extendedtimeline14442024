@@ -1,0 +1,27 @@
+state={
+	id=1019
+	name="STATE_1019"
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = BOT
+                owner = ENG
+                }
+						1961.1.1 = {
+        owner = BOT
+		add_core_of = BOT
+        }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		1580  
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

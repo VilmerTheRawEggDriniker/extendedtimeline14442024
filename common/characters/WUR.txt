@@ -1,0 +1,91 @@
+characters={
+	WUR_philipp_albrecht = {
+
+		name = WUR_philipp_albrecht
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WUR_philipp_albrecht
+			}
+		}
+
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "1975.1.1.1"
+			id = -1
+		}
+
+	}
+	WUR_charleseugene={
+		name=WUR_CHARACTER_CHARLESEUGENE
+		portraits={
+			civilian={
+				large="GFX_portrait_wur_charleseugene_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wurttemberg}
+			desc = WUR_CHARLESEUGENE_DESC
+			expire="1797.1.1"
+		}
+}
+	WUR_louiseugen={
+		name=WUR_CHARACTER_LOUISEUGEN
+		portraits={
+			civilian={
+				large="GFX_portrait_wur_louiseugen_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wurttemberg}
+			desc = WUR_LOUISEUGEN_DESC
+			expire="1797.1.1"
+		}
+}
+	WUR_frederickiieugene={
+		name=WUR_CHARACTER_FREDERICKIIEUGENE
+		portraits={
+			civilian={
+				large="GFX_portrait_wur_frederickiieugene_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wurttemberg}
+			desc = WUR_FREDERICKIIEUGENE_DESC
+			expire="1797.1.1"
+		}
+}
+	WUR_fredericki={
+		name=WUR_CHARACTER_FREDERICKI
+		portraits={
+			civilian={
+				large="GFX_portrait_wur_fredericki_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wurttemberg}
+			desc = WUR_FREDERICKI_DESC
+			expire="1797.1.1"
+		}
+}
+	WUR_williami={
+		name=WUR_CHARACTER_WILLIAMI
+		portraits={
+			civilian={
+				large="GFX_portrait_wur_williami_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wurttemberg}
+			desc = WUR_WILLIAMI_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

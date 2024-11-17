@@ -1,0 +1,83 @@
+
+state={
+	id=307
+	name="STATE_307" # Miranda
+	
+	state_category = town
+	
+	manpower = 1335010
+	resources={
+		oil=41 # was: 58
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+						1789.1.1 = {
+        add_core_of = VEN
+        owner = COL
+        }
+		1812.1.1 = {
+        add_core_of = VEN
+        owner = VEN
+        }
+		1567.1.1 = {
+ 		victory_points = {
+			8113 5 
+		}
+                }
+		1547.1.1 = {
+ 		buildings = {
+			infrastructure = 1
+			8113 = {
+				naval_base = 3
+			}
+			10912 = {
+				naval_base = 2
+			}
+		}
+                }
+		1836.1.1 = {
+                add_core_of = VEN
+                owner = VEN
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			8113 = {
+				naval_base = 3
+			}
+			10912 = {
+				naval_base = 2
+			}
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 2
+			8113 = {
+				naval_base = 3
+			}
+			10912 = {
+				naval_base = 2
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		4942 7968 8024 8080 8113 10767 10823 10912 5056 4892 5000
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,50 @@
+state={
+	id=1259
+	name="STATE_1259"
+		history={
+		owner = ZZZ
+		1790.1.1 = {
+			victory_points = {
+				11654 20 
+			}
+		}
+				1789.1.1 = {
+			owner = IRO
+			add_core_of = IRO
+
+		}
+		1790.1.1 = {
+			owner = USA
+			add_core_of = USA
+        remove_core_of=IRO
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 1
+				arms_factory = 1
+				industrial_complex = 1
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				arms_factory = 1
+				industrial_complex = 1
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		734 2947 3498 4678 4695 5239 6707 6728 7185 11654 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

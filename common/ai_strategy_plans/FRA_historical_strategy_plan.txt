@@ -1,0 +1,415 @@
+FRA_historical_plan = {
+	name = "France historical plan"
+	desc = "Historical behavior for France"
+
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = FRA_ai_behavior
+					option = DEFAULT
+				}	
+			}
+			has_game_rule = {
+				rule = FRA_ai_behavior
+				option = DEMOCRATIC_HISTORICAL
+			}
+			has_country_flag = FRA_AI_DEMOCRATIC_HISTORICAL
+		}
+	}
+	abort = {
+		OR = {
+			GER = { has_completed_focus = GER_oppose_hitler }
+			AND = {
+				ENG = { has_completed_focus = ENG_a_change_in_course }
+				NOT = { GER = { has_completed_focus = GER_oppose_hitler } }
+			}
+		}
+		has_game_rule = {
+			rule = FRA_ai_behavior
+			option = DEFAULT
+		}
+	}
+
+	ai_national_focuses = {
+france_1789_1815_first_50_focus_1
+france_1789_1815_first_50_focus_2
+france_1789_1815_first_50_focus_3
+france_1789_1815_first_50_focus_4
+france_1789_1815_first_50_focus_5
+france_1789_1815_first_50_focus_6
+france_1789_1815_first_50_focus_7
+france_1789_1815_first_50_focus_8
+france_1789_1815_first_50_focus_9
+france_1789_1815_first_50_focus_10
+france_1789_1815_first_50_focus_11
+france_1789_1815_first_50_focus_12
+france_1789_1815_first_50_focus_13
+france_1789_1815_first_50_focus_14
+france_1789_1815_first_50_focus_15
+france_1789_1815_first_50_focus_16
+france_1789_1815_first_50_focus_17
+france_1789_1815_first_50_focus_18
+france_1789_1815_first_50_focus_19
+france_1789_1815_first_50_focus_20
+france_1789_1815_first_50_focus_21
+france_1789_1815_first_50_focus_22
+france_1789_1815_first_50_focus_23
+france_1789_1815_first_50_focus_24
+france_1789_1815_first_50_focus_25
+france_1789_1815_first_50_focus_26
+france_1789_1815_first_50_focus_27
+france_1789_1815_first_50_focus_28
+france_1789_1815_first_50_focus_29
+france_1789_1815_first_50_focus_30
+france_1789_1815_first_50_focus_31
+france_1789_1815_first_50_focus_32
+france_1789_1815_first_50_focus_33
+france_1789_1815_first_50_focus_34
+france_1789_1815_first_50_focus_35
+france_1789_1815_first_50_focus_36
+france_1789_1815_first_50_focus_37
+france_1789_1815_first_50_focus_38
+france_1789_1815_first_50_focus_39
+france_1789_1815_first_50_focus_40
+france_1789_1815_first_50_focus_41
+france_1789_1815_first_50_focus_42
+france_1789_1815_first_50_focus_43
+france_1789_1815_first_50_focus_44
+france_1789_1815_first_50_focus_45
+france_1789_1815_first_50_focus_46
+france_1789_1815_first_50_focus_47
+france_1789_1815_first_50_focus_48
+france_1789_1815_first_50_focus_49
+france_1789_1815_first_50_focus_50
+france_1793_1799_focus_2
+france_1793_1799_focus_3
+france_1793_1799_focus_4
+france_1793_1799_focus_5
+france_1793_1799_focus_6
+france_1793_1799_focus_7
+france_1793_1799_focus_8
+france_1793_1799_focus_9
+france_1793_1799_focus_10
+
+france_1793_1799_focus_11
+france_1793_1799_focus_12
+france_1793_1799_focus_13
+france_1793_1799_focus_14
+france_1793_1799_focus_15
+france_1793_1799_focus_16
+france_1793_1799_focus_17
+france_1793_1799_focus_18
+france_1793_1799_focus_19
+france_1793_1799_focus_20
+
+france_1793_1799_focus_21
+france_1793_1799_focus_22
+france_1793_1799_focus_23
+france_1793_1799_focus_24
+france_1793_1799_focus_25
+france_1793_1799_focus_26
+france_1793_1799_focus_27
+france_1793_1799_focus_28
+france_1793_1799_focus_29
+france_1793_1799_focus_30
+
+france_1793_1799_focus_31
+france_1793_1799_focus_32
+france_1793_1799_focus_33
+france_1793_1799_focus_34
+france_1793_1799_focus_35
+france_1793_1799_focus_36
+france_1793_1799_focus_37
+france_1793_1799_focus_38
+france_1793_1799_focus_39
+france_1793_1799_focus_40
+
+france_1793_1799_focus_41
+france_1793_1799_focus_42
+france_1793_1799_focus_43
+france_1793_1799_focus_44
+france_1793_1799_focus_45
+france_1793_1799_focus_46
+france_1793_1799_focus_47
+france_1793_1799_focus_48
+france_1793_1799_focus_49
+france_1793_1799_focus_50
+
+france_1793_1799_focus_51
+france_1793_1799_focus_52
+france_1793_1799_focus_53
+france_1793_1799_focus_54
+france_1793_1799_focus_55
+france_1793_1799_focus_56
+france_1793_1799_focus_57
+france_1793_1799_focus_58
+france_1793_1799_focus_59
+france_1793_1799_focus_60
+
+france_1793_1799_focus_61
+france_1793_1799_focus_62
+france_1793_1799_focus_63
+france_1793_1799_focus_64
+france_1793_1799_focus_65
+france_1793_1799_focus_66
+france_1793_1799_focus_67
+france_1793_1799_focus_68
+france_1793_1799_focus_69
+france_1793_1799_focus_70
+
+france_1793_1799_focus_71
+france_1793_1799_focus_72
+france_1793_1799_focus_73
+france_1793_1799_focus_74
+france_1793_1799_focus_75
+france_1793_1799_focus_76
+france_1793_1799_focus_77
+france_1793_1799_focus_78
+france_1793_1799_focus_79
+france_1793_1799_focus_80
+
+france_1793_1799_focus_81
+france_1793_1799_focus_82
+france_1793_1799_focus_83
+france_1793_1799_focus_84
+france_1793_1799_focus_85
+france_1793_1799_focus_86
+france_1793_1799_focus_87
+france_1793_1799_focus_88
+france_1793_1799_focus_89
+france_1793_1799_focus_90
+
+france_1793_1799_focus_91
+france_1793_1799_focus_92
+france_1793_1799_focus_93
+france_1793_1799_focus_94
+france_1793_1799_focus_95
+france_1793_1799_focus_96
+france_1793_1799_focus_97
+france_1793_1799_focus_98
+france_1793_1799_focus_99
+france_1793_1799_focus_100
+
+france_1793_1799_focus_101
+france_1793_1799_focus_102
+france_1793_1799_focus_103
+france_1793_1799_focus_104
+france_1793_1799_focus_105
+france_1793_1799_focus_106
+france_1793_1799_focus_107
+france_1793_1799_focus_108
+france_1793_1799_focus_109
+france_1793_1799_focus_100
+
+france_1793_1799_focus_111
+france_1793_1799_focus_112
+france_1793_1799_focus_113
+france_1793_1799_focus_114
+france_1793_1799_focus_115
+france_1793_1799_focus_116
+france_1793_1799_focus_117
+france_1793_1799_focus_118
+france_1793_1799_focus_119
+france_1793_1799_focus_120
+
+france_1793_1799_focus_121
+france_1793_1799_focus_122
+france_1793_1799_focus_123
+france_1793_1799_focus_124
+france_1793_1799_focus_125
+france_1793_1799_focus_126
+france_1793_1799_focus_127
+france_1793_1799_focus_128
+france_1793_1799_focus_129
+france_1793_1799_focus_130
+
+france_1793_1799_focus_131
+france_1793_1799_focus_132
+france_1793_1799_focus_133
+france_1793_1799_focus_134
+france_1793_1799_focus_135
+france_1793_1799_focus_136
+france_1793_1799_focus_137
+france_1793_1799_focus_138
+france_1793_1799_focus_139
+france_1793_1799_focus_140
+
+france_1793_1799_focus_141
+france_1793_1799_focus_142
+france_1793_1799_focus_143
+france_1793_1799_focus_144
+france_1793_1799_focus_145
+france_1793_1799_focus_146
+france_1793_1799_focus_147
+france_1793_1799_focus_148
+france_1793_1799_focus_149
+france_1793_1799_focus_150
+
+france_1793_1799_focus_151
+france_1793_1799_focus_152
+france_1793_1799_focus_153
+france_1793_1799_focus_154
+france_1793_1799_focus_155
+france_1793_1799_focus_156
+france_1793_1799_focus_157
+france_1793_1799_focus_158
+france_1793_1799_focus_159
+france_1793_1799_focus_160
+
+france_1793_1799_focus_161
+france_1793_1799_focus_162
+france_1793_1799_focus_163
+france_1793_1799_focus_164
+france_1793_1799_focus_165
+france_1793_1799_focus_166
+france_1793_1799_focus_167
+france_1793_1799_focus_168
+france_1793_1799_focus_169
+france_1793_1799_focus_170
+
+france_1793_1799_focus_171
+france_1793_1799_focus_172
+france_1793_1799_focus_173
+france_1793_1799_focus_174
+france_1793_1799_focus_175
+france_1793_1799_focus_176
+france_1793_1799_focus_177
+france_1793_1799_focus_178
+france_1793_1799_focus_179
+france_1793_1799_focus_180
+
+france_1793_1799_focus_181
+france_1793_1799_focus_182
+france_1793_1799_focus_183
+france_1793_1799_focus_184
+france_1793_1799_focus_185
+france_1793_1799_focus_186
+france_1793_1799_focus_187
+france_1793_1799_focus_188
+france_1793_1799_focus_189
+france_1793_1799_focus_190
+
+france_1793_1799_focus_191
+france_1793_1799_focus_192
+france_1793_1799_focus_193
+france_1793_1799_focus_194
+france_1793_1799_focus_195
+france_1793_1799_focus_196
+france_1793_1799_focus_197
+france_1793_1799_focus_198
+france_1793_1799_focus_199
+france_1793_1799_focus_200
+
+france_1793_1799_focus_201
+france_1793_1799_focus_202
+france_1793_1799_focus_203
+france_1793_1799_focus_204
+france_1793_1799_focus_205
+france_1793_1799_focus_206
+france_1793_1799_focus_207
+france_1793_1799_focus_208
+france_1793_1799_focus_209
+france_1793_1799_focus_210
+
+france_1793_1799_focus_211
+france_1793_1799_focus_212
+france_1793_1799_focus_213
+france_1793_1799_focus_214
+france_1793_1799_focus_215
+france_1793_1799_focus_216
+france_1793_1799_focus_217
+france_1793_1799_focus_218
+france_1793_1799_focus_219
+france_1793_1799_focus_220
+
+france_1793_1799_focus_221
+france_1793_1799_focus_222
+france_1793_1799_focus_223
+france_1793_1799_focus_224
+france_1793_1799_focus_225
+france_1793_1799_focus_226
+france_1793_1799_focus_227
+france_1793_1799_focus_228
+france_1793_1799_focus_229
+france_1793_1799_focus_230
+
+france_1793_1799_focus_231
+france_1793_1799_focus_232
+france_1793_1799_focus_233
+france_1793_1799_focus_234
+france_1793_1799_focus_235
+france_1793_1799_focus_236
+
+		FRA_begin_rearmament
+		FRA_form_the_popular_front 	
+		FRA_reform_the_labour_laws
+		FRA_the_blum_viollette_proposal
+		FRA_review_foreign_policy
+		#1937
+		FRA_intervention_in_spain
+		FRA_buy_time
+		FRA_defensive_focus
+		FRA_firepower_kills
+		FRA_go_with_britain
+		#1938
+		FRA_devalue_the_franc
+		FRA_invest_in_the_metropole
+		FRA_metropolitan_france 
+		FRA_industrial_expansion 
+		FRA_extra_research_slot
+		#1939
+		FRA_nationalize_key_industry
+		FRA_reorganize_the_aviation_industry
+		FRA_form_the_state_arsenals
+		FRA_strengthen_government_support
+		FRA_infantry_focus
+		#1940
+		FRA_artillery_focus 
+		FRA_heavy_armor_focus 
+		FRA_division_cuirassee
+		FRA_arms_purchases_in_the_us
+		FRA_general_work_council
+		#1941
+		FRA_invest_in_the_colonies
+		FRA_algerie_france 
+		FRA_invest_in_syria
+		FRA_colonial_industry 
+		FRA_extra_research_slot_2 
+		#1942
+		FRA_army_reform
+		FRA_air_focus 
+		FRA_fighter_focus 
+		FRA_dirigisme 
+		FRA_heavy_fighter_focus 
+		#1942
+		FRA_air_doctrine 
+		
+		
+	}
+	focus_factors = {
+		FRA_right_wing_rhetoric = 0
+		FRA_leftist_rhetoric = 0
+	}
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

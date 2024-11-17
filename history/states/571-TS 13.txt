@@ -1,0 +1,52 @@
+
+state={
+	id=571
+	name="STATE_571" # Omsk
+	manpower = 1317157
+	
+	state_category = rural
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			10696 10
+		}
+                }
+		1700.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		1709 1800 1835 4700 7800 10568 10626 10696 12546 12580 12652 
+	}
+
+	local_supplies=8.0 
+}

@@ -1,0 +1,61 @@
+
+state={
+	id=887
+	name="STATE_887"
+
+	history={
+		owner = TRA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9670 5 
+		}
+		add_core_of = TRA
+		1700.1.1 = {
+			owner = HUN
+			add_core_of = HUN
+			remove_core_of = TRA
+
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+			controller = AUH
+			add_core_of = AUH
+			add_core_of = ROM
+			remove_core_of = HUN
+			remove_core_of = AUS
+
+		}
+		1862.1.1 = {
+			add_core_of = ROM
+
+		}
+		1919.1.1 = {
+			owner = ROM
+			controller = ROM
+			remove_core_of = AUH
+
+		}
+		1945.1.1 = {
+			remove_core_of = TRA
+			remove_claim_by = HUN
+
+		}
+
+	}
+
+	provinces={
+		711 727 3689 9668 9670 9685 14242 14244 14253 14260 14263 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,31 @@
+characters={
+	PFZ_charlestheodore={
+		name=PFZ_CHARACTER_CHARLESTHEODORE
+		portraits={
+			civilian={
+				large="GFX_portrait_pfz_charlestheodore_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = PFZ_CHARLESTHEODORE_DESC
+			expire="1797.1.1"
+		}
+}
+	PFZ_maximilianijoseph={
+		name=PFZ_CHARACTER_MAXIMILIANIJOSEPH
+		portraits={
+			civilian={
+				large="GFX_portrait_pfz_maximilianijoseph_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = PFZ_MAXIMILIANIJOSEPH_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

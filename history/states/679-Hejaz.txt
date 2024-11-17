@@ -1,0 +1,59 @@
+
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+		owner = OTO
+		}
+		1900.1.1 = {
+		add_core_of = HEJ
+		}
+		1919.1.1 = {
+		add_core_of = HEJ
+		owner = HEJ
+		}
+		1920.1.1 = {
+			owner = SAU
+			controller = SAU
+			add_core_of = SAU
+			remove_core_of = HEJ
+
+		}
+		1600.1.1 = {
+		victory_points = {
+			12758 10
+		}
+		victory_points = {
+			12883 1 
+		}
+		victory_points = {
+			5037 10
+		}
+		victory_points = {
+			2033 1 
+		}
+		buildings = {
+			infrastructure = 2
+			12883 = {
+				naval_base = 5
+
+			}
+
+		}
+		}
+				buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2033 4981 5037 7934 12758 12883 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

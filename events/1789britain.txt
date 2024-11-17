@@ -1,0 +1,758 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = britain_1789_1812
+
+# Act 1935
+country_event = {
+	id = britain_1789_1812.1
+	title = "The Treaty of Reichenbach"
+	desc = britain_1789_1812.1.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "Sign it"
+		ai_chance = { factor = 100 } 
+	add_war_support=0.05
+	ENG={set_country_flag=eng_signed_treaty_of_reichenbach}
+	}
+	option = { # 
+		name = "Dont accept Austrian Prescense in Belgium"
+		ai_chance = { factor = 0 } 
+	AUS={add_political_power=-50}
+	ENG={set_country_flag=eng_not_signed_treaty_of_reichenbach}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.2
+	title = "Otter Hunting in Devon"
+	desc = britain_1789_1812.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "Otter Hunting in Devon"
+		ai_chance = { factor = 100 } 
+	add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1000
+                    producer = ENG
+                }
+	add_political_power=25
+	add_war_support=0.01
+	}
+	}
+country_event = {
+	id = britain_1789_1812.3
+	title = "Cultrual ties with the Austrian Empire"
+	desc = britain_1789_1812.3.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "Agree to Disagree"
+		ai_chance = { factor = 100 } 
+	add_war_support=0.05
+	AUS={add_war_support=0.05}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.4
+	title = "The Regency Bill"
+	desc = britain_1789_1812.4.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "Turns out hes no longer mentally ill..."
+		ai_chance = { factor = 100 } 
+		add_stability=0.1
+		add_war_support=0.1
+		add_political_power=150
+	}
+	}
+country_event = {
+	id = britain_1789_1812.5
+	title = "The Treason Act of 1790"
+	desc = britain_1789_1812.5.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "Sign the Treason Act of 1790 into fruition"
+		ai_chance = { factor = 100 } 
+		add_stability=0.1
+	}
+	}
+country_event = {
+	id = britain_1789_1812.6
+	title = "The Reconstruction of the Bank of England"
+	desc = britain_1789_1812.6.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "King William of Orange really did do us a favor"
+		ai_chance = { factor = 100 } 
+		add_stability=0.1
+		add_political_power=150
+		random_owned_controlled_state={
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+		type = industrial_complex
+		level = 1
+		instant_build = yes
+		}
+		}
+		random_owned_controlled_state={
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+		type = industrial_complex
+		level = 1
+		instant_build = yes
+		}
+		}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.7
+	title = "The Clyne Castle"
+	desc = britain_1789_1812.7.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "May the Monarch or Prime Minister visit the Clyne Caste?"
+		ai_chance = { factor = 100 } 
+		add_stability=0.01
+		add_political_power=25
+		add_war_support=0.01
+		random_list={
+		10={
+		122={
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+		type = industrial_complex
+		level = 1
+		instant_build = yes
+		}
+		}
+		}
+		90={
+		add_political_power=25
+		}
+		}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.8
+	title = "The Discourse regarding our Country"
+	desc = britain_1789_1812.8.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "This may have backfired slightly..."
+		ai_chance = { factor = 100 } 
+		add_stability=-0.05
+		add_political_power=50
+		add_popularity = { ideology = democratic popularity = 0.01 }
+	}
+	}
+country_event = {
+	id = britain_1789_1812.9
+	title = "Vaccination against Smallpox"
+	desc = britain_1789_1812.9.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "Vaccination saves lives"
+		ai_chance = { factor = 100 } 
+		add_stability=0.1
+		add_political_power=150
+		add_war_support=0.01
+		hidden_effect={ISR={add_war_support=0.05}}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.10
+	title = "The Hanoverian Corsican Kingdom"
+	desc = britain_1789_1812.10.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+
+fire_only_once = yes
+	option = { # 
+		name = "Unsurp the Corsican Throne"
+		ai_chance = { factor = 100 } 
+		COR={transfer_state=1}
+		COR={add_stability=0.1}
+		ENG={
+		set_autonomy = {
+        target = COR
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.11
+	title = "Victory over the Irish Republicans"
+	desc = britain_1789_1812.11.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=ENG
+ENG={has_country_flag=ire_eng_war_omg}
+has_war_with=IRE
+IRE = {surrender_progress > 0.7 }
+}
+fire_only_once = yes
+	option = { # 
+		name = "Reannex the Republican Counties"
+		ai_chance = { factor = 100 }
+every_country={
+limit={
+NIR={is_subject_of=ENG}
+}
+NIR={
+transfer_state=113
+transfer_state=134
+transfer_state=135
+}
+} 
+	}
+	}
+
+country_event = {
+	id = britain_1789_1812.12
+	title = "Commencement Act of 1793"
+	desc = britain_1789_1812.12.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Sign the Commencement Act of 1793"
+		ai_chance = { factor = 100 }
+	add_political_power=150
+	add_stability=0.15
+	}
+	}
+country_event = {
+	id = britain_1789_1812.13
+	title = "Founding of the Charles Stanley Group"
+	desc = britain_1789_1812.13.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This is great for the economy!"
+		ai_chance = { factor = 100 }
+	add_political_power=25
+	add_stability=0.01
+								126 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.14
+	title = "Policy Regarding the Abolition of Slavery"
+	desc = britain_1789_1812.14.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We could support some of their Wishes"
+		ai_chance = { factor = 100 }
+	add_political_power=25
+	add_stability=0.01
+	random_list={
+	10={
+								random_owned_controlled_state = {
+						limit={
+						is_core_of=ENG
+						}
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+	}
+	90={
+	}
+	}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.15
+	title = "Policy Regarding Oregon"
+	desc = britain_1789_1812.15.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Us Claiming Oregon will likely upset the Spaniards albeit also the French and Americans"
+		ai_chance = { factor = 100 }
+	add_political_power=-25
+	add_stability=-0.05
+	add_war_support=0.05
+	}
+	}
+
+country_event = {
+	id = britain_1789_1812.16
+	title = "Emigration of Quakers back home to Britain"
+	desc = britain_1789_1812.16.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Welcome to Milford Haven Wales!"
+		ai_chance = { factor = 100 }
+	add_stability=-0.01
+		122={
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+		type = industrial_complex
+		level = 1
+		instant_build = yes
+		}
+		}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.17
+	title = "The Enlistment Act of 1794"
+	desc = britain_1789_1812.17.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We will need to change some of the laws regarding Catholics..."
+		ai_chance = { factor = 100 }
+	add_stability=-0.1
+	add_war_support=-0.05
+	add_political_power=-150
+	ENG={add_manpower=10000}
+    FRA={add_manpower=-1000}
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = ENG
+				}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.18
+	title = "Discovering Titanium in Cornwall"
+	desc = britain_1789_1812.18.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Thanks William Gregor!"
+		ai_chance = { factor = 100 }
+	add_political_power=-25
+	add_stability=-0.01
+				add_resource = {
+				type = steel
+				amount = 10
+				state = 123
+			}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.19
+	title = "Reflections on the Revolution in France."
+	desc = britain_1789_1812.19.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=ENG
+date > 1790.11.1
+date < 1791.1.1
+}
+fire_only_once = yes
+	option = { # 
+		name = "The Revolution Going on for 20-30 years could help weaken the rest of Europe!"
+		ai_chance = { factor = 100 }
+	add_political_power=150
+	every_country={
+	limit={
+	NOT={capital_scope = { is_on_continent = asia }}
+	NOT={capital_scope = { is_on_continent = africa }}
+	NOT={capital_scope = { is_on_continent = australia }}
+	NOT={capital_scope = { is_on_continent = middle_east }}
+	NOT={capital_scope = { is_on_continent = north_america }}
+	NOT={capital_scope = { is_on_continent = south_america }}
+	NOT={original_tag=HOL}
+	NOT={original_tag=FRA}
+	NOT={original_tag=ENG}
+	NOT={is_subject_of=HOL}
+	NOT={is_subject_of=FRA}
+	NOT={is_subject_of=ENG}
+	}
+	add_political_power=-150
+	}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.20
+	title = "Joseph Haydn"
+	desc = britain_1789_1812.20.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Joseph Haydn has arrived in England from Lower Austria"
+		ai_chance = { factor = 100 }
+	add_political_power=-25
+	add_war_support=0.05
+	ENG={set_country_flag=eng_aus_music}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.21
+	title = "Award Joseph Haydn"
+	desc = britain_1789_1812.21.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=ENG
+date > 1791.7.8
+date < 1792.1.8
+ENG={has_country_flag=eng_aus_music}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Joseph Haydn is Brilliant"
+		ai_chance = { factor = 100 }
+	add_political_power=25
+	add_war_support=0.05
+	AUS={
+	add_political_power=25
+	add_war_support=0.05
+	}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.22
+	title = "First Issue of The Observer"
+	desc = britain_1789_1812.22.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Publication is a bit left-wing?"
+		ai_chance = { factor = 100 }
+	add_political_power=25
+	add_stability=0.05
+	add_popularity = { ideology = democratic popularity = 0.05}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.23
+	title = "Trial of Thomas Paine"
+	desc = britain_1789_1812.23.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "He betrayed Britain! Albeit he's in France!"
+		ai_chance = { factor = 100 }
+	add_political_power=-25
+add_popularity = { ideology = democratic popularity = 0.05}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.24
+	title = "Russian British Diplomacy"
+	desc = britain_1789_1812.24.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We always stay on Britains good side"
+		ai_chance = { factor = 100 }
+	add_political_power=-75
+	add_stability=0.05
+	add_war_support=0.05
+	RUS={add_opinion_modifier = { target = ENG modifier = ENG_RUS_ally_one }}
+	ENG={add_opinion_modifier = { target = RUS modifier = ENG_RUS_ally_one }}
+	}
+	option = { # 
+		name = "Allying with Britain is not conducive to reality"
+		ai_chance = { factor = 0 }
+	add_political_power=-75
+	add_stability=-0.05
+	add_war_support=-0.05
+	}
+	}
+country_event = {
+	id = britain_1789_1812.25
+	title = "Austrian British Diplomacy"
+	desc = britain_1789_1812.25.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We always stay on Britains good side"
+		ai_chance = { factor = 100 }
+	add_political_power=-75
+	add_stability=0.05
+	add_war_support=0.05
+	AUS={add_opinion_modifier = { target = ENG modifier = ENG_AUS_ally_one }}
+	ENG={add_opinion_modifier = { target = AUS modifier = ENG_AUS_ally_one }}
+	}
+	option = { # 
+		name = "Allying with Britain is not conducive to reality"
+		ai_chance = { factor = 0 }
+	add_political_power=-75
+	add_stability=-0.05
+	add_war_support=-0.05
+	}
+	}
+country_event = {
+	id = britain_1789_1812.26
+	title = "The Clydach Ironworks"
+	desc = britain_1789_1812.26.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Welsh Metals Industry is thriving!"
+		ai_chance = { factor = 100 }
+											122 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+				add_resource = {
+				type = steel
+				amount = 5
+				state = 122
+			}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.27
+	title = "The Welsh Y Cylchgrawn Cymraeg Politcal Journal Published"
+	desc = britain_1789_1812.27.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=ENG
+date > 1793.6.6
+has_start_date < 1794.1.1
+}
+fire_only_once = yes
+	option = { # 
+		name = "This is England we Speak English Here"
+		ai_chance = { factor = 100 }
+	add_political_power=-50
+	add_stability=-0.05
+	add_war_support=-0.05
+	}
+	option = { # 
+		name = "We dont understand enough to care"
+		ai_chance = { factor = 0 }
+	add_political_power=-50
+	add_war_support=-0.1
+	}
+	}
+	country_event = {
+	id = britain_1789_1812.28
+	title = "The School for the Indigent Blind"
+	desc = britain_1789_1812.28.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Everyone is Equal this is a great initiative!"
+		ai_chance = { factor = 100 }
+	add_political_power=50
+	add_stability=0.01
+	add_popularity = { ideology = democratic popularity = 0.01 }
+	}
+	}
+
+
+
+
+
+
+
+
+
+
+
+		country_event = {
+	id = britain_1789_1812.29
+	title = "The School for the Indigent Blind"
+	desc = britain_1789_1812.29.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Everyone is Equal this is a great initiative!"
+		ai_chance = { factor = 100 }
+	add_political_power=50
+	add_stability=0.01
+	add_popularity = { ideology = democratic popularity = 0.01 }
+	}
+	}
+	country_event = {
+	id = britain_1789_1812.30
+	title = "The School for the Indigent Blind"
+	desc = britain_1789_1812.30.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Everyone is Equal this is a great initiative!"
+		ai_chance = { factor = 100 }
+	add_political_power=50
+	add_stability=0.01
+	add_popularity = { ideology = democratic popularity = 0.01 }
+	}
+	}
+	country_event = {
+	id = britain_1789_1812.31
+	title = "The School for the Indigent Blind"
+	desc = britain_1789_1812.31.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Everyone is Equal this is a great initiative!"
+		ai_chance = { factor = 100 }
+	add_political_power=50
+	add_stability=0.01
+	add_popularity = { ideology = democratic popularity = 0.01 }
+	}
+	}
+	country_event = {
+	id = britain_1789_1812.32
+	title = "The Roman Catholic Relief Act 1791"
+	desc = britain_1789_1812.32.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Catholics will inevitably have to get some rights..."
+		ai_chance = { factor = 100 }
+	add_political_power=-150
+	add_popularity = { ideology = democratic popularity = 0.05 }
+	}
+	}
+	country_event = {
+	id = britain_1789_1812.33
+	title = "Andrew Pears introduces Pears soap in London"
+	desc = britain_1789_1812.33.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Soap in a HOI4 Focus Tree?"
+		ai_chance = { factor = 100 }
+	add_political_power=5
+		random_owned_controlled_state={
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+		type = industrial_complex
+		level = 1
+		instant_build = yes
+		}
+		}
+	}
+	}
+	country_event = {
+	id = britain_1789_1812.34
+	title = "The The first meeting of the Literary Fund"
+	desc = britain_1789_1812.34.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = " David Williams initiative to support authors"
+		ai_chance = { factor = 100 }
+	add_political_power=25
+	add_stability=0.01
+	}
+	}
+	country_event = {
+	id = britain_1789_1812.35
+	title = "Trial of Henry Joy McCracken"
+	desc = britain_1789_1812.35.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=ENG
+NIR={controls_state=119}
+NIR={is_subject_of=ENG}
+date > 1798.7.17
+date < 1799.1.1
+}
+fire_only_once = yes
+	option = { # 
+		name = "Execute Henry Joy McCracken!"
+		ai_chance = { factor = 100 }
+    add_manpower=-1
+	add_political_power=5
+	IRE={add_war_support=-0.01}
+	}
+	option = { # 
+		name = "Imprison Henry Joy McCracken"
+		ai_chance = { factor = 0 }
+    add_stability=-0.01
+	add_political_power=-25
+    add_popularity = { ideology = democratic popularity = 0.01 }
+	IRE={add_war_support=-0.01}
+	}
+	}
+country_event = {
+	id = britain_1789_1812.36
+	title = "Ely and Littleport Riots"
+	desc = britain_1789_1812.36.d
+		picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+		original_tag = ENG
+		has_global_flag = year_without_a_summer
+		125 = {
+			non_damaged_building_level = {
+				building = industrial_complex
+				level < 3
+			}
+		}
+		has_war = no
+	}
+	fire_only_once = yes
+	option = { 
+		name = "Restore Order!"
+    		add_manpower = -100
+		add_stability = -0.05
+	}
+}

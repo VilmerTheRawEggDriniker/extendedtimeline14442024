@@ -1,0 +1,59 @@
+state={
+	id=842
+	name="STATE_842"
+
+	history={
+		owner = NAS
+                add_core_of = NAS
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+			remove_core_of = NAS
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		buildings = {
+			infrastructure = 2
+
+		}
+		1920.1.1 = {
+			set_demilitarized_zone = yes
+
+		}
+		1936.3.7 = {
+			set_demilitarized_zone = no
+
+		}
+
+	}
+
+	provinces={
+		13486
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,59 @@
+
+state={
+	id=372
+	name="STATE_372"
+	manpower = 1854481
+	
+	state_category = town
+	
+	resources={
+		aluminium=14 # was: 20
+	}
+
+
+	history={
+                owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			12489 1 
+		}
+                }
+		1700.1.1 = {
+                owner = FRA
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = LOU
+        }
+		1812.1.1 = {
+        owner = MRI
+		add_core_of = MRI
+		remove_core_of=LOU
+        }
+		1815.1.1 = {
+        owner = ARK
+		add_core_of = ARK
+		remove_core_of = MRI
+        }
+		1837.1.1 = {
+        owner = USA
+		add_core_of = USA
+		remove_core_of = ARK
+        }
+		1803.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778 
+	}
+
+	local_supplies=9.0 
+}

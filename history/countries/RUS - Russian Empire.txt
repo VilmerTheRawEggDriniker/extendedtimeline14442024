@@ -1,0 +1,589 @@
+﻿capital = 219
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1801.1.1 }
+	set_autonomy = {
+        target = GEO
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1797.1.1 }
+	KIE={set_cosmetic_tag=KIE_RUS}
+	set_autonomy = {
+        target = KIE
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1797.1.1 }
+	BSK={set_cosmetic_tag=BSK_RUS}
+	set_autonomy = {
+        target = BSK
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1797.1.1 }
+	DON={set_cosmetic_tag=DON_RUS}
+	set_autonomy = {
+        target = DON
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+	}
+}
+}
+2024.1.1 = {
+set_oob = "RUS_2024"
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1790.1.1 }
+set_oob = "RUS_1789"
+}
+}
+1800.1.1 = {
+		if = {
+		limit = { has_start_date < 1801.1.1 }
+set_oob = "RUS_1800"
+}
+}
+1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+set_oob = "RUS_1812"
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1790.1.1 }
+CIR={
+	declare_war_on = {
+		target = RUS
+		type = annex_everything
+	}
+}
+OTO={
+	declare_war_on = {
+		target = RUS
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = AUS
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SER
+		type = annex_everything
+	}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1790.1.1 }
+WAL={
+	declare_war_on = {
+		target = RUS
+		type = annex_everything
+	}
+}
+		}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1790.1.1 }
+MOL={
+	declare_war_on = {
+		target = RUS
+		type = annex_everything
+	}
+}
+		}
+}
+SWE={
+	declare_war_on = {
+		target = RUS
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = DEN
+		type = annex_everything
+	}
+}
+}
+}
+1919.1.1 = {
+		if = {
+		limit = { has_start_date < 1920.1.1 }
+set_oob = "RUS_1919"
+create_faction = WhiteMovement
+add_to_faction = KAZ
+add_to_faction = DAG
+add_to_faction = DON
+add_to_faction = KUB
+add_to_faction = EST
+add_to_faction = LAT
+add_to_faction = ARM
+add_to_faction = CRI
+add_to_faction = BUK
+add_to_faction = KHI
+add_to_faction = CZE
+add_to_faction = MON
+add_to_faction = TAN
+SOV={
+    set_autonomy = {
+        target = MAK
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
+UKR={
+	declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = DON
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = KUB
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = CRI
+		type = puppet_wargoal_focus
+	}
+}
+POL={
+	declare_war_on = {
+		target = UKR
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = WUK
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+}
+SOV={
+	declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = LAT
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = LIT
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = EST
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BLR
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = UKR
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = CRI
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = KUB
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = DON
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = DAG
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = KAZ
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = WUK
+		type = puppet_wargoal_focus
+	}
+}
+}
+}
+
+1703.1.1 = {
+		set_capital = {
+  state = 195
+  remember_old_capital = no
+}
+}
+1919.1.1 = {
+		set_capital = {
+  state = 571
+  remember_old_capital = no
+}
+}
+1920.1.1 = {
+		set_capital = {
+  state = 219
+  remember_old_capital = no
+}
+}
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+}
+1789.1.1 = {
+recruit_character=RUS_orourke
+}
+1849.1.1 = {
+retire_character=RUS_orourke
+}
+1789.1.1 = {
+recruit_character=RUS_grigory_potemkin
+}
+1800.1.1 = {
+retire_character=RUS_grigory_potemkin
+}
+1789.1.1 = {
+recruit_character=RUS_kutuzov
+}
+1813.1.1 = {
+retire_character=RUS_kutuzov
+}
+1789.1.1 = {
+recruit_character=RUS_barclay
+}
+1819.1.1 = {
+retire_character=RUS_barclay
+}
+1789.1.1 = {
+recruit_character=RUS_bagration
+}
+1813.1.1 = {
+retire_character=RUS_bagration
+}
+1789.1.1 = {
+recruit_character=RUS_suvorov
+}
+1801.1.1 = {
+retire_character=RUS_suvorov
+}
+1762.1.1 = {
+recruit_character=RUS_catherineii
+promote_character=RUS_catherineii
+recruit_character=RUS_pauli
+recruit_character=RUS_alexanderi
+recruit_character=RUS_konstantinpavlovich
+recruit_character=RUS_nicholasi
+}
+1797.1.1 = {
+promote_character=RUS_pauli
+retire_character=RUS_catherineii
+}
+1801.1.1 = {
+promote_character=RUS_alexanderi
+retire_character=RUS_pauli
+}
+1825.1.1 = {
+promote_character=RUS_konstantinpavlovich
+retire_character=RUS_alexanderi
+}
+1826.1.1 = {
+promote_character=RUS_nicholasi
+retire_character=RUS_konstantinpavlovich
+}
+1855.1.1 = {
+recruit_character=RUS_alexanderii
+promote_character=RUS_alexanderii
+retire_character=RUS_nicholasi
+}
+1881.1.1 = {
+recruit_character=RUS_alexanderiii
+promote_character=RUS_alexanderiii
+retire_character=RUS_alexanderii
+}
+1894.1.1 = {
+recruit_character=RUS_nicholasii
+promote_character=RUS_nicholasii
+retire_character=RUS_alexanderiii
+}
+1918.1.1 = {
+retire_character=RUS_nicholasii
+}
+2000.1.1 = {
+recruit_character=RUS_putin
+promote_character=RUS_putin
+}
+set_convoys = 100
+
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 17
+	fascism = 33
+	neutrality = 50
+}
+1800.1.1 = {
+		if = {
+		limit = { has_start_date < 1801.1.1 }
+    set_autonomy = {
+        target = KNI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
+}
+1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
+1836.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
+1900.1.1 = {
+		if = {
+		limit = { has_start_date < 1901.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
+1914.1.1 = {
+		if = {
+		limit = { has_start_date < 1915.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
+1836.1.1 = {
+		if = {
+		limit = { has_start_date < 1919.1.1 }
+    set_autonomy = {
+        target = POL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
+}
+1900.1.1 = {
+		if = {
+		limit = { has_start_date < 1901.1.1 }
+    set_autonomy = {
+        target = POL
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.35
+	}
+}
+}
+1741.1.1 = {
+		if = {
+		limit = { has_start_date < 1870.1.1 }
+    set_autonomy = {
+        target = ALA
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.35
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = {has_start_date > 1788.1.1 has_start_date < 1800.1.1 }
+add_ideas = {
+	russian_jewry alleged_backwardness
+}
+}
+}
+1815.1.1 = {
+			if = {
+		limit = {has_start_date > 1814.1.1 has_start_date < 1919.01.01 }
+add_ideas = {
+	russians_in_paris
+}
+}
+}
+
+
+1444.11.11 = {
+set_party_name = { ideology = neutrality long_name = RUS_RUR_neutrality_party_long name = RUS_RUR_neutrality_party }
+}
+1600.1.1 = {
+set_party_name = { ideology = neutrality long_name = RUS_GOD_neutrality_party_long name = RUS_GOD_neutrality_party }
+}
+1689.1.1 = {
+set_party_name = { ideology = neutrality long_name = RUS_ROM_neutrality_party_long name = RUS_ROM_neutrality_party }
+}
+1715.1.1 = {
+set_party_name = { ideology = neutrality long_name = RUS_ROS_neutrality_party_long name = RUS_ROS_neutrality_party }
+}
+2000.1.1 = {
+set_party_name = { ideology = neutrality long_name = RUS_federation_neutrality_party_long name = RUS_federation_neutrality_party }
+}
+2000.1.1 = {
+set_party_name = { ideology = communism long_name = RUS_federation_communism_party_long name = RUS_federation_communism_party }
+}
+2000.1.1 = {
+set_party_name = { ideology = democratic long_name = RUS_federation_democratic_party_long name = RUS_federation_democratic_party }
+}
+2000.1.1 = {
+set_party_name = { ideology = fascism long_name = RUS_federation_fascism_party_long name = RUS_federation_fascism_party }
+}
+1721.1.1 = {
+set_cosmetic_tag = RUS_empire # 
+}
+2000.1.1 = {
+set_cosmetic_tag = RUS_federation #  russian federation
+}
+1900.1.1 = {
+				if = {
+		limit = {has_start_date > 1899.1.1 has_start_date < 1919.1.1 }
+    set_autonomy = {
+        target = KHI
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.2
+	}
+    set_autonomy = {
+        target = BUK
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.2
+	}
+				}
+}
+
+
+
+
+2022.2.15 = {
+
+	declare_war_on = {
+		target = UKR
+		type = puppet_wargoal_focus
+	}
+	diplomatic_relation = {
+		country = ARM
+		relation = guarantee
+		active = yes
+	}
+	diplomatic_relation = {
+		country = BLR
+		relation = guarantee
+		active = yes
+	}
+	diplomatic_relation = {
+		country = KAZ
+		relation = guarantee
+		active = yes
+	}
+	diplomatic_relation = {
+		country = KYR
+		relation = guarantee
+		active = yes
+	}
+	diplomatic_relation = {
+		country = TAJ
+		relation = guarantee
+		active = yes
+	}
+	diplomatic_relation = {
+		country = NOA
+		relation = guarantee
+		active = yes
+	}
+	diplomatic_relation = {
+		country = ABK
+		relation = guarantee
+		active = yes
+	}
+}
+

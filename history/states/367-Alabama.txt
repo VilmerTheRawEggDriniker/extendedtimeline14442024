@@ -1,0 +1,53 @@
+
+state={
+	id=367
+	name="STATE_367"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+                owner = UNO
+		add_core_of = UNO
+                }
+				1812.1.1 = {
+                owner = MSP
+		add_core_of = MSP
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
+                }
+						1813.1.1 = {
+                owner = USA
+		add_core_of = USA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=MSP
+                }
+		1871.1.1 = {
+		victory_points = {
+			12735 1 
+		}
+                }
+		1805.1.1 = {
+		victory_points = {
+			5059 1 
+		}
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		4594 4622 5059 7422 10192 11509 12735 12803 
+	}
+	manpower=551270	
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

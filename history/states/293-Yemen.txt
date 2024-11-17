@@ -1,0 +1,49 @@
+
+state={
+	id=293
+	name="STATE_293"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+		owner = OTO
+		}
+		1900.1.1 = {
+		add_core_of = YEM
+		}
+				buildings = {
+			infrastructure = 0
+		}
+				1600.1.1 = {
+		buildings = {
+			infrastructure = 2
+			10840 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			10840 3 
+		}
+				}
+		1919.1.1 = {
+			owner = YEM
+			controller = YEM
+            add_core_of = YEM
+            remove_core_of = OTO
+		}
+
+	}
+
+	provinces={
+		1920 1973 4924 10752 10840 12740 13709 13711 
+	}
+	manpower=2489500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

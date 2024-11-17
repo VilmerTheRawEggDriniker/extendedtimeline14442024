@@ -1,0 +1,52 @@
+
+state={
+	id=479
+	name="STATE_479"
+	resources={
+		oil=9.000
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+
+		}
+		1822.1.1 = {
+			add_core_of = MEX
+			owner = MEX
+
+		}
+				1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1590.1.1 = {
+			victory_points = {
+				5015 5 
+			}
+
+		}
+		1823.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		5015 5021 13088 
+	}
+	manpower=344039
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

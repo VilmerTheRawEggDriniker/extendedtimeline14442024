@@ -1,0 +1,63 @@
+
+state={
+	id=455
+	name="STATE_455"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		1600.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			7151 1 
+		}
+		victory_points = {
+			11976 1 
+		}
+		add_core_of = JOR
+				1919.1.1 = {
+			owner = SYR
+			controller = SYR
+			remove_core_of = OTO
+
+		}
+		1920.1.1 = {
+			owner = ENG
+			add_core_of = JOR
+			remove_core_of = SYR
+
+		}
+		1947.1.1 = {
+			owner = JOR
+			controller = JOR
+			add_core_of = JOR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		4017 4115 4574 4591 7001 7151 7170 10089 11976 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=938
+	name="STATE_938"
+
+	history={
+		victory_points = {
+			867 1 
+		}
+		owner = OTO
+                add_core_of = BUL
+		1900.1.1 = {
+		add_core_of = MAC
+                remove_core_of = BUL
+                }
+		buildings = {
+			infrastructure = 1
+
+		}
+		1914.1.1 = {
+			owner = SER
+			controller = SER
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+            add_core_of = YUG
+		}
+		1992.1.1 = {
+			owner = MAC
+			controller = MAC
+            remove_core_of = YUG
+		}
+	}
+
+	provinces={
+		833 867 13812 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

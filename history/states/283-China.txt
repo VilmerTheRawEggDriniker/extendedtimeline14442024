@@ -1,0 +1,82 @@
+
+state={
+	id=283
+	name="STATE_283"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = QIN
+		}
+1919.1.1 = {
+        }
+		1920.1.1 = {
+			owner = XSM
+			controller = XSM
+            add_core_of = XSM
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            remove_core_of = XSM
+		add_core_of = PRC
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+				1936.1.1 = {
+				buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		517 531 556 1630 1647 1933 2022 3745 4403 4939 5025 6638 7397 7911 12797 12882 
+	}
+	manpower=3705400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
+
+
+

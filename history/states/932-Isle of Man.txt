@@ -1,0 +1,44 @@
+
+state={
+	id=932
+	name="STATE_932"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		1793.1.1 = {
+			add_core_of = VND
+			remove_core_of = FRA
+
+		}
+		1816.1.1 = {
+			add_core_of = FRA
+			remove_core_of = VND
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+
+			}
+
+		}
+		victory_points = {
+			11600 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		9631 9867 11600 11613 13456 14570 14577 14581 
+	}
+	manpower=389211
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

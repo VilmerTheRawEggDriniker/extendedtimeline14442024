@@ -1,0 +1,54 @@
+
+state={
+	id=404
+	name="STATE_404"
+
+	history={
+		owner = UZB
+		add_core_of = UZB
+		1500.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = UZB
+
+		}
+		1848.1.1 = {
+                owner = RUS
+                }
+		victory_points = {
+			7597 1 
+		}
+		1919.1.1 = {
+		owner = KAZ
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = SOV
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		7597 10452 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

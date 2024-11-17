@@ -1,0 +1,16 @@
+characters={
+	COR_gilbert={
+		name=COR_CHARACTER_GILBERT
+		portraits={
+			civilian={
+				large="GFX_portrait_cor_gilbert_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = COR_GILBERT_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

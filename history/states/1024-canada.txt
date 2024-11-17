@@ -1,0 +1,42 @@
+
+state={
+	id=1024
+	name="STATE_1024"
+
+	history={
+		owner = ZZZ
+                1789.1.1 = {
+			owner = NOC
+		add_core_of=NOC
+		}
+		1900.1.1 = {
+		remove_core_of=NOC
+		remove_core_of=NOS
+		remove_core_of=ITO
+		remove_core_of=ONT
+		remove_core_of=QUE
+		remove_core_of=PEI
+		remove_core_of=NBR
+		remove_core_of=FOU
+		}
+                1867.1.1 = {
+			owner = CAN
+			controller = CAN
+		add_core_of = CAN
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1872 2976 4272 4753 5403 7696 7766 7869 7901 8653 8962 10585 10703 10721 12682 13163 13167 13168 13182 13183 13185 13187 13188 13189 13190 13191 13192 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

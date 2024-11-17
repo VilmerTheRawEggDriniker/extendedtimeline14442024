@@ -1,0 +1,1182 @@
+﻿###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = colonialism
+
+# Act 1935
+country_event = {
+	id = colonialism.1
+	title = "Government of India Act 1935"
+	desc = colonialism.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+
+trigger = {
+original_tag = ENG
+			659 = {
+				owner = {
+				original_tag= RAJ
+				}
+date > 1937.4.1
+}
+}
+	
+fire_only_once = yes
+
+mean_time_to_happen = {
+days = 30
+modifier = {
+factor = 1.0
+date > 1937.4.1
+       }
+}
+	option = { # Seperate both Aden and Burma from India
+		name = "Seperate both Aden and Burma from India"
+		ai_chance = { factor = 90 }
+				news_event = colonialism.10
+		ENG = { 
+			transfer_state = 659
+			transfer_state = 933
+			transfer_state = 935
+			transfer_state = 936
+			transfer_state = 288
+			transfer_state = 640
+		}
+	}
+	option = { # Seperate Aden from India
+		name = "Seperate Aden from India"
+		ai_chance = { factor = 6 }
+						news_event = colonialism.12
+		ENG = { 
+			transfer_state = 659		
+		}
+	}
+	option = { # Keep India Whole 
+		name = "Keep India Whole"
+		ai_chance = { factor = 2 }
+						news_event = colonialism.14
+		RAJ = {
+			add_autonomy_ratio = {
+				value = 0.1		
+			}
+		}
+	}
+	option = { # Seperate Muslim and Hindu India
+		name = "Seperate Muslim and Hindu India"
+		ai_chance = { factor = 2 }
+							news_event = colonialism.16
+		ENG = {
+			transfer_state = 659
+			transfer_state = 933
+			transfer_state = 935
+			transfer_state = 936
+			transfer_state = 288
+			transfer_state = 640
+			transfer_state = 430
+			transfer_state = 440
+			transfer_state = 442
+			transfer_state = 443
+			transfer_state = 444
+			transfer_state = 445	
+		    }
+		}
+	}
+
+	# PERU VICTORY
+country_event = {
+	id = colonialism.3
+	title = "Peruvian Victory in the Ecuadorian–Peruvian War"
+	desc = colonialism.3.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+
+trigger = {
+original_tag = PRU
+country_exists = PRU
+country_exists = ECU
+                AND = {
+                    has_war_with = ECU
+                    ECU = {surrender_progress > 0.01 }
+                }
+}
+	
+fire_only_once = yes
+
+mean_time_to_happen = {
+	days = 7
+modifier = {
+factor = 1.0
+       }
+}
+	option = { # Annex Pastaza
+		name = "Annex Pastaza"
+		ai_chance = { factor = 100 }
+		white_peace = ECU
+		news_event = colonialism.4
+		PRU = { 
+			transfer_state = 490
+			add_state_core = 490
+			remove_state_claim = 490
+		    }
+		ECU = { 
+			transfer_state = 305
+			transfer_state = 649
+			remove_state_core = 490
+	    }
+		}
+	}
+
+
+		# PERU VICTORY
+country_event = {
+	id = colonialism.5
+	title = "Ecuadorian Victory in the Ecuadorian–Peruvian War"
+	desc = colonialism.5.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+
+trigger = {
+original_tag = PRU
+			494 = {
+				owner = {
+				original_tag= PRU
+				}
+				controller = {
+				original_tag= ECU
+				}
+			}
+}
+	
+fire_only_once = yes
+
+mean_time_to_happen = {
+		days = 7
+modifier = {
+factor = 1.0
+       }
+}
+	option = { # Seperate both Aden and Burma from India
+		name = "White Peace with Ecuador"
+		ai_chance = { factor = 100 }
+		white_peace = ECU
+		news_event = colonialism.6
+				ECU = { 
+			transfer_state = 490
+			add_state_core = 490
+				}
+	    
+		PRU = { 
+			transfer_state = 303
+			remove_state_core = 490
+			remove_state_claim = 490
+			transfer_state = 492
+			transfer_state = 494
+		    }
+		}
+	}
+
+		# Act 1935
+country_event = {
+	id = colonialism.21
+	title = "German victory over the USSR"
+	desc = colonialism.21.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+
+trigger = {
+original_tag = GER
+country_exists = RUK
+country_exists = RLV
+                AND = {
+                    has_war_with = SOV
+                    SOV = {surrender_progress > 0.8 }
+                }
+}
+	
+fire_only_once = yes
+
+mean_time_to_happen = {
+modifier = {
+factor = 1.0
+       }
+}
+	option = { # Seperate both Aden and Burma from India
+		name = "Peace on the Dniper"
+		ai_chance = { factor = 33 }
+		news_event = colonialism.22
+		white_peace = SOV
+		add_stability = -0.1
+		add_war_support = -0.1
+		RLV = { set_capital = { state = 206 } }
+		RLV = { 
+			transfer_state = 204
+			transfer_state = 1212
+		}
+		SOV= { 
+			transfer_state = 12
+			transfer_state = 808
+			transfer_state = 810
+			transfer_state = 13
+			transfer_state = 191
+			transfer_state = 811
+			transfer_state = 812
+			transfer_state = 813
+			transfer_state = 1208
+			transfer_state = 1213
+			transfer_state = 1227
+			transfer_state = 259
+			transfer_state = 1201
+			transfer_state = 1202
+			transfer_state = 1205
+			transfer_state = 200
+
+		}
+			hidden_effect = {
+				SOV={
+				if = {
+  limit = {
+    is_in_faction = yes 
+  }
+  leave_faction = yes 
+}
+every_country = {
+  limit = {
+    has_war_with = SOV
+  }
+  white_peace = SOV
+}
+				}
+if = {
+  limit = {
+    country_exists = FIN
+  }
+  FIN={
+  transfer_state = 213
+    transfer_state = 215
+  transfer_state = 146
+    transfer_state = 147
+  transfer_state = 722}
+}
+			}
+	}
+	option = { # Seperate Aden from India
+		name = "Peace on the Volga"
+		ai_chance = { factor = 33 }
+				news_event = colonialism.22
+				white_peace = SOV
+		add_stability = -0.2
+		add_war_support = -0.2
+		GER = { 
+		transfer_state = 1206
+		transfer_state = 1207
+		transfer_state = 1219
+		transfer_state = 1211
+		transfer_state = 1230
+		transfer_state = 193
+		transfer_state = 225
+		transfer_state = 221
+		transfer_state = 227
+		transfer_state = 228
+		transfer_state = 229
+		transfer_state = 230
+		transfer_state = 231
+		transfer_state = 1003
+		transfer_state = 1004
+		transfer_state = 1001
+		transfer_state = 1002
+		transfer_state = 1010
+		transfer_state = 826
+
+		transfer_state = 235
+		transfer_state = 236
+		transfer_state = 237
+		transfer_state = 232
+		transfer_state = 821
+		transfer_state = 234
+		transfer_state = 245
+		transfer_state = 1214
+		transfer_state = 1218
+		transfer_state = 1223
+
+		transfer_state = 218
+		transfer_state = 1222
+		transfer_state = 968
+		transfer_state = 1210
+		transfer_state = 137
+		transfer_state = 575
+		transfer_state = 565
+		transfer_state = 827
+		transfer_state = 828
+		transfer_state = 1090
+
+		transfer_state = 233
+		transfer_state = 238
+		transfer_state = 567
+		transfer_state = 204
+		transfer_state = 207
+		transfer_state = 241
+		transfer_state = 1212
+		transfer_state = 205
+		transfer_state = 208
+		transfer_state = 209
+
+	    transfer_state = 195
+		transfer_state = 263
+		transfer_state = 1217
+		transfer_state = 247
+		transfer_state = 219
+		transfer_state = 242
+		transfer_state = 1224
+		transfer_state = 223
+		transfer_state = 224
+		transfer_state = 222
+
+		transfer_state = 239
+		transfer_state = 253
+		transfer_state = 264
+		transfer_state = 254
+		transfer_state = 257
+		transfer_state = 258
+		transfer_state = 260
+		transfer_state = 220
+		transfer_state = 240
+		transfer_state = 217
+
+		transfer_state = 265
+		}
+						hidden_effect = {
+							SOV={
+				if = {
+  limit = {
+    is_in_faction = yes 
+  }
+  leave_faction = yes 
+}
+every_country = {
+  limit = {
+    has_war_with = SOV
+  }
+  white_peace = SOV
+}
+}
+if = {
+  limit = {
+    country_exists = FIN
+  }
+  FIN={
+  transfer_state = 213
+    transfer_state = 215
+  transfer_state = 146
+    transfer_state = 147
+  transfer_state = 722}
+}
+			}
+	}
+	option = { # Keep India Whole 
+		name = "Peace on the Urals"
+		ai_chance = { factor = 33 }
+				news_event = colonialism.22
+						white_peace = SOV
+		add_stability = -0.3
+		add_war_support = -0.3
+		GER = { 
+		transfer_state = 1206
+		transfer_state = 1207
+		transfer_state = 1219
+		transfer_state = 1211
+		transfer_state = 1230
+		transfer_state = 193
+		transfer_state = 225
+		transfer_state = 221
+		transfer_state = 227
+		transfer_state = 228
+		transfer_state = 229
+		transfer_state = 230
+		transfer_state = 231
+		transfer_state = 1003
+		transfer_state = 1004
+		transfer_state = 1001
+		transfer_state = 1002
+		transfer_state = 1010
+		transfer_state = 826
+
+		transfer_state = 235
+		transfer_state = 236
+		transfer_state = 237
+		transfer_state = 232
+		transfer_state = 821
+		transfer_state = 234
+		transfer_state = 245
+		transfer_state = 1214
+		transfer_state = 1218
+		transfer_state = 1223
+
+		transfer_state = 218
+		transfer_state = 1222
+		transfer_state = 968
+		transfer_state = 1210
+		transfer_state = 137
+		transfer_state = 575
+		transfer_state = 565
+		transfer_state = 827
+		transfer_state = 828
+		transfer_state = 1090
+
+		transfer_state = 233
+		transfer_state = 238
+		transfer_state = 567
+		transfer_state = 204
+		transfer_state = 207
+		transfer_state = 241
+		transfer_state = 1212
+		transfer_state = 205
+		transfer_state = 208
+		transfer_state = 209
+
+	    transfer_state = 195
+		transfer_state = 263
+		transfer_state = 1217
+		transfer_state = 247
+		transfer_state = 219
+		transfer_state = 242
+		transfer_state = 1224
+		transfer_state = 223
+		transfer_state = 224
+		transfer_state = 222
+
+		transfer_state = 239
+		transfer_state = 253
+		transfer_state = 264
+		transfer_state = 254
+		transfer_state = 257
+		transfer_state = 258
+		transfer_state = 260
+		transfer_state = 220
+		transfer_state = 240
+		transfer_state = 217
+
+		transfer_state = 265
+
+		transfer_state = 246
+		transfer_state = 243
+		transfer_state = 829
+		transfer_state = 401
+		transfer_state = 251
+		transfer_state = 652
+		transfer_state = 651
+		transfer_state = 582
+		transfer_state = 249
+		transfer_state = 210
+
+		transfer_state = 250
+		transfer_state = 255
+		transfer_state = 244
+		transfer_state = 252
+		transfer_state = 256
+		transfer_state = 833
+		transfer_state = 573
+		transfer_state = 398
+		transfer_state = 399
+		transfer_state = 400
+
+		transfer_state = 397
+		transfer_state = 581
+		transfer_state = 825
+		transfer_state = 214
+		transfer_state = 351
+		transfer_state = 216
+		transfer_state = 248
+		transfer_state = 1216
+		transfer_state = 215
+		transfer_state = 213
+		}
+						hidden_effect = {
+							SOV={
+				if = {
+  limit = {
+    is_in_faction = yes 
+  }
+  leave_faction = yes 
+}
+every_country = {
+  limit = {
+    has_war_with = SOV
+  }
+  white_peace = SOV
+}
+}
+if = {
+  limit = {
+    country_exists = FIN
+  }
+  FIN={
+  transfer_state = 213
+    transfer_state = 215
+  transfer_state = 146
+    transfer_state = 147
+  transfer_state = 722}
+}
+			}
+	}
+	option = { # Seperate Muslim and Hindu India
+		name = "2nd treaty of Brest-Litovsk"
+		ai_chance = { factor = 1 }
+				news_event = colonialism.22
+						white_peace = SOV
+		add_stability = -0.15
+		add_war_support -0.15
+		RUK = { set_capital = { state = 202 } }
+		GER = { 
+			transfer_state = 11
+			transfer_state = 189
+			transfer_state = 784
+			transfer_state = 814
+			transfer_state = 815
+		}
+		SOV = { 
+			transfer_state = 810
+			transfer_state = 96
+			transfer_state = 1225
+			transfer_state = 206
+		}
+		RUK = { 
+		transfer_state = 1206
+		transfer_state = 1207
+		transfer_state = 1219
+		transfer_state = 1211
+		transfer_state = 1230
+		transfer_state = 193
+		transfer_state = 225
+		transfer_state = 221
+		transfer_state = 227
+		transfer_state = 228
+		}
+		GER = { 
+		transfer_state = 229
+		transfer_state = 230
+		transfer_state = 231
+		transfer_state = 1003
+		transfer_state = 1004
+		transfer_state = 1001
+		transfer_state = 1002
+		transfer_state = 1010
+		transfer_state = 826
+		}
+								hidden_effect = {
+									SOV={
+				if = {
+  limit = {
+    is_in_faction = yes 
+  }
+  leave_faction = yes 
+}
+every_country = {
+  limit = {
+    has_war_with = SOV
+  }
+  white_peace = SOV
+}
+}
+if = {
+  limit = {
+    country_exists = FIN
+  }
+  FIN={
+  transfer_state = 213
+    transfer_state = 215
+  transfer_state = 146
+    transfer_state = 147
+  transfer_state = 722}
+}
+}
+}
+}
+
+
+	# Act 1935
+country_event = {
+	id = colonialism.7
+	title = "Mexican victory over the USA"
+	desc = colonialism.7.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+
+trigger = {
+original_tag = MEX
+                AND = {
+                    has_war_with = USA
+                    USA = {surrender_progress > 0.4 }
+                }
+date > 1848.1.1
+}
+	
+fire_only_once = yes
+
+mean_time_to_happen = {
+modifier = {
+factor = 1.0
+date > 1848.1.1
+       }
+}
+	option = { # Seperate both Aden and Burma from India
+		name = "The Zimmermann Telegram"
+		ai_chance = { factor = 25 }
+		news_event = colonialism.8
+		white_peace = USA
+		add_stability = -0.1
+		MEX = { 
+			transfer_state = 375
+			transfer_state = 376
+			transfer_state = 377
+			transfer_state = 1026
+		}
+					USA = { 
+	add_ideas = houston
+			}
+			hidden_effect = {
+				if = {
+  limit = {
+    is_in_faction = yes 
+  }
+  leave_faction = yes 
+}
+every_country = {
+  limit = {
+    has_war_with = ROOT 
+  }
+  white_peace = ROOT
+}
+if = {
+  limit = {
+    controls_state = 311
+  }
+  transfer_state = 311
+}
+			}
+	}
+	option = { # Seperate Aden from India
+		name = "The 37th parallel"
+		ai_chance = { factor = 25 }
+				news_event = colonialism.8
+				white_peace = USA
+		add_stability = -0.2
+		MEX = { 
+			transfer_state = 375
+			transfer_state = 376
+			transfer_state = 377
+			transfer_state = 1026	
+			transfer_state = 1027
+			transfer_state = 1025
+			transfer_state = 1021
+			transfer_state = 1023	
+		}
+						USA = { 
+	add_ideas = losangeles
+			}
+						hidden_effect = {
+				if = {
+  limit = {
+    is_in_faction = yes 
+  }
+  leave_faction = yes 
+}
+every_country = {
+  limit = {
+    has_war_with = ROOT 
+  }
+  white_peace = ROOT
+}
+if = {
+  limit = {
+    controls_state = 311
+  }
+  transfer_state = 311
+}
+			}
+	}
+	option = { # Keep India Whole 
+		name = "Repudiate the Mexican Cession"
+		ai_chance = { factor = 25 }
+				news_event = colonialism.8
+						white_peace = USA
+		add_stability = -0.3
+		MEX = { 
+			transfer_state = 375
+			transfer_state = 376
+			transfer_state = 377
+			transfer_state = 1026	
+			transfer_state = 1027
+			transfer_state = 1025
+			transfer_state = 1021
+			transfer_state = 1023	
+			transfer_state = 378
+			transfer_state = 379
+			transfer_state = 380
+			transfer_state = 1022
+			transfer_state = 1032
+			transfer_state = 1035		
+			transfer_state = 1031
+			transfer_state = 1033
+			transfer_state = 1034
+		}
+						USA = { 
+	add_ideas = sanfrancisco
+			}
+						hidden_effect = {
+				if = {
+  limit = {
+    is_in_faction = yes 
+  }
+  leave_faction = yes 
+}
+every_country = {
+  limit = {
+    has_war_with = ROOT 
+  }
+  white_peace = ROOT
+}
+if = {
+  limit = {
+    controls_state = 311
+  }
+  transfer_state = 311
+}
+			}
+	}
+	option = { # Seperate Muslim and Hindu India
+		name = "Patria Grande"
+		ai_chance = { factor = 25 }
+				news_event = colonialism.8
+						white_peace = USA
+		add_stability = -0.4
+		MEX = {
+			transfer_state = 375
+			transfer_state = 376
+			transfer_state = 377
+			transfer_state = 1026	
+			transfer_state = 1027
+			transfer_state = 1025
+			transfer_state = 1021
+			transfer_state = 1023	
+			transfer_state = 378
+			transfer_state = 379
+			transfer_state = 380
+			transfer_state = 1022
+			transfer_state = 1032
+			transfer_state = 1035		
+			transfer_state = 1031
+			transfer_state = 1033
+			transfer_state = 1034	
+			transfer_state = 1096
+			transfer_state = 1097
+			transfer_state = 1098		
+			transfer_state = 1099
+			transfer_state = 366
+			transfer_state = 686
+		    }
+						USA = { 
+	add_ideas = miami
+			}
+								hidden_effect = {
+				if = {
+  limit = {
+    is_in_faction = yes 
+  }
+  leave_faction = yes 
+}
+every_country = {
+  limit = {
+    has_war_with = ROOT 
+  }
+  white_peace = ROOT
+}
+if = {
+  limit = {
+    controls_state = 311
+  }
+  transfer_state = 311
+}
+			}
+		}
+}
+
+country_event = {
+	id = colonialism.17
+	title = "Battle of Stalingrad"
+	desc = colonialism.17.d
+	picture = GFX_idi_amin_india
+    #is_triggered_only = yes
+
+trigger = {
+original_tag = SOV
+date > 1936.1.1
+                    has_war_with = GER
+								OR = {
+			245 = {
+				owner = {
+				original_tag= SOV
+				}
+				controller = {
+				original_tag= GER
+				}
+			}
+			265 = {
+				owner = {
+				original_tag= SOV
+				}
+				controller = {
+				original_tag= GER
+				}
+			}
+		}
+}
+	
+fire_only_once = yes
+
+mean_time_to_happen = {
+		days = 7
+modifier = {
+factor = 1.0
+       }
+}
+	option = { #
+		name = "Battle of Stalingrad"
+		ai_chance = { factor = 100 }
+		news_event = colonialism.18
+				GER = { 
+				add_timed_idea = {
+				idea = ger_stalingrad
+				days = 163
+			}
+				}
+								ROM = { 
+				add_timed_idea = {
+				idea = rom_stalingrad
+				days = 163
+			}
+				}
+								ITA = { 
+				add_timed_idea = {
+				idea = ita_stalingrad
+				days = 163
+			}
+				}
+								CRO = { 
+				add_timed_idea = {
+				idea = cro_stalingrad
+				days = 163
+			}
+				}
+								HUN = { 
+				add_timed_idea = {
+				idea = hun_stalingrad
+				days = 163
+			}
+				}
+	    
+		SOV = { 
+				add_timed_idea = {
+				idea = sov_stalingrad
+				days = 163
+			}
+		    }
+		}
+	}
+
+
+
+
+
+country_event = {
+	id = colonialism.19
+	title = "Axis occupation of Yugoslavia"
+	desc = colonialism.19.d
+	picture = GFX_idi_amin_india
+    #is_triggered_only = yes
+
+trigger = {
+original_tag = GER
+                    has_war_with = YUG
+					YUG= { has_capitulated = yes }
+}
+	
+fire_only_once = yes
+
+mean_time_to_happen = {
+		days = 7
+modifier = {
+factor = 1.0
+       }
+}
+	option = { #
+		name = "Axis occupation of Yugoslavia"
+		ai_chance = { factor = 100 }
+		news_event = colonialism.20
+			ENG = { 
+			add_war_support = 0.1
+			}
+					hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								state = 105
+								state = 948
+								state = 949
+							}
+														OR = {
+							is_owned_by = YUG
+							is_owned_by = GER
+							is_owned_by = CRO
+							is_owned_by = MNT
+							is_owned_by = SER
+							is_owned_by = BOS
+							is_owned_by = HRZ
+							is_owned_by = SLV
+							is_owned_by = KOS
+							is_owned_by = MAC
+							is_owned_by = BUL
+							is_owned_by = HUN
+							is_owned_by = ITA
+							is_owned_by = ALB
+														}
+						}
+						MNT = {
+							transfer_state = PREV
+						}
+					}
+										every_state = {
+						limit = {
+							OR = {
+								state = 106
+								state = 840
+								state = 803
+								state = 983
+							}
+							OR = {
+							is_owned_by = YUG
+							is_owned_by = GER
+							is_owned_by = CRO
+							is_owned_by = MNT
+							is_owned_by = SER
+							is_owned_by = BOS
+							is_owned_by = HRZ
+							is_owned_by = SLV
+							is_owned_by = KOS
+							is_owned_by = MAC
+							is_owned_by = BUL
+							is_owned_by = HUN
+							is_owned_by = ITA
+							is_owned_by = ALB
+							}
+						}
+						BUL = {
+							transfer_state = PREV
+						}
+					}
+															every_state = {
+						limit = {
+							OR = {
+								state = 44
+								state = 805
+								state = 802
+								state = 938
+								state = 943
+								state = 944
+							}
+							OR = {
+							is_owned_by = YUG
+							is_owned_by = GER
+							is_owned_by = CRO
+							is_owned_by = MNT
+							is_owned_by = SER
+							is_owned_by = BOS
+							is_owned_by = HRZ
+							is_owned_by = SLV
+							is_owned_by = KOS
+							is_owned_by = MAC
+							is_owned_by = BUL
+							is_owned_by = HUN
+							is_owned_by = ITA
+							is_owned_by = ALB
+							}
+						}
+						ALB = {
+							transfer_state = PREV
+						}
+					}
+																				every_state = {
+						limit = {
+							OR = {
+								state = 262
+								state = 108
+								state = 926
+								state = 952
+								state = 764
+							}
+							OR = {
+							is_owned_by = YUG
+							is_owned_by = GER
+							is_owned_by = CRO
+							is_owned_by = MNT
+							is_owned_by = SER
+							is_owned_by = BOS
+							is_owned_by = HRZ
+							is_owned_by = SLV
+							is_owned_by = KOS
+							is_owned_by = MAC
+							is_owned_by = BUL
+							is_owned_by = HUN
+							is_owned_by = ITA
+							is_owned_by = ALB
+							}
+						}
+						SER = {
+							transfer_state = PREV
+						}
+					}
+																									every_state = {
+						limit = {
+							OR = {
+								state = 951
+								state = 860
+								state = 45
+							}
+							OR = {
+							is_owned_by = YUG
+							is_owned_by = GER
+							is_owned_by = CRO
+							is_owned_by = MNT
+							is_owned_by = SER
+							is_owned_by = BOS
+							is_owned_by = HRZ
+							is_owned_by = SLV
+							is_owned_by = KOS
+							is_owned_by = MAC
+							is_owned_by = BUL
+							is_owned_by = HUN
+							is_owned_by = ITA
+							is_owned_by = ALB
+							}
+						}
+						HUN = {
+							transfer_state = PREV
+						}
+					}
+																														every_state = {
+						limit = {
+							OR = {
+								state = 940
+								state = 859
+							}
+							OR = {
+							is_owned_by = YUG
+							is_owned_by = GER
+							is_owned_by = CRO
+							is_owned_by = MNT
+							is_owned_by = SER
+							is_owned_by = BOS
+							is_owned_by = HRZ
+							is_owned_by = SLV
+							is_owned_by = KOS
+							is_owned_by = MAC
+							is_owned_by = BUL
+							is_owned_by = HUN
+							is_owned_by = ITA
+							is_owned_by = ALB
+							}
+						}
+						GER = {
+							transfer_state = PREV
+						}
+					}
+																														every_state = {
+						limit = {
+							OR = {
+								state = 102
+								state = 950
+								state = 163
+								state = 736
+								state = 959
+								state = 963
+								state = 956
+								state = 857
+							}
+							OR = {
+							is_owned_by = YUG
+							is_owned_by = GER
+							is_owned_by = CRO
+							is_owned_by = MNT
+							is_owned_by = SER
+							is_owned_by = BOS
+							is_owned_by = HRZ
+							is_owned_by = SLV
+							is_owned_by = KOS
+							is_owned_by = MAC
+							is_owned_by = BUL
+							is_owned_by = HUN
+							is_owned_by = ITA
+							is_owned_by = ALB
+							}
+						}
+						ITA = {
+							transfer_state = PREV
+						}
+					}
+																																			every_state = {
+						limit = {
+							OR = {
+								state = 925
+								state = 929
+								state = 103
+								state = 109
+								state = 930
+								state = 1115
+								state = 104
+								state = 804
+								state = 953
+								state = 954
+								state = 955
+								state = 957
+								state = 958
+							}
+							OR = {
+							is_owned_by = YUG
+							is_owned_by = GER
+							is_owned_by = CRO
+							is_owned_by = MNT
+							is_owned_by = SER
+							is_owned_by = BOS
+							is_owned_by = HRZ
+							is_owned_by = SLV
+							is_owned_by = KOS
+							is_owned_by = MAC
+							is_owned_by = BUL
+							is_owned_by = HUN
+							is_owned_by = ITA
+							is_owned_by = ALB
+							}
+						}
+						CRO = {
+							transfer_state = PREV
+						}
+					}
+					SER = {
+				    set_state_controller = 107
+					}
+					GER = {
+		            puppet = SER
+				    puppet = CRO
+					}
+					ITA = {
+		            puppet = MNT
+				    puppet = ALB
+					}
+				}
+	       }
+	    }
+
+
+
+
+	

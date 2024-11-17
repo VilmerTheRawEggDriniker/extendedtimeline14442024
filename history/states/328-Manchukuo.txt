@@ -1,0 +1,65 @@
+
+state={
+	id=328
+	name="STATE_328"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1905.1.1 = {
+                owner = QIN
+		}
+		1912.1.1 = {
+            owner = CHI
+		}
+				1912.1.1 = {
+            owner = CHI
+		remove_core_of = QIN
+		}
+1919.1.1 = {
+        }
+		1920.1.1 = {
+            owner = MAN
+            add_core_of = MAN
+            remove_core_of = QIN
+		}
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC 
+            add_core_of = PRC
+            remove_core_of = MAN
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4572 20
+		}
+		}
+
+	}
+
+	provinces={
+		800 861 887 916 927 930 944 946 973 1567 3888 3913 3929 3932 3944 3947 4503 4572 4642 6806 6905 6947 6964 7523 7591 7652 7663 9803 9841 9866 9883 9897 9913 9928 11744 11781 11823 11850 11862 11864 
+	}
+	manpower=6000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

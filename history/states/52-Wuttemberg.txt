@@ -1,0 +1,77 @@
+
+state={
+	id=52
+	name="STATE_52"
+	resources={
+		aluminium=30.000
+	}
+
+	history={
+		owner = BYM
+		add_core_of = BYM
+		1600.1.1 = {
+			owner = BAY
+			add_core_of = BAY
+			remove_core_of = BYM
+
+		}
+		1950.1.1 = {
+			owner = WGR
+			add_core_of = WGR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			owner = BAY
+
+		}
+		1920.1.1 = {
+			owner = GER
+			remove_core_of = BAY
+
+		}
+		victory_points = {
+			692 20 
+		}
+		victory_points = {
+			9652 1 
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 2
+				industrial_complex = 1
+				air_base = 6
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		692 707 3688 6693 9636 9652 11620 11653 14605 14625 14633 14635 14649 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=8.000
+}

@@ -1,0 +1,46 @@
+
+state={
+	id=906
+	name="STATE_906"
+
+	history={
+		add_core_of = GRI
+		owner = GRI
+		1800.1.1 = {
+			owner = SWI
+			add_core_of = SWI
+			remove_core_of = GRI
+			remove_core_of = NEU
+
+		}
+		victory_points = {
+			3660 1 
+		}
+		victory_points = {
+			658 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1900.1.1 = {
+			buildings = {
+				3660 = {
+					bunker = 3
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		658 3660 3662 14569 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,49 @@
+state={
+	id=1224
+	name="STATE_1224"
+	history={
+		owner = MUS
+		add_core_of = MUS
+				victory_points = {
+			401 1
+		}
+		1550.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = RYA
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+	provinces={
+		301 350 366 401 3259 3290 3327 3358 3391 6283 6290 6348 6414 9235 9282 9302 9348 9378 9395 11217 11236 11268 11282 11330 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+        state_category=megalopolis
+	local_supplies=0.000
+}

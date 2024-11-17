@@ -1,0 +1,16 @@
+characters={
+	CAF_francisco={
+		name=CAF_CHARACTER_FRANCISCO
+		portraits={
+			civilian={
+				large="GFX_portrait_caf_francisco_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = CAF_FRANCISCO_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

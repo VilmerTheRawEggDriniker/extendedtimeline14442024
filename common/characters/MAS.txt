@@ -1,0 +1,31 @@
+characters={
+	MAS_ercole={
+		name=MAS_CHARACTER_ERCOLE
+		portraits={
+			civilian={
+				large="GFX_portrait_mas_ercole_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Este}
+			desc = MAS_ERCOLE_DESC
+			expire="1797.1.1"
+		}
+}
+	MAS_francisiv={
+		name=MAS_CHARACTER_FRANCISIV
+		portraits={
+			civilian={
+				large="GFX_portrait_mas_francisiv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Este}
+			desc = MAS_FRANCISIV_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,55 @@
+
+state={
+	id=250
+	name="STATE_250"
+	resources={
+		steel=14.000
+	}
+
+	history={
+		owner = TAT
+		add_core_of = TAT
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = TAT
+
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		victory_points = {
+			392 1 
+		}
+
+	}
+
+	provinces={
+		286 392 3196 3246 3276 3372 6226 6275 6294 6302 6337 6394 9338 11373 
+	}
+	manpower=1630524
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=8.000
+}

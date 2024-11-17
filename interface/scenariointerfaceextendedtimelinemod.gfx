@@ -1,0 +1,66 @@
+spriteTypes = {
+		spriteType = {
+		name = "GFX_varna_1444"
+		texturefile = "gfx/interface/varna_1444.dds"
+	}
+		spriteType = {
+		name = "GFX_iberian_union_1600"
+		texturefile = "gfx/interface/iberian_union_1600.dds"
+	}
+		spriteType = {
+		name = "GFX_gloriousrevolution_1689"
+		texturefile = "gfx/interface/gloriousrevolution_1689.dds"
+	}
+	spriteType = {
+		name = "GFX_the_great_northern_wars_1700"
+		texturefile = "gfx/interface/the_great_northern_wars_1700.dds"
+	}
+		spriteType = {
+		name = "GFX_french_revolution_1789"
+		texturefile = "gfx/interface/french_revolution_1789.dds"
+	}
+		spriteType = {
+		name = "GFX_napoleonic_wars_1800"
+		texturefile = "gfx/interface/napoleonic_wars_1800.dds"
+	}
+		spriteType = {
+		name = "GFX_the_invasion_of_russia_1812"
+		texturefile = "gfx/interface/the_invasion_of_russia_1812.dds"
+	}
+		spriteType = {
+		name = "GFX_victoria_1836"
+		texturefile = "gfx/interface/victoria_1836.dds"
+	}
+		spriteType = {
+		name = "GFX_revolutions_1848"
+		texturefile = "gfx/interface/revolutions_1848.dds"
+	}
+		spriteType = {
+		name = "GFX_unifyitaly_1859"
+		texturefile = "gfx/interface/unifyitaly_1859.dds"
+	}
+	spriteType = {
+		name = "GFX_dream_of_flight_1900"
+		texturefile = "gfx/interface/dream_of_flight_1900.dds"
+	}
+		spriteType = {
+		name = "GFX_worldwarone_1914"
+		texturefile = "gfx/interface/worldwarone_1914.dds"
+	}
+		spriteType = {
+		name = "GFX_the_russian_civil_war_1919"
+		texturefile = "gfx/interface/the_russian_civil_war_1919.dds"
+	}
+		spriteType = {
+		name = "GFX_endsieg_1945"
+		texturefile = "gfx/interface/endsieg_1945.dds"
+	}
+		spriteType = {
+		name = "GFX_coldwar_1960"
+		texturefile = "gfx/interface/coldwar_1960.dds"
+	}
+		spriteType = {
+		name = "GFX_ukraine_russia_war_2024"
+		texturefile = "gfx/interface/ukraine_russia_war_2024.dds"
+	}
+}

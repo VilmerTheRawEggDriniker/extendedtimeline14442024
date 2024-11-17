@@ -1,0 +1,40 @@
+
+state={
+	id=785
+	name="STATE_785"
+	resources={
+		steel=20.000
+		aluminium=4.000
+	}
+
+	history={
+		victory_points = {
+			11420 5 
+		}
+		victory_points = {
+			13473 2 
+		}
+		owner = BUR
+		add_core_of = BUR
+		1600.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = BUR
+
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		454 3402 3447 6585 9561 11420 11549 13462 13463 13470 13473 13475 13478 13482 13483 13490 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

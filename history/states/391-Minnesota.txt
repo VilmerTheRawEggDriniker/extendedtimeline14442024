@@ -1,0 +1,67 @@
+
+state={
+	id=391
+	name="STATE_391"
+	resources={
+		steel=110.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			1866 5 
+		}
+                }
+		1700.1.1 = {
+                owner = FRA
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = LOU
+        }
+		1803.1.1 = {
+        owner = MRI
+        add_core_of = MRI
+		remove_core_of = LOU
+        }
+				1813.1.1 = {
+        owner = UNO
+        add_core_of = UNO
+		remove_core_of = MRI
+        }
+				1835.1.1 = {
+        owner = MCH
+        add_core_of = MCH
+		remove_core_of = UNO
+        }
+				1837.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = MCH
+        }
+		1803.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1866 1867 4664 4807 6752 7536 9880 10618 10719 11667 12577 12597 12693 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

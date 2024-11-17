@@ -1,0 +1,80 @@
+
+state={
+	id=1228
+	name="STATE_1228"
+
+	history={
+		owner = WDF
+		add_core_of = WDF
+		1600.1.1 = {
+			owner = OTO
+			remove_core_of = WDF
+			remove_core_of = POD
+			remove_core_of = SMG
+			remove_core_of = SMO
+			remove_core_of = KIE
+			remove_core_of = CHE
+			add_core_of = ZAP
+
+		}
+		1793.1.1 = {
+			add_core_of = RUS
+			remove_core_of = ZAP
+
+		}
+		1789.1.1 = {
+			owner = OTO
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		13611 13617 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

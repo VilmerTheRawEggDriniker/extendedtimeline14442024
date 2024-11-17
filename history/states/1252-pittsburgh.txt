@@ -1,0 +1,40 @@
+state={
+	id=1252
+	name="STATE_1252"
+		history={
+		owner = ZZZ
+		1760.1.1 = {
+			victory_points = {
+				11800 20 
+			}
+		}
+		1789.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 3
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 3
+			}
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+	provinces={
+		880 3802 9789 11789 11800 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

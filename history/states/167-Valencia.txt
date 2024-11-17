@@ -1,0 +1,71 @@
+
+state={
+	id=167
+	name="STATE_167"
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+				1500.1.1 = {
+                owner = SPR
+                add_core_of = SPR
+                remove_core_of = NAV
+                remove_core_of = ADU
+				remove_core_of = ARA
+		}
+        1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+					FRA = {
+				set_province_controller = 3873
+				set_province_controller = 6817
+				set_province_controller = 9896
+				set_province_controller = 6906
+			}
+		}
+		}
+		victory_points = {
+			6906 20 
+		}
+		victory_points = {
+			4098 3 
+		}
+						1936.1.1 = {
+									buildings = {
+			infrastructure = 3
+			dockyard = 1
+			air_base = 3
+						6906 = {
+				naval_base = 3
+
+			}
+			4098 = {
+				naval_base = 2
+
+			}
+									}
+						}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			6906 = {
+				naval_base = 3
+
+			}
+			4098 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		962 3799 3873 4098 6817 6856 6906 6959 9889 9896 14078 14082 
+	}
+	manpower=1906715
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

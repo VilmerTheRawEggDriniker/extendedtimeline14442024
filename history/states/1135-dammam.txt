@@ -1,0 +1,37 @@
+state={
+	id=1135
+	name="STATE_1135"
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+		owner = OTO
+		add_core_of=OTO
+		}
+		1900.1.1 = {
+		add_core_of = SAU
+		}
+		victory_points = {
+			12702 1 
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		1919.1.1 = {
+			owner = SAU
+			controller = SAU
+			add_core_of = SAU
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		4932 10791 12702 
+	}
+	manpower=248000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

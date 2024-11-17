@@ -1,0 +1,21 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = french_revolution_britain_1789_1812
+
+		news_event = {
+	id = french_revolution_britain_1789_1812.1
+	title = "Government of India Act 1935"
+	desc = french_revolution_britain_1789_1812_1.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}

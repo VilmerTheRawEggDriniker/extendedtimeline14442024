@@ -1,0 +1,63 @@
+state={
+	id=326
+	name="STATE_326"
+	manpower = 1000000
+	state_category = town
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = HKG
+        }
+		2000.1.1 = {
+		add_core_of = HKG
+		owner = HKG
+        }
+		1841.1.1 = {
+                owner = ENG
+                }
+		1842.1.1 = {
+                }
+		1913.1.1 = {
+            remove_core_of = QIN
+		}
+		1933.1.1 = {
+		}
+		1950.1.1 = {
+            remove_core_of = GXC
+		}
+		victory_points = {
+			10062 10 
+		}
+				1936.1.1 = {
+							buildings = {
+			infrastructure = 3 #was: 5
+			air_base = 1
+			10062 = {
+				naval_base = 6
+				coastal_bunker = 1
+			}
+		}
+				}
+		buildings = {
+			infrastructure = 3 #was: 5
+			10062 = {
+				naval_base = 6
+				coastal_bunker = 1
+			}
+		}
+	}
+	provinces={
+		10062
+	}
+
+	local_supplies=0.0 
+}

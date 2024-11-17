@@ -1,0 +1,64 @@
+
+state={
+	id=278
+	name="STATE_278"
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+            }
+		1810.1.1 = {
+            remove_core_of = SPR
+                owner = ARG
+		add_core_of = ARG
+		}
+				1789.1.1 = {
+        add_core_of = ARG
+        owner = ARG
+        }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 4
+			12364 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+
+			}
+			7621 = {
+				naval_base = 2
+
+			}
+			1639 = {
+				naval_base = 1
+
+			}
+        }
+		}
+		1789.1.1 = {
+		victory_points = {
+			12364 10 
+		}
+		victory_points = {
+			7621 1 
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1555 1568 1596 1624 1639 4573 4602 4643 7621 10375 10390 10402 10418 12321 12351 12364 12379 12394 12409 12494 
+	}
+	manpower=5596366
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

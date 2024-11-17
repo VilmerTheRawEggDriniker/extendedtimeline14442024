@@ -1,0 +1,57 @@
+
+state={
+	id=423
+	name="STATE_423"
+	resources={
+		rubber=19.000
+	}
+
+	history={
+		owner = MUG
+		add_core_of = MUG
+		1692.1.1 = {
+        remove_core_of = MUG
+		add_core_of = CTC
+		owner = CTC
+		}
+		1800.1.1 = {
+	    add_core_of = RAJ
+		owner = RAJ
+		remove_core_of=CTC
+				buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10278 = {
+				naval_base = 4
+
+			}
+
+		}
+		victory_points = {
+			10278 1 
+		}
+		}
+		1936.1.1 = {
+        		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			10278 = {
+				naval_base = 4
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		1238 1268 1321 1381 1409 4327 4416 4420 7265 7288 7297 7363 7391 7402 7436 7447 8067 10130 10246 10274 10278 10808 12164 12247 12275 
+	}
+	manpower=40000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

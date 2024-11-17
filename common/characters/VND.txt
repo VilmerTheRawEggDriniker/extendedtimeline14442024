@@ -1,0 +1,17 @@
+characters={
+	VND_louisxvii={
+		name=VND_CHARACTER_LOUISXVII
+		portraits={
+			civilian={
+				large="GFX_portrait_vnd_louisxvii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bourbon}
+			desc = VND_LOUISXVII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

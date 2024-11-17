@@ -1,0 +1,71 @@
+
+state={
+	id=1222
+	name="STATE_1222"
+
+	history={
+		owner = CRI
+		add_core_of = CRI
+				1700.1.1 = {
+		remove_core_of = CRI
+		owner = RUS
+		add_core_of = RUS
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+						1789.1.1 = {
+			owner = DON
+		add_core_of = DON
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = DON
+		remove_core_of = POL
+		}
+		1804.1.1 = {
+				victory_points = {
+			12340 3 
+		}
+		}
+								1919.1.1 = {
+		owner = DON
+		add_core_of=DON
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		4773 10506 10603 11418 11450 12340 12397 12658 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,172 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = colonialism
+
+		news_event = {
+	id = colonialism.10
+	title = "Government of India Act 1935"
+	desc = colonialism_10.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+
+		news_event = {
+	id = colonialism.12
+	title = "Government of India Act 1935"
+	desc = colonialism_12.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+
+		news_event = {
+	id = colonialism.14
+	title = "Government of India Act 1935"
+	desc = colonialism_14.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+
+		news_event = {
+	id = colonialism.16
+	title = "Government of India Act 1935"
+	desc = colonialism_16.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+
+# Marco Polo Bridge I
+news_event = {
+	id = colonialism.4
+	title = "Peace in Pastaza"
+	desc = colonialism_4.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+
+# Marco Polo Bridge I
+news_event = {
+	id = colonialism.6
+	title = "Peace in Pastaza"
+	desc = colonialism_6.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+
+# Marco Polo Bridge I
+news_event = {
+	id = colonialism.8
+	title = "Mexican victory over the USA"
+	desc = colonialism_8.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+
+		# Marco Polo Bridge I
+news_event = {
+	id = colonialism.18
+	title = "The Battle of Stalingrad"
+	desc = colonialism_18.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+
+				# Marco Polo Bridge I
+news_event = {
+	id = colonialism.20
+	title = "Axis occupation of Yugoslavia"
+	desc = colonialism_20.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		}
+		news_event = {
+	id = colonialism.22
+	title = "German Victory over the USSR"
+	desc = colonialism_22.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+	option = {
+		name = "Ok but what are the semi-implied implications for non-conforming BIPOC VolX?"
+			}
+		}

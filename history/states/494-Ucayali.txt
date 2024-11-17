@@ -1,0 +1,33 @@
+
+state={
+	id=494
+	name="STATE_494"
+
+	history={
+		owner = ZZZ
+				1789.1.1 = {
+        add_core_of = PRU
+        owner = PRU
+        }
+		1822.1.1 = {
+			owner = PRU
+			controller = PRU
+			add_core_of = PRU
+			remove_core_of = SPR
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		2212 2226 8160 8191 8213 10940 10970 
+	}
+	manpower=465701
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

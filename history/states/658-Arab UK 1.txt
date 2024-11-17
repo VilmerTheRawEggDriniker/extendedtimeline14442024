@@ -1,0 +1,52 @@
+
+state={
+	id=658
+	name="STATE_658"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		owner = ENG
+		add_core_of = UAE
+                }
+		1900.1.1 = {
+		victory_points = {
+			7960 1 
+		}
+		victory_points = {
+			10904 1 
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 1
+			7960 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1973.1.1 = {
+			owner = UAE
+			controller = UAE
+			remove_core_of = YUG
+
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		7960 8108 10904 
+	}
+	manpower=170200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=8.000
+}

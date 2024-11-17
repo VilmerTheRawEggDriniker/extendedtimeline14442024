@@ -1,0 +1,82 @@
+
+state={
+	id=463
+	name="STATE_463"
+
+	history={
+		owner = ZZZ
+		1741.1.1 = {
+                add_core_of = ALA
+                owner = ALA
+                }
+				1790.1.1 = {
+		victory_points = {
+			7884 1 
+		}
+				}
+		1784.1.1 = {
+		victory_points = {
+			13090 1 
+		}
+		victory_points = {
+			13091 3 
+		}
+		victory_points = {
+			13067 1 
+		}
+                }
+		1784.1.1 = {
+		buildings = {
+			infrastructure = 0
+			13091 = {
+				naval_base = 1
+
+			}
+			13067 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 0
+			air_base = 1
+			13091 = {
+				naval_base = 1
+
+			}
+			13067 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		1867.1.1 = {
+                owner = USA
+                add_core_of = ALA
+                }
+		1900.1.1 = {
+                owner = USA
+                }
+		1959.1.1 = {
+                owner = USA
+                add_core_of = USA
+				remove_core_of = ALA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13067 13069 13090 13091 13202 13203 
+	}
+	manpower=67520
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

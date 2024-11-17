@@ -1,0 +1,78 @@
+
+state={
+	id=1189
+	name="STATE_1189"
+
+	history={
+		owner = OSN
+                add_core_of = OSN
+		1812.1.1 = {
+        add_core_of = WTF
+        }
+		1816.1.1 = {
+		remove_core_of = WTF
+        }
+		1812.1.1 = {
+        owner = FRA
+        add_core_of = HAN
+		remove_core_of = OSN
+        }
+		1816.1.1 = {
+        owner = HAN
+        add_core_of = HAN
+		remove_core_of = OSN
+        }
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+										1812.1.1 = {
+                owner = FRA
+                }
+				1816.1.1 = {
+                add_core_of = HAN
+                owner = HAN
+                }
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		victory_points = {
+			11388 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		11388 13513 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

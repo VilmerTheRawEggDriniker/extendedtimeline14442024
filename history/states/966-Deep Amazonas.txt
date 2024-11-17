@@ -1,0 +1,68 @@
+
+state={
+	id=966
+	name="STATE_966"
+	resources={
+		oil=8.000
+		aluminium=7.000
+	}
+
+	history={
+		owner = KIE
+		add_core_of = KIE
+		1600.1.1 = {
+			owner = POL
+                add_core_of = ZAP
+	    remove_core_of = KIE
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+			remove_core_of = ZAP
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		1878 3494 3543 4798 4821 4859 6497 7746 9465 9568 10714 12514 13793 13795 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

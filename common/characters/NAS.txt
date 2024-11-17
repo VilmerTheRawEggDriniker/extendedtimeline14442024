@@ -1,0 +1,45 @@
+characters={
+	NAS_charleswilliam={
+		name=NAS_CHARACTER_CHARLESWILLIAM
+		portraits={
+			civilian={
+				large="GFX_portrait_nas_charleswilliam_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Nassau}
+			desc = NAS_CHARLESWILLIAM_DESC
+			expire="1797.1.1"
+		}
+}
+	NAS_frederickaugustus={
+		name=NAS_CHARACTER_FREDERICKAUGUSTUS
+		portraits={
+			civilian={
+				large="GFX_portrait_nas_frederickaugustus_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Nassau-Usingen}
+			desc = NAS_FREDERICKAUGUSTUS_DESC
+			expire="1797.1.1"
+		}
+}
+	NAS_william={
+		name=NAS_CHARACTER_WILLIAM
+		portraits={
+			civilian={
+				large="GFX_portrait_nas_william_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Nassau-Weilburg}
+			desc = NAS_WILLIAM_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

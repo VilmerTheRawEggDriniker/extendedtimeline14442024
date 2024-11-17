@@ -1,0 +1,50 @@
+
+state={
+	id=320
+	name="STATE_320"
+	manpower = 300000
+
+	state_category = pastoral
+
+	history={
+		owner = MUG
+		add_core_of = MUG
+		1900.1.1 = {
+        remove_core_of = MUG
+		}
+		1789.1.1 = {
+                owner = FRA
+		add_core_of = RAJ
+                }
+				1789.1.1 = {
+		remove_core_of=MUG
+        }
+		1800.1.1 = {
+                owner = ENG
+        }
+				1816.1.1 = {
+                owner = FRA
+                }
+		1960.1.1 = {
+		owner = RAJ
+                }
+				1789.1.1 = {
+		victory_points = {
+			10149 1 
+		}
+				buildings = {
+			infrastructure = 0
+				}
+		buildings = {
+			infrastructure = 3 #was: 5
+			10149 = {
+				naval_base = 1
+			}
+		}
+				}
+	}
+
+	provinces={ 10149 }
+
+	local_supplies=0.0 
+}

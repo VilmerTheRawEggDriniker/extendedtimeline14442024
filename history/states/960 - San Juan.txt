@@ -1,0 +1,38 @@
+
+state={
+	id=960
+	name="STATE_960"
+
+	history={
+		owner = BRI
+		add_core_of = BRI
+				1793.1.1 = {
+			add_core_of = VND
+			remove_core_of = FRA
+
+		}
+		1816.1.1 = {
+			add_core_of = FRA
+			remove_core_of = VND
+
+		}
+		1532.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = BRI
+
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		11616 13336 
+	}
+	manpower=117557
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

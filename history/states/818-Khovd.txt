@@ -1,0 +1,36 @@
+state={
+	id=818
+	name="STATE_818"
+	provinces={
+		1774 4751 4777 7773 7808 7843 7870 10539 10563 10669 12520 12695 
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MON
+        }
+		1900.1.1 = {
+        owner = QIN
+		remove_core_of = MNG
+        }
+		buildings = {
+			infrastructure = 0
+		}
+		1700.1.1 = {
+		victory_points = {
+			7843 1 #Ulaangom
+		}
+		}
+		1913.1.1 = {
+			owner = MON
+			controller = MON
+            remove_core_of = QIN
+		}
+	}
+	manpower=149000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

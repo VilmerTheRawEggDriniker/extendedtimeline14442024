@@ -1,0 +1,60 @@
+state={
+	id=886
+	name="STATE_886"
+
+	history={
+		owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+                owner = HUN
+		}
+		1700.1.1 = {
+			owner = HUN
+                remove_core_of = TRA
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = AUH
+		}
+		victory_points = {
+			9661 1
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+		add_core_of = AUS
+            remove_core_of = AUH
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+		add_core_of = AUS
+            remove_core_of = GER
+		}
+
+	}
+
+	provinces={
+		3700 9661 11630 
+	}
+	manpower=287866
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

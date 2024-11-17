@@ -1,0 +1,70 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		owner = AGQ
+		add_core_of = AGQ
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			remove_core_of = ARM
+
+		}
+		victory_points = {
+			9823 1 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+
+		}
+                }
+		buildings = {
+			infrastructure = 2
+		}
+		if = {
+			limit = {
+				has_dlc = "Battle for the Bosporus"
+
+			}
+			add_core_of = KUR
+
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_dlc = "Battle for the Bosporus"
+
+				}
+
+			}
+			add_core_of = KUR
+
+		}
+
+	}
+
+	provinces={
+		9823 11871 12416 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

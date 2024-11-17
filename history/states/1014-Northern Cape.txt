@@ -1,0 +1,30 @@
+
+state={
+	id=1014
+	name="STATE_1014"
+
+	history={
+		owner = ZZZ
+		1848.1.1 = {
+                owner = SAF
+                add_core_of = SAF
+                }
+		1900.1.1 = {
+		add_core_of = SAF
+                owner = SAF
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1509 4528 5203 10442 10697 12419 14114 14115 14119 14120 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

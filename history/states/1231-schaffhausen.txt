@@ -1,0 +1,36 @@
+state={
+	id=1231
+	name="STATE_1231"
+	history={
+	owner = SFF
+	add_core_of=SFF
+			1501.1.1 = {
+			owner = SWI
+			add_core_of = SWI
+			remove_core_of = SFF
+
+		}
+	buildings = {
+	infrastructure = 1
+	}
+	victory_points = {
+	3679 1
+	}
+					1900.1.1 = {
+				buildings = {
+			3679 = {
+				bunker = 3
+
+			}
+
+		}
+		}
+	}
+	provinces={
+		3679 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

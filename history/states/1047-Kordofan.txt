@@ -1,0 +1,32 @@
+
+state={
+	id=1047
+	name="STATE_1047"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = SUD
+                }
+		1956.1.1 = {
+			owner = SUD
+			controller = SUD
+			remove_core_of = EGY
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		2016 8084 10827 10851 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

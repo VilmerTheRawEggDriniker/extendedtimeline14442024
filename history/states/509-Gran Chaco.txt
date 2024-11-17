@@ -1,0 +1,48 @@
+
+state={
+	id=509
+	name="STATE_509"
+	resources={
+		tungsten=35.000
+		steel=6.000
+	}
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+            }
+					1789.1.1 = {
+        add_core_of = ARG
+        owner = ARG
+        }
+		1810.1.1 = {
+            remove_core_of = SPR
+                owner = ARG
+		add_core_of = ARG
+		}
+		1899.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+                }
+		1900.1.1 = {
+ 		victory_points = {
+			7500 1 
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2106 2172 2208 5143 5163 5213 7500 8169 8208 8255 10944 10965 10975 10985 10986 12922 12943 13000 
+	}
+	manpower=704241
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=6.000
+}

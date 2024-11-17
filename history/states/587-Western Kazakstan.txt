@@ -1,0 +1,44 @@
+
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		owner = KYR
+		add_core_of = KYR
+		1900.1.1 = {
+                owner = RUS
+                }
+		1936.1.1 = {
+                add_core_of = TAJ
+                remove_core_of = KYR
+                }
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = TAJ
+			controller = TAJ
+			add_core_of = TAJ
+			remove_core_of = SOV
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		12805 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

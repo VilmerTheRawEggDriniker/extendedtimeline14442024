@@ -1,0 +1,73 @@
+characters={
+	SPM_victoramadeusiii={
+		name=SPM_CHARACTER_VICTORAMADEUSIII
+		portraits={
+			civilian={
+				large="GFX_portrait_spm_victoramadeusiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Savoy}
+			desc = SPM_VICTORAMADEUSIII_DESC
+			expire="1797.1.1"
+		}
+}
+	SPM_charlesemmanueliv={
+		name=SPM_CHARACTER_CHARLESEMMANUELIV
+		portraits={
+			civilian={
+				large="GFX_portrait_spm_charlesemmanueliv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Savoy}
+			desc = SPM_CHARLESEMMANUELIV_DESC
+			expire="1797.1.1"
+		}
+}
+	SPM_charlesalbert={
+		name=SPM_CHARACTER_CHARLESALBERT
+		portraits={
+			civilian={
+				large="GFX_portrait_spm_charlesalbert_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Savoy}
+			desc = SPM_CHARLESALBERT_DESC
+			expire="1797.1.1"
+		}
+}
+	SPM_victoremmanueli={
+		name=SPM_CHARACTER_VICTOREMMANUELI
+		portraits={
+			civilian={
+				large="GFX_portrait_spm_victoremmanueli_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Savoy}
+			desc = SPM_VICTOREMMANUELI_DESC
+			expire="1797.1.1"
+		}
+}
+	SPM_charlesfelix={
+		name=SPM_CHARACTER_CHARLESFELIX
+		portraits={
+			civilian={
+				large="GFX_portrait_spm_charlesfelix_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Savoy}
+			desc = SPM_CHARLESFELIX_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

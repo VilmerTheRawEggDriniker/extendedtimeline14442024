@@ -1,0 +1,31 @@
+characters={
+	ZWE_charlesiiaugust={
+		name=ZWE_CHARACTER_CHARLESIIAUGUST
+		portraits={
+			civilian={
+				large="GFX_portrait_zwe_charlesiiaugust_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = ZWE_CHARLESIIAUGUST_DESC
+			expire="1797.1.1"
+		}
+}
+	ZWE_maximilianijoseph={
+		name=ZWE_CHARACTER_MAXIMILIANIJOSEPH
+		portraits={
+			civilian={
+				large="GFX_portrait_zwe_maximilianijoseph_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wittelsbach}
+			desc = ZWE_MAXIMILIANIJOSEPH_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,82 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		steel=44.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1700.1.1 = {
+			buildings = {
+				infrastructure = 2
+				6845 = {
+					naval_base = 8
+
+				}
+
+			}
+
+		}
+		1700.1.1 = {
+			victory_points = {
+				6845 20 
+			}
+
+		}
+		1700.1.1 = {
+
+		}
+		1789.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+				dockyard = 7
+				6845 = {
+					naval_base = 8
+
+				}
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+				dockyard = 7
+				air_base = 2
+				6845 = {
+					naval_base = 8
+
+				}
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		862 4218 6705 6845 6869 6899 7348 9820 11680 11799
+	}
+	manpower=5631346
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

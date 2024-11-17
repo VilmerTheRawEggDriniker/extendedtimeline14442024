@@ -1,0 +1,57 @@
+
+state={
+	id=384
+	name="STATE_384"
+	manpower = 1377962
+	
+	state_category = rural
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+		victory_points = {
+			12586 1 
+		}
+                }
+		1789.1.1 = {
+        owner = MEX
+		add_core_of = LOU
+        }
+		1803.1.1 = {
+        owner = MRI
+        add_core_of = MRI
+		remove_core_of = LOU
+        }
+				1813.1.1 = {
+        owner = UNO
+        add_core_of = UNO
+		remove_core_of = MRI
+        }
+				1837.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = UNO
+        }
+		1803.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586 
+	}
+
+	local_supplies=0.0 
+}

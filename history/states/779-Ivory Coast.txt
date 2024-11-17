@@ -1,0 +1,49 @@
+
+state={
+	id=779
+	name="STATE_779"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+        owner = SEN
+        }
+		1939.1.1 = {
+        owner = SEN
+		}
+		1900.1.1 = {
+		add_core_of = IVO
+                }
+		1970.1.1 = {
+                owner = IVO
+		add_core_of = IVO
+                }
+		1900.1.1 = {
+		victory_points = {
+			10803 1 
+		}
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			10803 = {
+				naval_base = 1
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		8122 10803 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+}

@@ -1,0 +1,53 @@
+
+state={
+	id=118
+	name="STATE_118"
+
+	history={
+		owner = ADU
+                add_core_of = ADU
+		1500.1.1 = {
+                owner = SPR
+                add_core_of = SPR
+                remove_core_of = NAV
+                remove_core_of = ADU
+		}
+		1701.1.1 = {
+                add_core_of = ENG
+                remove_core_of = SPR
+                owner = ENG
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			4135 = {
+				naval_base = 5
+				coastal_bunker = 2
+
+			}
+
+		}
+		}
+		victory_points = {
+			4135 15 
+		}
+		buildings = {
+			infrastructure = 2
+			4135 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4135 
+	}
+	manpower=21372
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

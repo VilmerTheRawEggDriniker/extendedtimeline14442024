@@ -1,0 +1,49 @@
+characters={
+	SAX_george_of_saxony = {
+
+		name = SAX_george_of_saxony
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAX_george_of_saxony
+			}
+		}
+
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "1943.1.1.1"
+			id = -1
+		}
+
+	}
+	SAX_frederickaugustusi={
+		name=SAX_CHARACTER_FREDERICKAUGUSTUSI
+		portraits={
+			civilian={
+				large="GFX_portrait_sax_frederickaugustusi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wettin}
+			desc = SAX_FREDERICKAUGUSTUSI_DESC
+			expire="1797.1.1"
+		}
+}
+	SAX_anthony={
+		name=SAX_CHARACTER_ANTHONY
+		portraits={
+			civilian={
+				large="GFX_portrait_sax_anthony_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wettin}
+			desc = SAX_ANTHONY_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,39 @@
+state={
+	id=1091
+	name="STATE_1091"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+			owner = ENG
+			controller = ENG
+            add_core_of = PNG
+		}
+		1905.1.1 = {
+			owner = AST
+			controller = AST
+            remove_core_of = ENG
+		}
+		1975.1.1 = {
+			owner = PNG
+			controller = PNG
+            remove_core_of = ENG
+		}
+		buildings = {
+			infrastructure = 0
+                  }
+	}
+
+	provinces={
+		2129 7409 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}
+
+
+
+

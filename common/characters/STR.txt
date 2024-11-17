@@ -1,0 +1,45 @@
+characters={
+	STR_adolphusfrederickiv={
+		name=STR_CHARACTER_ADOLPHUSFREDERICKIV
+		portraits={
+			civilian={
+				large="GFX_portrait_str_adolphusfrederickiv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Mecklenburg-Strelitz}
+			desc = STR_ADOLPHUSFREDERICKIV_DESC
+			expire="1797.1.1"
+		}
+}
+	STR_charlesii={
+		name=STR_CHARACTER_CHARLESII
+		portraits={
+			civilian={
+				large="GFX_portrait_str_charlesii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Mecklenburg-Strelitz}
+			desc = STR_CHARLESII_DESC
+			expire="1797.1.1"
+		}
+}
+	STR_george={
+		name=STR_CHARACTER_GEORGE
+		portraits={
+			civilian={
+				large="GFX_portrait_str_george_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Mecklenburg-Strelitz}
+			desc = STR_GEORGE_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

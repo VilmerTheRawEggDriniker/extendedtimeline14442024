@@ -1,0 +1,82 @@
+
+state={
+	id=153
+	name="STATE_153"
+
+	history={
+		owner = TYR
+		add_core_of = TYR
+		1500.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = STY
+			remove_core_of = TYR
+			remove_core_of = CEL
+			remove_core_of = TRT
+
+		}
+		1812.1.1 = {
+			owner = BAY
+			add_core_of = BAY
+
+		}
+		1816.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = BAY
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			add_core_of = AUH
+			remove_core_of = AUS
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				air_base = 3
+
+			}
+
+		}
+		victory_points = {
+			673 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		673 6678 9633 11618 14587 14590 14594 14597 14607 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=12.000
+}

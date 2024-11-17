@@ -1,0 +1,31 @@
+characters={
+	LUC_ferdinandi={
+		name=LUC_CHARACTER_FERDINANDI
+		portraits={
+			civilian={
+				large="GFX_portrait_luc_ferdinandi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bourbon-Parma}
+			desc = LUC_FERDINANDI_DESC
+			expire="1797.1.1"
+		}
+}
+	LUC_marie={
+		name=LUC_CHARACTER_MARIE
+		portraits={
+			civilian={
+				large="GFX_portrait_luc_marie_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = LUC_MARIE_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

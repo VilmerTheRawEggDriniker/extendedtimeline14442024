@@ -1,0 +1,47 @@
+
+state={
+	id=342
+	name="STATE_342"
+	resources={
+		chromium=35.000
+	}
+
+	history={
+		owner = ALY
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ALY
+				1471.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		4008 4127 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

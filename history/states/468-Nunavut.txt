@@ -1,0 +1,106 @@
+
+state={
+	id=468
+	name="STATE_468"
+	resources={
+aluminium=7.000
+	}
+	history={
+
+
+
+		owner = ZZZ
+                1700.1.1 = {
+			owner = FRA
+			controller = FRA
+		}
+				                1789.1.1 = {
+			owner = QUE
+		add_core_of=QUE
+		}
+		1900.1.1 = {
+		remove_core_of=NOC
+		remove_core_of=NOS
+		remove_core_of=ITO
+		remove_core_of=ONT
+		remove_core_of=QUE
+		remove_core_of=PEI
+		remove_core_of=NBR
+		remove_core_of=FOU
+		}
+                1650.1.1 = {
+		victory_points = {
+			12149 3 
+		}
+		}
+                1670.1.1 = {
+		buildings = {
+			infrastructure = 1
+			12149 = {
+				naval_base = 6
+
+			}
+			3691 = {
+				naval_base = 1
+
+			}
+
+		}
+		}
+                1660.1.1 = {
+		victory_points = {
+			4345 20 
+		}
+		}
+		1867.1.1 = {
+			owner = CAN
+			controller = CAN
+                add_core_of = CAN
+				add_core_of = QUE
+		}
+                1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			12149 = {
+				naval_base = 6
+
+			}
+			3691 = {
+				naval_base = 1
+
+			}
+
+		}
+		}
+                1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 3
+			12149 = {
+				naval_base = 6
+
+			}
+			3691 = {
+				naval_base = 1
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		490 983 1284 1341 1356 1657 1712 1764 3208 3691 3911 4305 4345 4417 4419 4422 4666 4769 6740 7289 7291 7345 7364 7433 7435 7683 7807 7810 7813 7875 7893 9601 10174 10176 10230 10249 10320 10534 10700 10715 11682 11902 12147 12149 12205 12223 12276 12291 12600 13160 13162 13164 13166 13181 13184 13186 13196 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=3.000
+}

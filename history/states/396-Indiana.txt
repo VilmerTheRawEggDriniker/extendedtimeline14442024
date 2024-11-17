@@ -1,0 +1,63 @@
+
+state={
+	id=396
+	name="STATE_396"
+	manpower = 3238501
+	state_category = megalopolis
+
+	history={
+		owner = ZZZ
+		1800.1.1 = {
+		victory_points = {
+			870 5
+		}
+}
+		1789.1.1 = {
+                owner = NWT
+		add_core_of = NWT
+                }
+				1812.1.1 = {
+                owner = IDA
+		add_core_of = IDA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
+                }
+						1813.1.1 = {
+                owner = USA
+		add_core_of = USA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=IDA
+                }
+		1821.1.1 = {
+		victory_points = {
+			1595 20
+		}
+                }
+		1906.1.1 = {
+		victory_points = {
+			6713 2 
+		}
+                }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 5
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437 
+	}
+
+	local_supplies=0.0 
+}

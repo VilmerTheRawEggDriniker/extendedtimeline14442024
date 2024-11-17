@@ -1,0 +1,74 @@
+
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = SLA
+		add_core_of = SLA
+								1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
+		1600.1.1 = {
+	        owner = OTO
+                add_core_of = HUN
+                remove_core_of = SLA
+
+		}
+		1700.1.1 = {
+			owner = HUN
+                remove_core_of = TRA
+		}
+		1789.1.1 = {
+		add_core_of = CRO
+        remove_core_of = HUN
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = CRO
+                        add_core_of = AUH
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			13661 3 
+		}
+		victory_points = {
+			9595 1 
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+			remove_core_of = AUH
+
+		}
+		1992.1.1 = {
+			owner = CRO
+			controller = CRO
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		624 3627 6647 9595 9611 11594 13660 13661 13665 13666 13669 13670 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

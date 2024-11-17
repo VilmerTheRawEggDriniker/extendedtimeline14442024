@@ -1,0 +1,39 @@
+
+state={
+	id=795
+	name="STATE_795"
+	resources={
+		chromium=20.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			9869 1 
+		}
+		victory_points = {
+			924 1 
+		}
+		victory_points = {
+			970 1 
+		}
+		victory_points = {
+			6933 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = POR
+
+	}
+
+	provinces={
+		844 924 970 980 3846 3866 3886 3926 6884 6933 6986 9765 9819 9869 11768 13280 13281 13282 13283 13284 13286 13287 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

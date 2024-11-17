@@ -1,0 +1,31 @@
+state={
+	id=1269
+	name="STATE_1269"
+		history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 3
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		968 1433 5090 7583 9996 12325 12470 12498 
+	}
+	manpower=908504
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

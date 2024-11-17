@@ -1,0 +1,59 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		1600.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		add_core_of = SYR
+		1919.1.1 = {
+			owner = FRA
+			controller = FRA
+			remove_core_of = OTO
+
+		}
+		victory_points = {
+			12029 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+				1936.1.1 = {
+			owner = SYR
+            }
+		1938.9.30 = {
+			owner = TUR
+			controller = TUR
+			remove_core_of = SYR
+
+		}
+
+	}
+
+	provinces={
+		12029 13259 13260 
+	}
+	manpower=234379
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
+
+
+

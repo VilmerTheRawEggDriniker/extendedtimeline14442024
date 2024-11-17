@@ -1,0 +1,48 @@
+state={
+	id=1026
+	name="STATE_1026"
+	history={
+                owner = ZZZ
+		1789.1.1 = {
+		victory_points = {
+			4975 1 
+		}
+                }
+		1822.1.1 = {
+                owner = MEX
+                add_core_of = MEX
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1836.1.1 = {
+                owner = TEX
+                add_core_of = TEX
+                remove_core_of = MEX
+                }
+		1850.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                }
+		1900.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                remove_core_of = TEX
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		2102 3867 3883 4975 8070 10642 10867 12684 12720 12791 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

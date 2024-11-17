@@ -1,0 +1,58 @@
+characters={
+	MIL_josephiimil={
+		name=MIL_CHARACTER_JOSEPHIIMIL
+		portraits={
+			civilian={
+				large="GFX_portrait_mil_josephiimil_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MIL_JOSEPHIIMIL_DESC
+			expire="1797.1.1"
+		}
+}
+	MIL_leopoldiimil={
+		name=MIL_CHARACTER_LEOPOLDIIMIL
+		portraits={
+			civilian={
+				large="GFX_portrait_mil_leopoldiimil_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MIL_LEOPOLDIIMIL_DESC
+			expire="1797.1.1"
+		}
+}
+	MIL_francisiimil={
+		name=MIL_CHARACTER_FRANCISIIMIL
+		portraits={
+			civilian={
+				large="GFX_portrait_mil_francisiimil_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MIL_FRANCISIIMIL_DESC
+			expire="1797.1.1"
+		}
+}
+	MIL_ferdinandimil={
+		name=MIL_CHARACTER_FERDINANDIMIL
+		portraits={
+			civilian={
+				large="GFX_portrait_mil_ferdinandimil_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = MIL_FERDINANDIMIL_DESC
+			expire="1797.1.1"
+		}
+}
+}

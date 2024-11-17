@@ -1,0 +1,66 @@
+state={
+	id=1265
+	name="STATE_1265"
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+			owner = NWT
+			add_core_of = NWT
+
+		}
+		1812.1.1 = {
+			owner = ILL
+			add_core_of = ILL
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = NCR
+
+		}
+		1836.1.1 = {
+			owner = USA
+			add_core_of = USA
+			remove_core_of = UNO
+			remove_core_of = SWT
+			remove_core_of = NWT
+			remove_core_of = ROD
+			remove_core_of = ILL
+
+		}
+		1836.1.1 = {
+			victory_points = {
+				9450 30 
+			}
+
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 7
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 7
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	provinces={
+		9450 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

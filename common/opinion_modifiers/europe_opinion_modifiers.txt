@@ -1,0 +1,72 @@
+	opinion_modifiers = {
+           HUN_revanchism = {
+		value = -25
+		min_trust = -25
+		days = 10
+		months = 120
+		decay = 1
+	}
+
+	same_house = {
+		value = 30
+		max_trust = 30
+		decay = 30
+	}
+
+	same_parent_house = {
+		value = 20
+		max_trust = 20
+		decay = 20
+	}
+
+	HUN_non_revanchism = {
+		value = 25
+		min_trust = 25
+		months = 120
+		decay = 1
+	}
+	RUS_annex_bessarabia = {
+		value = -25
+		min_trust = -25
+		days = 10
+		months = 120
+		decay = 1
+	}
+	RUS_jacobites = {
+		value = -25
+		min_trust = -25
+		decay = 0
+	}
+	USA_independence = {
+		value = 25
+		min_trust = 25
+		decay = 0
+	}
+	ENG_AUS_ally_one = {
+		value = 25
+		min_trust = 25
+		decay = 0
+	}
+	ENG_RUS_ally_one = {
+		value = 25
+		min_trust = 25
+		decay = 0
+	}
+	RUS_pale_of_settlement = {
+		value = -50
+		min_trust = -50
+		days = 10
+		months = 120
+		decay = 1
+	}
+	FRA_kill_marie = {
+		value = -25
+		min_trust = -25
+		days = 10
+		months = 120
+		decay = 1
+	}
+	reichenbach_treaty = {
+		value = 35
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=418
+	name="STATE_418"
+
+	history={
+		owner = TIM
+		add_core_of = TIM
+		1500.1.1 = {
+		add_core_of = PER
+		remove_core_of = TIM
+		owner = PER
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			8093 1 
+		}
+	}
+
+	provinces={
+		8093 11671 12704 12748 12818 
+	}
+	manpower=332362
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

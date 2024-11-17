@@ -1,0 +1,57 @@
+
+state={
+	id=850
+	name="STATE_850"
+	history={
+		owner = LUS
+                add_core_of = LUS
+                								1950.1.1 = {
+		owner = POL
+		add_core_of = POL
+		remove_core_of = GER
+		}
+		1689.1.1 = {
+                owner = SAX
+                add_core_of = SAX
+                remove_core_of = AUS
+                remove_core_of = CZE
+                remove_core_of = LUS
+                remove_core_of = BOH
+                }
+		1815.1.1 = {
+                owner = PRE
+                add_core_of = PRE
+                remove_core_of = SAX
+                remove_core_of = CZE
+                }
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		11517 
+	}
+	manpower=52726
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

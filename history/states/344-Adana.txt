@@ -1,0 +1,60 @@
+
+state={
+	id=344
+	name="STATE_344"
+
+	history={
+		owner = RAM
+		victory_points = {
+			9893 15 
+		}
+		victory_points = {
+			11746 5 
+		}
+		victory_points = {
+			10056 1 
+		}
+		victory_points = {
+			11810 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11746 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = RAM
+						1608.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		806 3889 9893 10056 11746 11810 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

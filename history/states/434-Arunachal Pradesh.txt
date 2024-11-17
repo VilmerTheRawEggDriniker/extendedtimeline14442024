@@ -1,0 +1,31 @@
+
+state={
+	id=434
+	name="STATE_434"
+
+	history={
+		owner = ZZZ
+		1789.1.1 = {
+                owner = QIN
+		add_core_of = TIB
+		}
+		1901.1.1 = {
+		owner = RAJ
+		add_core_of = RAJ
+		remove_core_of = TIB
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1996 10810 12730 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=3.000
+}

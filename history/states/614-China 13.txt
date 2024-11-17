@@ -1,0 +1,55 @@
+
+state={
+	id=614
+	name="STATE_614"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		add_core_of = BOX
+		owner = BOX
+		remove_core_of = MNG
+        }
+		1912.1.1 = {
+            owner = CHI
+		remove_core_of = QIN
+		remove_core_of = BOX
+		}
+		1933.1.1 = {
+		}
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC 
+            add_core_of = PRC
+		}
+		victory_points = {
+			4190 10 
+		}
+		victory_points = {
+			12026 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		1134 1169 1188 4032 4058 4093 4190 4208 6828 7000 7092 7109 10003 10022 10053 11944 11996 12026 12062 
+	}
+	manpower=17047900
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

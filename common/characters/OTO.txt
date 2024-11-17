@@ -1,0 +1,73 @@
+characters={
+	OTO_abdulhamidi={
+		name=OTO_CHARACTER_ABDULHAMIDI
+		portraits={
+			civilian={
+				large="GFX_portrait_oto_abdulhamidi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Osman}
+			desc = OTO_ABDULHAMIDI_DESC
+			expire="1797.1.1"
+		}
+}
+	OTO_selimiii={
+		name=OTO_CHARACTER_SELIMIII
+		portraits={
+			civilian={
+				large="GFX_portrait_oto_selimiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Osman}
+			desc = OTO_SELIMIII_DESC
+			expire="1797.1.1"
+		}
+}
+	OTO_mustafaiv={
+		name=OTO_CHARACTER_MUSTAFAIV
+		portraits={
+			civilian={
+				large="GFX_portrait_oto_mustafaiv_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Osman}
+			desc = OTO_MUSTAFAIV_DESC
+			expire="1797.1.1"
+		}
+}
+	OTO_mahmudii={
+		name=OTO_CHARACTER_MAHMUDII
+		portraits={
+			civilian={
+				large="GFX_portrait_oto_mahmudii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Osman}
+			desc = OTO_MAHMUDII_DESC
+			expire="1797.1.1"
+		}
+}
+	OTO_suleimanii={
+		name=OTO_CHARACTER_SULEIMANII
+		portraits={
+			civilian={
+				large="GFX_portrait_OTO_suleimanii"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Osman}
+			desc = OTO_SULEIMANII_DESC
+			expire="1692.1.1"
+		}
+}
+}
+

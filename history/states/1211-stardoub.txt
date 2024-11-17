@@ -1,0 +1,62 @@
+
+state={
+	id=1211
+	name="STATE_1211"
+
+	history={
+		owner = CHE
+		add_core_of = CHE
+		1600.1.1 = {
+		owner = RUS
+        add_core_of = RUS
+	    remove_core_of = CHE
+		}
+				1700.1.1 = {
+			owner = ZAP
+		add_core_of = ZAP
+		remove_core_of = LIT
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1789.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = POL
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = UKR
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		315 343 371 11229 11298 11325 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

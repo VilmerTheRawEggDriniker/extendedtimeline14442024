@@ -1,0 +1,24 @@
+
+state={
+	id=1066
+	name="STATE_1066"
+	history={
+		owner = ZZZ
+		1848.1.1 = {
+			owner = LIB
+			controller = LIB
+                add_core_of = LIB
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		8006
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

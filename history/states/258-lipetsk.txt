@@ -1,0 +1,55 @@
+
+state={
+	id=258
+	name="STATE_258"
+	manpower = 1282096
+	
+	state_category = town
+
+	history={
+		owner = RYA
+		add_core_of = RYA
+		1500.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = RYA
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+		1703.1.1 = {
+		victory_points = {
+			6398 5
+		}
+		}
+		victory_points = {
+			3346 1
+		}
+	}
+
+	provinces={
+		356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394 
+	}
+
+	local_supplies=0.0 
+}

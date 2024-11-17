@@ -1,0 +1,1219 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = russia17891812
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = OCC
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1600 }
+
+#	focus = {
+#		id = FRA_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 2
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+
+	############################
+	##### BALANCED BUDGET ######
+	############################
+
+	focus = {
+		id = russia_1789_1812_focus_1
+		icon = GFX_goal_polandwarrussia
+		available = { date > 1792.1.1 }
+		available = { date < 1836.1.1 }
+		x = 2
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+	    declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
+		}
+	}
+		focus = {
+		id = russia_1789_1812_focus_2
+		icon = GFX_goal_yugoslavia
+		available = { date > 1790.1.1 }
+		available = { date < 1836.1.1 }
+		x = 4
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+		
+		completion_reward = {
+		add_war_support = -0.05
+		SWE={add_war_support = -0.2}
+		}
+	}
+			focus = {
+		id = russia_1789_1812_focus_3
+		icon = GFX_
+		available = { date > 1800.1.1 }
+		available = { date < 1836.1.1 }
+		x = 6
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		
+		completion_reward = {
+		GEO = {
+		country_event = russianempire_1789_1812.1
+		}
+		}
+	}
+				focus = {
+		id = russia_1789_1812_focus_4
+		icon = GFX_
+		available = { date > 1834.1.1 }
+		available = { date < 1836.1.1 }
+		x = 10
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		or={FIN={owns_state = 111}
+		owns_state = 111
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+					111 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+		}
+	}
+				focus = {
+		id = russia_1789_1812_focus_5
+		icon = GFX_
+		prerequisite = { focus = russia_1789_1812_focus_4 }
+		available = { date > 1834.1.1 }
+		available = { date < 1836.1.1 }
+		x = 10
+		y = 2
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		or={FIN={owns_state = 111}
+		owns_state = 111
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+						add_resource = {
+				type = steel
+				amount = 3
+				state = 111
+			}
+														111 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+		}
+	}
+				focus = {
+		id = russia_1789_1812_focus_6
+		icon = GFX_
+		available = { date > 1801.1.1 }
+		available = { date < 1836.1.1 }
+		x = 2
+		y = 2
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+																	195 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+				focus = {
+		id = russia_1789_1812_focus_7
+		icon = GFX_
+		available = { date > 1807.1.1 }
+		available = { date < 1836.1.1 }
+		x = 4
+		y = 2
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+														399 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+					focus = {
+		id = russia_1789_1812_focus_8
+		icon = GFX_
+		available = { date > 1794.1.1 }
+		available = { date < 1836.1.1 }
+		x = 6
+		y = 2
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        owns_state = 192
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+						add_victory_points = {
+			  province = 11670
+			  value = 20
+			}
+										192 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+											192 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+					focus = {
+		id = russia_1789_1812_focus_9
+		icon = GFX_
+		available = { date > 1789.1.1 }
+		available = { date < 1836.1.1 }
+		x = 8
+		y = 2
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        owns_state = 197
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+						add_victory_points = {
+			  province = 11683
+			  value = 10
+			}
+							197 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+											197 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+						focus = {
+		id = russia_1789_1812_focus_10
+		icon = GFX_goal_russian_antisemitism
+		available = { date > 1791.1.1 }
+		available = { date < 1836.1.1 }
+		x = 8
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = {FOCUS_FILTER_STABILITY}
+		
+		completion_reward = {
+		ENG = {
+		add_opinion_modifier = { target = RUS modifier=RUS_pale_of_settlement}
+		}
+		add_political_power = -250
+		remove_ideas={russian_jewry}
+		
+		}
+	}
+							focus = {
+		id = russia_1789_1812_focus_11
+		icon = GFX_
+		available = { date > 1789.1.1 }
+		available = { date < 1836.1.1 }
+		x = 2
+		y = 3
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = treaty_jassy_flag
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+		
+		completion_reward = {
+		add_war_support = 0.05
+		OTO={add_war_support = -0.05}
+		transfer_state = 192
+		transfer_state = 834
+		transfer_state = 1204
+		transfer_state = 1228
+		hidden_effect = {
+}
+		}
+	}
+								focus = {
+		id = russia_1789_1812_focus_12
+		icon = GFX_
+		available = { date > 1794.1.1 }
+		available = { date < 1836.1.1 }
+		x = 4
+		y = 3
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+		
+		completion_reward = {
+		add_war_support = 0.1
+	    GRE={
+		add_state_core = 47
+		add_state_core = 731
+		add_state_core = 939
+		add_state_core = 184
+		add_state_core = 923
+		add_state_core = 185
+		add_state_core = 971
+		add_state_core = 982
+		add_state_core = 186
+		add_state_core = 964
+		add_state_core = 182
+		add_state_core = 947
+		add_state_core = 187
+		add_state_core = 164
+		add_state_core = 924
+		add_state_core = 183
+		add_state_core = 1149
+		}
+		hidden_effect={
+			    GOA={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		VNT={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		CND={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		KNI={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		CYP={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+					    ATH={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+					    EPI={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+					    BYZ={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+					    NAX={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
+		}
+		}
+	}
+							focus = {
+		id = russia_1789_1812_focus_13
+		icon = GFX_
+		available = { date > 1806.1.1 }
+		available = { date < 1836.1.1 }
+		x = 6
+		y = 3
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+					random_list = {
+        40 = {					812 = {
+					if = {
+						limit={is_controlled_by = ROOT}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				} }
+        30 = {							812 = {
+					if = {
+						limit={is_controlled_by = ROOT}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				} }
+		30 = {				add_timed_idea = {
+				idea = small_civ_boost
+				days = 30
+			} }
+        } 
+		
+		}
+	}
+								focus = {
+		id = russia_1789_1812_focus_14
+		icon = GFX_
+		available = { date > 1820.1.1 }
+		available = { date < 1836.1.1 }
+		x = 8
+		y = 3
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+					random_list = {
+        40 = {					13 = {
+					if = {
+						limit={is_controlled_by = ROOT}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				} }
+        30 = {							13 = {
+					if = {
+						limit={is_controlled_by = ROOT}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				} }
+		30 = {				add_timed_idea = {
+				idea = small_civ_boost
+				days = 30
+			} }
+        } 
+		
+		}
+	}
+								focus = {
+		id = russia_1789_1812_focus_15
+		icon = GFX_
+		available = { date > 1820.1.1 }
+		available = { date < 1836.1.1 }
+		x = 10
+		y = 3
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+		random_list = {
+        40 = {					812 = {
+					if = {
+						limit={is_controlled_by = ROOT}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				} }
+        30 = {							812 = {
+					if = {
+						limit={is_controlled_by = ROOT}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				} }
+		30 = {				add_timed_idea = {
+				idea = small_civ_boost
+				days = 30
+			} }
+        }  
+		
+		}
+	}
+									focus = {
+		id = russia_1789_1812_focus_16
+		icon = GFX_
+		available = { date > 1792.1.1 }
+		available = { date < 1836.1.1 }
+		x = 2
+		y = 4
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        owns_state = 834
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		completion_reward = {
+								add_victory_points = {
+			  province = 741
+			  value = 5
+			}
+										834 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+											834 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+        
+		}
+	}
+										focus = {
+		id = russia_1789_1812_focus_17
+		icon = GFX_
+		available = { date > 1812.1.1 }
+		available = { date < 1836.1.1 }
+		x = 4
+		y = 4
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		
+		completion_reward = {
+        
+		}
+	}
+										focus = {
+		id = russia_1789_1812_focus_18
+		icon = GFX_
+		available = { date > 1789.1.1 }
+		available = { date < 1836.1.1 }
+		x = 6
+		y = 4
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+        OTO={add_stability=-0.1 add_manpower = -20000}
+		}
+	}
+										focus = {
+		id = russia_1789_1812_focus_19
+		icon = GFX_
+		available = { date > 1807.1.1 }
+		available = { date < 1836.1.1 }
+		x = 8
+		y = 4
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		
+		completion_reward = {
+        
+		}
+	}
+										focus = {
+		id = russia_1789_1812_focus_20
+		icon = GFX_goal_baltics
+		available = { date > 1795.1.1 }
+		available = { date < 1836.1.1 }
+		x = 10
+		y = 4
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag = {
+				flag = SOV_first_moscow_trial_flag
+				days > 365
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		
+		completion_reward = {
+        
+		}
+	}
+											focus = {
+		id = russia_1789_1812_focus_31
+		icon = GFX_goal_polandwarrussia
+		available = { date > 1789.1.1 }
+		available = { date < 1836.1.1 }
+		x = 8
+		y = 8
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag=treaty_secondpartion_flag
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		
+		completion_reward = {
+        		RUS={
+		transfer_state = 1225
+		transfer_state = 194
+		transfer_state = 204
+		transfer_state = 206
+		transfer_state = 201
+		transfer_state = 966
+		transfer_state = 1220
+		transfer_state = 199
+		transfer_state = 203
+		transfer_state = 198
+		transfer_state = 1203
+		transfer_state = 1226
+		transfer_state = 1229
+		transfer_state = 915
+		}
+		}
+	}
+												focus = {
+		id = russia_1789_1812_focus_32
+		icon = GFX_goal_polandwarrussia
+		available = { date > 1789.1.1 }
+		available = { date < 1836.1.1 }
+		x = 10
+		y = 8
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_country_flag=treaty_thirdpartion_flag
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		
+		completion_reward = {
+		RUS={country_event = russianempire_1789_1812.11}
+        		RUS={
+		transfer_state = 93
+		transfer_state = 965
+		transfer_state = 94
+		transfer_state = 95
+		transfer_state = 96
+		transfer_state = 784
+		transfer_state = 1119
+		transfer_state = 815
+		transfer_state = 189
+		transfer_state = 11
+		}
+		}
+	}
+}

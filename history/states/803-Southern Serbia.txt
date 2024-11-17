@@ -1,0 +1,46 @@
+
+state={
+	id=803
+	name="STATE_803"
+
+	history={
+		owner = SER
+		1500.1.1 = {
+                owner = OTO
+		add_core_of = BUL
+		remove_core_of = SER
+                }
+		1900.1.1 = {
+                owner = SER
+		add_core_of = SER
+		remove_core_of=BUL
+                }
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+		remove_core_of = BUL
+			add_core_of = YUG
+
+		}
+		2007.1.1 = {
+			owner = SER
+			controller = SER
+			remove_core_of = YUG
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SER
+
+	}
+
+	provinces={
+		11832 11868 13766 13777 
+	}
+	manpower=90000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

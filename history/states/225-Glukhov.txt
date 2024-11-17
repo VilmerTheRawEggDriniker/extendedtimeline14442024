@@ -1,0 +1,58 @@
+
+state={
+	id=225
+	name="STATE_225"
+
+	history={
+		victory_points = {
+			3520 10 
+		}
+		owner = CHE
+		add_core_of = CHE
+		1600.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = CHE
+
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+						1919.1.1 = {
+			owner = UKR
+			controller = SOV
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		463 501 3455 3520 4855 7889 9437 11462 12565 12687 
+	}
+	manpower=553402
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

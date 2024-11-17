@@ -1,0 +1,66 @@
+
+state={
+	id=868
+	name="STATE_868"
+
+	history={
+		owner = WRZ
+		add_core_of = WRZ
+		1816.1.1 = {
+			add_core_of = BAY
+			owner = BAY
+			remove_core_of = WRZ
+
+		}
+		1950.1.1 = {
+			owner = WGR
+			add_core_of = WGR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			owner = BAY
+
+		}
+		1920.1.1 = {
+			owner = GER
+			remove_core_of = BAY
+
+		}
+		victory_points = {
+			11417 2 
+		}
+		victory_points = {
+			6594 1 
+		}
+		victory_points = {
+			9681 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		3299 3474 6421 6581 6594 9557 9572 9681 11417 13116 
+	}
+	manpower=558137
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

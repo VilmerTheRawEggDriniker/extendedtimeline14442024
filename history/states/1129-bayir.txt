@@ -1,0 +1,45 @@
+state={
+	id=1129
+	name="STATE_1129"
+
+	history={
+		owner = ZZZ
+		buildings = {
+			infrastructure = 0
+
+		}
+		1900.1.1 = {
+		owner = OTO
+		add_core_of = JOR
+                }
+						1919.1.1 = {
+			owner = SYR
+			controller = SYR
+			remove_core_of = OTO
+
+		}
+		1920.1.1 = {
+			owner = ENG
+			add_core_of = JOR
+			remove_core_of = SYR
+
+		}
+		1947.1.1 = {
+			owner = JOR
+			controller = JOR
+			add_core_of = JOR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		1544 4440 4562 4603 
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	impassable = yes
+	local_supplies=0.000
+}

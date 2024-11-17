@@ -1,0 +1,57 @@
+
+state={
+	id=977
+	name="STATE_977"
+
+	history={
+                owner = FEA
+                add_core_of = FEA
+                1500.1.1 = {
+                owner = VNT
+                add_core_of = VNT
+                remove_core_of = FEA
+                }
+		1812.1.1 = {
+                owner = ITA
+                add_core_of = ITA
+        }
+        1816.1.1 = {
+                owner = LBV
+                add_core_of = LBV
+                remove_core_of = VNT
+                remove_core_of = PAP
+		remove_core_of = MIL
+		remove_core_of = MNT
+		remove_core_of = ITA
+        }
+        1871.1.1 = {
+                owner = ITA
+                add_core_of = ITA
+        }
+        1919.1.1 = {
+                remove_core_of = SPM
+                remove_core_of = PAP
+                remove_core_of = TOS
+                remove_core_of = TTS
+                remove_core_of = LBV
+        }
+		victory_points = {
+			9582 1
+		}
+		buildings = {
+			infrastructure = 2
+                        arms_factory = 1
+
+		}
+
+
+	}
+
+	provinces={
+		9582 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

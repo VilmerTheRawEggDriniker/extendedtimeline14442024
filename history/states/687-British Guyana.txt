@@ -1,0 +1,61 @@
+state={
+	id=687
+	name="STATE_687"
+	manpower = 309000
+	
+	state_category = pastoral
+	
+	resources={
+		aluminium=64 # was: 112
+	}
+
+	history={
+                owner = ZZZ
+		1700.1.1 = {
+                owner = HOL
+                }
+		1800.1.1 = {
+                owner = ENG
+                }
+		1802.1.1 = {
+                owner = HOL
+                }
+		1803.1.1 = {
+                owner = ENG
+                }
+						1789.1.1 = {
+        add_core_of = GYA
+        }
+						1965.1.1 = {
+                owner = GYA
+                }
+		1613.1.1 = {
+		buildings = {
+			infrastructure = 1
+			4982 = {
+				naval_base = 1
+			}
+		}
+                }
+            	1812.1.1 = {
+		add_claim_by = VEN
+                }
+		1900.1.1 = {
+		add_core_of = GYA
+                }
+		1751.1.1 = {
+		victory_points = {
+			4982 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	provinces={
+		4982 8107 12716 
+	}
+
+	local_supplies=5.0 
+}

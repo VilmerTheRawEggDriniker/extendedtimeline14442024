@@ -1,0 +1,65 @@
+
+state={
+	id=368
+	name="STATE_368"
+	manpower = 2020616
+	
+	state_category = city
+	
+	resources={
+		steel=60 # was: 112
+	}
+
+
+	history={
+					1800.1.1 = {
+		victory_points = {
+			7791 2
+		}
+}
+		owner = ZZZ
+		1789.1.1 = {
+                owner = NCR
+		add_core_of = UNO
+                }
+				1800.1.1 = {
+                owner = USA
+		add_core_of = USA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
+                }
+		1848.1.1 = {
+		victory_points = {
+			10909 3 
+		}
+                }
+		1820.1.1 = {
+		victory_points = {
+			7797 10 
+		}
+                }
+		1789.1.1 = {
+		victory_points = {
+			12501 5
+		}
+                }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 2 #was: 5
+			industrial_complex = 3
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		913 1758 1987 7615 7791 7797 8014 8083 10281 10615 10657 10824 10909 12501 12670 
+	}
+
+	local_supplies=0.0 
+}

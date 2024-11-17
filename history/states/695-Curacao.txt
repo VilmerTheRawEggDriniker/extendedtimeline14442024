@@ -1,0 +1,62 @@
+state={
+	id=695
+	name="STATE_695"
+	manpower = 76299
+	
+	state_category = pastoral
+
+	resources={
+		oil=35 # was: 126
+	}
+
+	history={
+                owner = ZZZ
+		1613.1.1 = {
+		victory_points = {
+			153 1
+		}
+                }
+		1789.1.1 = {
+        add_core_of = CRC
+        }
+		1615.1.1 = {
+		buildings = {
+			infrastructure = 1
+			153 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+		}
+                }
+		1500.1.1 = {
+                owner = SPR
+                }
+		1700.1.1 = {
+                owner = HOL
+                }
+		1800.1.1 = {
+                owner = ENG
+                }
+		1802.1.1 = {
+                owner = HOL
+                }
+		1803.1.1 = {
+                owner = ENG
+                }
+		1816.1.1 = {
+                owner = HOL
+                }
+		1900.1.1 = {
+		add_core_of = CRC
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		153 
+	}
+
+	local_supplies=0.0 
+}

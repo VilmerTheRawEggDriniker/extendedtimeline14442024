@@ -1,0 +1,25 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = ita_1789_event
+
+# French Revolution not
+country_event = {
+	id = ita_1789_event.1
+	title = "The Death of Paolo Renier"
+	desc = ita_1789_event.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=VNT
+date > 1789.2.13 date < 1790.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Mourn Paolo Renier"
+		ai_chance = { factor = 100 } 
+retire_character=VNT_paolorenier
+promote_character=VNT_lodovicomanin
+	}
+}

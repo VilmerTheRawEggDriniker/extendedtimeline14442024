@@ -1,0 +1,35 @@
+
+state={
+	id=262
+	name="STATE_262"
+
+	history={
+		owner = SER
+		add_core_of = SER
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+
+		}
+		2007.1.1 = {
+			owner = SER
+			controller = SER
+			remove_core_of = YUG
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		630 6634 9756 11887 13647 13650 13651 13652 13654 13655 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

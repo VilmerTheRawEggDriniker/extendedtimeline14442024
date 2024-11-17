@@ -1,0 +1,50 @@
+
+state={
+	id=864
+	name="STATE_864"
+
+	history={
+		owner = BSL
+		add_core_of = BSL
+				1800.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = VAL
+			remove_core_of = BSL
+
+		}
+		1816.1.1 = {
+			owner = SWI
+			remove_core_of = BSL
+			add_core_of = SWI
+			remove_core_of = FRA
+
+		}
+		victory_points = {
+			9622 3 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+				1900.1.1 = {
+			buildings = {
+				9622 = {
+					bunker = 3
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		9622 
+	}
+	manpower=125000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

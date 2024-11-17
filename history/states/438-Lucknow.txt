@@ -1,0 +1,47 @@
+
+state={
+	id=438
+	name="STATE_438"
+
+	history={
+		owner = MUG
+		add_core_of = MUG
+		1900.1.1 = {
+        remove_core_of = MUG
+		}
+				1725.1.1 = {
+        remove_core_of = MUG
+		add_core_of = AWA
+		owner = AWA
+		}
+		1860.1.1 = {
+        remove_core_of = AWA
+		}
+		1812.1.1 = {
+			owner = RAJ
+			add_core_of = RAJ
+			victory_points = {
+				1377 1 
+			}
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1377 1983 4299 7064 7334 8082 9973 10751 12777 12786 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,119 @@
+﻿division_template = {
+	name = "Lithuanian Division"
+
+	division_names_group = LIT_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 6296
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 6296
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 6296
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 6296
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 6296
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 3320
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 3320
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 3320
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 3320
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Lithuanian Army
+	division = {
+		name = "Lithuanian Division"
+		location = 3320
+		division_template = "Lithuanian Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "LIT"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

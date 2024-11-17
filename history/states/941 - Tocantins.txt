@@ -1,0 +1,43 @@
+
+state={
+	id=941
+	name="STATE_941"
+
+	history={
+		owner = ZZZ
+				1789.1.1 = {
+                owner = MEX
+                add_core_of = CAS
+                }
+		1836.1.1 = {
+                owner = CAS
+                add_core_of = CAS
+                }
+		1848.1.1 = {
+                owner = USA
+                add_core_of = USA
+                }
+		1850.1.1 = {
+		victory_points = {
+			1690 1 
+		}
+                }
+		1900.1.1 = {
+                owner = USA
+                remove_core_of = CAS
+                add_core_of = USA
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		1320 1690 4747 10155 10198 10327 10687 10690 10693 12155 12214 12673 
+	}
+	manpower=63395
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

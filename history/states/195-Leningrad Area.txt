@@ -1,0 +1,83 @@
+
+state={
+	id=195
+	name="STATE_195"
+
+	history={
+		owner = NOV
+		add_core_of = NOV
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
+		1689.1.1 = {
+                owner = SWE
+                }
+		1708.1.1 = {
+                owner = RUS
+                }
+								1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		victory_points = {
+			3151 30 
+		}
+		victory_points = {
+			9197 1 
+		}
+		victory_points = {
+			9098 1 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 3
+			air_base = 10
+			3151 = {
+				naval_base = 10
+				coastal_bunker = 5
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			3151 = {
+				naval_base = 10
+			}
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		79 104 126 149 181 3072 3120 3151 6139 6174 6197 9097 9098 9164 9197 11032 11068 11080 11139 11186 
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=11.000
+}

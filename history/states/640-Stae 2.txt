@@ -1,0 +1,38 @@
+
+state={
+	id=640
+	name="STATE_640"
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		owner = RAJ
+		controller = RAJ
+		add_core_of = BRM
+            remove_core_of = RAJ
+		}
+		1937.1.1 = {
+			owner = ENG
+			controller = ENG
+
+		}
+		1937.1.1 = {
+			owner = BRM
+			controller = BRM
+			add_core_of = BRM
+			remove_core_of = RAJ
+
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1170 1566 1607 2061 4585 4654 7469 7562 7603 12363 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

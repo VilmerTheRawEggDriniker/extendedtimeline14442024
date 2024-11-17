@@ -1,0 +1,45 @@
+state={
+	id=1000
+	name="STATE_1000"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+			owner = LBA
+			controller = LBA
+		add_core_of = LBA
+		add_core_of = SUD
+		add_core_of = CYR
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		1920.1.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+		1946.1.1 = {
+        owner = LBA
+		add_core_of = LBA
+        }
+						1945.1.1 = {
+                owner = ENG
+                }
+		1936.1.1 = {
+			owner = ITA
+                  remove_core_of = SUD
+			controller = ITA
+            }
+	}
+
+	provinces={
+		5004 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

@@ -1,0 +1,9 @@
+﻿
+ l_english: 
+ COLONIZE_BUTTON_TOOLTIP:0 "§HColonize state§!\n\nThis action costs:\n80£pol_power\n\n250 Infantry Equipment\n\n500 Manpower\n\n§GPressing the colonize button will begin the colonization of a state, the colonization of a state takes 90 days.§!"
+ CANCEL_BUTTON_TOOLTIP:0 "§HCancel colonization§!\n\nThis action will give back:\n65£pol_power\n\n200 Infantry Equipment\n\n400 Manpower"
+ 
+ 
+ 
+ 
+ 

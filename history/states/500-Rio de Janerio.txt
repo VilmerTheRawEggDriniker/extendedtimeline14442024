@@ -1,0 +1,66 @@
+
+state={
+	id=500
+	name="STATE_500"
+	manpower = 6665500
+	
+	state_category = town
+	
+	history={
+                owner = ZZZ
+		1565.1.1 = {
+		victory_points = {
+			10980 20
+		}
+                }
+						1789.1.1 = {
+        add_core_of = BRA
+        owner = BRA
+        }
+		1566.1.1 = {
+		buildings = {
+			infrastructure = 1
+			10980 = {
+				naval_base = 7
+			}
+		}
+                }
+		1600.1.1 = {
+                owner = POR
+                }
+		1822.1.1 = {
+                add_core_of = BRA
+                owner = BRA
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			dockyard = 2
+			10980 = {
+				naval_base = 7
+			}
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			dockyard = 2
+			air_base = 7
+			10980 = {
+				naval_base = 7
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		5172 8190 10980 12996 
+	}
+
+	local_supplies=0.0 
+}

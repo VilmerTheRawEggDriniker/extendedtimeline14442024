@@ -1,0 +1,99 @@
+
+state={
+	id=142
+	name="STATE_142"
+	resources={
+		chromium=1.000
+		aluminium=15.000
+	}
+
+	history={
+		owner = NOR
+		1524.1.1 = {
+			add_core_of = DEN
+			owner = DEN
+
+		}
+		1816.1.1 = {
+			remove_core_of = DEN
+			owner = NOR
+			add_core_of = NOR
+
+		}
+		1905.1.1 = {
+			owner = NOR
+			add_core_of = NOR
+			remove_core_of = SWE
+			remove_core_of = DEN
+
+		}
+		1945.1.1 = {
+		owner = RNO
+		}
+		1946.1.1 = {
+		owner = NOR
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			53 = {
+				naval_base = 1
+				coastal_bunker = 1
+
+			}
+			122 = {
+				naval_base = 3
+				coastal_bunker = 2
+
+			}
+			9296 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			53 = {
+				naval_base = 1
+				coastal_bunker = 1
+
+			}
+			122 = {
+				naval_base = 3
+				coastal_bunker = 2
+
+			}
+			9296 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			53 1 
+		}
+		victory_points = {
+			122 3 
+		}
+		victory_points = {
+			9296 1 
+		}
+		add_core_of = NOR
+
+	}
+
+	provinces={
+		53 65 122 137 188 199 3049 3090 3096 3114 3129 3188 3192 6145 6176 9096 9127 9196 9216 9296 11100 11176 11367 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

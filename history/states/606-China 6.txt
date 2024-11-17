@@ -1,0 +1,59 @@
+
+state={
+	id=606
+	name="STATE_606"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+            owner = CHI
+		}
+		1933.1.1 = {
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC 
+            add_core_of = PRC
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7222 1 
+		}
+		1938.10.25 = {
+			controller = JAP
+			buildings = {
+				industrial_complex = 3
+				infrastructure = 3
+				air_base = 1
+				arms_factory = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1001 1083 1121 1146 1161 4079 4203 7035 7094 7222 9937 10008 10017 10040 10064 10079 11916 11973 11994 12036 12061 
+	}
+	manpower=16000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=2.000
+}

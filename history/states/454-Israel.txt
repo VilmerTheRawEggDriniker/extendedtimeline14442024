@@ -1,0 +1,79 @@
+
+state={
+	id=454
+	name="STATE_454"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		1600.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		buildings = {
+			infrastructure = 2
+			4206 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			4206 10
+		}
+		victory_points = {
+			1065 1 
+		}
+		victory_points = {
+			1015 1 
+		}
+		add_core_of = ISR
+		add_claim_by = PAL
+		1919.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = OTO
+
+		}
+						1936.1.1 = {
+			owner = ISR
+            }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			4206 = {
+				naval_base = 3
+
+			}
+
+		}
+
+		}
+		1946.1.1 = {
+			owner = ISR
+			controller = ISR
+			remove_core_of = SPR
+
+		}
+
+	}
+
+	provinces={
+		1 1015 1065 1201 4206 7176 11970 13722 13724 13725 13727 13731 
+	}
+	manpower=524842
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

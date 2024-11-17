@@ -1,0 +1,63 @@
+
+state={
+	id=1044
+	name="STATE_1044"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		victory_points = {
+			12941 1 
+		}
+                }
+								2000.1.1 = {
+		add_core_of = JUB
+		owner = JUB
+        }
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = KEN
+                add_core_of = SOM
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 0
+			12941 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		1920.1.1 = {
+			owner = ITA
+			controller = ITA
+			remove_core_of = KEN
+
+		}
+		1945.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = ENG
+
+		}
+		1961.1.1 = {
+			owner = SOM
+			controller = SOM
+			remove_core_of = EGY
+
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		11014 12941 14152 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

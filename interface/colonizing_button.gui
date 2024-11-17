@@ -1,0 +1,48 @@
+guiTypes = {	
+	containerWindowType = {
+		name = "player_container"
+		position = {x=430 y=555}
+		size = { width=310 height=300 }
+
+		fade_time = 300
+		fade_type = linear
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window"
+		}
+		
+		instantTextboxType = {
+			name = "points_number"
+			position = {x=18 y=185}
+			font = "hoi_18mbs"
+			text = "[?colonization_number|0]/90 Days"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+		}
+		
+		buttonType = {
+			name = "colonize11" 
+			position = {x=16 y=243}
+			quadTextureSprite = "GFX_colonizebutton"
+			pdx_tooltip = "COLONIZE_BUTTON_TOOLTIP"
+			scale = 1.1
+		}
+		
+		buttonType = {
+			name = "recall" 
+			position = {x=16 y=243}
+			quadTextureSprite = "GFX_cancel_transfer_button"
+			pdx_tooltip = "CANCEL_BUTTON_TOOLTIP"
+			scale = 1.1
+		}
+		
+		iconType = {
+			name ="colonization_progress_bar"
+			spriteType = "GFX_colonization_progressbar"
+			position = { x= 17 y = 210 }
+			Orientation = "LOWER LEFT"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+characters={
+	CLW_maximilianfrancis={
+		name=CLW_CHARACTER_MAXIMILIANFRANCIS
+		portraits={
+			civilian={
+				large="GFX_portrait_clw_maximilianfrancis_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = CLW_MAXIMILIANFRANCIS_DESC
+			expire="1797.1.1"
+		}
+}
+	CLW_antonvictor={
+		name=CLW_CHARACTER_ANTONVICTOR
+		portraits={
+			civilian={
+				large="GFX_portrait_clw_antonvictor_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = CLW_ANTONVICTOR_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

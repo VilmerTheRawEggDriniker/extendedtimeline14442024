@@ -1,0 +1,77 @@
+
+state={
+	id=595
+	name="STATE_595"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+			owner = CHI
+
+		}
+		1933.1.1 = {
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            add_core_of = PRC
+
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			4196 20 
+		}
+		victory_points = {
+			7071 10 
+		}
+		victory_points = {
+			10010 10 
+		}
+		victory_points = {
+			11986 10 
+		}
+		1938.10.25 = {
+			JAP = {
+				set_province_controller = 4196
+				set_province_controller = 7071
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1006 1094 1138 1166 1193 4053 4070 4113 4169 4196 7027 7071 7099 7131 10010 10012 10042 10054 10069 10084 10093 11986 12057 12084 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,76 @@
+state={
+	id=1273
+	name="STATE_1273"
+		history={
+		add_core_of = ARM
+		add_core_of = QAR
+		owner = QAR
+		1600.1.1 = {
+			owner = KRB
+			add_core_of = KRB
+			remove_core_of = QAR
+
+		}
+		1700.1.1 = {
+			owner = KRB
+			add_core_of = KRB
+			remove_core_of = SHI
+
+		}
+				1600.1.1 = {
+		add_core_of = PER
+		}
+		1919.1.1 = {
+			remove_core_of = PER
+
+		}
+				victory_points = {
+		14018 1 
+		}
+				1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+        remove_core_of = NAK
+		remove_core_of = TAL
+		remove_core_of = BAK
+		remove_core_of = KRB
+		remove_core_of = ERV
+		}
+		1919.1.1 = {
+			add_core_of = ARM
+			owner = ARM
+			remove_core_of = RUS
+			remove_core_of = PER
+
+		}
+		1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = ARM
+			controller = ARM
+			add_core_of = ARM
+			remove_core_of = SOV
+
+		}
+	}
+	provinces={
+		14018 14022 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

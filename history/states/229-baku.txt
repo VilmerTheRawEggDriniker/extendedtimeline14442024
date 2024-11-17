@@ -1,0 +1,90 @@
+
+state={
+	id=229
+	name="STATE_229"
+	resources={
+		oil=70.000
+	}
+
+	history={
+		owner = SHI
+		add_core_of = SHI
+		1600.1.1 = {
+			owner = BAK
+			add_core_of = BAK
+			remove_core_of = SHI
+
+		}
+		1700.1.1 = {
+			owner = BAK
+			add_core_of = BAK
+			remove_core_of = SHI
+
+		}
+				1600.1.1 = {
+		add_core_of = PER
+		}
+				1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+        remove_core_of = NAK
+		remove_core_of = TAL
+		remove_core_of = BAK
+		remove_core_of = KRB
+		remove_core_of = ERV
+		}
+		1919.1.1 = {
+			add_core_of = AZR
+			owner = AZR
+			remove_core_of = RUS
+			remove_core_of = PER
+
+		}
+		1813.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				fuel_silo = 1
+				air_base = 1
+
+			}
+
+		}
+		victory_points = {
+			7661 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = AZR
+			controller = AZR
+			add_core_of = AZR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		1450 1536 4458 4477 4545 4614 7495 7554 7661 11645 14023 14028 14037 14042 14043 14044 14045 14047 14052 14053 14055 14060 14061 14063 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=7.000
+}

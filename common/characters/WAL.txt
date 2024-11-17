@@ -1,0 +1,171 @@
+characters={
+	WAL_nicholas={
+		name=WAL_CHARACTER_NICHOLAS
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_nicholas_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_NICHOLAS_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_constantinehangerli={
+		name=WAL_CHARACTER_CONSTANTINEHANGERLI
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_constantinehangerli_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_CONSTANTINEHANGERLI_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_alexandru={
+		name=WAL_CHARACTER_ALEXANDRU
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_alexandru_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_ALEXANDRU_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_john={
+		name=WAL_CHARACTER_JOHN
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_john_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_JOHN_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_grigore={
+		name=WAL_CHARACTER_GRIGORE
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_grigore_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_GRIGORE_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_tudor={
+		name=WAL_CHARACTER_TUDOR
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_tudor_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_TUDOR_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_ghica={
+		name=WAL_CHARACTER_GHICA
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_ghica_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_GHICA_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_michael={
+		name=WAL_CHARACTER_MICHAEL
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_michael_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_MICHAEL_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_alexander={
+		name=WAL_CHARACTER_ALEXANDER
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_alexander_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_ALEXANDER_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_constantine={
+		name=WAL_CHARACTER_CONSTANTINE
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_constantine_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_CONSTANTINE_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_scarlat={
+		name=WAL_CHARACTER_SCARLAT
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_scarlat_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_SCARLAT_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_alexandros={
+		name=WAL_CHARACTER_ALEXANDROS
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_alexandros_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_ALEXANDROS_DESC
+			expire="1797.1.1"
+		}
+}
+	WAL_ypsilantis={
+		name=WAL_CHARACTER_YPSILANTIS
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_ypsilantis_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_YPSILANTIS_DESC
+			expire="1797.1.1"
+		}
+}
+}

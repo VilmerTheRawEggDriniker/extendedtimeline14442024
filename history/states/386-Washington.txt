@@ -1,0 +1,73 @@
+
+state={
+	id=386
+	name="STATE_386"
+
+	history={
+		owner = ZZZ
+				1789.1.1 = {
+                owner = MEX
+                add_core_of = CAS
+                }
+		1836.1.1 = {
+                owner = CAS
+                add_core_of = CAS
+                }
+		1848.1.1 = {
+                owner = USA
+                add_core_of = USA
+                }
+		1850.1.1 = {
+		victory_points = {
+			7315 20 
+		}
+		victory_points = {
+			7386 1 
+		}
+                }
+		1850.1.1 = {
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			7315 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 5
+			7315 = {
+				naval_base = 3
+
+			}
+
+		}
+                }
+		1900.1.1 = {
+                owner = USA
+                remove_core_of = CAS
+                add_core_of = USA
+                }
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		4296 4398 7255 7315 7386 7414 7442 10157 10242 10271 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

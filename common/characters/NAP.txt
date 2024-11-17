@@ -1,0 +1,45 @@
+characters={
+	NAP_ferdinandi={
+		name=NAP_CHARACTER_FERDINANDI
+		portraits={
+			civilian={
+				large="GFX_portrait_nap_ferdinandi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bourbon}
+			desc = NAP_FERDINANDI_DESC
+			expire="1797.1.1"
+		}
+}
+	NAP_josephbonaparte={
+		name=NAP_CHARACTER_JOSEPHBONAPARTE
+		portraits={
+			civilian={
+				large="GFX_portrait_nap_josephbonaparte_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = NAP_JOSEPHBONAPARTE_DESC
+			expire="1797.1.1"
+		}
+}
+	NAP_joachimmurat={
+		name=NAP_CHARACTER_JOACHIMMURAT
+		portraits={
+			civilian={
+				large="GFX_portrait_nap_joachimmurat_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Murat}
+			desc = NAP_JOACHIMMURAT_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

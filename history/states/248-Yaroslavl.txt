@@ -1,0 +1,63 @@
+
+state={
+	id=248
+	name="STATE_248"
+
+	history={
+		owner = MUS
+		add_core_of = MUS
+		1550.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = RYA
+		}
+		victory_points = {
+			121 10 
+		}
+		victory_points = {
+			6167 6 
+		}
+												1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+												}
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+
+	}
+
+	provinces={
+		2 62 121 164 231 252 3077 3220 6056 6101 6143 6167 6356 9122 9188 9345 11039 11099 11166 11205 
+	}
+	manpower=1343163
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=6.000
+}

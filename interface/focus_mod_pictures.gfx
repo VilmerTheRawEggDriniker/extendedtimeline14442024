@@ -1,0 +1,34 @@
+spriteTypes = {
+        spriteType = {
+		name = "GFX_goal_napoleon_horse"
+		texturefile = "gfx/interface/goals/goal_napoleon_horse.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_napoleon_egypt"
+		texturefile = "gfx/interface/goals/goal_napoleon_egypt.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_brandenburg"
+		texturefile = "gfx/interface/goals/goal_brandenburg.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_jews_enslaving_ukraine"
+		texturefile = "gfx/interface/goals/goal_jews_enslaving_ukraine.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_yugoslavia"
+		texturefile = "gfx/interface/goals/goal_yugoslavia.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_baltics"
+		texturefile = "gfx/interface/goals/goal_baltics.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_polandwarrussia"
+		texturefile = "gfx/interface/goals/goal_polandwarrussia.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_internationalclique"
+		texturefile = "gfx/interface/goals/goal_internationalclique.dds"
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	BSL_franz={
+		name=BSL_CHARACTER_FRANZ
+		portraits={
+			civilian={
+				large="GFX_portrait_bsl_franz_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = BSL_FRANZ_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

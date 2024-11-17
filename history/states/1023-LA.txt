@@ -1,0 +1,87 @@
+state={
+	id=1023
+	name="STATE_1023"
+	history={
+                owner = ZZZ
+		1789.1.1 = {
+		victory_points = {
+			9814 50 
+		}
+		victory_points = {
+			1562 10 
+		}
+                }
+		1822.1.1 = {
+                owner = MEX
+                add_core_of = MEX
+                }
+		1850.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1850.1.1 = {
+                }
+		1900.1.1 = {
+		victory_points = {
+			7818 5 
+		}
+		victory_points = {
+			7667 5 
+		}
+		victory_points = {
+			4816 5 
+		}
+		victory_points = {
+			11757 5 
+		}
+                }
+		1789.1.1 = {
+		buildings = {
+			infrastructure = 2
+			1562 = {
+				naval_base = 10
+
+			}
+			9814 = {
+				naval_base = 5
+
+			}
+		}
+                }
+		1850.1.1 = {
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			1562 = {
+				naval_base = 10
+
+			}
+			9814 = {
+				naval_base = 5
+
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1562 4736 4816 7517 7667 7818 7827 9814 10422 11757 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}
+
+
+

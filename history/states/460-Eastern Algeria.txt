@@ -1,0 +1,43 @@
+
+state={
+	id=460
+	name="STATE_460"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		1848.1.1 = {
+                owner = FRA
+                }
+		1962.1.1 = {
+                owner = ALG
+                add_core_of = ALG
+                }
+		victory_points = {
+			7081 1 
+		}
+		victory_points = {
+			12051 3 
+		}
+		victory_points = {
+			12034 1 
+		}
+		buildings = {
+			infrastructure = 2
+			7081 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1058 1128 1141 1160 3991 4018 4046 4131 4146 7008 7033 7040 7065 7081 7149 7166 9960 9976 10045 10059 10078 11939 11953 12018 12020 12034 12051 12760 13074 13077 
+	}
+	manpower=4433781
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

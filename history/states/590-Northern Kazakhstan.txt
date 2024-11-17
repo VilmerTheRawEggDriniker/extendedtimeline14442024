@@ -1,0 +1,51 @@
+
+state={
+	id=590
+	name="STATE_590"
+
+	history={
+		owner = UZB
+		add_core_of = UZB
+		1500.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = UZB
+
+		}
+		1848.1.1 = {
+                owner = RUS
+                }
+						1919.1.1 = {
+		owner = KAZ
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = KAZ
+		controller = KAZ
+		add_core_of = KAZ
+            remove_core_of = SOV
+		}
+		victory_points = {
+			4333 10 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1229 1309 1375 1391 1418 1662 1680 4232 4238 4281 4309 4333 7298 7326 7741 7874 10211 10239 10308 10633 12619 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

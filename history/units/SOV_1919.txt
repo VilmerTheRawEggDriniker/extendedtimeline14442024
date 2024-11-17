@@ -1,0 +1,2189 @@
+﻿division_template = {
+	name = "Soviet Division"
+
+	division_names_group = SOV_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 121
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6425
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9258
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3317
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11523
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9131
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 7375
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 10329
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11724
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3580
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11202
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3151
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 6380
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11225
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3335
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 310
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 11370
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 413
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3520
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 1278
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 12128
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3578
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 3529
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Soviet Army
+	division = {
+		name = "Soviet Division"
+		location = 9753
+		division_template = "Soviet Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SOV"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	DNZ_jeanrapp={
+		name=DNZ_CHARACTER_JEANRAPP
+		portraits={
+			civilian={
+				large="GFX_portrait_dnz_jeanrapp_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = DNZ_JEANRAPP_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,0 +1,62 @@
+
+state={
+	id=477
+	name="STATE_477"
+	manpower = 1951460
+	
+	state_category = pastoral
+	
+	resources={
+		oil=9
+	}
+
+	history={
+                owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1822.1.1 = {
+                add_core_of = MEX
+                owner = MEX
+                }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1590.1.1 = {
+		victory_points = {
+			12810 5
+		}
+		victory_points = {
+			8089 10
+		}
+                }
+		1590.1.1 = {
+		buildings = {
+			infrastructure = 1
+			12810 = {
+				naval_base = 3
+			}
+		}
+                }
+		1823.1.1 = {
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			12810 = {
+				naval_base = 3
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		8079 8089 10732 12810 
+	}
+	
+
+	local_supplies=0.0 
+}

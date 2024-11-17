@@ -1,0 +1,58 @@
+
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		tungsten=120.000
+	}
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+		owner = RAJ
+		controller = RAJ
+		add_core_of = BRM
+            remove_core_of = RAJ
+		}
+		1900.1.1 = {
+					victory_points = {
+			1330 20 
+		}
+		victory_points = {
+			1492 1 
+		}
+		}
+		1937.1.1 = {
+			owner = ENG
+			controller = ENG
+
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+
+		}
+		1937.1.1 = {
+			owner = BRM
+			controller = BRM
+			add_core_of = BRM
+			remove_core_of = RAJ
+
+		}
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1014 1142 1197 1330 1333 1417 1492 1650 3651 3999 4019 4059 4087 4147 4202 4293 4336 4454 4541 4588 4626 7034 7122 7163 7190 7254 7382 7441 7534 10033 10154 10182 10223 10267 10283 10344 10386 10486 11966 12090 12127 12197 12256 12267 12284 12335 12404 12449 12464 12492 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=3.000
+}

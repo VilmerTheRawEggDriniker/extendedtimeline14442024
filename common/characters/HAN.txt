@@ -1,0 +1,44 @@
+characters={
+	HAN_georgeiiihan={
+		name=HAN_CHARACTER_GEORGEIIIHAN
+		portraits={
+			civilian={
+				large="GFX_portrait_han_georgeiiihan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hanover}
+			desc = HAN_GEORGEIIIHAN_DESC
+			expire="1797.1.1"
+		}
+}
+	HAN_georgeivhan={
+		name=HAN_CHARACTER_GEORGEIVHAN
+		portraits={
+			civilian={
+				large="GFX_portrait_han_georgeivhan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hanover}
+			desc = HAN_GEORGEIVHAN_DESC
+			expire="1797.1.1"
+		}
+}
+	HAN_williamivhan={
+		name=HAN_CHARACTER_WILLIAMIVHAN
+		portraits={
+			civilian={
+				large="GFX_portrait_han_williamivhan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hanover}
+			desc = HAN_WILLIAMIVHAN_DESC
+			expire="1797.1.1"
+		}
+}
+}

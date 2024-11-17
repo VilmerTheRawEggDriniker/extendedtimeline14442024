@@ -1,0 +1,41 @@
+state={
+	id=1015
+	name="STATE_1015"
+	history={
+		owner = ZZZ
+		1835.1.1 = {
+		victory_points = {
+			4696 1 
+		}
+                }
+		1836.1.1 = {
+                owner = SAF
+                add_core_of = SAF
+                }
+		1900.1.1 = {
+		add_core_of = SAF
+                owner = SAF
+                }
+		1834.1.1 = {
+		buildings = {
+			infrastructure = 2
+			4696 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1833 4584 4696 7576 
+	}
+	manpower=1562157
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,60 @@
+
+state={
+	id=1111
+	name="STATE_1111"
+
+	history={
+		victory_points = {
+			6661 1 
+		}
+		owner = MIL
+		add_core_of = MIL
+		1800.1.1 = {
+			remove_core_of = GRI
+			add_core_of = MIL
+			owner = ITA
+			add_core_of = ITA
+
+		}
+		1816.1.1 = {
+			remove_core_of = ITA
+			remove_core_of = MIL
+			owner = LBV
+			add_core_of = LBV
+
+		}
+		1600.1.1 = {
+			owner = GRI
+			add_core_of = GRI
+			remove_core_of = LBV
+			remove_core_of = MIL
+
+		}
+		1871.1.1 = {
+			owner = ITA
+			add_core_of = ITA
+
+		}
+		1919.1.1 = {
+			remove_core_of = SPM
+			remove_core_of = PAP
+			remove_core_of = TOS
+			remove_core_of = TTS
+			remove_core_of = LBV
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		6661 11587 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

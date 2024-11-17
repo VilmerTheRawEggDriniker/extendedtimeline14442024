@@ -1,0 +1,52 @@
+autonomy_state = {
+	id = autonomy_hre_subject
+	
+	is_puppet = no
+	
+	min_freedom_level = 0.8
+	
+	manpower_influence = 0.0
+	
+	rule = {
+		desc = "RULE_DESC_IS_A_SUBJECT"
+		
+		can_not_declare_war = no
+		can_decline_call_to_war = yes
+		units_deployed_to_overlord = no
+		can_be_spymaster = no
+		can_create_collaboration_government = yes
+	}
+	
+	modifier = {
+		ai_focus_defense_factor = 0.5
+		ai_join_ally_desire_factor = -5000.0
+		ai_call_ally_desire_factor = -5000.0
+		lend_lease_tension_with_overlord = 1.0
+		stability_factor = 0.1
+	}
+	
+	ai_subject_wants_higher = {
+		factor = 1.0
+	}
+	
+	ai_overlord_wants_lower = {
+		factor = 0.0
+	}
+
+	ai_overlord_wants_garrison = {
+		always = no
+	}
+
+	allowed = {
+		OVERLORD = { original_tag = AUS }
+	}
+	
+	can_take_level = {
+		always = no
+	}
+
+	can_lose_level = {
+		always = no
+
+	}
+}

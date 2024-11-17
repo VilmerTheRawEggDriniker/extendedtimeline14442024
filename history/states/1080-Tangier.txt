@@ -1,0 +1,23 @@
+state={
+	id=1080
+	name="STATE_1080"
+	history={
+		owner = ZZZ
+		1836.1.1 = {
+			owner = AST
+			controller = AST
+            add_core_of = AST
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1526 5183 5197 5211 8200 10473 10949 10969 10997 12926 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

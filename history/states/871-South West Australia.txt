@@ -1,0 +1,54 @@
+
+state={
+	id=871
+	name="STATE_871"
+
+	history={
+		owner = SIL
+		add_core_of = SIL
+		1748.1.1 = {
+			owner = BOH
+                add_core_of = BOH
+                remove_core_of = SIL
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                add_core_of = AUH
+                remove_core_of = AUS
+		}
+		victory_points = {
+			9412 1 
+		}
+												1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = POL
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1919.1.1 = {
+			owner = POL
+			controller = POL
+            add_core_of = POL
+            remove_core_of = CZE
+            remove_core_of = BOH
+            remove_core_of = AUH
+		}
+
+	}
+
+	provinces={
+		9412 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

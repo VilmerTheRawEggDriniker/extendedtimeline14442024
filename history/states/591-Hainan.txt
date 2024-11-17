@@ -1,0 +1,91 @@
+
+state={
+	id=591
+	name="STATE_591"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = QIN
+		}
+		1920.1.1 = {
+			owner = GXC
+			controller = GXC
+		}
+		1933.1.1 = {
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            remove_core_of = GXC
+			add_core_of = PRC
+		}
+		victory_points = {
+			1070 1 
+		}
+		1936.1.1={
+				buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			1070 = {
+				naval_base = 2
+
+			}
+
+		}
+	}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			1070 = {
+				naval_base = 2
+
+			}
+
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+
+					}
+
+				}
+				remove_core_of = GXC
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		994 1038 1070 11963 11990 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

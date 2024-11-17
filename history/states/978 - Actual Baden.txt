@@ -1,0 +1,84 @@
+
+state={
+	id=978
+	name="STATE_978"
+
+	history={
+		owner = BUR
+		add_core_of = BUR
+		1789.1.1 = {
+		buildings = {
+		9536 = {bunker = 2}
+        }
+		buildings = {
+		13487 = {bunker = 2}
+        }
+		buildings = {
+		13489 = {bunker = 2}
+        }
+		}
+		1800.1.1 = {
+		buildings = {
+		9536 = {bunker = 0}
+        }
+		buildings = {
+		13487 = {bunker = 0}
+        }
+		buildings = {
+		13489 = {bunker = 0}
+        }
+		}
+		1600.1.1 = {
+			add_core_of = BEL
+			owner = BEL
+			remove_core_of = HLL
+			remove_core_of = FLA
+			remove_core_of = BUR
+			remove_core_of = FRI
+			remove_core_of = GEL
+			remove_core_of = UTR
+
+		}
+		1800.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = BEL
+
+		}
+		1816.1.1 = {
+			owner = HOL
+			add_core_of = HOL
+			remove_core_of = FRA
+
+		}
+		1831.1.1 = {
+			add_core_of = BEL
+			remove_core_of = HOL
+			owner = BEL
+
+		}
+		victory_points = {
+			9536 10 
+		}
+		victory_points = {
+			13487 3 
+		}
+		victory_points = {
+			13489 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		9536 13487 13489 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

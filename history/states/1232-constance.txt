@@ -1,0 +1,60 @@
+state={
+	id=1232
+	name="STATE_1232"
+	history={
+			owner = KON
+		add_core_of = KON
+		1950.1.1 = {
+			owner = WGR
+			add_core_of = WGR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		1808.1.1 = {
+			add_core_of = BAD
+			owner = BAD
+			remove_core_of = KON
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+
+		}
+				buildings = {
+			infrastructure = 2
+
+		}
+			victory_points = {
+			14621 1 
+		}
+	}
+	provinces={
+		14621 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

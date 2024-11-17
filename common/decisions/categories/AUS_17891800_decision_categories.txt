@@ -1,0 +1,9 @@
+################
+##### AUS ######
+################
+AUS_hungarian_concerns = {
+	icon = power_struggle
+	allowed = {
+		original_tag = AUS
+	}
+}

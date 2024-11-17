@@ -1,0 +1,85 @@
+
+state={
+	id=664
+	name="STATE_664"
+	resources={
+		steel=13.000
+		chromium=3.000
+	}
+
+	history={
+		owner = HUN
+		add_core_of = HUN
+		1600.1.1 = {
+			owner = HUN
+
+		}
+		1700.1.1 = {
+			owner = HUN
+                remove_core_of = TRA
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+		}
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = AUH
+						add_core_of = SLO
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6573 10 
+		}
+		1919.1.1 = {
+			owner = CZE
+			controller = CZE
+			add_core_of = CZE
+			remove_core_of = AUH
+			remove_core_of = SLO
+
+		}
+		1939.3.14 = {
+			owner = HUN
+			controller = HUN
+			remove_claim_by = HUN
+			add_core_of = HUN
+			add_core_of = SLO
+
+		}
+		1944.1.1 = {
+			remove_core_of = TRA
+			remove_claim_by = HUN
+
+		}
+		1946.1.1 = {
+			owner = CZE
+			controller = CZE
+			add_core_of = CZE
+			remove_core_of = HUN
+
+		}
+		1993.1.1 = {
+			owner = SLO
+			controller = SLO
+			remove_core_of = CZE
+			remove_core_of = HUN
+
+		}
+
+	}
+
+	provinces={
+		557 3565 3716 6573 9537 11679 14288 14290 14297 14305 
+	}
+	manpower=854300
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=3.000
+}

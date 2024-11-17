@@ -1,0 +1,98 @@
+
+state={
+	id=85
+	name="STATE_85"
+
+	history={
+		owner = TEU
+        add_core_of = TEU
+										1950.1.1 = {
+		owner = POL
+		add_core_of = POL
+		remove_core_of = GER
+		remove_claim_by=GER
+		}
+		1500.1.1 = {
+			owner = POL
+			add_core_of = POL
+			remove_core_of = PRE
+			remove_core_of = TEU
+
+		}
+										1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = POL
+		}
+		1794.1.1 = {
+                owner = PRE
+                add_core_of = PRE
+                remove_core_of = POL
+                }
+		1812.1.1 = {
+                owner = DNZ
+				add_core_of = DNZ
+				remove_core_of = PRE
+                }
+		1816.1.1 = {
+                owner = PRE
+				remove_core_of = DNZ
+				add_core_of = PRE
+                }
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
+                }
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
+                }
+		
+		victory_points = {
+			362 10 
+		}
+		buildings = {
+			infrastructure = 3
+			362 = {
+				naval_base = 5
+
+			}
+
+		}
+		1920.1.1 = {
+			owner = DNZ
+			controller = DNZ
+                add_core_of = DNZ
+                remove_core_of = GER
+		set_demilitarized_zone = yes
+		}
+		1945.1.1 = {
+                add_core_of = POL
+                remove_core_of = GER
+                remove_core_of = DNZ
+		}
+		1938.3.12 = {
+			add_claim_by = GER
+
+		}
+
+	}
+
+	provinces={
+		362 13451 
+	}
+	manpower=366730
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,46 @@
+
+state={
+	id=451
+	name="STATE_451"
+
+	history={
+		owner = ZZZ
+		1900.1.1 = {
+			owner = OTO
+			controller = OTO
+		add_core_of = LBA
+		add_core_of = CYR
+
+		}
+		1911.1.1 = {
+			owner = LBA
+			controller = LBA
+
+		}
+								1945.1.1 = {
+                owner = ENG
+                }
+		1920.1.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+		1946.1.1 = {
+        owner = LBA
+		add_core_of = LBA
+        }
+		buildings = {
+			infrastructure = 0
+		}
+
+
+	}
+
+	provinces={
+		1057 1062 1186 4060 4063 4133 7063 7076 7139 7206 7985 9977 10754 10785 10884 11951 12022 12025 12079 12082 13078 13236 13240 13241 13243 
+	}
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
+}

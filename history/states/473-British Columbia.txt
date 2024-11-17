@@ -1,0 +1,110 @@
+
+state={
+	id=473
+	name="STATE_473"
+	resources={
+		oil=1.000
+	}
+
+	history={
+
+		owner = ZZZ
+				1789.1.1 = {
+                owner = MEX
+                add_core_of = CAS
+                }
+                1848.1.1 = {
+		buildings = {
+			infrastructure = 1
+			1408 = {
+				naval_base = 5
+
+			}
+			1869 = {
+				naval_base = 1
+
+			}
+			4428 = {
+				naval_base = 1
+
+			}
+
+		}
+		}
+                1836.1.1 = {
+			owner = CAS
+			controller = CAS
+                add_core_of = CAS
+		}
+		1848.1.1 = {
+			owner = ENG
+                remove_core_of = CAS
+		}
+                1885.1.1 = {
+		victory_points = {
+			1408 20 
+		}
+		}
+		1867.1.1 = {
+			owner = CAN
+			controller = CAN
+                add_core_of = CAN
+                remove_core_of = CAS
+		}
+                1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+			1408 = {
+				naval_base = 5
+
+			}
+			1869 = {
+				naval_base = 1
+
+			}
+			4428 = {
+				naval_base = 1
+
+			}
+
+		}
+		}
+                1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			1408 = {
+				naval_base = 5
+
+			}
+			1869 = {
+				naval_base = 1
+
+			}
+			4428 = {
+				naval_base = 1
+
+			}
+
+		}
+		}
+
+
+
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1214 1323 1408 1420 1737 1869 4413 4428 4870 7259 7677 7753 7761 7820 10228 10273 12231 12259 12272 12578 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=7.000
+}

@@ -1,0 +1,183 @@
+﻿l_english:
+form_circassia_adygea_required_states_tt:0 "Controls the §YAdygea§! state."
+form_circassia_karachey_required_states_tt:0 "Controls the §YKarachay-Cherkessia§! state."
+form_circassia_kabardino_required_states_tt:0 "Controls the §YKabardino-Balkaria§! state."
+
+form_circassia_core_adygea_required_states_tt:0 "Gain Cores on the §YAdygea§! state."
+form_circassia_core_karachey_required_states_tt:0 "Gain Cores on the §YKarachay-Cherkessia§! state."
+form_circassia_core_kabardino_required_states_tt:0 "Gain Cores the §YKabardino-Balkaria§! state."
+
+form_circassia:0 "Restore Circassia"
+
+form_circassia_category:0 "Restore Circassia"
+
+form_lcthre:0 "Form the Holy Roman Empire of the German Nation"
+
+form_lcthre_category:0 "Form the Holy Roman Empire of the German Nation"
+
+form_france:0 "Form France"
+
+form_france_category:0 "Form France"
+
+form_russia:0 "Form Russia"
+
+form_russia_category:0 "Form Russia"
+
+form_thugborea:0 "Proclaim Thugborea"
+
+thugborea_category:0 "Form Thugborea"
+
+OLD_germany_empire_russia_protectorate_war_peace:0 "Form the Oldenburg Kingdom of Germany"
+
+form_germany:0 "German Unification"
+
+form_germany_category:0 "Form Germany"
+
+form_italy:0 "Form Italy"
+
+form_italy_category:0 "Form Italy"
+
+freedom_of_the_press_act_revision:0 "Amend the Freedom of the Press Act"
+
+sweden_napoleonic_wars_category:0 "Swedish Political Sphere"
+
+industrialize_turkey_category:0 "Industrialize Turkey"
+industrialize_turkey_istanbul:0 "Industrialize Istanbul"
+industrialize_turkey_bursa:0 "Industrialize Bursa"
+industrialize_turkey_izmir:0 "Industrialize Izmir"
+industrialize_turkey_ankara:0 "Industrialize Ankara"
+industrialize_turkey_adana:0 "Industrialize Adana"
+
+industrialize_turkey_istanbul_one:0 "Industrialisation of Istanbul phase 1"
+industrialize_turkey_bursa_one:0 "Industrialisation of Bursa phase 1"
+industrialize_turkey_izmir_one:0 "Industrialisation of Izmir phase 1"
+industrialize_turkey_ankara_one:0 "Industrialisation of Ankara phase 1"
+industrialize_turkey_adana_one:0 "Industrialisation of Adana phase 1"
+
+industrialize_turkey_istanbul_two:0 "Industrialisation Istanbul phase 2"
+industrialize_turkey_bursa_two:0 "Industrialisation of Bursa phase 2"
+industrialize_turkey_izmir_two:0 "Industrialisation of Izmir phase 2"
+industrialize_turkey_ankara_two:0 "Industrialisation of Ankara phase 2"
+industrialize_turkey_adana_two:0 "Industrialisation of Adana phase 2"
+
+industrialize_turkey_istanbul_three:0 "Industrialisation of Istanbul phase 3"
+industrialize_turkey_bursa_three:0 "Industrialisation of Bursa phase 3"
+industrialize_turkey_izmir_three:0 "Industrialisation of Izmir phase 3"
+industrialize_turkey_ankara_three:0 "Industrialisation of Ankara phase 3"
+industrialize_turkey_adana_three:0 "Industrialisation of Adana phase 3"
+
+industrialize_turkey_istanbul_four:0 "Industrialisation of Istanbul phase 4"
+industrialize_turkey_bursa_four:0 "Industrialisation of Bursa phase 4"
+industrialize_turkey_izmir_four:0 "Industrialisation of Izmir phase 4"
+industrialize_turkey_ankara_four:0 "Industrialisation of Ankara phase 4"
+industrialize_turkey_adana_four:0 "Industrialisation of Adana phase 4"
+
+
+
+
+
+GER_reichskommissariat_odessarom:0 "Give Odessa to Romania"
+GER_reichskommissariat_odessaruk:0 "Give Odessa to Ukraine"
+GER_reichskommissariat_moldovarom:0 "Give Bessarabia to Romania"
+GER_reichskommissariat_france:0 "Military Administration in France"
+GER_reichskommissariat_francesouth:0 "Give South France to the Military Administration in France"
+GER_reichskommissariat_czechia:0 "Protectorate of Bohemia and Moravia"
+GER_reichskommissariat_poland:0 "General Government"
+
+GER_reichskommissariat_lwiwpol:0 "Give east Galicia to Poland"
+GER_reichskommissariat_lwiwruk:0 "Give east Galicia to Ukraine"
+GER_reichskommissariat_chelmlemkoruk:0 "Give Chelm and Lemko to Ukraine"
+GER_reichskommissariat_posenger:0 "Incorporate west Prussia Posen and Upper Silesia into the Reich"
+GER_reichskommissariat_lodzger:0 "Incorporate Litzmannstadt into the Reich"
+GER_reichskommissariat_bialystokger:0 "Incorporate Bialystok into the Reich"
+GER_reichskommissariat_lithuania:0 "Reichskommissariat Lithuania"
+GER_reichskommissariat_bialystoklit:0 "Give Bialystok to Lithuania"
+
+RUS_frenchrevolution:0 "The French Revolution"
+pauli_reform_RUS_frenchrevolution:0 "Paul I's Reforms"
+pauli_reform_RUS_frenchrevolution_bratslav:0 "Annex The Bratslav Viceroyalty"
+pauli_reform_RUS_frenchrevolution_kiev:0 "Annex The Kiev Viceroyalty"
+pauli_reform_RUS_frenchrevolution_caucasian:0 "Annex The Caucasian Viceroyalty"
+pauli_reform_RUS_frenchrevolution_ufa:0 "Annex The Ufa Viceroyalty"
+pauli_reform_RUS_frenchrevolution_iran:0 "Peace with Iran"
+pauli_reform_RUS_frenchrevolution_critic:0 "Free the Critics of Catherine the Great"
+
+HRE_hungary_russia_protectorate_war_peace:0 "Establish the Holstein-Gottorp-Romanov Kingdom of Hungary"
+
+HRE_frenchrevolution:0 "The French Revolution"
+HRE_prussia_russia_patriotic_war_peace:0 "Leave the Continental System"
+HRE_austria_russia_patriotic_war_peace:0 "Leave the Continental System"
+
+FRA_frenchrevolution:0 "The French Revolution"
+FRA_liberteegalitefraternite:0 "Liberté égalité fraternité"
+FRA_changeflag:0 "Change the French Flag"
+
+BAY_wittelsbach:0 "The Wittelsbach Dynasty"
+BAY_wittelsbach_mannheim:0 "Inherit Mannheim"
+
+FRA_naturalborder:0 "France's Natural Borders"
+FRA_naturalborderpuppetrhine:0 "Puppet the Rheinish States"
+FRA_naturalborderpuppetbelgium:0 "Puppet Belgium"
+FRA_naturalborderpuppetliege:0 "Puppet Liege"
+FRA_corerhine:0 "Integrate the Paltinate and the Saarland"
+FRA_corebelgium:0 "Integrate Belgium"
+FRA_coreliege:0 "Integrate Liege"
+FRA_corelimburg:0 "Integrate Limburg and Zeelandic Flanders"
+FRA_corebasel:0 "Integrate Basel"
+
+FRA_italiangambit:0 "The Italian Gambit"
+FRA_invade_sardinia:0 "Invade Sardinia-Piedmont"
+FRA_invade_milan:0 "Invade Milan"
+FRA_invade_venice:0 "Invade Venice"
+FRA_invade_naples:0 "Invade Naples"
+FRA_invade_pope:0 "Invade the Papal States"
+FRA_invade_prmmodmas:0 "Invade Parma Modena and Massa"
+FRA_invade_genoa:0 "Overthrow the Genoese Government"
+FRA_invade_lucca:0 "Invade Lucca"
+FRA_invade_tuscany:0 "Invade Tuscany"
+FRA_seperate_peace_tuscany:0 "Seperate Peace with Tuscany"
+FRA_invade_sicily:0 "Invade Sicily"
+FRA_invade_malta:0 "Invade Malta"
+
+division_limit_system:0 "Division Limit System"
+division_limit_system_one:0 "Recruit 12 divisions pt1"
+division_limit_system_two:0 "Recruit 12 divisions pt2"
+division_limit_system_three:0 "Recruit 12 divisions pt3"
+division_limit_system_four:0 "Recruit 12 divisions pt4"
+division_limit_system_five:0 "Recruit 12 divisions pt5"
+division_limit_system_six:0 "Recruit 12 divisions pt6"
+division_limit_system_seven:0 "Recruit 12 divisions pt7"
+division_limit_system_eight:0 "Recruit 12 divisions pt8"
+division_limit_system_nine:0 "Recruit 12 divisions pt9"
+division_limit_system_ten:0 "Recruit 12 divisions pt10"
+
+performance:0 "Performance"
+performance_south_america:0 "Combine South America"
+performance_colonies:0 "Remove the Added Colonies"
+performance_imereti:0 "Remove the West Georgian Countries"
+performance_azeri:0 "Remove the Azeri Khanates"
+performance_switzerland:0 "Remove the Swiss Countries"
+performance_circassia:0 "Remove the North Caucasian Countries"
+performance_america:0 "Remove the American Countries"
+performance_canada:0 "Remove the Canadian Countries"
+performance_colonization:0 "Enable Colonization for the 1789-1836 Era"
+
+USA_admission:0 "Admission of the States into the Union"
+
+USA_admissionnc:0 "Admission of North Carolina into the Union"
+USA_admissionri:0 "Admission of Rhode Island into the Union"
+USA_admissionvt:0 "Admission of Vermont into the Union"
+USA_admissionky:0 "Admission of Kentucky into the Union"
+USA_admissiontn:0 "Admission of Tennessee into the Union"
+USA_admissionoh:0 "Admission of Ohio into the Union"
+USA_admissionla:0 "Admission of Louisiana into the Union"
+USA_admissionin:0 "Admission of Indiana into the Union"
+USA_admissionms:0 "Admission of Mississippi into the Union"
+USA_admissionil:0 "Admission of Illinois into the Union"
+USA_admissional:0 "Admission of Alabama into the Union"
+USA_admissionme:0 "Admission of Maine into the Union"
+USA_admissionmo:0 "Admission of Missouri into the Union"
+
+AUS_hungarian_concerns:0 "Hungarian Concerns"
+AUS_hold_the_hungarian_diet:0 "Hold the Hungarian Diet"
+

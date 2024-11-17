@@ -1,0 +1,61 @@
+
+state={
+	id=717
+	name="STATE_717"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
+		1905.1.1 = {
+                owner = QIN
+		}
+		1912.1.1 = {
+            owner = CHI
+		}
+				1912.1.1 = {
+            owner = CHI
+		remove_core_of = QIN
+		}
+1919.1.1 = {
+        }
+		1920.1.1 = {
+            owner = MAN
+            add_core_of = MAN
+            remove_core_of = QIN
+		}
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC 
+            add_core_of = PRC
+            remove_core_of = MAN
+		}
+				buildings = {
+			infrastructure = 0
+
+		}
+			1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			10433 20
+		}
+		}
+	}
+
+	provinces={
+		783 810 1571 3791 3815 3843 4551 5427 6811 6863 7569 7670 9623 9766 9782 9798 10215 10376 10433 10463 10503 10519 10521 11893 11906 12342 12355 12412 12443 12482 12500 
+	}
+	manpower=6000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

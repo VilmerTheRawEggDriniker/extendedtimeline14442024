@@ -1,0 +1,24 @@
+state={
+	id=961
+	name="STATE_961"
+	history={
+		owner = OTO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BUL
+		1914.1.1 = {
+			owner = BUL
+			controller = BUL
+		}
+
+	}
+
+	provinces={
+		6857 9818 13757 13815
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
