@@ -15,7 +15,7 @@ state= {
 			owner = SPR
 			controller = SPR
 		}
-				1789.1.1 = {
+				1776.1.1 = {
         add_core_of = PHI
         owner = MEX
         }

@@ -1,4 +1,69 @@
 ﻿capital = 37
+
+1814.1.1 = {
+			if = {
+		limit = { has_start_date < 1815.1.1 }
+	NOR={set_cosmetic_tag=NOR_DEN}
+	set_autonomy = {
+        target = NOR
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.4
+	}
+			}
+}
+1444.11.11 = {
+			if = {
+		limit = { has_start_date < 1870.1.1 }
+	SHL={set_cosmetic_tag=SHL_DEN}
+	set_autonomy = {
+        target = SHL
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.4
+	}
+			}
+}
+1444.11.11 = {
+			if = {
+		limit = { has_start_date < 1870.1.1 }
+	HLS={set_cosmetic_tag=HLS_DEN}
+			}
+}
+1806.11.11 = {
+			if = {
+		limit = { has_start_date < 1870.1.1 }
+	set_autonomy = {
+        target = HLS
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.4
+	}
+			}
+}
+1814.11.11 = {
+			if = {
+		limit = { has_start_date < 1870.1.1 }
+	SXL={set_cosmetic_tag=SXL_DEN}
+			}
+}
+1815.11.11 = {
+			if = {
+		limit = { has_start_date < 1870.1.1 }
+	set_autonomy = {
+        target = SXL
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.4
+	}
+			}
+}
+
+
+
+
+
+
+
+
+
+
 1789.1.1 = {
 recruit_character=DEN_ernstgeneral
 recruit_character=DEN_brodergeneral
@@ -41,13 +106,18 @@ retire_character=DEN_brodergeneral
 recruit_character=DEN_christianvii
 promote_character=DEN_christianvii
 recruit_character=DEN_frederickvi
+recruit_character=DEN_christianviii
 }
 1808.1.1 = {
 promote_character=DEN_frederickvi
 retire_character=DEN_christianvii
 }
 1840.1.1 = {
+promote_character=DEN_christianviii
 retire_character=DEN_frederickvi
+}
+1849.1.1 = {
+retire_character=DEN_christianviii
 }
 1444.11.11 = {
 set_party_name = { ideology = neutrality long_name = DEN_WIT_neutrality_party_long name = DEN_WIT_neutrality_party }
@@ -66,7 +136,7 @@ set_cosmetic_tag = DEN # Denmark
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
+		limit = { has_start_date < 1815.1.1 }
 set_oob = "DEN_1789_1815"
 }
 }
@@ -231,6 +301,9 @@ set_stability = 0.9
 set_war_support = 0.1
 set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 set_technology = {
@@ -470,7 +543,7 @@ set_popularities = {
 democratic = 50
 neutrality = 50
 }
-1837.1.1 = {
+1849.1.1 = {
 	set_popularities = {
 		democratic = 94
 		fascism = 1

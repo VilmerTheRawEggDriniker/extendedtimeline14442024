@@ -139,7 +139,7 @@ FRA_naturalborder = {
         controls_state = 6
         controls_state = 1171
         controls_state = 973
-        controls_state = 978
+        controls_state = 1243
         controls_state = 34  
 		}
 
@@ -167,6 +167,19 @@ FRA_naturalborder = {
         autonomous_state = autonomy_dominion
         freedom_level = 0.35
 	}
+		}
+		if={
+		limit={
+		country_exists=LUX
+		}
+		BEL={annex_country = { target = LUX transfer_troops = yes }}
+		every_state={
+		limit={
+        is_core_of=LUX
+		}
+		add_core_of=BEL
+		remove_core_of=LUX
+		}
 		}
 		hidden_effect={set_global_flag = fra_puppet_belgium_flag}
 		}
@@ -266,7 +279,7 @@ FRA_naturalborder = {
         owns_state = 6
         owns_state = 1171
         owns_state = 973
-        owns_state = 978
+        owns_state = 1243
         owns_state = 34  
 		}
 
@@ -293,7 +306,7 @@ FRA_naturalborder = {
 6 = { add_core_of = ROOT }
 1171 = { add_core_of = ROOT }
 973 = { add_core_of = ROOT }
-978 = { add_core_of = ROOT }
+1243 = { add_core_of = ROOT }
 34 = { add_core_of = ROOT }
 		hidden_effect={set_global_flag = fra_core_belgium_flag}
 		}
@@ -447,7 +460,8 @@ FRA_italiangambit = {
 		available = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			has_government = democratic
-			date > 1792.9.12 date < 1800.1.1 
+                        NOT={has_war_with=SPM}
+			date > 1793.1.1 date < 1794.1.1 
 		}
 
 		cost = 0
@@ -462,7 +476,6 @@ FRA_italiangambit = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			NOT = { has_global_flag = italian_gambit_sardinia_flag }
 		}
-
 		complete_effect = {
 		hidden_effect={set_global_flag = italian_gambit_sardinia_flag AUS = {
                         add_to_faction = SPM}}
@@ -693,7 +706,7 @@ FRA_italiangambit = {
 		available = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			has_government = democratic
-			date > 1799.5.1 date < 1800.1.1 
+			date > 1799.22.1 date < 1800.1.1 
 		}
 
 		cost = 0
@@ -710,14 +723,13 @@ FRA_italiangambit = {
 		}
 
 		complete_effect = {
-		hidden_effect={set_global_flag = italian_gambit_lucca_flag AUS = {
-                        add_to_faction = LUC}}
-		declare_war_on = {
+	set_autonomy = {
 		target = LUC
-		type = puppet_wargoal_focus
-	    }
-		}
+		autonomous_state = autonomy_dominion
 	}
+		hidden_effect={set_global_flag = italian_gambit_lucca_flag}
+        }
+}
 }
 FRA_italiangambit = {
 	FRA_seperate_peace_tuscany = {

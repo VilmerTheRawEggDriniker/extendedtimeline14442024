@@ -1,0 +1,64 @@
+PRE_frenchrevolution = {
+	PRE_neu_army = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+		date > 1789.1.1 date < 1836.1.1 
+		original_tag=PRE
+        NEU={is_subject_of=PRE}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1836.1.1 
+		PRE={has_country_flag=neu_vassal_pre_flag}
+			NOT = { has_global_flag = neu_prussia_russia_patriotic_peace_flag }
+		}
+
+		complete_effect = {
+	    PRE={add_manpower=1000}
+		NEU={add_manpower=-1000}
+		hidden_effect={set_global_flag = neu_prussia_russia_patriotic_peace_flag}
+		}
+	}
+}
+PRE_frenchrevolution = {
+	PRE_hoh_army = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+		date > 1789.1.1 date < 1836.1.1 
+		original_tag=PRE
+        HOH={is_subject_of=PRE}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1836.1.1 
+		PRE={has_country_flag=neu_vassal_pre_flag}
+			NOT = { has_global_flag = hoh_prussia_russia_patriotic_peace_flag }
+		}
+
+		complete_effect = {
+	    PRE={add_manpower=1000}
+	    HOH={add_manpower=-1000}
+		hidden_effect={set_global_flag = hoh_prussia_russia_patriotic_peace_flag}
+		}
+	}
+}

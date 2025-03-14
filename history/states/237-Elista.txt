@@ -29,10 +29,12 @@ state={
 		}
 		1800.1.1 = {
 			owner = RUS
-		add_core_of = RUS
 		remove_core_of = ZAP
 		remove_core_of = DON
 		remove_core_of = POL
+		}
+		1801.1.1 = {
+		add_core_of = RUS
 		}
 		1920.1.1 = {
 			owner = SOV

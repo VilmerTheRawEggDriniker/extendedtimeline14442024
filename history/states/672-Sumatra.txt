@@ -13,13 +13,16 @@ state={
 
 
 	history={
+		owner = ZZZ
+        1900.1.1 = {
 		owner = ACE
 		add_core_of=ACE
-		1903.1.1 = {
+		}
+		1901.1.1 = {
                 add_core_of = INS
                 owner = INS
                 }
-		1699.1.1 = {
+		1900.1.1 = {
 		victory_points = {
 			4652 1 
 		}
@@ -27,7 +30,7 @@ state={
 			12268 1 
 		}
                 }
-		1698.1.1 = {
+		1900.1.1 = {
 		buildings = {
 			infrastructure = 1
 			4652 = {

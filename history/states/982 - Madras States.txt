@@ -1,0 +1,48 @@
+
+state={
+	id=982
+	name="STATE_982"
+
+	history={
+		victory_points = {
+			11818 15 
+		}
+				victory_points = {
+			895 5 
+		}
+				victory_points = {
+			13694 1 
+		}
+		owner = OTO
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			11818 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = BYZ
+		1800.1.1 = {
+			add_core_of = GRE
+			remove_core_of = BYZ
+
+		}
+		1914.1.1 = {
+			owner = GRE
+			controller = GRE
+			add_core_of = GRE
+
+		}
+
+	}
+
+	provinces={
+		895 11818 13694 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

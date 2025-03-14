@@ -1,5 +1,5 @@
 	opinion_modifiers = {
-           HUN_revanchism = {
+    HUN_revanchism = {
 		value = -25
 		min_trust = -25
 		days = 10
@@ -7,10 +7,54 @@
 		decay = 1
 	}
 
+
+
 	same_house = {
 		value = 30
 		max_trust = 30
 		decay = 30
+	}
+		PRE_HES_ties_hre = {
+		value = 20
+		max_trust = 20
+		decay = 10
+	}
+			PRE_NAS_ties_hre = {
+		value = 20
+		max_trust = 20
+		decay = 10
+	}
+			PRE_HAN_ties_hre = {
+		value = 20
+		max_trust = 20
+		decay = 10
+	}
+		polish_prussian_alliance = {
+		value = 50
+		max_trust = 50
+		decay = 00
+	}
+
+
+	
+		ottoman_prussian_alliance = {
+		value = 50
+		max_trust = 50
+		decay = 00
+	}
+
+	
+		triple_alliance = {
+		value = 50
+		max_trust = 50
+		decay = 00
+	}
+
+	
+		triple_alliance_aus_pre_rus = {
+		value = 50
+		max_trust = 50
+		decay = 00
 	}
 
 	same_parent_house = {

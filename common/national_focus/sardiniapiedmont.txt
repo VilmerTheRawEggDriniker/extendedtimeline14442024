@@ -1,0 +1,8023 @@
+﻿focus_tree = {
+	id = sardinian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SPM
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+continuous_focus_position = { x = 7000 y = 0000 }
+	default = no
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_1
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 1
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_2
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 4
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_3
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 6
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_4
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 8
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_5
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 10
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_6
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 12
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_7
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 14
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_8
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 16
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_9
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 18
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_10
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 20
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_11
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_12
+		icon = GFX_goal_generic_neutrality_focus
+		x = 4
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_13
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_14
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_15
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_16
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_17
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_18
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_19
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_20
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_21
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_22
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	}
+		}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_23
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_24
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_25
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_26
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_27
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_28
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_29
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_30
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_31
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_32
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_33
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_34
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_35
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_36
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_37
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_38
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_39
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_40
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 4
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_41
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_42
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_43
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_44
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_45
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_46
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_47
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_48
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_49
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_50
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 5
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_38
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_39
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_40
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_51
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_52
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_53
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_54
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_55
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_56
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_57
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_58
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_59
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_60
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 6
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_41
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_42
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_43
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_44
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_45
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_61
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_62
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_63
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_64
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_65
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_66
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_67
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_68
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_69
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_70
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 7
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_52
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_53
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_54
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_55
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_56
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_57
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_58
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_59
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_71
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_72
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_73
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_74
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_75
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_76
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_77
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_78
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_79
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_80
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 8
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_81
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_82
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_83
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_84
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_85
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_86
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_87
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_88
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_89
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_90
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 9
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_91
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_92
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_93
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_94
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_95
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_96
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_97
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_98
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_99
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1789_1815_first_100_focus_100
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = sardiniapiedmont_1793_1836_focus_1
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_2
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_3
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_4
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_5
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_6
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 11
+		cost = 10
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_7
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_8
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_9
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_10
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 11
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_11
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1  
+		x = 0
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_12
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1		
+		x = 2
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_13
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 4
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_14
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 6
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_15
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 8
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_16
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 10
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_17
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 12
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_18
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 14
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_19
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 16
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_20
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 18
+		y = 1
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_21
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 0
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_22
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 2
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	}
+		}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_23
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 4
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_24
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 6
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_25
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 8
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_26
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 10
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_27
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 12
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_28
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 14
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_29
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 16
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_30
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 18
+		y = 2
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_31
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 0
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_32
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 2
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_33
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 4
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_34
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 6
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_35
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 8
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_36
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 10
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_37
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 12
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_38
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 14
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_39
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 16
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = sardiniapiedmont_1793_1836_focus_40
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = sardiniapiedmont_1793_1836_focus_1
+		x = 18
+		y = 3
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_21
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_22
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_23
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_24
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_25
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_26
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_27
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_28
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_29
+		}
+		prerequisite = {
+		focus =	sardiniapiedmont_1793_1836_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+}

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = SXL_CHRISTIANVII_DESC
 			expire="1797.1.1"
@@ -21,9 +21,51 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = SXL_FREDERICKVI_DESC
+			expire="1797.1.1"
+		}
+}
+	SXL_georgeiiisxl={
+		name=SXL_CHARACTER_GEORGEIIISXL
+		portraits={
+			civilian={
+				large="GFX_portrait_sxl_georgeiiisxl_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hanover}
+			desc = SXL_GEORGEIIISXL_DESC
+			expire="1797.1.1"
+		}
+}
+	SXL_georgeivsxl={
+		name=SXL_CHARACTER_GEORGEIVSXL
+		portraits={
+			civilian={
+				large="GFX_portrait_sxl_georgeivsxl_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hanover}
+			desc = SXL_GEORGEIVSXL_DESC
+			expire="1797.1.1"
+		}
+}
+	SXL_williamivsxl={
+		name=SXL_CHARACTER_WILLIAMIVSXL
+		portraits={
+			civilian={
+				large="GFX_portrait_sxl_williamivsxl_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hanover}
+			desc = SXL_WILLIAMIVSXL_DESC
 			expire="1797.1.1"
 		}
 }

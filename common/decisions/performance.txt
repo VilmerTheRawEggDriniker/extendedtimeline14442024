@@ -127,6 +127,99 @@ performance_canada = {
 	}
 }
 performance = {
+performance_canadaaustralia = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    ENG = {
+		annex_country = { target = AST transfer_troops = no }
+		annex_country = { target = CAN transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_kumul = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    QIN = {
+		annex_country = { target = KUM transfer_troops = no }
+		annex_country = { target = NEP transfer_troops = no }
+		annex_country = { target = BHU transfer_troops = no }
+		annex_country = { target = SKK transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_iran = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1800.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    PER = {
+		annex_country = { target = QAJ transfer_troops = no }
+		annex_country = { target = AFS transfer_troops = no }
+		annex_country = { target = BAL transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
 performance_america = {
 		icon = ger_reichskommissariats
 				
@@ -198,6 +291,36 @@ performance_circassia = {
 	}
 }
 performance = {
+performance_cascadialouisiana = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    MEX = {
+		annex_country = { target = CAS transfer_troops = no }
+		annex_country = { target = LOU transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
 performance_imereti = {
 		icon = ger_reichskommissariats
 				
@@ -225,6 +348,131 @@ performance_imereti = {
 		annex_country = { target = MIG transfer_troops = no }
 		annex_country = { target = SVA transfer_troops = no }
 		annex_country = { target = ABK transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_sea = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    ZZZ = {
+		annex_country = { target = ACE transfer_troops = no }
+		annex_country = { target = SIA transfer_troops = no }
+		annex_country = { target = VIN transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_india = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    ZZZ = {
+		annex_country = { target = CTC transfer_troops = no }
+		annex_country = { target = HYD transfer_troops = no }
+		annex_country = { target = MYS transfer_troops = no }
+		annex_country = { target = AWA transfer_troops = no }
+		annex_country = { target = MTH transfer_troops = no }
+		annex_country = { target = MUG transfer_troops = no }
+		annex_country = { target = SKH transfer_troops = no }
+		annex_country = { target = SIN transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_egypt = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    OTO = {
+		annex_country = { target = EGY transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_oman = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+	    ZZZ = {
+		annex_country = { target = OMA transfer_troops = no }
 	    } 
 		}
 	}
@@ -319,6 +567,83 @@ performance_colonization = {
 
 		complete_effect = {
 FRA={clr_country_flag =colonization_disabled_napoleonic}
+		}
+	}
+}
+performance = {
+performance_divisionlimitsystem = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+		every_possible_country = {
+country_lock_all_division_template = no
+set_global_flag = no_scripted_napoleonic_division_flag
+}
+		}
+	}
+}
+
+performance = {
+performance_africa = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1789.1.1 date < 1836.1.1
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		
+        date > 1789.1.1 date < 1836.1.1
+      is_ai = no
+		}
+
+		complete_effect = {
+        AFA={add_state_core=1049 transfer_state=1049}
+
+		DRF={add_state_core=1048 transfer_state=1048}
+
+		WAD={add_state_core=1086 transfer_state=1086}
+
+		COG={add_state_core=295 transfer_state=295}
+		COG={add_state_core=796 transfer_state=796}
+
+		SOK={add_state_core=1079 transfer_state=1079}
+		SOK={add_state_core=1037 transfer_state=1037}
+		SOK={add_state_core=1038 transfer_state=1038}
+
+		ETH={add_state_core=1073 transfer_state=1073}
+		ETH={add_state_core=1074 transfer_state=1074}
+		ETH={add_state_core=1075 transfer_state=1075}
+
+		SUD={add_state_core=551 transfer_state=551}
+		SUD={add_state_core=1047 transfer_state=1047}
+		SUD={add_state_core=1060 transfer_state=1060}
 		}
 	}
 }

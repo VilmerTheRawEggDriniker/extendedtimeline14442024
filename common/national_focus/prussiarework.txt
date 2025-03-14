@@ -1,0 +1,7190 @@
+﻿focus_tree = {
+	id = prussianreworkn_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRE
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+continuous_focus_position = { x = 7000 y = 0000 }
+	default = no
+focus = {
+		id = prussianrework_althistory_1
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -11
+		y = 2
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 10
+				mutually_exclusive = { 
+		focus = prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_7
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 4
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_9
+		focus = prussianrework_althistory_10
+		}
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_8
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 2
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_9
+		focus = prussianrework_althistory_10
+		}
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_9
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 0
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_10
+		}
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_10
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -2
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_42
+		focus =	prussianrework_althistory_11
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+
+focus = {
+		id = prussianrework_althistory_11
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 4
+		y = 17
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_12
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 2
+		y = 17
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_13
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 0
+		y = 17
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_14
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -2
+		y = 17
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_althistory_15
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 35
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_52
+		focus = prussianrework_althistory_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_51
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		PRE={country_event = pre_1789_event.89}
+		}
+	}
+		focus = {
+		id = prussianrework_althistory_16
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 37
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_52
+		focus = prussianrework_althistory_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_51
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		PRE={country_event = pre_1789_event.101}
+		}
+	}
+			focus = {
+		id = prussianrework_althistory_17
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 0
+		y = 4
+
+		cost = 4.3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_49
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		PRE={has_country_flag=PRE_has_claimed_the_throne_of_str}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		PRE={country_event = pre_1789_event.105}
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_1
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -10
+		y = 0
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.55}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_2
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -10
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.60}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_3
+		icon = GFX_focus_chi_british_cooperation
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -9
+		y = 2
+		mutually_exclusive = { 
+		focus = prussianrework_althistory_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_4
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -10
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		focus = prussianrework_althistory_1
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_5
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -11
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		POL={country_event = pre_1789_event.73}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_6
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -2
+		y = 3
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		focus = prussianrework_althistory_1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		BEL={has_country_flag=BEL_brabantian_revolution_has_happened}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.68}
+		every_country={
+		limit={
+		tag=BEL
+		}
+		add_popularity = { ideology = neutrality popularity = 0.1}
+		}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_7
+		icon = GFX_focus_generic_treaty
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -3
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_8
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -9
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		OTO={country_event = pre_1789_event.74}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_9
+		icon = GFX_goal_generic_consumer_goods
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -21
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.75}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_10
+		icon = GFX_goal_generic_scientific_exchange
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -24
+		y = 2
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_11
+		icon = GFX_goal_generic_consumer_goods
+
+		x = -21
+		y = 2
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		AUS={add_war_support=-0.05}
+													66 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+													67 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+													762 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_12
+		icon = GFX_goal_generic_construct_civ_factory
+		x = -18
+		y = 2
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={set_country_flag=PRE_has_completed_brandenburg_gate_flag}
+		PRE={country_event = pre_1789_event.25}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_13
+		icon = GFX_focus_generic_treaty
+
+		x = -7
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.14}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_14
+		icon = GFX_goal_generic_consumer_goods
+
+		x = -14
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        num_of_factories > 25
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.12}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_15
+		icon = GFX_focus_generic_treaty
+
+		x = -14
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.13}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_16
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -11
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.58}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_17
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -6
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        FRA={has_war = yes}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.26}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_18
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -30
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.53}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_19
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -22
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_20
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -24
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={set_country_flag=has_implied_abolition_of_serfdom_flag}
+		PRE={country_event = pre_1789_event.56}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_21
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = -7
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_22
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -25
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	}
+		}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_23
+		icon = GFX_goal_anti_comintern_pact
+
+		x = -6
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        has_war_with=FRA
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_24
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -27
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_25
+		icon = GFX_goal_generic_construct_civ_factory
+
+		x = -17
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.54}
+						63 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_26
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -20
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_27
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -11
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	    PRE={country_event = pre_1789_event.65}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_28
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -8
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_29
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -6
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_30
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -19
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_31
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -21
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.77}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_32
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -6
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		FRA={country_event = fra_1789_event.14}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_33
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -32
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_34
+		icon = GFX_goal_generic_propaganda
+
+		x = -19
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_35
+		icon = GFX_goal_generic_construct_civ_factory
+
+		x = -19
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.59}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_36
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -30
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_37
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -11
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+owns_state=85
+owns_state=1194
+owns_state=1248
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.11}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_38
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -28
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_39
+		icon = GFX_goal_generic_allies_build_infantry
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 25
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		available = {
+        date > 1796.1.1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_40
+		icon = GFX_goal_generic_small_arms
+
+		x = 24
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_39
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_41
+		icon = GFX_goal_generic_construct_civ_factory
+
+		x = -16
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+								64 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+											862 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_42
+		icon = GFX_goal_generic_army_artillery
+
+		x = 24
+		y = 4
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_40
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_43
+		icon = GFX_goal_generic_army_artillery2
+
+		x = 24
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_42
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_44
+		icon = GFX_goal_generic_army_doctrines
+
+		x = 25
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_39
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_45
+		icon = GFX_goal_generic_army_doctrines
+
+		x = 25
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_44
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+					army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_46
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -17
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_47
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		x = 2
+		y = 1
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+has_country_leader = {
+	character = PRE_frederickwilliamiii
+	ruling_only = yes
+}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+        PRE={country_event = pre_1789_event.67}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_48
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_47
+		}
+		x = 2
+		y = 2
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_49
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 1
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_48
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.63}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_50
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 3
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_48
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.64}
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_51
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -18
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_46
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_52
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -16
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_46
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_53
+		icon = GFX_goal_generic_special_forces
+
+		x = 25
+		y = 7
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_43
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_45
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_54
+		icon = GFX_goal_generic_production
+
+		x = 29
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_39
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_55
+		icon = GFX_goal_generic_construct_naval_dockyard
+
+		x = 33
+		y = 3
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_54
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		complete_tooltip = {
+			navy_experience = 25
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+					navy_experience = 25
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}	
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_56
+		icon = GFX_goal_generic_build_navy
+
+		x = 32
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_55
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+					add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_57
+		icon = GFX_goal_generic_navy_doctrines_tactics
+
+		x = 34
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_55
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_58
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 2
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_49
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_50
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        date > 1799.9.1 
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		PRE={set_country_flag=century_of_prussia_flag}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_59
+		icon = GFX_goal_generic_construct_civ_factory
+
+		x = 28
+		y = 3
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_54
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+				complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+		completion_reward = {
+					random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_60
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_59
+		}
+		x = 28
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+				complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+		completion_reward = {
+					random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_61
+		icon = GFX_goal_generic_construct_civ_factory
+
+		x = 28
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_60
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+				complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+		completion_reward = {
+					random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_62
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 1
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.69}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_63
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 1
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.70}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_64
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -30
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_33
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_36
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_38
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+PRE={has_country_flag=century_of_prussia_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_65
+		icon = GFX_goal_generic_construct_mil_factory
+
+		x = 30
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_54
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_66
+		icon =  GFX_goal_generic_construct_mil_factory
+
+		x = 30
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_67
+		icon = GFX_goal_generic_construct_mil_factory
+
+		x = 30
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_68
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		x = 28
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_69
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		x = 30
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_70
+		icon = GFX_goal_generic_secret_weapon
+
+		x = 30
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_71
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -21
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_31
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        PRE={has_country_flag=century_of_prussia_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_72
+		icon = GFX_focus_attack_germany
+		x = -7
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		PRE={has_country_flag=century_of_prussia_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.52}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_73
+		icon = GFX_focus_attack_germany
+
+		x = -10
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.1}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_74
+		icon = GFX_focus_attack_germany
+
+		x = -8
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.2}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_75
+		icon = GFX_focus_attack_germany
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		x = -6
+		y = 10
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		PRE={country_event = pre_1789_event.3}
+		PRE={country_event = pre_1789_event.4}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_76
+		icon =GFX_focus_attack_germany
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		x = -4
+		y = 10
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		HES={country_event = pre_1789_event.5}
+		HES={country_event = pre_1789_event.6}
+		HAN={country_event = pre_1789_event.7}
+		NAS={country_event = pre_1789_event.8}
+		NAS={country_event = pre_1789_event.9}
+		NAS={country_event = pre_1789_event.10}
+		hidden_effect={PRE={country_event = pre_1789_event.76}}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_77
+		icon = GFX_goal_generic_demand_territory
+
+		x = 37
+		y = 2
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_39
+		}	
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_political_power = 120
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_78
+		icon = GFX_goal_support_democracy
+
+		x = 37
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}	
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		add_ideas = liberty_ethos_focus
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_79
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 36
+		y = 4
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}	
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					if = {
+				limit = { NOT = { has_idea = neutrality_idea } }
+				add_ideas = neutrality_idea
+			}
+			add_political_power = 150
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_80
+		icon = GFX_goal_generic_defence
+
+		x = 36
+		y = 5
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}	
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_ideas = deterrence
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_81
+		icon = GFX_goal_generic_political_pressure
+
+		x = 38
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}	
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+				if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}	
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150	
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_82
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 38
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}	
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_ideas = volunteer_corps_focus
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_83
+		icon = GFX_goal_generic_consumer_goods
+
+		x = -11
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_37
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		owns_state=10
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+						10 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		hidden_effect={
+
+		}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_84
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}	
+		x = 38
+		y = 6
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_ideas = foreign_expeditions_focus
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_85
+		icon = GFX_goal_generic_propaganda
+
+		x = 36
+		y = 7
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+					add_ideas = why_we_fight_focus
+			custom_effect_tooltip = why_we_fight_effect
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_idea = neutrality_idea } }
+					set_rule = { can_create_factions = yes }
+				}			
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_86
+		icon = GFX_goal_generic_political_pressure
+
+		x = 40
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+					if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}			
+			add_ideas = militarism_focus
+			army_experience = 20
+			set_rule = { can_send_volunteers = yes }
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_87
+		icon = GFX_goal_generic_more_territorial_claims
+
+		x = 40
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_ideas = military_youth_focus
+			if = {
+				limit = { has_government = fascism }
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = communism }
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+				}
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_88
+		icon = GFX_goal_generic_military_sphere
+
+		x = 40
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		add_ideas = paramilitarism_focus
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_89
+		icon = GFX_goal_generic_demand_territory
+
+		x = 40
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_ideas = ideological_fanaticism_focus
+			set_rule = {
+				can_create_factions = yes
+			}
+			hidden_effect = {
+				set_rule = { can_use_kamikaze_pilots = yes }
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_90
+		icon = GFX_goal_generic_scientific_exchange
+
+		x = 38
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					if = {
+				limit = {
+					original_research_slots < 3
+				}
+				add_research_slot = 1
+			}
+			if = {
+				limit = {
+					original_research_slots > 2
+				}
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 1.0
+					uses = 1
+					category = electronics
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1.0
+					uses = 1
+					category = industry
+				}	
+				add_tech_bonus = {
+					name = infantry_artillery_bonus #@#
+					bonus = 1.0
+					uses = 1
+					category = infantry_weapons
+					category = artillery
+				}				
+			}
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_91
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -8
+		y = 11
+
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.51}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_92
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = -8
+		y = 12
+
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_93
+		icon = GFX_goal_generic_construct_civ_factory
+
+		x = -15
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_41
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+PRE={has_country_flag=century_of_prussia_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.36}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_94
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		x = 12
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+PRE={has_country_flag=century_of_prussia_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_95
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		x = 12
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_96
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		x = 12
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_97
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		x = 6
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+PRE={has_country_flag=has_implied_abolition_of_serfdom_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_98
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		x = 10
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_99
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		x = 6
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_100
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		x = 16
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = prussianrework_1793_1836_focus_1
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		x = 5
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_2
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		x = 7
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_3
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_4
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_5
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 3
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_6
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 5
+		y = 7
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_7
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+		x = -17
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+PRE={has_country_flag=century_of_prussia_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_8
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		x = 18
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_9
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		x = 12
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_10
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		x = 14
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_11
+		icon = GFX_goal_generic_neutrality_focus
+       	prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		focus = prussianrework_1793_1836_focus_9
+		focus = prussianrework_1793_1836_focus_10
+		}   
+		x = 9
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_12
+		icon = GFX_goal_generic_neutrality_focus
+           	prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		focus = prussianrework_1793_1836_focus_9
+		focus = prussianrework_1793_1836_focus_10
+		}     		
+		x = 11
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_13
+		icon = GFX_goal_generic_neutrality_focus
+               	prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		focus = prussianrework_1793_1836_focus_9
+		focus = prussianrework_1793_1836_focus_10
+		} 
+		x = 13
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_14
+		icon = GFX_goal_generic_neutrality_focus
+               	prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		focus = prussianrework_1793_1836_focus_9
+		focus = prussianrework_1793_1836_focus_10
+		} 
+		x = 15
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_15
+		icon = GFX_goal_generic_neutrality_focus
+      		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}  
+		x = 20
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_16
+		icon = GFX_goal_generic_neutrality_focus
+        		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_11
+		focus =	prussianrework_1793_1836_focus_12
+		focus =	prussianrework_1793_1836_focus_13
+		focus =	prussianrework_1793_1836_focus_14
+		}
+		x = 10
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_17
+		icon = GFX_goal_generic_neutrality_focus
+             		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_11
+		focus =	prussianrework_1793_1836_focus_12
+		focus =	prussianrework_1793_1836_focus_13
+		focus =	prussianrework_1793_1836_focus_14
+		}   
+		x = 12
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_18
+		icon = GFX_goal_generic_neutrality_focus
+                		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_11
+		focus =	prussianrework_1793_1836_focus_12
+		focus =	prussianrework_1793_1836_focus_13
+		focus =	prussianrework_1793_1836_focus_14
+		}
+		x = 14
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_19
+		icon = GFX_goal_generic_neutrality_focus
+        
+		x = 11
+		y = 7
+             		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_16
+		focus =	prussianrework_1793_1836_focus_17
+		focus =	prussianrework_1793_1836_focus_18
+		}  
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_20
+		icon = GFX_goal_generic_neutrality_focus
+        
+		x = 13
+		y = 7
+             		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_16
+		focus =	prussianrework_1793_1836_focus_17
+		focus =	prussianrework_1793_1836_focus_18
+		} 
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_21
+		icon = GFX_goal_generic_neutrality_focus
+        
+		x = 12
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_19
+		focus =	prussianrework_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		date > 1812.1.1
+        PRE={is_ally_with = FRA}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.37}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_22
+		icon = GFX_goal_generic_neutrality_focus
+        		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_21
+		}
+		allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 11
+		y = 9
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	}
+		}
+		focus = {
+		id = prussianrework_1793_1836_focus_23
+		icon = GFX_goal_generic_neutrality_focus
+        
+		x = 13
+		y = 9
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_21
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_24
+		icon = GFX_focus_generic_treaty
+		    prerequisite = {
+		focus =	prussianrework_1793_1836_focus_22
+		} 
+       		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_23
+		} 
+		x = 12
+		y = 10
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        PRE={has_war_with=RUS}
+		PRE={is_ally_with = FRA}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.17}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_25
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_24
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.18}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_26
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.19}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_27
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -3
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_26
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_28
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -1
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_26
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.21}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_29
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_26
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.24}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_30
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 4
+		cost = 4.3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_28
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_31
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -6
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_26
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		add_stability=0.05
+															67 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_32
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = 3
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_29
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.33}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_33
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -4
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_27
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_34
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -1
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.38}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_35
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 1
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = WTF
+		or={
+        WTF={has_capitulated = yes}
+	    NOT={WTF={is_subject_of=FRA}}
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.15}
+		PRE={add_political_power=-25}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_36
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_34
+		focus =	prussianrework_1793_1836_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.22}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_37
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        or={
+		has_country_flag=napoleonprussiathree_flag
+		has_completed_focus=prussianrework_1793_1836_focus_36
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_38
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 4
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_39
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 8
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = DNZ
+		or={
+        DNZ={has_capitulated = yes}
+	    NOT={DNZ={is_subject_of=FRA}}
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.16}
+		PRE={add_political_power=-25}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_40
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -2
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_37
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.20}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = prussianrework_1793_1836_focus_41
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_37
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_42
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = -6
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_43
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_37
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+PRE={has_country_flag=PRE_louse_has_died}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_44
+		icon = GFX_goal_generic_army_doctrines
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -6
+		y = 8
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+						mutually_exclusive = { 
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_9
+		focus = prussianrework_althistory_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_45
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 14
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        or={
+		CLG={is_subject_of=AUS}
+		BEL={is_subject_of=AUS}
+		TRR={is_subject_of=AUS}
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					PRE={country_event = pre_1789_event.85}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_46
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 10
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.86}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_47
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 12
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.102}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_48
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 14
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.88}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_49
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -2
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_40
+		focus =	prussianrework_1793_1836_focus_41
+		focus =	prussianrework_1793_1836_focus_43
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_50
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_40
+		focus =	prussianrework_1793_1836_focus_41
+		focus =	prussianrework_1793_1836_focus_43
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+focus = {
+		id = prussianrework_1793_1836_focus_51
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 23
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_52
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = 21
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_51
+		}
+						mutually_exclusive = { 
+		focus = prussianrework_althistory_15
+		focus = prussianrework_althistory_16
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.82}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_53
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -10
+		y = 9
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_9
+		focus = prussianrework_althistory_10
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_54
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -18
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		or={
+		PRE={owns_state=86}
+		and={
+		POL={owns_state=86}
+		POL={is_subject_of=RUS}
+		}
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		if={
+		limit={
+		PRE={owns_state=86}
+		}
+		PRE={country_event = pre_1789_event.46}
+		}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_55
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 16
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+			PRE={country_event = pre_1789_event.87}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_56
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 18
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        owns_state=42
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.78}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_57
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 27
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		SWE={country_event = pre_1789_event.40}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_58
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 31
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_59
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -11
+		y = 10
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_60
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -9
+		y = 10
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+
+
+focus = {
+		id = prussianrework_1793_1836_focus_61
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_62
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_63
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 4
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_64
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 6
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_65
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 8
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_66
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 10
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_67
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 12
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_68
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 14
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_69
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 16
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_70
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 18
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+focus = {
+		id = prussianrework_1793_1836_focus_71
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_72
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = -18
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_54
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        POS={owns_state=1194}
+		POS={is_subject_of=PRE}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.47}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_73
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 4
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_74
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 6
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_75
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 8
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+}
+

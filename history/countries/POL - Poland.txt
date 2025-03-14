@@ -157,15 +157,31 @@ retire_character=POL_feliks
 
 1764.1.1 = {
 recruit_character=POL_stanislawiiaugust
-recruit_character=POL_frederickaugustusipol
 promote_character=POL_stanislawiiaugust
+recruit_character=POL_frederickaugustusipol
+recruit_character=POL_konstantinpavlovich
+recruit_character=POL_zajac
+recruit_character=POL_ivan
+recruit_character=POL_ponia
+}
+1800.1.1 = {
+promote_character=POL_ponia
+retire_character=POL_stanislawiiaugust
 }
 1812.1.1 = {
 promote_character=POL_frederickaugustusipol
-retire_character=POL_stanislawiiaugust
+}
+1814.1.1 = {
+promote_character=POL_konstantinpavlovich
+}
+1821.1.1 = {
+promote_character=POL_zajac
+retire_character=POL_ponia
 }
 1836.1.1 = {
 retire_character=POL_frederickaugustusipol
+retire_character=POL_zajac
+retire_character=POL_konstantinpavlovich
 }
 1926.1.1 = {
 recruit_character=POL_ignacy_moscicki
@@ -179,6 +195,9 @@ retire_character=POL_ignacy_moscicki
 		limit = { has_start_date < 1920.1.1 }
 set_oob = "POL_1919"
 }
+}
+1814.1.1 = {
+set_cosmetic_tag = POL_RUS_only # Kingdom of Poland necessarily Congress Poland
 }
 1815.11.11 = {
 set_cosmetic_tag = POL_RUS # Kingdom of Poland necessarily Congress Poland
@@ -339,10 +358,10 @@ set_party_name = { ideology = neutrality long_name = POL_VAS_neutrality_party_lo
 1700.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
 }
-1789.1.1 = {
+1776.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_PON_neutrality_party_long name = POL_PON_neutrality_party }
 }
-1800.1.1 = {
+1801.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
 }
 1800.1.1 = {
@@ -356,7 +375,7 @@ set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_lo
 LIT={set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }}
 }
 }
-1816.1.1 = {
+1814.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_ROS_neutrality_party_long name = POL_ROS_neutrality_party }
 }
 1919.1.1 = {

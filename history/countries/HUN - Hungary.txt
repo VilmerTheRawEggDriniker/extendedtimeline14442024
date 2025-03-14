@@ -6,20 +6,26 @@ set_technology = {
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1790.1.1 }
-set_oob = "HUN_1789"
+		limit = { has_start_date < 1936.1.1 }
+set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 }
 }
-1800.1.1 = {
+1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1801.1.1 }
-set_oob = "HUN_1800"
+set_oob = "HUN_1789"
 }
 }
 1600.1.1 = {
 set_cosmetic_tag = HUN_AUS #austrian puppet
 }
 1805.1.1 = {
+set_cosmetic_tag = HUN #independent
+}
+1900.1.1 = {
+set_cosmetic_tag = HUN_AUS #independent
+}
+1915.1.1 = {
 set_cosmetic_tag = HUN #independent
 }
 1789.1.1 = {

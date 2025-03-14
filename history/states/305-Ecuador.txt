@@ -19,7 +19,7 @@ state={
 			8252 1
 		}
                 }
-						1789.1.1 = {
+						1776.1.1 = {
         add_core_of = ECU
         owner = COL
         }

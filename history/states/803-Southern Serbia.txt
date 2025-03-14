@@ -15,6 +15,9 @@ state={
 		add_core_of = SER
 		remove_core_of=BUL
                 }
+								victory_points = {
+			13777 1
+		}
 		1919.1.1 = {
 			owner = YUG
 			controller = YUG

@@ -24,6 +24,24 @@ units = {
 		start_experience_factor = 0.3
 	}
 }
+units = {
+	#Tuscan Army
+	division = {
+		name = "Tuscan Division"
+		location = 9907
+		division_template = "Tuscan Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Tuscan Army
+	division = {
+		name = "Tuscan Division"
+		location = 9907
+		division_template = "Tuscan Division"
+		start_experience_factor = 0.3
+	}
+}
 
 ### Starting Equipment ###
 instant_effect = {

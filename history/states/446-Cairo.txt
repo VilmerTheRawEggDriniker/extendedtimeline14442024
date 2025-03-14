@@ -11,12 +11,6 @@ state={
 			remove_core_of = SPR
 
 		}
-				1600.1.1 = {
-		owner = OTO
-		}
-		1804.1.1 = {
-		owner = EGY
-		}
 		1936.1.1 = {
 					buildings = {
 			infrastructure = 3
@@ -38,7 +32,7 @@ state={
 	provinces={
 		7011 
 	}
-	manpower=4000000
+	manpower=7000000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

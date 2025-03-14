@@ -1,0 +1,224 @@
+balkan_frenchrevolution = {
+	balkan_form_romania_one = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+		NOT={WAL={has_country_flag=WAL_dacia_romania_has_been_formed_flag}}
+			date > 1789.1.1 date < 1900.1.1 
+		or={
+		and={
+		original_tag=WAL
+		MOL={is_subject_of = WAL}
+		}
+		and={
+		original_tag=MOL
+		WAL={is_subject_of = MOL}
+		}
+		and={
+		owns_state=46
+		owns_state=79
+		owns_state=81
+		}
+		}
+		or={
+		original_tag=WAL
+		original_tag=MOL
+		}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+				or={
+		original_tag=WAL
+		original_tag=MOL
+		}
+			NOT = { has_global_flag = romania_formed_first_flag }
+		}
+
+		complete_effect = {
+		ROOT={set_country_flag=romania_has_been_formed_flag}
+		set_cosmetic_tag = WAL_MOL_TRA_romania
+		every_state={
+		limit={
+		or={
+		is_core_of=WAL
+		is_core_of=MOL
+		}
+		}
+		add_core_of=ROOT
+		}
+	    every_country={
+		limit={
+				original_tag=MOL
+		WAL={is_subject_of = MOL}
+		}
+		annex_country = { target = WAL transfer_troops = yes }
+		}
+		 every_country={
+		limit={
+				original_tag=WAL
+		MOL={is_subject_of = WAL}
+		}
+		annex_country = { target = MOL transfer_troops = yes }
+		}
+		82={add_core_of=ROOT}
+		83={add_core_of=ROOT}
+		84={add_core_of=ROOT}
+		76={add_core_of=ROOT}
+		946={add_core_of=ROOT}
+		887={add_core_of=ROOT}
+		hidden_effect={set_global_flag = romania_formed_first_flag}
+		}
+	}
+}
+
+
+
+balkan_frenchrevolution = {
+	balkan_form_bulgaria_romania_one = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+		or={
+		has_country_flag=romania_has_been_formed_flag	
+		WAL={has_country_flag=WAL_dacia_romania_has_been_formed_flag}
+		}	
+		or={
+		and={
+		original_tag=WAL
+		BUL={is_subject_of = WAL}
+		}
+		and={
+		original_tag=MOL
+		BUL={is_subject_of = MOL}
+		}
+		and={
+		owns_state=48
+		owns_state=77
+		owns_state=81
+		owns_state=974
+		owns_state=840
+		}
+		}
+		or={
+		original_tag=WAL
+		original_tag=MOL
+		}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+				or={
+		original_tag=WAL
+		original_tag=MOL
+		}
+			NOT = { has_global_flag = bulgaria_romania_formed_first_flag }
+		}
+
+		complete_effect = {
+		ROOT={set_country_flag=bulgaria_romania_has_been_formed_flag}
+		set_cosmetic_tag =bulgaria_romania
+		every_state={
+		limit={
+		is_core_of=BUL
+		}
+		add_core_of=ROOT
+		}
+	    every_country={
+		limit={
+				original_tag=MOL
+		BUL={is_subject_of = MOL}
+		}
+		annex_country = { target = BUL transfer_troops = yes }
+		}
+		 every_country={
+		limit={
+				original_tag=WAL
+		BUL={is_subject_of = WAL}
+		}
+		annex_country = { target = BUL transfer_troops = yes }
+		}
+		731={add_core_of=ROOT}
+		939={add_core_of=ROOT}
+		hidden_effect={set_global_flag = bulgaria_romania_formed_first_flag}
+		}
+	}
+}
+
+balkan_frenchrevolution = {
+	balkan_form_bulgaria_serbia_one = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 	
+		or={
+		and={
+		original_tag=SER
+		BUL={is_subject_of = SER}
+		}
+		and={
+		owns_state=48
+		owns_state=77
+		owns_state=81
+		owns_state=974
+		owns_state=840
+		}
+		}
+		original_tag=SER
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+		original_tag=SER
+			NOT = { has_global_flag = bulgaria_serbia_formed_first_flag }
+		}
+
+		complete_effect = {
+		set_cosmetic_tag =san_stefano_yugoslavia
+		every_state={
+		limit={
+		is_core_of=BUL
+		}
+		add_core_of=ROOT
+		}
+	    every_country={
+		limit={
+				original_tag=SER
+		BUL={is_subject_of = SER}
+		}
+		annex_country = { target = BUL transfer_troops = yes }
+		}
+		731={add_core_of=ROOT}
+		939={add_core_of=ROOT}
+		hidden_effect={set_global_flag = bulgaria_serbia_formed_first_flag}
+		}
+	}
+}

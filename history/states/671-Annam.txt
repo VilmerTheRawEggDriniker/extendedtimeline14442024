@@ -14,7 +14,7 @@ state={
 
 	history={
 		owner = ZZZ
-		1789.1.1 = {
+		1900.1.1 = {
 		owner = VIN
 		add_core_of = VIN
                 }

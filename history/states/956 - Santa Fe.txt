@@ -24,6 +24,9 @@ state={
                 remove_core_of = VNT
 				remove_core_of = RAG
         }
+						1814.1.1 = {
+        controller = AUS
+		}
 		1812.1.1 = {
         owner = FRA
         }

@@ -1,4 +1,18 @@
 characters={
+	STR_louise={
+		name=STR_CHARACTER_LOUISE
+		portraits={
+			civilian={
+				large="GFX_portrait_str_louise_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Mecklenburg-Strelitz}
+			desc = STR_LOUISE_DESC
+			expire="1797.1.1"
+		}
+}
 	STR_adolphusfrederickiv={
 		name=STR_CHARACTER_ADOLPHUSFREDERICKIV
 		portraits={

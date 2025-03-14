@@ -31,10 +31,13 @@ state={
 			infrastructure = 1
 	        }
 		victory_points = {
-			3696 2 
+			3696 1 
 		}
 		victory_points = {
-			746 2 
+			14286 1
+		}
+		victory_points = {
+			746 1
 		}
 		1919.1.1 = {
 			owner = ROM

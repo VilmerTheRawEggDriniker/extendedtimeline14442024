@@ -13,6 +13,24 @@ state={
 		victory_points = {
 			11965 1 
 		}
+		victory_points = {
+			13681 5
+		}
+		victory_points = {
+			13680 6
+		}
+		        1821.1.1 = {
+		if = {
+		limit = { has_start_date < 1822.1.1 }
+					OTO = {
+				set_province_controller = 7211
+				set_province_controller = 4078
+				set_province_controller = 13681
+				set_province_controller = 13678
+				set_province_controller = 11965
+			}
+		}
+		}
 		owner = MEA
 		1600.1.1 = {
 		owner = OTO
@@ -29,7 +47,7 @@ state={
 		add_core_of = GRE
 		remove_core_of = VNT
 		}
-		1836.1.1 = {
+		1820.1.1 = {
 		owner = GRE
 		}
 		buildings = {

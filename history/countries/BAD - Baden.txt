@@ -30,6 +30,12 @@ set_cosmetic_tag = BAD_electorate #
 1806.1.1 = {
 set_cosmetic_tag = BAD_grandduchy # 
 }
+1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "BAD_1789_1815"
+}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

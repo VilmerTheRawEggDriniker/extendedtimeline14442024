@@ -33,14 +33,19 @@ state={
                 }
 				1812.1.1 = {
                 add_core_of = HOL
-                owner = FRA
+                owner = HOL
 				remove_core_of = PRE
                 }
-				1816.1.1 = {
+				1814.1.1 = {
+                add_core_of = PRE
+                owner = PRE
+				remove_core_of = HOL
+				remove_core_of = MUN
+                }
+				1815.1.1 = {
                 add_core_of = HAN
                 owner = HAN
 				remove_core_of = PRE
-				remove_core_of = HOL
                 }
 		1871.1.1 = {
                 add_core_of = GER

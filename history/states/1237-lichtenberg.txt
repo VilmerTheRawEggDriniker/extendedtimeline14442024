@@ -16,17 +16,26 @@ state={
 			remove_core_of = WGR
 		}
 		1800.1.1 = {
-			owner = RHI
-			add_core_of = RHI
-			remove_core_of = TRR
-		}
-		1812.1.1 = {
+			add_core_of = FRA
 			owner = FRA
+			remove_core_of = TRR
+			remove_core_of = BRB
+			remove_core_of = FLA
+			remove_core_of = LUX
+			remove_core_of = PFZ
+
 		}
 		1816.1.1 = {
+			owner = LIC
+			add_core_of = LIC
+			remove_core_of = FRA
+
+		}
+				1836.1.1 = {
 			owner = PRE
 			add_core_of = PRE
-			remove_core_of = RHI
+			remove_core_of = LIC
+
 		}
 		1871.1.1 = {
 			add_core_of = GER

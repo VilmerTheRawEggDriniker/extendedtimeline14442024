@@ -8,7 +8,7 @@ state={
 		add_core_of = CRI
 		1793.1.1 = {
 			victory_points = {
-				588 1 
+				588 2 
 			}
 
 		}

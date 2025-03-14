@@ -38,10 +38,12 @@ remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
 		}
 		1800.1.1 = {
 			owner = RUS
-		add_core_of = RUS
 		remove_core_of = ZAP
 		remove_core_of = KIE
 		remove_core_of = POL
+		}
+		1801.1.1 = {
+		add_core_of = RUS
 		}
 				1919.1.1 = {
 		owner = SOV

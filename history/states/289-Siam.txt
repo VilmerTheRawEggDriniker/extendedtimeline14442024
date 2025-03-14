@@ -27,7 +27,7 @@ state={
 		buildings = {
 			infrastructure = 0
 		}
-		1789.1.1 = {
+		1900.1.1 = {
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -45,7 +45,7 @@ state={
 		victory_points = {
 			10438 1 
 		}
-		add_core_of = SIA
+				add_core_of = SIA
 		owner = SIA
 	}
 	}

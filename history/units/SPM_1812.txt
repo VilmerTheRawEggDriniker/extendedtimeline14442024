@@ -73,7 +73,7 @@ units = {
 	#Piedmontese Army
 	division = {
 		name = "Piedmontese Division"
-		location = 11773
+		location = 6891
 		division_template = "Piedmontese Division"
 		start_experience_factor = 0.3
 	}

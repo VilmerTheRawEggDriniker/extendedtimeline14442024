@@ -14,6 +14,9 @@ state={
 			owner = YUG
 
 		}
+						victory_points = {
+			982 2
+		}
 		1500.1.1 = {
 			owner = OTO
 			controller = OTO

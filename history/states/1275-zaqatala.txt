@@ -11,18 +11,36 @@ state={
 				1600.1.1 = {
 		add_core_of = PER
 		}
+				1837.1.1 = {
+			add_core_of = PER
+		}
 		1919.1.1 = {
 			add_core_of = AZR
 			owner = AZR
 			remove_core_of = RUS
 			remove_core_of = PER
 		}
-		1789.1.1 = {
+		1800.1.1 = {
+			add_core_of = BAK
+		}
+		1776.1.1 = {
 			owner = GEO
+		}
+						1800.1.1 = {
+			remove_core_of = PER
 		}
 		1801.1.1 = {
 			owner = RUS
 			add_core_of = RUS
+		}
+						1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+        remove_core_of = NAK
+		remove_core_of = TAL
+		remove_core_of = BAK
+		remove_core_of = GAN
+		remove_core_of = ERV
 		}
 		victory_points = {
 		14067 1 

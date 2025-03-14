@@ -1,0 +1,235 @@
+MENA_form_tamaghza_formable = {
+	MENA_form_tamaghza = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+				or={
+		original_tag=MOR
+		original_tag=ALG
+		original_tag=TUN
+		original_tag=TRP
+		original_tag=CYR
+		original_tag=FEZ
+		original_tag=MRT
+		original_tag=LBA
+		original_tag=WES
+		original_tag=RIF
+		}
+					or={
+		AND={
+		owns_state=448
+		owns_state=458
+		owns_state=459
+		}
+		AND={
+		original_tag=TUN
+		TRP={is_subject_of = ROOT}
+		ALG={is_subject_of = ROOT}
+		}
+				AND={
+		original_tag=ALG
+		TRP={is_subject_of = ROOT}
+		TUN={is_subject_of = ROOT}
+		}
+				AND={
+		original_tag=TRP
+		ALG={is_subject_of = ROOT}
+		TUN={is_subject_of = ROOT}
+		}
+				AND={
+		original_tag=MOR
+		TUN={is_subject_of = ROOT}
+		TRP={is_subject_of = ROOT}
+		ALG={is_subject_of = ROOT}
+		}
+		}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		or={
+		original_tag=MOR
+		original_tag=ALG
+		original_tag=TUN
+		original_tag=TRP
+		original_tag=CYR
+		original_tag=FEZ
+		original_tag=MRT
+		original_tag=LBA
+		original_tag=MOR
+		original_tag=MOR
+		}
+			NOT = { has_global_flag =formed_maga_maghreb_flag  }
+		}
+
+		complete_effect = {
+		ROOT={set_cosmetic_tag = TAM}
+		ROOT={set_country_flag=unlock_maghreb_decisions}
+		every_country={
+		limit={
+		TRP={is_subject_of = ROOT}
+		TUN={is_subject_of = ROOT}
+		ALG={is_subject_of = ROOT}
+		}
+		ROOT={
+		annex_country = { target = TRP transfer_troops = yes }
+		annex_country = { target = TUN transfer_troops = yes }
+		annex_country = { target = ALG transfer_troops = yes }
+		}
+		}
+				every_country={
+		limit={
+		TRP={is_subject_of = ROOT}
+		TUN={is_subject_of = ROOT}
+		}
+		ROOT={
+		annex_country = { target = TRP transfer_troops = yes }
+		annex_country = { target = TUN transfer_troops = yes }
+		}
+		}
+				every_country={
+		limit={
+		ALG={is_subject_of = ROOT}
+		TRP={is_subject_of = ROOT}
+		}
+		ROOT={
+		annex_country = { target = ALG transfer_troops = yes }
+		annex_country = { target = TRP transfer_troops = yes }
+		}
+		}
+				every_country={
+		limit={
+		ALG={is_subject_of = ROOT}
+		TUN={is_subject_of = ROOT}
+		}
+		ROOT={
+		annex_country = { target = ALG transfer_troops = yes }
+		annex_country = { target = TUN transfer_troops = yes }
+		}
+		}
+		557={add_core_of=ROOT}
+		786={add_core_of=ROOT}
+		699={add_core_of=ROOT}
+		782={add_core_of=ROOT}
+		514={add_core_of=ROOT}
+		515={add_core_of=ROOT}
+		996={add_core_of=ROOT}
+		997={add_core_of=ROOT}
+		998={add_core_of=ROOT}
+		999={add_core_of=ROOT}
+		1000={add_core_of=ROOT}
+		663={add_core_of=ROOT}
+		775={add_core_of=ROOT}
+		449={add_core_of=ROOT}
+		450={add_core_of=ROOT}
+		451={add_core_of=ROOT}
+		448={add_core_of=ROOT}
+		661={add_core_of=ROOT}
+		662={add_core_of=ROOT}
+		273={add_core_of=ROOT}
+		665={add_core_of=ROOT}
+		458={add_core_of=ROOT}
+		459={add_core_of=ROOT}
+		460={add_core_of=ROOT}
+		461={add_core_of=ROOT}
+		462={add_core_of=ROOT}
+		783={add_core_of=ROOT}
+		789={add_core_of=ROOT}
+		290={add_core_of=ROOT}
+		788={add_core_of=ROOT}
+		791={add_core_of=ROOT}
+	    513={add_core_of=ROOT}
+
+
+
+
+
+		hidden_effect={set_global_flag =formed_maga_maghreb_flag}
+		}
+	}
+}
+
+MENA_form_tamaghza_formable = {
+	MENA_form_tamaghza_nazbol = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+        ROOT={has_country_flag=unlock_maghreb_decisions}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		or={
+		original_tag=MOR
+		original_tag=ALG
+		original_tag=TUN
+		original_tag=TRP
+		original_tag=CYR
+		original_tag=FEZ
+		original_tag=MRT
+		original_tag=LBA
+		original_tag=MOR
+		original_tag=MOR
+		}
+			NOT = { has_global_flag =formed_maga_nazbol_maghreb_flag  }
+		}
+
+		complete_effect = {
+		ROOT={set_cosmetic_tag = TAM_nazbol}
+		hidden_effect={set_global_flag =formed_maga_nazbol_maghreb_flag}
+		}
+	}
+}
+
+MENA_form_tamaghza_formable = {
+	MENA_form_tamaghza_islamist = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+        ROOT={has_country_flag=unlock_maghreb_decisions}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		or={
+		original_tag=MOR
+		original_tag=ALG
+		original_tag=TUN
+		original_tag=TRP
+		original_tag=CYR
+		original_tag=FEZ
+		original_tag=MRT
+		original_tag=LBA
+		original_tag=MOR
+		original_tag=MOR
+		}
+			NOT = { has_global_flag =formed_maga_islam_maghreb_flag  }
+		}
+
+		complete_effect = {
+		ROOT={set_cosmetic_tag = TAM_islamist}
+		hidden_effect={set_global_flag =formed_maga_islam_maghreb_flag}
+		}
+	}
+}

@@ -2,11 +2,8 @@ state={
 	id=1145
 	name="STATE_1145"
 	history={
-		owner = ZZZ
-		1900.1.1 = {
 		owner = OMA
 		add_core_of = OMA
-                }
 		buildings = {
 			infrastructure = 0
 		}

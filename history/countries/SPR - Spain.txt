@@ -15,6 +15,41 @@ guerrillaspain
 	}
 }
 }
+1776.1.1 = {
+			if = {
+		limit = { has_start_date < 1780.01.02 }
+	set_autonomy = {
+        target = MEX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = PRU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = COL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = ARG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+		set_autonomy = {
+        target = CAS
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = LOU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1788.1.1 = {
 			if = {
 		limit = { has_start_date < 1790.01.02 }
@@ -35,6 +70,16 @@ guerrillaspain
 	}
 	set_autonomy = {
         target = ARG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+		set_autonomy = {
+        target = CAS
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = LOU
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
@@ -60,6 +105,11 @@ guerrillaspain
 	}
 	set_autonomy = {
         target = ARG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+		set_autonomy = {
+        target = LOU
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
@@ -90,17 +140,54 @@ guerrillaspain
 	}
 }
 }
+1814.1.1 = {
+			if = {
+		limit = { has_start_date < 1815.01.02 }
+	set_autonomy = {
+        target = MEX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = PRU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = VEN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = BOL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1821.1.1 = {
+			if = {
+		limit = { has_start_date < 1822.01.02 }
+	set_autonomy = {
+        target = MEX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1789.1.1 = {
 recruit_character=SPR_charlesiv
 promote_character=SPR_charlesiv
+recruit_character=SPR_ferdinandvii
+recruit_character=SPR_isabellaii
 }
 1809.1.1 = {
-recruit_character=SPR_ferdinandvii
 promote_character=SPR_ferdinandvii
+}
+1821.1.1 = {
 retire_character=SPR_charlesiv
 }
 1836.1.1 = {
-recruit_character=SPR_isabellaii
 promote_character=SPR_isabellaii
 retire_character=SPR_ferdinandvii
 }
@@ -125,7 +212,13 @@ set_oob = "SPR_1800"
 set_oob = "SPR_1812"
 }
 }
-1836.1.1 = {
+1814.1.1 = {
+		if = {
+		limit = { has_start_date < 1815.1.1 }
+set_oob = "SPR_1814"
+}
+}
+1821.1.1 = {
 		if = {
 		limit = { has_start_date < 1837.1.1 }
 set_oob = "SPR_1836"
@@ -168,7 +261,7 @@ if = {
 	}
 }
 }
-
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = {
@@ -211,6 +304,7 @@ if = {
 	recruit_character = SPR_augusto_barcia_trelles
 	recruit_character = SPR_francisco_largo_caballero
 }
+}
 1936.1.1 = {
 if = {
 	limit = {
@@ -219,7 +313,7 @@ if = {
 	set_technology = { camelry = 1 }
 }
 }
-
+1936.1.1 = {
 if = {
 	limit = {
 		has_dlc = "La Resistance"
@@ -396,10 +490,13 @@ if = {
 		set_character_flag = SPR_do_not_align_me_flag
 	}
 }
-
+}
 set_research_slots = 3
 	set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 set_technology = {

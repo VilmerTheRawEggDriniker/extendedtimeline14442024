@@ -5,6 +5,37 @@ characters = {
 	#####################
 
 	#Nonaligned
+				AUS_rothschildii={
+		name=AUS_CHARACTER_ROTHSCHILDII
+		portraits={
+                        army={
+				small="GFX_idea_aus_rothschildii_small"
+			}
+			civilian = {
+				large = GFX_portrait_aus_rothschildii_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = AUS_rothschildii
+			allowed  = {
+				original_tag  = AUS
+			}
+			available  = {
+		        }
+			traits  = {
+				rothschild_banker
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
 	AUS_metternich={
 		name=AUS_CHARACTER_METTERNICH
 		portraits={

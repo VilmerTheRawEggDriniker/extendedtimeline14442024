@@ -6,6 +6,8 @@ recruit_character=TOS_ferdinandiii
 recruit_character=TOS_leopoldii
 recruit_character=TOS_louisi
 recruit_character=TOS_charlesii
+recruit_character=TOS_francescodemedici
+recruit_character=TOS_luigidemedici
 }
 1800.1.1 = {
 promote_character=TOS_ferdinandiii
@@ -14,9 +16,19 @@ retire_character=TOS_leopoldi
 1836.1.1 = {
 promote_character=TOS_leopoldii
 retire_character=TOS_ferdinandiii
+retire_character=TOS_luigidemedici
+}
+1859.1.1 = {
+retire_character=TOS_francescodemedici
 }
 1860.1.1 = {
 retire_character=TOS_leopoldii
+}
+1803.1.1 = {
+retire_character=TOS_louisi
+}
+1883.1.1 = {
+retire_character=TOS_charlesii
 }
 set_oob = "TOS_1789"
 1740.1.1 = {

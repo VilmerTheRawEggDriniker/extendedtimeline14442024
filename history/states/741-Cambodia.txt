@@ -3,14 +3,6 @@ state={
 	name="STATE_741"
 	history = {
 		owner = ZZZ
-				1789.1.1 = {
-		owner = SIA
-		add_core_of = CAM
-                }
-						1811.1.1 = {
-		owner = CAM
-		add_core_of = CAM
-                }
 		1900.1.1 = {
 		owner = VIN
 		add_core_of = CAM

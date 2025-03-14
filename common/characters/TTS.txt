@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={Bourbon}
+			traits={Bourbon-Two-Sicilies}
 			desc = TTS_FERDINANDI_DESC
 			expire="1797.1.1"
 		}
@@ -22,7 +22,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={Bourbon}
+			traits={Bourbon-Two-Sicilies}
 			desc = TTS_FRANCISI_DESC
 			expire="1797.1.1"
 		}
@@ -36,7 +36,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={Bourbon}
+			traits={Bourbon-Two-Sicilies}
 			desc = TTS_FERDINANDII_DESC
 			expire="1797.1.1"
 		}

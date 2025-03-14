@@ -4,7 +4,7 @@
 1444.11.11 = {
 set_cosmetic_tag = KAL_horde # Horde
 }
-1900.1.1 = {
+1789.1.1 = {
 set_cosmetic_tag = KAL # Modern
 }
 set_research_slots = 3

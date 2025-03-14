@@ -17,7 +17,7 @@ state={
 		remove_core_of = LIT
 		remove_core_of = POL
 		}
-		1789.1.1 = {
+		1776.1.1 = {
 			owner = KIE
 		add_core_of = KIE
 		remove_core_of = ZAP

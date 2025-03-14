@@ -25,5 +25,18 @@ characters={
 			expire="1797.1.1"
 		}
 }
+	LIE_remy={
+		name=LIE_CHARACTER_REMY
+		portraits={
+			civilian={
+				large="GFX_portrait_lie_remy_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			desc = LIE_REMY_DESC
+			expire="1797.1.1"
+		}
+}
 }
 

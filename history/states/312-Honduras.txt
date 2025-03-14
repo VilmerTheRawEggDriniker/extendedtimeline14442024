@@ -16,7 +16,7 @@ state={
 			12865 3 
 		}
                 }
-								1789.1.1 = {
+								1776.1.1 = {
         owner = MEX
 		add_core_of = HON
 		add_core_of = CAF

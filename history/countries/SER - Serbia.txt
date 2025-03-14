@@ -1,4 +1,16 @@
 ﻿capital = 949
+1815.1.1 = {
+			if = {
+		limit = { has_start_date < 1840.1.1 }
+set_party_name = { ideology = neutrality long_name = SER_OBR_neutrality_party_long name = SER_OBR_neutrality_party }
+}
+}
+1859.1.1 = {
+			if = {
+		limit = { has_start_date < 1903.1.1 }
+set_party_name = { ideology = neutrality long_name = SER_OBR_neutrality_party_long name = SER_OBR_neutrality_party }
+}
+}
 1789.1.1 = {
 recruit_character=SER_karadorde
 promote_character=SER_karadorde
@@ -14,7 +26,13 @@ retire_character=SER_milosobrenovici
 1789.1.1 = {
 set_cosmetic_tag = SER_uprising # 1789-1791 austrian ottoman war
 }
-1790.1.1 = {
+1800.1.1 = {
+set_cosmetic_tag = SER_OTO # Serbian Sanjak Smederevo
+}
+1804.1.1 = {
+set_cosmetic_tag = SER_revolution # Serbian Revolution
+}
+1814.1.1 = {
 set_cosmetic_tag = SER_principality # Serbian principality
 }
 1889.1.1 = {

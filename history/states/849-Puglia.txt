@@ -2,29 +2,62 @@
 state={
 	id=849
 	name="STATE_849"
-
 	history={
-		owner = MIL
-		1600.1.1 = {
-			owner = SWI
-                add_core_of = SWI
-                remove_core_of = MIL
+		owner = SAX
+                add_core_of = SAX
+						1950.1.1 = {
+		owner = DDR
+		add_core_of = DDR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+				1816.1.1 = {
+                add_core_of = PRE
+                owner = PRE
+				remove_core_of = SAX
+                }
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+
 		}
 		victory_points = {
-			9600 2
+			425 10
+		}
+				victory_points = {
+			13368 2 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+
 		}
-		add_core_of = MIL
+
 	}
 
 	provinces={
-		3641 9600 
+		425 13368 
 	}
-	manpower=66400
+	manpower=420000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 	local_supplies=0.000
 }

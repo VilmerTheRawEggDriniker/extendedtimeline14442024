@@ -14,7 +14,7 @@ state={
 		1600.1.1 = {
                 owner = SPR
                 }
-						1789.1.1 = {
+						1776.1.1 = {
         owner = MEX
 		add_core_of = GUA
 		add_core_of = CAF

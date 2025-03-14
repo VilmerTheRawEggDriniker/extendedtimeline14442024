@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
 			desc = HUN_MIKHAIL_DESC
 			expire="1797.1.1"

@@ -12,18 +12,36 @@
 1764.1.1 = {
 recruit_character=SAX_frederickaugustusi
 promote_character=SAX_frederickaugustusi
-}
-1828.1.1 = {
 recruit_character=SAX_anthony
+recruit_character=SAX_von
+recruit_character=SAX_graf
+recruit_character=SAX_karl
+recruit_character=SAX_ernst
+recruit_character=SAX_coq
+recruit_character=SAX_ludwig
+recruit_character=SAX_der
+}
+1836.1.1 = {
 promote_character=SAX_anthony
 retire_character=SAX_frederickaugustusi
+retire_character=SAX_von
+retire_character=SAX_graf
+retire_character=SAX_coq
 }
-1837.1.1 = {
+1848.1.1 = {
 retire_character=SAX_anthony
+retire_character=SAX_ludwig
+}
+1859.1.1 = {
+retire_character=SAX_ernst
+retire_character=SAX_der
+}
+1900.1.1 = {
+retire_character=SAX_karl
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
+		limit = { has_start_date < 1837.1.1 }
 set_oob = "SAX_1789_1815"
 }
 }

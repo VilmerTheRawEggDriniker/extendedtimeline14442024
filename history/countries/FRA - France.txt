@@ -1,5 +1,11 @@
 ﻿capital = 988
 1789.1.1 = {
+recruit_character=FRA_rothschildiiiii
+}
+1870.1.1 = {
+retire_character=FRA_rothschildiiiii
+}
+1789.1.1 = {
 recruit_character=FRA_napoleongeneral
 recruit_character=FRA_joachimmuratgeneral
 recruit_character=FRA_charlesxivjohngeneral
@@ -14,6 +20,11 @@ recruit_character=FRA_soultgeneral
 recruit_character=FRA_michelgeneral
 recruit_character=FRA_louisgeneral
 recruit_character=FRA_andregeneral
+
+recruit_character=FRA_maisongeneral
+recruit_character=FRA_rignygeneral
+
+recruit_character=FRA_brunegeneral
 }
 1800.1.1 = {
 retire_character=FRA_lafayettegeneral
@@ -28,13 +39,20 @@ retire_character=FRA_lannesgeneral
 
 retire_character=FRA_louisgeneral
 }
-1836.1.1 = {
-retire_character=FRA_napoleongeneral
+1821.1.1 = {
+retire_character=FRA_brunegeneral
 retire_character=FRA_joachimmuratgeneral
 retire_character=FRA_michelgeneral
-retire_character=FRA_andregeneral
 }
+1836.1.1 = {
+retire_character=FRA_napoleongeneral
+retire_character=FRA_andregeneral
+retire_character=FRA_rignygeneral
+}
+1848.1.1 = {
+retire_character=FRA_maisongeneral
 1852.1.1 = {
+}
 retire_character=FRA_soultgeneral
 }
 1789.1.1 = {
@@ -88,8 +106,25 @@ retire_character=FRA_joseph
 			if = {
 		limit = { has_start_date < 1813.1.1 }
 BRG={set_party_name = { ideology = neutrality long_name = BRG_BON_neutrality_party_long name = BRG_BON_neutrality_party}}
+HOL={set_party_name = { ideology = neutrality long_name = HOL_BON_neutrality_party_long name = HOL_BON_neutrality_party}}
 NAP={set_party_name = { ideology = neutrality long_name = NAP_MUR_neutrality_party_long name = NAP_MUR_neutrality_party}}
+ITA={set_party_name = { ideology = neutrality long_name = ITA_BON_neutrality_party_long name = ITA_BON_neutrality_party}}
 LUC={set_cosmetic_tag = LUC_PIO}
+PRE={set_country_flag = napoleonprussiatwo_flag}
+ITA={set_cosmetic_tag = ITA_FRA_four}
+NAP={set_cosmetic_tag = NAP_FRA_kingdom}
+	set_autonomy = {
+		target = HOL
+		autonomous_state = autonomy_integrated_puppet
+	}
+HOL={
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1812.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
 WTF={
 set_politics = {
 	ruling_party = neutrality
@@ -129,6 +164,9 @@ set_politics = {
 		limit = { has_start_date < 1813.1.1 }
 FRA={complete_national_focus = france_1793_1799_focus_236}
 FRA={set_country_flag = napoleonfrance}
+AUS={set_country_flag = napoleonaustria}
+RUS={set_country_flag = napoleonrussia}
+SWE={set_country_flag = napoleonsweden}
 }
 }
 1799.1.1 = {
@@ -137,9 +175,10 @@ FRA={set_country_flag = napoleonfrance}
 FRA={set_country_flag=talleyrand_hired}
 FRA={activate_advisor = FRA_talleyrand}
 create_faction = FrenchSphere
-OTO={create_faction = OttomanSphere}
 FRA={set_country_flag = napoleonfrance}
 AUS={set_country_flag = napoleonaustria}
+RUS={set_country_flag = napoleonrussia}
+SWE={set_country_flag = napoleonsweden}
 set_party_name = { ideology = neutrality long_name = FRA_BON_neutrality_party_long name = FRA_BON_neutrality_party}
 ENG={
 	set_autonomy = {
@@ -275,10 +314,84 @@ set_rule = { can_join_factions = no }
 }
 }
 }
+1444.11.11 = {
+		if = {
+limit = { has_start_date < 1789.1.1 }
+every_possible_country = {
+if={
+limit={
+NOT={original_tag=ZZZ}
+}
+}
+set_oob = "GENERIC_DIVISION_1444_1789"
+}
+}
+}
+1837.1.1 = {
+		if = {
+limit = { has_start_date < 1936.1.1 }
+every_possible_country = {
+if={
+limit={
+NOT={original_tag=ZZZ}
+NOT={original_tag=RUS}
+NOT={original_tag=UKR}
+NOT={original_tag=SOV}
+NOT={original_tag=POL}
+NOT={original_tag=LIT}
+NOT={original_tag=LAT}
+NOT={original_tag=WUK}
+NOT={original_tag=EST}
+NOT={original_tag=BLR}
+NOT={original_tag=MAK}
+}
+}
+set_oob = "GENERIC_DIVISION_1444_1789"
+}
+}
+}
+1946.1.1 = {
+		if = {
+limit = { has_start_date < 2024.1.1 }
+every_possible_country = {
+if={
+limit={
+NOT={original_tag=ZZZ}
+}
+}
+set_oob = "GENERIC_DIVISION_1444_1789"
+}
+}
+}
+2024.1.1 = {
+		if = {
+limit = { has_start_date < 2025.1.1 }
+every_possible_country = {
+if={
+limit={
+NOT={original_tag=ZZZ}
+NOT={original_tag=RUS}
+NOT={original_tag=UKR}
+}
+}
+set_oob = "GENERIC_DIVISION_1444_1789"
+}
+}
+}
 1789.1.1 = {
 		if = {
-limit = { has_start_date < 1800.1.1 }
+limit = { has_start_date < 1799.1.1 }
 FRA={set_country_flag = eight_century}
+LIT={
+add_ideas = {
+eighteenth_century
+}
+}
+LUX={
+add_ideas = {
+eighteenth_century
+}
+}
 every_country = {
 add_ideas = {
 eighteenth_century
@@ -286,9 +399,20 @@ eighteenth_century
 }
 }
 }
-1800.1.1 = {
+1799.1.1 = {
 		if = {
 limit = { has_start_date < 1836.1.1 }
+FRA={set_country_flag=brune_has_been_hired}
+LIT={
+add_ideas = {
+nineteenth_century
+}
+}
+LUX={
+add_ideas = {
+nineteenth_century
+}
+}
 every_country = {
 add_ideas = {
 nineteenth_century
@@ -301,6 +425,12 @@ nineteenth_century
 limit = { has_start_date < 1790.1.1 }
 FRA={set_country_flag=jacquesnecker_hired}
 FRA={activate_advisor = FRA_jacquesnecker}
+every_country={
+limit={
+has_autonomy_state = autonomy_hre_subject
+}
+add_ideas = {hre_autonomy_idea_napoleonic_wars}
+}
 	add_ideas = {
 		feudalism
                 aristocracy
@@ -311,18 +441,25 @@ FRA={activate_advisor = FRA_jacquesnecker}
 1800.1.1 = {
 		if = {
 limit = { has_start_date < 1839.1.1 }
+every_country={
+limit={
+has_autonomy_state = autonomy_hre_subject
+}
+add_ideas = {hre_autonomy_idea_napoleonic_wars}
+}
 	add_ideas = {
 		metricsystem
 	}
 }
 }
-1774.1.1 = {
+1770.1.1 = {
 recruit_character=FRA_louisxvi
-promote_character=FRA_louisxvi
 recruit_character=FRA_ruhl
 promote_character=FRA_ruhl
 recruit_character=FRA_napoleon
 recruit_character=FRA_napoleoni
+recruit_character=FRA_napoleonii
+recruit_character=FRA_napoleoniii
 recruit_character=FRA_louisxviii
 recruit_character=FRA_charlesx
 recruit_character=FRA_louisphilippei
@@ -333,6 +470,7 @@ recruit_character=FRA_emmanuel
 recruit_character=FRA_barras
 recruit_character=FRA_lafayette
 recruit_character=FRA_herbois
+promote_character=FRA_louisxvi
 }
 1800.1.1 = {
 promote_character=FRA_napoleon
@@ -342,7 +480,8 @@ retire_character=FRA_max
 retire_character=FRA_ruhl
 retire_character=FRA_herbois
 }
-1814.1.1 = {
+1815.1.1 = {
+promote_character=FRA_louisxviii
 retire_character=FRA_napoleon
 retire_character=FRA_napoleoni
 retire_character=FRA_rewbell
@@ -356,10 +495,15 @@ retire_character=FRA_charlesx
 retire_character=FRA_marie
 retire_character=FRA_barras
 retire_character=FRA_lafayette
+retire_character=FRA_napoleonii
 }
 1849.1.1 = {
+promote_character=FRA_napoleoniii
 retire_character=FRA_louisphilippei
 retire_character=FRA_emmanuel
+}
+1900.1.1 = {
+retire_character=FRA_napoleoniii
 }
 1936.1.1 = {
 recruit_character=FRA_pierre_laval
@@ -378,14 +522,26 @@ retire_character=FRA_pierre_laval
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1801.1.1 }
+		limit = { has_start_date < 1799.1.1 }
 set_oob = "FRA_SPM_1789_1815"
+}
+}
+1799.1.1 = {
+		if = {
+		limit = { has_start_date < 1801.1.1 }
+set_oob = "FRA_1800"
 }
 }
 1811.1.1 = {
 		if = {
-		limit = { has_start_date < 1815.1.1 }
+		limit = { has_start_date < 1813.1.1 }
 set_oob = "FRA_SPR_1789_1815"
+}
+}
+1814.1.1 = {
+		if = {
+		limit = { has_start_date < 1815.1.1 }
+set_oob = "FRA_1814"
 }
 }
 1936.1.1 = {
@@ -565,8 +721,9 @@ if = {
 1799.1.1 = {
 		if = {
 		limit = { has_start_date < 1801.1.1 }
-ENG={
+AUS={
 create_faction = SecondCoalition
+add_to_faction = ENG
 add_to_faction = TOS
 add_to_faction = NAP
 add_to_faction = POR
@@ -590,6 +747,11 @@ ENG={
 }
 	    set_autonomy = {
         target = RHI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+		    set_autonomy = {
+        target = NEU
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
 	}
@@ -675,6 +837,392 @@ ITA={set_cosmetic_tag = ITA_FRA_two}
 	}
 }
 }
+1814.1.1 = {
+		if = {
+		limit = { has_start_date < 1815.1.1 }
+FRA={set_country_flag = napoleonfrance}
+AUS={set_country_flag = napoleonaustria}
+RUS={set_country_flag = napoleonrussia}
+SWE={set_country_flag = napoleonsweden}
+PRE={set_country_flag = napoleonprussiathree_flag}
+FRA={set_country_flag = france_endsieg_flag_false_might_change}
+FRA={set_country_flag = france_endsieg_event_trigger_flag}
+	PRE={
+	add_timed_idea = {
+	idea = AUSPRERUS_pushfranceoutofrhine
+	days = 365
+	}
+	add_political_power=-25
+	}
+	AUS={
+	add_timed_idea = {
+	idea = AUSPRERUS_pushfranceoutofrhine
+	days = 365
+	}
+	add_political_power=-25
+	}
+	RUS={
+	add_timed_idea = {
+	idea = AUSPRERUS_pushfranceoutofrhine
+	days = 365
+	}
+	add_political_power=-25
+	}
+	SPR={
+	add_timed_idea = {
+	idea = SPRENGPOR_pushfranceoutofiberia
+	days = 365
+	}
+	add_political_power=-25
+	}
+		POR={
+	add_timed_idea = {
+	idea = SPRENGPOR_pushfranceoutofiberia
+	days = 365
+	}
+	add_political_power=-25
+	}
+		ENG={
+	add_timed_idea = {
+	idea = SPRENGPOR_pushfranceoutofiberia
+	days = 365
+	}
+	add_political_power=-25
+	}
+WUR={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+SAX={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+LBK={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+SXL={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+STR={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+ANH={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+LIP={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+BRN={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+SIC={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+SPM={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+HAN={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+MEK={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+BRG={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+NAS={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+FKF={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+HES={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+OLD={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+BRU={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+HSE={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+WRZ={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+THU={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+HOH={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+NEU={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+LCT={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+WLD={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+COB={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+ENG={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+RUS={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+SPR={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+POR={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+SWE={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+AUS={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+PRE={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+BAY={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+HOL={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+BAD={
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+
+}
+NAP={set_party_name = { ideology = neutrality long_name = NAP_MUR_neutrality_party_long name = NAP_MUR_neutrality_party}}
+ITA={set_party_name = { ideology = neutrality long_name = ITA_BON_neutrality_party_long name = ITA_BON_neutrality_party}}
+LUC={set_cosmetic_tag = LUC_PIO}
+ITA={set_cosmetic_tag = ITA_FRA_four}
+NAP={set_cosmetic_tag = NAP_FRA_kingdom}
+FRA={
+create_faction = FrenchSphere
+add_to_faction = DEN
+	set_autonomy = {
+        target = DNZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	    set_autonomy = {
+        target = SWI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+		    set_autonomy = {
+        target = NAP
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+		    set_autonomy = {
+        target = LUC
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+		    set_autonomy = {
+        target = ITA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+ENG={
+create_faction = SixthCoalition
+add_to_faction = SPR
+add_to_faction = POR
+add_to_faction = SIC
+add_to_faction = SPM
+
+add_to_faction = HOL
+add_to_faction = SWE
+add_to_faction = AUS
+add_to_faction = PRE
+
+add_to_faction = RUS
+add_to_faction = BAY
+add_to_faction = BAD
+add_to_faction = WUR
+
+add_to_faction = MEK
+add_to_faction = STR
+add_to_faction = SXL
+add_to_faction = LBK
+
+add_to_faction = SAX
+add_to_faction = THU
+add_to_faction = COB
+add_to_faction = HES
+
+add_to_faction = FKF
+add_to_faction = HSE
+add_to_faction = BRG
+add_to_faction = NAS
+
+add_to_faction = HOH
+add_to_faction = WRZ
+add_to_faction = NEU
+add_to_faction = LCT
+
+add_to_faction = HAN
+add_to_faction = ANH
+add_to_faction = OLD
+add_to_faction = BRU
+
+add_to_faction = WLD
+add_to_faction = LIP 
+add_to_faction = BRN
+}
+		}
+}
 1811.1.1 = {
 		if = {
 		limit = { has_start_date < 1813.1.1 }
@@ -684,6 +1232,7 @@ add_to_faction = SPR
 add_to_faction = POR
 add_to_faction = SIC
 add_to_faction = SPM
+add_to_faction = RUS
 }
 ENG={
 	set_autonomy = {
@@ -692,7 +1241,25 @@ ENG={
         freedom_level = 0.4
 	}
 }
-PER={
+QAJ={
+		declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+}
+AUS={
+		declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+}
+POL={
+		declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+}
+PRE={
 		declare_war_on = {
 		target = RUS
 		type = puppet_wargoal_focus
@@ -768,9 +1335,6 @@ RUS={
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
 	}
-ITA={set_cosmetic_tag = ITA_FRA_four}
-NAP={set_cosmetic_tag = NAP_FRA_kingdom}
-ITA={set_party_name = { ideology = neutrality long_name = ITA_BON_neutrality_party_long name = ITA_BON_neutrality_party}}
 	set_autonomy = {
         target = ITA
         autonomous_state = autonomy_dominion
@@ -951,6 +1515,12 @@ set_party_name = { ideology = neutrality long_name = FRA_BON_neutrality_party_lo
 set_party_name = { ideology = neutrality long_name = FRA_BOU_neutrality_party_long name = FRA_BOU_neutrality_party }
 }
 1830.1.1 = {
+set_party_name = { ideology = neutrality long_name = FRA_ORL_neutrality_party_long name = FRA_ORL_neutrality_party }
+}
+1859.1.1 = {
+set_party_name = { ideology = neutrality long_name = FRA_BON_neutrality_party_long name = FRA_BON_neutrality_party }
+}
+1900.1.1 = {
 set_party_name = { ideology = neutrality long_name = FRA_ORL_neutrality_party_long name = FRA_ORL_neutrality_party }
 }
 set_politics = {

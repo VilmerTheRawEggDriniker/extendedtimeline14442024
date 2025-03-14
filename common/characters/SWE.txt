@@ -39,7 +39,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = SWE_FREDERICKVI_DESC
 			expire="1797.1.1"
@@ -53,7 +53,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = SWE_AUGUST_DESC
 			expire="1797.1.1"
@@ -342,7 +342,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = SWE_GUSTAVIII_DESC
 			expire="1797.1.1"
@@ -356,7 +356,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = SWE_GUSTAVIVADOLF_DESC
 			expire="1797.1.1"
@@ -370,7 +370,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = SWE_CHARLESXIII_DESC
 			expire="1797.1.1"

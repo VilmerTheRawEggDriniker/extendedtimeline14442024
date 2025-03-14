@@ -14,6 +14,21 @@ state={
 		remove_core_of = QAR
 		owner = OTO
 		}
+					    1800.1.1 = {
+		add_core_of = QAJ
+		remove_core_of = PER
+		owner = QAJ
+		}
+		1812.1.1 = {
+		add_core_of = KHU
+		remove_core_of = QAJ
+		owner = KHU
+		}
+				1925.1.1 = {
+		add_core_of = PER
+		remove_core_of = KHU
+		owner = PER
+		}
 		1689.1.1 = {
 		add_core_of = PER
 		owner = PER

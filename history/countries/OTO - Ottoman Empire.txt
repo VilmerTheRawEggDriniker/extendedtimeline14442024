@@ -1,10 +1,52 @@
 ﻿capital = 798
+1821.1.1 = {
+			if = {
+		limit = { has_start_date < 1822.1.1 }
+				add_manpower = 100000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 100000
+					producer = OTO
+				}
+	declare_war_on = {
+		target = GRE
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = ALB
+		type = annex_everything
+	}
+	}
+}
 1689.1.1 = {
 recruit_character=OTO_suleimanii
 promote_character=OTO_suleimanii
 }
 1691.1.1 = {
 retire_character=OTO_suleimanii
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1793.1.1 }
+set_cosmetic_tag = OTO_one
+}
+}
+1800.1.1 = {
+			if = {
+		limit = { has_start_date < 1845.1.1 }
+set_cosmetic_tag = OTO_two
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1803.1.1 }
+EGY={set_cosmetic_tag = EGY_OTO}
+	set_autonomy = {
+        target = EGY
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
 }
 1500.1.1 = {
 			if = {
@@ -34,6 +76,27 @@ IME={set_cosmetic_tag = IME_OTO}
 SVA={set_cosmetic_tag = SVA_OTO}
 	set_autonomy = {
         target = SVA
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1901.1.1 }
+	set_autonomy = {
+        target = ACE
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+ABK={set_cosmetic_tag = ABK_OTO}
+	set_autonomy = {
+        target = ABK
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
@@ -107,6 +170,55 @@ retire_character=OTO_mustafaiv
 1840.1.1 = {
 retire_character=OTO_mahmudii
 }
+
+1789.1.1 = {
+recruit_character=OTO_kocageneral
+}
+1800.1.1 = {
+retire_character=OTO_kocageneral
+}
+1789.1.1 = {
+recruit_character=OTO_gazigeneral
+}
+1800.1.1 = {
+retire_character=OTO_gazigeneral
+}
+1789.1.1 = {
+recruit_character=OTO_nasuhzadegeneral
+}
+1836.1.1 = {
+retire_character=OTO_nasuhzadegeneral
+}
+1789.1.1 = {
+recruit_character=OTO_omergeneral
+}
+1836.1.1 = {
+retire_character=OTO_omergeneral
+}
+1789.1.1 = {
+recruit_character=OTO_mahmudgeneral
+}
+1836.1.1 = {
+retire_character=OTO_mahmudgeneral
+}
+1789.1.1 = {
+recruit_character=OTO_hurshidgeneral
+}
+1836.1.1 = {
+retire_character=OTO_hurshidgeneral
+}
+1789.1.1 = {
+recruit_character=OTO_husrevgeneral
+}
+1859.1.1 = {
+retire_character=OTO_husrevgeneral
+}
+1789.1.1 = {
+recruit_character=OTO_residgeneral
+}
+1836.1.1 = {
+retire_character=OTO_residgeneral
+}
 1500.1.1 = {
 			if = {
 		limit = { has_start_date < 1812.1.1 }
@@ -129,9 +241,36 @@ MOL={set_cosmetic_tag = MOL_OTO}
 	}
 }
 }
+1814.1.1 = {
+			if = {
+		limit = { has_start_date < 1822.1.1 }
+WAL={set_cosmetic_tag = WAL_OTO}
+MOL={set_cosmetic_tag = MOL_OTO}
+	set_autonomy = {
+        target = SER
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+		set_autonomy = {
+        target = ALG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = MOL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = WAL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1789.1.1 = {
 			if = {
-		limit = { has_start_date < 1823.1.1 }
+		limit = { has_start_date < 1820.1.1 }
 	set_autonomy = {
         target = ALB
         autonomous_state = autonomy_protectorate
@@ -179,16 +318,30 @@ MOL={set_cosmetic_tag = MOL_OTO}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
 }
 
 set_convoys = 100
 1789.1.1 = {
 		if = {
+		limit = { has_start_date < 1820.1.1 }
+set_oob = "OTO_1789"
+}
+}
+1821.1.1 = {
+		if = {
+		limit = { has_start_date < 1822.1.1 }
+set_oob = "OTO_1821"
+}
+}
+1823.1.1 = {
+		if = {
 		limit = { has_start_date < 1837.1.1 }
 set_oob = "OTO_1789"
 }
 }
-
 
 1939.1.1 = {
 	

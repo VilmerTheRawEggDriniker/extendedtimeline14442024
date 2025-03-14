@@ -28,7 +28,7 @@ state={
 		add_core_of = BRG
 		remove_core_of = PRE
 		}
-		1816.1.1 = {
+		1814.1.1 = {
 		owner = PRE
 		remove_core_of = WTF
 		add_core_of = PRE

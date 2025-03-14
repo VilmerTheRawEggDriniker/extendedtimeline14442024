@@ -19,7 +19,7 @@ units = {
 	#Belgian Army
 	division = {
 		name = "Belgian Division"
-		location = 6583
+		location = 516
 		division_template = "Belgian Division"
 		start_experience_factor = 0.3
 	}
@@ -28,7 +28,7 @@ units = {
 	#Belgian Army
 	division = {
 		name = "Belgian Division"
-		location = 6583
+		location = 516
 		division_template = "Belgian Division"
 		start_experience_factor = 0.3
 	}
@@ -37,7 +37,7 @@ units = {
 	#Belgian Army
 	division = {
 		name = "Belgian Division"
-		location = 6583
+		location = 516
 		division_template = "Belgian Division"
 		start_experience_factor = 0.3
 	}
@@ -46,7 +46,7 @@ units = {
 	#Belgian Army
 	division = {
 		name = "Belgian Division"
-		location = 6583
+		location = 516
 		division_template = "Belgian Division"
 		start_experience_factor = 0.3
 	}
@@ -55,34 +55,7 @@ units = {
 	#Belgian Army
 	division = {
 		name = "Belgian Division"
-		location = 6583
-		division_template = "Belgian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Belgian Army
-	division = {
-		name = "Belgian Division"
-		location = 6583
-		division_template = "Belgian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Belgian Army
-	division = {
-		name = "Belgian Division"
-		location = 6583
-		division_template = "Belgian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Belgian Army
-	division = {
-		name = "Belgian Division"
-		location = 6583
+		location = 516
 		division_template = "Belgian Division"
 		start_experience_factor = 0.3
 	}

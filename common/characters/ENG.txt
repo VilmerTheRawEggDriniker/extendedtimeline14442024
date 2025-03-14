@@ -1,10 +1,58 @@
 characters={
+					ENG_rothschildiii={
+		name=ENG_CHARACTER_ROTHSCHILDIII
+		portraits={
+                        army={
+				small="GFX_idea_eng_rothschildiii_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_rothschildiii_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_rothschildiii
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				rothschild_banker
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
 			ENG_henrygeneral={
 		name=ENG_CHARACTER_HENRYGENERAL
 		portraits={
 			army={
 				large=GFX_portrait_eng_henrygeneral_large
 				small=GFX_portrait_eng_henrygeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+				ENG_codringtongeneral={
+		name=ENG_CHARACTER_CODRINGTONGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_codringtongeneral_large
+				small=GFX_portrait_eng_codringtongeneral_small
 			}
 		}
 		field_marshal={

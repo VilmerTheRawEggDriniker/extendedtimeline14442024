@@ -55,24 +55,6 @@ units = {
 	#Swedish Army
 	division = {
 		name = "Swedish Division"
-		location = 383
-		division_template = "Swedish Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Swedish Army
-	division = {
-		name = "Swedish Division"
-		location = 383
-		division_template = "Swedish Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Swedish Army
-	division = {
-		name = "Swedish Division"
 		location = 9279
 		division_template = "Swedish Division"
 		start_experience_factor = 0.3

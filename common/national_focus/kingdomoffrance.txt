@@ -23,7 +23,7 @@ continuous_focus_position = { x = 1200 y = 3000 }
 		x = 2
 		y = 1
 allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1836.1.1 }
+    has_start_date < 1800.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -92,7 +92,7 @@ allow_branch = { has_start_date > 1789.1.1
 		id = kingdomoffrance_1789_1815_first_50_focus_2
 		icon = GFX_
 allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1836.1.1 }
+    has_start_date < 1800.1.1 }
 		x = 4
 		y = 1
 		prerequisite = {
@@ -129,7 +129,7 @@ allow_branch = { has_start_date > 1789.1.1
 		id = kingdomoffrance_1789_1815_first_50_focus_3
 		icon = GFX_
 allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1836.1.1 }
+    has_start_date < 1800.1.1 }
 		x = 6
 		y = 1
 		prerequisite = {
@@ -182,7 +182,7 @@ PRS={
 		id = kingdomoffrance_1789_1815_first_50_focus_4
 		icon = GFX_
 allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1836.1.1 }
+    has_start_date < 1800.1.1 }
 		x = 8
 		y = 1
 		prerequisite = {
@@ -216,7 +216,7 @@ allow_branch = { has_start_date > 1789.1.1
 		id = kingdomoffrance_1789_1815_first_50_focus_5
 		icon = GFX_
 allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1836.1.1 }
+    has_start_date < 1800.1.1 }
 		x = 10
 		y = 1
 		prerequisite = {

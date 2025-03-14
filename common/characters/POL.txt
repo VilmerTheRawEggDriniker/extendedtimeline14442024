@@ -1097,6 +1097,60 @@ characters = {
 			expire="1797.1.1"
 		}
 }
+	POL_ponia={
+		name=POL_CHARACTER_PONIA
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_ponia_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Poniatowski}
+			desc = POL_PONIA_DESC
+			expire="1797.1.1"
+		}
+}
+	POL_konstantinpavlovich={
+		name=POL_CHARACTER_KONSTANTINPAVLOVICH
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_konstantinpavlovich_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
+			traits={Holstein-Gottorp-Romanov}
+			desc = POL_KONSTANTINPAVLOVICH_DESC
+			expire="1797.1.1"
+		}
+}
+	POL_ivan={
+		name=POL_CHARACTER_IVAN
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_ivan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = POL_IVAN_DESC
+			expire="1797.1.1"
+		}
+}
+	POL_zajac={
+		name=POL_CHARACTER_ZAJAC
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_zajac_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = POL_ZAJAC_DESC
+			expire="1797.1.1"
+		}
+}
 	POL_frederickaugustusipol={
 		name=POL_CHARACTER_FREDERICKAUGUSTUSIPOL
 		portraits={

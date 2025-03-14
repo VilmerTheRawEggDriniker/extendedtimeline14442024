@@ -14,9 +14,11 @@ recruit_character=WAL_tudor
 recruit_character=WAL_scarlat
 recruit_character=WAL_ghica
 recruit_character=WAL_alexandru
+recruit_character=WAL_grigory_potemkin
 }
 1800.1.1 = {
 promote_character=WAL_alexander
+retire_character=WAL_grigory_potemkin
 }
 1812.1.1 = {
 promote_character=WAL_john

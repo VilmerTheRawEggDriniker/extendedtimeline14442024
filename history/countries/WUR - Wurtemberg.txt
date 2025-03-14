@@ -3,22 +3,22 @@
 recruit_character=WUR_charleseugene
 promote_character=WUR_charleseugene
 }
-1800.1.1 = {
+1798.1.1 = {
 recruit_character=WUR_louiseugen
 promote_character=WUR_louiseugen
 retire_character=WUR_charleseugene
 }
-1800.1.1 = {
+1799.1.1 = {
 recruit_character=WUR_frederickiieugene
 promote_character=WUR_frederickiieugene
 retire_character=WUR_louiseugen
 }
-1825.1.1 = {
+1800.1.1 = {
 recruit_character=WUR_fredericki
 promote_character=WUR_fredericki
 retire_character=WUR_frederickiieugene
 }
-1825.1.1 = {
+1817.1.1 = {
 recruit_character=WUR_williami
 promote_character=WUR_williami
 retire_character=WUR_fredericki
@@ -29,6 +29,12 @@ retire_character=WUR_williami
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "WUR_1789_1815"
+}
 }
 1936.1.1 = {
 set_technology = {

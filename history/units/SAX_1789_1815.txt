@@ -19,42 +19,6 @@ units = {
 	#Saxon Army
 	division = {
 		name = "Saxon Division"
-		location = 9441
-		division_template = "Saxon Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Saxon Army
-	division = {
-		name = "Saxon Division"
-		location = 9441
-		division_template = "Saxon Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Saxon Army
-	division = {
-		name = "Saxon Division"
-		location = 9441
-		division_template = "Saxon Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Saxon Army
-	division = {
-		name = "Saxon Division"
-		location = 9471
-		division_template = "Saxon Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Saxon Army
-	division = {
-		name = "Saxon Division"
 		location = 9471
 		division_template = "Saxon Division"
 		start_experience_factor = 0.3

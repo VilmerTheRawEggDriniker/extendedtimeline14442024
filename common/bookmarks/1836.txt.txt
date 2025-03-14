@@ -78,6 +78,30 @@ bookmarks = {
 
 			}
 		}
+		USA = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        americanpatriotism
+                        extremepoverty
+                        spiritoftheamericanrevolution
+			}
+			focuses = {
+                        america_1789_1815_first_100_focus_41
+                        america_1789_1815_first_100_focus_80
+                        america_1789_1815_first_100_focus_92
+			}
+		}
+		SPM = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
 		# minors from DLC ####
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

@@ -23,6 +23,9 @@ retire_character=BRG_charlestheodore
 1812.1.1 = {
 promote_character=BRG_louisii
 }
+1814.1.1 = {
+promote_character=BRG_maximilianijoseph
+}
 1836.1.1 = {
 retire_character=BRG_joachimmurat
 retire_character=BRG_napoleon

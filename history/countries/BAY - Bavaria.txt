@@ -1,4 +1,75 @@
 ﻿capital = 52
+1789.1.1 = {
+recruit_character=BAY_wredegeneral #1789 #1800 #1848
+recruit_character=BAY_karlgeneral #1789 #1789 #1836
+recruit_character=BAY_hugogeneral #1789 #1812 #1900
+recruit_character=BAY_palatgeneral #1789 #1789 #1821
+recruit_character=BAY_deroygeneral #1789 #1789 #1821
+
+recruit_character=BAY_antongeneral #1789 #1812 #1859
+recruit_character=BAY_carlgeneral #1789 #1812 #1900
+recruit_character=BAY_adolfgeneral #1836 #1836 #1900
+recruit_character=BAY_franzgeneral #1789 #1800 #1848
+recruit_character=BAY_vongeneral #1800 #1812 #1900
+
+recruit_character=BAY_leongeneral #1789 #1812 #1900
+recruit_character=BAY_krazgeneral #1800 #1812 #1900
+recruit_character=BAY_maximgeneral #1821 #1836 #1901
+recruit_character=BAY_malaigeneral #1812 #1836 #1900
+recruit_character=BAY_parsegeneral #1800 #1812 #1859
+
+recruit_character=BAY_prancgeneral #1836 #1836 #1900
+recruit_character=BAY_raglogeneral #1789 #1789 #1848
+recruit_character=BAY_saffegeneral #1836 #1836 #1900
+recruit_character=BAY_johangeneral #1836 #1836 #1900
+recruit_character=BAY_ludwigeneral #1836 #1836 #1900
+
+recruit_character=BAY_trivageneral #1789 #1789 #1836
+recruit_character=BAY_washigeneral #1789 #1800 #1859
+recruit_character=BAY_weishgeneral #1789 #1812 #1859
+recruit_character=BAY_zweibgeneral #1789 #1789 #1812
+recruit_character=BAY_oskargeneral #1812 #1836 #1900
+}
+1812.1.1 = {
+retire_character=BAY_zweibgeneral
+}
+1821.1.1 = {
+retire_character=BAY_palatgeneral
+retire_character=BAY_deroygeneral
+}
+1836.1.1 = {
+retire_character=BAY_karlgeneral
+retire_character=BAY_trivageneral
+}
+1848.1.1 = {
+retire_character=BAY_wredegeneral
+retire_character=BAY_franzgeneral
+retire_character=BAY_raglogeneral
+}
+1859.1.1 = {
+retire_character=BAY_antongeneral
+retire_character=BAY_parsegeneral
+retire_character=BAY_washigeneral
+retire_character=BAY_weishgeneral
+}
+1900.1.1 = {
+retire_character=BAY_hugogeneral
+retire_character=BAY_carlgeneral
+retire_character=BAY_adolfgeneral
+retire_character=BAY_vongeneral
+retire_character=BAY_leongeneral
+retire_character=BAY_krazgeneral
+retire_character=BAY_malaigeneral
+retire_character=BAY_prancgeneral
+retire_character=BAY_saffegeneral
+retire_character=BAY_johangeneral
+retire_character=BAY_ludwigeneral
+retire_character=BAY_oskargeneral
+}
+1901.1.1 = {
+retire_character=BAY_maximgeneral
+}
+
 1777.1.1 = {
 recruit_character=BAY_charlestheodore
 promote_character=BAY_charlestheodore
@@ -18,7 +89,7 @@ retire_character=BAY_ludwigi
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
+		limit = { has_start_date < 1837.1.1 }
 set_oob = "BAY_1789_1815"
 }
 }

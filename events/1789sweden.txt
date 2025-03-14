@@ -115,8 +115,12 @@ fire_only_once = yes
 	ai_chance = { factor = 100 } 
 	news_event = sweden_1789_1812_news.12
 	set_country_flag=gustav_iii_has_died
-	promote_character=SWE_gustavivadolf
-	retire_character=SWE_gustaviii
+	SWE={promote_character=SWE_gustavivadolf
+	retire_character=SWE_gustaviii}
+        hidden_effect={
+	NOR={promote_character=NOR_gustavivadolf
+	retire_character=NOR_gustaviii}
+}
 	add_manpower=-1
 	add_trait = {
      character = SWE_gustavivadolf

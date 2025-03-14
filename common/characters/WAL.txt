@@ -12,6 +12,19 @@ characters={
 			expire="1797.1.1"
 		}
 }
+	WAL_grigory_potemkin={
+		name=WAL_CHARACTER_GRIGORY_POTEMKIN
+		portraits={
+			civilian={
+				large="GFX_portrait_wal_grigory_potemkin_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = WAL_GRIGORY_POTEMKIN_DESC
+			expire="1797.1.1"
+		}
+}
 	WAL_constantinehangerli={
 		name=WAL_CHARACTER_CONSTANTINEHANGERLI
 		portraits={

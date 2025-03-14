@@ -9,6 +9,22 @@
 	}
 }
 }
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+        neutrality = 50
+}
+1789.1.1 = {
+set_party_name = { ideology = democratic long_name = BEL_VON_democratic_party_long name = BEL_VON_democratic_party }
+}
+1837.1.1 = {
+set_party_name = { ideology = democratic long_name = BEL_democratic_party_long name = BEL_democratic_party }
+}
 1781.1.1 = {
 recruit_character=BEL_casimir
 promote_character=BEL_casimir
@@ -16,6 +32,23 @@ recruit_character=BEL_charles
 recruit_character=BEL_leopoldi
 recruit_character=BEL_auguste
 recruit_character=BEL_louis
+
+recruit_character=BEL_jan
+recruit_character=BEL_jean
+recruit_character=BEL_van
+recruit_character=BEL_nelis
+}
+1793.1.1 = {
+retire_character=BEL_jan
+}
+1793.1.1 = {
+retire_character=BEL_jean
+}
+1836.1.1 = {
+retire_character=BEL_van
+}
+1793.1.1 = {
+retire_character=BEL_nelis
 }
 1793.1.1 = {
 retire_character=BEL_casimir
@@ -32,14 +65,6 @@ retire_character=BEL_leopoldi
 }
 1900.1.1={
 retire_character=BEL_louis
-}
-1789.1.1 = {
-		if = {
-limit = { has_start_date < 1790.1.1 }
-	add_ideas = {
-		luxemburg_stronghold
-	}
-}
 }
 2000.1.1 = {
 	set_politics = {
@@ -676,7 +701,7 @@ IF = {
 	}
 }
 
-
+1936.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.27"
@@ -688,6 +713,7 @@ set_popularities = {
 	democratic = 83
 	fascism = 11
 	communism = 6
+}
 }
 1939.1.1 = {
 	set_politics = {

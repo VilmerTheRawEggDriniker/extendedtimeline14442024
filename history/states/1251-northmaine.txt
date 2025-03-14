@@ -3,7 +3,7 @@ state={
 	name="STATE_1251"
 		history={
 		owner = ZZZ
-				1789.1.1 = {
+				1776.1.1 = {
 			owner = WAB
 			add_core_of = WAB
 			remove_core_of = UNO
@@ -13,7 +13,7 @@ state={
 			remove_core_of = NCR
 
 		}
-		1836.1.1 = {
+		1821.1.1 = {
 			owner = USA
 			add_core_of = USA
 			remove_core_of = UNO

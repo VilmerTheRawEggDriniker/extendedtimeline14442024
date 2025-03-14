@@ -10,10 +10,6 @@ state= {
 
 	history= {
 		owner = ZZZ
-		1700.1.1 = {
-		add_core_of = QIN
-                owner = QIN
-                }
 	    1860.1.1 = {
 		add_core_of = RUS
                 owner = RUS

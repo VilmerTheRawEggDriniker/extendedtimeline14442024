@@ -11,14 +11,14 @@ state={
 		add_core_of = MIL
 		1800.1.1 = {
 			remove_core_of = GRI
-			add_core_of = MIL
+			add_core_of =VNT
 			owner = ITA
 			add_core_of = ITA
 
 		}
 		1816.1.1 = {
 			remove_core_of = ITA
-			remove_core_of = MIL
+			remove_core_of = VNT
 			owner = LBV
 			add_core_of = LBV
 

@@ -39,8 +39,10 @@ state={
 			remove_core_of = SOV
 
 		}
+		1800.1.1 = {
 		victory_points = {
-			392 1 
+			392 10
+		}
 		}
 
 	}

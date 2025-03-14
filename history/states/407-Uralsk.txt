@@ -4,14 +4,14 @@ state={
 	name="STATE_407"
 
 	history={
-		owner = KYR
-		add_core_of = KYR
+		owner = KAZ
+		add_core_of = KAZ
 		1900.1.1 = {
                 owner = RUS
                 }
 		1936.1.1 = {
                 add_core_of = TAJ
-                remove_core_of = KYR
+                remove_core_of = KAZ
                 }
 		1920.1.1 = {
 			owner = SOV

@@ -265,7 +265,11 @@ pauli_reform_RUS_frenchrevolution = {
 			date > 1789.1.1 date < 1900.1.1 
 			original_tag=RUS
 			has_country_leader = { character = RUS_pauli }
+			or={
 			has_war_with=PER
+			has_war_with=QAJ
+			has_war_with=AFS 
+			}
 		}
 
 		cost = 25
@@ -298,7 +302,6 @@ pauli_reform_RUS_frenchrevolution = {
 			date > 1789.1.1 date < 1900.1.1 
 			original_tag=RUS
 			has_country_leader = { character = RUS_pauli }
-			has_war_with=PER
 		}
 
 		cost = 25

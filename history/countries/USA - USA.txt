@@ -28,6 +28,15 @@
 	}
 }
 }
+1776.1.1 = {
+			if = {
+		limit = { has_start_date < 1780.1.1 }
+	declare_war_on = {
+		target = CAN
+		type = annex_everything
+	}
+}
+}
 1789.1.1 = {
 			if = {
 		limit = { has_start_date < 1799.1.1 }
@@ -190,7 +199,7 @@ add_to_faction = EST
 add_to_faction = CAN
 }
 }
-1789.1.1 = {
+1776.1.1 = {
 set_party_name = { ideology = democratic name = USA_independent_party }
 }
 1797.1.1 = {
@@ -223,7 +232,7 @@ set_cosmetic_tag = USA_six #24 states
 1837.1.1 = {
 set_cosmetic_tag = USA_ #48 states
 }
-1789.1.1 = {
+1776.1.1 = {
 recruit_character=USA_georgewashington
 recruit_character=USA_johnadams
 recruit_character=USA_thomasjefferson
@@ -251,7 +260,7 @@ promote_character=USA_johnquincyadams
 1830.1.1 = {
 promote_character=USA_andrewjackson
 }
-1900.1.1 = {
+1848.1.1 = {
 retire_character=USA_georgewashington
 retire_character=USA_johnadams
 retire_character=USA_thomasjefferson
@@ -364,6 +373,7 @@ set_technology = {
 	infantry_weapons = 1
 	transport = 1
 	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 if = {

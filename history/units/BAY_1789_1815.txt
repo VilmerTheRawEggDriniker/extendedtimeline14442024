@@ -87,42 +87,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 }
-units = {
-	#Bavarian Army
-	division = {
-		name = "Bavarian Division"
-		location = 692
-		division_template = "Bavarian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Bavarian Army
-	division = {
-		name = "Bavarian Division"
-		location = 692
-		division_template = "Bavarian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Bavarian Army
-	division = {
-		name = "Bavarian Division"
-		location = 692
-		division_template = "Bavarian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Bavarian Army
-	division = {
-		name = "Bavarian Division"
-		location = 692
-		division_template = "Bavarian Division"
-		start_experience_factor = 0.3
-	}
-}
 ### Starting Equipment ###
 instant_effect = {
 	add_equipment_production = {

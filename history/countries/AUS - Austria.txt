@@ -6,6 +6,34 @@ recruit_character=AUS_metternich
 retire_character=AUS_metternich
 }
 1789.1.1 = {
+recruit_character=AUS_rothschildii
+}
+1859.1.1 = {
+retire_character=AUS_rothschildii
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1790.1.1 }
+	set_autonomy = {
+        target = SER
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1900.1.1 = {
+			if = {
+		limit = { has_start_date < 1915.1.1 }
+BOS={set_cosmetic_tag=BOS_AUS}
+}
+}
+set_technology = {
+	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
+}
+1788.1.1 = {
 			if = {
 		limit = { has_start_date < 1799.1.1 }
 AUS={
@@ -45,13 +73,6 @@ set_country_flag = napoleondead
 		limit = { has_start_date < 1801.1.1 }
 set_autonomy = {
 	target = WRZ
-	autonomous_state = autonomy_hre_subject
-	freedom_level = 0.1
-}
-
-
-set_autonomy = {
-	target = NEU
 	autonomous_state = autonomy_hre_subject
 	freedom_level = 0.1
 }
@@ -926,7 +947,7 @@ remove_ideas = {
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1809.1.1 }
+		limit = { has_start_date < 1800.1.1 }
 AUS={
 create_faction = HolyRomanEmpireoftheGermanNation
 }
@@ -934,14 +955,8 @@ create_faction = HolyRomanEmpireoftheGermanNation
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1790.1.1 }
-set_oob = "AUS_1789"
-}
-}
-1800.1.1 = {
-		if = {
 		limit = { has_start_date < 1801.1.1 }
-set_oob = "AUS_1800"
+set_oob = "AUS_1789"
 }
 }
 1812.1.1 = {
@@ -950,7 +965,7 @@ set_oob = "AUS_1800"
 set_oob = "AUS_1812"
 }
 }
-1836.1.1 = {
+1814.1.1 = {
 		if = {
 		limit = { has_start_date < 1837.1.1 }
 set_oob = "AUS_1836"
@@ -978,6 +993,9 @@ retire_character=AUS_ferdinandiaus
 1804.1.1 = {
 set_cosmetic_tag = AUS_empire # austrian empire
 }
+1919.1.1 = {
+set_cosmetic_tag = AUS_ # austrian empire
+}
 1848.12.2 = {
 	recruit_character=AUS_franz_joseph_i
 	promote_character=AUS_franz_joseph_i
@@ -1002,24 +1020,7 @@ if = {
 	}
 }
 }
-set_research_slots = 3
-1936.1.1 = {
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_engineers = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	basic_train = 1
-}
-}
-set_technology = {
-	infantry_weapons = 1
-	transport = 1
-	early_submarine = 1
-}
-1836.1.1 = {
+1821.1.1 = {
 			if = {
 		limit = { has_start_date < 1837.01.02 }
     set_autonomy = {
@@ -1034,6 +1035,11 @@ set_technology = {
 	}
         set_autonomy = {
         target = MOD
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.2
+	}
+	        set_autonomy = {
+        target = MAS
         autonomous_state = autonomy_personal_union
         freedom_level = 0.2
 	}
@@ -1357,7 +1363,6 @@ IF = {
 
 
 set_research_slots = 3
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -1369,7 +1374,6 @@ set_technology = {
 	basic_train = 1
 	gw_artillery = 1
 }
-
 IF = {
 	limit = { has_dlc = "No Step Back" }
 	set_technology = {
@@ -1393,7 +1397,7 @@ IF = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -1412,7 +1416,7 @@ set_stability = 0.50
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1785.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

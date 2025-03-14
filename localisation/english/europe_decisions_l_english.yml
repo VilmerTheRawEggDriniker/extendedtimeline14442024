@@ -7,6 +7,11 @@ form_circassia_core_adygea_required_states_tt:0 "Gain Cores on the §YAdygea§! 
 form_circassia_core_karachey_required_states_tt:0 "Gain Cores on the §YKarachay-Cherkessia§! state."
 form_circassia_core_kabardino_required_states_tt:0 "Gain Cores the §YKabardino-Balkaria§! state."
 
+MENA_form_tamaghza_formable:0 "Form Tamaghza"
+MENA_form_tamaghza:0 "Form Tamaghza"
+MENA_form_tamaghza_nazbol:0 "Form NazBol Tamaghza"
+MENA_form_tamaghza_islamist:0 "Form Islamist Tamaghza"
+
 form_circassia:0 "Restore Circassia"
 
 form_circassia_category:0 "Restore Circassia"
@@ -104,6 +109,10 @@ pauli_reform_RUS_frenchrevolution_critic:0 "Free the Critics of Catherine the Gr
 
 HRE_hungary_russia_protectorate_war_peace:0 "Establish the Holstein-Gottorp-Romanov Kingdom of Hungary"
 
+PRE_frenchrevolution:0 "The French Revolution"
+PRE_neu_army:0 "Recruits from Neuchatel"
+PRE_hoh_army:0 "Recruits from Hohenzollern"
+
 HRE_frenchrevolution:0 "The French Revolution"
 HRE_prussia_russia_patriotic_war_peace:0 "Leave the Continental System"
 HRE_austria_russia_patriotic_war_peace:0 "Leave the Continental System"
@@ -160,9 +169,25 @@ performance_switzerland:0 "Remove the Swiss Countries"
 performance_circassia:0 "Remove the North Caucasian Countries"
 performance_america:0 "Remove the American Countries"
 performance_canada:0 "Remove the Canadian Countries"
+performance_kumul:0 "Remove Kumul Nepal Sikkim and Bhutan"
+performance_canadaaustralia:0 "Get rid of Australia and Canada"
+performance_iran:0 "Get rid of Afsharid Qajar and Balochistan"
 performance_colonization:0 "Enable Colonization for the 1789-1836 Era"
+performance_divisionlimitsystem:0 "Disable the Division Limit System for the 1789-1836 Era"
+performance_africa:0 "Enable Africa for the 1789-1836 Era"
+performance_sea:0 "Remove Southeast Asia"
+performance_india:0 "Remove India"
+performance_egypt:0 "Remove Egypt"
+performance_oman:0 "Remove Oman"
+performance_cascadialouisiana:0 "Remove Oregon and Louisiana"
 
 USA_admission:0 "Admission of the States into the Union"
+balkan_frenchrevolution:0 "The French Revolution in the Balkans"
+balkan_form_romania_one:0 "Form the United Principalities of Moldavia and Wallachia"
+balkan_form_bulgaria_romania_one:0 "Form Bulgaria-Romania"
+balkan_form_bulgaria_serbia_one:0 "Form Serbia-Bulgaria"
+HRE_form_south_german_confederation:0 "Form the South German Confederation"
+
 
 USA_admissionnc:0 "Admission of North Carolina into the Union"
 USA_admissionri:0 "Admission of Rhode Island into the Union"

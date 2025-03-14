@@ -43,7 +43,7 @@ state={
 	provinces={
 		921 3890 3921 6813 6888 6977 7620 9761 9912 
 	}
-	manpower=592821
+	manpower=492821
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

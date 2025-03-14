@@ -9,6 +9,10 @@ state={
 			owner = SPR
 			controller = SPR
 		}
+							1776.1.1 = {
+        add_core_of = BOL
+        owner = ARG
+        }
 				1789.1.1 = {
         add_core_of = BOL
         owner = ARG

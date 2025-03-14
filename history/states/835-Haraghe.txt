@@ -13,12 +13,6 @@ state={
 			}
 
 		}
-				1600.1.1 = {
-		owner = OTO
-		}
-		1804.1.1 = {
-		owner = EGY
-		}
 		1860.1.1 = {
 		victory_points = {
 			12049 5 

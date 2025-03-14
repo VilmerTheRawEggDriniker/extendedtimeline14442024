@@ -5,6 +5,10 @@ state={
 
 	history={
                 owner = ZZZ
+										1776.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
 		1789.1.1 = {
 		buildings = {
 			infrastructure = 1

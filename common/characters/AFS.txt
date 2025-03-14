@@ -1,0 +1,16 @@
+characters={
+	AFS_shahrokh={
+		name=AFS_CHARACTER_SHAHROKH
+		portraits={
+			civilian={
+				large="GFX_portrait_afs_shahrokh_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Afsharid}
+			desc = AFS_SHAHROKH_DESC
+			expire="1797.1.1"
+		}
+}
+}

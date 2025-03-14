@@ -16,6 +16,12 @@ state={
 		victory_points = {
 			690 1 
 		}
+		victory_points = {
+			14235 1 
+		}
+		victory_points = {
+			9619 1 
+		}
 		add_core_of = TRA
 		1700.1.1 = {
 			owner = HUN

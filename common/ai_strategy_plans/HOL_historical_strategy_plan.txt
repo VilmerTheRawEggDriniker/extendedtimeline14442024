@@ -1,0 +1,317 @@
+HOL_historical_plan = {
+	name = "Netherlands historical plan"
+	desc = "Historical behavior for Netherlands"
+
+	allowed = {
+		original_tag = HOL
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = HOL_ai_behavior 
+					option = DEFAULT
+				}
+			}
+			has_country_flag = HOL_AI_RANDOM_DEMOCRATIC_HISTORICAL
+			has_game_rule = {
+				rule = HOL_ai_behavior 
+				option = DEMOCRATIC_HISTORICAL
+			}
+		}
+	}
+	abort = {
+		AND = {
+			is_historical_focus_on = yes
+			has_game_rule = {
+				rule = HOL_ai_behavior 
+				option = DEFAULT
+			}
+		}
+		ENG = { has_completed_focus = ENG_a_change_in_course }
+		
+	}
+
+	ai_national_focuses = {
+netherlands_1789_1815_first_100_focus_1
+netherlands_1789_1815_first_100_focus_2
+netherlands_1789_1815_first_100_focus_3
+netherlands_1789_1815_first_100_focus_4
+netherlands_1789_1815_first_100_focus_5
+netherlands_1789_1815_first_100_focus_6
+netherlands_1789_1815_first_100_focus_7
+netherlands_1789_1815_first_100_focus_8
+netherlands_1789_1815_first_100_focus_9
+netherlands_1789_1815_first_100_focus_10
+netherlands_1789_1815_first_100_focus_11
+netherlands_1789_1815_first_100_focus_12
+netherlands_1789_1815_first_100_focus_13
+netherlands_1789_1815_first_100_focus_14
+netherlands_1789_1815_first_100_focus_15
+netherlands_1789_1815_first_100_focus_16
+netherlands_1789_1815_first_100_focus_17
+netherlands_1789_1815_first_100_focus_18
+netherlands_1789_1815_first_100_focus_19
+netherlands_1789_1815_first_100_focus_20
+netherlands_1789_1815_first_100_focus_21
+netherlands_1789_1815_first_100_focus_22
+netherlands_1789_1815_first_100_focus_23
+netherlands_1789_1815_first_100_focus_24
+netherlands_1789_1815_first_100_focus_25
+netherlands_1789_1815_first_100_focus_26
+netherlands_1789_1815_first_100_focus_27
+netherlands_1789_1815_first_100_focus_28
+netherlands_1789_1815_first_100_focus_29
+netherlands_1789_1815_first_100_focus_30
+netherlands_1789_1815_first_100_focus_31
+netherlands_1789_1815_first_100_focus_32
+netherlands_1789_1815_first_100_focus_33
+netherlands_1789_1815_first_100_focus_34
+netherlands_1789_1815_first_100_focus_35
+netherlands_1789_1815_first_100_focus_36
+netherlands_1789_1815_first_100_focus_37
+netherlands_1789_1815_first_100_focus_38
+netherlands_1789_1815_first_100_focus_39
+netherlands_1789_1815_first_100_focus_40
+netherlands_1789_1815_first_100_focus_41
+netherlands_1789_1815_first_100_focus_42
+netherlands_1789_1815_first_100_focus_43
+netherlands_1789_1815_first_100_focus_44
+netherlands_1789_1815_first_100_focus_45
+netherlands_1789_1815_first_100_focus_46
+netherlands_1789_1815_first_100_focus_47
+netherlands_1789_1815_first_100_focus_48
+netherlands_1789_1815_first_100_focus_49
+netherlands_1789_1815_first_100_focus_50
+
+netherlands_1789_1815_first_100_focus_51
+netherlands_1789_1815_first_100_focus_52
+netherlands_1789_1815_first_100_focus_53
+netherlands_1789_1815_first_100_focus_54
+netherlands_1789_1815_first_100_focus_55
+netherlands_1789_1815_first_100_focus_56
+netherlands_1789_1815_first_100_focus_57
+netherlands_1789_1815_first_100_focus_58
+netherlands_1789_1815_first_100_focus_59
+netherlands_1789_1815_first_100_focus_60
+
+netherlands_1789_1815_first_100_focus_61
+netherlands_1789_1815_first_100_focus_62
+netherlands_1789_1815_first_100_focus_63
+netherlands_1789_1815_first_100_focus_64
+netherlands_1789_1815_first_100_focus_65
+netherlands_1789_1815_first_100_focus_66
+netherlands_1789_1815_first_100_focus_67
+netherlands_1789_1815_first_100_focus_68
+netherlands_1789_1815_first_100_focus_69
+netherlands_1789_1815_first_100_focus_70
+
+netherlands_1789_1815_first_100_focus_71
+netherlands_1789_1815_first_100_focus_72
+netherlands_1789_1815_first_100_focus_73
+netherlands_1789_1815_first_100_focus_74
+netherlands_1789_1815_first_100_focus_75
+netherlands_1789_1815_first_100_focus_76
+netherlands_1789_1815_first_100_focus_77
+netherlands_1789_1815_first_100_focus_78
+netherlands_1789_1815_first_100_focus_79
+netherlands_1789_1815_first_100_focus_80
+
+netherlands_1789_1815_first_100_focus_81
+netherlands_1789_1815_first_100_focus_82
+netherlands_1789_1815_first_100_focus_83
+netherlands_1789_1815_first_100_focus_84
+netherlands_1789_1815_first_100_focus_85
+netherlands_1789_1815_first_100_focus_86
+netherlands_1789_1815_first_100_focus_87
+netherlands_1789_1815_first_100_focus_88
+netherlands_1789_1815_first_100_focus_89
+netherlands_1789_1815_first_100_focus_90
+
+netherlands_1789_1815_first_100_focus_91
+netherlands_1789_1815_first_100_focus_92
+netherlands_1789_1815_first_100_focus_93
+netherlands_1789_1815_first_100_focus_94
+netherlands_1789_1815_first_100_focus_95
+netherlands_1789_1815_first_100_focus_96
+netherlands_1789_1815_first_100_focus_97
+netherlands_1789_1815_first_100_focus_98
+netherlands_1789_1815_first_100_focus_99
+netherlands_1789_1815_first_100_focus_100
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+netherlands_1793_1836_focus_1
+netherlands_1793_1836_focus_2
+netherlands_1793_1836_focus_3
+netherlands_1793_1836_focus_4
+netherlands_1793_1836_focus_5
+netherlands_1793_1836_focus_6
+netherlands_1793_1836_focus_7
+netherlands_1793_1836_focus_8
+netherlands_1793_1836_focus_9
+netherlands_1793_1836_focus_10
+netherlands_1793_1836_focus_11
+netherlands_1793_1836_focus_12
+netherlands_1793_1836_focus_13
+netherlands_1793_1836_focus_14
+netherlands_1793_1836_focus_15
+netherlands_1793_1836_focus_16
+netherlands_1793_1836_focus_17
+netherlands_1793_1836_focus_18
+netherlands_1793_1836_focus_19
+netherlands_1793_1836_focus_20
+netherlands_1793_1836_focus_21
+netherlands_1793_1836_focus_22
+netherlands_1793_1836_focus_23
+netherlands_1793_1836_focus_24
+netherlands_1793_1836_focus_25
+netherlands_1793_1836_focus_26
+netherlands_1793_1836_focus_27
+netherlands_1793_1836_focus_28
+netherlands_1793_1836_focus_29
+netherlands_1793_1836_focus_30
+netherlands_1793_1836_focus_31
+netherlands_1793_1836_focus_32
+netherlands_1793_1836_focus_33
+netherlands_1793_1836_focus_34
+netherlands_1793_1836_focus_35
+netherlands_1793_1836_focus_36
+netherlands_1793_1836_focus_37
+netherlands_1793_1836_focus_38
+netherlands_1793_1836_focus_39
+netherlands_1793_1836_focus_40
+netherlands_1793_1836_focus_41
+netherlands_1793_1836_focus_42
+netherlands_1793_1836_focus_43
+netherlands_1793_1836_focus_44
+netherlands_1793_1836_focus_45
+netherlands_1793_1836_focus_46
+netherlands_1793_1836_focus_47
+netherlands_1793_1836_focus_48
+netherlands_1793_1836_focus_49
+netherlands_1793_1836_focus_50
+
+netherlands_1793_1836_focus_51
+netherlands_1793_1836_focus_52
+netherlands_1793_1836_focus_53
+netherlands_1793_1836_focus_54
+netherlands_1793_1836_focus_55
+netherlands_1793_1836_focus_56
+netherlands_1793_1836_focus_57
+netherlands_1793_1836_focus_58
+netherlands_1793_1836_focus_59
+netherlands_1793_1836_focus_60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		HOL_obtain_foreign_colonial_investments					#March 10 1936	
+		HOL_the_crown_jewel_colony					#May 20 1936	
+		HOL_the_western_possessions					#July 30 1936	
+		HOL_abandon_the_gold_standard					#October 10 1936
+		HOL_continue_the_public_works					#October 10 1936	
+		HOL_finish_the_noordoostpolder					#December 20 1936	
+		HOL_the_maastunnel					#February 30 1937	
+		HOL_expand_the_artillerieinrichtingen					#May 10 1937	
+		HOL_philips_focus					#July 20 1937	
+		HOL_expand_RD_facilities					#September 30 1937	
+		HOL_overturn_military_budget_cuts					#December 10 1937
+		HOL_prepare_naval_expansion					#February 20 1938	
+		HOL_cornerstone_of_colonial_defense					#April 30 1938	
+		HOL_modernize_the_cruiser_fleet					#July 10 1938	
+		HOL_expand_curacao_oil_refineries				#September 20 1938
+		HOL_prepare_the_inundation_lines					#November 30 1938
+		HOL_germany_is_the_greater_threat					#February 10 1939	
+		HOL_antilles_defenses					#April 20 1939	
+		HOL_form_new_government					#June 30 1939
+		HOL_gateway_to_europe				#September 10 1939	
+		HOL_appoint_new_supreme_commander					#November 20 1939	
+		HOL_modernize_our_infantry_equipment					#January 30 1940
+		HOL_secret_staff_talks					#April 10 1940
+		HOL_cave_to_the_british					#June 20 1940	
+		HOL_unity_through_democracy					#August 30 1940
+		HOL_go_with_britain					#November 10 1940
+		HOL_replace_the_defeatist_government					#January 20 1941	
+		HOL_de_vaarplicht					#March 30 1941	
+		HOL_expand_the_mld					#June 10 1941
+		HOL_protect_the_colonies					#August 20 1941
+		HOL_java
+		HOL_reinforce_java					#October 30 1941	
+		HOL_modernize_the_air_fleet					#January 10
+ 		HOL_the_singapore_conferences					#March 20 1942
+ 		HOL_ship_a_day_sinking_quotas					#May 30 1942	
+ 		HOL_allied_technological_developments					#August 10 1942
+ 		HOL_american_west_indies_protectorate					#October 20 1942	
+ 		HOL_zandery_military_airport					#December 30 1942	
+ 		HOL_open_second_paranam_bauxite_mine					#March 10 1943
+ 		HOL_request_allied_favors				#May 20 1943	
+ 		HOL_the_foundations_of_defense					#July 30 1943
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

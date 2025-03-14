@@ -30,6 +30,9 @@ state={
 		1812.1.1 = {
 	    owner = FRA
 		}
+		1814.1.1 = {
+	    owner = SWE
+		}
 		1816.1.1 = {
 			owner = PRE
 			add_core_of = PRE

@@ -14,18 +14,19 @@ state={
 
 	history={
 		owner = ZZZ
+				1776.1.1 = {
+        owner = CAS
+        add_core_of = CAS
+        }
 		1789.1.1 = {
-                owner = MEX
-                add_core_of = CAS
-                }
-		1836.1.1 = {
-                owner = CAS
-                add_core_of = CAS
-                }
+        owner = CAS
+        add_core_of = CAS
+        }
 		1848.1.1 = {
-                owner = USA
-                add_core_of = USA
-                }
+        owner = USA
+        add_core_of = USA
+		remove_core_of=CAS
+        }
 		1850.1.1 = {
 		victory_points = {
 			9616 1
@@ -35,11 +36,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-                }
-		1900.1.1 = {
-                owner = USA
-                remove_core_of = CAS
-                add_core_of = USA
                 }
 		buildings = {
 			infrastructure = 0

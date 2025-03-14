@@ -19,7 +19,7 @@ state=
 			1221 1 
 		}
 		}
-				1789.1.1 = {
+				1776.1.1 = {
         add_core_of = PHI
         owner = MEX
         }

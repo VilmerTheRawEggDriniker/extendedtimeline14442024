@@ -1,0 +1,375 @@
+﻿division_template = {
+	name = "French Division"
+
+	division_names_group = FRA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 480
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 6598
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 11419
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 13498
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 6500
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 9522
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 3444
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 587
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 11494
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 13480
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 11560
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 3558
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 549
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 9503
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 743
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 6966
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 6836
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 872
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 897
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 3899
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 9909
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 6780
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 6788
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 9904
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+
+
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 6241
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 9347
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 362
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 362
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 362
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 362
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 362
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 3604
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 11584
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 11587
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 9638
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 3679
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 11623
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#French Army
+	division = {
+		name = "French Division"
+		location = 663
+		division_template = "French Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "FRA"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

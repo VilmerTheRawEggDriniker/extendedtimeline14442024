@@ -1,4 +1,35 @@
 characters={
+					FRA_rothschildiiiii={
+		name=FRA_CHARACTER_ROTHSCHILDIIIII
+		portraits={
+                        army={
+				small="GFX_idea_fra_rothschildiiiii_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_rothschildiiiii_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_rothschildiiiii
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+		        }
+			traits  = {
+				rothschild_banker
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
 		FRA_napoleongeneral={
 		name=FRA_CHARACTER_NAPOLEONGENERAL
 		portraits={
@@ -16,7 +47,59 @@ characters={
 			legacy_id=0
 		}
 	}
-		FRA_charlesxivjohngeneral={
+			FRA_brunegeneral={
+		name=FRA_CHARACTER_BRUNEGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_fra_brunegeneral_large
+				small=GFX_portrait_fra_brunegeneral_small
+			}
+		}
+		field_marshal={
+		visible={FRA={has_country_flag=brune_has_been_hired}}
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+		FRA_maisongeneral={
+		name=FRA_CHARACTER_MAISONGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_fra_maisongeneral_large
+				small=GFX_portrait_fra_maisongeneral_small
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+			FRA_rignygeneral={
+		name=FRA_CHARACTER_RIGNYGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_fra_rignygeneral_large
+				small=GFX_portrait_fra_rignygeneral_small
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+			FRA_charlesxivjohngeneral={
 		name=FRA_CHARACTER_CHARLESXIVJOHNGENERAL
 		portraits={
 			army={
@@ -593,6 +676,34 @@ characters={
 			ideology=despotism
 			traits={Bonaparte}
 			desc = FRA_NAPOLEONI_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_napoleonii={
+		name=FRA_CHARACTER_NAPOLEONII
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_napoleonii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = FRA_NAPOLEONII_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_napoleoniii={
+		name=FRA_CHARACTER_NAPOLEONIII
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_napoleoniii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = FRA_NAPOLEONIII_DESC
 			expire="1797.1.1"
 		}
 }

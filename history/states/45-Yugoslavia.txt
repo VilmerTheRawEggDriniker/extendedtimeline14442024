@@ -8,7 +8,10 @@ state={
 			619 10 
 		}
 		victory_points = {
-			3623 1 
+			3623 3 
+		}
+						victory_points = {
+			13662 2
 		}
 		owner = HUN
                 add_core_of = HUN

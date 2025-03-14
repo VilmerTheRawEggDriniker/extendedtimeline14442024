@@ -1,4 +1,88 @@
 characters={
+	ISR_rothschild={
+		name=ISR_CHARACTER_ROTHSCHILD
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_rothschild_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Rothschild}
+			desc = ISR_ROTHSCHILD_DESC
+			expire="1797.1.1"
+		}
+}
+	ISR_rothschildi={
+		name=ISR_CHARACTER_ROTHSCHILDI
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_rothschildi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Rothschild}
+			desc = ISR_ROTHSCHILDI_DESC
+			expire="1797.1.1"
+		}
+}
+	ISR_rothschildii={
+		name=ISR_CHARACTER_ROTHSCHILDII
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_rothschildii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Rothschild}
+			desc = ISR_ROTHSCHILDII_DESC
+			expire="1797.1.1"
+		}
+}
+	ISR_rothschildiii={
+		name=ISR_CHARACTER_ROTHSCHILDIII
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_rothschildiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Rothschild}
+			desc = ISR_ROTHSCHILDIII_DESC
+			expire="1797.1.1"
+		}
+}
+	ISR_rothschildiiii={
+		name=ISR_CHARACTER_ROTHSCHILDIIII
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_rothschildiiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Rothschild}
+			desc = ISR_ROTHSCHILDIIII_DESC
+			expire="1797.1.1"
+		}
+}
+	ISR_rothschildiiiii={
+		name=ISR_CHARACTER_ROTHSCHILDIIIII
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_rothschildiiiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Rothschild}
+			desc = ISR_ROTHSCHILDIIIII_DESC
+			expire="1797.1.1"
+		}
+}
 	ISR_benjamin_netanyahu={
 		name="Benjamin Netanyahu"
 		portraits={

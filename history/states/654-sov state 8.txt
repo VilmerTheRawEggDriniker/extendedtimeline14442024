@@ -8,13 +8,19 @@ state={
 
 	history={
 		owner = ZZZ
-		1700.1.1 = {
+		1825.1.1 = {
 		victory_points = {
 			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}
                 }
-		1700.1.1 = {
+		1776.1.1 = {
+		add_core_of=MON
+                owner = QIN
+                }
+						1859.1.1 = {
 		add_core_of = RUS
+		remove_core_of= MON
+		remove_core_of= QNG
                 owner = RUS
                 }
 		1936.1.1 = {

@@ -11,12 +11,6 @@ state={
 			remove_core_of = SPR
 
 		}
-				1600.1.1 = {
-		owner = OTO
-		}
-		1804.1.1 = {
-		owner = EGY
-		}
 		buildings = {
 			infrastructure = 2
 

@@ -1,4 +1,26 @@
 ﻿capital = 126
+1789.1.1 = {
+recruit_character=ENG_rothschildiii
+}
+1848.1.1 = {
+retire_character=ENG_rothschildiii
+}
+1815.1.1 = {
+			if = {
+		limit = { has_start_date < 1864.1.1 }
+	set_autonomy = {
+        target = SEP
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1837.1.1 }
+		add_ideas=ENG_focus_outside_of_europe
+}
+}
 1688.1.1 = {
 			if = {
 		limit = { has_start_date < 1690.1.1 }
@@ -142,6 +164,7 @@ recruit_character=ENG_harcourtgeneral
 recruit_character=ENG_clarkegeneral
 
 recruit_character=ENG_hulsegeneral
+recruit_character=ENG_codringtongeneral
 }
 1800.1.1 = {
 retire_character=ENG_henrygeneral
@@ -172,6 +195,7 @@ retire_character=ENG_hulsegeneral
 retire_character=ENG_wellingtongeneral
 retire_character=ENG_ernestgeneral
 retire_character=ENG_adolphusgeneral
+retire_character=ENG_codringtongeneral
 }
 1900.1.1 = {
 retire_character=ENG_leopoldgeneral
@@ -242,6 +266,7 @@ promote_character=ENG_kingwilliamoforangeisaslutforbigjewishcock
 }
 1703.1.1 = {
 retire_character=ENG_kingwilliamoforangeisaslutforbigjewishcock
+retire_character=ENG_jamesii
 }
 
 1762.1.1 = {
@@ -250,7 +275,8 @@ promote_character=ENG_georgeiiieng
 recruit_character=ENG_georgeiveng
 recruit_character=ENG_williamiveng
 }
-1820.1.1 = {
+1821.1.1 = {
+promote_character=ENG_georgeiveng
 retire_character=ENG_georgeiiieng
 }
 1835.1.1 = {
@@ -280,7 +306,13 @@ promote_character=ENG_rishi_sunak
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1800.1.1 }
+		limit = { has_start_date < 1812.1.1 }
+set_oob = "ENG_1789_1815"
+}
+}
+1814.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
 set_oob = "ENG_1789_1815"
 }
 }
@@ -295,56 +327,6 @@ set_cosmetic_tag = ENG_britain # british empire
 }
 1801.1.1 = {
 set_cosmetic_tag = ENG_britain_newflag # british empire
-}
-1789.1.1 = {
-		if = {
-		limit = { has_start_date < 1860.1.1 }
-    set_autonomy = {
-        target = ITO
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-    set_autonomy = {
-        target = PEI
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-	set_autonomy = {
-        target = NBR
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-	set_autonomy = {
-        target = FOU
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-	set_autonomy = {
-        target = NOS
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-	set_autonomy = {
-        target = QUE
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-	set_autonomy = {
-        target = NOC
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-}
-}
-1791.1.1 = {
-		if = {
-		limit = { has_start_date < 1860.1.1 }
-    set_autonomy = {
-        target = ONT
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-}
 }
 1936.1.1 = {
 if = {
@@ -419,6 +401,7 @@ set_technology = {
 	infantry_weapons = 1
 	transport = 1
 	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 set_technology = {
@@ -613,6 +596,13 @@ set_convoys = 800
 1789.1.1 = {
     set_autonomy = {
         target = AST
+        autonomous_state = autonomy_colony
+        freedom_level = 0.2
+	}
+    }
+1776.1.1 = {
+    set_autonomy = {
+        target = CAN
         autonomous_state = autonomy_colony
         freedom_level = 0.2
 	}

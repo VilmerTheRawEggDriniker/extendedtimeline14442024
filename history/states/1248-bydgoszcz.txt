@@ -8,7 +8,7 @@ state={
 		1950.1.1 = {
 			remove_claim_by = GER
 		}
-		1789.1.1 = {
+		1776.1.1 = {
 			owner = PRE
 		}
 		1812.1.1 = {

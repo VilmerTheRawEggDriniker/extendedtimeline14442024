@@ -12,9 +12,20 @@ state={
 		victory_points = {
 			1459 20 
 		}
+				1936.1.1 = {
+                add_core_of = UZB
+                remove_core_of = KAZ
+                }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+
+		}
+				1500.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = UZB
 
 		}
 		1936.1.1 = {

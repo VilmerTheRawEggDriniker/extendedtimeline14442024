@@ -1,0 +1,45 @@
+characters={
+	NEU_frederickthegreat={
+		name=NEU_CHARACTER_FREDERICKTHEGREAT
+		portraits={
+			civilian={
+				large="GFX_portrait_neu_frederickthegreat_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hohenzollern}
+			desc = NEU_FREDERICKTHEGREAT_DESC
+			expire="1797.1.1"
+		}
+}
+	NEU_frederickwilliamii={
+		name=NEU_CHARACTER_FREDERICKWILLIAMII
+		portraits={
+			civilian={
+				large="GFX_portrait_neu_frederickwilliamii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hohenzollern}
+			desc = NEU_FREDERICKWILLIAMII_DESC
+			expire="1797.1.1"
+		}
+}
+	NEU_frederickwilliamiii={
+		name=NEU_CHARACTER_FREDERICKWILLIAMIII
+		portraits={
+			civilian={
+				large="GFX_portrait_neu_frederickwilliamiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Hohenzollern}
+			desc = NEU_FREDERICKWILLIAMIII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = ZZZ
-		1789.1.1 = {
+		1776.1.1 = {
         owner = QIN
 		add_core_of = MNG
         }
@@ -23,7 +23,7 @@ state={
 		1919.1.1 = {
 
 		}
-		1789.1.1 = {
+		1776.1.1 = {
 				victory_points = {
 			4973 1 
 		}

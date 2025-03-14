@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = HLS_CHRISTIANVII_DESC
 			expire="1797.1.1"
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = HLS_FREDERICKVI_DESC
 			expire="1797.1.1"

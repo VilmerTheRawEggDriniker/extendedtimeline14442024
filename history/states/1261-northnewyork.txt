@@ -11,6 +11,13 @@ state={
 		buildings = {infrastructure=1}
 		}
 		buildings = {infrastructure=0}
+				        1776.1.1 = {
+		owner = CAN
+		add_core_of=CAN
+		}
+				        1789.1.1 = {
+		remove_core_of=CAN
+		}
 	}
 	provinces={
 		598 3602 6778 6916 9708 9754 11662 

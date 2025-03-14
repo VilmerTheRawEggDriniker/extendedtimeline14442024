@@ -2,36 +2,58 @@
 state={
 	id=912
 	name="STATE_912"
-
 	history={
-		owner = ZZZ
-				1789.1.1 = {
-                owner = MEX
-                add_core_of = CAS
+		owner = SHL
+                add_core_of = SHL
+										1544.1.1 = {
+			owner = SHG
+			add_core_of = SHG
+			remove_core_of = SHL
+
+		}
+		1773.1.1 = {
+			owner = SHL
+			add_core_of = SHL
+			remove_core_of = SHG
+
+		}
+		1871.1.1 = {
+                add_core_of = GER
+                owner = GER
                 }
-		1836.1.1 = {
-                owner = CAS
-                add_core_of = CAS
+		1919.1.1 = {
+                remove_core_of = WUR
+                remove_core_of = SAX
+                remove_core_of = OLD
+                remove_core_of = HAN
+                remove_core_of = MEK
+                remove_core_of = SHL
+                remove_core_of = BAD
+                remove_core_of = BAY
+                remove_core_of = HES
+                remove_core_of = THU
+                remove_core_of = PRE
                 }
-		1848.1.1 = {
-                owner = USA
-                add_core_of = USA
-                }
-		1900.1.1 = {
-                owner = USA
-                remove_core_of = CAS
-                add_core_of = USA
-                }
+		victory_points = {
+			11251 1 
+		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
+
+		}
+		1920.1.1 = {
+			owner = DEN
+                  add_core_of = DEN
+                  remove_core_of = GER
+			controller = DEN
 		}
 
 	}
 
 	provinces={
-		505 528 3471 4274 10151 11495 11733 12281 
+		332 11251 13892 13894 
 	}
-	manpower=100000
+	manpower=200000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

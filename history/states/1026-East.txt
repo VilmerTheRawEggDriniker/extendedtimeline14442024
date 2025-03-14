@@ -8,6 +8,10 @@ state={
 			4975 1 
 		}
                 }
+										1776.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
 		1822.1.1 = {
                 owner = MEX
                 add_core_of = MEX

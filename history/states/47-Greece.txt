@@ -19,7 +19,7 @@ state={
 		add_core_of = GRE
 		remove_core_of = ATH
 		}
-		1836.1.1 = {
+		1822.1.1 = {
 		owner = GRE
 		}
 		victory_points = {

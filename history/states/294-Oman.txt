@@ -5,33 +5,19 @@ state={
 	resources={
 		oil=2.000
 	}
-
 	history={
-		owner = ZZZ
-		1900.1.1 = {
 		victory_points = {
 			10760 3 
 		}
-                }
-		1900.1.1 = {
 		owner = OMA
 		add_core_of = OMA
-                }
-		1900.1.1 = {
 		buildings = {
 			infrastructure = 1
 			10760 = {
 				naval_base = 3
-
 			}
-
-		}
-                }
-		buildings = {
-			infrastructure = 0
 		}
 	}
-
 	provinces={
 		1947 4993 8002 8020 10760 
 	}

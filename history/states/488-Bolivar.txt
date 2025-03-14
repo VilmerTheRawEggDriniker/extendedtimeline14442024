@@ -11,7 +11,7 @@ state={
 		1700.1.1 = {
                 owner = SPR
                 }
-		1789.1.1 = {
+		1776.1.1 = {
         add_core_of = VEN
         owner = COL
         }

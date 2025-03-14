@@ -4,10 +4,15 @@ state={
 	name="STATE_587"
 
 	history={
-		owner = KYR
-		add_core_of = KYR
+		owner = ZZZ
+				1776.1.1 = {
+                owner=QIN 
+				add_core_of=MNG
+                }
 		1900.1.1 = {
                 owner = RUS
+				add_core_of=KYR
+				remove_core_of=MNG
                 }
 		1936.1.1 = {
                 add_core_of = TAJ

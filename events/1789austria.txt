@@ -279,3 +279,134 @@ fire_only_once = yes
 	TYR={set_country_flag=tyrol_war_fra_bav}
 	}
 }
+
+country_event = {
+	id = aus_1789_event.11
+	title = "Reduction of Hungarian Greatness"
+	desc = aus_1789_event.11.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Balkanize Hungary"
+		ai_chance = { factor = 100 } 
+HUN={add_political_power=-150}
+CRO={set_cosmetic_tag=CRO_AUS}
+BNT={set_cosmetic_tag=BNT_AUS}
+TRA={set_cosmetic_tag=TRA_AUS}
+AUS={
+    set_autonomy = {
+        target = BNT
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.2
+	}
+	    set_autonomy = {
+        target = TRA
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.2
+	}
+	    set_autonomy = {
+        target = CRO
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.2
+	}
+}
+BNT={
+transfer_state=764
+transfer_state=82
+add_state_core=764
+add_state_core=82
+}
+TRA={
+transfer_state=76
+transfer_state=84
+transfer_state=887
+add_state_core=76
+add_state_core=84
+add_state_core=887
+}
+CRO={
+transfer_state=109
+transfer_state=925
+transfer_state=929
+transfer_state=930
+transfer_state=956
+}
+every_state = { #vichy north africa
+                    limit = {
+					or={
+                        is_core_of = BNT
+						is_core_of = TRA
+						is_core_of = CRO
+					}
+                    }
+                    remove_core_of = HUN
+                }
+	}
+}
+
+country_event = {
+	id = aus_1789_event.12
+	title = "Austrian Temporary Ownership of the Rhine and Belgium"
+	desc = aus_1789_event.12.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Austrian Claims"
+		ai_chance = { factor = 100 } 
+			BEL={
+		transfer_state = 6
+		transfer_state = 34
+		transfer_state = 973
+		transfer_state = 1243
+		transfer_state = 1171
+		transfer_state = 984
+		}
+				CLG={
+		transfer_state = 979
+		transfer_state = 980
+		transfer_state = 851
+		transfer_state = 690
+		transfer_state = 466
+		transfer_state = 843
+		transfer_state = 51
+		transfer_state = 985
+		}
+				TRR={
+		transfer_state = 970
+		transfer_state = 8
+		transfer_state = 42
+		transfer_state = 1237
+		transfer_state = 873
+		transfer_state = 880
+		transfer_state = 1239
+		transfer_state = 1182
+		}
+	TRR={set_cosmetic_tag=TRR_vienna}
+	CLG={set_cosmetic_tag=CLG_vienna}
+	BEL={set_cosmetic_tag=BEL_vienna}
+	AUS={
+			set_autonomy = {
+        target = TRR
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}
+		AUS={
+			set_autonomy = {
+        target = BEL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}
+		AUS={
+			set_autonomy = {
+        target = CLG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}
+	}
+}
+

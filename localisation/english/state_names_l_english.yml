@@ -342,7 +342,7 @@
  STATE_341:1 "Tekirdag"
  STATE_342:0 "Alaiyye"
  STATE_343:0 "Bursa"
- STATE_344:0 "Adana"
+ STATE_344:0 "Osmaniye"
  STATE_345:0 "Mut"
  STATE_346:0 "Karaman"
  STATE_347:0 "Duzce"
@@ -452,7 +452,7 @@
  STATE_451:0 "Cyrenaica"
  STATE_452:0 "Matrouh"
  STATE_453:0 "Sinai"
- STATE_454:0 "Israel"
+ STATE_454:0 "Jaffa"
  STATE_455:0 "Jordan"
  STATE_456:0 "Aswan"
  STATE_457:1 "Eastern Desert"
@@ -847,11 +847,11 @@
 
  STATE_844:0 "Dithmarschen"
  STATE_845:0 "Lippe"
- STATE_846:0 "Nordhausen"
+ STATE_846:0 "Ticino"
  STATE_847:0 "Bentheim"
  STATE_848:0 "South Pavia"
 
- STATE_849:0 "Ticino"
+ STATE_849:0 "Nordhausen"
  STATE_850:0 "Sachsen-Schlesien"
 
  STATE_851:0 "Eupen-Malmedy"
@@ -906,7 +906,7 @@
 
 
  STATE_891:0 "Cottbus"
- STATE_892:0 "Nord Schleswig"
+ STATE_892:0 "Roseburg"
  STATE_893:0 "Süd Schleswig"
  STATE_894:0 "Bohus"
  STATE_895:0 "Jämtland"
@@ -928,7 +928,7 @@
 
 
  STATE_911:0 "Bend"
- STATE_912:0 "Roseburg"
+ STATE_912:0 "Nord Schleswig"
  STATE_913:0 "Missoula"
  STATE_914:0 "Hildesheim"
  STATE_915:0 "Balta"
@@ -1005,7 +1005,7 @@
  STATE_975:0 "Gelderland"
  STATE_976:0 "Overijssel"
  STATE_977:0 "Rovigo"
- STATE_978:0 "Eastern Hainaut"
+ STATE_978:0 "Ost Cleves"
  STATE_979:0 "Liege"
  STATE_980:0 "Flemish Limburg" 
  STATE_981:0 "Savoie"
@@ -1316,7 +1316,7 @@
 
  STATE_1241:0 "Naugard" 
  STATE_1242:0 "Ost Stettin" 
- STATE_1243:0 "Ost Cleves" 
+ STATE_1243:0 "Eastern Hainaut" 
  STATE_1244:0 "Nienburg" 
  STATE_1245:0 "Hoya" 
  STATE_1246:0 "Rietberg" 
@@ -1357,5 +1357,3 @@
  STATE_1278:0 "Ganja" 
  STATE_1279:0 "Terek" 
  STATE_1280:0 "Dagestan Mountains" 
-
-

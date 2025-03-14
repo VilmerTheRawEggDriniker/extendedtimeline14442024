@@ -15,6 +15,10 @@ state={
 		1600.1.1 = {
                 owner = SPR
                 }
+														1776.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
 		1822.1.1 = {
                 add_core_of = MEX
                 owner = MEX

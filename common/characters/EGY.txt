@@ -1,0 +1,33 @@
+characters={
+	EGY_ali={
+		name=EGY_CHARACTER_ALI
+		portraits={
+			civilian={
+				large="GFX_portrait_egy_ali_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = EGY_ALI_DESC
+			expire="1797.1.1"
+		}
+}
+	EGY_pashageneral={
+		name=EGY_CHARACTER_PASHAGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_egy_pashageneral_large
+				small=GFX_portrait_egy_pashageneral_small
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=2
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+}
+

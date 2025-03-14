@@ -82,6 +82,8 @@ fra_anti_counter_revolution_austria:0 "Anti-Counter-Revolutionairy Army"
 
 FRA_execution_louisxvi:0 "Execution of Louis XVI" 
 
+FRA_louisxvi_murder_rus_maybe:0 "Louis XVI has been Murdered"
+
 FRA_first_coalition:0 "The War of the 1st Coalition" 
 
 FRA_reign_of_terror:0 "The Reign of Terror" 
@@ -151,7 +153,7 @@ fra_nancy_affair_debuff:0 "The Nancy Affair"
 fra_tax_door_window:0 "Tax on Doors and Windows"
 swiss_has_puppeted_by_fra:0 "France has changed the Swiss Government"
 
-wonthegamble:0 "the Gamble of 1688"
+wonthegamble:0 "the Glorious Revolution of 1688"
 
 gustav_iii_has_died:0 "Gustav III has been Murdered"
 
@@ -261,3 +263,122 @@ france_ministerofpubliceducation:0"Minister of Public Education"
 	POL_austrian_protection_against_russia:0 "Austrian Protection Against Russia"
 
 CIR_army:0 "The Circassian Army"
+
+POL_greater_poland_uprising:0 "Greater Poland uprising"
+
+CIR_offensive:0 "Anapa Campaign"
+
+CIR_offensive_kuban:0 "The Karachey-Cherkessia Campaign"
+
+OTO_offensive:0 "Odessa Campaign"
+
+CIR_RUS_peace_flag:0 "Has signed a peace deal with Circassia"
+
+GRE_greek_war_of_independence:0 "The Greek War of Independence"
+
+catherine_the_great_leader_generous:0 "Generous to the Russian Aristocracy"
+
+RUS_caviar_GRE:0 "Ioannis Varvakis Seafood"
+
+romania_has_been_formed_flag:0 "Romania has been Formed"
+
+POL_has_constitution_of_RUS_flag:0 "Poland-Lithuania has signed the Constitution of 3 May 1791"
+
+RUS_has_claimed_yedisan_aka_odessa_flag:0 "Russia has Claimed Yedisan"
+
+RUS_POL_war_focus_flag:0 "The Polish–Russian War Started"
+
+journey_from_st_petersburg_to_moscow_written_flag:0 "The Journey from St. Petersburg to Moscow has been written"
+
+saxon_envoy_to_austria:0 "Saxon Envoy to Austria"
+
+ENG_focus_outside_of_europe:0 "Focus outside of Europe"
+
+RUS_has_won_the_greek_plan_flag:0 "The Greek Plan was successful"
+
+QIN_JAP_RUS_the_russian_threat:0 "The Russian Threat"
+
+RUS_russia_greek_plan_ambition:0 "Greek Plan Ambition"
+
+WAL_dacia_romania_has_been_formed_flag:0 "Potemkin's Dacian Kingdom has been formed"
+
+has_founded_kodiak_alaska_flag:0 "Has founded Kodiak Alaska"
+
+RUS_orlov_revolt_two_greek_morea:0 "The 2nd Orlov Revolt"
+
+emmanuelderohanpolduc_has_died:0 "Emmanuel de Rohan-Polduc Has Died"
+
+hre_autonomy_idea_napoleonic_wars:0 "The Holy Roman Empire"
+
+war_of_survival_fra:0 "War of Survival"
+
+presidentoftheimperialacademyofarts:0 " President of the Imperial Academy of Arts"
+
+RUS_BKV_claim:0 "Russia has Claimed Bukovina"
+
+RUS_GLL_claim:0 "Russia has Claimed Galicia-Lodomeria"
+
+RUS_lotf_ali_zand_exile:0 "Russia has hosted Lotf Ali Zand"
+
+france_endsieg_flag:0 "France has the Endsieg"
+
+SPRENGPOR_pushfranceoutofiberia:0 "The Iberian Campaign"
+
+AUSPRERUS_pushfranceoutofrhine:0 "The Rhine Campaign"
+
+PRE_universal_conscription:0 "Prussian Universal Conscription"
+
+pre_architect:0 "Architect"
+
+PRE_has_completed_brandenburg_gate_flag:0 "Has completed the Brandenburg Gate"
+
+napoleonprussiaone_flag:0 "1800 startdate"
+
+napoleonprussiatwo_flag:0 "1812 startdate"
+
+napoleonprussiathree_flag:0 "1814 startdate"
+
+POM_pomerania_war_of_independence:0 "The Pomeranian Rival Government"
+
+pre_stuck_between_east_and_west:0 "Stuck between East and West"
+
+BEL_brabantian_revolution_has_happened:0 "The Brabantian Revolution has happened"
+OTO_defensive_strategy_izmail_russo_turkish_war:0 "Ottoman Defensive Strategy"
+
+polish_prussian_alliance:0 "Polish-Prussian Alliance"
+
+ottoman_prussian_alliance:0 "Ottoman-Prussian Alliance"
+
+triple_alliance:0 "Triple Alliance"
+
+triple_alliance_aus_pre_rus:0 "Austrian-Russian-Prussian Alliance"
+
+SPM_piedmont_has_allot_of_liberals:0 "Piedmontese Liberals"
+
+unlock_maghreb_decisions:0 "Has formed Tamaghza"
+
+PRE_HAN_ties_hre:0 "Hohenzollern-Hanover Beneficial Ties"
+
+PRE_NAS_ties_hre:0 "Hohenzollern-Nassau Beneficial Ties"
+
+PRE_HES_ties_hre:0 "Hohenzollern-Hesse Beneficial Ties"
+
+german_jewish_banker:0 "German-Jewish Banker"
+
+PRE_has_mendelssohn_flag:0 "Mendelssohn & Co. has been founded"
+
+century_of_prussia_flag:0 "The Century of Prussia"
+
+has_implied_abolition_of_serfdom_flag:0 "Has Declared Serfdom Unacceptable"
+
+PRE_louse_has_died:0 "Louise has died"
+
+PRE_prussia_best_minister:0 "Prussia's best Minister"
+
+PRE_pro_french_education:0 "Pro-French Education"
+
+PRE_has_claimed_the_throne_of_str:0 "Prussia has claimed the Throne of Mecklenburg-Strelitz"
+
+rothschild_banker:0 "Rothschild Banker"
+
+member_of_the_house_of_medici:0 "Member of the House of Medici"

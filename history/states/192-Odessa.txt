@@ -50,12 +50,18 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+		}
+		1800.1.1 = {
+				buildings = {
+			infrastructure = 3
+			industrial_complex = 1
 			dockyard = 1
 			11670 = {
 				naval_base = 3
 
 			}
 
+		}
 		}
 		1936.1.1 = {
 			buildings = {

@@ -1,6 +1,11 @@
 ################
 ##### FRA ######
 ################
+MENA_form_tamaghza_formable = {
+	icon = power_struggle
+	allowed = {
+	}
+}
 sweden_napoleonic_wars_category = {
 	icon = power_struggle
 	allowed = {
@@ -32,6 +37,16 @@ performance = {
 	}
 }
 RUS_frenchrevolution = {
+	icon = power_struggle
+	allowed = {
+	}
+}
+PRE_frenchrevolution = {
+	icon = power_struggle
+	allowed = {
+	}
+}
+balkan_frenchrevolution = {
 	icon = power_struggle
 	allowed = {
 	}

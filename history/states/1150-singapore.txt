@@ -4,12 +4,12 @@ state={
 	history={
 		owner = ZZZ
 		1880.1.1 = {
-                add_core_of = SIN
+                add_core_of = SNG
                 owner = MAL
                 }
 						1966.1.1 = {
-		add_core_of = SIN
-		owner = SIN
+		add_core_of = SNG
+		owner = SNG
         }
 		1879.1.1 = {
 		victory_points = {

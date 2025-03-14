@@ -1,5 +1,13 @@
 ﻿capital = 380
-
+1789.1.1 = {
+recruit_character=UTH_josephsmithsr
+promote_character=UTH_josephsmithsr
+recruit_character=UTH_josephsmith
+}
+1848.1.1 = {
+retire_character=UTH_josephsmithsr
+retire_character=UTH_josephsmith
+}
 
 set_research_slots = 2
 set_stability = 0.75

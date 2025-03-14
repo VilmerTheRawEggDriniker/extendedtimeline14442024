@@ -9,6 +9,7 @@ state={
 		1600.1.1 = {
 			owner = OTO
 			add_core_of = LEB
+			add_core_of = OTO
 			remove_core_of = ALY
 			remove_core_of = KRM
 			remove_core_of = RAM

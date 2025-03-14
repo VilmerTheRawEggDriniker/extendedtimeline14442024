@@ -15,7 +15,7 @@ state={
 			remove_core_of = GER
 
 		}
-		1789.1.1 = {
+		1776.1.1 = {
 			owner = PRE
 			add_core_of = PRE
 			remove_core_of = POL

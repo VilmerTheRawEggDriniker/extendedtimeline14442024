@@ -9,7 +9,6 @@ state={
 		1600.1.1 = {
 			owner = OTO
 			controller = OTO
-			add_core_of = OTO
 			add_core_of = CYR
 			remove_core_of = ALY
 			remove_core_of = KRM

@@ -14,7 +14,7 @@ state={
 			owner = DEN
 
 		}
-		1816.1.1 = {
+		1814.1.1 = {
 			remove_core_of = DEN
 			owner = NOR
 			add_core_of = NOR

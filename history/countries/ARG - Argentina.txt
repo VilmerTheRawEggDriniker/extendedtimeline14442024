@@ -1,4 +1,19 @@
 capital = 278
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1837.1.1 }
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1789.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+}
+}
 1444.11.11 = {
 set_cosmetic_tag = ARG_SPR #viceroyalty
 }

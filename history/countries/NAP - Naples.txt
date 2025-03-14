@@ -2,6 +2,12 @@
 	add_ideas = {
         mezzogiorno
 	}
+1789.1.1 = {
+recruit_character=NAP_rothschildiiii
+}
+1859.1.1 = {
+retire_character=NAP_rothschildiiii
+}
 1812.1.1 = {
 set_politics = {
 	ruling_party = neutrality
@@ -13,28 +19,27 @@ set_politics = {
 1765.1.1 = {
 recruit_character=NAP_ferdinandi
 promote_character=NAP_ferdinandi
-}
-1806.1.1 = {
 recruit_character=NAP_josephbonaparte
-promote_character=NAP_josephbonaparte
-retire_character=NAP_ferdinandi
-}
-1809.1.1 = {
 recruit_character=NAP_joachimmurat
+recruit_character=NAP_luigidemedici
+}
+1812.1.1 = {
 promote_character=NAP_joachimmurat
-retire_character=NAP_josephbonaparte
 }
 1816.1.1 = {
-recruit_character=NAP_ferdinandi
-promote_character=NAP_ferdinandi
 retire_character=NAP_joachimmurat
+promote_character=NAP_ferdinandi
 }
 1826.1.1 = {
 retire_character=NAP_ferdinandi
+retire_character=NAP_luigidemedici
+}
+1844.1.1 = {
+retire_character=NAP_josephbonaparte
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
+		limit = { has_start_date < 1837.1.1 }
 set_oob = "NAP_1789"
 }
 }

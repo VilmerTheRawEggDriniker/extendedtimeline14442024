@@ -13,8 +13,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_buildings_factor = -0.99
-industrial_capacity_factory = -0.99
+			production_speed_buildings_factor = -0.79
+industrial_capacity_factory = -0.79
 
 
 			}
@@ -32,8 +32,8 @@ industrial_capacity_factory = -0.99
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_buildings_factor = -0.89
-industrial_capacity_factory = -0.89
+			production_speed_buildings_factor = -0.69
+industrial_capacity_factory = -0.69
 
 			}
 		}
@@ -50,8 +50,8 @@ industrial_capacity_factory = -0.89
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_buildings_factor = -0.79
-industrial_capacity_factory = -0.79
+			production_speed_buildings_factor = -0.59
+industrial_capacity_factory = -0.59
 
 			}
 		}
@@ -68,29 +68,10 @@ industrial_capacity_factory = -0.79
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_buildings_factor = -0.69
-industrial_capacity_factory = -0.69
+			production_speed_buildings_factor = -0.49
+industrial_capacity_factory = -0.49
   guarantee_cost =100
 guarantee_tension = 100
-			}
-		}
-				nineteenth_century = {
-			picture = century
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			modifier = {
-			production_speed_buildings_factor = -0.59
-                        industrial_capacity_factory = -0.59
-guarantee_cost =1000
-guarantee_tension = 1000
 			}
 		}
 				twentieth_century = {
@@ -106,8 +87,8 @@ guarantee_tension = 1000
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_buildings_factor = -0.49
-industrial_capacity_factory = -0.49
+			production_speed_buildings_factor = -0.29
+industrial_capacity_factory = -0.29
 
 			}
 		}
@@ -124,8 +105,8 @@ industrial_capacity_factory = -0.49
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_buildings_factor = -0.39
-industrial_capacity_factory = -0.39
+			production_speed_buildings_factor = -0.19
+industrial_capacity_factory = -0.19
 
 			}
 		}
@@ -424,24 +405,6 @@ industrial_capacity_factory = -0.39
 			
 			modifier = {
 			stability_weekly = -0.001
-			}
-		}
-			alleged_backwardness= {
-			picture = russian_flag_paris
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			modifier = {
-			army_attack_factor = -0.1
-		    army_defence_factor = -0.05
-			production_speed_buildings_factor = -0.1
 			}
 		}
 			small_civ_boost= {

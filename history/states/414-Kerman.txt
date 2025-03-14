@@ -11,6 +11,16 @@ state={
 		remove_core_of = TIM
 		owner = PER
 		}
+			    1800.1.1 = {
+		add_core_of = QAJ
+		remove_core_of = PER
+		owner = QAJ
+		}
+		1849.1.1 = {
+		add_core_of = PER
+		remove_core_of = QAJ
+		owner = PER
+		}
 		buildings = {
 			infrastructure = 1
 

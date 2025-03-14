@@ -9,10 +9,16 @@ state={
 			add_core_of = TAL
 			remove_core_of = QAR
 		}
+				1837.1.1 = {
+			add_core_of = PER
+		}
 		1700.1.1 = {
 			owner = TAL
 			add_core_of = TAL
 			remove_core_of = SHI
+		}
+				1800.1.1 = {
+			remove_core_of = PER
 		}
 		1919.1.1 = {
 			add_core_of = AZR
@@ -31,10 +37,6 @@ state={
 		remove_core_of = BAK
 		remove_core_of = KRB
 		remove_core_of = ERV
-		}
-		1813.1.1 = {
-			owner = RUS
-			add_core_of = RUS
 		}
 		victory_points = {
 			4473 1 

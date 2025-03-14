@@ -24,6 +24,7 @@ bookmarks = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+                        ENG_focus_outside_of_europe
 			}
 			focuses = {
 			}
@@ -55,18 +56,20 @@ bookmarks = {
     		        aus_vulnerable_position
 			}
 			focuses = {
-                        austria_1789_1815_first_100_focus_21
-                        austria_1789_1815_first_100_focus_24
-                        austria_1789_1815_first_100_focus_85
 			}
 		}
 		PRE = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+			pre_hol_debt_invade
+			pre_stuck_between_east_and_west
+			pre_too_big_army
 			}
 			focuses = {
-
+            prussianrework_1789_1815_first_100_focus_13
+			prussianrework_1789_1815_first_100_focus_31
+			prussianrework_1789_1815_first_100_focus_46
 			}
 		}
 		RUS = {
@@ -77,9 +80,9 @@ bookmarks = {
                         alleged_backwardness
 			}
 			focuses = {
-                        russianempire_1789_1815_first_50_focus_49
-                        russianempire_1789_1815_first_50_focus_2
-                        russianempire_1789_1815_first_50_focus_25
+                        russianempirerework_1789_1815_first_100_focus_2
+                        russianempirerework_1789_1815_first_100_focus_48
+                        russianempirerework_1789_1815_first_100_focus_96
 			}
 		}
 		SWE = {
@@ -109,6 +112,38 @@ bookmarks = {
                         america_1789_1815_first_100_focus_41
                         america_1789_1815_first_100_focus_80
                         america_1789_1815_first_100_focus_92
+			}
+		}
+		SPM = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        mezzogiornotwo
+			}
+			focuses = {
+                        sardiniapiedmont_1789_1815_first_100_focus_5
+                        sardiniapiedmont_1789_1815_first_100_focus_29
+                        sardiniapiedmont_1789_1815_first_100_focus_43
+			}
+		}
+		BAY = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		HOL = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        wonthegamble
+			}
+			focuses = {
 			}
 		}
 		# minors from DLC ####

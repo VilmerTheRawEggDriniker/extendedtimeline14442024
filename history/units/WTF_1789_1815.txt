@@ -37,24 +37,6 @@ units = {
 	#Westphalian Army
 	division = {
 		name = "Westphalian Division"
-		location = 6377
-		division_template = "Westphalian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Westphalian Army
-	division = {
-		name = "Westphalian Division"
-		location = 564
-		division_template = "Westphalian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Westphalian Army
-	division = {
-		name = "Westphalian Division"
 		location = 564
 		division_template = "Westphalian Division"
 		start_experience_factor = 0.3
@@ -83,24 +65,6 @@ units = {
 	division = {
 		name = "Westphalian Division"
 		location = 3522
-		division_template = "Westphalian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Westphalian Army
-	division = {
-		name = "Westphalian Division"
-		location = 3522
-		division_template = "Westphalian Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Westphalian Army
-	division = {
-		name = "Westphalian Division"
-		location = 9509
 		division_template = "Westphalian Division"
 		start_experience_factor = 0.3
 	}

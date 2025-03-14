@@ -2,6 +2,62 @@ characters={
 
 
 ####### Country Leaders #######
+		BEL_jean={
+		name=BEL_CHARACTER_JEAN
+		portraits={
+			army={
+				large=GFX_portrait_bel_jean_large
+				small=GFX_portrait_bel_jean_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	BEL_jan={
+		name=BEL_CHARACTER_JAN
+		portraits={
+			civilian={
+				large="GFX_portrait_bel_jan_large"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			desc = BEL_JAN_DESC
+			expire="1797.1.1"
+		}
+}
+	BEL_van={
+		name=BEL_CHARACTER_VAN
+		portraits={
+			civilian={
+				large="GFX_portrait_bel_van_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = BEL_VAN_DESC
+			expire="1797.1.1"
+		}
+}
+	BEL_nelis={
+		name=BEL_CHARACTER_NELIS
+		portraits={
+			civilian={
+				large="GFX_portrait_bel_nelis_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = BEL_NELIS_DESC
+			expire="1797.1.1"
+		}
+}
 	BEL_casimir={
 		name=BEL_CHARACTER_CASIMIR
 		portraits={

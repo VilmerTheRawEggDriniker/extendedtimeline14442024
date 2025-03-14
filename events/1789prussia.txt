@@ -1,0 +1,2415 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = pre_1789_event
+
+# French Revolution
+country_event = {
+	id = pre_1789_event.1
+	title = "The Secularization of Munster"
+	desc = pre_1789_event.1.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Split Munster with Oldenburg and Arenberg"
+		ai_chance = { factor = 100 } 
+		MUN={set_cosmetic_tag = MUN_ARE}
+		every_state={
+        limit={
+        or={
+        state=872
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=MUN
+        }
+		every_state={
+        limit={
+        or={
+        state=720
+        }
+        }
+        add_core_of=OLD
+        remove_core_of=MUN
+        }
+				PRE={
+		transfer_state = 872
+		}
+						OLD={
+		transfer_state = 720
+		}
+	}
+}
+country_event = {
+	id = pre_1789_event.2
+	title = "The Secularization of Paderborn"
+	desc = pre_1789_event.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex Everything"
+		ai_chance = { factor = 100 } 
+	every_state={
+        limit={
+        or={
+        state=703
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=PAD
+        }
+	PRE={annex_country = { target = PAD transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.3
+	title = "The Secularization of Hildesheim"
+	desc = pre_1789_event.3.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=914
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=HLD
+        }
+	PRE={annex_country = { target = HLD transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.4
+	title = "The Secularization of Goslar"
+	desc = pre_1789_event.4.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=1161
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=GOS
+        }
+	PRE={annex_country = { target = GOS transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.5
+	title = "The Secularization of Wetzlar"
+	desc = pre_1789_event.5.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=837
+        }
+        }
+        add_core_of=HES
+        remove_core_of=WTZ
+        }
+	HES={annex_country = { target = WTZ transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.6
+	title = "The Secularization of Westphalia"
+	desc = pre_1789_event.6.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=704
+        }
+        }
+        add_core_of=HES
+        remove_core_of=CLW
+        }
+	HES={annex_country = { target = CLW transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.7
+	title = "The Secularization of Osnabruck"
+	desc = pre_1789_event.7.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=1189
+        }
+        }
+        add_core_of=HAN
+        remove_core_of=OSN
+        }
+	HAN={annex_country = { target = OSN transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.8
+	title = "The Secularization of Fulda"
+	desc = pre_1789_event.8.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=1236
+        }
+        }
+        add_core_of=NAS
+        remove_core_of=FUL
+        }
+	NAS={annex_country = { target = FUL transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.9
+	title = "The Secularization of Dortmund"
+	desc = pre_1789_event.9.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=57
+        }
+        }
+        add_core_of=NAS
+        remove_core_of=DOR
+        }
+	NAS={annex_country = { target = DOR transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.10
+	title = "The Secularization of Trier"
+	desc = pre_1789_event.10.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=877
+        }
+        }
+        add_core_of=NAS
+        remove_core_of=TRR
+        }
+	NAS={annex_country = { target = TRR transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.11
+	title = "The Integration of Bromberg Danzig and the Culmerland"
+	desc = pre_1789_event.11.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Integrate everything"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=85
+		state=1194
+		state=1248
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=POL
+		remove_core_of=MSV
+        }
+	}
+}
+country_event = {
+	id = pre_1789_event.12
+	title = "The Purchase of Ansbach and Bayreuth"
+	desc = pre_1789_event.12.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We ought to integrate all the Hohenzollern Lands"
+		ai_chance = { factor = 100 } 
+		ANS={set_cosmetic_tag=ANS_PRE}
+		BYR={set_cosmetic_tag=BYR_PRE}
+							PRE={
+								set_autonomy = {
+				target = ANS
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+												set_autonomy = {
+				target = BYR
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+				}
+	}
+}
+country_event = {
+	id = pre_1789_event.13
+	title = "The Annexation of Ansbach and Bayreuth"
+	desc = pre_1789_event.13.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Integrate everything"
+		ai_chance = { factor = 100 } 
+		PRE={
+		add_political_power=-150
+		add_state_core = 1199
+		add_state_core = 1198
+		}
+		ANS={
+		remove_state_core = 1199
+		}
+		BYR={
+		remove_state_core = 1198
+		}
+	PRE={
+	annex_country = { target = ANS transfer_troops = yes }
+	annex_country = { target = BYR transfer_troops = yes }
+	}
+	}
+}
+country_event = {
+	id = pre_1789_event.14
+	title = "Forcing Peace between Austria and the Ottomans"
+	desc = pre_1789_event.14.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Lets Force the Issue on Austria"
+		ai_chance = { factor = 100 } 
+	PRE={add_political_power=25}
+	AUS={country_event = russianempire_1789_1812.7}
+	}
+}
+country_event = {
+	id = pre_1789_event.15
+	title = "Annexation of Westphalia"
+	desc = pre_1789_event.15.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "It Belong to us!"
+		ai_chance = { factor = 100 } 
+		PRE={
+	add_popularity = { ideology = democratic popularity = -0.01}
+				    every_state={
+		limit={
+        is_core_of=WTF
+		}
+		add_core_of=PRE
+		remove_core_of=WTF
+		}
+	annex_country = { target = WTF transfer_troops = no }
+	}
+	}
+}
+country_event = {
+	id = pre_1789_event.16
+	title = "Annexation of Danzig"
+	desc = pre_1789_event.16.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Danzig is mostly German anyways"
+		ai_chance = { factor = 100 } 
+	PRE={
+	add_popularity = { ideology = democratic popularity = -0.01}
+				    every_state={
+		limit={
+        is_core_of=DNZ
+		}
+		add_core_of=PRE
+		remove_core_of=DNZ
+		}
+	annex_country = { target = DNZ transfer_troops = no }
+	}
+	}
+}
+country_event = {
+	id = pre_1789_event.17
+	title = "The Convention of Tauroggen"
+	desc = pre_1789_event.17.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Let's Peace out with Russia"
+		ai_chance = { factor = 100 } 
+	PRE={white_peace = RUS
+	}
+	PRE={add_manpower=-10000}
+	RUS={add_manpower=10000}
+	PRE={add_political_power=-25}
+	FRA={add_political_power=-25}
+	}
+}
+country_event = {
+	id = pre_1789_event.18
+	title = "Leaving the Continental System"
+	desc = pre_1789_event.18.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We need to Peace out with the entire Coalition"
+		ai_chance = { factor = 100 } 
+	add_stability=0.05
+PRE={leave_faction=yes}
+every_country = {
+  limit = {
+  has_war_with = PRE
+  }
+  white_peace = PRE
+}
+	}
+}
+country_event = {
+	id = pre_1789_event.19
+	title = "Joining the 6th Coalition"
+	desc = pre_1789_event.19.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The House of Capet being restored is a requirment!"
+		ai_chance = { factor = 100 } 
+	add_stability=-0.05
+	ENG={add_to_faction = PRE}
+		PRE = {
+	declare_war_on = {
+		target = FRA
+		type = annex_everything
+	}
+	}
+	}
+}
+country_event = {
+	id = pre_1789_event.20
+	title = "Establishing Universal Conscription"
+	desc = pre_1789_event.20.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "A few citizens may not like it but its mostly a positive"
+		ai_chance = { factor = 100 } 
+	add_war_support=-0.05
+	add_ideas=PRE_universal_conscription
+	}
+}
+country_event = {
+	id = pre_1789_event.21
+	title = "An Mein Volk!"
+	desc = pre_1789_event.21.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We need to Rally the Prussian people to fight against the French Threat"
+		ai_chance = { factor = 100 } 
+	add_political_power=-25
+	add_war_support=0.05
+	add_manpower=30000
+	}
+}
+country_event = {
+	id = pre_1789_event.22
+	title = "The Rhine Campaign"
+	desc = pre_1789_event.22.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We will cross the rhine!"
+		ai_chance = { factor = 100 } 
+PRE={country_event = pre_1789_event.23}
+	PRE={
+	add_timed_idea = {
+	idea = AUSPRERUS_pushfranceoutofrhine
+	days = 365
+	}
+	add_political_power=-25
+	}
+	AUS={
+	add_timed_idea = {
+	idea = AUSPRERUS_pushfranceoutofrhine
+	days = 365
+	}
+	add_political_power=-25
+	}
+	RUS={
+	add_timed_idea = {
+	idea = AUSPRERUS_pushfranceoutofrhine
+	days = 365
+	}
+	add_political_power=-25
+	}
+	}
+}
+country_event = {
+	id = pre_1789_event.23
+	title = "We should support Spain Portugal and Britain"
+	desc = pre_1789_event.23.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Iberia will be Liberated!"
+		ai_chance = { factor = 100 } 
+	SPR={
+	add_timed_idea = {
+	idea = SPRENGPOR_pushfranceoutofiberia
+	days = 365
+	}
+	add_political_power=-25
+	}
+		POR={
+	add_timed_idea = {
+	idea = SPRENGPOR_pushfranceoutofiberia
+	days = 365
+	}
+	add_political_power=-25
+	}
+		ENG={
+	add_timed_idea = {
+	idea = SPRENGPOR_pushfranceoutofiberia
+	days = 365
+	}
+	add_political_power=-25
+	}
+	}
+}
+country_event = {
+	id = pre_1789_event.24
+	title = "The Treaties of Reichenbach"
+	desc = pre_1789_event.24.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "These Terms are Acceptable"
+		ai_chance = { factor = 100 }
+		ENG={set_country_flag=pre_no_longer_has_claim_on_hildesheim_flag} 
+		PRE={add_manpower=80000}
+		PRE={add_political_power=-50}
+		PRE={
+				random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+						random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+		}
+	}
+	option = { # 
+		name = "We wont give up Hildesheim Goslar and East Frisia!"
+		ai_chance = { factor = 0 } 
+	PRE={add_political_power=-150}
+	ENG={add_political_power=-150}
+	PRE={set_country_flag=hildesheim_claimed_by_prussia_flag}
+	}
+}
+country_event = {
+	id = pre_1789_event.25
+	title = "Completion of the Brandenburg Gate"
+	desc = pre_1789_event.25.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Now we will be able to take care of other Projects!"
+		ai_chance = { factor = 100 } 
+		PRE={add_war_support=0.05
+        add_popularity = { ideology = neutrality popularity = 0.05}
+							64 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+		}
+	PRE={country_event = pre_1789_event.27}
+	}
+}
+country_event = {
+	id = pre_1789_event.26
+	title = "The Invasion of France"
+	desc = pre_1789_event.26.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Lets Restore the House of Bourbon!"
+		ai_chance = { factor = 100 } 
+		PRE = {
+	declare_war_on = {
+		target = FRA
+		type = annex_everything
+	}
+	}
+	}
+}
+country_event = {
+	id = pre_1789_event.27
+	title = "The Architecht of the Brandenburg Gate"
+	desc = pre_1789_event.27.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Carl Gotthard Langhans is too brilliant to fire"
+		ai_chance = { factor = 100 } 
+    PRE={set_country_flag=PRE_has_completed_brandenburg_gate_flag}
+	PRE={activate_advisor = PRE_langhans}
+	add_political_power=-150
+	}
+	option = { # 
+		name = "His work was not that impressive..."
+		ai_chance = { factor = 0 } 
+	add_political_power=-25
+	add_war_support=-0.05
+	}
+}
+
+country_event = {
+	id = pre_1789_event.28
+	title = "The Treaty of Chaumont"
+	desc = pre_1789_event.28.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Each Country will need to lend 150k men in the fight against Napoleon"
+		ai_chance = { factor = 100 } 
+PRE={
+give_guarantee = AUS
+give_guarantee = RUS
+give_guarantee = ENG
+				random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+								random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+add_political_power=-50
+add_manpower=150000
+add_stability=-0.1
+}
+AUS={country_event = pre_1789_event.29}
+RUS={country_event = pre_1789_event.30}
+ENG={country_event = pre_1789_event.31}
+FRA={country_event = pre_1789_event.32}
+	}
+}
+country_event = {
+	id = pre_1789_event.29
+	title = "The Treaty of Chaumont"
+	desc = pre_1789_event.29.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Each Country will need to lend 150k men in the fight against Napoleon"
+		ai_chance = { factor = 100 } 
+AUS={
+give_guarantee = PRE
+give_guarantee = RUS
+give_guarantee = ENG
+				random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+								random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+add_political_power=-50
+add_manpower=150000
+}
+	}
+	option = { # 
+		name = "These terms are unacceptable"
+		ai_chance = { factor = 0 } 
+add_political_power=-150
+add_stability=-0.1
+	}
+}
+country_event = {
+	id = pre_1789_event.30
+	title = "The Treaty of Chaumont"
+	desc = pre_1789_event.30.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Each Country will need to lend 150k men in the fight against Napoleon"
+		ai_chance = { factor = 100 } 
+RUS={
+give_guarantee = PRE
+give_guarantee = AUS
+give_guarantee = ENG
+				random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+								random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+add_political_power=-50
+add_manpower=150000
+}
+	}
+	option = { # 
+		name = "These terms are unacceptable"
+		ai_chance = { factor = 0 } 
+add_political_power=-150
+add_stability=-0.1
+	}
+}
+country_event = {
+	id = pre_1789_event.31
+	title = "The Treaty of Chaumont"
+	desc = pre_1789_event.31.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Each Country will need to lend 150k men in the fight against Napoleon"
+		ai_chance = { factor = 100 } 
+ENG={
+give_guarantee = PRE
+give_guarantee = RUS
+give_guarantee = AUS
+				random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+								random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+add_political_power=-50
+add_manpower=150000
+add_stability=-0.1
+}
+	}
+	option = { # 
+		name = "These terms are unacceptable"
+		ai_chance = { factor = 0 } 
+add_political_power=-150
+	}
+}
+country_event = {
+	id = pre_1789_event.32
+	title = "The Treaty of Chaumont"
+	desc = pre_1789_event.32.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Give up Belgium and the Rhine? no"
+		ai_chance = { factor = 100 } 
+
+	}
+	option = { # 
+		name = "These terms are acceptable..."
+		ai_chance = { factor = 0 } 
+add_political_power=-150
+every_country = {
+  limit = {
+  has_war_with = FRA
+  }
+  white_peace = FRA
+}
+	}
+}
+country_event = {
+	id = pre_1789_event.33
+	title = "The Treaty of Töplitz"
+	desc = pre_1789_event.33.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Prussia along with Austria and Russia need to lend 60k men"
+		ai_chance = { factor = 100 } 
+AUS={country_event = pre_1789_event.34}
+RUS={country_event = pre_1789_event.35}
+PRE={
+								random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+add_political_power=-25
+add_manpower=60000
+add_stability=-0.05
+}
+	}
+}
+country_event = {
+	id = pre_1789_event.34
+	title = "The Treaty of Töplitz"
+	desc = pre_1789_event.34.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Prussia along with Austria and Russia need to lend 60k men"
+		ai_chance = { factor = 100 } 
+AUS={
+								random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+add_political_power=-25
+add_manpower=60000
+add_stability=-0.05
+}
+	}
+}
+country_event = {
+	id = pre_1789_event.35
+	title = "The Treaty of Töplitz"
+	desc = pre_1789_event.35.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Prussia along with Austria and Russia need to lend 60k men"
+		ai_chance = { factor = 100 } 
+RUS={
+								random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+add_political_power=-25
+add_manpower=60000
+add_stability=-0.05
+}
+	}
+}
+country_event = {
+	id = pre_1789_event.36
+	title = "The Fortress of Magdeburg"
+	desc = pre_1789_event.36.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Magdeburg will always be Prussian!"
+		ai_chance = { factor = 100 } 
+867={
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+add_building_construction = {
+    type = bunker
+    level = 5
+    instant_build = yes
+    province = 3522
+}
+}
+add_war_support=0.05
+	}
+}
+country_event = {
+	id = pre_1789_event.37
+	title = "The Invasion of Russia"
+	desc = pre_1789_event.37.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Prussia along with Austria and Russia need to lend 60k men"
+		ai_chance = { factor = 100 } 
+		PRE = {
+	declare_war_on = {
+		target = RUS
+		type = annex_everything
+	}
+	}
+	}
+}
+
+country_event = {
+	id = pre_1789_event.38
+	title = "Peace with the German States"
+	desc = pre_1789_event.38.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We need Peace"
+		ai_chance = { factor = 100 } 
+	add_war_support=-0.05
+	every_country={
+	limit={
+	or={
+	original_tag=MEK
+	original_tag=SAX
+	original_tag=ANH
+	original_tag=BAD
+	original_tag=WUR
+	original_tag=HOH
+	original_tag=STR
+	original_tag=LIP
+	original_tag=WLD
+	original_tag=COB
+
+    original_tag=THU
+	original_tag=WRZ
+	original_tag=NAS
+	original_tag=HES
+	original_tag=LCT
+	}
+	}
+	country_event = pre_1789_event.39
+	}
+	}
+}
+
+country_event = {
+	id = pre_1789_event.39
+	title = "Leaving the Continental System"
+	desc = pre_1789_event.39.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = no
+	option = { # 
+		name = "We need to Peace out with the entire Coalition"
+		ai_chance = { factor = 100 } 
+	add_stability=0.05
+ROOT={leave_faction=yes}
+every_country = {
+  limit = {
+  has_war_with = ROOT
+  }
+  white_peace = ROOT
+}
+	ENG={add_to_faction = ROOT}
+		ROOT = {
+	declare_war_on = {
+		target = FRA
+		type = annex_everything
+	}
+	}
+	}
+	option = { # 
+		name = "Ride or die"
+		ai_chance = { factor = 0 } 
+add_popularity = { ideology = democratic popularity = 0.1}
+	}
+}
+
+country_event = {
+	id = pre_1789_event.40
+	title = "Prussia Demands Western Pomerania"
+	desc = pre_1789_event.40.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Prussia can have it"
+		ai_chance = { factor = 100 } 
+	PRE={country_event = pre_1789_event.41}
+	}
+	option = { # 
+		name = "It will Remain with us"
+		ai_chance = { factor = 0 } 
+	PRE={country_event = pre_1789_event.42}
+	add_political_power=-50
+add_popularity = { ideology = democratic popularity = 0.1}
+	}
+}
+country_event = {
+	id = pre_1789_event.41
+	title = "Sweden gives us Western Pomerania!"
+	desc = pre_1789_event.41.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Great!"
+		ai_chance = { factor = 100 } 
+			every_state={
+        limit={
+        or={
+        state=1235
+		state=1240
+		state=62
+        }
+        }
+        add_core_of=PRE
+		transfer_state_to=PRE
+        remove_core_of=SWE
+        }
+	}
+}
+country_event = {
+	id = pre_1789_event.42
+	title = "Sweden rejects Prussian Demands"
+	desc = pre_1789_event.42.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "War it is!"
+		ai_chance = { factor = 100 } 
+			PRE = {
+	declare_war_on = {
+		target = SWE
+		type = annex_everything
+	}
+	}
+	}
+	option = { # 
+		name = "We wont risk it"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = pre_1789_event.43
+	title = "The Prussian King converts to Catholicism"
+	desc = pre_1789_event.43.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This doesn't mean we will worship the House of Habsburg-Lorraine"
+		ai_chance = { factor = 50 } 
+	PRE={
+	add_stability=-0.1
+	add_political_power=150
+	} 
+	PRE={set_country_flag=pre_no_king_aus}
+	}
+	option = { # 
+		name = "We are loyal to the Emperor"
+		ai_chance = { factor = 50 } 
+	PRE={
+	add_stability=-0.1
+	add_political_power=150
+	} 
+	PRE={set_country_flag=pre_no_king_aus}
+	}
+}
+country_event = {
+	id = pre_1789_event.44
+	title = "Forming the Teutonic Order"
+	desc = pre_1789_event.44.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Brilliant"
+		ai_chance = { factor = 100 } 
+    add_war_support=0.1
+	PRE={set_cosmetic_tag=PRE_TEU}
+	}
+}
+country_event = {
+	id = pre_1789_event.45
+	title = "This is Treason!"
+	desc = pre_1789_event.45.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "It's the Protestant Reformation once again"
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+        or={
+		state=1196
+		state=1197
+		state=63
+		state=897
+		state=1238
+		state=1247
+		state=1241
+		state=1242
+        }
+        }
+        add_core_of=POM
+		transfer_state_to=POM
+        }
+		every_state={
+        limit={
+        or={
+		state=68
+		state=908
+        }
+        }
+		transfer_state_to=POM
+        }
+	POM={country_event = pre_1789_event.48}
+	}
+}
+country_event = {
+	id = pre_1789_event.46
+	title = "Establishment of the Grand duchy of Poznan"
+	desc = pre_1789_event.46.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Poles need a break"
+		ai_chance = { factor = 100 } 
+			every_state={
+        limit={
+        or={
+        state=1248
+		state=1194
+		state=1195
+		state=86
+        }
+        }
+        add_core_of=POS
+		transfer_state_to=POS
+        }
+							PRE={
+								set_autonomy = {
+				target = POS
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+							}
+	}
+}
+country_event = {
+	id = pre_1789_event.47
+	title = "Annexation of the Culmerland"
+	desc = pre_1789_event.47.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Theres a decent amount of Germans there"
+		ai_chance = { factor = 100 } 
+			every_state={
+        limit={
+        or={
+		state=1194
+        }
+        }
+        add_core_of=PRE
+		remove_core_of=POS
+		transfer_state_to=PRE
+        }
+	}
+}
+
+country_event = {
+	id = pre_1789_event.48
+	title = "Pomerania in Rebellion"
+	desc = pre_1789_event.48.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Theres a decent amount of Germans there"
+		ai_chance = { factor = 100 } 
+	PRE={set_country_flag=PRE_POM_WAR_flag}
+	POM={ load_oob = "1789_POM"
+
+add_ideas = {
+POM_pomerania_war_of_independence
+}
+	}
+		PRE = {
+	declare_war_on = {
+		target = POM
+		type = annex_everything
+	}
+	}
+}
+}
+country_event = {
+	id = pre_1789_event.49
+	title = "Protestants submit to the Reich"
+	desc = pre_1789_event.49.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = PRE
+PRE={has_country_flag=PRE_POM_WAR_flag}
+has_war_with=POM
+POM = {surrender_progress > 0.8 }
+    date > 1789.1.1 date < 1812.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Some of these Traitors require the death penalty!"
+		ai_chance = { factor = 50 } 
+PRE={annex_country = { target = POM transfer_troops = no }}
+}
+	option = { # 
+		name = "Let's be relatively mild regarding the Protestant Rebels in Pomerania"
+		ai_chance = { factor = 50 } 
+PRE={annex_country = { target = POM transfer_troops = no }}
+}
+}
+country_event = {
+	id = pre_1789_event.50
+	title = "Protestants defeat the Reich"
+	desc = pre_1789_event.50.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = PRE
+PRE={has_country_flag=PRE_POM_WAR_flag}
+has_war_with=POM
+PRE = {surrender_progress > 0.5 }
+    date > 1789.1.1 date < 1812.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Some of these Traitors require the death penalty!"
+		ai_chance = { factor = 100 } 
+PRE={
+transfer_state=68
+transfer_state=908
+add_war_support=-0.1
+}
+every_country = {
+  limit = {
+  has_war_with = PRE
+  }
+  white_peace = PRE
+}
+							PRE={
+								set_autonomy = {
+				target = POM
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+				}
+}
+}
+
+
+country_event = {
+	id = pre_1789_event.51
+	title = "Annexation of Hanover"
+	desc = pre_1789_event.51.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Hanover is ours"
+		ai_chance = { factor = 100 } 
+		HAN={set_cosmetic_tag=HAN_PRE}
+							PRE={
+								set_autonomy = {
+				target = HAN
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+				}
+}
+}
+country_event = {
+	id = pre_1789_event.52
+	title = "Prussian Ambition"
+	desc = pre_1789_event.52.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Prussia needs to be dominant in Germany"
+		ai_chance = { factor = 100 } 
+PRE={add_war_support=0.1}
+PRE={set_country_flag=PRE_prussia_wants_all_of_germany_secular_not_secular_kinda}
+SAX={add_war_support=-0.05}
+HAN={add_war_support=-0.05}
+WUR={add_war_support=-0.05}
+HOL={add_war_support=-0.05}
+ENG={add_war_support=-0.05}
+FRA={add_war_support=-0.05}
+BAY={add_war_support=-0.05}
+DEN={add_war_support=-0.05}
+SWE={add_war_support=-0.05}
+RUS={add_war_support=-0.05}
+}
+}
+country_event = {
+	id = pre_1789_event.53
+	title = "The Order of the Red Eagle"
+	desc = pre_1789_event.53.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Seems Important Enough"
+		ai_chance = { factor = 100 } 
+PRE={
+army_experience = 25
+add_war_support=0.05
+}
+}
+}
+country_event = {
+	id = pre_1789_event.54
+	title = "The Colonization of Pomerania"
+	desc = pre_1789_event.54.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This may be our last effort towards Pomerania"
+		ai_chance = { factor = 100 } 
+1196={
+add_building_construction = {
+    type = bunker
+    level = 5
+    instant_build = yes
+    province = 6282
+}
+}
+hidden_effect={PRE={add_manpower=-30000}}
+				1184 = {
+				add_manpower = -10000
+			}
+				54 = {
+				add_manpower = -10000
+			}
+				55 = {
+				add_manpower = -10000
+			}
+				63 = {
+				add_manpower = 30000
+			}
+}
+}
+country_event = {
+	id = pre_1789_event.55
+	title = "The Future of Serfdom in Prussia"
+	desc = pre_1789_event.55.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We cant Remain Stagnant"
+		ai_chance = { factor = 100 } 
+add_stability=-0.2
+add_popularity = { ideology = democratic popularity = 0.05}
+add_political_power=150
+}
+}
+country_event = {
+	id = pre_1789_event.56
+	title = "The Future of Prussia"
+	desc = pre_1789_event.56.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Serfdom will end!"
+		ai_chance = { factor = 100 } 
+add_stability=0.1
+add_popularity = { ideology = democratic popularity = 0.01}
+add_political_power=150
+}
+}
+country_event = {
+	id = pre_1789_event.57
+	title = "Polish-Prussian Alliance"
+	desc = pre_1789_event.57.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Great"
+		ai_chance = { factor = 100 } 
+		PRE={set_country_flag=PRE_polish_prussian_alliance_flag}
+			POL = {
+				add_opinion_modifier = {
+					target = PRE
+					modifier = polish_prussian_alliance
+				}
+			}
+			PRE = {
+				add_opinion_modifier = {
+					target = POL
+					modifier = polish_prussian_alliance
+				}
+			}
+PRE={add_political_power=25}
+POL={add_political_power=25}
+PRE={
+give_guarantee = POL
+}
+POL={
+give_guarantee = PRE
+}
+}
+}
+country_event = {
+	id = pre_1789_event.58
+	title = "Fall of the Polish-Prussian Alliance"
+	desc = pre_1789_event.58.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Great..."
+		ai_chance = { factor = 100 } 
+		PRE={set_country_flag=PRE_polish_prussian_alliance_fall_flag}
+			POL = {
+				remove_opinion_modifier = {
+					target = PRE
+					modifier = polish_prussian_alliance
+				}
+			}
+			PRE = {
+				remove_opinion_modifier = {
+					target = POL
+					modifier = polish_prussian_alliance
+				}
+			}
+POL={add_political_power=-100}
+PRE={
+diplomatic_relation = {
+    country = POL
+    relation = guarantee
+    active = no
+}
+}
+POL={
+diplomatic_relation = {
+    country = PRE
+    relation = guarantee
+    active = no
+}
+}
+}
+}
+country_event = {
+	id = pre_1789_event.59
+	title = "Industry of Tecklenburg East Frisia Mark & Cleves"
+	desc = pre_1789_event.59.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "It's all rich German land"
+		ai_chance = { factor = 100 } 
+		PRE={
+		add_popularity = { ideology = democratic popularity = 0.05}
+							1155 = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+												1165 = {
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+												978 = {
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+												1179 = {
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+					}
+}
+}
+}
+country_event = {
+	id = pre_1789_event.60
+	title = "East or West"
+	desc = pre_1789_event.60.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Netherlands and Britain are our Friends"
+		ai_chance = { factor = 100 } 
+HOL={add_political_power=50}
+ENG={add_political_power=50}
+RUS={add_political_power=-50}
+AUS={add_political_power=-50}
+RUS={
+				random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+}
+AUS={
+				random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+}
+}
+	option = { # 
+		name = "We Partioned Poland with them"
+		ai_chance = { factor = 0 } 
+RUS={add_political_power=50}
+AUS={add_political_power=50}
+HOL={add_political_power=-50}
+ENG={add_political_power=-50}
+}
+}
+country_event = {
+	id = pre_1789_event.61
+	title = "Ottoman-Prussian Alliance"
+	desc = pre_1789_event.61.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Great"
+		ai_chance = { factor = 100 } 
+		PRE={set_country_flag=PRE_ottoman_prussian_alliance_flag}
+			OTO = {
+				add_opinion_modifier = {
+					target = PRE
+					modifier = ottoman_prussian_alliance
+				}
+			}
+			PRE = {
+				add_opinion_modifier = {
+					target = OTO
+					modifier = ottoman_prussian_alliance
+				}
+			}
+PRE={add_political_power=25}
+OTO={add_political_power=25}
+PRE={
+give_guarantee = OTO
+}
+OTO={
+give_guarantee = PRE
+}
+}
+}
+country_event = {
+	id = pre_1789_event.62
+	title = "The Treaty of Basel"
+	desc = pre_1789_event.62.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Great they wanted peace too"
+		ai_chance = { factor = 100 } 
+		PRE={set_country_flag=PRE_peace_of_basel_flag}
+every_country = {
+  white_peace = PRE
+}
+every_country = {
+  white_peace = NEU
+}
+}
+}
+country_event = {
+	id = pre_1789_event.63
+	title = "The Vassalization of Neuchatel"
+	desc = pre_1789_event.63.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We already have the same King"
+		ai_chance = { factor = 100 } 
+		NEU={set_cosmetic_tag=NEU_PRE}
+		PRE={set_country_flag=neu_vassal_pre_flag}
+							PRE={
+				set_autonomy = {
+				target = NEU
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+				}
+}
+}
+country_event = {
+	id = pre_1789_event.64
+	title = "The Hohenzollern's of Hohenzollern"
+	desc = pre_1789_event.64.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Ties between our countries are neccesary"
+		ai_chance = { factor = 100 } 
+		HOH={set_cosmetic_tag=HOH_PRE}
+		PRE={set_country_flag=hoh_vassal_pre_flag}
+							PRE={
+				set_autonomy = {
+				target = HOH
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+				}
+}
+}
+country_event = {
+	id = pre_1789_event.65
+	title = "The Pesky Kościuszko Uprising"
+	desc = pre_1789_event.65.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Declare war!"
+		ai_chance = { factor = 100 } 
+PRE={
+	declare_war_on = {
+		target = MSV
+		type = puppet_wargoal_focus
+	}
+}
+}
+}
+country_event = {
+	id = pre_1789_event.66
+	title = "Frederick William III Converts to Catholicism"
+	desc = pre_1789_event.66.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Great!"
+		ai_chance = { factor = 100 } 
+PRE={
+add_war_support=0.05
+add_stability=-0.05
+}
+}
+}
+country_event = {
+	id = pre_1789_event.67
+	title = "The Reign of Frederick William III"
+	desc = pre_1789_event.67.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Great!"
+		ai_chance = { factor = 100 } 
+PRE={
+add_stability=0.05
+add_war_support=0.05
+add_political_power=150
+}
+}
+}
+country_event = {
+	id = pre_1789_event.68
+	title = "Supporting the Statists of Belgium"
+	desc = pre_1789_event.68.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "They will be used as a Bargain chip"
+		ai_chance = { factor = 100 } 
+BEL={add_popularity = { ideology = neutrality popularity = 0.1}}
+PRE={
+add_war_support=0.05
+add_political_power=50
+}
+BEL={
+	add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 10000
+                    producer = PRE
+                }
+add_manpower=10000
+						random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+}
+}
+}
+country_event = {
+	id = pre_1789_event.69
+	title = "Joining the the Second League of Armed Neutrality"
+	desc = pre_1789_event.69.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We wish to Join!"
+		ai_chance = { factor = 100 } 
+PRE={
+give_guarantee = RUS
+give_guarantee = DEN
+give_guarantee = SWE
+}
+RUS={
+give_guarantee = PRE
+}
+DEN={
+give_guarantee = PRE
+}
+SWE={
+give_guarantee = PRE
+}
+}
+}
+country_event = {
+	id = pre_1789_event.70
+	title = "Invasion of Hanover"
+	desc = pre_1789_event.70.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Hanover is ours temporarily"
+		ai_chance = { factor = 100 } 
+							PRE={
+								set_autonomy = {
+				target = HAN
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+				}
+}
+}
+country_event = {
+	id = pre_1789_event.71
+	title = "Austria takes over Silesia"
+	desc = pre_1789_event.71.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Silesia is now Austrian it seems"
+		ai_chance = { factor = 100 } 
+every_country={
+limit={
+BOH={owns_state=69}
+BOH={is_subject_of=AUS}
+}
+every_state={
+limit={
+or={
+state=66
+state=67
+state=762
+}
+}
+add_core_of=BOH
+remove_core_of=PRE
+transfer_state_to=BOH
+}
+}
+every_country={
+limit={
+AUS={owns_state=69}
+BOH={is_subject_of=AUS}
+}
+every_state={
+limit={
+or={
+state=66
+state=67
+state=762
+}
+}
+add_core_of=AUS
+add_core_of=BOH
+remove_core_of=PRE
+transfer_state_to=AUS
+}
+}
+every_country={
+limit={
+AUS={owns_state=9}
+NOT={BOH={is_subject_of=AUS}}
+}
+every_state={
+limit={
+or={
+state=66
+state=67
+state=762
+}
+}
+add_core_of=AUS
+add_core_of=BOH
+remove_core_of=PRE
+transfer_state_to=AUS
+}
+}
+every_country={
+limit={
+PRE={owns_state=891}
+SAX={owns_state=1159}
+}
+every_state={
+limit={
+or={
+state=891
+}
+}
+add_core_of=SAX
+remove_core_of=PRE
+transfer_state_to=SAX
+}
+}
+}
+}
+country_event = {
+	id = pre_1789_event.72
+	title = "Formation of the Kingdom of Netherlands-Hanover"
+	desc = pre_1789_event.72.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Netherlands and Hanover need to stand together"
+		ai_chance = { factor = 100 } 
+	HOL={set_cosmetic_tag=netherlands_hanover_kingdom}
+	HOL={annex_country = { target = HAN transfer_troops = yes }}
+	every_state={
+limit={
+or={
+is_core_of=HAN
+}
+}
+add_core_of=HOL
+}
+	}
+}
+country_event = {
+	id = pre_1789_event.73
+	title = "Polish-Prussian Alliance?"
+	desc = pre_1789_event.73.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This is very much mutually beneficial!"
+		ai_chance = { factor = 100 } 
+	POL={add_political_power=25}
+	PRE={country_event = pre_1789_event.57}
+	}
+		option = { # 
+		name = "And become a Prussian puppet? no"
+		ai_chance = { factor = 0 }
+		POL={add_political_power=-25} 
+	}
+}
+country_event = {
+	id = pre_1789_event.74
+	title = "Ottoman-Prussian Alliance?"
+	desc = pre_1789_event.74.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This is very much mutually beneficial!"
+		ai_chance = { factor = 100 } 
+	OTO={add_political_power=25}
+	PRE={country_event = pre_1789_event.61}
+	}
+		option = { # 
+		name = "We dont see any benefit in this"
+		ai_chance = { factor = 0 }
+		OTO={add_political_power=-25} 
+	}
+}
+country_event = {
+	id = pre_1789_event.75
+	title = "Completion of the Jungfern Bridge"
+	desc = pre_1789_event.75.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Amazing i believe"
+		ai_chance = { factor = 100 } 
+									64 = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+							989 = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+												989 = {
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+	}
+}
+country_event = {
+	id = pre_1789_event.76
+	title = "Ties with Hanover Orange-Nassau and Hesse"
+	desc = pre_1789_event.76.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This is great"
+		ai_chance = { factor = 100 } 
+PRE={add_war_support=0.05}
+AUS={add_political_power=-25}
+FRA={add_political_power=-25}
+			PRE = {
+				add_opinion_modifier = {
+					target = HAN
+					modifier = PRE_HAN_ties_hre
+				}
+				add_opinion_modifier = {
+					target = NAS
+					modifier = PRE_NAS_ties_hre
+				}
+				add_opinion_modifier = {
+					target = HES
+					modifier = PRE_HES_ties_hre
+				}
+			}
+
+			HAN = {
+				add_opinion_modifier = {
+					target = PRE
+					modifier = PRE_HAN_ties_hre
+				}
+			}
+			HES = {
+				add_opinion_modifier = {
+					target = PRE
+					modifier = PRE_HES_ties_hre
+				}
+			}
+			NAS = {
+				add_opinion_modifier = {
+					target = PRE
+					modifier = PRE_NAS_ties_hre
+				}
+			}
+	}
+}
+
+country_event = {
+	id = pre_1789_event.77
+	title = "Founding of Mendelssohn & Co."
+	desc = pre_1789_event.77.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This Will benefit Berlin"
+		ai_chance = { factor = 100 } 
+	PRE={set_country_flag=PRE_has_mendelssohn_flag}
+							64 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+	hidden_effect={add_popularity = { ideology = neutrality popularity = -0.01}}
+	}
+}
+country_event = {
+	id = pre_1789_event.78
+	title = "The Annexation of Saarbrücken"
+	desc = pre_1789_event.78.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Let's help out our friends too"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=873
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=FRA
+		transfer_state_to=PRE
+        }
+	}
+	option = { # 
+		name = "We Shouldn't help out the Netherlands Bavaria and Sardinia-Piedmont"
+		ai_chance = { factor = 0 } 
+		PRE={add_political_power=-25}
+		HOL={add_political_power=-25}
+		BAY={add_political_power=-25}
+		SPM={add_political_power=-25}
+			every_state={
+        limit={
+        or={
+        state=873
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=FRA
+		transfer_state_to=PRE
+        }
+	}
+}
+
+
+country_event = {
+	id = pre_1789_event.82
+	title = "The Prussian Annexation of Northern Saxony"
+	desc = pre_1789_event.82.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Saxony should have been fully ours but we are willing to compromise"
+		ai_chance = { factor = 100 } 
+		SAX={add_war_support=-0.05}
+		AUS={add_war_support=0.05}
+		every_state={
+        limit={
+        or={
+        state=909
+		state=850
+		state=891
+		state=693
+		state=1159
+		state=1188
+		state=861
+		state=849
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=SAX
+		transfer_state_to=PRE
+        }
+	}
+}
+country_event = {
+	id = pre_1789_event.83
+	title = "The Death of Frederick William II"
+	desc = pre_1789_event.83.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = PRE
+    date > 1797.11.16 date < 1800.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Long live Frederick William II"
+		ai_chance = { factor = 100 } 
+PRE={
+add_manpower=-1
+}
+	PRE={
+add_stability=-0.05
+add_war_support=-0.05
+add_political_power=-150
+}
+PRE={retire_character=PRE_frederickwilliamii}
+hidden_effect={
+POS={retire_character=POS_frederickwilliamii}
+NEU={retire_character=NEU_frederickwilliamii}
+}
+	}
+}
+country_event = {
+	id = pre_1789_event.84
+	title = "The Death of the Queen consort of Prussia"
+	desc = pre_1789_event.84.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = PRE
+    date > 1810.7.19 date < 1811.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Louise of Mecklenburg-Strelitz died too young..."
+		ai_chance = { factor = 100 } 
+PRE={
+add_manpower=-1
+add_stability=-0.01
+add_popularity = { ideology = neutrality popularity = -0.01}
+}
+PRE={retire_character=PRE_louise}
+PRE={set_country_flag=PRE_louse_has_died}
+hidden_effect={
+STR={retire_character=POS_louise}
+}
+	}
+}
+country_event = {
+	id = pre_1789_event.85
+	title = "The Annexation of the Rhine"
+	desc = pre_1789_event.85.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Rhine is not the border of France and Prussia"
+		ai_chance = { factor = 100 } 
+			every_state={
+        limit={
+        or={
+        is_core_of=RHI
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=RHI
+		transfer_state_to=PRE
+        }
+					every_state={
+        limit={
+        or={
+        state=851
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=RHI
+		remove_core_of=BEL
+		remove_core_of=FRA
+		transfer_state_to=PRE
+        }
+	}
+}
+country_event = {
+	id = pre_1789_event.86
+	title = "The Annexation of the lands east of Koblenz"
+	desc = pre_1789_event.86.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We need more land"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=877
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=NAS
+		remove_core_of=TRR
+		transfer_state_to=PRE
+        }
+	}
+}
+country_event = {
+	id = pre_1789_event.87
+	title = "Arnsberg for Mainz seems fair"
+	desc = pre_1789_event.87.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We need more land"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=1182
+        }
+        }
+        add_core_of=HES
+        remove_core_of=PRE
+	    remove_core_of=FRA
+		remove_core_of=MNZ
+		remove_core_of=CLW
+		transfer_state_to=HES
+        }
+		every_state={
+        limit={
+        or={
+        state=704
+		state=837
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=HES
+		remove_core_of=FRA
+		remove_core_of=MNZ
+		remove_core_of=CLW
+		transfer_state_to=PRE
+        }
+	}
+}
+country_event = {
+	id = pre_1789_event.88
+	title = "Land exchanges with Hanover"
+	desc = pre_1789_event.88.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Hanover needs more land for Balance"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=1179
+		state=836
+		state=847
+		state=1161
+		state=914
+        }
+        }
+        add_core_of=HAN
+        remove_core_of=PRE
+		transfer_state_to=HAN
+        }
+	}
+}
+country_event = {
+	id = pre_1789_event.89
+	title = "The Prussian Annexation of Saxony"
+	desc = pre_1789_event.89.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Its ours now"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        is_core_of=SAX
+        }
+        }
+        add_core_of=PRE
+        remove_core_of=SAX
+        }
+		PRE={annex_country = { target = SAX transfer_troops = yes }}
+	}
+}
+country_event = {
+	id = pre_1789_event.90
+	title = "Prussia Joining the German Confederation"
+	desc = pre_1789_event.90.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "So this is the new HRE huh?"
+		ai_chance = { factor = 100 } 
+	add_stability=0.05	
+	}
+}
+country_event = {
+	id = pre_1789_event.91
+	title = "Keeping Ansbach and Bayreuth"
+	desc = pre_1789_event.91.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Berg should Remain Bavarian"
+		ai_chance = { factor = 100 } 
+	1198={add_claim_by=PRE}
+	1199={add_claim_by=PRE}
+							BAY={
+												set_autonomy = {
+				target = BRG
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+				}
+	}
+}
+
+country_event = {
+	id = pre_1789_event.105
+	title = "The Meek Country of Mecklenburg-Strelitz"
+	desc = pre_1789_event.105.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Let's Ask Adolphus Frederick IV to step down"
+		ai_chance = { factor = 100 } #althistory so cant determine chance
+		STR={country_event = pre_1789_event.106}
+	}
+}
+country_event = {
+	id = pre_1789_event.106
+	title = "Prussia Demands total submission"
+	desc = pre_1789_event.106.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We submit..."
+		ai_chance = { factor = 50 } #althistory so cant determine chance
+	PRE={country_event = pre_1789_event.107}
+	}
+	option = { # 
+		name = "We will not back down!"
+		ai_chance = { factor = 50 } #althistory so cant determine chance
+	PRE={country_event = pre_1789_event.108}
+	}
+}
+country_event = {
+	id = pre_1789_event.107
+	title = "Mecklenburg-Strelitz submits"
+	desc = pre_1789_event.107.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Louise the queen of Prussia is now the Monarch of Mecklenburg Strelitz"
+		ai_chance = { factor = 100 } #althistory so cant determine chance
+		STR={promote_character=STR_louise}
+			STR={set_cosmetic_tag=STR_PRE}
+							PRE={
+												set_autonomy = {
+				target = STR
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.35
+	            }
+				}
+	}
+}
+country_event = {
+	id = pre_1789_event.108
+	title = "Mecklenburg-Strelitz doesnt back down"
+	desc = pre_1789_event.108.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This means war..."
+		ai_chance = { factor = 100 } #althistory so cant determine chance
+	}
+}

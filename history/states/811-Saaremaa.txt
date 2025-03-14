@@ -16,7 +16,7 @@ state={
 		1900.1.1 = {
 		add_core_of = EST
 		}
-				1800.1.1 = {
+				1789.1.1 = {
                 owner = RUS
                 add_core_of = RUS
 				remove_core_of = LIV
@@ -27,7 +27,7 @@ state={
 		1689.1.1 = {
                 owner = SWE
                 }
-		1789.1.1 = {
+		1776.1.1 = {
                 owner = RUS
                 add_core_of = RUS
                 }

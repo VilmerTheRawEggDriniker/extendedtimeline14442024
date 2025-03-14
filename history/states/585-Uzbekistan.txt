@@ -13,6 +13,17 @@ state={
 			infrastructure = 2
 
 		}
+						1936.1.1 = {
+                add_core_of = UZB
+                remove_core_of = KAZ
+                }
+				1500.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = UZB
+
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV

@@ -1,0 +1,33 @@
+characters={
+	UTH_josephsmith={
+		name=UTH_CHARACTER_JOSEPHSMITH
+		portraits={
+			civilian={
+				large="GFX_portrait_uth_josephsmith_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Smith}
+			desc = UTH_JOSEPHSMITH_DESC
+			expire="1797.1.1"
+		}
+}
+}
+characters={
+	UTH_josephsmithsr={
+		name=UTH_CHARACTER_JOSEPHSMITHSR
+		portraits={
+			civilian={
+				large="GFX_portrait_uth_josephsmithsr_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Smith}
+			desc = UTH_JOSEPHSMITHSR_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

@@ -1,4 +1,10 @@
 ﻿capital = 276
+1776.1.1 = {
+set_cosmetic_tag = CAN_french_revolution_ENG
+}
+1868.1.1 = {
+set_cosmetic_tag = CAN
+}
 2023.1.1 = {
 recruit_character=CAN_shawndriscoll
 promote_character=CAN_shawndriscoll
@@ -6,6 +12,12 @@ retire_character=CAN_mackenzie_king
 }
 2023.1.1 = {
 set_party_name = { ideology = democratic long_name = CAN_procon_democratic_party_long name = CAN_procon_democratic_party }
+}
+set_technology = {
+	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 if = {
@@ -47,7 +59,7 @@ set_research_slots = 3
 set_country_flag = monroe_doctrine
 set_stability = 0.8
 set_war_support = 0.1
-
+1936.1.1 = {
 recruit_character = CAN_mackenzie_king
 recruit_character = CAN_adrien_arcand
 recruit_character = CAN_tim_buck
@@ -167,7 +179,7 @@ if = {
 
 	add_to_tech_sharing_group = commonwealth_research
 }
-
+}
 1939.1.1 = {
 	add_political_power = 1198
 	add_command_power = 100

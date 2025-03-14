@@ -1,17 +1,30 @@
 ﻿capital = 1186
-1740.1.1 = {
+1689.1.1 = {
+set_party_name = { ideology = neutrality long_name = SXL_HAN_neutrality_party_long name = SXL_HAN_neutrality_party }
+}
+1815.1.1 = {
 set_party_name = { ideology = neutrality long_name = SXL_OLD_neutrality_party_long name = SXL_OLD_neutrality_party }
 }
-1770.1.1 = {
+1762.1.1 = {
+recruit_character=SXL_georgeiiisxl
+recruit_character=SXL_georgeivsxl
+recruit_character=SXL_williamivsxl
 recruit_character=SXL_christianvii
-promote_character=SXL_christianvii
+recruit_character=SXL_frederickvi
+promote_character=SXL_georgeiiisxl
 }
 1808.1.1 = {
-recruit_character=SXL_frederickvi
-promote_character=SXL_frederickvi
 retire_character=SXL_christianvii
 }
-1840.1.1 = {
+1820.1.1 = {
+promote_character=SXL_frederickvi
+retire_character=SXL_georgeiiisxl
+}
+1835.1.1 = {
+retire_character=SXL_georgeivsxl
+}
+1837.1.1 = {
+retire_character=SXL_williamivsxl
 retire_character=SXL_frederickvi
 }
 # Starting tech

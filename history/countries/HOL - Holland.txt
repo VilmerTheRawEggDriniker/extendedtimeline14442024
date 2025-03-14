@@ -7,6 +7,16 @@ wonthegamble
 	}
 }
 }
+1821.1.1 = {
+			if = {
+		limit = { has_start_date < 1822.1.1 }
+	set_autonomy = {
+        target = LUX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1789.1.1 = {
 			if = {
 		limit = { has_start_date < 1799.1.1 }
@@ -27,24 +37,25 @@ retire_character=HOL_kingwilliamoforangeisaslutforbigjewishcock
 1750.1.1 = {
 recruit_character=HOL_williamv
 promote_character=HOL_williamv
-}
-1810.1.1 = {
 recruit_character=HOL_louisbonaparte
-promote_character=HOL_louisbonaparte
-retire_character=HOL_williamv
-}
-1811.1.1 = {
 recruit_character=HOL_louisii
-promote_character=HOL_louisii
-retire_character=HOL_louisbonaparte
+recruit_character=HOL_williami
 }
 1812.1.1 = {
-recruit_character=HOL_williami
+promote_character=HOL_louisii
+}
+1814.1.1 = {
 promote_character=HOL_williami
+}
+1806.1.1 = {
+retire_character=HOL_williamv
+}
+1831.1.1 = {
 retire_character=HOL_louisii
 }
 1848.1.1 = {
 retire_character=HOL_williami
+retire_character=HOL_louisbonaparte
 }
 1579.1.1 = {
 set_cosmetic_tag = HOL_republic # 
@@ -52,22 +63,37 @@ set_cosmetic_tag = HOL_republic #
 1795.1.1 = {
 set_cosmetic_tag = HOL_bat_rep # Netherlands East Indies
 }
-1796.1.1 = {
+1801.1.1 = {
 set_cosmetic_tag = HOL_bat_com # Netherlands East Indies
 }
-1797.1.1 = {
+1802.1.1 = {
 set_cosmetic_tag = HOL_kingdom # Netherlands East Indies
 }
-1798.1.1 = {
+1803.1.1 = {
 set_cosmetic_tag = HOL_principality # Netherlands East Indies
 }
-1836.1.1 = {
+1812.1.1 = {
+set_cosmetic_tag = HOL_FRA_annex # Netherlands East Indies
+}
+1814.1.1 = {
 set_cosmetic_tag = HOL # Netherlands East Indies
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1800.1.1 }
+		limit = { has_start_date < 1813.1.1 }
 set_oob = "HOL_1789"
+}
+}
+1814.1.1 = {
+		if = {
+		limit = { has_start_date < 1815.1.1 }
+set_oob = "HOL_1789_1815"
+}
+}
+1821.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "HOL_1830"
 }
 }
 1812.1.1 = {
@@ -187,6 +213,7 @@ add_ideas = {
 	HOL_wilhelmina
 }
 }
+1936.1.1 = {
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -231,7 +258,7 @@ recruit_character = HOL_meinout_rost_van_tonningen
 recruit_character = HOL_dirk_jan_de_geer
 recruit_character = HOL_pieter_sjoerds_gerbrandy
 recruit_character = HOL_wilhelmina
-
+}
 1939.1.1 = {
 	add_ideas = {
 		limited_conscription

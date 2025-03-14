@@ -8,6 +8,13 @@ state={
 			add_core_of = NWT
 
 		}
+										        1776.1.1 = {
+		owner = CAN
+		add_core_of=CAN
+		}
+				        1789.1.1 = {
+		remove_core_of=CAN
+		}
 		1812.1.1 = {
 			owner = ILL
 			add_core_of = ILL
@@ -18,7 +25,7 @@ state={
 			remove_core_of = NCR
 
 		}
-		1836.1.1 = {
+		1821.1.1 = {
 			owner = USA
 			add_core_of = USA
 			remove_core_of = UNO

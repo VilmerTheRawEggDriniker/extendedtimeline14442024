@@ -10,7 +10,7 @@ state={
 			owner = KRT
 			add_core_of = KRT
 		}
-		1789.1.1 = {
+		1776.1.1 = {
 			owner = GEO
 			add_core_of = GEO
 		remove_core_of=KAK

@@ -24,6 +24,24 @@ units = {
 		start_experience_factor = 0.3
 	}
 }
+units = {
+	#Papal Army
+	division = {
+		name = "Papal Division"
+		location = 9904
+		division_template = "Papal Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Papal Army
+	division = {
+		name = "Papal Division"
+		location = 9904
+		division_template = "Papal Division"
+		start_experience_factor = 0.3
+	}
+}
 
 ### Starting Equipment ###
 instant_effect = {

@@ -20,6 +20,9 @@ state={
 			remove_core_of = PER
 
 		}
+						1800.1.1 = {
+			remove_core_of = PER
+		}
 		1919.1.1 = {
 			add_core_of = ARM
 			owner = ARM
@@ -27,7 +30,7 @@ state={
 			remove_core_of = PER
 
 		}
-		1789.1.1 = {
+		1776.1.1 = {
 			owner = GEO
 
 		}

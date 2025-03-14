@@ -28,7 +28,7 @@ state={
 				1812.1.1 = {
         add_core_of = WTF
         }
-		1816.1.1 = {
+		1814.1.1 = {
 		remove_core_of = WTF
         }
 		1750.1.1 = {
@@ -41,7 +41,7 @@ state={
 			owner = FRA
 
 		}
-		1816.1.1 = {
+		1814.1.1 = {
 			add_core_of = HAN
 			owner = HAN
 

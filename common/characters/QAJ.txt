@@ -1,0 +1,44 @@
+characters={
+	QAJ_aghamohammadkhanqajar={
+		name=QAJ_CHARACTER_AGHAMOHAMMADKHANQAJAR
+		portraits={
+			civilian={
+				large="GFX_portrait_qaj_aghamohammadkhanqajar_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Qajar}
+			desc = QAJ_AGHAMOHAMMADKHANQAJAR_DESC
+			expire="1797.1.1"
+		}
+}
+	QAJ_fathalishahqajar={
+		name=QAJ_CHARACTER_FATHALISHAHQAJAR
+		portraits={
+			civilian={
+				large="GFX_portrait_qaj_fathalishahqajar_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Qajar}
+			desc = QAJ_FATHALISHAHQAJAR_DESC
+			expire="1797.1.1"
+		}
+}
+	QAJ_mohammadshahqajar={
+		name=QAJ_CHARACTER_MOHAMMADSHAHQAJAR
+		portraits={
+			civilian={
+				large="GFX_portrait_qaj_mohammadshahqajar_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Qajar}
+			desc = QAJ_MOHAMMADSHAHQAJAR_DESC
+			expire="1797.1.1"
+		}
+}
+}

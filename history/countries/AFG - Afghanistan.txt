@@ -45,12 +45,6 @@ if = {
 	}
 }
 }
-1789.1.1 = {
-recruit_character = AFG_timur_shah_durrani
-}
-1836.1.1 = {
-retire_character = AFG_timur_shah_durrani
-}
 recruit_character = AFG_mohammed_zahir_shah
 recruit_character = AFG_akram_sattari
 recruit_character = AFG_yaqub_khan

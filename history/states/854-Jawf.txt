@@ -3,6 +3,11 @@ state={
 	name="STATE_854"
 	history={
 		owner = ZZZ
+				1789.1.1 = {
+			owner = OTO
+			add_core_of=AFA
+
+		}
 		1900.1.1 = {
                 owner = FRA
 		add_core_of = DJI

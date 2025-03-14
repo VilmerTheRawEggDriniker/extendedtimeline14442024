@@ -3136,7 +3136,6 @@ has_completed_focus = russianempire_1793_1836_focus_2
 		
 		completion_reward = {
 		PRE={country_event = russianempire_1789_1812.20}
-		AUS={country_event = russianempire_1789_1812.20}
 	declare_war_on = {
 		target = POL
 		type = puppet_wargoal_focus

@@ -23,6 +23,9 @@ state={
 			remove_core_of = SHI
 
 		}
+						1800.1.1 = {
+			remove_core_of = PER
+		}
 		1836.1.1 = {
 			owner = RUS
 			add_core_of = RUS

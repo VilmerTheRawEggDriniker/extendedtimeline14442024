@@ -1,0 +1,119 @@
+﻿division_template = {
+	name = "Spanish Division"
+
+	division_names_group = SPR_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 6756
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 6756
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 6756
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 6756
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 3873
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 13223
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 3954
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 13225
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 11819
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Spanish Army
+	division = {
+		name = "Spanish Division"
+		location = 899
+		division_template = "Spanish Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SPR"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

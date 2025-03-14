@@ -1,0 +1,51 @@
+
+state={
+	id=445
+	name="STATE_445" # Quetta
+	manpower = 400000
+	
+	state_category = pastoral
+
+	history={
+		1900.1.1 = {
+		victory_points = {
+			5105 1
+		}
+		}
+		owner = MUG
+		add_core_of = MUG
+		1789.1.1 = {
+        remove_core_of = MUG
+		add_core_of = BAL
+		owner = BAL
+		}
+		1900.1.1 = {
+        remove_core_of = AFG
+		}
+		1900.1.1 = {
+		add_core_of = PAK
+		owner = RAJ
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 2
+			air_base = 4
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		1948.1.1 = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+            remove_core_of = RAJ
+		}
+	}
+
+	provinces={
+		1107 4990 5105 7847 7903 7975 8044 8098 10813 
+	}
+
+	local_supplies=0.0 
+}

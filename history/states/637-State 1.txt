@@ -5,12 +5,12 @@ state={
 
 	history={
 		owner = ZZZ
-		1789.1.1 = {
+		1776.1.1 = {
 			owner = RUS
 			add_core_of = RUS
 
 		}
-		1789.1.1 = {
+		1776.1.1 = {
 			buildings = {
 				infrastructure = 0
 				12207 = {
@@ -49,7 +49,7 @@ state={
 	provinces={
 		1823 7878 12207 
 	}
-	manpower=48831
+	manpower=38831
 	buildings_max_level_factor=1.000
 	state_category=wasteland
       impassable = yes

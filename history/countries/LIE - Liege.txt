@@ -2,11 +2,15 @@
 1784.1.1 = {
 recruit_character=LIE_cesar
 promote_character=LIE_cesar
+recruit_character=LIE_francois
+recruit_character=LIE_remy
 }
 1792.1.1 = {
-recruit_character=LIE_francois
 promote_character=LIE_francois
 retire_character=LIE_cesar
+}
+1810.1.1 = {
+retire_character=LIE_remy
 }
 1836.1.1 = {
 retire_character=LIE_francois

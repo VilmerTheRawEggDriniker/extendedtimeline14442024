@@ -1,4 +1,31 @@
 #reload countrycolors
+QAJ = {
+	color = rgb { 25 182 25 }
+	color_ui = rgb { 25 182 25 }
+}
+AFS = {
+	color = rgb { 62 143 229 }
+	color_ui = rgb { 62 143 229 }
+}
+KHU = {
+	color = rgb { 25 182 25 }
+	color_ui = rgb { 25 182 25 }
+}
+BAL = {
+	color = rgb { 0 171 0 }
+	color_ui = rgb { 0 171 0 }
+}
+SIB = {
+	color = rgb { 0 128 0 }
+	color_ui = rgb { 0 128 0 }
+}
+SIN = {
+	color = rgb { 229 50 43 }
+	color_ui = rgb { 229 50 43 }
+}
+
+
+
 NOS = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
@@ -31,6 +58,7 @@ WST = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
 }
+
 
 
 
@@ -285,7 +313,7 @@ BNI = {
 	color = rgb { 110 118 32 }
 	color_ui = rgb { 110 118 32 }
 }
-SIN = {
+SNG = {
 	color = rgb { 208 107 113 }
 	color_ui = rgb { 208 107 113 }
 }
@@ -1862,29 +1890,25 @@ SAL = {
 	color = rgb { 170 125 57 }
 	color_ui = rgb { 170 125 57 } 
 }
-POS = {
-	color = rgb { 170 60 170 }
-	color_ui = rgb { 170 60 170 } 
-}
-PAR = {
-	color = rgb { 169 169 75 }
-	color_ui = rgb { 169 169 75 } 
+PRM = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
 }
 MRV = {
 	color = rgb { 23 23 95 }
 	color_ui = rgb { 23 23 95 } 
 }
 MOD = {
-	color = rgb { 50 25 225 }
-	color_ui = rgb { 50 25 225 } 
+	color = rgb { 15 71 175 }
+	color_ui = rgb { 15 71 175 } 
 }
 MAS = {
-	color = rgb { 40 190 180 }
-	color_ui = rgb { 40 190 180 } 
+	color = rgb { 1 148 202 }
+	color_ui = rgb { 1 148 202 } 
 }
 LUC = {
-	color = rgb { 170 210 87 }
-	color_ui = rgb { 170 210 87 } 
+	color = rgb { 238 140 160 }
+	color_ui = rgb { 238 140 160 } 
 }
 KRA = {
 	color = rgb { 88 170 210 }
@@ -2188,7 +2212,7 @@ WPO = {
 	color = rgb { 0 106 168 }
 	color_ui = rgb { 0 106 168 }
 }
-WIS = {
+WSM = {
 	color = rgb { 0 106 168 }
 	color_ui = rgb { 0 106 168 }
 }
@@ -2896,6 +2920,10 @@ PRE = {
 	color = rgb { 39 35 71 }
 	color_ui = rgb { 160  160  160 }
 }
+POS = {
+	color = rgb { 39 35 71 }
+	color_ui = rgb { 160  160  160 }
+}
 SAX = {
 	color = rgb { 28 56 28 }
 	color_ui = rgb { 102 102 0 }
@@ -3077,8 +3105,8 @@ TOS = {
 	color_ui = rgb { 204 0 0 }
 }
 SPM = {
-	color = rgb { 0 255 255 }
-	color_ui = rgb { 0 179 179 }
+	color = rgb { 0 49 100 }
+	color_ui = rgb { 0 49 100 }
 }
 TTS = {
 	color = rgb { 230 230 0 }

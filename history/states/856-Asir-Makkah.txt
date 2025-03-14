@@ -16,6 +16,9 @@ state={
 				remove_core_of = MNT
 				remove_core_of = ITA
         }
+								1814.1.1 = {
+        controller = AUS
+		}
         1871.1.1 = {
                 owner = ITA
                 add_core_of = ITA

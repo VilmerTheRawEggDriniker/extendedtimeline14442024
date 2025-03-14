@@ -31,6 +31,9 @@ set_party_name = { ideology = neutrality long_name = ENG_HAN_neutrality_party_lo
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 set_technology = {
@@ -41,7 +44,7 @@ set_technology = {
 }
 
 set_convoys = 10
-
+1936.1.1 = {
 recruit_character = NIR_aa2
 recruit_character = NIR_awt
 recruit_character = NIR_coi
@@ -62,7 +65,7 @@ recruit_character = NIR_ncm
 recruit_character = NIR_ai2
 recruit_character = NIR_acas
 recruit_character = NIR_democratic_guy
-
+}
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -111,7 +114,17 @@ recruit_character = NIR_democratic_guy
 		dispersed_industry2 = 1
 	}
 }
-
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+    neutrality = 50
+}
+1936.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.1.24"
@@ -123,7 +136,7 @@ set_popularities = {
 	fascism = 1
 	communism = 1
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic

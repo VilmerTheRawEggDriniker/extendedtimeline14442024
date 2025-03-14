@@ -2,7 +2,7 @@
 1444.11.11 = {
 set_cosmetic_tag = BRA_POR #viceroyaltyjustkiddingportuguesepuppet
 }
-1813.1.1 = {
+1822.1.1 = {
 set_cosmetic_tag = BRA #independent
 }
 1936.1.1 = {

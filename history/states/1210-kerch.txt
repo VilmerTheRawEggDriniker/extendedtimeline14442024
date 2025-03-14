@@ -9,7 +9,7 @@ state={
 		owner = OTO
 		remove_core_of = GOA
 		}
-				1783.1.1 = {
+				1776.1.1 = {
 		remove_core_of = CRI
 		owner = RUS
 		add_core_of = RUS

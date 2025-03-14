@@ -1,0 +1,214 @@
+BAY_historical_plan = {
+	name = "Bavaria historical plan"
+	desc = "Historical behavior for Bavaria"
+
+	allowed = {
+	original_tag = BAY
+	}
+	enable = {
+	is_historical_focus_on = yes	
+	}
+
+	ai_national_focuses = {
+bavaria_1789_1815_first_100_focus_1
+bavaria_1789_1815_first_100_focus_2
+bavaria_1789_1815_first_100_focus_3
+bavaria_1789_1815_first_100_focus_4
+bavaria_1789_1815_first_100_focus_5
+bavaria_1789_1815_first_100_focus_6
+bavaria_1789_1815_first_100_focus_7
+bavaria_1789_1815_first_100_focus_8
+bavaria_1789_1815_first_100_focus_9
+bavaria_1789_1815_first_100_focus_10
+bavaria_1789_1815_first_100_focus_11
+bavaria_1789_1815_first_100_focus_12
+bavaria_1789_1815_first_100_focus_13
+bavaria_1789_1815_first_100_focus_14
+bavaria_1789_1815_first_100_focus_15
+bavaria_1789_1815_first_100_focus_16
+bavaria_1789_1815_first_100_focus_17
+bavaria_1789_1815_first_100_focus_18
+bavaria_1789_1815_first_100_focus_19
+bavaria_1789_1815_first_100_focus_20
+bavaria_1789_1815_first_100_focus_21
+bavaria_1789_1815_first_100_focus_22
+bavaria_1789_1815_first_100_focus_23
+bavaria_1789_1815_first_100_focus_24
+bavaria_1789_1815_first_100_focus_25
+bavaria_1789_1815_first_100_focus_26
+bavaria_1789_1815_first_100_focus_27
+bavaria_1789_1815_first_100_focus_28
+bavaria_1789_1815_first_100_focus_29
+bavaria_1789_1815_first_100_focus_30
+bavaria_1789_1815_first_100_focus_31
+bavaria_1789_1815_first_100_focus_32
+bavaria_1789_1815_first_100_focus_33
+bavaria_1789_1815_first_100_focus_34
+bavaria_1789_1815_first_100_focus_35
+bavaria_1789_1815_first_100_focus_36
+bavaria_1789_1815_first_100_focus_37
+bavaria_1789_1815_first_100_focus_38
+bavaria_1789_1815_first_100_focus_39
+bavaria_1789_1815_first_100_focus_40
+bavaria_1789_1815_first_100_focus_41
+bavaria_1789_1815_first_100_focus_42
+bavaria_1789_1815_first_100_focus_43
+bavaria_1789_1815_first_100_focus_44
+bavaria_1789_1815_first_100_focus_45
+bavaria_1789_1815_first_100_focus_46
+bavaria_1789_1815_first_100_focus_47
+bavaria_1789_1815_first_100_focus_48
+bavaria_1789_1815_first_100_focus_49
+bavaria_1789_1815_first_100_focus_50
+
+bavaria_1789_1815_first_100_focus_51
+bavaria_1789_1815_first_100_focus_52
+bavaria_1789_1815_first_100_focus_53
+bavaria_1789_1815_first_100_focus_54
+bavaria_1789_1815_first_100_focus_55
+bavaria_1789_1815_first_100_focus_56
+bavaria_1789_1815_first_100_focus_57
+bavaria_1789_1815_first_100_focus_58
+bavaria_1789_1815_first_100_focus_59
+bavaria_1789_1815_first_100_focus_60
+
+bavaria_1789_1815_first_100_focus_61
+bavaria_1789_1815_first_100_focus_62
+bavaria_1789_1815_first_100_focus_63
+bavaria_1789_1815_first_100_focus_64
+bavaria_1789_1815_first_100_focus_65
+bavaria_1789_1815_first_100_focus_66
+bavaria_1789_1815_first_100_focus_67
+bavaria_1789_1815_first_100_focus_68
+bavaria_1789_1815_first_100_focus_69
+bavaria_1789_1815_first_100_focus_70
+
+bavaria_1789_1815_first_100_focus_71
+bavaria_1789_1815_first_100_focus_72
+bavaria_1789_1815_first_100_focus_73
+bavaria_1789_1815_first_100_focus_74
+bavaria_1789_1815_first_100_focus_75
+bavaria_1789_1815_first_100_focus_76
+bavaria_1789_1815_first_100_focus_77
+bavaria_1789_1815_first_100_focus_78
+bavaria_1789_1815_first_100_focus_79
+bavaria_1789_1815_first_100_focus_80
+
+bavaria_1789_1815_first_100_focus_81
+bavaria_1789_1815_first_100_focus_82
+bavaria_1789_1815_first_100_focus_83
+bavaria_1789_1815_first_100_focus_84
+bavaria_1789_1815_first_100_focus_85
+bavaria_1789_1815_first_100_focus_86
+bavaria_1789_1815_first_100_focus_87
+bavaria_1789_1815_first_100_focus_88
+bavaria_1789_1815_first_100_focus_89
+bavaria_1789_1815_first_100_focus_90
+
+bavaria_1789_1815_first_100_focus_91
+bavaria_1789_1815_first_100_focus_92
+bavaria_1789_1815_first_100_focus_93
+bavaria_1789_1815_first_100_focus_94
+bavaria_1789_1815_first_100_focus_95
+bavaria_1789_1815_first_100_focus_96
+bavaria_1789_1815_first_100_focus_97
+bavaria_1789_1815_first_100_focus_98
+bavaria_1789_1815_first_100_focus_99
+bavaria_1789_1815_first_100_focus_100
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bavaria_1793_1836_focus_1
+bavaria_1793_1836_focus_2
+bavaria_1793_1836_focus_3
+bavaria_1793_1836_focus_4
+bavaria_1793_1836_focus_5
+bavaria_1793_1836_focus_6
+bavaria_1793_1836_focus_7
+bavaria_1793_1836_focus_8
+bavaria_1793_1836_focus_9
+bavaria_1793_1836_focus_10
+bavaria_1793_1836_focus_11
+bavaria_1793_1836_focus_12
+bavaria_1793_1836_focus_13
+bavaria_1793_1836_focus_14
+bavaria_1793_1836_focus_15
+bavaria_1793_1836_focus_16
+bavaria_1793_1836_focus_17
+bavaria_1793_1836_focus_18
+bavaria_1793_1836_focus_19
+bavaria_1793_1836_focus_20
+bavaria_1793_1836_focus_21
+bavaria_1793_1836_focus_22
+bavaria_1793_1836_focus_23
+bavaria_1793_1836_focus_24
+bavaria_1793_1836_focus_25
+bavaria_1793_1836_focus_26
+bavaria_1793_1836_focus_27
+bavaria_1793_1836_focus_28
+bavaria_1793_1836_focus_29
+bavaria_1793_1836_focus_30
+bavaria_1793_1836_focus_31
+bavaria_1793_1836_focus_32
+bavaria_1793_1836_focus_33
+bavaria_1793_1836_focus_34
+bavaria_1793_1836_focus_35
+bavaria_1793_1836_focus_36
+bavaria_1793_1836_focus_37
+bavaria_1793_1836_focus_38
+bavaria_1793_1836_focus_39
+bavaria_1793_1836_focus_40
+	}
+	focus_factors = {
+	}
+	research = {
+	}
+	ideas = {
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

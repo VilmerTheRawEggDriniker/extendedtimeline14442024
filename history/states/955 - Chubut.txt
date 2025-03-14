@@ -21,6 +21,9 @@ state={
 			remove_core_of = HRZ
 
 		}
+						victory_points = {
+			13825 1
+		}
 		1900.1.1 = {
 			owner = BOS
 			controller = BOS

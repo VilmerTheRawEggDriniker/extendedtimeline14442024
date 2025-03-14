@@ -259,7 +259,21 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
+			traits={Oldenburg}
+			desc = DEN_CHRISTIANVII_DESC
+			expire="1797.1.1"
+		}
+}
+	DEN_christianviii={
+		name=DEN_CHARACTER_CHRISTIANVIII
+		portraits={
+			civilian={
+				large="GFX_portrait_den_christianviii_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = DEN_CHRISTIANVII_DESC
 			expire="1797.1.1"
@@ -273,7 +287,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = DEN_FREDERICKVI_DESC
 			expire="1797.1.1"

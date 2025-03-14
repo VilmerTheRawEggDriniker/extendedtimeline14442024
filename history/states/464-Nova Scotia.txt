@@ -9,19 +9,9 @@ state={
 			owner = FRA
 			controller = FRA
 		}
-				                1789.1.1 = {
-			owner = NOS
-		add_core_of=NOS
-		}
-		1900.1.1 = {
-		remove_core_of=NOC
-		remove_core_of=NOS
-		remove_core_of=ITO
-		remove_core_of=ONT
-		remove_core_of=QUE
-		remove_core_of=PEI
-		remove_core_of=NBR
-		remove_core_of=FOU
+        1776.1.1 = {
+		owner = CAN
+		add_core_of=CAN
 		}
                 1750.1.1 = {
 		victory_points = {

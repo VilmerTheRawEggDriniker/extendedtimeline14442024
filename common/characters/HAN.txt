@@ -1,4 +1,60 @@
 characters={
+		HAN_william={
+		name=HAN_CHARACTER_WILLIAM
+		portraits={
+			civilian={
+				large="GFX_portrait_han_william_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Brunswick-Bevern}
+			desc = HAN_WILLIAM_DESC
+			expire="1797.1.1"
+		}
+}
+	HAN_charlesii={
+		name=HAN_CHARACTER_CHARLESII
+		portraits={
+			civilian={
+				large="GFX_portrait_han_charlesii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Brunswick-Bevern}
+			desc = HAN_CHARLESII_DESC
+			expire="1797.1.1"
+		}
+}
+	HAN_frederickwilliam={
+		name=HAN_CHARACTER_FREDERICKWILLIAM
+		portraits={
+			civilian={
+				large="GFX_portrait_han_frederickwilliam_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Brunswick-Bevern}
+			desc = HAN_FREDERICKWILLIAM_DESC
+			expire="1797.1.1"
+		}
+}
+	HAN_charleswilliamferdinand={
+		name=HAN_CHARACTER_CHARLESWILLIAMFERDINAND
+		portraits={
+			civilian={
+				large="GFX_portrait_han_charleswilliamferdinand_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Brunswick-Bevern}
+			desc = HAN_CHARLESWILLIAMFERDINAND_DESC
+			expire="1797.1.1"
+		}
+}
 	HAN_georgeiiihan={
 		name=HAN_CHARACTER_GEORGEIIIHAN
 		portraits={

@@ -22,6 +22,9 @@ state={
 		1812.1.1 = {
         owner = FRA
         }
+								1814.1.1 = {
+        controller = AUS
+		}
 		1816.1.1 = {
         owner = AUS
         add_core_of = AUS

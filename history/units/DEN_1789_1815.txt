@@ -73,7 +73,7 @@ units = {
 	#Danish Army
 	division = {
 		name = "Danish Division"
-		location = 6287
+		location = 6115
 		division_template = "Danish Division"
 		start_experience_factor = 0.3
 	}
@@ -82,7 +82,7 @@ units = {
 	#Danish Army
 	division = {
 		name = "Danish Division"
-		location = 6287
+		location = 6115
 		division_template = "Danish Division"
 		start_experience_factor = 0.3
 	}
@@ -91,7 +91,7 @@ units = {
 	#Danish Army
 	division = {
 		name = "Danish Division"
-		location = 6287
+		location = 6115
 		division_template = "Danish Division"
 		start_experience_factor = 0.3
 	}
@@ -100,25 +100,7 @@ units = {
 	#Danish Army
 	division = {
 		name = "Danish Division"
-		location = 6287
-		division_template = "Danish Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Danish Army
-	division = {
-		name = "Danish Division"
-		location = 6287
-		division_template = "Danish Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Danish Army
-	division = {
-		name = "Danish Division"
-		location = 6287
+		location = 11050
 		division_template = "Danish Division"
 		start_experience_factor = 0.3
 	}

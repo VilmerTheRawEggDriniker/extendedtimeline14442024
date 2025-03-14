@@ -61,7 +61,7 @@ remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
 	provinces={
 		618 3435 6486 6516 6620 9455 9592 11429 11736 
 	}
-	manpower=200000
+	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

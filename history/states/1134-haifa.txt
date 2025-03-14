@@ -15,7 +15,7 @@ state={
                         owner = MAS
                 add_core_of = MAS
         }
-        1836.1.1 = {
+        1837.1.1 = {
                 owner = MOD
                 add_core_of = MOD
                 remove_core_of = MAS

@@ -7,6 +7,7 @@ state={
 		buildings = {infrastructure = 0}
 		1860.1.1 = {
 		owner=RUS
+		add_core_of=RUS
 		}
 		1920.1.1 = {
 			owner = SOV

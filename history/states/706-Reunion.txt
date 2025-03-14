@@ -11,6 +11,14 @@ state={
 			owner = FRA
 			controller = FRA
 		}
+		1810.1.1 = {
+			owner = ENG
+			controller = ENG
+		}
+		1815.1.1 = {
+			owner = FRA
+			controller = FRA
+		}
 		1699.1.1 = {
 		buildings = {
 			infrastructure = 2

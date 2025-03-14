@@ -11,6 +11,16 @@ state={
 		remove_core_of = TIM
 		owner = PER
 		}
+		1789.1.1 = {
+		add_core_of = BAL
+		remove_core_of = PER
+		owner = BAL
+		}
+		1900.1.1 = {
+		add_core_of = PER
+		remove_core_of = BAL
+		owner = PER
+		}
 		victory_points = {
 			10782 1 
 		}

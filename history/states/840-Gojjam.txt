@@ -10,6 +10,9 @@ state={
 			infrastructure = 0
 
 		}
+				victory_points = {
+			11857 2
+		}
 		1880.1.1 = {
 			owner = BUL
 			controller = BUL

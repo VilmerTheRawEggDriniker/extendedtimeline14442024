@@ -101,75 +101,84 @@ trigger = {
 					FRA={has_completed_focus = france_1789_1815_first_50_focus_4}}
 fire_only_once = yes
 	option = { # 
-		name = "Oppose the Brabant Revolution"
-		ai_chance = { factor = 100 } 
-		news_event = fra_1789_news.3
-			set_capital = { state = 8 }
-			start_civil_war = {
-				ruling_party = neutrality
-				ideology = democratic
-				size = 0.3
-				capital = 1171
-				states = {1171 }
-			}
-			random_other_country = {
-				limit = {
-					original_tag = BEL
-					has_government = democratic
-
-
-				}
-				set_stability = 0.9
-				set_war_support = 0.8
-			}
-						random_other_country = {
-				limit = {
-					original_tag = BEL
-					has_government = neutrality
-
-
-				}
-				set_cosmetic_tag = BEL_AUS
-				set_stability = 0.3
-				set_war_support = 0.2
-			}
-
-	}
-		option = { # 
 		name = "Support the Brabant Revolution"
 		ai_chance = { factor = 100 } 
+BEL={promote_character = BEL_van}
+BEL={
+set_party_name = { ideology = neutrality long_name = BEL_STA_neutrality_party_long name = BEL_STA_neutrality_party }
+}
+every_state={
+limit={
+or={
+state=8
+state=970
+state=851
+}
+}
+add_core_of=LUX
+transfer_state_to=LUX
+}
+AUS={
+		set_autonomy = {
+        target = LUX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}
+AUS={
+		set_autonomy = {
+        target = BEL
+        autonomous_state = autonomy_free
+        freedom_level = 0.4
+	}
+	}
+BEL={ leave_faction = yes}
+BEL={set_country_flag=BEL_brabantian_revolution_has_happened}
 		news_event = fra_1789_news.3
-	set_capital = { state = 1171 }
-	 BEL={set_cosmetic_tag = BEL}
-			start_civil_war = {
-				ruling_party = democratic
-				ideology = neutrality
-				size = 0.5
-				capital = 8
-				states = {970 8 851 6 973 978 34 }
-			}
-			random_other_country = {
-				limit = {
-					original_tag = BEL
-					has_government = democratic
-
-
-				}
-				set_cosmetic_tag = BEL
-				set_stability = 0.9
-				set_war_support = 0.8
-			}
-						random_other_country = {
-				limit = {
-					original_tag = BEL
-					has_government = neutrality
-
-
-				}
-				set_cosmetic_tag = BEL_AUS
-				set_stability = 0.3
-				set_war_support = 0.2
-			}
+	BEL={set_cosmetic_tag = BEL_republic}
+	LUX={set_cosmetic_tag = BEL_AUS}
+LUX={country_event = fra_1789_event.120}
+	}
+		option = { # 
+		name = "Oppose the Brabant Revolution"
+		ai_chance = { factor = 0 } 
+BEL={promote_character = BEL_van}
+BEL={
+set_party_name = { ideology = neutrality long_name = BEL_STA_neutrality_party_long name = BEL_STA_neutrality_party }
+}
+every_state={
+limit={
+or={
+state=8
+state=970
+state=851
+}
+}
+add_core_of=LUX
+transfer_state_to=LUX
+}
+AUS={
+		set_autonomy = {
+        target = LUX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}
+AUS={
+		set_autonomy = {
+        target = BEL
+        autonomous_state = autonomy_free
+        freedom_level = 0.4
+	}
+	}
+BEL={set_country_flag=BEL_brabantian_revolution_has_happened}
+		news_event = fra_1789_news.3
+	BEL={set_cosmetic_tag = BEL_republic}
+	LUX={set_cosmetic_tag = BEL_AUS}
+LUX={country_event = fra_1789_event.120}
+	LUX = {
+    change_tag_from = BEL
+    }
 	}
 }
 country_event = {
@@ -439,6 +448,7 @@ fire_only_once = yes
 		name = "Treaty of Campo Formio"
 		ai_chance = { factor = 100 } 
 AUS={puppet = VNT}
+FRA={transfer_state=964}
 FRA={set_country_flag = campoformio_flag}
 every_country = {
   white_peace = FRA
@@ -475,6 +485,7 @@ fire_only_once = yes
 		name = "Treaty of Campo Formio"
 		ai_chance = { factor = 100 } 
 AUS={puppet = VNT}
+FRA={transfer_state=964}
 FRA={set_country_flag = campoformio_flag}
 every_country = {
   white_peace = FRA
@@ -548,15 +559,20 @@ country_event = {
 	is_triggered_only = yes
 fire_only_once = yes
 	option = { # 
-		name = "Peace is in both of our best interests"
+		name = "Peace is Beneficial if we get Cleves"
 		ai_chance = { factor = 100 } 
 		JUL={transfer_state = 466
 		add_state_core = 466}
 		PRE={
 		remove_state_core = 466
 		}
-every_country = {
-  white_peace = PRE
+PRE={country_event = pre_1789_event.62}
+every_country={
+limit={
+original_tag=HSE
+has_war_with=FRA
+}
+HSE={country_event = fra_1789_event.96}
 }
 	}
 }
@@ -567,6 +583,7 @@ country_event = {
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
 trigger={
+date > 1789.1.1 date < 1800.1.1 
 original_tag=FRA
 has_war_with=SPR
 or={
@@ -1164,20 +1181,25 @@ country_event = {
 	#is_triggered_only = yes
 	trigger = {
 original_tag=FRA
+NOT={country_exists=BER}
 date > 1796.4.1 date < 1797.1.1 
 	}
 fire_only_once = yes
 	option = { # 
 		name = "This will end badly for the province of Berry"
 		ai_chance = { factor = 100 } 
-               hidden_effect={
+        hidden_effect={
 		BER={
 		add_state_core = 33
+		}
+		VND={
+		add_state_claim = 33
 		}
 		BER={
 		transfer_state = 33
 		}
 	}
+	BER={country_event = fra_1789_event.24}
 	}
 }
 country_event = {
@@ -1185,14 +1207,12 @@ country_event = {
 	title = "The Departments of Cher and Indre rise up"
 	desc = fra_1789_event.24.d
 	picture = GFX_idi_amin_india
-	#is_triggered_only = yes
-	trigger = {
-date > 1796.4.8 date < 1797.1.1 
-	}
+	is_triggered_only = yes
 fire_only_once = yes
 	option = { # 
 		name = "This will end badly for the province of Berry"
 		ai_chance = { factor = 100 } 
+		BER={set_country_flag=ber_has_been_established_not_by_player}
                hidden_effect={
                 BER={add_manpower = 25000 load_oob = "BER_1793"}
 BER={
@@ -2497,7 +2517,7 @@ is_owned_by=PRE
 }
 or={
 state=1155
-state=1243
+state=978
 state=1165
 }
 }
@@ -4025,4 +4045,189 @@ add_political_power=50
 add_popularity = { ideology = democratic popularity = 0.1 }
 FRA={set_country_flag=nationalconvention_flag}
 }
+}
+
+country_event = {
+	id = fra_1789_event.113
+	title = "Guillaume Brune in the French Army"
+	desc = fra_1789_event.113.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1791.1.1
+date<1792.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Great!"
+	
+	FRA={set_country_flag=brune_has_been_hired}
+}
+}
+country_event = {
+	id = fra_1789_event.114
+	title = "Guillaume Brune Former Marshal of the Empire Murdered"
+	desc = fra_1789_event.114.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1815.8.2
+date<1816.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Let's cover it up"
+FRA={retire_character=FRA_brunegeneral}
+FRA={add_manpower=-1}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "This Traitor deserved it!"
+FRA={retire_character=FRA_brunegeneral}
+FRA={add_manpower=-1}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "This is unacceptable!"
+FRA={retire_character=FRA_brunegeneral}
+FRA={add_manpower=-1}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "You know what? I want his head on a stick"
+FRA={retire_character=FRA_brunegeneral}
+FRA={add_manpower=-1}
+}
+}
+country_event = {
+	id = fra_1789_event.115
+	title = "Michley Ney's Execution"
+	desc = fra_1789_event.115.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1815.12.7
+date<1816.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Execute the Traitor!"
+FRA={retire_character=FRA_michelgeneral}
+FRA={add_manpower=-1}
+}
+}
+country_event = {
+	id = fra_1789_event.116
+	title = "Death of Napoleon Bonaparte"
+	desc = fra_1789_event.116.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1821.5.5
+date<1822.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Rest in Peace?"
+FRA={retire_character=FRA_napoleoni}
+hidden_effect={
+FRA={retire_character=FRA_napoleon}
+FRA={retire_character=FRA_napoleongeneral}
+ITA={retire_character=ITA_napoleon}
+ITA={retire_character=ITA_napoleoni}
+BRG={retire_character=BRG_napoleon}
+}
+FRA={add_manpower=-1}
+}
+}
+country_event = {
+	id = fra_1789_event.117
+	title = "The National Guard"
+	desc = fra_1789_event.117.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1789.7.11
+date<1790.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Our army needs some support"
+    FRA={add_political_power=-75}
+		FRA={add_manpower=77000}
+				FRA={
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 100000
+					producer = FRA
+				}
+		}
+}
+}
+country_event = {
+	id = fra_1789_event.118
+	title = "The French Provisional Government"
+	desc = fra_1789_event.118.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Napoleon II should be Emperor"
+FRA={
+add_political_power=-150
+add_stability=0.1
+promote_character=FRA_napoleonii
+}
+}
+}
+country_event = {
+	id = fra_1789_event.119
+	title = "Defeat of Berry"
+	desc = fra_1789_event.119.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag=FRA
+NOT={has_war_with=BER}
+FRA={owns_state=23} 
+BER={owns_state=33} 
+BER={has_country_flag=ber_has_been_established_not_by_player}
+	}
+fire_only_once = yes
+	option = { # 
+		name = "The Centre of France is now going to be way more stable"
+		ai_chance = { factor = 100 } 
+	FRA={annex_country = { target = BER transfer_troops = no }}
+	add_stability=-0.01
+	add_war_support=-0.01
+	}
+}
+country_event = {
+	id = fra_1789_event.120
+	title = "The Pro Habsburg-Lorraine Luxemburg"
+	desc = fra_1789_event.120.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We need to stop the Statists and Vonckists"
+		ai_chance = { factor = 100 } 
+LUX={add_manpower = 50000 load_oob = "LUX_1789"
+			declare_war_on = {
+		target = BEL
+		type = annex_everything
+	}
+}
+	}
 }

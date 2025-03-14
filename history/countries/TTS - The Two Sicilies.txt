@@ -5,14 +5,14 @@
 1759.1.1 = {
 recruit_character=TTS_ferdinandi
 promote_character=TTS_ferdinandi
+recruit_character=TTS_francisi
+recruit_character=TTS_ferdinandii
 }
 1826.1.1 = {
-recruit_character=TTS_francisi
 promote_character=TTS_francisi
 retire_character=TTS_ferdinandi
 }
 1830.1.1 = {
-recruit_character=TTS_ferdinandii
 promote_character=TTS_ferdinandii
 retire_character=TTS_francisi
 }

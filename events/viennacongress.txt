@@ -13,7 +13,7 @@ country_event = {
 	#is_triggered_only = yes
 trigger = {
 original_tag=FRA	
-date > 1812.1.1 has_start_date < 1815.1.1
+date > 1814.1.1 date < 1815.1.1
 FRA={owns_state=16}
 or={
 FRA = {surrender_progress > 0.5 }
@@ -25,6 +25,34 @@ fire_only_once = yes
 		name = "Sign the Treaty"
 		ai_chance = { factor = 100 } 
 		news_event = viennacongress_news.1
+		AUS={
+country_event = viennacongress_event.5
+country_event = viennacongress_event.6
+country_event = viennacongress_event.7
+country_event = viennacongress_event.8
+		}
+		SPR={
+country_event = viennacongress_event.9
+		}
+		SPM={
+country_event = viennacongress_event.10
+		}
+		AUS={
+country_event = viennacongress_event.11
+		}
+		SPR={
+country_event = viennacongress_event.12
+		}
+		SWI={
+country_event = viennacongress_event.13
+		}
+		SPM={
+country_event = viennacongress_event.14
+		}
+		AUS={
+country_event = viennacongress_event.15
+country_event = viennacongress_event.16
+		}
 		every_country = {
   limit = {
   has_war_with = FRA
@@ -192,5 +220,688 @@ fire_only_once = yes
 	}
 				}
 	VND={annex_country = { target = FRA transfer_troops = no }}
+	}
+}
+
+
+country_event = {
+	id = viennacongress_event.5
+	title = "End of the Kingdom of Italy"
+	desc = viennacongress_event.5.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Dissolve it"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=161
+		state=920
+		state=1109
+        }
+        }
+        add_core_of=PAP
+        transfer_state_to=PAP
+        }
+				every_state={
+        limit={
+        or={
+        state=1110
+		state=1111
+		state=977
+        state=160
+		state=931
+		state=856
+        }
+        }
+        add_core_of=VNT
+        transfer_state_to=VNT
+        }
+				every_state={
+        limit={
+        or={
+        state=855
+        }
+        }
+        add_core_of=AUS
+        transfer_state_to=AUS
+        }
+		every_state={
+        limit={
+        or={
+        state=927
+        }
+        }
+        add_core_of=MOD
+        transfer_state_to=MOD
+        }
+				every_state={
+        limit={
+        or={
+        state=1134
+        }
+        }
+        add_core_of=MAS
+        transfer_state_to=MAS
+        }
+				every_state={
+        limit={
+        or={
+        state=1102
+        }
+        }
+        add_core_of=MTU
+        transfer_state_to=MTU
+        }
+				every_state={
+        limit={
+        or={
+        state=159
+        }
+        }
+        add_core_of=MIL
+        transfer_state_to=MIL
+        }
+				every_state={
+        limit={
+        or={
+        state=907
+		state=1113
+        }
+        }
+        add_core_of=SAV
+        transfer_state_to=SAV
+        }
+		every_state={
+        limit={
+		or={
+        is_core_of=ITA
+		}
+        }
+		remove_core_of=ITA
+        }
+	}
+	option = { # 
+		name = "Maybe we can keep some elements of it?"
+		ai_chance = { factor = 0 }
+		AUS={set_country_flag=AUS_ambition_kingdom_of_italy_lombardy_venetia} 
+			every_state={
+        limit={
+        or={
+        state=161
+		state=920
+		state=1109
+        }
+        }
+        add_core_of=PAP
+        transfer_state_to=PAP
+        }
+				every_state={
+        limit={
+        or={
+        state=1110
+		state=1111
+		state=977
+        state=160
+		state=931
+		state=856
+        }
+        }
+        add_core_of=VNT
+        transfer_state_to=VNT
+        }
+				every_state={
+        limit={
+        or={
+        state=855
+        }
+        }
+        add_core_of=AUS
+        transfer_state_to=AUS
+        }
+		every_state={
+        limit={
+        or={
+        state=927
+        }
+        }
+        add_core_of=MOD
+        transfer_state_to=MOD
+        }
+				every_state={
+        limit={
+        or={
+        state=1134
+        }
+        }
+        add_core_of=MAS
+        transfer_state_to=MAS
+        }
+				every_state={
+        limit={
+        or={
+        state=1102
+        }
+        }
+        add_core_of=MTU
+        transfer_state_to=MTU
+        }
+				every_state={
+        limit={
+        or={
+        state=159
+        }
+        }
+        add_core_of=MIL
+        transfer_state_to=MIL
+        }
+				every_state={
+        limit={
+        or={
+        state=907
+		state=1113
+        }
+        }
+        add_core_of=SAV
+        transfer_state_to=SAV
+        }
+		every_state={
+        limit={
+		or={
+        is_core_of=ITA
+		}
+        }
+		remove_core_of=ITA
+        }
+	}
+}
+
+
+
+
+
+country_event = {
+	id = viennacongress_event.6
+	title = "The Status of the Illyrian Coast"
+	desc = viennacongress_event.6.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex it"
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=950
+		state=1115
+		state=103
+		state=956
+		state=959
+		state=930
+		state=102
+		state=940
+		state=884
+		state=736
+		state=857
+		state=963
+		state=163
+		state=1190
+        }
+        }
+        transfer_state_to=AUS
+        }
+	}
+}
+
+
+country_event = {
+	id = viennacongress_event.7
+	title = "The Liberation of Tuscany"
+	desc = viennacongress_event.7.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Let's keep it in our sphere"
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=162
+		state=1101
+        }
+        }
+        transfer_state_to=TOS
+        }
+	}
+	option = { # 
+		name = "Let's engage in talks with Spain"
+		ai_chance = { factor = 0 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=162
+		state=1101
+        }
+        }
+        transfer_state_to=TOS
+        }
+	}
+}
+
+country_event = {
+	id = viennacongress_event.8
+	title = "The Liberation of the Papal States"
+	desc = viennacongress_event.8.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "I don't believe anyone has claims on the Papal States?"
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=2
+		state=919
+		state=987
+        }
+        }
+        transfer_state_to=PAP
+        }
+	}
+}
+
+country_event = {
+	id = viennacongress_event.9
+	title = "The Return of Catalonia to Spanish Control"
+	desc = viennacongress_event.9.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Catalonia is enough reperations"
+		ai_chance = { factor = 100 } 
+		SPR={set_country_flag=SPR_content_with_only_catalonia_proper_flag}
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=165
+        }
+        }
+        transfer_state_to=SPR
+        remove_core_of=FRA
+		add_core_of=SPR
+        }
+	}
+	option = { # 
+		name = "Annex North Catalonia & Basque Country"
+		ai_chance = { factor = 0 } 
+		SPR={set_country_flag=SPR_content_with_only_catalonia_proper_catalonia_and_basque_flag}
+		806={set_demilitarized_zone = yes}
+		1105={set_demilitarized_zone = yes}
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=165
+        }
+        }
+        transfer_state_to=SPR
+        remove_core_of=FRA
+		add_core_of=SPR
+        }
+	}
+	option = { # 
+		name = "Annex North Catalonia"
+		ai_chance = { factor = 0 } 
+		SPR={set_country_flag=SPR_content_with_only_catalonia_proper_catalonia_only_flag}
+		1105={set_demilitarized_zone = yes}
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=165
+        }
+        }
+        transfer_state_to=SPR
+        remove_core_of=FRA
+		add_core_of=SPR
+        }
+	}
+	option = { # 
+		name = "Annex North Basque Country"
+		ai_chance = { factor = 0 } 
+		SPR={set_country_flag=SPR_content_with_only_catalonia_proper_basque_only_flag}
+		806={set_demilitarized_zone = yes}
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=165
+        }
+        }
+        transfer_state_to=SPR
+        remove_core_of=FRA
+		add_core_of=SPR
+        }
+	}
+}
+
+country_event = {
+	id = viennacongress_event.10
+	title = "The Reconquest of Piedmont"
+	desc = viennacongress_event.10.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Theres a few more liberals here than i expected..."
+		SPM={
+		add_ideas=SPM_piedmont_has_allot_of_liberals
+		}
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=922
+		state=158
+		state=1107
+        state=1106
+		state=1030
+		state=848
+        }
+        }
+        transfer_state_to=SPM
+		add_core_of=SPM
+		remove_core_of=FRA
+        }
+	}
+}
+
+country_event = {
+	id = viennacongress_event.11
+	title = "The Return of the Republic of Genoa"
+	desc = viennacongress_event.11.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Independence of Genoa"
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=921
+        }
+        }
+        transfer_state_to=GOA
+		add_core_of=GOA
+		remove_core_of=FRA
+        }
+	}
+}
+country_event = {
+	id = viennacongress_event.12
+	title = "The House of Bourbon-Parma returns to Parma"
+	desc = viennacongress_event.12.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Capetian dynasty will not fall"
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=990
+        }
+        }
+        transfer_state_to=PRM
+		add_core_of=PRM
+		remove_core_of=FRA
+        }
+	}
+}
+country_event = {
+	id = viennacongress_event.13
+	title = "The return of Valais"
+	desc = viennacongress_event.13.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Guess we dont need the French anymore"
+		ai_chance = { factor = 100 } 
+		SWI={
+						set_autonomy = {
+				target = VAL
+                autonomous_state = autonomy_protectorate
+                freedom_level = 0.35
+	            }
+		}
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=1007
+        }
+        }
+        transfer_state_to=VAL
+		add_core_of=VAL
+		remove_core_of=FRA
+        }
+	}
+}
+
+country_event = {
+	id = viennacongress_event.14
+	title = "The return of Savoy and Nice"
+	desc = viennacongress_event.14.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Guess we dont need the French anymore"
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=981
+		state=735
+        }
+        }
+        transfer_state_to=SPM
+		add_core_of=SPM
+		remove_core_of=FRA
+        }
+	}
+}
+
+country_event = {
+	id = viennacongress_event.15
+	title = "The Trade is brought back to Hamburg"
+	desc = viennacongress_event.15.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Hamburg will prosper now"
+		ai_chance = { factor = 100 } 
+				every_state={
+        limit={
+		or={
+		is_owned_by=FRA
+		is_owned_by=VND
+		}
+        or={
+        state=874
+        }
+        }
+        transfer_state_to=HBG
+		add_core_of=HBG
+		remove_core_of=FRA
+        }
+	}
+}
+country_event = {
+	id = viennacongress_event.16
+	title = "The Government of Belgium and the Rhine"
+	desc = viennacongress_event.16.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Save Europa"
+		ai_chance = { factor = 100 } 
+		every_state={
+        limit={
+        or={
+        state=8
+		state=970
+		state=851
+		state=985
+		state=979
+		state=980
+		state=1171
+		state=34
+		state=1243
+		state=6
+		state=973
+		state=984
+        }
+        }
+		add_core_of=BEL
+		remove_core_of=FRA
+        }
+		every_state={
+        limit={
+        or={
+        state=1239
+        }
+        }
+		add_core_of=ZWE
+		remove_core_of=FRA
+        }
+		every_state={
+        limit={
+        or={
+        state=880
+        }
+        }
+		add_core_of=PFZ
+		remove_core_of=FRA
+        }
+		every_state={
+        limit={
+        or={
+        state=1182
+        }
+        }
+		add_core_of=MNZ
+		remove_core_of=FRA
+        }
+			BEL={
+		transfer_state = 6
+		transfer_state = 34
+		transfer_state = 973
+		transfer_state = 1243
+		transfer_state = 1171
+		transfer_state = 984
+		}
+				CLG={
+		transfer_state = 979
+		transfer_state = 980
+		transfer_state = 851
+		transfer_state = 690
+		transfer_state = 466
+		transfer_state = 843
+		transfer_state = 51
+		transfer_state = 985
+		}
+				TRR={
+		transfer_state = 970
+		transfer_state = 8
+		transfer_state = 42
+		transfer_state = 1237
+		transfer_state = 880
+		transfer_state = 1239
+		transfer_state = 1182
+		}
+	TRR={set_cosmetic_tag=TRR_vienna}
+	CLG={set_cosmetic_tag=CLG_vienna}
+	BEL={set_cosmetic_tag=BEL_vienna}
+	AUS={
+			set_autonomy = {
+        target = TRR
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}
+		AUS={
+			set_autonomy = {
+        target = BEL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}
+		AUS={
+			set_autonomy = {
+        target = CLG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}
 	}
 }

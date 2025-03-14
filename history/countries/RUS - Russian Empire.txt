@@ -37,7 +37,7 @@
 	DON={set_cosmetic_tag=DON_RUS}
 	set_autonomy = {
         target = DON
-        autonomous_state = autonomy_integrated_puppet
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }
@@ -59,7 +59,7 @@ set_oob = "RUS_1800"
 }
 1812.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
+		limit = { has_start_date < 1815.1.1 }
 set_oob = "RUS_1812"
 }
 }
@@ -253,7 +253,46 @@ set_technology = {
 	infantry_weapons = 1
 	transport = 1
 	early_submarine = 1
+        gw_artillery = 1
 }
+1789.1.1 = {
+recruit_character=RUS_betskoy
+recruit_character=RUS_pahlen
+recruit_character=RUS_panin
+recruit_character=RUS_ribas
+recruit_character=RUS_levin
+recruit_character=RUS_yashvil
+recruit_character=RUS_zubov
+recruit_character=RUS_wylie
+}
+1800.1.1 = {
+retire_character=RUS_betskoy
+}
+1812.1.1 = {
+retire_character=RUS_ribas
+retire_character=RUS_zubov
+}
+1821.1.1 = {
+retire_character=RUS_yashvil
+}
+1836.1.1 = {
+retire_character=RUS_pahlen
+retire_character=RUS_levin
+}
+1837.1.1 = {
+retire_character=RUS_panin
+}
+1857.1.1 = {
+retire_character=RUS_wylie
+}
+
+
+
+
+
+
+
+
 1789.1.1 = {
 recruit_character=RUS_orourke
 }
@@ -271,6 +310,12 @@ recruit_character=RUS_kutuzov
 }
 1813.1.1 = {
 retire_character=RUS_kutuzov
+}
+1789.1.1 = {
+recruit_character=RUS_lodewijk
+}
+1850.1.1 = {
+retire_character=RUS_lodewijk
 }
 1789.1.1 = {
 recruit_character=RUS_barclay
@@ -417,6 +462,26 @@ set_popularities = {
 	}
 }
 }
+1814.1.1 = {
+		if = {
+		limit = { has_start_date < 1815.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
+1821.1.1 = {
+		if = {
+		limit = { has_start_date < 1822.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
 1836.1.1 = {
 		if = {
 		limit = { has_start_date < 1837.1.1 }
@@ -447,9 +512,9 @@ set_popularities = {
 	}
 }
 }
-1836.1.1 = {
+1814.1.1 = {
 		if = {
-		limit = { has_start_date < 1919.1.1 }
+		limit = { has_start_date < 1900.1.1 }
     set_autonomy = {
         target = POL
         autonomous_state = autonomy_dominion
@@ -459,7 +524,7 @@ set_popularities = {
 }
 1900.1.1 = {
 		if = {
-		limit = { has_start_date < 1901.1.1 }
+		limit = { has_start_date < 1915.1.1 }
     set_autonomy = {
         target = POL
         autonomous_state = autonomy_integrated_puppet
@@ -472,7 +537,7 @@ set_popularities = {
 		limit = { has_start_date < 1870.1.1 }
     set_autonomy = {
         target = ALA
-        autonomous_state = autonomy_integrated_puppet
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.35
 	}
 }
@@ -528,6 +593,8 @@ set_cosmetic_tag = RUS_federation #  russian federation
 1900.1.1 = {
 				if = {
 		limit = {has_start_date > 1899.1.1 has_start_date < 1919.1.1 }
+	KHI={set_cosmetic_tag=KHI_RUS}
+	BUK={set_cosmetic_tag=BUK_RUS}
     set_autonomy = {
         target = KHI
         autonomous_state = autonomy_protectorate

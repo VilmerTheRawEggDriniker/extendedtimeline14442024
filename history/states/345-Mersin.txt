@@ -10,6 +10,15 @@ state={
 			industrial_complex = 1
 
 		}
+				victory_points = {
+			11746 5 
+		}
+		victory_points = {
+			10056 1 
+		}
+		victory_points = {
+			11810 5 
+		}
 		add_core_of = KRM
 						1487.1.1 = {
 			owner = OTO
@@ -35,9 +44,9 @@ state={
 	}
 
 	provinces={
-		4124 6950 7026 11844 11897 
+		4008 4124 7026 10056 11746 11810
 	}
-	manpower=100000
+	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

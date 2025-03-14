@@ -8,10 +8,16 @@ state={
 			13830 5 
 		}
 		victory_points = {
-			13656 2 
+			13656 1 
 		}
 		victory_points = {
 			11583 1 
+		}
+		victory_points = {
+			13648 1
+		}
+		victory_points = {
+			3609 1
 		}
 		owner = SER
 		1919.1.1 = {

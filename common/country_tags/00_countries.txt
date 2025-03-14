@@ -54,6 +54,11 @@ NOS = "countries/Novascotia.txt" #flagcomplete  #uk17891800flags
 NOC = "countries/Northwest Territory Canada.txt" #flagcomplete 
 ITO = "countries/Manitoba.txt" #flagcomplete 
 
+QAJ= "countries/Qajar.txt" #flagcomplete 
+AFS = "countries/Afsharid.txt" #flagcomplete 
+BAL = "countries/Balochistan.txt" #flagcomplete 
+KHU = "countries/Khuzestan.txt" #flagcomplete 
+
 
 
 
@@ -86,6 +91,8 @@ MDP = "countries/Mutual Defense Pact of the Southeastern Provinces.txt" #flagcom
 BOX = "countries/Boxers.txt" #flagcomplete 
 ACE = "countries/Aceh.txt" #flagcomplete 
 
+SIB = "countries/Siberia.txt" #flagcomplete 
+SIN = "countries/Sindh.txt" #flagcomplete 
 MUG = "countries/Mughal Empire.txt" #flagcomplete 
 HEJ = "countries/Hejaz.txt" #flagcomplete 
 SVI = "countries/South Vietnam.txt" #flagcomplete 
@@ -100,7 +107,7 @@ ISI = "countries/ISIS.txt" #flagcomplete
 LES = "countries/Lesotho.txt" #flagcomplete 
 SWA = "countries/Swaziland.txt" #flagcomplete 
 BNI = "countries/Brunei.txt" #flagcomplete 
-SIN = "countries/Singapore.txt" #flagcomplete 
+SNG = "countries/Singapore.txt" #flagcomplete 
 MCU = "countries/Macau.txt" #flagcomplete 
 HKG = "countries/Hong kong.txt" #flagcomplete 
 TLE = "countries/Timor Leste.txt" #flagcomplete 
@@ -353,7 +360,7 @@ GTL = "countries/Gotaland.txt"
 JMT = "countries/Jamtland.txt"
 ALN = "countries/Aland.txt"
 WPO = "countries/West Pomerania.txt"
-WIS = "countries/Wismar.txt"
+WSM = "countries/Wismar.txt"
 SMA = "countries/Smaland.txt"
 OSG = "countries/Ostergotland.txt"
 DAL = "countries/Dalarna.txt"
@@ -688,3 +695,22 @@ RHD = "countries/Reichskommisariat Grosshindustan.txt"
 RAR = "countries/Reichskommisariat Arabien.txt"
 ROA = "countries/Reichskommisariat Ostasien.txt"
 RAA = "countries/Reichskommisariat Australasien.txt"
+
+# GoE 
+DIP = "countries/Partisans.txt"
+PSH = "countries/Pashtunistan.txt"
+RJP = "countries/Rajputana.txt"
+CIP = "countries/Central Indian Provinces.txt"
+RAS = "countries/Madras States.txt"
+NWF = "countries/North Western Frontier States.txt"
+KAS = "countries/Kashmir.txt"
+MPU = "countries/Manipur.txt"
+WIS = "countries/Western Indian States.txt"
+KOL = "countries/Kolhapur and Deccan States.txt"
+KHL = "countries/Khalistan.txt"
+KLT = "countries/Kalat.txt"
+FSA = "countries/Federation of South Arabia.txt"
+ASY = "countries/Assyria.txt"
+IMO = "countries/Omani Imamate.txt"
+BLC = "countries/Balochistan.txt"
+#NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

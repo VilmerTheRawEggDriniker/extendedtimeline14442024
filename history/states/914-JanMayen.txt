@@ -24,7 +24,7 @@ state={
 			add_core_of = WTF
 
 		}
-		1816.1.1 = {
+		1814.1.1 = {
 			owner = HAN
 			add_core_of = HAN
 			remove_core_of = WTF

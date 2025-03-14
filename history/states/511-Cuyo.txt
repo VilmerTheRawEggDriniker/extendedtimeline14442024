@@ -10,6 +10,10 @@ state={
 			controller = SPR
 
 		}
+						1776.1.1 = {
+        add_core_of = ARG
+        owner = ARG
+        }
 				1789.1.1 = {
         add_core_of = ARG
         owner = ARG

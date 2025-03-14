@@ -16,9 +16,23 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = NOR_FREDERICKVI_DESC
+			expire="1797.1.1"
+		}
+}
+	NOR_christianviii={
+		name=NOR_CHARACTER_CHRISTIANVIII
+		portraits={
+			civilian={
+				large="GFX_portrait_nor_christianviii_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
+			traits={Oldenburg}
+			desc = NOR_CHRISTIANVIII_DESC
 			expire="1797.1.1"
 		}
 }
@@ -30,7 +44,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = NOR_AUGUST_DESC
 			expire="1797.1.1"
@@ -44,7 +58,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = NOR_GUSTAVIII_DESC
 			expire="1797.1.1"
@@ -58,7 +72,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = NOR_GUSTAVIVADOLF_DESC
 			expire="1797.1.1"
@@ -72,7 +86,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = NOR_CHARLESXIII_DESC
 			expire="1797.1.1"

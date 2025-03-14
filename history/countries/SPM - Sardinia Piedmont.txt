@@ -1,34 +1,51 @@
 ﻿capital = 158
-	add_ideas = {
-        mezzogiornotwo
-	}
 1773.1.1 = {
 recruit_character=SPM_victoramadeusiii
 promote_character=SPM_victoramadeusiii
-}
-1797.1.1 = {
 recruit_character=SPM_charlesemmanueliv
+recruit_character=SPM_victoremmanueli
+recruit_character=SPM_charlesfelix
+recruit_character=SPM_charlesalbert
+recruit_character=SPM_ferdinandi
+recruit_character=SPM_savoia
+recruit_character=SPM_benedetto
+recruit_character=SPM_giorgio
+recruit_character=SPM_anselmo
+recruit_character=SPM_giuseppe
+recruit_character=SPM_carlo
+}
+1800.1.1 = {
 promote_character=SPM_charlesemmanueliv
 retire_character=SPM_victoramadeusiii
 }
 1802.1.1 = {
-recruit_character=SPM_victoremmanueli
 promote_character=SPM_victoremmanueli
-retire_character=SPM_charlesemmanueliv
+}
+1812.1.1 = {
+retire_character=SPM_benedetto
+retire_character=SPM_carlo
 }
 1821.1.1 = {
-recruit_character=SPM_charlesfelix
-promote_character=SPM_charlesfelix
-retire_character=SPM_victoremmanueli
+retire_character=SPM_charlesemmanueliv
+retire_character=SPM_giuseppe
 }
-1831.1.1 = {
-recruit_character=SPM_charlesalbert
+1836.1.1 = {
 promote_character=SPM_charlesalbert
 retire_character=SPM_charlesfelix
+retire_character=SPM_victoremmanueli
+retire_character=SPM_ferdinandi
+retire_character=SPM_savoia
+retire_character=SPM_anselmo
 }
-1852.1.1 = {
+1839.1.1 = {
+retire_character=SPM_giorgio
+}
+1849.1.1 = {
 retire_character=SPM_charlesalbert
 }
+	add_ideas = {
+        mezzogiornotwo
+	}
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1790.1.1 }
@@ -43,11 +60,11 @@ set_oob = "SPM_1800"
 }
 1812.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
+		limit = { has_start_date < 1815.1.1 }
 set_oob = "SPM_1812"
 }
 }
-1836.1.1 = {
+1821.1.1 = {
 		if = {
 		limit = { has_start_date < 1837.1.1 }
 set_oob = "SPM_1836"

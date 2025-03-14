@@ -1,0 +1,96 @@
+bookmarks = {
+	bookmark = {
+		name = "Ukraine Russia War"
+		desc = "2025_DESC"
+		date = 2024.11.11.12
+		picture = "GFX_ukraine_russia_war_2025"
+		default_country = "CAN"
+	
+		CAN = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		USA = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = communism
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		RAJ = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		GER = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		FRA = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		ENG = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		PRC = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"JAP"={
+			minor = yes
+			history = "CAN_1900_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				CAN_skewer_the_eagle
+				CAN_north_american_alliance
+				CAN_join_comintern
+			}
+		} 
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

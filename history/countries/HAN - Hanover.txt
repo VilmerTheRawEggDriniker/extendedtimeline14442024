@@ -2,24 +2,48 @@
 1762.1.1 = {
 recruit_character=HAN_georgeiiihan
 promote_character=HAN_georgeiiihan
+recruit_character=HAN_georgeivhan
+recruit_character=HAN_williamivhan
 }
 1820.1.1 = {
-recruit_character=HAN_georgeivhan
 promote_character=HAN_georgeivhan
 retire_character=HAN_georgeiiihan
 }
 1835.1.1 = {
-recruit_character=HAN_williamivhan
 promote_character=HAN_williamivhan
 retire_character=HAN_georgeivhan
 }
 1837.1.1 = {
 retire_character=HAN_williamivhan
 }
+1780.1.1 = {
+recruit_character=HAN_charleswilliamferdinand
+recruit_character=HAN_frederickwilliam
+recruit_character=HAN_charlesii
+recruit_character=HAN_william
+}
+1806.1.1 = {
+retire_character=HAN_charleswilliamferdinand
+}
+1816.1.1 = {
+retire_character=HAN_frederickwilliam
+}
+1831.1.1 = {
+retire_character=HAN_charlesii
+}
+1885.1.1 = {
+retire_character=HAN_william
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "HAN_1789_1815"
+}
 }
 1936.1.1 = {
 set_technology = {
@@ -171,7 +195,10 @@ set_stability = 0.75
 
 	}
 }
-1812.1.1 = {
+1815.1.1 = {
+set_cosmetic_tag = HAN_kingdom_old # Hanover Kingdom
+}
+1837.1.1 = {
 set_cosmetic_tag = HAN_kingdom # Hanover Kingdom
 }
 set_politics = {

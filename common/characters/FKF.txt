@@ -1,4 +1,66 @@
 characters={
+		FKF_rothschild={
+		name=FKF_CHARACTER_ROTHSCHILD
+		portraits={
+                        army={
+				small="GFX_idea_fkf_rothschild_small"
+			}
+			civilian = {
+				large = GFX_portrait_fkf_rothschild_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FKF_rothschild
+			allowed  = {
+				original_tag  = FKF
+			}
+			available  = {
+		        }
+			traits  = {
+				rothschild_banker
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+			FKF_rothschildi={
+		name=FKF_CHARACTER_ROTHSCHILDI
+		portraits={
+                        army={
+				small="GFX_idea_fkf_rothschildi_small"
+			}
+			civilian = {
+				large = GFX_portrait_fkf_rothschildi_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FKF_rothschildi
+			allowed  = {
+				original_tag  = FKF
+			}
+			available  = {
+		        }
+			traits  = {
+				rothschild_banker
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}		
 	FKF_karl={
 		name=FKF_CHARACTER_KARL
 		portraits={

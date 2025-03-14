@@ -25,7 +25,7 @@ state={
 			remove_core_of = MUN
 
 		}
-		1816.1.1 = {
+		1814.1.1 = {
 			owner = PRE
 			add_core_of = PRE
 			remove_core_of = MUN

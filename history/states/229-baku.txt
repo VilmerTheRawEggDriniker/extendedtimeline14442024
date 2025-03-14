@@ -15,11 +15,17 @@ state={
 			remove_core_of = SHI
 
 		}
+				1837.1.1 = {
+			add_core_of = PER
+		}
 		1700.1.1 = {
 			owner = BAK
 			add_core_of = BAK
 			remove_core_of = SHI
 
+		}
+						1800.1.1 = {
+			remove_core_of = PER
 		}
 				1600.1.1 = {
 		add_core_of = PER

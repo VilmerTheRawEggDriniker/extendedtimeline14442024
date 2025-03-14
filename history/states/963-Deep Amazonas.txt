@@ -24,6 +24,12 @@ state={
 		1812.1.1 = {
         owner = FRA
         }
+						1814.1.1 = {
+        controller = AUS
+		}
+				victory_points = {
+			599 1 
+		}
 				1945.1.1 = {
 		owner = GER
 		}

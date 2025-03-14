@@ -60,51 +60,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 }
-units = {
-	#Dutch Army
-	division = {
-		name = "Dutch Division"
-		location = 391
-		division_template = "Dutch Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Dutch Army
-	division = {
-		name = "Dutch Division"
-		location = 391
-		division_template = "Dutch Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Dutch Army
-	division = {
-		name = "Dutch Division"
-		location = 391
-		division_template = "Dutch Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Dutch Army
-	division = {
-		name = "Dutch Division"
-		location = 391
-		division_template = "Dutch Division"
-		start_experience_factor = 0.3
-	}
-}
-units = {
-	#Dutch Army
-	division = {
-		name = "Dutch Division"
-		location = 391
-		division_template = "Dutch Division"
-		start_experience_factor = 0.3
-	}
-}
 ### Starting Equipment ###
 instant_effect = {
 	add_equipment_production = {

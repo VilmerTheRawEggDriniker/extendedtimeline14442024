@@ -10,7 +10,7 @@ state={
 						1812.1.1 = {
 			owner = ITA
                 add_core_of = ITA
-			add_core_of = ITA
+			add_core_of = AUS
 				remove_core_of = TRT
 		}
 				1816.1.1 = {

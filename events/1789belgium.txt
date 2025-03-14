@@ -1,0 +1,107 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = bel_1789_event
+
+# French Revolution
+country_event = {
+	id = bel_1789_event.1
+	title = "The Belgian Revolution"
+	desc = bel_1789_event.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {	
+date > 1830.8.25 has_start_date < 1836.1.1 
+original_tag = HOL			
+}
+fire_only_once = yes
+	option = { # 
+		name = "Seems even the Flemish are on board"
+		ai_chance = { factor = 100 } 
+hidden_effect={BEL={set_politics = { ruling_party = democratic }}}
+	1243={set_demilitarized_zone = yes}
+	979={set_demilitarized_zone = yes}
+	6={set_demilitarized_zone = yes}
+	34={set_demilitarized_zone = yes}
+	973={set_demilitarized_zone = yes}
+	980={set_demilitarized_zone = yes}
+	1171={set_demilitarized_zone = yes}
+	985={set_demilitarized_zone = yes}
+	every_state={
+limit={
+or={
+state=1243
+state=979
+state=6
+state=34
+state=973
+state=980
+state=1171
+state=985
+}
+}
+add_core_of=BEL
+remove_core_of=HOL
+transfer_state_to=BEL
+}
+	BEL={country_event = bel_1789_event.2}
+	}
+}
+country_event = {
+	id = bel_1789_event.2
+	title = "The Belgian Revolution"
+	desc = bel_1789_event.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Seems even the Flemish are on board"
+		ai_chance = { factor = 100 } 
+	HOL={country_event = bel_1789_event.3}
+	BEL={add_manpower = 50000 load_oob = "BEL_1830"}
+	}
+}
+country_event = {
+	id = bel_1789_event.3
+	title = "The Belgian Revolution"
+	desc = bel_1789_event.3.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This is war!"
+		ai_chance = { factor = 100 } 
+	HOL={
+			declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+			}
+	}
+		LUX={
+			declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+			}
+	}
+	}
+	option = { # 
+		name = "Side with the Revolution"
+		ai_chance = { factor = 0 } 
+	BEL = {
+    change_tag_from = HOL
+    }
+	HOL={
+			declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+			}
+	}
+		LUX={
+			declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+			}
+	}
+	}
+}

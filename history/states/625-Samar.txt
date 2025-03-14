@@ -21,7 +21,7 @@ state=
             add_core_of = PHI
             owner = PHI
 		}
-				1789.1.1 = {
+				1776.1.1 = {
         add_core_of = PHI
         owner = MEX
         }

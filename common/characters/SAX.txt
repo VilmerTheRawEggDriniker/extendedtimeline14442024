@@ -45,5 +45,152 @@ characters={
 			expire="1797.1.1"
 		}
 }
+		SAX_von={
+		name=SAX_CHARACTER_VON
+		portraits={
+			army={
+				large=GFX_portrait_sax_von_large
+				small=GFX_portrait_sax_von_small
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+		}
+				SAX_graf={
+		name=SAX_CHARACTER_GRAF
+		portraits={
+			army={
+				large=GFX_portrait_sax_graf_large
+				small=GFX_portrait_sax_graf_small
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+      }
+	  		SAX_karl={
+		name=SAX_CHARACTER_KARL
+		portraits={
+			army={
+				large=GFX_portrait_sax_karl_large
+				small=GFX_portrait_sax_karl_small
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+      }
+	  		SAX_ernst={
+		name=SAX_CHARACTER_ERNST
+		portraits={
+			army={
+				large=GFX_portrait_sax_ernst_large
+				small=GFX_portrait_sax_ernst_small
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+      }
+	SAX_coq={
+		name=SAX_CHARACTER_COQ
+		portraits={
+			army={
+				large=GFX_portrait_sax_coq_large
+				small=GFX_portrait_sax_coq_small
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+	SAX_ludwig={
+		name=SAX_CHARACTER_LUDWIG
+		portraits={
+                        army={
+				small="GFX_idea_sax_ludwig_small"
+			}
+			civilian = {
+				large = GFX_portrait_sax_ludwig_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = SAX_ludwig
+			allowed  = {
+				original_tag  = SAX
+			}
+			available  = {
+		        }
+			traits  = {
+				saxon_envoy_to_austria 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}	
+	SAX_der={
+		name=SAX_CHARACTER_DER
+		portraits={
+                        army={
+				small="GFX_idea_sax_der_small"
+			}
+			civilian = {
+				large = GFX_portrait_sax_der_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = SAX_der
+			allowed  = {
+				original_tag  = SAX
+			}
+			available  = {
+		        }
+			traits  = {
+				saxon_envoy_to_austria 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}	
 }
 

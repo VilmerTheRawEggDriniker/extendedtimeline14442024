@@ -8,6 +8,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_napoleon_egypt.dds"
 	}
         spriteType = {
+		name = "GFX_goal_utah_deseret_russia_flag"
+		texturefile = "gfx/interface/goals/goal_utah_deseret_russia_flag.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_utah_deseret_russia_flag"
+		texturefile = "gfx/interface/goals/goal_utah_deseret_russia_flag.dds"
+	}
+        spriteType = {
 		name = "GFX_goal_brandenburg"
 		texturefile = "gfx/interface/goals/goal_brandenburg.dds"
 	}
@@ -16,8 +24,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_jews_enslaving_ukraine.dds"
 	}
         spriteType = {
-		name = "GFX_goal_yugoslavia"
-		texturefile = "gfx/interface/goals/goal_yugoslavia.dds"
+		name = "GFX_goal_yanina"
+		texturefile = "gfx/interface/goals/goal_yanina.dds"
 	}
         spriteType = {
 		name = "GFX_goal_baltics"

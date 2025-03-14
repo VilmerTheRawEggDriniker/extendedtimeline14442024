@@ -3,8 +3,18 @@
 recruit_character=FKF_karl
 promote_character=FKF_karl
 }
+1789.1.1 = {
+recruit_character=FKF_rothschild
+recruit_character=FKF_rothschildi
+}
+1814.1.1 = {
+retire_character=FKF_rothschild
+}
 1818.1.1 = {
 retire_character=FKF_karl
+}
+1859.1.1 = {
+retire_character=FKF_rothschildi
 }
 # Starting tech
 set_technology = {

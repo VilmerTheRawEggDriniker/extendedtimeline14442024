@@ -1,0 +1,24 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = por_1789_news
+
+		news_event = {
+	id = por_1789_news.1
+	title = "The United Kingdom of Portugal, Brazil and the Algarves"
+	desc = por_1789_news.1.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+		option = {
+		name = "Ok"
+			}
+		}

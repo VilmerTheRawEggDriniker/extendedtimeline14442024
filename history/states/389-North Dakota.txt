@@ -16,8 +16,12 @@ state={
 			1836 1 
 		}
                 }
+						1776.1.1 = {
+        owner = LOU
+		add_core_of = LOU
+        }
 		1789.1.1 = {
-        owner = MEX
+        owner = LOU
 		add_core_of = LOU
         }
 		1803.1.1 = {

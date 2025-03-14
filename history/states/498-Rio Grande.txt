@@ -16,6 +16,10 @@ state={
 			5168 5 
 		}
                 }
+													1776.1.1 = {
+        add_core_of = BRA
+        owner = BRA
+        }
 						1789.1.1 = {
         add_core_of = BRA
         owner = BRA

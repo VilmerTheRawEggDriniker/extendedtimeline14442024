@@ -1,0 +1,50 @@
+
+state={
+	id=440
+	name="STATE_440"
+
+	history={
+		1900.1.1 = {
+		victory_points = {
+			10887 5 
+		}
+		}
+		owner = MUG
+		add_core_of = MUG
+		1789.1.1 = {
+        remove_core_of = MUG
+		add_core_of = SKH
+		owner = SKH
+		}
+		1900.1.1 = {
+        remove_core_of = SKH
+		}
+		1900.1.1 = {
+		add_core_of = PAK
+		owner = RAJ
+		}
+		1900.1.1 = {
+					buildings = {
+			infrastructure = 2			
+		}
+		}
+		buildings = {
+			infrastructure = 0			
+		}
+		1948.1.1 = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+            remove_core_of = RAJ
+		}
+
+	}
+
+	provinces={
+		1910 4979 8007 8022 8106 9084 10066 10139 10173 10772 10843 10887 10898 12005 12792 
+	}
+	manpower=16000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

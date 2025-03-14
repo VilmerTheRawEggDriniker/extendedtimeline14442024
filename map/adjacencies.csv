@@ -39,21 +39,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14400;14397;sea;7482;-1;-1;-1;-1;;Daugava
 
 
-
-
-
-
+13550;9771;sea;11754;-1;-1;-1;-1;;Romania-Bulgaria
+13543;13783;sea;11754;-1;-1;-1;-1;;Romania-Bulgaria
+13540;13780;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
+13548;9610;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
+13544;13785;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
 
 13564;13572;sea;13569;-1;-1;-1;-1;;Romania-Bulgaria
 687;13572;sea;13569;-1;-1;-1;-1;;Romania-Bulgaria
-3076;6706;sea;13569;-1;-1;-1;-1;;Romania-Bulgaria
-9635;674;sea;13549;-1;-1;-1;-1;;Romania-Bulgaria
+3076;13572;sea;13569;-1;-1;-1;-1;;Romania-Bulgaria
+9635;11636;sea;13549;-1;-1;-1;-1;;Romania-Bulgaria
 13545;6677;sea;13549;-1;-1;-1;-1;;Romania-Bulgaria
-9610;13541;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
-13785;13538;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
-13785;13544;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
-13780;13540;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
-9771;3630;sea;11754;-1;-1;-1;-1;;Romania-Bulgaria
+
+
+
+
 
 13444;14367;sea;13450;-1;-1;-1;-1;;Romania-Bulgaria
 3324;14367;sea;13450;-1;-1;-1;-1;;Romania-Bulgaria
@@ -298,6 +298,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4758;12567;impassable;-1;-1;-1;-1;-1;;Ural
 7320;12567;impassable;-1;-1;-1;-1;-1;;Ural
 
+9626;1455;impassable;-1;-1;-1;-1;-1;;alps
+9626;14072;impassable;-1;-1;-1;-1;-1;;alps
 14072;6436;impassable;-1;-1;-1;-1;-1;;alps
 9632;1455;impassable;-1;-1;-1;-1;-1;;alps
 11614;1455;impassable;-1;-1;-1;-1;-1;;alps
@@ -334,6 +336,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3764;11721;impassable;-1;-1;-1;-1;-1;;alps
 3764;11891;impassable;-1;-1;-1;-1;-1;;alps
 3764;3959;impassable;-1;-1;-1;-1;-1;;alps
+
+3744;14503;impassable;-1;-1;-1;-1;-1;;asturias
+3729;14503;impassable;-1;-1;-1;-1;-1;;asturias
+11707;14503;impassable;-1;-1;-1;-1;-1;;asturias
+11707;14507;impassable;-1;-1;-1;-1;-1;;asturias
+6749;14507;impassable;-1;-1;-1;-1;-1;;asturias
 
 6975;3959;impassable;-1;-1;-1;-1;-1;;alps
 3928;3959;impassable;-1;-1;-1;-1;-1;;alps
@@ -724,29 +732,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12598;10560;impassable;-1;-1;-1;-1;-1;;Himalayas
 12598;1855;impassable;-1;-1;-1;-1;-1;;Himalayas
 
-
-
-
 4986;10880;impassable;-1;-1;-1;-1;-1;;Himalayas
 4986;7314;impassable;-1;-1;-1;-1;-1;;Himalayas
 3427;7314;impassable;-1;-1;-1;-1;-1;;Himalayas
 3427;7659;impassable;-1;-1;-1;-1;-1;;Himalayas
 10451;7659;impassable;-1;-1;-1;-1;-1;;Himalayas
 
-
-4078;13683;impassable;-1;-1;-1;-1;-1;;Himalayas
-4078;4193;impassable;-1;-1;-1;-1;-1;;Himalayas
-4078;13679;impassable;-1;-1;-1;-1;-1;;Himalayas
-13681;13679;impassable;-1;-1;-1;-1;-1;;Himalayas
-13678;13679;impassable;-1;-1;-1;-1;-1;;Himalayas
-
 10315;8037;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 10315;4914;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 10315;10865;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 2074;10865;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 2074;12890;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-
-
 
 5011;10315;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 5011;1943;impassable;-1;-1;-1;-1;-1;;peshawar mountains

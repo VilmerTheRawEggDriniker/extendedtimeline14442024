@@ -62,7 +62,7 @@
 		icon = GFX_goal_generic_demand_territory
 		x = 1
 		y = 0
-
+allow_branch = {has_start_date > 1936.1.1}
 		cost = 10
 
 		ai_will_do = {
@@ -288,7 +288,7 @@
 		mutually_exclusive = { focus = SAF_abandon_westminster }
 		x = 5
 		y = 0
-
+allow_branch = {has_start_date > 1936.1.1}
 		cost = 10
 
 		ai_will_do = {
@@ -606,7 +606,7 @@
 		mutually_exclusive = { focus = SAF_support_the_policy_of_appeasement }
 		x = 7
 		y = 0
-
+allow_branch = {has_start_date > 1936.1.1}
 		cost = 10
 
 		ai_will_do = {
@@ -1977,7 +1977,7 @@
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 20
 		y = 0
-
+allow_branch = {has_start_date > 1936.1.1}
 		cost = 10
 
 		ai_will_do = {
@@ -2539,7 +2539,7 @@
 		icon = GFX_goal_generic_army_doctrines
 		x = 24
 		y = 0
-
+allow_branch = {has_start_date > 1936.1.1}
 		cost = 10
 
 		ai_will_do = {
@@ -2921,7 +2921,7 @@
 		icon = GFX_goal_generic_build_airforce
 		x = 28
 		y = 0	
-
+allow_branch = {has_start_date > 1936.1.1}
 		cost = 10
 
 		ai_will_do = {
@@ -3224,7 +3224,7 @@
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = 32
 		y = 0		
-
+allow_branch = {has_start_date > 1936.1.1}
 		cost = 10
 
 		ai_will_do = {

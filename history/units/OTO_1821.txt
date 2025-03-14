@@ -1,0 +1,404 @@
+﻿division_template = {
+	name = "Ottoman Division"
+
+	division_names_group = OTO_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 13681
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 13681
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 13681
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 4078
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 7211
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 13678
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11965
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 4109
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11818
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 9771
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 13839
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 6983
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11899
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 9602
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 657
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 789
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11818
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 9771
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 13839
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 6983
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11899
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 9602
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 657
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 789
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11818
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 9771
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 13839
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 6983
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11899
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 9602
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 657
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 789
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11818
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 9771
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 13839
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 6983
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 11899
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 9602
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 657
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Ottoman Division"
+		location = 789
+		division_template = "Ottoman Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "OTO"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

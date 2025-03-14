@@ -1,4 +1,252 @@
 characters={
+	RUS_betskoy={
+		name=RUS_CHARACTER_BETSKOY
+		portraits={
+                        army={
+				small="GFX_idea_rus_betskoy_small"
+			}
+			civilian = {
+				large = GFX_portrait_rus_betskoy_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = RUS_betskoy
+			allowed  = {
+				original_tag  = RUS
+			}
+			available  = {
+		        }
+			traits  = {
+				presidentoftheimperialacademyofarts
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+		RUS_pahlen={
+		name=RUS_CHARACTER_PAHLEN
+		portraits={
+                        army={
+				small="GFX_idea_rus_pahlen_small"
+			}
+			civilian = {
+				large = GFX_portrait_rus_pahlen_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = RUS_pahlen
+			allowed  = {
+				original_tag  = RUS
+			}
+			available  = {
+		        }
+			traits  = {
+				prestigious_self_serving_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+		RUS_panin={
+		name=RUS_CHARACTER_PANIN
+		portraits={
+                        army={
+				small="GFX_idea_rus_panin_small"
+			}
+			civilian = {
+				large = GFX_portrait_rus_panin_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = RUS_panin
+			allowed  = {
+				original_tag  = RUS
+			}
+			available  = {
+		        }
+			traits  = {
+				prestigious_self_serving_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+		RUS_ribas={
+		name=RUS_CHARACTER_RIBAS
+		portraits={
+                        army={
+				small="GFX_idea_rus_ribas_small"
+			}
+			civilian = {
+				large = GFX_portrait_rus_ribas_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = RUS_ribas
+			allowed  = {
+				original_tag  = RUS
+			}
+			available  = {
+		        }
+			traits  = {
+				prestigious_self_serving_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+		RUS_levin={
+		name=RUS_CHARACTER_LEVIN
+		portraits={
+                        army={
+				small="GFX_idea_rus_levin_small"
+			}
+			civilian = {
+				large = GFX_portrait_rus_levin_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = RUS_levin
+			allowed  = {
+				original_tag  = RUS
+			}
+			available  = {
+		        }
+			traits  = {
+				prestigious_self_serving_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+		RUS_yashvil={
+		name=RUS_CHARACTER_YASHVIL
+		portraits={
+                        army={
+				small="GFX_idea_rus_yashvil_small"
+			}
+			civilian = {
+				large = GFX_portrait_rus_yashvil_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = RUS_yashvil
+			allowed  = {
+				original_tag  = RUS
+			}
+			available  = {
+		        }
+			traits  = {
+				prestigious_self_serving_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+		RUS_zubov={
+		name=RUS_CHARACTER_ZUBOV
+		portraits={
+                        army={
+				small="GFX_idea_rus_zubov_small"
+			}
+			civilian = {
+				large = GFX_portrait_rus_zubov_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = RUS_zubov
+			allowed  = {
+				original_tag  = RUS
+			}
+			available  = {
+		        }
+			traits  = {
+				prestigious_self_serving_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+		RUS_wylie={
+		name=RUS_CHARACTER_WYLIE
+		portraits={
+                        army={
+				small="GFX_idea_rus_wylie_small"
+			}
+			civilian = {
+				large = GFX_portrait_rus_wylie_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = RUS_wylie
+			allowed  = {
+				original_tag  = RUS
+			}
+			available  = {
+		        }
+			traits  = {
+				prestigious_self_serving_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
 	RUS_kutuzov={
 		name=RUS_CHARACTER_KUTUZOV
 		portraits={
@@ -13,6 +261,24 @@ characters={
 			defense_skill=1
 			planning_skill=4
 			logistics_skill=3
+			legacy_id=0
+		}
+	}
+		RUS_lodewijk={
+		name=RUS_CHARACTER_LODEWIJK
+		portraits={
+			army={
+				large=GFX_portrait_rus_lodewijk_large
+				small=GFX_portrait_rus_lodewijk_small
+			}
+		}
+		field_marshal={
+                visible={RUS={has_country_flag=dutch_has_been_hired}}
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=5
 			legacy_id=0
 		}
 	}
@@ -59,7 +325,7 @@ characters={
 			}
 		}
 		corps_commander={
-		visible={has_completed_focus=russianempire_1793_1836_focus_56}
+		visible={RUS={has_country_flag=jacobite_has_been_hired}}
 			skill=2
 			attack_skill=1
 			defense_skill=2
@@ -111,7 +377,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-            traits={Ascania}
+            traits={Ascania catherine_the_great_leader_generous}
 			desc = RUS_CATHERINEII_DESC
 			expire="1797.1.1"
 		}
@@ -124,7 +390,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
 			desc = RUS_PAULI_DESC
 			expire="1797.1.1"
@@ -138,7 +404,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
 			desc = RUS_ALEXANDERI_DESC
 			expire="1797.1.1"
@@ -152,7 +418,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
 			desc = RUS_KONSTANTINPAVLOVICH_DESC
 			expire="1797.1.1"
@@ -166,7 +432,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
 			desc = RUS_NICHOLASI_DESC
 			expire="1797.1.1"
@@ -180,7 +446,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
 			desc = RUS_ALEXANDERIII_DESC
 			expire="1797.1.1"
@@ -194,7 +460,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
 			desc = RUS_ALEXANDERIII_DESC
 			expire="1797.1.1"
@@ -208,7 +474,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
 			desc = RUS_NICHOLASII_DESC
 			expire="1797.1.1"

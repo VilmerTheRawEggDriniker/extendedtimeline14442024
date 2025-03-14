@@ -20,6 +20,34 @@ ENG_CHARACTER_GREY:0 "The Earl Grey"
 ENG_CHARACTER_MELBOURNE:0 "The Viscount Melbourne"
 ENG_CHARACTER_PEEL:0 "Robert Peel"
 
+GRE_CHARACTER_ALEXANDROS:0 "Alexandros Mavrokordatos"
+GRE_CHARACTER_PETROBEY:0 "Petrobey Mavromichalis"
+GRE_CHARACTER_GEORGIOS:0 "Georgios Kountouriotis"
+GRE_CHARACTER_ANDREAS:0 "Andreas Zaimis"
+GRE_CHARACTER_IOANNIS:0 "Ioannis Kapodistrias"
+GRE_CHARACTER_AUGUSTINOS:0 "Augustinos Kapodistrias"
+GRE_CHARACTER_OTTO:0 "Otto"
+
+FKF_CHARACTER_ROTHSCHILD:0 "Mayer Amschel Rothschild"
+FKF_CHARACTER_ROTHSCHILDI:0 "Amschel Mayer von Rothschild"
+AUS_CHARACTER_ROTHSCHILDII:0 "Salomon Mayer von Rothschild"
+ENG_CHARACTER_ROTHSCHILDIII:0 "Nathan Mayer Rothschild"
+NAP_CHARACTER_ROTHSCHILDIIII:0 "Carl Mayer von Rothschild"
+FRA_CHARACTER_ROTHSCHILDIIIII:0 "James Mayer de Rothschild"
+
+ISR_CHARACTER_ROTHSCHILD:0 "Mayer Amschel Rothschild"
+ISR_CHARACTER_ROTHSCHILDI:0 "Amschel Mayer von Rothschild"
+ISR_CHARACTER_ROTHSCHILDII:0 "Salomon Mayer von Rothschild"
+ISR_CHARACTER_ROTHSCHILDIII:0 "Nathan Mayer Rothschild"
+ISR_CHARACTER_ROTHSCHILDIIII:0 "Carl Mayer von Rothschild"
+ISR_CHARACTER_ROTHSCHILDIIIII:0 "James Mayer de Rothschild"
+
+
+
+
+
+
+
 FRA_CHARACTER_GUIZOT:0 "François Guizot"
 FRA_CHARACTER_BARRAS:0 "Paul François Jean Nicolas"
 FRA_CHARACTER_MARIE:0 "Louis Marie de La Révellière-Lépeaux"
@@ -29,6 +57,25 @@ FRA_CHARACTER_LAFAYETTE:0 "Gilbert du Motier, Marquis de Lafayette"
 FRA_CHARACTER_HERBOIS:0 "Jean-Marie Collot d'Herbois"
 FRA_CHARACTER_RUHL:0 "Philippe Rühl"
 
+SAX_CHARACTER_VON:0 "Johann von Thielmann"
+SAX_CHARACTER_GRAF:0 "Johann Sigismund Graf von Riesch"
+SAX_CHARACTER_KARL:0 "Karl von Heygendorff"
+SAX_CHARACTER_ERNST:0 "Ernst Ludwig von Aster"
+SAX_CHARACTER_COQ:0 "Karl Christian Erdmann von Le Coq"
+SAX_CHARACTER_LUDWIG:0 "Karl Friedrich Ludwig von Watzdorf"
+SAX_CHARACTER_DER:0 "Friedrich Albrecht von der Schulenburg"
+
+RUS_CHARACTER_BETSKOY:0 "Ivan Betskoy"
+RUS_CHARACTER_PAHLEN:0 "Peter Ludwig von der Pahlen"
+RUS_CHARACTER_PANIN:0 "Nikita Petrovich Panin"
+RUS_CHARACTER_RIBAS:0 "José de Ribas"
+RUS_CHARACTER_LEVIN:0 "Levin August von Bennigsen"
+RUS_CHARACTER_YASHVIL:0 "Vladimir Mikhailovich Yashvil"
+RUS_CHARACTER_ZUBOV:0 "Nikolay Alexandrovich Zubov"
+RUS_CHARACTER_WYLIE:0 "Sir James Wylie, 1st Baronet"
+
+
+
 FRA_CHARACTER_JACQUESNECKER:0 "Jacques Necker"
 FRA_CHARACTER_TALLEYRAND:0 "Charles Maurice de Talleyrand-Périgord"
 FRA_CHARACTER_JOSEPH:0 "Joseph de Villèle"
@@ -36,19 +83,128 @@ FRA_CHARACTER_JULES:0 "Jules de Polignac"
 FRA_CHARACTER_REAL:0 "Pierre-François Réal"
 FRA_CHARACTER_STUART:0 "Édouard de Fitz-James, 6th Duke of Fitz-James"
 AUS_CHARACTER_METTERNICH:0 "Klemens von Metternich"
+
+HAN_CHARACTER_HERMANN:0 "Hermann, Prince of Hohenzollern-Hechingen"
+AUS_CHARACTER_ESKELES:0 "Bernhard von Eskeles"
+AUS_CHARACTER_BEETHOVEN:0 "Ludwig van Beethoven"
+AUS_CHARACTER_MOZART:0 "Wolfgang Amadeus Mozart"
+AUS_CHARACTER_HAYDN:0 "Joseph Haydn"
+PRE_CHARACTER_OPPENHEIM:0 "Salomon Oppenheim"
+
+PRE_CHARACTER_LANGHANS:0 "Carl Gotthard Langhans"
+PRE_CHARACTER_MENDELSSOHN:0 "Joseph Mendelssohn"
 SWE_CHARACTER_GUSTAFADOLFREUTERHOLM:0 "Gustaf Adolf Reuterholm"
 RUS_CHARACTER_KUTUZOV:0 "Mikhail Kutuzov"
 RUS_CHARACTER_SUVOROV:0 "Alexander Suvorov"
 RUS_CHARACTER_BAGRATION:0 "Pyotr Ivanovich Bagration"
 RUS_CHARACTER_OROURKE:0 "Joseph Cornelius O'Rourke"
 RUS_CHARACTER_BARCLAY:0 "Michael Andreas Barclay de Tolly"
+
+RUS_CHARACTER_LODEWIJK:0 "Lodewijk van Heiden"
+
+UTH_CHARACTER_JOSEPHSMITH:0 "Joseph Smith"
+UTH_CHARACTER_JOSEPHSMITHSR:0 "Joseph Smith Sr."
+
 RUS_CHARACTER_GRIGORY_POTEMKIN:0 "Grigory Potemkin"
+WAL_CHARACTER_GRIGORY_POTEMKIN:0 "Grigory Potemkin"
 HUN_CHARACTER_MIKHAIL:0 "Mikhail Pavlovich"
+
+PRE_CHARACTER_AUGUSGENERAL:0 "Prince Augustus of Prussia"
+PRE_CHARACTER_GEHABGENERAL:0 "Gebhard Leberecht von Blücher"
+PRE_CHARACTER_BOYENGENERAL:0 "Hermann von Boyen"
+PRE_CHARACTER_BRAUSGENERAL:0 "Friedrich August Wilhelm von Brause"
+PRE_CHARACTER_WOLFEGENERAL:0 "Frederick William, Duke of Brunswick-Wolfenbüttel"
+PRE_CHARACTER_BRUNSGENERAL:0 "Charles William Ferdinand, Duke of Brunswick"
+PRE_CHARACTER_BULOWGENERAL:0 "Friedrich Wilhelm Freiherr von Bülow"
+PRE_CHARACTER_CLAUSGENERAL:0 "Carl von Clausewitz"
+PRE_CHARACTER_LEOPOGENERAL:0 "Leopold Wilhelm von Dobschütz"
+PRE_CHARACTER_LUDWIGENERAL:0 "Wilhelm Ludwig Viktor Henckel von Donnersmarck"
+
+PRE_CHARACTER_COUNTGENERAL:0 "Count August Neidhardt von Gneisenau"
+PRE_CHARACTER_GROLMGENERAL:0 "Karl von Grolman"
+PRE_CHARACTER_GEORGGENERAL:0 "Karl Georg Albrecht Ernst von Hake"
+PRE_CHARACTER_HENRYGENERAL:0 "Prince Henry of Prussia"
+PRE_CHARACTER_FRIEDGENERAL:0 "Friedrich Ludwig, Prince of Hohenlohe-Ingelfingen"
+PRE_CHARACTER_HEINRGENERAL:0 "Heinrich Wilhelm von Horn"
+PRE_CHARACTER_JAGOWGENERAL:0 "Friedrich Wilhelm von Jagow"
+PRE_CHARACTER_ADOLFGENERAL:0 "Friedrich Adolf, Count von Kalckreuth"
+PRE_CHARACTER_KLEISGENERAL:0 "Friedrich Graf Kleist von Nollendorf"
+PRE_CHARACTER_ESTOCGENERAL:0 "Anton Wilhelm von L'Estocq"
+
+PRE_CHARACTER_LOUISGENERAL:0 "Prince Louis Ferdinand of Prussia"
+PRE_CHARACTER_MARWIGENERAL:0 "Friedrich August von der Marwitz"
+PRE_CHARACTER_JOACHGENERAL:0 "Wichard Joachim Heinrich von Möllendorf"
+PRE_CHARACTER_FREIHGENERAL:0 "Karl Freiherr von Müffling"
+PRE_CHARACTER_ERNSTGENERAL:0 "Ernst von Pfuel"
+PRE_CHARACTER_PHULLGENERAL:0 "Karl Ludwig von Phull"
+PRE_CHARACTER_RAUCHGENERAL:0 "Bonaventura von Rauch"
+PRE_CHARACTER_GUSTAGENERAL:0 "Gustav von Rauch"
+PRE_CHARACTER_RUCHEGENERAL:0 "Ernst von Rüchel"
+PRE_CHARACTER_BOGISGENERAL:0 "Bogislav Friedrich Emanuel von Tauentzien"
+
+PRE_CHARACTER_TIPPEGENERAL:0 "Ernst Ludwig von Tippelskirch"
+PRE_CHARACTER_WILHEGENERAL:0 "Prince Wilhelm of Prussia"
+PRE_CHARACTER_WOLZOGENERAL:0 "Ludwig von Wolzogen"
+PRE_CHARACTER_WARTEGENERAL:0 "Ludwig Yorck von Wartenburg"
+PRE_CHARACTER_ZIETEGENERAL:0 "Hans Ernst Karl, Graf von Zieten"
+
+OTO_CHARACTER_KOCAGENERAL:0 "Koca Yusuf Pasha"
+OTO_CHARACTER_GAZIGENERAL:0 "Cezayirli Gazi Hasan Pasha"
+OTO_CHARACTER_NASUHZADEGENERAL:0 "Nasuhzade Ali Pasha"
+OTO_CHARACTER_OMERGENERAL:0 "Omer Vrioni"
+OTO_CHARACTER_MAHMUDGENERAL:0 "Mahmud Dramali Pasha"
+OTO_CHARACTER_HURSHIDGENERAL:0 "Hurshid Pasha"
+OTO_CHARACTER_HUSREVGENERAL:0 "Koca Hüsrev Mehmed Pasha"
+OTO_CHARACTER_RESIDGENERAL:0 "Reşid Mehmed Pasha"
+
+BAY_CHARACTER_WREDEGENERAL:0 "Karl Philipp von Wrede"
+BAY_CHARACTER_KARLGENERAL:0 "Karl August von Beckers zu Westerstetten"
+BAY_CHARACTER_HUGOGENERAL:0 "Hugo von Bosch"
+BAY_CHARACTER_PALATGENERAL:0 "Christian of the Palatinate-Zweibrücken"
+BAY_CHARACTER_DEROYGENERAL:0 "Bernhard Erasmus von Deroy"
+
+BAY_CHARACTER_ANTONGENERAL:0 "Anton von Gumppenberg"
+BAY_CHARACTER_CARLGENERAL:0 "Carl Wilhelm von Heideck"
+BAY_CHARACTER_ADOLFGENERAL:0 "Adolf von Heinleth"
+BAY_CHARACTER_FRANZGENERAL:0 "Franz Xaver von Hertling"
+BAY_CHARACTER_VONGENERAL:0 "Bernhard von Heß"
+
+BAY_CHARACTER_LEONGENERAL:0 "Leonhard von Hohenhausen"
+BAY_CHARACTER_KRAZGENERAL:0 "Karl Krazeisen"
+BAY_CHARACTER_MAXIMGENERAL:0 "Joseph Maximilian von Maillinger"
+BAY_CHARACTER_MALAIGENERAL:0 "Ferdinand von Malaisé"
+BAY_CHARACTER_PARSEGENERAL:0 "Ferdinand von Parseval"
+
+BAY_CHARACTER_PRANCGENERAL:0 "Siegmund von Pranckh"
+BAY_CHARACTER_RAGLOGENERAL:0 "Clemens von Raglovich"
+BAY_CHARACTER_SAFFEGENERAL:0 "Benignus von Safferling"
+BAY_CHARACTER_JOHANGENERAL:0 "Johann Baptist Stephan"
+BAY_CHARACTER_LUDWIGENERAL:0 "Ludwig Freiherr von und zu der Tann-Rathsamhausen"
+
+BAY_CHARACTER_TRIVAGENERAL:0 "Johann Nepomuk von Triva"
+BAY_CHARACTER_WASHIGENERAL:0 "Jakob von Washington"
+BAY_CHARACTER_WEISHGENERAL:0 "Karl von Weishaupt"
+BAY_CHARACTER_ZWEIBGENERAL:0 "Wilhelm of the Palatinate-Zweibrücken"
+BAY_CHARACTER_OSKARGENERAL:0 "Oskar von Zoller"
+
+
+
+
+
+
+
 
 FRA_CHARACTER_NAPOLEONGENERAL:0 "Napoleon Bonaparte"
 FRA_CHARACTER_JOACHIMMURATGENERAL:0 "Joachim Murat"
 FRA_CHARACTER_CHARLESXIVJOHNGENERAL:0 "Charles John"
 FRA_CHARACTER_LAFAYETTEGENERAL:0 "Gilbert du Motier"
+
+EGY_CHARACTER_ALI:0 "Muhammad Ali Pasha"
+EGY_CHARACTER_PASHAGENERAL:0 "Ibrahim Pasha"
+ENG_CHARACTER_CODRINGTONGENERAL:0 "Edward Codrington"
+
+FRA_CHARACTER_RIGNYGENERAL:0 "Henri de Rigny"
+FRA_CHARACTER_MAISONGENERAL:0 "Nicolas Joseph Maison"
 
 FRA_CHARACTER_MICHELGENERAL:0 "Michel Ney"
 FRA_CHARACTER_JEANGENERAL:0 "Jean-Baptiste Kléber"
@@ -59,6 +215,8 @@ FRA_CHARACTER_SOULTGENERAL:0 "Jean-de-Dieu Soult"
 FRA_CHARACTER_LANNESGENERAL:0 "Jean Lannes"
 FRA_CHARACTER_LOUISGENERAL:0 "Louis-René"
 FRA_CHARACTER_ANDREGENERAL:0 "André Masséna"
+
+FRA_CHARACTER_BRUNEGENERAL:0 "André Masséna"
 
 
 
@@ -170,6 +328,7 @@ POL_CHARACTER_WLADYGENERAL:0 "Władysław Ostrowski"
 POL_CHARACTER_MICHAGENERAL:0 "Ludwik Michał Pac"
 
 POL_CHARACTER_PONIAGENERAL:0 "Józef Poniatowski"
+POL_CHARACTER_PONIA:0 "Józef Poniatowski"
 POL_CHARACTER_FLORIGENERAL:0 "Stanisław Florian Potocki"
 POL_CHARACTER_PRADZGENERAL:0 "Ignacy Prądzyński"
 POL_CHARACTER_HIEROGENERAL:0 "Dominik Hieronim Radziwiłł"
@@ -185,6 +344,7 @@ POL_CHARACTER_ANTONGENERAL:0 "Antoni Paweł Sułkowski"
 POL_CHARACTER_TYSZKGENERAL:0 "Michał Tyszkiewicz"
 POL_CHARACTER_JANNEGENERAL:0 "Jan Nepomucen Umiński"
 POL_CHARACTER_ZAJACGENERAL:0 "Józef Zajączek"
+POL_CHARACTER_ZAJAC:0 "Józef Zajączek"
 POL_CHARACTER_JOANNGENERAL:0 "Joanna Żubr"
 
 
@@ -444,6 +604,11 @@ MAS_ERCOLE_DESC:0 "He was born in Modena, the son of Duke Francesco III d'Este, 
 MAS_CHARACTER_FRANCISIV:0 "Francis IV"
 MAS_FRANCISIV_DESC:0 "Francis IV was Duke of Modena, Reggio, and Mirandola (from 1815), Duke of Massa and Prince of Carrara (from 1829), Archduke of Austria-Este, Royal Prince of Hungary and Bohemia, Knight of the Order of the Golden Fleece."
 
+BEL_CHARACTER_JAN:0 "Jan Frans Vonck"
+BEL_CHARACTER_JEAN:0 "Jean-André van der Mersch"
+BEL_CHARACTER_VAN:0 "Henri van der Noot"
+BEL_CHARACTER_NELIS:0 "Cornelius Franciscus Nelis"
+
 BEL_CHARACTER_CASIMIR:0 "Albert Casimir"
 BEL_CASIMIR_DESC:0 "Prince Albert Casimir of Saxony, Duke of Teschen was a Saxon prince from the House of Wettin who married into the Habsburg imperial family. He was noted as an art collector and founded the Albertina in Vienna, one of the largest and finest collections of old master prints and drawings in the world."
 
@@ -459,6 +624,21 @@ BEL_AUGUSTE_DESC:0 ""
 BEL_CHARACTER_LOUIS:0 "Louis"
 BEL_LOUIS_DESC:0 ""
 
+LUX_CHARACTER_CASIMIR:0 "Albert Casimir"
+LUX_CASIMIR_DESC:0 "Prince Albert Casimir of Saxony, Duke of Teschen was a Saxon prince from the House of Wettin who married into the Habsburg imperial family. He was noted as an art collector and founded the Albertina in Vienna, one of the largest and finest collections of old master prints and drawings in the world."
+
+LUX_CHARACTER_CHARLES:0 "Archduke Charles"
+LUX_CHARLES_DESC:0 "Archduke Charles was an Austrian field-marshal, the third son of Emperor Leopold II and his wife, Maria Luisa of Spain. He was also the younger brother of Francis II, Holy Roman Emperor. He was epileptic, but achieved respect both as a commander and as a reformer of the Austrian army. He was considered one of Napoleon's more formidable opponents and one of the greatest generals of the French Revolutionary and Napoleonic Wars."
+
+LUX_CHARACTER_LEOPOLDI:0 "Leopold I"
+LUX_LEOPOLDI_DESC:0 "Leopold I was the first King of the Belgians, reigning from 21 July 1831 until his death in 1865."
+
+LUX_CHARACTER_AUGUSTE:0 "Auguste"
+LUX_AUGUSTE_DESC:0 ""
+
+LUX_CHARACTER_LOUIS:0 "Louis"
+LUX_LOUIS_DESC:0 ""
+
 HOL_CHARACTER_WILLIAMV:0 "William V"
 HOL_WILLIAMV_DESC:0 "William V was Prince of Orange and the last Stadtholder of the Dutch Republic. He went into exile to London in 1795. He was furthermore ruler of the Principality of Orange-Nassau until his death in 1806. In that capacity he was succeeded by his son William."
 
@@ -470,6 +650,18 @@ HOL_LOUISII_DESC:0 "Napoléon-Louis Bonaparte was King of Holland for less than 
 
 HOL_CHARACTER_WILLIAMI:0 "William I"
 HOL_WILLIAMI_DESC:0 "William I was king of the Netherlands and grand duke of Luxembourg from 1815 until his abdication in 1840."
+
+LUX_CHARACTER_WILLIAMV:0 "William V"
+LUX_WILLIAMV_DESC:0 "William V was Prince of Orange and the last Stadtholder of the Dutch Republic. He went into exile to London in 1795. He was furthermore ruler of the Principality of Orange-Nassau until his death in 1806. In that capacity he was succeeded by his son William."
+
+LUX_CHARACTER_LOUISBONAPORTE:0 "Louis Bonaparte"
+LUX_LOUISBONAPORTE_DESC:0 "Louis Napoléon Bonaparte was a younger brother of Napoleon I, Emperor of the French. He was a monarch in his own right from 1806 to 1810, ruling over the Kingdom of Holland (a French client state roughly corresponding to the modern-day Netherlands). In that capacity, he was known as Louis I."
+
+LUX_CHARACTER_LOUISII:0 "Louis II"
+LUX_LOUISII_DESC:0 "Napoléon-Louis Bonaparte was King of Holland for less than two weeks in July 1810 as Louis II. He was a son of Louis Bonaparte and Queen Hortense. His father was the younger brother of Napoleon I of France who ruled the Napoleonic Kingdom of Holland from 1806 to 1810. His mother was the daughter of Josephine de Beauharnais, Napoleon's first wife. His younger brother, Louis-Napoléon, became Emperor of the French in 1852 as Napoleon III."
+
+LUX_CHARACTER_WILLIAMI:0 "William I"
+LUX_WILLIAMI_DESC:0 "William I was king of the Netherlands and grand duke of Luxembourg from 1815 until his abdication in 1840."
 
 WTF_CHARACTER_JEROMEBONAPARTE:0 "Jérôme Bonaparte"
 WTF_JEROMEBONAPORTE_DESC:0 "Jérôme-Napoléon Bonaparte was the youngest brother of Napoleon I and reigned as Jerome Napoleon 1, King of Westphalia, between 1807 and 1813."
@@ -511,6 +703,19 @@ BRU_WILLIAM_DESC:0 "William, Duke of Brunswick was ruling duke of the Duchy of B
 BRU_CHARACTER_CHARLESWILLIAMFERDINAND:0 "Charles William Ferdinand"
 BRU_CHARLESWILLIAMFERDINAND_DESC:0 "Charles William Ferdinand was the prince of Brunswick-Wolfenbüttel and duke of Brunswick-Lüneburg and a military leader. His titles are usually shortened to Duke of Brunswick in English-language sources."
 
+HAN_CHARACTER_FREDERICKWILLIAM:0 "Frederick William"
+HAN_FREDERICKWILLIAM_DESC:0 "Frederick William, Duke of Brunswick-Wolfenbüttel was a German prince and Duke of Brunswick-Lüneburg and Oels. Nicknamed The Black Duke, he was a military officer who led the Black Brunswickers against French domination in Germany. He briefly ruled the state of Brunswick-Wolfenbüttel from 1806 to 1807 and again from 1813 to 1815."
+
+HAN_CHARACTER_CHARLESII:0 "Charles II"
+HAN_CHARLESII_DESC:0 "Charles II, Duke of Brunswick ruled the Duchy of Brunswick from 1815 until 1830. Today he is best remembered for being on the losing side of the Opera Game, defeated by American chess master Paul Morphy in one of the most famous chess games ever played."
+
+HAN_CHARACTER_WILLIAM:0 "William"
+HAN_WILLIAM_DESC:0 "William, Duke of Brunswick was ruling duke of the Duchy of Brunswick from 1830 until his death."
+
+HAN_CHARACTER_CHARLESWILLIAMFERDINAND:0 "Charles William Ferdinand"
+HAN_CHARLESWILLIAMFERDINAND_DESC:0 "Charles William Ferdinand was the prince of Brunswick-Wolfenbüttel and duke of Brunswick-Lüneburg and a military leader. His titles are usually shortened to Duke of Brunswick in English-language sources."
+
+
 SIC_CHARACTER_FERDINANDI:0 "Ferdinand I"
 SIC_FERDINANDI_DESC:0 "Ferdinand I was King of the Two Sicilies from 1816 until his death. Before that he had been, since 1759, King of Naples as Ferdinand IV and King of Sicily as Ferdinand III. He was deposed twice from the throne of Naples once by the revolutionary Parthenopean Republic for six months in 1799, and again by a French invasion in 1806, before being restored in 1815 at the end of the Napoleonic Wars."
 
@@ -519,6 +724,17 @@ NAP_FERDINANDI_DESC:0 "Ferdinand I was King of the Two Sicilies from 1816 until 
 
 TTS_CHARACTER_FERDINANDI:0 "Ferdinand I"
 TTS_FERDINANDI_DESC:0 "Ferdinand I was King of the Two Sicilies from 1816 until his death. Before that he had been, since 1759, King of Naples as Ferdinand IV and King of Sicily as Ferdinand III. He was deposed twice from the throne of Naples once by the revolutionary Parthenopean Republic for six months in 1799, and again by a French invasion in 1806, before being restored in 1815 at the end of the Napoleonic Wars."
+
+SPM_CHARACTER_FERDINANDI:0 "Ferdinand I"
+SPM_FERDINANDI_DESC:0 "Ferdinand I was King of the Two Sicilies from 1816 until his death. Before that he had been, since 1759, King of Naples as Ferdinand IV and King of Sicily as Ferdinand III. He was deposed twice from the throne of Naples once by the revolutionary Parthenopean Republic for six months in 1799, and again by a French invasion in 1806, before being restored in 1815 at the end of the Napoleonic Wars."
+
+SPM_CHARACTER_SAVOIA:0 "Giuseppe Maria di Savoia-Villafranca"
+SPM_CHARACTER_ANSELMO:0 "Anselmo Maria Almanzor D'Oria"
+SPM_CHARACTER_BENEDETTO:0 "Benedetto di Savoia"
+SPM_CHARACTER_GIORGIO:0 "Giorgio Andrea des Geneys"
+SPM_CHARACTER_GIUSEPPE:0 "Giuseppe Thaon di Revel di Sant'Andrea"
+SPM_CHARACTER_CARLO:0 "Carlo Thaon di Revel Sant'Andrea"
+
 
 NAP_CHARACTER_JOSEPHBONAPARTE:0 "Joseph Bonaparte"
 NAP_JOSEPHBONAPARTE_DESC:0 "Joseph-Napoléon Bonaparte was a French statesman, lawyer, diplomat and older brother of Napoleon Bonaparte. During the Napoleonic Wars, the latter made him King of Naples (1806 1808), and then King of Spain (1808 1813). After the fall of Napoleon, Joseph styled himself Comte de Survilliers and emigrated to the United States, where he settled near Bordentown, New Jersey, on an estate overlooking the Delaware River not far from Philadelphia."
@@ -532,6 +748,8 @@ TTS_FRANCISI_DESC:0 "Francis I of the Two Sicilies was King of the Two Sicilies 
 TTS_CHARACTER_FERDINANDII:0 "Ferdinand II"
 TTS_FERDINANDII_DESC:0 "Ferdinand II was King of the Two Sicilies from 1830 until his death in 1859."
 
+STR_CHARACTER_LOUISE:0 "Louise"
+PRE_CHARACTER_LOUISE:0 "Louise"
 
 STR_CHARACTER_ADOLPHUSFREDERICKIV:0 "Adolphus Frederick IV"
 STR_ADOLPHUSFREDERICKIV_DESC:0 "Adolphus Frederick IV was Duke of Mecklenburg-Strelitz from 1752 to his death in 1794."
@@ -565,6 +783,10 @@ BAM_CHRIS_DESC:0 "Christoph Franz von Buseck was the Roman Catholic bishop of Ba
 
 BAM_CHARACTER_FRANZ:0 "Franz Ludwig von Erthal"
 BAM_FRANZ_DESC:0 "Franz Ludwig Freiherr von Erthal was the Prince-bishop of Würzburg and Bamberg from 1779 until his death. He was buried at the Würzburg Cathedral."
+
+TOS_CHARACTER_FRANCESCODEMEDICI:0 "Francesco de' Medici di Ottajano"
+TOS_CHARACTER_LUIGIDEMEDICI:0 "Luigi de' Medici"
+NAP_CHARACTER_LUIGIDEMEDICI:0 "Luigi de' Medici"
 
 TOS_CHARACTER_LOUISI:0 "Louis I"
 TOS_LOUISI_DESC:0 "Louis I was the first of the two kings of Etruria. Louis was the son of Ferdinand, Duke of Parma, and Maria Amalia of Austria. He was born in 1773, when his great-grandfather, King Louis XV of France, was still alive."
@@ -697,6 +919,9 @@ MEX_MIGUEL_DESC:0 "Miguel Francisco Barragán Andrade was a Mexican soldier and 
 CAF_CHARACTER_FRANCISCO:0 "Francisco Morazán"
 CAF_FRANCISCO_DESC:0 "José Francisco Morazán Quesada was a liberal Central American politician and general who served as president of the Federal Republic of Central America from 1830 to 1839. Before he was president of Central America he was the head of state of Honduras. He rose to prominence at the Battle of La Trinidad on November 11, 1827. Morazán then dominated the political and military scene of Central America until his execution in 1842."
 
+LIE_CHARACTER_REMY:0 "Jean-Remy de Chestret"
+LIE_REMY_DESC:0 "Jean-Remy de Chestret was a Burgomaster of Liège in 1784 and 1789 and one of the chiefs of the Liège Revolution and later a member of the French Sénat conservateur."
+
 LIE_CHARACTER_CESAR:0 "César-Constantin-François de Hoensbroeck"
 LIE_CESAR_DESC:0 "César-Constantin-François de Hoensbroeck was a German ecclesiastic of the Van Hoensbroeck family, most notable as prince-bishop of Liège from 1784 to 1792, in which post he was nicknamed the red executioner."
 
@@ -727,14 +952,16 @@ PER_JAFARKHAN_DESC:0 "Jafar Khan Zand,  was the seventh shah of the Zand dynasty
 PER_CHARACTER_LOTFALIKHAN:0 "Lotf Ali Khan"
 PER_LOTFALIKHAN_DESC:0 "Lotf Ali Khan was the last Shah of the Zand dynasty. He ruled from 1789 to 1794."
 
-PER_CHARACTER_AGHAMOHAMMADKHANQAJAR:0 "Agha Mohammad Khan Qajar"
-PER_AGHAMOHAMMADKHANQAJAR_DESC:0 "Agha Mohammad Khan Qajar was the founder of the Qajar dynasty of Iran, ruling from 1789 to 1797 as Shah. Originally a chieftain of the Quwanlu branch of the Qajar tribe, Agha Mohammad Khan was enthroned as the king of Iran in 1789, but was not officially crowned until March 1796, having deposed Lotf Ali Khan of the Zand dynasty in 1794. He was assassinated on 17 June 1797, and was succeeded by his nephew, Fath-Ali Shah Qajar."
+AFS_CHARACTER_SHAHROKH:0 "Shahrokh Shah"
 
-PER_CHARACTER_FATHALISHAHQAJAR:0 "Fath-Ali Shah Qajar"
-PER_FATHALISHAHQAJAR_DESC:0 "Fath-Ali Shah Qajar was the second Shah of Qajar Iran. He reigned from 17 June 1797 until his death on 24 October 1834. His reign saw the irrevocable ceding of Iran's northern territories in the Caucasus, comprising what is nowadays Georgia, Dagestan, Azerbaijan, and Armenia, to the Russian Empire following the Russo-Persian Wars of 1804–1813 and 1826–1828 and the resulting treaties of Gulistan and Turkmenchay. Historian Joseph M. Upton says that he is famous among Iranians for three things his exceptionally long beard, his wasp-like waist, and his progeny."
+QAJ_CHARACTER_AGHAMOHAMMADKHANQAJAR:0 "Agha Mohammad Khan Qajar"
+QAJ_AGHAMOHAMMADKHANQAJAR_DESC:0 "Agha Mohammad Khan Qajar was the founder of the Qajar dynasty of Iran, ruling from 1789 to 1797 as Shah. Originally a chieftain of the Quwanlu branch of the Qajar tribe, Agha Mohammad Khan was enthroned as the king of Iran in 1789, but was not officially crowned until March 1796, having deposed Lotf Ali Khan of the Zand dynasty in 1794. He was assassinated on 17 June 1797, and was succeeded by his nephew, Fath-Ali Shah Qajar."
 
-PER_CHARACTER_MOHAMMADSHAHQAJAR:0 "Mohammad Shah Qajar"
-PER_MOHAMMADSHAHQAJAR_DESC:0 "Mohammad Shah was the third Qajar shah of Iran from 1834 to 1848, inheriting the throne from his grandfather, Fath-Ali Shah. From a young age, Mohammad Mirza was under the tutelage of Haji Mirza Aqasi, a local dervish from Tabriz whose teachings influenced the young prince to become a Sufi-king later in his life. After his father Abbas Mirza died in 1833, Mohammad Mirza became the crown prince of Iran and was assigned with the governorship of Azarbaijan. After the death of Fath-Ali Shah in 1834, some of his sons including Hossein Ali Mirza and Ali Mirza Zel as-Soltan rose up as claimants to the throne. With the support of English and Russian forces, Mohammad Shah suppressed the rebellious princes and asserted his authority."
+QAJ_CHARACTER_FATHALISHAHQAJAR:0 "Fath-Ali Shah Qajar"
+QAJ_FATHALISHAHQAJAR_DESC:0 "Fath-Ali Shah Qajar was the second Shah of Qajar Iran. He reigned from 17 June 1797 until his death on 24 October 1834. His reign saw the irrevocable ceding of Iran's northern territories in the Caucasus, comprising what is nowadays Georgia, Dagestan, Azerbaijan, and Armenia, to the Russian Empire following the Russo-Persian Wars of 1804–1813 and 1826–1828 and the resulting treaties of Gulistan and Turkmenchay. Historian Joseph M. Upton says that he is famous among Iranians for three things his exceptionally long beard, his wasp-like waist, and his progeny."
+
+QAJ_CHARACTER_MOHAMMADSHAHQAJAR:0 "Mohammad Shah Qajar"
+QAJ_MOHAMMADSHAHQAJAR_DESC:0 "Mohammad Shah was the third Qajar shah of Iran from 1834 to 1848, inheriting the throne from his grandfather, Fath-Ali Shah. From a young age, Mohammad Mirza was under the tutelage of Haji Mirza Aqasi, a local dervish from Tabriz whose teachings influenced the young prince to become a Sufi-king later in his life. After his father Abbas Mirza died in 1833, Mohammad Mirza became the crown prince of Iran and was assigned with the governorship of Azarbaijan. After the death of Fath-Ali Shah in 1834, some of his sons including Hossein Ali Mirza and Ali Mirza Zel as-Soltan rose up as claimants to the throne. With the support of English and Russian forces, Mohammad Shah suppressed the rebellious princes and asserted his authority."
 
 SPM_CHARACTER_VICTORAMADEUSIII:0 "Victor Amadeus III"
 SPM_VICTORAMADEUSIII_DESC:0 "Victor Amadeus III was King of Sardinia and ruler of the Savoyard states from 20 February 1773 to his death in 1796. Although he was politically conservative, he carried out numerous administrative reforms until he declared war on Revolutionary France in 1792. He was the father of the last three mainline Kings of Sardinia."
@@ -865,6 +1092,12 @@ COU_PETERVONBIRON_DESC:0 "Peter von Biron was the last Duke of Courland and Semi
 
 DEN_CHARACTER_CHRISTIANVII:0 "Christian VII"
 DEN_CHRISTIANVII_DESC:0 "Christian VII was King of Denmark and Norway and Duke of Schleswig and Holstein from 1766 until his death in 1808. His motto was Glory through love of the fatherland."
+
+DEN_CHARACTER_CHRISTIANVIII:0 "Christian VIII"
+DEN_CHRISTIANVIII_DESC:0 "Christian VIII was King of Denmark from 1839 to 1848 and, as Christian Frederick, King of Norway in 1814."
+
+NOR_CHARACTER_CHRISTIANVIII:0 "Christian VIII"
+NOR_CHRISTIANVIII_DESC:0 "Christian VIII was King of Denmark from 1839 to 1848 and, as Christian Frederick, King of Norway in 1814."
 
 DEN_CHARACTER_FREDERICKVI:0 "Frederick VI"
 DEN_FREDERICKVI_DESC:0 "Frederick VI was King of Denmark from 13 March 1808 until his death in 1839 and King of Norway from 13 March 1808 to 7 February 1814. He was the last king of Denmark–Norway. From 1784 until his accession, he served as regent during his father's mental illness and was referred to as the Crown Prince Regent. For his motto he chose God and the just cause and since the time of his reign, succeeding Danish monarchs have also chosen mottos in the Danish language rather than the formerly customary Latin."
@@ -1073,16 +1306,26 @@ NIR_GEORGEIIINIR_DESC:0 "George III was King of Great Britain and Ireland from 2
 ENG_CHARACTER_GEORGEIIIENG:0 "George III"
 ENG_GEORGEIIIENG_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke English as his first language, and never visited Hanover."
 
-ENG_CHARACTER_GEORGEIVENG_DESC:0 "George IV"
+ENG_CHARACTER_GEORGEIVENG:0 "George IV"
 ENG_GEORGEIVENG_DESC_DESC:0 "George IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 29 January 1820 until his death in 1830. At the time of his accession to the throne, he was acting as prince regent for his father, King George III, having done so since 5 February 1811 during his father's final mental illness."
 
 ENG_CHARACTER_WILLIAMIVENG:0 "William IV"
 ENG_WILLIAMIVENG_DESC:0 "William IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 26 June 1830 until his death in 1837. The third son of George III, William succeeded his elder brother George IV, becoming the last king and penultimate monarch of Britain's House of Hanover."
 
-HAN_CHARACTER_GEORGEIIIHAN:0 "George III"
-HAN_GEORGEIIIHAN_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke HANlish as his first language, and never visited Hanover."
+SXL_CHARACTER_GEORGEIIISXL:0 "George III"
+SXL_GEORGEIIISXL_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke English as his first language, and never visited Hanover."
 
-HAN_CHARACTER_GEORGEIVHAN_DESC:0 "George IV"
+SXL_CHARACTER_GEORGEIVSXL:0 "George IV"
+SXL_GEORGEIVSXL_DESC_DESC:0 "George IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 29 January 1820 until his death in 1830. At the time of his accession to the throne, he was acting as prince regent for his father, King George III, having done so since 5 February 1811 during his father's final mental illness."
+
+SXL_CHARACTER_WILLIAMIVSXL:0 "William IV"
+SXL_WILLIAMIVSXL_DESC:0 "William IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 26 June 1830 until his death in 1837. The third son of George III, William succeeded his elder brother George IV, becoming the last king and penultimate monarch of Britain's House of Hanover."
+
+
+HAN_CHARACTER_GEORGEIIIHAN:0 "George III"
+HAN_GEORGEIIIHAN_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke English as his first language, and never visited Hanover."
+
+HAN_CHARACTER_GEORGEIVHAN:0 "George IV"
 HAN_GEORGEIVHAN_DESC_DESC:0 "George IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 29 January 1820 until his death in 1830. At the time of his accession to the throne, he was acting as prince regent for his father, King George III, having done so since 5 February 1811 during his father's final mental illness."
 
 HAN_CHARACTER_WILLIAMIVHAN:0 "William IV"
@@ -1096,6 +1339,26 @@ PRE_FREDRICKWILLIAMII_DESC:0 "Frederick William II was king of Prussia from 1786
 
 PRE_CHARACTER_FREDERICKWILLIAMIII:0 "Frederick William III"
 PRE_FREDRICKWILLIAMIII_DESC:0 "Frederick William III was King of Prussia from 16 November 1797 until his death in 1840. He was concurrently Elector of Brandenburg in the Holy Roman Empire until 6 August 1806, when the empire was dissolved. Frederick William III ruled Prussia during the times of the Napoleonic Wars. The king reluctantly joined the Sixth Coalition against Napoleon in the German Campaign of 1813. Following Napoleon's defeat, he took part in the Congress of Vienna, which assembled to settle the political questions arising from the new, postNapoleonic order in Europe. His primary interests were internal the reform of Prussia's Protestant churches. He was determined to unify the Protestant churches to homogenize their liturgy, organization, and architecture. The long term goal was to have fully centralized royal control of all the Protestant churches in the Prussian Union of Churches. The king was said to be extremely shy and indecisive. His wife Queen Louise (1776–1810) was his most important political advisor. She led a mighty group that included Baron Heinrich Friedrich Karl vom und zum Stein, Prince Karl August von Hardenberg, Gerhard von Scharnhorst, and Count August von Gneisenau. They set about reforming Prussia's administration, churches, finance, and military. He was the dedicatee of Beethoven's Ninth Symphony in 1824."
+
+NEU_CHARACTER_FREDERICKTHEGREAT:0 "Frederick the Great"
+NEU_FREDRICKTHEGREAT_DESC:0 "Frederick II was the monarch of Prussia from 1740 until 1786. He was the last Hohenzollern monarch titled King in Prussia, declaring himself King of Prussia after annexing Royal Prussia from the Polish–Lithuanian Commonwealth in 1772. His most significant accomplishments include his military successes in the Silesian wars, his reorganisation of the Prussian Army, the First Partition of Poland, and his patronage of the arts and the Enlightenment. Prussia greatly increased its territories and became a major military power in Europe under his rule. He became known as Frederick the Great and was nicknamed Old Fritz."
+
+NEU_CHARACTER_FREDERICKWILLIAMII:0 "Frederick William II"
+NEU_FREDRICKWILLIAMII_DESC:0 "Frederick William II was king of Prussia from 1786 until his death in 1797. He was in personal union with the prince elector of Brandenburg and (via the Orange Nassau inheritance of his grandfather) sovereign prince of the Canton of Neuchâtel. As a defensive reaction to the French Revolution, Frederick William II ended the German Dualism between Prussia and Austria. Domestically, he turned away from the enlightened style of government of his predecessor and introduced a tightened system of censorship and religious control. The king was an important patron of the arts especially in the field of music. As a skilled cellist he enjoyed the dedication of various cellocentric compositions by composers Mozart, Haydn, Boccherini and Beethoven. He was also responsible for some of the most notable architecture in Prussia, including the Brandenburg Gate in Berlin, the Marble Palace and Orangery in the New Garden, Potsdam."
+
+NEU_CHARACTER_FREDERICKWILLIAMIII:0 "Frederick William III"
+NEU_FREDRICKWILLIAMIII_DESC:0 "Frederick William III was King of Prussia from 16 November 1797 until his death in 1840. He was concurrently Elector of Brandenburg in the Holy Roman Empire until 6 August 1806, when the empire was dissolved. Frederick William III ruled Prussia during the times of the Napoleonic Wars. The king reluctantly joined the Sixth Coalition against Napoleon in the German Campaign of 1813. Following Napoleon's defeat, he took part in the Congress of Vienna, which assembled to settle the political questions arising from the new, postNapoleonic order in Europe. His primary interests were internal the reform of Prussia's Protestant churches. He was determined to unify the Protestant churches to homogenize their liturgy, organization, and architecture. The long term goal was to have fully centralized royal control of all the Protestant churches in the Prussian Union of Churches. The king was said to be extremely shy and indecisive. His wife Queen Louise (1776–1810) was his most important political advisor. She led a mighty group that included Baron Heinrich Friedrich Karl vom und zum Stein, Prince Karl August von Hardenberg, Gerhard von Scharnhorst, and Count August von Gneisenau. They set about reforming Prussia's administration, churches, finance, and military. He was the dedicatee of Beethoven's Ninth Symphony in 1824."
+
+
+
+POS_CHARACTER_FREDERICKTHEGREAT:0 "Frederick the Great"
+POS_FREDRICKTHEGREAT_DESC:0 "Frederick II was the monarch of Prussia from 1740 until 1786. He was the last Hohenzollern monarch titled King in Prussia, declaring himself King of Prussia after annexing Royal Prussia from the Polish–Lithuanian Commonwealth in 1772. His most significant accomplishments include his military successes in the Silesian wars, his reorganisation of the Prussian Army, the First Partition of Poland, and his patronage of the arts and the Enlightenment. Prussia greatly increased its territories and became a major military power in Europe under his rule. He became known as Frederick the Great and was nicknamed Old Fritz."
+
+POS_CHARACTER_FREDERICKWILLIAMII:0 "Frederick William II"
+POS_FREDRICKWILLIAMII_DESC:0 "Frederick William II was king of Prussia from 1786 until his death in 1797. He was in personal union with the prince elector of Brandenburg and (via the Orange Nassau inheritance of his grandfather) sovereign prince of the Canton of Neuchâtel. As a defensive reaction to the French Revolution, Frederick William II ended the German Dualism between Prussia and Austria. Domestically, he turned away from the enlightened style of government of his predecessor and introduced a tightened system of censorship and religious control. The king was an important patron of the arts especially in the field of music. As a skilled cellist he enjoyed the dedication of various cellocentric compositions by composers Mozart, Haydn, Boccherini and Beethoven. He was also responsible for some of the most notable architecture in Prussia, including the Brandenburg Gate in Berlin, the Marble Palace and Orangery in the New Garden, Potsdam."
+
+POS_CHARACTER_FREDERICKWILLIAMIII:0 "Frederick William III"
+POS_FREDRICKWILLIAMIII_DESC:0 "Frederick William III was King of Prussia from 16 November 1797 until his death in 1840. He was concurrently Elector of Brandenburg in the Holy Roman Empire until 6 August 1806, when the empire was dissolved. Frederick William III ruled Prussia during the times of the Napoleonic Wars. The king reluctantly joined the Sixth Coalition against Napoleon in the German Campaign of 1813. Following Napoleon's defeat, he took part in the Congress of Vienna, which assembled to settle the political questions arising from the new, postNapoleonic order in Europe. His primary interests were internal the reform of Prussia's Protestant churches. He was determined to unify the Protestant churches to homogenize their liturgy, organization, and architecture. The long term goal was to have fully centralized royal control of all the Protestant churches in the Prussian Union of Churches. The king was said to be extremely shy and indecisive. His wife Queen Louise (1776–1810) was his most important political advisor. She led a mighty group that included Baron Heinrich Friedrich Karl vom und zum Stein, Prince Karl August von Hardenberg, Gerhard von Scharnhorst, and Count August von Gneisenau. They set about reforming Prussia's administration, churches, finance, and military. He was the dedicatee of Beethoven's Ninth Symphony in 1824."
 
 POL_CHARACTER_PAWEL:0 "Jan Paweł Łuszczewski"
 POL_CHARACTER_FELIKS:0 "Feliks Łubieński"
@@ -1123,6 +1386,10 @@ FRA_LOUISXVI_DESC:0 "Louis XVI was the last king of France before the fall of th
 
 FRA_CHARACTER_NAPOLEON:0 "Napoleon"
 FRA_NAPOLEON_DESC:0 "Napoleon Bonaparte later known by his regnal name Napoleon I, was a French emperor and military commander who rose to prominence during the French Revolution and led successful campaigns during the Revolutionary Wars. He was the leader of the French Republic as First Consul from 1799 to 1804, then of the French Empire as Emperor of the French from 1804 until 1814, and briefly again in 1815. His political and cultural legacy endures as a celebrated and controversial leader. He initiated many enduring reforms, but has been criticized for his authoritarian rule. He is considered one of the greatest military commanders in history and his wars and campaigns are still studied at military schools worldwide. However, historians still debate the degree to which he was responsible for the Napoleonic Wars, in which between three and six million people died."
+
+FRA_CHARACTER_NAPOLEONIII:0 "Napoleon III"
+
+FRA_CHARACTER_NAPOLEONII:0 "Napoleon II"
 
 FRA_CHARACTER_NAPOLEONI:0 "Napoleon I"
 FRA_NAPOLEONI_DESC:0 "Napoleon Bonaparte later known by his regnal name Napoleon I, was a French emperor and military commander who rose to prominence during the French Revolution and led successful campaigns during the Revolutionary Wars. He was the leader of the French Republic as First Consul from 1799 to 1804, then of the French Empire as Emperor of the French from 1804 until 1814, and briefly again in 1815. His political and cultural legacy endures as a celebrated and controversial leader. He initiated many enduring reforms, but has been criticized for his authoritarian rule. He is considered one of the greatest military commanders in history and his wars and campaigns are still studied at military schools worldwide. However, historians still debate the degree to which he was responsible for the Napoleonic Wars, in which between three and six million people died."
@@ -1180,8 +1447,20 @@ RUS_CATHERINEII_DESC:0 "Catherine II (Catherine the Great) was the reigning empr
 RUS_CHARACTER_PAULI:0 "Paul I"
 RUS_PAULI_DESC:0 "Paul I was Emperor of Russia from 1796 to 1801"
 
-KNI_CHARACTER_PAULIKNI:0 "Paul I"
-KNI_PAULIKNI_DESC:0 "Paul I was de facto Grand Master of the Knights Hospitaller from 1799 to 1801 and ordered the construction of a number of priories of the Order of Malta. Paul's pro-German sentiments and unpredictable behavior made him unpopular among the Russian nobility, and he was secretly assassinated by his own officers."
+KNI_CHARACTER_SALTYKOV:0 "Nikolay Ivanovich Saltykov"
+KNI_CHARACTER_ROHAN:0 "Emmanuel de Rohan-Polduc"
+KNI_CHARACTER_VON:0 "Ferdinand von Hompesch zu Bolheim"
+KNI_CHARACTER_MARIA:0 "Innico Maria Guevara Suardo"
+KNI_CHARACTER_TOMMASI:0 "Giovanni Battista Tommasi"
+
+KNI_CHARACTER_PAULI:0 "Paul I"
+KNI_PAULI_DESC:0 "Paul I was de facto Grand Master of the Knights Hospitaller from 1799 to 1801 and ordered the construction of a number of priories of the Order of Malta. Paul's pro-German sentiments and unpredictable behavior made him unpopular among the Russian nobility, and he was secretly assassinated by his own officers."
+
+KNI_CHARACTER_ALEXANDERI:0 "Alexander I"
+KNI_ALEXANDERI_DESC:0 "Alexander I nicknamed (the Blessed) was Emperor of Russia from 1801 the first king of Congress Poland from 1815 and the grand duke of Finland" 
+
+KNI_CHARACTER_NICHOLASI:0 "Nicholas I"
+KNI_NICHOLASI_DESC:0 "Nicholas I was Emperor of Russia, King of Congress Poland, and Grand Duke of Finland"
 
 RUS_CHARACTER_ALEXANDERI:0 "Alexander I"
 RUS_ALEXANDERI_DESC:0 "Alexander I nicknamed (the Blessed) was Emperor of Russia from 1801 the first king of Congress Poland from 1815 and the grand duke of Finland" 
@@ -1191,6 +1470,12 @@ RUS_KONSTANTINPAVLOVICH_DESC:0 ""
 
 BYZ_CHARACTER_KONSTANTINPAVLOVICH:0 "Konstantin Pavlovich"
 BYZ_KONSTANTINPAVLOVICH_DESC:0 ""
+
+POL_CHARACTER_KONSTANTINPAVLOVICH:0 "Konstantin Pavlovich"
+POL_KONSTANTINPAVLOVICH_DESC:0 ""
+
+POL_CHARACTER_IVAN:0 "Ivan Paskevich"
+POL_IVAN_DESC:0 ""
 
 RUS_CHARACTER_NICHOLASI:0 "Nicholas I"
 RUS_NICHOLASI_DESC:0 "Nicholas I was Emperor of Russia, King of Congress Poland, and Grand Duke of Finland"

@@ -20,8 +20,8 @@ HRE_frenchrevolution = {
 		}
 
 		visible = {
-			date > 1812.1.1 date < 1816.1.1 
-original_tag=PRE
+			date > 1812.1.1 date < 1814.1.1 
+has_country_flag=mypenisisfuckingdeformed
 			NOT = { has_global_flag = prussia_russia_patriotic_peace_flag }
 		}
 
@@ -60,8 +60,8 @@ HRE_frenchrevolution = {
 		}
 
 		visible = {
-			date > 1812.1.1 date < 1816.1.1 
-original_tag=AUS
+			date > 1812.1.1 date < 1814.1.1 
+has_country_flag=mypenisisfuckingdeformed
 			NOT = { has_global_flag = austria_russia_patriotic_peace_flag }
 		}
 
@@ -75,6 +75,152 @@ every_country = {
 }
 
 		hidden_effect={set_global_flag = austria_russia_patriotic_peace_flag}
+		}
+	}
+}
+HRE_frenchrevolution = {
+	HRE_form_south_german_confederation = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+		or={
+			original_tag=BAY
+			original_tag=BAD
+			original_tag=WUR
+			original_tag=HES
+		}
+			or={
+		AND={
+		owns_state=52
+		owns_state=50
+		owns_state=858
+		owns_state=876
+		}
+		AND={
+		original_tag=BAY
+		HES={is_subject_of = ROOT}
+		BAD={is_subject_of = ROOT}
+		WUR={is_subject_of = ROOT}
+		}
+				AND={
+		original_tag=WUR
+		HES={is_subject_of = ROOT}
+		BAD={is_subject_of = ROOT}
+		BAY={is_subject_of = ROOT}
+		}
+				AND={
+		original_tag=BAD
+		HES={is_subject_of = ROOT}
+		BAY={is_subject_of = ROOT}
+		WUR={is_subject_of = ROOT}
+		}
+				AND={
+		original_tag=HES
+		BAY={is_subject_of = ROOT}
+		BAD={is_subject_of = ROOT}
+		WUR={is_subject_of = ROOT}
+		}
+	}
+}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+					or={
+			original_tag=BAY
+			original_tag=BAD
+			original_tag=WUR
+			original_tag=HES
+			}
+			NOT = { has_global_flag = south_german_confederation_formable_flag }
+		}
+
+		complete_effect = {
+		ROOT={set_cosmetic_tag=SGC}
+		every_country={
+		limit={
+		HES={is_subject_of = ROOT}
+		BAD={is_subject_of = ROOT}
+		WUR={is_subject_of = ROOT}
+		}
+		ROOT={
+		annex_country = { target = HES transfer_troops = yes }
+		annex_country = { target = BAD transfer_troops = yes }
+		annex_country = { target = WUR transfer_troops = yes }
+		}
+		}
+				every_country={
+		limit={
+		BAY={is_subject_of = ROOT}
+		BAD={is_subject_of = ROOT}
+		WUR={is_subject_of = ROOT}
+		}
+		ROOT={
+		annex_country = { target = BAY transfer_troops = yes }
+		annex_country = { target = BAD transfer_troops = yes }
+		annex_country = { target = WUR transfer_troops = yes }
+		}
+		}
+				every_country={
+		limit={
+		HES={is_subject_of = ROOT}
+		BAY={is_subject_of = ROOT}
+		WUR={is_subject_of = ROOT}
+		}
+		ROOT={
+		annex_country = { target = HES transfer_troops = yes }
+		annex_country = { target = BAY transfer_troops = yes }
+		annex_country = { target = WUR transfer_troops = yes }
+		}
+		}
+				every_country={
+		limit={
+		HES={is_subject_of = ROOT}
+		BAD={is_subject_of = ROOT}
+		BAY={is_subject_of = ROOT}
+		}
+		ROOT={
+		annex_country = { target = HES transfer_troops = yes }
+		annex_country = { target = BAD transfer_troops = yes }
+		annex_country = { target = BAY transfer_troops = yes }
+		}
+		}
+		1239={add_core_of=ROOT}
+		880={add_core_of=ROOT}
+		1182={add_core_of=ROOT}
+		1250={add_core_of=ROOT}
+		1088={add_core_of=ROOT}
+		858={add_core_of=ROOT}
+		1162={add_core_of=ROOT}
+		876={add_core_of=ROOT}
+		868={add_core_of=ROOT}
+		50={add_core_of=ROOT}
+		1089={add_core_of=ROOT}
+		841={add_core_of=ROOT}
+	    1232={add_core_of=ROOT}
+		1180={add_core_of=ROOT}
+		1233={add_core_of=ROOT}
+		1199={add_core_of=ROOT}
+		1184={add_core_of=ROOT}
+		1157={add_core_of=ROOT}
+		52={add_core_of=ROOT}
+		53={add_core_of=ROOT}
+		1154={add_core_of=ROOT}
+		1187={add_core_of=ROOT}
+		1183={add_core_of=ROOT}
+		54={add_core_of=ROOT}
+		1181={add_core_of=ROOT}
+		1198={add_core_of=ROOT}
+		hidden_effect={set_global_flag = south_german_confederation_formable_flag}
 		}
 	}
 }
@@ -108,6 +254,7 @@ BAY_wittelsbach = {
 
 		visible = {
 			date > 1789.1.1 date < 1836.1.1 
+			has_country_flag=mypenisisfuckingdeformed
 			NOT = { has_global_flag =  bavaria_annex_mannheim_flag }
                 original_tag=BAY
 		}

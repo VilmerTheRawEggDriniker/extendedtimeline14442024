@@ -27,6 +27,9 @@ state={
 			add_core_of = YUG
 
 		}
+						victory_points = {
+			13819 2
+		}
 		2007.1.1 = {
 			owner = MNT
 			controller = MNT

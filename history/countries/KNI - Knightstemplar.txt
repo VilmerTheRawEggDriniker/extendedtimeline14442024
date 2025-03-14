@@ -2,9 +2,44 @@
 	add_ideas = {
         mezzogiorno
 	}
+1776.1.1 = {
+set_party_name = { ideology = neutrality long_name = KNI_ROH_neutrality_party_long name = KNI_ROH_neutrality_party }
+}
 1800.1.1 = {
-recruit_character=KNI_paulikni
-promote_character=KNI_paulikni
+set_party_name = { ideology = neutrality long_name = KNI_RUS_neutrality_party_long name = KNI_RUS_neutrality_party }
+}
+1805.1.1 = {
+set_party_name = { ideology = neutrality long_name = KNI_neutrality_party_long name = KNI_neutrality_party }
+}
+1776.1.1 = {
+recruit_character=KNI_rohan
+promote_character=KNI_rohan
+recruit_character=KNI_von
+recruit_character=KNI_pauli
+recruit_character=KNI_alexanderi
+recruit_character=KNI_saltykov
+recruit_character=KNI_tommasi
+recruit_character=KNI_maria
+recruit_character=KNI_nicholasi
+}
+1800.1.1 = {
+promote_character=KNI_pauli
+retire_character=KNI_rohan
+}
+1801.1.1 = {
+retire_character=KNI_pauli
+retire_character=KNI_von
+retire_character=KNI_tommasi
+}
+1821.1.1 = {
+retire_character=KNI_saltykov
+retire_character=KNI_maria
+}
+1836.1.1 = {
+retire_character=KNI_alexanderi
+}
+1857.1.1 = {
+retire_character=KNI_nicholasi
 }
 1530.1.1 = {
 		set_capital = {

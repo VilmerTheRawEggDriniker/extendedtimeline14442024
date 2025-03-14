@@ -8,12 +8,6 @@ state={
 
 	history={
 		owner = EGY
-				1600.1.1 = {
-		owner = OTO
-		}
-		1804.1.1 = {
-		owner = EGY
-		}
 		1936.1.1 = {
 			buildings = {
 				infrastructure = 3
@@ -65,7 +59,7 @@ state={
 	provinces={
 		992 1068 1071 1143 1151 3996 4055 4076 4143 4145 5078 7030 7091 7117 7144 7148 7164 7188 10005 10028 10031 10073 10097 10127 11964 11974 12004 12033 12044 12764 13245 13246 13247 13248 13249 13250 
 	}
-	manpower=6576999
+	manpower=3576999
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

@@ -17,6 +17,21 @@ remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
 		remove_core_of = TIM
 		owner = PER
 		}
+			    1789.1.1 = {
+		add_core_of = AFS
+		remove_core_of = PER
+		owner = AFS
+		}
+					    1800.1.1 = {
+		add_core_of = QAJ
+		remove_core_of = AFS
+		owner = QAJ
+		}
+		1849.1.1 = {
+		add_core_of = PER
+		remove_core_of = QAJ
+		owner = PER
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

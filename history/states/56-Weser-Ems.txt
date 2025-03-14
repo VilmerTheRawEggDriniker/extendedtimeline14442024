@@ -21,7 +21,7 @@ state={
                 owner = FRA
 				remove_core_of = PRE
                 }
-				1816.1.1 = {
+				1814.1.1 = {
                 add_core_of = OLD
                 owner = OLD
 				remove_core_of = PRE

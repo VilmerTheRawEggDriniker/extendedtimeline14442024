@@ -1,5 +1,10 @@
 ﻿capital = 371
-
+1444.11.11 = {
+set_cosmetic_tag = LOU_SPR #viceroyalty
+}
+1812.1.1 = {
+set_cosmetic_tag = LOU #independent
+}
 
 set_research_slots = 2
 set_stability = 0.75
@@ -20,16 +25,14 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1819.1.1"
+	ruling_party = neutrality
+	last_election = "1789.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 15
-	communism = 5
-        fascism = 5
-        democratic = 75
+	neutrality = 50
+        democratic = 50
 }
 
 add_ideas = {

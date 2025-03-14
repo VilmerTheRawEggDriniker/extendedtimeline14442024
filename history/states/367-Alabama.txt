@@ -9,6 +9,13 @@ state={
                 owner = UNO
 		add_core_of = UNO
                 }
+						        1776.1.1 = {
+		owner = CAN
+		add_core_of=CAN
+		}
+				        1789.1.1 = {
+		remove_core_of=CAN
+		}
 				1812.1.1 = {
                 owner = MSP
 		add_core_of = MSP

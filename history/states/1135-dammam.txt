@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = ZZZ
-		1600.1.1 = {
+		1800.1.1 = {
 		owner = OTO
 		add_core_of=OTO
 		}

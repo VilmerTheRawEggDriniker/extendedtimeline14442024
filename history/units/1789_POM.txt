@@ -1,0 +1,133 @@
+﻿division_template = {
+	name = "Pomeranian Division"
+
+	division_names_group = POM_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+	}
+	priority = 2
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 6282
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 349
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 3473
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 537
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 13453
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 11316
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 13443
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 9306
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 13438
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 9277
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 13438
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	#Pomeranian Army
+	division = {
+		name = "Pomeranian Division"
+		location = 9277
+		division_template = "Pomeranian Division"
+		start_experience_factor = 0.3
+	}
+}
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "POM"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

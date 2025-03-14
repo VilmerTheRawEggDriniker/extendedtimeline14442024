@@ -9,6 +9,9 @@ state={
 			infrastructure = 1
 
 		}
+						victory_points = {
+			893 2
+		}
 		add_core_of = BUL
 		1914.1.1 = {
 			owner = BUL

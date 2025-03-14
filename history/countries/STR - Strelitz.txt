@@ -2,14 +2,18 @@
 1752.1.1 = {
 recruit_character=STR_adolphusfrederickiv
 promote_character=STR_adolphusfrederickiv
-}
-1795.1.1 = {
 recruit_character=STR_charlesii
+recruit_character=STR_george
+recruit_character=STR_louise
+}
+1800.1.1 = {
 promote_character=STR_charlesii
 retire_character=STR_adolphusfrederickiv
 }
+1812.1.1 = {
+retire_character=STR_louise
+}
 1817.1.1 = {
-recruit_character=STR_george
 promote_character=STR_george
 retire_character=STR_charlesii
 }

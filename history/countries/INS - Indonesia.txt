@@ -79,7 +79,10 @@ if = {
 	recruit_character = INS_hein_ter_poorten
 }
 
+set_cosmetic_tag = INS_DEI # Netherlands East Indies
+1800.1.1 = {
 set_cosmetic_tag = INS_HOL # Netherlands East Indies
+}
 1946.1.1 = {
 set_cosmetic_tag = INS # Netherlands East Indies
 }

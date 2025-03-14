@@ -22,7 +22,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={Habsburg-Este}
+			traits={Habsburg-Lorraine-Este}
 			desc = MAS_FRANCISIV_DESC
 			expire="1797.1.1"
 		}

@@ -16,6 +16,9 @@ set_war_support = 0.3
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 set_technology = {
@@ -98,6 +101,7 @@ if = {
 	}
 }
 }
+1936.1.1 = {
 recruit_character = AST_john_curtin
 recruit_character = AST_eric_campbell
 recruit_character = AST_richard_dixon
@@ -152,7 +156,7 @@ if = {
 
 	add_to_tech_sharing_group = commonwealth_research
 }
-
+}
 1939.1.1 = {
 	add_political_power = 1198
 	add_command_power = 100

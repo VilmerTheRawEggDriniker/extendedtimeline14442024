@@ -1,15 +1,109 @@
 characters={
-	KNI_paulikni={
-		name=KNI_CHARACTER_PAULIKNI
+		KNI_rohan={
+		name=KNI_CHARACTER_ROHAN
 		portraits={
 			civilian={
-				large="GFX_portrait_kni_paulikni_large"
+				large="GFX_portrait_kni_rohan_large"
 			}
 		}
 		country_leader={
 			ideology=despotism
+			traits={Rohan}
+			desc = KNI_ROHAN_DESC
+			expire="1797.1.1"
+		}
+}
+		KNI_von={
+		name=KNI_CHARACTER_VON
+		portraits={
+			civilian={
+				large="GFX_portrait_kni_von_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = KNI_VON_DESC
+			expire="1797.1.1"
+		}
+}
+		KNI_saltykov={
+		name=KNI_CHARACTER_SALTYKOV
+		portraits={
+			civilian={
+				large="GFX_portrait_kni_saltykov_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = KNI_SALTYKOV_DESC
+			expire="1797.1.1"
+		}
+}
+		KNI_tommasi={
+		name=KNI_CHARACTER_TOMMASI
+		portraits={
+			civilian={
+				large="GFX_portrait_kni_tommasi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = KNI_TOMMASI_DESC
+			expire="1797.1.1"
+		}
+}
+		KNI_maria={
+		name=KNI_CHARACTER_MARIA
+		portraits={
+			civilian={
+				large="GFX_portrait_kni_maria_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = KNI_MARIA_DESC
+			expire="1797.1.1"
+		}
+}
+	KNI_pauli={
+		name=KNI_CHARACTER_PAULI
+		portraits={
+			civilian={
+				large="GFX_portrait_kni_pauli_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
 			traits={Holstein-Gottorp-Romanov}
-			desc = KNI_PAULIKNI_DESC
+			desc = KNI_PAULI_DESC
+			expire="1797.1.1"
+		}
+}
+	KNI_alexanderi={
+		name=KNI_CHARACTER_ALEXANDERI
+		portraits={
+			civilian={
+				large="GFX_portrait_kni_alexanderi_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
+			traits={Holstein-Gottorp-Romanov}
+			desc = KNI_ALEXANDERI_DESC
+			expire="1797.1.1"
+		}
+}
+	KNI_nicholasi={
+		name=KNI_CHARACTER_NICHOLASI
+		portraits={
+			civilian={
+				large="GFX_portrait_kni_nicholasi_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
+			traits={Holstein-Gottorp-Romanov}
+			desc = KNI_NICHOLASI_DESC
 			expire="1797.1.1"
 		}
 }

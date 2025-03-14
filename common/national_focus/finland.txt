@@ -54,7 +54,7 @@ focus_tree = {
 	focus = {
 		id = FIN_suomalainen_sosialismi
 		icon = GFX_focus_FIN_suomalainen_sosialismi
-
+allow_branch = {has_start_date > 1936.1.1}
 		#Note: This is just reference stuff
 		#icon = {
 		#	value = GFX_focus_smiling_buddha
@@ -4518,7 +4518,7 @@ focus_tree = {
 	focus = {
 		id = FIN_finnish_neutrality
 		icon = GFX_focus_FIN_finnish_neutrality
-
+allow_branch = {has_start_date > 1936.1.1}
 		allow_branch = {
 			if = {
 				limit = {
@@ -7058,7 +7058,7 @@ focus_tree = {
 	focus = {
 		id = FIN_right_wing_policies
 		icon = GFX_focus_FIN_right_wing_policies
-		
+		allow_branch = {has_start_date > 1936.1.1}
 		allow_branch = {
 			has_dlc = "Arms Against Tyranny"
 			if = {
@@ -9794,7 +9794,7 @@ focus_tree = {
 	focus = {
 		id = FIN_enhance_southern_infrastructure
 		icon = GFX_goal_generic_construct_infrastructure
-
+allow_branch = {has_start_date > 1936.1.1}
 		x = 13
 		y = 0
 		relative_position_id = FIN_right_wing_policies
@@ -10931,7 +10931,7 @@ focus_tree = {
 	focus = {
 		id = FIN_increase_military_budget
 		icon = GFX_focus_FIN_increase_military_budget
-
+allow_branch = {has_start_date > 1936.1.1}
 		x = 17
 		y = 0
 		relative_position_id = FIN_enhance_southern_infrastructure
